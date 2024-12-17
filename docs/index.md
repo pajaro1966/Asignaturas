@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Estructura
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- [Comentarios](Comentarios/Homer_Seymour.md)
 
-## Commands
+- [Geografía](geografia.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Gramática](gramatica.md)
 
-## Project layout
+- [Métrica](metric_Homer.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Morfología griega (flexión)](https://pajaro1966.github.io/Paradigmas_Griegos/)
+
+- [Nombres y epítetos homéricos](nombres_Homer.md)
+
+- [Notas](notas.md)
+
+- [Referencias](referencias.md)
+
+- [Textos](textos.md)
+
+- [Términos homéricos](terminos_Homer.md)
+
+- [Verbos](verbo.md)

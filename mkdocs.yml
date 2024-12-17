@@ -1,6 +1,38 @@
 site_name: Asignaturas
 nav:
-  - Home: index.md
+  - Home: 'index.md'
+  - Homero: 
+    - Instrumenta:
+      - 'Comentarios': 
+        - 'Ilíada': 'Comentarios/Homer_Seymour.md'
+        - 'Odisea': 'Comentarios/Homer_Merry_Monro.md'
+      - 'Geografía': 'geografia.md'
+      - 'Métrica': 'metric_Homer.md'
+      - 'Nombres y epítetos': 'nombres_Homer.md'
+      - 'Notas': 'notas.md'
+      - 'Referencias': 'referencias.md'
+      - 'Términos homéricos': 'terminos_Homer.md'
+    - Textos:
+      - 'Ilíada': 'textos.md'
+      - 'Odisea': 'text_Odisea.md'
+    - 'Traducciones': 
+      - Ilíada: 'traduc_ES.md'
+      - Odisea: 'Trad_Hom_Od.md'
+  - Lengua:
+    - 'Diccionarios':
+      - 'Philolog.us': 'https://philolog.us'
+      - 'Logeion': 'https://logeion.uchicago.edu'
+    - 'Gramática': 'grammar'
+    - 'Morfología flexiva': 'https://pajaro1966.github.io/Paradigmas_Griegos/'
+    - 'Verbos': 'verbo.md'
+    - Charlas:
+      - 'Lengua de Homero': 'Charlas/Lengua_Homer/Homero_Lengua.html'
+  - 'Innova 2024-2025': 
+    - 'Proyecto_Innova_2024_2025/Solicitud.md'
+    - 'gramatica.md'
+  - 'Innova 2023-2024': 
+    - 'Vocabulario/Vocab_Intro.md'
+  - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
 site_url: https://sitename.example
 extra_css:
   - stylesheets/extra.css

@@ -1,6 +1,9 @@
 site_name: Asignaturas
 nav:
   - Home: 'index.md'
+  - Plutarco:
+    - Texto: 'Plutarch_Dion/Dion.md'
+    - Bibliografía: 'Plutarch_Dion/Plutarco_Bib.md'
   - Homero: 
     - Instrumenta:
       - 'Comentarios': 

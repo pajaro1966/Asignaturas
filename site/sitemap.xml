@@ -121,7 +121,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sitename.example/Griego_Moderno/Leccion_10_13/</loc>
+         <lastmod>2024-12-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sitename.example/Griego_Moderno/Leccion_12/</loc>
+         <lastmod>2024-12-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sitename.example/Griego_Moderno/Leccion_13/</loc>
+         <lastmod>2024-12-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sitename.example/Griego_Moderno/Leccion_14/</loc>
          <lastmod>2024-12-18</lastmod>
          <changefreq>daily</changefreq>
     </url>

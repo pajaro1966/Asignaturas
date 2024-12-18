@@ -68,8 +68,6 @@
 
 ---
 
----
-
 ## 92: Expresiones idiomáticas
 
 ![Página 1](Metodo/Textbook_Pagina_092.png)

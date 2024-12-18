@@ -3,7 +3,7 @@
 ## Página 1
 
 <audio controls="controls">
-  <source type="audio/mp3" src="/Griego_Moderno/GM_Audios/_01_Ekso_apo_ten_taksi.mp3"></source>
+  <source type="audio/mpeg" src="/Griego_Moderno/GM_Audios/_01_Ekso_apo_ten_taksi.mp3"></source>
 </audio>
 
 ![Página 1](Metodo/Textbook_Pagina_001.png)

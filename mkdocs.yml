@@ -2,7 +2,8 @@ site_name: Asignaturas
 nav:
   - Home: 'index.md'
   - Griego Moderno: 
-    - Lección1: 'Griego_Moderno/Leccion_01.md'
+    - Lección 1: 'Griego_Moderno/Leccion_01.md'
+    - Lección 12: 'Griego_Moderno/Leccion_12.md'
   - Plutarco:
     - Texto: 'Plutarch_Dion/Dion.md'
     - Bibliografía: 'Plutarch_Dion/Plutarco_Bib.md'

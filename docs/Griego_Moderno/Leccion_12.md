@@ -1,6 +1,8 @@
 # Lección 01
 
-## Página 82
+---
+
+## 82: 'Στην αγορά'
 
 <audio controls="controls">
   <source type="audio/mpeg" src="../GM_Audios/12_Sten_agora.mp3"></source>
@@ -12,42 +14,62 @@
 
 ---
 
-## Página 83
+## 83: Elisión/genitivo posesivo/indirecto
 
 ![Página 1](Metodo/Textbook_Pagina_083.png)
 
-## Página 84
+---
+
+## 84: Objeto (in)directo
 
 ![Página 1](Metodo/Textbook_Pagina_084.png)
 
-## Página 85
+---
+
+## 85: Objeto (in)directo
 
 ![Página 1](Metodo/Textbook_Pagina_085.png)
 
-## Página 86
+---
+
+## 86: OI/reduplicación de clítico
 
 ![Página 1](Metodo/Textbook_Pagina_086.png)
 
-## Página 87
+---
+
+## 87: Elisión en preposiciones
 
 ![Página 1](Metodo/Textbook_Pagina_087.png)
 
-## Página 88
+---
+
+## 88: Adverbios/diálogo/μ᾽αρέσει
 
 ![Página 1](Metodo/Textbook_Pagina_088.png)
 
-## Página 89
+---
+
+## 89: μ'αρέσι/μου πάει
 
 ![Página 1](Metodo/Textbook_Pagina_089.png)
 
-## Página 90
+---
+
+## 90: Ejercicios
 
 ![Página 1](Metodo/Textbook_Pagina_090.png)
 
-## Página 91
+---
+
+## 91: Ejercicios
 
 ![Página 1](Metodo/Textbook_Pagina_091.png)
 
-## Página 92
+---
+
+---
+
+## 92: Expresiones idiomáticas
 
 ![Página 1](Metodo/Textbook_Pagina_092.png)

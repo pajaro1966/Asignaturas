@@ -44,10 +44,10 @@
 
 ## Geografía
 
-Talbert, R. J. A. (2002). Atlas of Classical History. Routledge.
+- Talbert, R. J. A. (2002). Atlas of Classical History. Routledge.
 
 ## Gramática
 
-Emde Boas, E. van, Rijksbaron, A., Huitink, L., & Bakker, M. de. (2021). The Cambridge grammar of classical Greek. Cambridge University Press.
-Jiménez López, M. D. (Ed.). (2020a). Sintaxis del griego antiguo. 1. Introducción, sintaxis nominal, preposiciones, adverbios y partículas. Consejo Superior de Investigaciones Científicas.
-Jiménez López, M. D. (Ed.). (2020b). Sintaxis del griego antiguo. 2. Sintaxis verbal, coordinación, subordinación, orden de palabras. Consejo Superior de Investigaciones Científicas.
+- Emde Boas, E. van, Rijksbaron, A., Huitink, L., & Bakker, M. de. (2021). The Cambridge grammar of classical Greek. Cambridge University Press.
+- Jiménez López, M. D. (Ed.). (2020a). Sintaxis del griego antiguo. 1. Introducción, sintaxis nominal, preposiciones, adverbios y partículas. Consejo Superior de Investigaciones Científicas.
+- Jiménez López, M. D. (Ed.). (2020b). Sintaxis del griego antiguo. 2. Sintaxis verbal, coordinación, subordinación, orden de palabras. Consejo Superior de Investigaciones Científicas.

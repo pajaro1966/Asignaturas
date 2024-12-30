@@ -7,7 +7,7 @@ gantt
     title Historia de Sicilia
     dateFormat YYYY
     axisFormat %Y
-    tickInterval 10year
+    tickInterval 5y
     
     section Guerras de Sicilia
         The First Sicilian War (480 BC) : -0480, 1y
@@ -19,7 +19,13 @@ gantt
         The Seventh Sicilian War (311–306 BC): -0311, 6y
         Pyrrhic War (278–276 BC): -0278, 3y
 
-  fontSize: 26 // Font size
+    section Dionisio I (430_367 a. C.)
+        Vida: -0367, -0430, 63y
+
+    section Platón (427_347 a. C.)
+        Vida: -0347, -0427, 80y
+
+
 
 ```
 

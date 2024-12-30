@@ -7,6 +7,7 @@ gantt
     title Historia de Sicilia
     dateFormat YYYY
     axisFormat %Y
+    tickInterval 10year
     
     section Guerras de Sicilia
         The First Sicilian War (480 BC) : -0480, 1y
@@ -18,6 +19,7 @@ gantt
         The Seventh Sicilian War (311–306 BC): -0311, 6y
         Pyrrhic War (278–276 BC): -0278, 3y
 
+  fontSize: 26 // Font size
 
 ```
 
@@ -27,7 +29,7 @@ gantt
 ![Colonias griegas](Plut_Mapas/Sicilia_Colonias_Griegas.jpg)
 
 
-## Sicilia bajo el dominio de los Deinomidas (485-465 a.C.)
+## Sicilia bajo el dominio de los Dinoménidas (485-465 a.C.)
 
 ![Colonias griegas](Plut_Mapas/
 Sicilia_Deinomenids_485_465_BC.png)

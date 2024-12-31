@@ -1,7 +1,3 @@
-# Geografía de Sicilia
-
-## Timeline
-
 ```mermaid
 ---
 displayMode: 
@@ -25,7 +21,7 @@ gantt
     title Historia de Sicilia
     dateFormat YYYY
     axisFormat %Y
-    tickInterval y
+    tickInterval 1y
     
     section Guerras de Sicilia
         1ª (480 BC) : -0480, 1y
@@ -34,8 +30,8 @@ gantt
         4ª (383–376 BC): -0393, 7y
         5ª (368-367 BC): -0368, 2y
         6ª (345–339 BC): -0345, 7y
-        %% 7ª (311–306 BC): -0311, 6y
-        %% Pyrrhic War (278–276 BC): -0278, 3y
+        7ª (311–306 BC): -0311, 6y
+        Pyrrhic War (278–276 BC): -0278, 3y
 
     section Dinoménidas
     
@@ -59,10 +55,10 @@ gantt
 
     section Timoleón
         Timoleón (345–337 a.C.): -0337, -0345, 8y
-        %% Tercera Democracia (337-317 a.C.): -0317, -0337, 20y
+        Tercera Democracia (337-317 a.C.): -0317, -0337, 20y
 
-    %% section Agathocles (317–289)
-       %% Agathocles (317–289): -0289, -0317, 28y
+    section Agathocles (317–289)
+        Agathocles (317–289): -0289, -0317, 28y
 
     section Platón en Sicilia
         Primer viaje de Platón a Sicilia (388 a.C.): crit, milestone, -0388, -0388, 1d
@@ -87,29 +83,3 @@ gantt
         403 a.C. Trasíbulo restaura la democracia: a7, -0403, 1y
 
 ```
-
-## Colonias griegas
-
-![Colonias griegas](Plut_Mapas/Sicilia_Colonias_Griegas.jpg)
-
-## Sicilia bajo el dominio de los Dinoménidas (485-465 a.C.)
-
-![Colonias griegas](Plut_Mapas/
-Sicilia_Deinomenids_485_465_BC.png)
-
-
-## Dialectos griegos de Sicilia
-
-![Colonias griegas](Plut_Mapas/Dialectos_Griegos_Sicilia.jpg)
-
-## Asedio cartaginés de Siracusa 397 a.C.
-
-![Colonias griegas](Plut_Mapas/Punic%20siege%20of%20Syracuse%20in%20397%20BC.PNG)
-
-![Colonias griegas](Plut_Mapas/Siracusa_Punicsiege397.PNG)
-
-## Sicilia: 2ª batalla de Himera 409 a.C.
-
-![Colonias griegas](Plut_Mapas/Sicily_2nd_battle_Himera_409_BC.png)
-
-

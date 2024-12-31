@@ -181,6 +181,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sitename.example/Plutarch_Dion/Sicilia_Timeline/</loc>
+         <lastmod>2024-12-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sitename.example/Plutarch_Dion/Teubner_Ed/</loc>
          <lastmod>2024-12-30</lastmod>
          <changefreq>daily</changefreq>

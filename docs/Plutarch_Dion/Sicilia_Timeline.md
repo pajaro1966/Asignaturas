@@ -6,11 +6,11 @@ displayMode:
 %%{
   init: {
   
-    'theme': 'base',
+    'theme': 'forest',
     'themeVariables': {
     'fontSize': '52'
-    primaryTextColor
-    secondaryColor
+    'primaryTextColor':
+    'secondaryColor':
     }
   }
 }%%

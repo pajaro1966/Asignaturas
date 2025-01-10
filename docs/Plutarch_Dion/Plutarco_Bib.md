@@ -85,12 +85,12 @@ Dion de Siracusa (408 - 354 a. C.): -354, -408, 100s
 
 section s. IV a.C.
 
-s.IV a.C.: crit, -301, -400, 100s
-s.III a.C.: -201, -300, 100s
-s.II a.C.: crit, -101, -200, 100s
-s.I a.C.: -001, -100, 100s
-s.I: crit, 1, 100s
-s.II: 101, 100s
+IV a.C.: crit, -301, -400, 100s
+III a.C.: -201, -300, 100s
+II a.C.: crit, -101, -200, 100s
+I a.C.: -001, -100, 100s
+I: crit, 1, 100s
+II: 101, 100s
 
 section Filisto
 

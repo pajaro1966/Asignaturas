@@ -1,3 +1,8 @@
+# Trilingüe
+
+
+# 1. La influencia de un maestro
+
 | **V** | **GRIEGO**/*Español** | 
 | :---: | --- |
 | 1. | **GRIEGO** |

@@ -97,6 +97,26 @@ Sicilia_Deinomenids_485_465_BC.png)
 
 ![Colonias griegas](Plut_Mapas/Dialectos_Griegos_Sicilia.jpg)
 
+## Sitio de Siracusa por los Atenienses (415-413 a.C.)
+
+![Siracusa 415-413](Docs/../../Geografia/Grant/Grant_033.png)
+
+## Sicilia y sur de Italia (s. V a.C.)
+
+![Sicilia y sur de Italia s. V aC](Docs/../../Geografia/Grant/Grant_034.png)
+
+## Reino de Dionisio I (406-367 a.C.)
+
+![Reino de Dionisio I](Docs/../../Geografia/Grant/Grant_035.png)
+
+
+## Origen de los grandes escritores griegos
+
+|||
+|---|---|
+|![Reino de Dionisio I](Docs/../../Geografia/Grant/Grant_041.png) | ![Reino de Dionisio I](Docs/../../Geografia/Grant/Grant_042.png)|
+
+
 ## Asedio cartaginés de Siracusa 397 a.C
 
 ![Colonias griegas](Plut_Mapas/Punic%20siege%20of%20Syracuse%20in%20397%20BC.PNG)

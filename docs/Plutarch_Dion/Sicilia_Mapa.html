@@ -1,58 +1,28 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-
-<style>
-    
-div {background-image: url("Plut_Mapas/Dialectos_Griegos_Sicilia.png");
-
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center; 
-background-color: red;
-
-height:100%;
-width:100%; 
-position: relative;
-text-align: center;
-
-}
-
-.path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite;
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 822;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-</style>
-
-</head>
-
 <body>
 
-<div></div> 
+<svg width="100%" height="100%" version="1.1"
+     xlink-href="https://pajaro1966.github.io/Asignaturas/Geografia/Sicilia_SVG/Sicilia_arcaica-es.svg" style="background-image: url( 'https://pajaro1966.github.io/Asignaturas/Geografia/Sicilia_SVG/Sicilia_arcaica-es.svg'); background-repeat: no-repeat;
+     ">
 
-<img src="Plut_Mapas/Sicilia_S_V.png">
+  <circle cx="2040" cy="1150" r="50" style="fill: none; stroke-width:15;stroke:red" />
+  <text x="2100" y="1150";  border="1px solid white"; fill="blue" stroke="blue" font-size="55">Siracusa
 
-<img src="Plut_Mapas/Dialectos_Griegos_Sicilia.png">
+  </text>
 
-<svg viewBox="0 0 340 333">
+</svg>
 
-    <path class="path" fill="white" stroke="black" stroke-width="4" d="M66.039,133.545c0,0-21-57,18-67s49-4,65,8
-    s30,41,53,27s66,4,58,32s-5,44,18,57s22,46,0,45s-54-40-68-16s-40,88-83,48s11-61-11-80s-79-7-70-41
-    C46.039,146.545,53.039,128.545,66.039,133.545z"/>
-    
-  </svg>
+
+<script>
+
+var svg = document.getElementsByTagName('svg')[0]; //Get svg element
+var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'path'); //Create a path in SVG's namespace
+newElement.setAttribute("d","M 0 0 L 10 10"); //Set path's data
+newElement.style.stroke = "#000"; //Set stroke colour
+newElement.style.strokeWidth = "5px"; //Set stroke width
+svg.appendChild(newElement);
+
+</script>
 
 </body>
 </html>

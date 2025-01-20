@@ -124,8 +124,4 @@ markdown_extensions:
       permalink: true
 extra:
   social:
-    - icon: simple/youtube
-      link: ""
-    - icon: simple/linkedin
-      link: ""
 copyright: Copyright &copy; 2024 Antonio R. Revuelta Puigdollers

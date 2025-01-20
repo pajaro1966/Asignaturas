@@ -23,7 +23,7 @@ nav:
     - Estructura: 'Plutarch_Dion/Dion_Estructura.md'
     - Geografía: 
       - Sicilia: 'Plutarch_Dion/Geografia_Sicilia.md'
-      - Geografía: 'Geografia/Talbert_New/Talbert_02.md'
+      - Geografía: 'Geografia/Talbert_New/Talbert.md'
     - Bibliografía: 'Plutarch_Dion/Plutarco_Bib.md'
     - Edición: 'Plutarch_Dion/Teubner_Ed.md'
   - Homero: 
@@ -47,7 +47,7 @@ nav:
     - 'Diccionarios':
       - 'Philolog.us': 'https://philolog.us'
       - 'Logeion': 'https://logeion.uchicago.edu'
-    - 'Gramática': 'grammar'
+    - 'Gramática': 'https://pajaro1966.github.io/Diccionario-Gramatical-GrAnt/'
     - 'Morfología flexiva': 'https://pajaro1966.github.io/Paradigmas_Griegos/'
     - 'Verbos': 'verbo.md'
     - Charlas:

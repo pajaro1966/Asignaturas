@@ -143,7 +143,8 @@ Plutarco (Queronea, c. 46 o 50-Delfos, c. 120): 120, 50, 70s
 
 ## 9. Literatura
 
-- Renault, Mary (1966): _The mask of Apollo_. Longmans, Green & Co, London; Pantheon, New York
+- Renault, Mary (1966): _The mask of Apollo_. Longmans, Green & Co, London; Pantheon, New York.
+- Manfredi, Valerio Massimo (2005): *El tirano*. Mondadori.
 
 ## 10. Online
 

@@ -15,7 +15,7 @@
 		
 		<style>
 		
-		.griego  {background-color: aqua; color: black;}
+		.griego  {background-color: blue; color: white;}
 		.espanol {background-color: orange; color: white;}
 
 		</style>
@@ -23,10 +23,22 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-				<section class="griego">αυτοκίνητο</section>
-				<section class="espanol" data-background-color="orange";>automóvil, vehículo</section>
-			</section>
+				<section >
+				<section data-background-color="blue";>
+					<span class="r-fit-text griego">αυτοκίνητο</span>
+				</section>
+				<section data-background-color="orange";>
+					<span class="r-fit-text espanol" >automóvil, vehículo</span></section>
+				</section>
+
+				<section >
+					<section data-background-color="blue";>
+						<span class="r-fit-text griego">αμάξα</span>
+					</section>
+					<section data-background-color="orange";>
+						<span class="r-fit-text espanol" >carro, coche</span></section>
+					</section>
+
 			<section>
 				<section class="griego">αμάξα</section>
 				<section class="espanol">carro, coche</section>
@@ -34,6 +46,12 @@
 
 		</div>
 		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.2.6/fitty.min.js"></script>
+<script>
+    fitty('#my-element');
+</script>
+		
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>

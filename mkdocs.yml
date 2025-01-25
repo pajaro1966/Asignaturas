@@ -1,6 +1,8 @@
 site_name: Asignaturas
 nav:
   - Home: 'index.md'
+  - Pruebas:
+    - Reveal: 'reveal.js-master/index_copia.html'
   - Griego Moderno: 
     - Lección 1: 'Griego_Moderno/Leccion_01.md'
     - Lección 12: 'Griego_Moderno/Leccion_12.md'

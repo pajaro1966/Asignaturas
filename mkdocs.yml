@@ -1,8 +1,6 @@
 site_name: Asignaturas
 nav:
   - Home: 'index.md'
-  - Pruebas:
-    - Reveal: 'reveal.js-master/index_copia.html'
   - Griego Moderno: 
     - Lección 1: 'Griego_Moderno/Leccion_01.md'
     - Lección 12: 'Griego_Moderno/Leccion_12.md'
@@ -61,6 +59,8 @@ nav:
   - 'Innova 2023-2024': 
     - 'Vocabulario/Vocab_Intro.md'
   - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
+  - Pruebas:
+    - Reveal: 'reveal.js-master/index_copia.html'
 site_url: https://sitename.example
 extra_css:
   - stylesheets/extra.css
@@ -125,6 +125,8 @@ markdown_extensions:
       title: On this page
       toc_depth: 3
       permalink: true
-extra:
-  social:
-copyright: Copyright &copy; 2024 Antonio R. Revuelta Puigdollers
+extra_templates:
+  - iframe.html
+plugins:
+  - privacy
+  - search

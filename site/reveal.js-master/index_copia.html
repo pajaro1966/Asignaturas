@@ -15,18 +15,39 @@
 		
 		<style>
 		
-		.griego  {background-color: aqua; color: black;}
-		.espanol {background-color: orange; color: white;}
+		.griego  {color: white;}
+		.espanol {color: white;}
 
 		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="r-fit-text">
-				<section class="r-fit-text">αυτοκίνητο</section>
-				<section class="espanol" data-background-color="orange";>automóvil, vehículo</section>
-			</section>
+				<section data-background-color="blue" class="r-fit-text griego">
+					<p class="fragment">αυτοκίνητο</p>
+					<p class="fragment">2</p>
+					<p class="fragment">3</p>
+					<p class="fragment">4</p>
+				</section>
+				<section >
+					<section data-background-color="blue" class="r-fit-text, griego">
+						<p class="fragment">αυτοκίνητο</p>
+						<p class="fragment">2</p>
+						<p class="fragment">3</p>
+						<p class="fragment">4</p>
+					</section>
+				<section data-background-color="orange" data-auto-animate>
+					<span class="r-fit-text espanol" >automóvil, vehículo</span></section>
+				</section>
+
+				<section >
+					<section data-background-color="blue";>
+						<span class="r-fit-text griego">αμάξα</span>
+					</section>
+					<section data-background-color="orange";>
+						<span class="r-fit-text espanol" >carro, coche</span></section>
+					</section>
+
 			<section>
 				<section class="griego">αμάξα</section>
 				<section class="espanol">carro, coche</section>

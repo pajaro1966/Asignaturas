@@ -9,33 +9,35 @@
 ![Oyendo a Homero](Imagenes/Tadema_Reading_from_Homer.jpg)
 [Alma-Tadema, _A Reading from Homer_](https://en.wikipedia.org/wiki/File:Sir_Lawrence_Alma-Tadema,_English_(born_Netherlands)_-_A_Reading_from_Homer_-_Google_Art_Project.jpg)
 
-|V|GRIEGO|
-|:---:|---|
-|1|Μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος|
-|2|οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,|
-|3|πολλὰς δ' ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν|
-|4|ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν|
-|5|οἰωνοῖσί τε πᾶσι, Διὸς δ' ἐτελείετο βουλή,|
-|6|ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε|
-|7|Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.|
+(1) Μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
 
-  NOTAS
+(2) οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
 
-- (1) Adviértase cómo el primer verso enuncia la "cólera de Aquiles", tema principal de la Iliada. Originariamente la poesía épica era realmente cantada por los aedos (§ 2). La Musa canta por su boca.  
-- (1) θε**ά**: [ᾱ rasgo eolio](notas.md#b1-alfa-larga)  
-- (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  
-- (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9)  
-- (2) **οὐ**λομένην: [alargamiento](notas.md#b7)  
-- (2) **οὐ**λομένην: part. aor. med. de ὄλλυμι, aquí con valor modal, "que ojalá perezca, que mal haya".  
-- (4) **αυτούς**: "a ellos", a sus cuerpos en contraposición a sus almas.  
-- (3) προ**ΐ**αψεν: [aumento](notas.md#p)  
-- (4) κύν**εσσιν**: [dativo eolio](notas.md#i1)  
-- (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
-- (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
-- (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional.  
-el aedo selecciona su canto (§ 2e).  
-- (6) ἐρίσαντ-**ε**: [dual](notas.md#i18)  
-- (6) διαστή-**την**: [dual](notas.md#o42)  
+(3) πολλὰς δ' ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+
+(4) ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+
+(5) οἰωνοῖσί τε πᾶσι, Διὸς δ' ἐτελείετο βουλή,
+
+(6) ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+
+(7) Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+
+??? note
+    - (1) Adviértase cómo el primer verso enuncia la "cólera de Aquiles", tema principal de la Iliada. Originariamente la poesía épica era realmente cantada por los aedos (§ 2). La Musa canta por su boca.  
+    - (1) θε**ά**: [ᾱ rasgo eolio](notas.md#b1-alfa-larga)  
+    - (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  
+    - (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9)  
+    - (2) **οὐ**λομένην: [alargamiento](notas.md#b7)  
+    - (2) **οὐ**λομένην: part. aor. med. de ὄλλυμι, aquí con valor modal, "que ojalá perezca, que mal haya".  
+    - (4) **αυτούς**: "a ellos", a sus cuerpos en contraposición a sus almas.  
+    - (3) προ**ΐ**αψεν: [aumento](notas.md#p)  
+    - (4) κύν**εσσιν**: [dativo eolio](notas.md#i1)  
+    - (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
+    - (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
+    - (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).  
+    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18)  
+    - (6) διαστή-**την**: [dual](notas.md#o42)  
 
 ---
 
@@ -670,6 +672,7 @@ NOTAS
 - (187) **ὁμοιωθή-μεναι**: [infinitivo](notas.md#o40)  
 
 ![](Imagenes/Briseida_Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
+
 [Ánfora ática de figuras rojas (±ca. 520-510 a.C.): *Briseida oliendo una flor*](https://commons.wikimedia.org/wiki/File:Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
 
 ---
@@ -864,7 +867,6 @@ NOTAS
 ![un heraldo lleva a Briseida a Agamenón o de vuelta a Aquiles](Imagenes/Briseis_Painter_ARV_406_1_seated_old_man_an_man_-_Briseis_led_away_from_and_back_to_Achilles_(03).jpg)
 
 ![un heraldo lleva a Briseida a Agamenón o de vuelta a Aquiles](Imagenes/Briseis_Painter_ARV_406_1_seated_old_man_an_man_-_Briseis_led_away_from_and_back_to_Achilles_(01).jpg)
-
 
 [Museo Británico: vaso (cílice) de figuras rojas (±485-480 a.C.): un heraldo lleva a Briseida a Agamenón o de vuelta a Aquiles](https://commons.wikimedia.org/wiki/User:ArchaiOptix)
 

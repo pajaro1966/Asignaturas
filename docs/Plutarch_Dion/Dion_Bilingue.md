@@ -1,9 +1,8 @@
 # Trilingüe
 
+## 1. La influencia de un maestro
 
-# 1. La influencia de un maestro
-
-| **V** | **GRIEGO**/*Español** | 
+| **V** | **GRIEGO**/**Español** |
 | :---: | --- |
 | 1. | **GRIEGO** |
 |   | *ESPAÑOL* |
@@ -15,22 +14,53 @@
 |   | *Y habiendo hecho muchas cosas parecidas y como hermanas, no debe extrañar que hayan dado testimonio, ante quien fue su guía en el camino de la virtud, de que es necesario que a la pmdencia y la justicia se les unan la fuerza y la fortuna para que las acciones políticas alcancen a un 4 tiempo hermosura y gandeza6* |
 | 5. | **4 ὡς γὰρ Ἱππόμαχος ο ἀλείπτης ἔλεγε τοὺς γεγυμνασμένους παρʼ αὐτῷ καὶ κρέας ἐξ ἀγορᾶς ἰδὼν φέροντας ἐπιγνῶναι πόρρωθεν, οὕτω τόν λόγον ἐστὶν εἰκὸς τῶν πεπαιδευμένων ὁμοίως ἕπεσθαι ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν ἐπιφέροντα μετὰ τοῦ πρέποντος.** |
 |   | *Pues al igual que Hipómaco, el instructor de gimnasia, decía que a los que se habían entrenado con él los reconocía de lejos, incluso llevando la carne del mercado', así también es normal que el juicio de los que han recibido una educación similar acompañe a sus actos, aportándoles armonía y ritmo junto con un cierto sentido de lo conveniente* |
+
+## 2
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 6. | **2.1 αἱ δὲ τύχαι, τοῖς συμπτώμασι μᾶλλον ἢ ταῖς προαιρέσεσιν οὖσαι αἱ αὐταί, συνάγουσι τῶν ἀνδρῶν τοὺς βίους εἰς ὁμοιότητα.** |
 |   | *Las vicisitudes que atravesaron, que fueron las mismas más por acontecimientos fortuitos que por elecciones suyas, hacen 2 similares las vidas de estos dos hombres.* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 7. | **2 προανῃρέθησαν γὰρ ἀμφότεροι τοῦ τέλους, εἰς ὃ προὔθεντο τὰς πράξεις ἐκ πολλῶν καὶ μεγάλων ἀγώνων καταθέσθαι μὴ δυνηθέντες.** |
 |   | *Efectivamente, ambos murieron antes de alcanzar el propósito hacia el que habían dispuesto sus empeños, tras muchos y grandes combates.* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 8. | **3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.** |
 |   | *Y lo 3 más sorprendente de todo es que una divinidad les anunció a los dos su fin, mostrándosele a cada uno, de modo similar, un fantasma malévolo8* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 9. | **4 καίτοι λόγος τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, Ἀλλὰ παιδάρια καὶ γύναια καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.** |
 |   | *Hay, sin embargo, quienes rechazan cosas tales, en la idea de que a nadie sensato le ha ocurrido ver el fantasma de una divinidad, ni su espectro, sino que los niños, las mujeres y aquellos a los que la enfermedad ha alienado, ya por algún desvarío del alma, ya por debilidad del cuerpo, son los que se imaginan estas historias vacías e inauditas porque está en 5 ellos el genio maligno de la superstición9* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 10. | **5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.** |
 |   | *Pero si Dión y Bruto, conhombres serios, filósofos, en absoluto vacilantes ni fáciles de seducir por las pasiones, hasta tal punto fueron impresionados por una aparición que se lo contaron a los demás, yo no sé si no deberíamos aceptar la opinión, ciertamente insólita, que tenían nuestros antepasados, de que vulgares y maliciosos demonios, 6 sintiendo envidia de los hombres de bien y obstaculizando sus acciones, les infunden inquietudes y miedos, haciendo vacilar y extraviando su virtud, de modo que, no pudiendo mantenerse firmes ni puros en el bien, no alcancen un destino mejor que el suyo tras su muerte1'.* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 11. | **7 ἀλλὰ ταῦτα μὲν εἰς ἄλλον ἀνακείσθω λόγον.** |
 |   | *Pero todo esto lo dejo para otro tratado. 7* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 12. | **ἐν τούτῳ δέ, p.6 δωδεκάτῳ τῶν παραλλήλων ὄντι βίων, τὸν τοῦ πρεσβυτέρου προεισαγάγωμεν.** |
 |   | *En éste, que es el duodécimo de las Vidas paralela^'^, comencemos por el más antiguo de los dos personajes.* |
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 13. | **** |
 |   | *Dión y Dionisio el Viejo* |
+
+## 3
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 14. | **3.1 Διονύσιος ὁ πρεσβύτερος εἰς τὴν ἀρχὴν καταστάς εὐθὺς ἔγημε τὴν Ἑρμοκράτους τοῦ Συρακουσίου θυγατέρα, 2 ταύτην, οὔπω τῆς τυραννίδος paris.1624.959 ἱδρυμένης βεβαίως, ἀποστάντες οἱ Συρακούσιοι δεινὰς καὶ παρανόμους ὕβρεις εἰς τὸ σῶμα καθύβρισαν, ἐφʼ αἷς προήκατο τὸν βίον ἑκουσίως.** |
 |   | *Dionisio el Viejo, nada más llegar al 3 poder12, se casó con la hija del siracusano Hermócrates13. Al no estar todavía la tiranía asentada con solidez, los siracusanos, rebelándose, maltrataron a esa mujer en su cuerpo con ultrajes tan tembles e injustos que, debido a ello, se dio muerte de forma voluntaria.* |
 | 15. | **3 Διονύσιος δὲ τὴν ἀρχὴν ἀναλαβὼν καὶ κρατυνάμενος αὖθις ἄγεται δύο γυναῖκας ἅμα, τὴν μὲν ἐκ Λοκρῶν ὄνομα Δωρίδα, τὴν δὲ ἐπιχώριον Ἀριστομάχην, θυγατέρα Ἱππαρίνου, πρωτεύσαντος ἀνδρὸς Συρακουσίων καὶ Διονυσίῳ συνάρξαντος ὅτε πρῶτον αὐτοκράτωρ ἐπὶ τὸν πόλεμον ᾑρέθη στρατηγός.** |
@@ -43,6 +73,11 @@
 |   | *ésta tuvo la fortuna de darle la primera un hijo a Dionisio", lo que la ayudó en esa desventaja respecto al linaje.* |
 | 19. | **6 ἡ δὲ Ἀριστομάχη πολὺν χρόνον ἄπαις συνῴκει τῷ Διονυσίῳ καίπερ σπουδάζοντι περὶ τὴν ἐκ ταύτης τέκνωσιν, ὅς γε καὶ τὴν μητέρα τῆς Λοκρίδος αἰτιασάμενος καταφαρμακεύειν τὴν Ἀριστομάχην ἀπέκτεινε.** |
 |   | *Aristómaca, en cambio, vivió mucho tiempo con Dionisio sin tener hijos, algo que sin embargo él deseaba, hasta el punto de que a la madre de la de Lócride, haciéndola responsable de haber envenenado a Aristómaca, la hizo matar.* |
+
+## 4
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 20. | **** |
 |   | *Primer viaje de Platón a Sicilia (388 a. C.)* |
 | 21. | **4.1 ταύτης ἀδελφὸς ὢν ὁ Δίων ἐν ἀρχῇ μὲν εἶχε τιμὴν ἀπὸ τῆς ἀδελφῆς, ὕστερον δὲ τοῦ p.8 φρονεῖν διδοὺς πεῖραν, ἤδη καθʼ ἑαυτὸν ἠγαπᾶτο παρὰ τῷ τυράννῳ.** |
@@ -55,6 +90,11 @@
 |   | *Una divinidad, según parece, fue quien, enviando desde lejos un principio de libertad para los siracusanos y preparando la destrucción de la tiranía, acompañó de Italia a Siracusa a Platón y condujo a Dión al trkto con él. Aunque ciertamente joven, fue el más dócil de todos los discípulos de Platón y el más rápido en inclinarse a la virtud, según el propio Platón dejó escritoz0 y prueban los hechos.* |
 | 25. | **τραφεὶς γὰρ ἐν ἤθεσιν ὑπὸ τυράννῳ ταπεινοῖς, καὶ βίου μὲν ἀνίσου καὶ καταφόβου, θεραπείας δὲ νεοπλούτου καὶ τρυφῆς ἀπειροκάλου καὶ διαίτης ἐν ἡδοναῖς καὶ πλεονεξίαις τιθεμένης τὸ καλὸν ἐθὰς καὶ μεστὸς γενόμενος, 7 ὡς πρῶτον ἐγεύσατο λόγου καὶ φιλοσοφίας ἡγεμονικῆς πρὸς ἀρετήν, ἀνεφλέχθη τὴν ψυχὴν ταχύ, καὶ τῇ περὶ αὐτὸν εὐπειθείᾳ τῶν καλῶν ἀκάκως πάνυ καὶ νεωτερικῶς προσδοκήσας ὑπὸ τῶν αὐτῶν λόγων ὅμοια πείσεσθαι Διονύσιον, ἐσπούδασε καὶ διεπράξατο ποιησάμενος σχολὴν αὐτὸν ἐντυχεῖν Πλάτωνι καὶ ἀκοῦσαι.** |
 |   | *Educado 6 en costumbres vulgares bajo un tirano, acostumbrado y hasta harto de una vida inicua y temerosa, de la servidumbre de un nuevo rico y de una molicie desconocedora de lo bello, de un modo de vida basado en los placeres y excesosz1, tan pronto 7 como probó la razón y la filosofía que conducen a la virtud, se inflamó su alma rápidamente y convencido, por su propia disposición hacia el bien, con ingenuidad e inexperiencia, de que Dionisio quedaría igualmente persuadido por los mismos argumentos, se empeñó en hacerle encontrar tiempo libre para estar con Platón y escucharlo.* |
+
+## 5
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 26. | **p.10.5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων.** |
 |   | *Cuando tuvo lugar el encuentro entre ellos, que versó, en 5 general, en tomo a la virtud, la mayor parte del tiempo se habló del valor. Platón afinnó que cualquiera era más valeroso que los tiranos y, pasando de este asunto al de la justicia, enseñaba que es dichosa la vida de los justos y desdichada la de los injustos. No podía el tirano soportar estos razonamientos, como si se le acusase, y se molestó con los que estaban presentes y mostraban su aprobación a Platón maravillados y seducidos por sus 3 discursos.* |
 | 27. | **3 τέλος δὲ θυμωθεὶς καὶ παροξυνθείς ἠρώτησεν αὐτόν ὅ τι δὴ βουλόμενος εἰς Σικελίαν παραγένοιτο.** |
@@ -77,6 +117,11 @@
 |   | *pero, por tu culpa, ningún otro inspirará confianza».* |
 | 36. | **10 τῷ γὰρ ὄντι φαίνεται κάλλιστον μὲν Γέλων ἐπιδειξάμενος θέαμα μοναρχουμένην πόλιν, αἴσχιστον δὲ Διονύσιος.** |
 |   | *En efecto, Gelón ofreció el más bello espectáculo de ciudad regida por un solo hombre; Dionjsio, en cambio, el más odioso.* |
+
+## 6
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 37. | **** |
 |   | *Dionisio el Joven* |
 | 38. | **6.1 ὄντων δὲ Διονυσίῳ παίδων τριῶν μὲν ἐκ τῆς Λοκρίδος, τεττάρων δὲ ἐξ Ἀριστομάχης, ὧν δύο ἦσαν θυγατέρες, Σωφροσύνη καὶ Ἀρέτη, Σωφροσύνη μὲν Διονυσίῳ τῷ υἱῷ συνῴκησεν, Ἀρέτη δὲ Θεαρίδῃ τῷ ἀδελφῷ.** |
@@ -89,6 +134,11 @@
 |   | *Según cuenta Timeo27, al proporcionarle el fármaco hipnótico que les pedía, le privaron de 4 los sentidos dándole al tiempo el sueño y la muerte28* |
 | 42. | **4 οὐ μὴν ἀλλὰ συλλόγου πρώτου τῶν φίλων γενομένου παρὰ τὸν νέον Διονύσιον οὕτω διελέχθη περὶ τῶν συμφερόντων πρὸς τὸν καιρὸν ὁ p.14 Δίων ὥστε τοὺς ἄλλους ἅπαντας τῇ μὲν φρονήσει παῖδας ἀποδεῖξαι, τῇ δὲ παρρησίᾳ δούλους τῆς τυραννίδος ἀγεννῶς καὶ περιφόβως τὰ πολλὰ πρὸς χάριν τῷ μειρακίῳ συμβουλεύοντας, 5 μάλιστα δὲ αὐτοὺς ἐξέπληξε τὸν ἀπὸ Καρχηδόνος κίνδυνον ἐπικρεμάμενον τῇ ἀρχῇ δεδοικότας, ὑποσχόμενος, εἰ μὲν εἰρήνης δέοιτο Διονύσιος, πλεύσας εὐθὺς εἰς Λιβύην ὡς ἄριστα διαθήσεσθαι τὸν πόλεμον, εἰ δὲ πολεμεῖν προθυμοῖτο, θρέψειν αὐτὸς ἰδίοις τέλεσι καὶ παρέξειν εἰς τὸν πόλεμον αὐτῷ πεντήκοντα τριήρεις εὖ πλεούσας.[*]** |
 |   | *No obstante, en la primera reunión que tuvo el joven Dionisio con sus amigos, Dión razonó sobre lo que convenía en ese momento de un modo tal que a todos ellos los hizo parecer, en sensatez, unos niños, y unos esclavos de la tiranía en cuanto a libertad de palabra, a ellos, que daban consejos sin honradez y con miedo, casi 5 siempre a gusto del muchacho29. Y sobre todo los sorprendió, temerosos como estaban del peligro que suponía Cartago para el imperio, sosteniendo que, si Dionisio necesitaba la paz, él navegaría rápidamente a Libia para arreglar el enfrentamiento en las mejores condiciones posibles; pero que si deseaba la guerra, estaba dispuesto a mantener con sus propios recursos y poner a su disposición cincuenta naves preparadas para hacerse al mar.* |
+
+## 7
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 43. | **7.1 ὁ μὲν οὖν Διονύσιος ὑπερφυῶς τὴν μεγαλοψυχίαν ἐθαύμασε καὶ τὴν προθυμίαν ἠγάπησεν·** |
 |   | *Dionisio, entonces, admiraba su grandeza de alma y se complacía con su buena voluntad.* |
 | 44. | **2 οἱ δὲ ἐλέγχεσθαι τῇ λαμπρότητι καὶ ταπεινοῦσθαι τῇ δυνάμει τοῦ Δίωνος οἰόμενοι, ταύτην εὐθὺς ἀρχὴν λαβόντες, οὐδεμιᾶς ἐφείδοντο φωνῆς ᾗ τὸ μειράκιον ἐξαγριαίνειν ἔμελλον πρὸς αὐτόν, ὡς ὑπερχόμενον διὰ τῆς θαλάττης τυραννίδα καὶ περισπῶντα ταῖς ναυσὶ τὴν δύναμιν εἰς τοὺς Ἀριστομάχης παῖδας, ἀδελφιδοῦς ὄντας αὐτῷ.** |
@@ -101,6 +151,11 @@
 |   | *Así, la dejadez en tomo al muchacho, creciendo y extendiéndose poco a poco, demtió y acabó con las cadenas de acero3' con las que Dionisio el Viejo dijo que había dejado edificada la monarquía3'.* |
 | 48. | **7 ἡμέρας γὰρ, ὥς φασιν, ἐνενήκοντα συνεχῶς ἔπινεν ἀρξάμενος, καὶ τὴν αὐλὴν ἐν τῷ χρόνῳ τούτῳ σπουδαίοις ἀνδράσι καὶ λόγοις ἄβατον καὶ ἀνείσοδον οὖσαν μέθαι καὶ σκώμματα καὶ ψαλμοὶ καὶ ὀρχήσεις καὶ βωμολοχίαι κατεῖχον.** |
 |   | *Decían que, cuando empezaba a beber, pasaba noventa días haciéndolo" y que durante ese tiempo el palacio, cerrado e impracticable para hombres y discursos sensatos, lo ocupaban borracheras, burlas, músicas, danzas y bufonerías.* |
+
+## 8
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 49. | **8.1 ἦν οὖν, ὡς εἰκὸς, ὁ Δίων ἐπαχθής εἰς οὐδὲν ἡδὺ καὶ νεωτερικὸν ἐνδιδοὺς ἑαυτόν, διὸ καὶ πιθανὰ κακιῶν προσρήματα ταῖς ἀρεταῖς ἐπιφέροντες αὐτοῦ διέβαλλον, ὑπεροψίαν τὴν σεμνότητα καὶ τὴν παρρησίαν αὐθάδειαν ἀποκαλοῦντες·** |
 |   | *Dión, como es natural, les resultaba odioso, ya que no se entregaba a ningún placer ni a nada propio de la juventud. Por eso, calurnniándolo, daban a sus virtudes convincentes nombres de vicios, llamando orgullo a su dignidad y arrogancia a su libertad de palabra* |
 | 50. | **καὶ νουθετῶν κατηγορεῖν ἐδόκει καὶ μὴ συνεξαμαρτάνων καταφρονεῖν.** |
@@ -113,6 +168,11 @@
 |   | *Sobre esto Platón, más tarde, como profetizando, le advirtió en una carta que evitase la arrogancia, que s suele ser compañera de la soledad34* |
 | 54. | **5 οὐ μὴν ἀλλὰ τότε πλείστου δοκῶν ἄξιος ὑπάρχειν διὰ τὰ πράγματα καὶ μόνος ἢ μάλιστα τὴν τυραννίδα σαλεύουσαν ἀνορθοῦν καὶ διαφυλάττειν, ἐγίνωσκεν οὐ πρὸς χάριν, ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου πρῶτος ὢν καὶ μέγιστος.** |
 |   | *soledad34. Sin embargo, incluso entonces, pasando por ser el más digno en esas circuntancias y el único o el que mejor podría vigilar y poner derecha una tiranía tambaleante, sabía que era el primero y el más importante no por favor del tirano, sino en contra de su voluntad y por necesidad.* |
+
+## 9
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 55. | **9.1 αἰτίαν δέ τούτου τὴν ἀπαιδευσίαν εἶναι νομίζων ἐμβαλεῖν αὐτὸν εἰς διατριβὰς ἐλευθερίους ἐφιλοτιμεῖτο καὶ γεῦσαι λόγων καὶ μαθημάτων ἠθοποιῶν, ὡς ἀρετήν τε παύσαιτο δεδιὼς καὶ τοῖς καλοῖς χαίρειν ἐθισθείη.** |
 |   | *Dión, creyendo que la causa de todo esto era la falta de educación del tirano, se afanaba en inclinarlo a una instrucción liberal y en hacerlo tomar gusto por los razonamientos y enseñanzas que forman el carácter, de manera que dejase de temer a la virtud y se acostumbrara a obtener placer con las cosas buenas.* |
 | 56. | **2 φύσει γὰρ οὐ γεγόνει τῶν φαυλοτάτων τυράννων ὁ Διονύσιος, ἀλλʼ ὁ πατὴρ, δεδοικώς μὴ φρονήματος μεταλαβὼν καὶ συγγενόμενος νοῦν ἔχουσιν ἀνθρώποις ἐπιβουλεύσειεν αὐτῷ καὶ παρέλοιτο τὴν ἀρχήν, ἐφρούρει κατάκλειστον οἴκοι, διʼ ἐρημίαν ὁμιλίας ἑτέρας καὶ ἀπειρίᾳ πραγμάτων, ὥς φασιν, ἁμάξια καὶ λυχνίας καὶ δίφρους ξυλίνους καὶ τραπέζας τεκταινόμενον.** |
@@ -129,6 +189,11 @@
 |   | *A Marsias, uno de los que él mismo había promocionado y que desempeñaba un alto cargo, lo hizo matar porque había soñado que degollaba al tirano: sin duda esa visión se le había mostrado en sueños a partir de un plan y un razonamiento concebidos durante el día.* |
 | 62. | **8 ὁ μὲν δὴ Πλάτωνι θυμωθείς ὅτι μὴ πάντων αὐτὸν ἀνθρώπων ἀνδρειότατον ὄντα ἀπέφηνεν, οὕτω περίφοβον καὶ τοσούτων ὑπὸ δειλίας κακῶν μεστὴν εἶχε τὴν ψυχήν.** |
 |   | *Hasta ese punto tenía el 8 alma espantada y llena de todos los vicios de la cobardía el mismo que se había irritado con Platón porque no lo tuvo por el más valeroso de los hombres.* |
+
+## 10
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 63. | **10.1 τὸν δʼ υἱὸν αὐτοῦ, καθάπερ εἴρηται, διαλελωβημένον ἀπαιδευσίᾳ καὶ συντετριμμένον τὸ ἦθος ὁ Δίων ὁρῶν παρεκάλει πρὸς παιδείαν τραπέσθαι καὶ δεηθῆναι τοῦ πρώτου τῶν φιλοσόφων πᾶσαν δέησιν ἐλθεῖν εἰς Σικελίαν·** |
 |   | *Dión, como ya he dicho, viendo al hijo del tirano echado a lo perder por la ignorancia y con el carácter corrompido, lo exhortaba a inclinarse al estudio y a rogar al primero de los filósofos que viniese a Sicilia.* |
 | 64. | **2 ἐλθόντι δὲ παρασχεῖν αὑτόν, ὅπως διακοσμηθεὶς τὸ ἦθος εἰς ἀρετῆς λόγον, καὶ πρὸς τὸ θειότατον ἀφομοιωθεὶς παράδειγμα τῶν ὄντων καὶ κάλλιστον, ᾧ τὸ πᾶν ἡγουμένῳ πειθόμενον ἐξ ἀκοσμίας κόσμος ἐστί, 3 πολλὴν μὲν εὐδαιμονίαν ἑαυτῷ μηχανήσεται, πολλὴν δὲ τοῖς πολίταις, ὅσα νῦν ἐν ἀθυμίᾳ διοικοῦσι πρὸς ἀνάγκην τῆς ἀρχῆς, ταῦτα σωφροσύνῃ καὶ δικαιοσύνῃ μετʼ εὐμενείας πατρονομούμενα παρασχών καὶ γενόμενος βασιλεὺς ἐκ τυράννου.** |

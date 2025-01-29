@@ -26,12 +26,14 @@
 ??? note
     - (1) Adviértase cómo el primer verso enuncia la "cólera de Aquiles", tema principal de la Iliada. Originariamente la poesía épica era realmente cantada por los aedos (§ 2). La Musa canta por su boca.  
     - (1) θε**ά**: [ᾱ rasgo eolio](notas.md#b1-alfa-larga)  
-    - (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  
-    - (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9)  
-    - (2) **οὐ**λομένην: [alargamiento](notas.md#b7)  
-    - (2) **οὐ**λομένην: part. aor. med. de ὄλλυμι, aquí con valor modal, "que ojalá perezca, que mal haya".  
+    - (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  Πηληϊάδ**α-ο** > Πηληϊάδ**η-ο** > Πηληϊάδ**ε-ω**.  
+    - (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9): Ἀχιλ**ῆ-u-ος** Ἀχιλ**ῆ-ος** > Ἀχιλ**έ-ως**.
+    - (2) **οὐ**λ-ο-μένην: [alargamiento](notas.md#b7)  
+    - (2) **οὐ**λομένην: part. aor. med. de ὄλ-λυ-μι, aquí con valor modal, "que ojalá perezca, que mal haya".  
+    - (2) **ἄλγε'**: ἄλγ-ος > ἄλγ-ε-σ-α > ἄλγ-ε-α > ἄλγ-η
     - (4) **αυτούς**: "a ellos", a sus cuerpos en contraposición a sus almas.  
-    - (3) προ**ΐ**αψεν: [aumento](notas.md#p)  
+    - (3) προ**ΐ**αψεν: [aumento](notas.md#p)
+    - (4) **ἑλώρια**: ἑλ-ώρια εἷλ-ον (ἑλ-) αἱρέω.
     - (4) κύν**εσσιν**: [dativo eolio](notas.md#i1)  
     - (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
     - (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  

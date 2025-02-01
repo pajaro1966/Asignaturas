@@ -343,11 +343,12 @@
 
 -->
 
-4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων ἔγραψε πρὸς αὐτόν <!-- p.18 --> ἐξευλαβεῖσθαι (1) τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν (2).
+4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων (3) ἔγραψε πρὸς αὐτόν <!-- p.18 --> ἐξευλαβεῖσθαι (1) τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν (2).
 
 ??? note
     1. **ἔγραψε πρὸς αὐτόν .... ἐξευλαβεῖσθαι**: 'le pidió por escrito'. La completiva de infinitivo transpone al estilo indirecto tanto la fuerza ilocutiva declarativa como la imperativa.
     2. **ὡς ... συνοικοῦσαν**: razón aducida por Platón.
+    3. **ὥσπερ ἀποθεσπίζων**: 'como dando un oráculo'. La conjunción ὥσπερ afecta al participio; se trata de una oración comparativa **truncada**: 'dijo como (diría) dando un oráculo'.
 
 <!--
 -->

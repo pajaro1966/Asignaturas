@@ -38,8 +38,10 @@
     - (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
     - (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
     - (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).  
-    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18)  
-    - (6) διαστή-**την**: [dual](notas.md#o42)  
+    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
+    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
+    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω > ἐρίζω
+    - (6) διαστή-**την**: [dual](notas.md#o42):ἀτ. δι-ε-στή-**την**. ἵστημι/ἵσταμαι > ἔ-στη-σα 'yo coloqué'/ἔ-στη-ν 'yo me coloqué/me levanté'.
 
 ---
 
@@ -60,12 +62,14 @@
 NOTAS
   
 - (8) Εn la concepción homérica del hombre, éste no es responsable de sus actos, especialmente si sus consecuencias no son las buscadas (Agamenón provoca sin querer la peste y la derrota; Aquiles, la muerte de su camarada íntimo Patroclo); de ahí que el aedo pregunte por la divinidad (o fuerza superior) causante de la disputa.  
-- (8) **σφωε**: [dual](notas.md#i18)  
+- (8) **σφωε**: [dual](notas.md#i18)
+- (8)  **ξυν-έ-ηκε**:
 - (9) **ὅ**: Apolo.  
 - (9) βασιλ**ῆ**-**ϊ**: [dativo](notas.md#i9); nótese βασιλεύς = ἄναξ del ν. 7.  
 - (10) **νοῦσον**: [alargamiento](notas.md#b7)  
 - (10) **ὄρσε**/**ὦρσε**: [ὄρνυμι](notas.md#o11), [temas](verbo#93-ὄρνυμι)  
-- (11) **οὕνεκα**: [crasis](notas.md#b13)  
+- (11) **οὕνεκα**: [crasis](notas.md#b13) 
+- (11) **ἠτίμασεν**: τιμή 'precio/honor' > ἄ-τιμ-ος 'vil/deshonrado' > ἀ-τιμ-άζω 'deshonrar'.
 - (12) **ὅ**: Crises ;  
 - (12) **θοάς**: adjetivación ornamental, pues la rapidez de las naves no importa al sentido de este pasaje, en el que están varadas en la costa (§ 20).  
 - (12) **νῆας**: [ναῦς](notas.md#i10)  

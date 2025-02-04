@@ -58,11 +58,15 @@
 
 ## 90: Ejercicios
 
+[12Α](docs/../../reveal.js-master/GMod_Leccion_12_Exerc.html#/0/0/0), [12Β](docs/../../reveal.js-master/GMod_Leccion_12_Exerc.html#/1/0/0)
+
 ![Página 1](Metodo/Textbook_Pagina_090.png)
 
 ---
 
 ## 91: Ejercicios
+
+[12Γ](docs/../../reveal.js-master/GMod_Leccion_12_Exerc.html#/2/0/0), [12Δ](docs/../../reveal.js-master/GMod_Leccion_12_Exerc.html#/3/0/0)
 
 ![Página 1](Metodo/Textbook_Pagina_091.png)
 

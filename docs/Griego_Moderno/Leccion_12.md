@@ -117,6 +117,10 @@
 
 ![Página 1](Metodo/Textbook_Pagina_086.png)
 
+<audio controls="controls">
+  <source type="audio/mpeg" src="../GM_Audios/12_Sten_agora.mp3"></source>
+</audio>
+
 ### Reduplicación de clítico
 
 En griego el pronombre clítico en genitivo puede repetir el CI expresado (i) por un **pronombre tónico en genitivo** (εμένα, εσένα, εμάς, εσάς, etc.) o (ii) por un **SN en genitivo** (του Γιώργου, της Μαρίας, του παιδιού), cuando se coloca en **posición inicial** de oración, como en español.
@@ -183,10 +187,10 @@ Minuto 1:49
 
 | Adverbio   |         Adv + SP         |       Adv + SP       | Adv + clítico gen. |
 |------------|:------------------------:|:--------------------:|:------------------:|
-| Esp. lejos |    lejos **de Pedro**    |   lejos **de mí**    |                    |
-| Gr. μακριά | μακριά **από τον Πέτρο** | μακριά **από εμένα** |   μακριά **του**   |
-| Esp. cerca |    cerca **de Pedro**    |   cerca **de mí**    |                    |
-| Gr. κοντά  |   κοντά **στον Πέτρο**   |  κοντά **σ' εμένα**  |   κοντά **μου**    |
+| Esp. lejos |    lejos **de Pedro**    |   lejos **de él**    |                    |
+| Gr. μακριά | μακριά **από τον Πέτρο** | μακριά **απ' αυτόν** |   μακριά **του**   |
+| Esp. cerca |    cerca **de Pedro**    |   cerca **de él**    |                    |
+| Gr. κοντά  |   κοντά **στον Πέτρο**   |  κοντά **σ' αυτόν**  |   κοντά **του**    |
 
 | EJEMPLO               | Adv + clítico (gen) | Prep (από/σε) + tónico |       Prep (από/σε) + SN       |
 |-----------------------|:-------------------:|:----------------------:|:------------------------------:|

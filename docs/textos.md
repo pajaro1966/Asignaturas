@@ -73,7 +73,7 @@ NOTAS
 - (12) **ὅ**: Crises ;  
 - (12) **θοάς**: adjetivación ornamental, pues la rapidez de las naves no importa al sentido de este pasaje, en el que están varadas en la costa (§ 20).  
 - (12) **νῆας**: [ναῦς](notas.md#i10)  
-- (13) **λυσόμενός**: -part. ~~fut. con valor desiderativo~~; participio con valor futuro ‘para (intentar) liberar’.  
+- (13) **λυσόμενός**: -part. ~~fut. con valor desiderativo~~; participio con valor futuro 'para (intentar) liberar'.  
 - (13) **θύγατρα**: [tercera declinación](notas.md#i7)  
 - (13) ἀπερ**εί**σι': [alargamiento métrico](notas.md#b7)  
 - (14) **στέμματα**: guirnalda de laurel que coronaba el bastón (símbolo de dignidad) del sacerdote de Apolo.  
@@ -101,12 +101,12 @@ NOTAS
 
 NOTAS
   
-- (18) δο-**ῖ**-εν: [optativo desiderativo](notas.md#t5): ‘Ojalá os concedan los dioses ...’.  
+- (18) δο-**ῖ**-εν: [optativo desiderativo](notas.md#t5): 'Ojalá os concedan los dioses ...'.  
 - (18) **Ὀλύμπια δώματ'**: el palacio de Zeus en el monte Olimpo.  
 - (19) **ἐκ**-πέρσαι: el preverbio, que indica la realización total de la acción, alude a la victoria completa; es curioso que en la lengua homérica
 sólo existen términos para designar victorias parciales.  
 - (20) δέχε-**σθαι**: [infinitivo pro imperativo](notas.md#t14).  
-- (20) λύσα-**ι**-τε: [optativo desiderativo](notas.md#t5): ‘¡ojalá liberéis!’ (deseo) > ‘¡liberad, por favor!’ (petición).  
+- (20) λύσα-**ι**-τε: [optativo desiderativo](notas.md#t5): '¡ojalá liberéis!' (deseo) > '¡liberad, por favor!' (petición).  
 
 ---
 
@@ -143,7 +143,7 @@ NOTAS
 NOTAS
   
 - (26) **νηυσὶ**: [ναῦς](notas.md#i10).  
-- (26) **μή σε κιχείω**: ‘(procura) que no te pille’, ‘(haz todo lo posible) no sea que te pille’.  
+- (26) **μή σε κιχείω**: '(procura) que no te pille', '(haz todo lo posible) no sea que te pille'.  
 - (26) **Μή... κιχήω**: ~~subj. voluntativo~~.  
 - (28) **μή . . . οὐ χραίσμῃ**: equivale a oración dependiente de verbo de temor, "no sea (μή) que no (οὐ)...".  
 - (29) **τὴν**: Criseida, la hija de Crises.  
@@ -151,8 +151,9 @@ NOTAS
 - (29) **ἔπεισιν**: con valor de futuro (sujeto "la vejez"), "le sobrevendrá".  
 - (31) **ἐποιχομένην καὶ ... ἀντιόωσαν**: los participios condertan con μιν.  
 - (31) **λέχος**: en acusativo (en lugar del genitivo que se esperaría con ἀντιόωσαν), por cierta tendencia de los neutros a no declinarse.  
-- (31) **ἀντιόωσαν**: [vocalismo](notas.md#b12)  
+- (31) **ἀντιόωσαν**: [vocalismo](notas.md#b12): ἀντιά-ω ἀντι**ά**-**ου**σα >  ἀντι**ό**-**ω**σα/ἀντι**ῶ**σα
 - (32) **κε**: [finales](notas.md#u5).  
+- (32) **ὥς κε νέηαι**: subj. **etim.** νέ-η-σαι > **Hom.** νέ-η-αι (son contraer) > **át.** νέ-ῃ. (contracción)
   
 ---
 
@@ -274,7 +275,7 @@ NOTAS
 - (63) **ὄναρ**: el sueño es enviado por Zeus, y, por lo tanto, el intérprete de sueños profetiza (habla προ- "en lugar de").  
 - (63) **τ'**: [τε](notas.md#m4)  
 - (65) **ἑκατόμβης**: [genitivo](notas.md#r1).  
-- (66) **αἴ κέν πως**: ‘por si de alguna manera’: condicional final. En ático se construyen con ἐάν+subjuntivo (verbo principal en presente o futuro) y εἰ + optativo (verbo principal en pasado).  
+- (66) **αἴ κέν πως**: 'por si de alguna manera': condicional final. En ático se construyen con ἐάν+subjuntivo (verbo principal en presente o futuro) y εἰ + optativo (verbo principal en pasado).  
 - (66) **κνίση**: es el olor de la grasa quemada en los sacrificios, del que participan (ἀντιάω v. 67) los dioses.  
 - (66) **τελείων**: adjetivo que se aplica a las víctimas "impecables" y aptas para el sacrificio (las prescripciones rituales podían referirse a la especie animal, al sexo, al color de la piel, a su integridad física, etc.).  
 - (65-67) **εἴ ... ἠδ' ...**: (≈ εἴτε ... εἴτε ...): interrogativa indirecta; acaso se ha cometido alguna falta ritual en una oración o en un sacrificio.  
@@ -328,7 +329,7 @@ NOTAS
 - (78) χολωσ-**έμεν**: [infinitivo](notas.md#o40)  
 - (78) **μέγα**: acus. adv.  
 - (78-79) **ὃς** (Agamenón) μέγα πάντων / Ἀργείων κρατέει **καί** **οἱ** (Agamenón) πείθονται Ἀχαιοί: nótese cómo la oración subordinada relativa se interrumpe y da paso a una independiente, por relajación de la tensión necesaria para sostener la subordinación a cierta distancia del pronombre que la introduce.  
-  - A.R.: es un caso parecido al español ‘que su’: «vino Pedro, el chico **que** (el chico) vimos ayer y **que su**  (el chico) padre trabaja en un banco»  
+  - A.R.: es un caso parecido al español 'que su': «vino Pedro, el chico **que** (el chico) vimos ayer y **que su**  (el chico) padre trabaja en un banco»  
 - (79) **οἱ**: [pronombres personales](notas.md#l1)  
 - (80) **ὅτε χώσεται**: Oración temporal eventual universal sin necesidad de partícula modal.  
 - (80) χώσ**εται**: [subjuntivo](notas.md#o39)  
@@ -459,7 +460,7 @@ NOTAS
 - (115) **ἂρ**: [conjunciones](notas.md#m3)  
 - (116) **δόμεναι**: [infinitivo](notas.md#o40)  
 - (116) **καὶ ώς**: "aun así.  
-- (117) **βούλομ’ A ἢ B**: con idea de comparación "prefiero... a...".  
+- (117) **βούλομ' A ἢ B**: con idea de comparación "prefiero... a...".  
 - (117) **ἔμμεναι**: [εἰμί](notas.md#o5)  
 - (118) **ὄφρα**: [finales](notas.md#u5)  
 - (119) **ἔω**: [εἰμί](notas.md#o5)  
@@ -666,13 +667,13 @@ NOTAS
 - (179) **ἑτάροισι**: [vocalismo especial](notas.md#b18)  
 - (180) **Μυρμιδόν-εσσιν**: [dativo](notas.md#r2) r2d.  
 - (180) σέ-**θεν**: [pronombres personales](notas.md#l1)  
-- (181) **ὄθομαι**: ‘preocuparse de alguien (gen.)’.  
+- (181) **ὄθομαι**: 'preocuparse de alguien (gen.)'.  
 - (181) **κοτέοντος**: únase a σέθεν.  
 - (181) **ἀπειλήσω**: en futuro, porque la amenaza se proyecta al porvenir.
 - (183) **τήν**: Criseida.  
 - (183) **νηΐ**: [ναῦς](notas.md#i10)  
 - (186) **φέρτερός**: [comparativos](notas.md#k2); "más poderoso", comparativo homérico, sin positivo, formado sobre la raíz de φέρω; se ha sugerido (Palmer) que originariamente expresaba la noción de recibir más tributos (φόροι), lo que, al menos en este pasaje, conviene al wánax Agamenón y, en VI 158, al rey Preto.  
-- (186) **στυγέω**: ‘odiar’.
+- (186) **στυγέω**: 'odiar'.
 - (187) **ἐμοί**: cf. V. 163.  
 - (187) **φάσθαι**: [φημί](notas.md#o7)  
 - (187) **ὁμοιωθή-μεναι**: [infinitivo](notas.md#o40)  

@@ -2,6 +2,7 @@ site_name: Asignaturas
 nav:
   - Home: 'index.md'
   - Griego Moderno: 
+    - Referencias: 'Griego_Moderno/GrMod_Bibl.md'
     - Lección 1: 'Griego_Moderno/Leccion_01.md'
     - Lección 12: 'Griego_Moderno/Leccion_12.md'
     - Lección 12 (ejercicios): 'reveal.js-master/GMod_Leccion_12_Exerc.html'

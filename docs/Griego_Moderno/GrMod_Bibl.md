@@ -11,8 +11,8 @@ Página web:
   
 Pasos:
 
-- Descargarse las aplicaciones para escritorio y dispositivos electrónico.
-- Crearse una cuenta en Ankiweb: guardar las claves.
-- Sincronizar los dispositivos con Ankiweb (usar las claves anteriores).
-- Buscar el mazo en Ankiweb y seleccionarlo.
-- Sincronizar los dispositivos.
+1. Descargarse las aplicaciones para escritorio y dispositivos electrónico.
+2. Crearse una cuenta en Ankiweb: guardar las claves.
+3. Sincronizar los dispositivos con Ankiweb (usar las claves anteriores).
+4. Buscar el mazo en Ankiweb y seleccionarlo.
+5. Sincronizar los dispositivos.

@@ -128,7 +128,6 @@
 
     ```
 
-
 5 καίτοι τῶν Συρακουσίων ἐβούλετο τὸ πλῆθος τὴν ἐγγενῆ πλέον ἔχειν τῆς ξένης·
 ἀλλὰ ἐκείνῃ προτέρᾳ ὑπῆρχε (1) τεκούσῃ (2) τὸν πρεσβεύοντα τῆς Διονυσίου γενεᾶς υἱὸν αὐτῇ βοηθεῖν πρὸς τὸ γένος.
 
@@ -493,12 +492,47 @@
     4. **ἡγουμένῳ**: predicativo de ᾧ: 'obedeciéndolo en calidad de guía'.
     5. **πατρονομούμενα παρασχών**: παρέχω ac. + predicativo (participio): 'hacer que algo sea de una manera'.
 
-4 τοὺς γὰρ ἀδαμαντίνους (1) δεσμοὺς οὐχ, ὥσπερ ὁ <!-- p.22 --> πατὴρ ἔλεγεν αὐτοῦ, φόβον καὶ βίαν καὶ νεῶν πλῆθος εἶναι καὶ βαρβάρων μυρίανδρον φυλακήν, εὔνοιαν δὲ καὶ προθυμίαν καὶ χάριν ἐγγενομένην ὑπʼ ἀρετῆς καὶ δικαιοσύνης, ἅ, καίπερ ὄντα μαλακώτερα τῶν συντόνων καὶ σκληρῶν ἐκείνων, ἰσχυρότερα πρὸς διαμονὴν ἡγεμονίας ὑπάρχειν.
+4 τοὺς γὰρ ἀδαμαντίνους (1) δεσμοὺς οὐχ, ὥσπερ ὁ <!-- p.22 --> πατὴρ ἔλεγεν αὐτοῦ, φόβον καὶ βίαν καὶ νεῶν πλῆθος εἶναι (2) καὶ βαρβάρων μυρίανδρον φυλακήν, εὔνοιαν δὲ καὶ προθυμίαν καὶ χάριν ἐγγενομένην ὑπʼ ἀρετῆς καὶ δικαιοσύνης, ἅ, καίπερ ὄντα μαλακώτερα τῶν συντόνων καὶ σκληρῶν ἐκείνων, ἰσχυρότερα πρὸς διαμονὴν ἡγεμονίας ὑπάρχειν (2).
 
 ??? note
     1. **ἀδαμαντίνους**: δαμάω/δαμά-ζω 'domar' > ἀ-δάμα-ς, -αντ-ος > ἀ-δαμά-ντ-ινος, η, ον 'indomable'.
- 
-5 χωρὶς δὲ τούτων ἀφιλότιμον εἶναι καὶ ἄζηλον τὸν ἄρχοντα, τῷ μὲν σώματι περιττῶς ἀμπεχόμενον καὶ τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ λαμπρυνόμενον, ὁμιλίᾳ δὲ καὶ λόγῳ μηδὲν ὄντα τοῦ προστυχόντος σεμνότερον, μηδὲ τῆς ψυχῆς τὸ βασίλειον ἀξιοῦντα κεκοσμημένον ἔχειν βασιλικῶς καὶ πρεπόντως.
+    2. **γὰρ ... εἶναι ... ἅ ... ὑπάρχειν**: los infinitivos después de γάρ indican que estas explicaciones no son del hablante (Plutarco), sino que son atribuidas a Dion; se trata de infinitivos declarativos de estilo indirecto: 'porque, según Dion, ...'.
+
+5 χωρὶς δὲ τούτων (1) ἀφιλότιμον εἶναι καὶ ἄζηλον τὸν ἄρχοντα, τῷ μὲν σώματι περιττῶς ἀμπεχόμενον (4) (2) καὶ τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ (3) λαμπρυνόμενον, ὁμιλίᾳ δὲ καὶ λόγῳ μηδὲν ὄντα τοῦ προστυχόντος σεμνότερον, μηδὲ τῆς ψυχῆς τὸ βασίλειον ἀξιοῦντα κεκοσμημένον ἔχειν βασιλικῶς καὶ πρεπόντως.
+
+??? note
+    1. **χωρὶς τούτων**: 'aparte de eso' > 'además'. Dion introduce un segundo argumento.
+    2. **τῷ σώματι ... ἀμπεχόμενον**: ἀμπέχω significa 'poner A (ac, ropa) alrededor de B (dat)' > 'vestir B (el cuerpo τῷ σώματι) con A'.
+    3. **τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ**: 'el lujo y el equipamiento que rodea/envuelve su casa/residencia'. El SP περὶ τὴν οἴκησιν está en posición atributiva (el el artículo y los sustantivos) y, por tanto, modifica a estos como si fuera un adjetivo.
+    4. **... μὲν ἀμπεχόμενον καὶ ... λαμπρυνόμενον, ... δὲ  ... ὄντα ... μηδὲ ... ἀξιοῦντα ...**: Los participios predicativos se refieren al sujeto del inifinitivo (τὸν ἄρχοντα) y están doordinados de manera adversativa los dos primeros (μέν) a los dos segundos (δέ).
+    ```mermaid
+    graph TB
+
+    A("Discurso")
+    A-->A1("O1")-->A11("Fragmento anterior")
+    A-->|"χωρὶς δὲ τούτων<br>aparte de eso"|A2(O2)
+    A2-->A22("Verbo")-->A221("εἶναι<br>(decía que) era")
+    A2-->A21("Atributo")-->A211("ἀφιλότιμον ... καὶ ἄζηλον<br>falto de ambición y de envidia")
+    
+    A2-->A23("Sujeto (ac)")-->A231("τὸν ἄρχοντα<br>el gobernante")
+    A2-->A24("Participios predicativos (ac)<br>(valor condicional)")-->A241("μέν<br>por un lado")
+    A241-->A2411("ἀμπεχόμενον<br>si vestía")
+    A2411-->A24111("τῷ μὲν σώματι<br>su cuerpo")
+    A2411-->A24112("περιττῶς<br>excesivamente")
+    A241-->A2412("καὶ ... λαμπρυνόμενον<br>y brillaba")
+    A2412-->A24121("τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ<br>por el lujo y decoración alrededor de su casa")
+
+    A24-->A242("δέ<br>pero, en cambio,")-->A2421("ὄντα<br>era")
+    A2421-->A24211("ὁμιλίᾳ δὲ καὶ λόγῳ<br>por su trato y su palabra")
+    A2421-->A24212("μηδὲν<br>en nada")
+    A2421-->A24213("σεμνότερον<br>más respetable")-->A242131("τοῦ προστυχόντος<br>que cualquiera")
+    A242-->|μηδὲ|A2422("μηδὲ ... ἀξιοῦντα<br>ni pretendía")
+    A2422-->A24221("ἔχειν<br>tener")
+    A24221-->A242211("τῆς ψυχῆς τὸ βασίλειον<br>el reino de su alma")
+    A24221-->A242212("κεκοσμημένον<br>decorado")
+    A242212-->A2422121("βασιλικῶς καὶ πρεπόντως<br>de una manera propia de un rey y como cuadraba")
+
+    ```
 
 ## Segundo viaje de Platón a Silicia (367 a.C.)
 

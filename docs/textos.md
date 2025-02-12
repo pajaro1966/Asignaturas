@@ -68,7 +68,7 @@ NOTAS
 - (9) βασιλ**ῆ**-**ϊ**: [dativo](notas.md#i9); nótese βασιλεύς = ἄναξ del ν. 7.  
 - (10) **νοῦσον**: [alargamiento](notas.md#b7)  
 - (10) **ὄρσε**/**ὦρσε**: [ὄρνυμι](notas.md#o11), [temas](verbo#93-ὄρνυμι)  
-- (11) **οὕνεκα**: [crasis](notas.md#b13) 
+- (11) **οὕνεκα**: [crasis](notas.md#b13)
 - (11) **ἠτίμασεν**: τιμή 'precio/honor' > ἄ-τιμ-ος 'vil/deshonrado' > ἀ-τιμ-άζω 'deshonrar'.
 - (12) **ὅ**: Crises ;  
 - (12) **θοάς**: adjetivación ornamental, pues la rapidez de las naves no importa al sentido de este pasaje, en el que están varadas en la costa (§ 20).  
@@ -153,7 +153,7 @@ NOTAS
 - (31) **λέχος**: en acusativo (en lugar del genitivo que se esperaría con ἀντιόωσαν), por cierta tendencia de los neutros a no declinarse.  
 - (31) **ἀντιόωσαν**: [vocalismo](notas.md#b12): ἀντιά-ω ἀντι**ά**-**ου**σα >  ἀντι**ό**-**ω**σα/ἀντι**ῶ**σα
 - (32) **κε**: [finales](notas.md#u5).  
-- (32) **ὥς κε νέηαι**: subj. **etim.** νέ-η-σαι > **Hom.** νέ-η-αι (son contraer) > **át.** νέ-ῃ. (contracción)
+- (32) **ὥς κε νέηαι**: νέομαι 'regresar' subj. **etim.** νέ-η-σαι > **Hom.** νέ-η-αι (sin contraer) > **át.** νέ-ῃ. (contracción)
   
 ---
 
@@ -172,28 +172,70 @@ NOTAS
 |41|ταύρων ἠδ' αἰγῶν, τὸ δέ μοι κρήηνον ἐέλδωρ·|
 |42|τίσειαν Δαναοὶ ἐμὰ δάκρυα σοῖσι βέλεσσιν.»|
 
-NOTAS
+??? note
 
-- (33) **ἔφατ'**: [φημί](notas.md#o7 ).  
-- (33) **ἔδεισεν**: aoristo ingresivo, "le entró miedo".  
-- (35) **κιὼν**: [aoristos radicales temáticos](notas.md#o20)  
-- (36) **ἠΰκομος**: [ἐΰς/ἠΰς](notas.md#b2)  
-- (37) **κλῦθί**: [aoristos radicales atemáticos](notas.md#o19)  
-- (37) **μευ**: [pronombres personales](notas.md#l1)  
-- (37) **Χρύσην**: f., nombre de ciudad (no confundir con el nombre del sacerdote).  
-- (37) **ἀμφι**βέβηκας: perfecto (que indica el estado resultante) de βαίνω, "doy pasos", literalmente, "estás con un paso dado (con las piernas abiertas) a uno y otro lado (ἀμφι-) de Crise" = "proteges a Crise".  
-- (38) **ζαθέην**: [yod secundaria](notas.md#c7)  
-- (38) **ἶφι**: [-φι](notas.md#j1)  
-- (39) La plegaria comienza recordando al dios los servicios que le ha prestado Crises ; xap. : predicado, "con agrado tuyo" ; se refiere evidentemente a un tipo de templo muy primitivo, un mero techo para proteger la imagen del dios, colocada en una gruta (Leaf); los templos surgen en Grecia en época post-micénica y son raros en Homero (ver νηός; en el glosario).  
-- (39) **νηὸν**: [νηός/νεώς](notas.md#h3); [declinación ática](https://pajaro1966.github.io/Paradigmas_Griegos/paradigmsNouns.html#par17)  
-- (40) **μηρί'(μηρία)**: los huesos de los muslos con la carne que queda adherida, recubiertos con grasa (por eso son **πίονα** "grasicntos").  
-- (40) **ἔκηα**: [aoristos sigmáticos](notas.md#o24)  
-- (41) **ἠδ'**: [conjunciones](notas.md#m3)  
-- (41) **κρήηνον**: [κρααίνω](notas.md#o18)  
-- (42) **δέ**: apodótico.  
-- (41) **ἐέλδωρ**: [prótesis vocálica](notas.md#b16)  
-- (42) τί**σειαν**: [optativo desiderativo sin partícula](notas.md#t5).  
-- (42) βέλεσσιν: βέλος/βέλεσ-σιν > βέλε**σ**-**σ**ιν > βέλε**σ**ιν  
+    ```mermaid
+    graph TB
+    
+    A0("Oración compuesta<br>ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
+    A0-->A1("ἀμφιβέβηκας<br>proteges")
+    A1-->A11("Χρύσην<br>Crisa")
+    A1-->|"τε1"|A12("Κίλλάν τε1 ζαθέην<br>y la muy divina Cila")
+    A0-->|"τε2"|A2("Τενέδοιό τε2 ἶφι ἀνάσσεις<br>y gobiernas con fuerza Ténedo")
+    
+    ```
+
+    ```mermaid
+    graph TB
+    
+    A0("Oración compleja")
+    A0-->A1("Subordinadas condicionales")
+    A1-->A11("εἴ ... ἔρεψα,<br>si")
+    A11-->A111("ποτέ<br>alguna vez")
+    A11-->A112("τοι<br>para ti")
+    A11-->A113("χαρίεντ' ... νηὸν<br>(un) grato templo")
+    A11-->A114("ἐπὶ ... ἔρεψα<br>cubrí")
+    A1-->A12("ἢ εἰ ... αἰγῶν<br>o si")
+    A12-->A121("ποτέ<br>alguna vez")
+    A12-->A122("τοι<br>para ti")
+    A12-->A123("πίονα μηρί' ... ταύρων ἠδ' αἰγῶν<br>grasientos muslos de toros y cabras")
+    A12-->A124("κατὰ ... ἔκηα<br>quemé")
+
+    A0-->|"δέ"|A2("Oración principal")-->A21("τὸ δέ μοι κρήηνον ἐέλδωρ")
+    A21-->A211("τὸ δέ<br>esto")
+    A21-->A212("μοι<br>a mí")
+    A21-->A213("κρήηνον<br>llévame a cabo")
+    A21-->A214("ἐέλδωρ<br>como un deseo")
+    
+    ```
+        
+    NOTAS
+    
+    - (33) **ἔφατ'**: [φημί](notas.md#o7 ). 
+    - **ἔδεισεν**: aoristo ingresivo, "le entró miedo".  
+    - **ἐπείθετο μύθῳ**: 'obedecía a su orden'. πείθω: (a) act. A (nom.) πείθει B (ac.) 'A convence a B'; (b) media: B (nom.) πείθεται A (dat.) 'B obedece/cree a A'.
+    - (35) **πολλὰ**: acusativo adverbial 'mucho', ático πολύ.
+    - **κιὼν**: [aoristos radicales temáticos](notas.md#o20)  
+    - (36) **τὸν**: uso 'relativo' del artículo.
+    - **ἠΰκομος**: [ἐΰς/ἠΰς](notas.md#b2): 'de hermosa (εὐ) cabellera (κόμη)'.
+    - **τέκε**: (ἔ-)τέκ-ε (sin aumento) de ἔ-τεκ-ον: aoristo radical temático de τί-κτω (τί-τκ-ω).
+    - (37) **κλῦθί**: [aoristos radicales atemáticos](notas.md#o19)  
+    - **μευ**: με(ι)ο > jon. μευ/át. μου [pronombres personales](notas.md#l1)  
+    - **Χρύσην**: f., nombre de ciudad (no confundir con el nombre del sacerdote).  
+    - **ἀμφι**βέβηκας: perfecto (que indica el estado resultante) de βαίνω, "doy pasos", literalmente, "estás con un paso dado (con las piernas abiertas) a uno y otro lado (ἀμφι-) de Crise" = "proteges a Crise".  
+    - (38) **ζαθέην**: [yod secundaria](notas.md#c7)  
+    - **ἶφι**: [-φι](notas.md#j1) 
+    - **ἀνάσσεις**: ἄναξ, ἄνακτ-ος ἄνα**κτ-y**ω > ἀνά**σσ**εις
+    - (39) La plegaria comienza recordando al dios los servicios que le ha prestado Crises ; xap. : predicado, "con agrado tuyo" ; se refiere evidentemente a un tipo de templo muy primitivo, un mero techo para proteger la imagen del dios, colocada en una gruta (Leaf); los templos surgen en Grecia en época post-micénica y son raros en Homero (ver νηός; en el glosario).  
+    - (39) **νηὸν**: ν**ᾱ**ός > jón-át. ν**η**ός > át. ν**εώ**ς (metátesis de cantidad) [νηός/νεώς](notas.md#h3); [declinación ática](https://pajaro1966.github.io/Paradigmas_Griegos/paradigmsNouns.html#par17)  
+    - (40) **μηρί'(μηρία)**: los huesos de los muslos con la carne que queda adherida, recubiertos con grasa (por eso son **πίονα** "grasientos").  
+    - **κατὰ ... ἔκηα**: κατα-καίω 'quemar del todo' [aoristos sigmáticos](notas.md#o24)  κα**υ**-**y**ω κα**ί**ω, ἔ-καυ-σα > ἔ-κη-α.
+    - **ἠδ'**: [conjunciones](notas.md#m3)  
+    - (41) **κρήηνον**: [κρᾱαίνω](notas.md#o18): κρᾱα**ν**-**y**ω > κραα**ίν**ω; κρᾱα**ν**-**σ**ον > κρᾱα**ν**-**σ**ον > κρᾱ**ᾱν**-ον (alargamiento compensatorio) > κρή**η**νον (alfa larga a eta).
+    - **δέ**: apodótico: aparece en principales, tras subordinadas que las anteceden, para marcar su inicio: 'si ..., entonces ...'.  
+    - **ἐέλδωρ**: [prótesis vocálica](notas.md#b16)  
+    - (42) τί**σειαν**: [optativo desiderativo sin partícula](notas.md#t5): τίνω, τίν-σαι-εν > τίν-**σειαν**.  
+    - **βέλεσσιν**: β**α**λ-yω > βαλλω, β**ο**λ-ή, β**έ**λος/βέλεσ-σιν > βέλε**σ**-**σ**ιν > βέλε**σ**ιν  
 
 ---
 
@@ -221,26 +263,51 @@ NOTAS
 NOTAS
   
 - (43) **ἔφατ'**: [φημί](notas.md#o7)  
-- (44) **Οὐλύμποιο**: [alargamiento métrico](notas.md#b7)  
-- (44) **κῆρ**: acus. de relación o de parte, "en su corazón".  
-- (45) **τόξ'(α)**: el arco (plural poético) y el carcaj con tapadera por ambas partes (ἀμφι-).  
-- (45) **ὤμοισιν**: [dativo](notas.md#r2)  
+- (44) **Οὐλύμποιο**: [alargamiento métrico](notas.md#b7)
+- **κατ' Οὐλύμποιο καρήνων**:  'desde (lo alto de) las cimas del Olimpo'.
+- **κῆρ**: acus. de relación o de parte, "en su corazón": (a) act. 'A encoleriza a B (ac. todo) su corazón C (ac. parte)'; (b) pas. 'B es/está encolerizado en C (ac. parte)'
+- (45) **τόξ'(α)**: el arco (plural poético).
+- **ἀμφηρεφέα**:  el carcaj con tapadera (ἐρέφω 'cubrir') por ambas partes (ἀμφι-): ἐρέφω > ἀμφ-**η**ρεφ-ής, ές, ac. ἀμφ-ηρεφ-έσ-α > ἀμφ-ηρεφ-**έ**-**α** > át. ἀμφ-ηρεφ-**ῆ**.
+- **ὤμοισιν**: [dativo](notas.md#r2)  
 - (46) **ἄρ'**: [partículas](notas.md#m3).  
-- (46) χωομέν**οιο**: se refiere a Apolo: «sonaban las flechas sobre los hombros (de Apolo) (Ἀπόλλων-**ος**), que estaba encolerizado (χωομέν-**οιο**)».  
+- (46) χωομέν**οιο**: se refiere a Apolo: (a) «sonaban las flechas sobre los hombros (de Apolo) (Ἀπόλλων-**ος**), que estaba encolerizado (χωομέν-**οιο**)»; (b) 'del encolerizado (dios)'.  
+- (47) **αὐτοῦ κινηθέντος**: puede ser aposición al posesivo («de él, que se estaba moviendo») o genitivo absoluto ('al moverse').  
 - (47) **ἤϊε**: [εἶμι](notas.md#o2)  
-- (47) **νεῶν**: [ναῦς](notas.md#i10)  
-- (47) **νυκτὶ ἐοικώς**: «igual a la noche» porque estaba como negro de ira.  
-- (46) **αὐτοῦ κινηθέντος**: puede ser aposición al posesivo («de él, que se estaba moviendo») o genitivo absoluto («mientras él se estaba moviendo»).  
-- (48) **ἕηκε**: [ἵημι](notas.md#o6); [temas](verbo.md#60-ἵημι)  
-- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7)  
+- **νεῶν**: [ναῦς](notas.md#i10)  
+- **νυκτὶ ἐοικώς**: «igual a la noche» porque estaba como negro de ira. ϝεικ-ω > εἰκω, ϝε-ϝοικ-α > ἔοικ-α 'parecer(se)'.
+- (48) **μετὰ ... ἕηκε**: [tmesis](notas.md#) [ἵημι](notas.md#o6); [temas](verbo.md#60-ἵημι)
+- (49) **ἀργυρέοιο βιοῖο**: genitivo de origen sin preposición.
+- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7): **ὀ**ρεύς > Ion. **οὐ**ρεύς, [-ευς](notas.md#i9)  
 - (51) **αὐτοῖσι**: a los hombres, en contraste con los mulos y perros.  
-- (51) **ἐχεπευκές**: el adjetivo (sólo en este verso y en IV 129) es un compuesto con primer elemento verbal ἐχε- y *πεῦκος, tema en -s no atestiguado, pero evidentemente relacionado con πεύκη "pino"; propiamente describía una flecha con vastago de pino (y punta de bronce, ver ὀϊστός en el glosario); se trata de un singular colectivo, pues Apolo no lanzó sólo una flecha.  
+- **ἐχεπευκές**: el adjetivo (sólo en este verso y en IV 129) es un compuesto con primer elemento verbal ἐχε- y *πεῦκος, tema en -s no atestiguado, pero evidentemente relacionado con πεύκη "pino"; propiamente describía una flecha con vastago de pino (y punta de bronce, ver ὀϊστός en el glosario); se trata de un singular colectivo, pues Apolo no lanzó sólo una flecha.  
 - (52) **βάλλ'(ε)**: imperfecto durativo; sobre la incineración de cadáveres ver §9c.[βάλλω](verbo.md#24-βάλλω)  
 - (53) **Ἐννῆμαρ**: [neutros en -r-/-t-](notas.md#i6)  
 - (54) **τῇ δεκάτῃ**: aunque en el verso anterior el aedo ha usado el neutro ἦμαρ, que es arcaísmo, aquí está pensando en ἡμέρη, que es la forma usual en jonio; como se ve, la asamblea podía ser convocada no sólo por el soberano, sino por uno de los γέροντες (ver glosario).  
 - (54) **καλέσσατο**: [Αlternancia σ/σσ](notas.md#e1); [καλέω](Verbos/kalew.png).  
 - (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.  
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
+
+```mermaid
+
+graph TB
+
+A("ἔκλαγξαν δ' ἄρ' ὀϊστοὶ ἐπ' ὤμων χωομένοιο, αὐτοῦ κινηθέντος")
+  node_1["Verbo"]
+  node_2["ἔκλαγξαν<br>sonaron"]
+  node_3["Sujeto"]
+  node_4["ὀϊστοὶ<br>(las) flechas"]
+  node_5["ἐπ#39; ὤμων<br>(situadas) sobre los hombros"]-->node_51("χωομένοιο<br>del encolerizado (dios)")
+  node_6["Genitivo absoluto"]
+  node_7["αὐτοῦ κινηθέντος<br>tras ponerse en movimiento"]
+  A --> node_1
+  node_1 --> node_2
+  A --> node_3
+  node_3 --> node_4
+  node_4 --> node_5
+  A --> node_6
+  node_6 --> node_7
+
+```
 
 !["Apolo, el que hiere de lejos"](Imagenes/Niobid_Krater_detail.jpeg)  
 
@@ -651,7 +718,7 @@ NOTAS
 |185|αὐτὸς ἰὼν κλισίην δὲ τὸ σὸν γέρας ὄφρ' ἐῢ εἰδῇς|
 |186|ὅσσον φέρτερός εἰμι σέθεν, στυγέῃ δὲ καὶ ἄλλος|
 |187|ἶσον ἐμοὶ φάσθαι καὶ ὁμοιωθήμεναι ἄντην.»|
-  
+
 **NOTAS:**
 
 - (173) **μάλα**: únase al imperativo que precede, al que presta vigor; precisamente para no incurrir en el posible reproche de haber huido, Aquiles no se aleja de Troya, sino que, apartado del combate, permanece en sus naves.  
@@ -678,9 +745,9 @@ NOTAS
 - (187) **φάσθαι**: [φημί](notas.md#o7)  
 - (187) **ὁμοιωθή-μεναι**: [infinitivo](notas.md#o40)  
 
-![](Imagenes/Briseida_Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
+![xxx](Imagenes/Briseida_Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
 
-[Ánfora ática de figuras rojas (±ca. 520-510 a.C.): *Briseida oliendo una flor*](https://commons.wikimedia.org/wiki/File:Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
+[Ánfora ática de figuras rojas (±ca. 520-510 a.C.): _Briseida oliendo una flor_](https://commons.wikimedia.org/wiki/File:Oltos_ARV_54_4_Achilles_and_Briseis_(03).jpg)
 
 ---
 
@@ -858,7 +925,6 @@ NOTAS
 - (241) **ἂν**: [temporales](notas.md#u4)  
 - (243) ἔνδο**θι**: [-θι](notas.md#j5)  
 - (244) **τ'**: [causales](notas.md#u8); [completivas declarativas](notas.md#u9)  
-
 - (228) **τὸ**: "eso".  
 
 ---
@@ -867,9 +933,9 @@ NOTAS
 
 ![Aquiles entrega a Briseida](https://upload.wikimedia.org/wikipedia/commons/3/31/Achilles_Briseis_MAN_Napoli_Inv9105_n01.jpg)
 
+![xxx](Imagines/../Imagenes/Briseida_Abduction_of_Briseis_(BSB_Pap._graec._mon._128).jpg)
 
-![](Imagines/../Imagenes/Briseida_Abduction_of_Briseis_(BSB_Pap._graec._mon._128).jpg)
-[Bayerische Staatsbibliothek pap. gr. 128: papiro (s. IV d.C.): Taltibio y Euríbates se llevan a Briseida]()
+[Bayerische Staatsbibliothek pap. gr. 128: papiro (s. IV d.C.): Taltibio y Euríbates se llevan a Briseida](https://iiif.biblissima.fr/collections/manifest/234a65d8401d6bd09019f69e47f919e5c707cc66)
 
 ![un heraldo lleva a Briseida a Agamenón o de vuelta a Aquiles](Imagenes/Briseis_Painter_ARV_406_1_seated_old_man_an_man_-_Briseis_led_away_from_and_back_to_Achilles_(03).jpg)
 
@@ -878,7 +944,7 @@ NOTAS
 [Museo Británico: vaso (cílice) de figuras rojas (±485-480 a.C.): un heraldo lleva a Briseida a Agamenón o de vuelta a Aquiles](https://commons.wikimedia.org/wiki/User:ArchaiOptix)
 
 [MFA de Boston](https://collections.mfa.org/objects/153661/mixing-bowl-calyx-krater-with-the-killing-of-agamemnon)
-<!--
+
 o28 o28 
 
 o29

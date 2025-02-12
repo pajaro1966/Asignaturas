@@ -39,6 +39,7 @@ nav:
       - 'Nombres y epítetos': 'nombres_Homer.md'
       - 'Notas': 'notas.md'
       - 'Referencias': 'referencias.md'
+      - 'Sintaxis': 'Homero_Sintax.md' 
       - 'Términos homéricos': 'terminos_Homer.md'
     - Textos:
       - 'Ilíada': 'textos.md'

@@ -16,6 +16,9 @@
 Οι γονείς τους κάθονται κοντά {1:SHORTANSWER:=τους.} (αυτοί)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους.</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -33,6 +36,9 @@
 - Τι βλέπεις γύρω {1:SHORTANSWER:=σου} ; - Φίλους και φίλες. (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -50,6 +56,9 @@
 Το μαγαζί του αδελφού μου είναι απέναντι {1:SHORTANSWER:=σας} . (εσείς)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σας</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -67,6 +76,9 @@
 - Τι νιώθει μέσα {1:SHORTANSWER:=του} αυτός ο άνθρωπος; - Ποιος ξέρει; (αυτός)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">του</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -84,6 +96,9 @@
 Έγινε χθες ένα δυστύχημα πλάι {1:SHORTANSWER:=μας} . (εμείς)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μας</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -101,6 +116,9 @@
 Ο φίλος μου μένει μαζί {1:SHORTANSWER:=μου} . (εγώ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -118,6 +136,9 @@
 - Ποιος κάθεται μπροστά {1:SHORTANSWER:=σου} , ο Πέτρος ή ο Γιώργος; - Και οι δύο. (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -135,6 +156,9 @@
 Φύγε, σε παρακαλώ, μακριά {1:SHORTANSWER:=μου} . (εγώ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -152,6 +176,9 @@
 Προσέχετε, πίσω {1:SHORTANSWER:=σας} είναι ένα αυτοκίνητο.  (εσείς)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σας</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -169,6 +196,9 @@
 Πρόσεξε, θα χύσεις τον καφέ πάνω {1:SHORTANSWER:=σου} . (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -186,6 +216,9 @@
 Κοίταξε, δίπλα {1:SHORTANSWER:=τους} κάθεται μια γνωστή μας κυρία. (αυτοί)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -203,6 +236,9 @@
 Αριστερά {1:SHORTANSWER:=του} βλέπω ένα άδειο τραπέζι. (αυτός)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">του</p>]]></text>
+    </generalfeedback>
     </question>
 
 

@@ -41,6 +41,7 @@ nav:
       - 'Referencias': 'referencias.md'
       - 'Sintaxis': 'Homero_Sintax.md' 
       - 'Términos homéricos': 'terminos_Homer.md'
+      - 'Verbos': 'verbo.md'
     - Textos:
       - 'Ilíada': 'textos.md'
       - 'Odisea': 'text_Odisea.md'

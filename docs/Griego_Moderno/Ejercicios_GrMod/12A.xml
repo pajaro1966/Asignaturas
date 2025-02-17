@@ -13,9 +13,12 @@
         <questiontext format="html">
             <text><![CDATA[
 <h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας που είναι στην παρένθεση</h6>        
-{1:SHORTANSWER:=Tου} αγοράζω εφημερίδες (αυτός)
+{1:SHORTANSWER:=Του} αγοράζω εφημερίδες (αυτός)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Του</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -33,6 +36,9 @@
 Ο πατέρας μου {1:SHORTANSWER:=μου} δίνει λεφτά κάθε βδομάδα (εγώ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -50,6 +56,9 @@
 Ο φίλος μου {1:SHORTANSWER:=τους} είπε τα νέα. (αυτοί)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -67,6 +76,9 @@
 Δεν {1:SHORTANSWER:=της} άρεσε αυτό το βιβλίο. (αυτή)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">της</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -84,6 +96,9 @@
 {1:SHORTANSWER:=Τους} πάνε τα μαύρα (αυτές)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -101,6 +116,9 @@
 Η Αλίκη {1:SHORTANSWER:=τους} είπε μια ωραία ιστορία (αυτά)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -118,6 +136,9 @@
 Δεν {1:SHORTANSWER:=του} αρέσεις, γιατί είσαι πολύ ψηλή (αυτός)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">του</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -135,6 +156,9 @@
 - Ποιος {1:SHORTANSWER:=σου} χάρισε αυτή την μπλούζα; - Η αδελφή μου (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -152,6 +176,9 @@
 - Πότε λέει ότι {1:SHORTANSWER:=μας} έστειλε την επιταγή; - Την περασμένη εβδομάδα. (εμείς)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μας</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -169,6 +196,9 @@
 {1:SHORTANSWER:=Σου} άφησα φαγητό πάνω στο τραπέζι (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -186,6 +216,9 @@
 {1:SHORTANSWER:=Μου} είπε ότι δε {1:SHORTANSWER:=μου} πάει αυτό το χτένισμα (εγώ, εγώ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μου, μου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -203,6 +236,9 @@
 - {1:SHORTANSWER:=Τους} αρέσει ο κρύος καφές; - Νομίζω ναι. (αυτοί)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -220,6 +256,9 @@
 Δεν {1:SHORTANSWER:=τους} αρέσουν αυτά τα γυαλιά. (αυτές)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -234,9 +273,12 @@
         <questiontext format="html">
             <text><![CDATA[
 <h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας που είναι στην παρένθεση</h6>        
-Δεν {1:SHORTANSWER:=της} αρέσει αυτό το φόρεμα, γιατί είναι κόκκινο, και τα κόκκινα δεν {1:SHORTANSWER:=της} . (αυτή, αυτή)
+Δεν {1:SHORTANSWER:=της} αρέσει αυτό το φόρεμα, γιατί είναι κόκκινο, και τα κόκκινα δεν {1:SHORTANSWER:=της} πάνε. (αυτή, αυτή)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">της, της</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -254,6 +296,9 @@
 Δεν {1:SHORTANSWER:=τους} πάει το καφέ χρώμα. (αυτά)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -271,6 +316,9 @@
 - Έβαψα τα μαλλιά μου. {1:SHORTANSWER:=Σου} αρέσω; - Καλά είναι.  (εσύ)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -288,6 +336,9 @@
 -  {1:SHORTANSWER:=Σας} αρέσουν τα γαλλικά; - Πολύ. (εσείς)
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σας</p>]]></text>
+    </generalfeedback>
     </question>
 
 

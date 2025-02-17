@@ -16,14 +16,22 @@
 
 ---
 
-## 94: Pronombres personales/έρχομαι
+## 94: Pronombres personales (CD/CI)/έρχομαι
 
 ![Página 94](Metodo/Textbook_Pagina_094.png)
+
+![Página 94](Metodo/Textbook_Pagina_094_Tabla.png)
+
+### Pronombres
+
+![Página 94](Metodo/Textbook_Pagina_094_Pronombres.png)
+
 ---
 
 ## 95: Ejercicios/expresiones idiomáticas
 
 ![Página 95](Metodo/Textbook_Pagina_095.png)
+
 ---
 
 ## 96: Expresiones idiomáticas

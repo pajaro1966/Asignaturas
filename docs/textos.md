@@ -267,23 +267,28 @@ NOTAS
 - **κατ' Οὐλύμποιο καρήνων**:  'desde (lo alto de) las cimas del Olimpo'.
 - **κῆρ**: acus. de relación o de parte, "en su corazón": (a) act. 'A encoleriza a B (ac. todo) su corazón C (ac. parte)'; (b) pas. 'B es/está encolerizado en C (ac. parte)'
 - (45) **τόξ'(α)**: el arco (plural poético).
-- **ἀμφηρεφέα**:  el carcaj con tapadera (ἐρέφω 'cubrir') por ambas partes (ἀμφι-): ἐρέφω > ἀμφ-**η**ρεφ-ής, ές, ac. ἀμφ-ηρεφ-έσ-α > ἀμφ-ηρεφ-**έ**-**α** > át. ἀμφ-ηρεφ-**ῆ**.
+- **ἀμφηρεφέα**:  el carcaj 'con tapadera (ἐρέφω 'cubrir') por ambas partes (ἀμφι-)': ἐρέφω > ἀμφ-**η**ρεφ-ής, ές, ac. ἀμφ-ηρεφ-έσ-α > ἀμφ-ηρεφ-**έ**-**α** > át. ἀμφ-ηρεφ-**ῆ**.
 - **ὤμοισιν**: [dativo](notas.md#r2)  
 - (46) **ἄρ'**: [partículas](notas.md#m3).  
 - (46) χωομέν**οιο**: se refiere a Apolo: (a) «sonaban las flechas sobre los hombros (de Apolo) (Ἀπόλλων-**ος**), que estaba encolerizado (χωομέν-**οιο**)»; (b) 'del encolerizado (dios)'.  
 - (47) **αὐτοῦ κινηθέντος**: puede ser aposición al posesivo («de él, que se estaba moviendo») o genitivo absoluto ('al moverse').  
 - (47) **ἤϊε**: [εἶμι](notas.md#o2)  
 - **νεῶν**: [ναῦς](notas.md#i10)  
-- **νυκτὶ ἐοικώς**: «igual a la noche» porque estaba como negro de ira. ϝεικ-ω > εἰκω, ϝε-ϝοικ-α > ἔοικ-α 'parecer(se)'.
+- **νυκτὶ ἐοικώς**: «igual a la noche» porque estaba como negro de ira. ϝείκ-ω > εἴκω, ϝέ-ϝοικ-α > ἔοικ-α 'parecer(se)'.
 - (48) **μετὰ ... ἕηκε**: [tmesis](notas.md#) [ἵημι](notas.md#o6); [temas](verbo.md#60-ἵημι)
 - (49) **ἀργυρέοιο βιοῖο**: genitivo de origen sin preposición.
-- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7): **ὀ**ρεύς > Ion. **οὐ**ρεύς, [-ευς](notas.md#i9)  
+- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7): **ὀ**ρεύς > Ion. **οὐ**ρεύς, [-ευς](notas.md#i9): ὀρ**ῆ**(ϝ)-**ᾰ** > ὀρ**ῆ**-**ᾰ** >	ὀρ**έ**-**ᾱ**.
+  
 - (51) **αὐτοῖσι**: a los hombres, en contraste con los mulos y perros.  
+- **ἐφιεὶς**: ἐφ-(σ)ι-(σ)ε-ντ-ς > ἐφ-(σ)ι-(σ)**ει**-ς
 - **ἐχεπευκές**: el adjetivo (sólo en este verso y en IV 129) es un compuesto con primer elemento verbal ἐχε- y *πεῦκος, tema en -s no atestiguado, pero evidentemente relacionado con πεύκη "pino"; propiamente describía una flecha con vastago de pino (y punta de bronce, ver ὀϊστός en el glosario); se trata de un singular colectivo, pues Apolo no lanzó sólo una flecha.  
-- (52) **βάλλ'(ε)**: imperfecto durativo; sobre la incineración de cadáveres ver §9c.[βάλλω](verbo.md#24-βάλλω)  
+- (52) **βάλλ'(ε)**: imperfecto durativo; [βάλλω](verbo.md#24-βάλλω): (a) 'βάλλω A (nom) lanza B (ac.) a C (dat.)'; (b) 'βάλλω A (nom) alcanzar C (ac.) a B (dat.)'.
+- **αἰεὶ**: 'contiuamente'.
+- **καίοντο**: (ἐ)καί-ο-ντο (a) act. 'A (nom.) quema (καί-ει) B (ac.)'; (b) 'B (nom.) arde  (καί-ε-ται)'. Sobre la incineración de cadáveres ver §9c.
 - (53) **Ἐννῆμαρ**: [neutros en -r-/-t-](notas.md#i6)  
-- (54) **τῇ δεκάτῃ**: aunque en el verso anterior el aedo ha usado el neutro ἦμαρ, que es arcaísmo, aquí está pensando en ἡμέρη, que es la forma usual en jonio; como se ve, la asamblea podía ser convocada no sólo por el soberano, sino por uno de los γέροντες (ver glosario).  
-- (54) **καλέσσατο**: [Αlternancia σ/σσ](notas.md#e1); [καλέω](Verbos/kalew.png).  
+- (54) **τῇ δεκάτῃ**: aunque en el verso anterior el aedo ha usado el neutro ἦμαρ, que es arcaísmo, aquí está pensando en ἡμέρη, que es la forma usual en jonio; como se ve, la asamblea podía ser convocada no sólo por el soberano, sino por uno de los γέροντες (ver glosario).
+- **ἀγορὴν δὲ**: = ἀγορήν-δε adv. de dirección 'llamó a asamblea'.
+- **καλέσσατο**: [Αlternancia σ/σσ](notas.md#e1); [καλέω](Verbos/kalew.png).  
 - (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.  
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
 
@@ -298,7 +303,7 @@ A("ἔκλαγξαν δ' ἄρ' ὀϊστοὶ ἐπ' ὤμων χωομένο�
   node_4["ὀϊστοὶ<br>(las) flechas"]
   node_5["ἐπ#39; ὤμων<br>(situadas) sobre los hombros"]-->node_51("χωομένοιο<br>del encolerizado (dios)")
   node_6["Genitivo absoluto"]
-  node_7["αὐτοῦ κινηθέντος<br>tras ponerse en movimiento"]
+  node_7["αὐτοῦ κινηθέντος<br>al ponerse en movimiento"]
   A --> node_1
   node_1 --> node_2
   A --> node_3

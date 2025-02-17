@@ -16,6 +16,9 @@
 Έδωσα <b>στους φίλους μου</b> τα λεφτά => {1:SHORTANSWER:=Τους} έδωσα τα λεφτά. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -33,6 +36,9 @@
 Τηλεφωνώ <b>στη μητέρα μου</b> κάθε μέρα => {1:SHORTANSWER:=Της} τηλεφωνώ κάθε μέρα. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Της</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -50,6 +56,9 @@
 Χρωστώ στις κοπέλες 100 ευρώ => {1:SHORTANSWER:=Τους} χρωστώ 100 ευρώ. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -68,6 +77,9 @@
  
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -85,6 +97,9 @@
 Χάρισα <b>του Γιώργου</b> αυτή τη φωτογραφία. =>  {1:SHORTANSWER:=Του} χάρισα αυτή τη φωτογραφία. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Του</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -102,6 +117,9 @@
 Έστειλα κάρτες <b>στην κυρία Αντωνίου και στην κυρία Παπά</b> => {1:SHORTANSWER:=Τους} έστειλα κάρτες. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -119,6 +137,9 @@
 Ο τροχονόμος παίρνει <b>από τον Τάσο</b> τα στοιχεία του. => Ο τροχονόμος {1:SHORTANSWER:=του} παίρνει τα στοιχεία του. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">του</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -133,9 +154,12 @@
         <questiontext format="html">
             <text><![CDATA[
 <h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
-Μαθαίνω ελληνικά <b>σ' αυτούς τους φοιτητές</b>.  {1:SHORTANSWER:=Τους} μαθαίνω ελληνικά. 
+Μαθαίνω ελληνικά <b>σ' αυτούς τους φοιτητές</b>. =>  {1:SHORTANSWER:=Τους} μαθαίνω ελληνικά. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -153,6 +177,9 @@
 Πρόσφερα πορτοκαλάδα <b>στα παιδιά</b> χθες το βράδυ. =>  {1:SHORTANSWER:=Τους} πρόσφερα πορτοκαλάδα χθες το βράδυ. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -170,6 +197,9 @@
 Αγοράζω εφημερίδες <b>γι' αυτούς</b> κάθε μέρα. => {1:SHORTANSWER:=Τους} αγοράζω εφημερίδες κάθε μέρα. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -187,6 +217,9 @@
 Λέμε σ' αυτές ανέκδοτα. => {1:SHORTANSWER:=Τους} λέμε ανέκδοτα. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -204,6 +237,9 @@
 Έδωσα στην Ειρήνη ένα εισιτήριο για το θέατρο. => {1:SHORTANSWER:=Της} έδωσα ένα εισιτήριο για το θέατρο. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Της</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -221,6 +257,9 @@
 Γιατί είπες ψέματα <b>σ' εμένα</b>; => Γιατί {1:SHORTANSWER:=μου} είπες ψέματα; 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -238,6 +277,9 @@
 Μαθαίνει <b>σ' εμάς</b> γαλλικά. => {1:SHORTANSWER:=Μας} μαθαίνει γαλλικά. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μας</p>]]></text>
+    </generalfeedback>
     </question>
 
     <question type="category">
@@ -255,6 +297,9 @@
 Φέρνει <b>για σας</b> το φαγητό. => {1:SHORTANSWER:=Σας} φέρνει το φαγητό. 
             ]]></text>
         </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σας</p>]]></text>
+    </generalfeedback>
     </question>
 
 

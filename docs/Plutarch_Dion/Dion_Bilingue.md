@@ -202,6 +202,11 @@
 |   | *Pues las cadenas de acero no son, como su padre decía, el miedo, la fuerza y la multitud de naves, ni una guardia de diez mil bárbaros, sino la benevolencia, el afecto y la generosidad que nacen de la virtud y la justicia, cosas que, siendo más blandas que aquellas otras rígidas y duras, resultan más firmes para 5 el mantenimiento del poder.* |
 | 66. | **5 χωρὶς δὲ τούτων ἀφιλότιμον εἶναι καὶ ἄζηλον τὸν ἄρχοντα, τῷ μὲν σώματι περιττῶς ἀμπεχόμενον καὶ τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ λαμπρυνόμενον, ὁμιλίᾳ δὲ καὶ λόγῳ μηδὲν ὄντα τοῦ προστυχόντος σεμνότερον, μηδὲ τῆς ψυχῆς τὸ βασίλειον ἀξιοῦντα κεκοσμημένον ἔχειν βασιλικῶς καὶ πρεπόντως.** |
 |   | *Además, no recibe consideración ni es digno de envidia el gobernante que viste su cuerpo con exceso y hace brillar con esplendor y lujo su casa, pero en el trato y la conversación no es más digno que cualquier otro ni desea tener la regia morada de su alma adornada majestuosa y convenientemente.* |
+
+## 11
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 67. | **** |
 |   | *Segundo viaje de Platón a Sicilia (367 a. C.)* |
 | 68. | **11.1 ταῦτα πολλάκις τοῦ Δίωνος παραινοῦντος, καὶ τῶν λόγων τοῦ Πλάτωνος ἔστιν οὕστινας ὑποσπείροντος, ἔσχεν ἔρως τὸν Διονύσιον ὀξὺς καὶ περιμανὴς τῶν τε λόγων καὶ τῆς συνουσίας τοῦ Πλάτωνος.** |
@@ -220,12 +225,22 @@
 |   | *Pero cuando Leptines, que tenía dos hijas de una mujer con la que se había casado tras seducirla cuando estaba unida a otro, le dio una a Filisto, sin decirle nada a Dionisio, el tirano, irritado, a la mujer [de Leptine~]la~ e~n cerró atada con grillos y a Filisto lo hizo salir de Sicilia, exiliado junto a unos huéspedes en el Adriático, donde parece que compuSO la mayor parte de su Historia en su tiempo libre.* |
 | 75. | **7 οὐ γὰρ ἐπανῆλθε τοῦ πρεσβυτέρου ζῶντος, ἀλλὰ μετὰ τὴν ἐκείνου τελευτήν, ὥσπερ εἴρηται, κατήγαγεν paris.1624.963 αὐτὸν ὁ πρὸς Δίωνα τῶν ἄλλων φθόνος, ὡς αὐτοῖς τε μᾶλλον ἐπιτήδειον ὄντα καὶ τῇ τυραννίδι βεβαιότερον.** |
 |   | *Así pues, no se le hizo volver del destierro mientras vivió Dionisio el Viejo, sino que tras la muerte de aquél, según he dicho, lo trajo la envidia hacia Dión, en la idea de que les sería muy útil a ellos y un apoyo firme para la tiranía.* |
+
+## 12
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 76. | **12.1 οὗτος μὲν οὖν εὐθὺς κατελθὼν διεπεφύκει τῆς τυραννίδος τῷ δὲ Δίωνι καὶ παρʼ ἄλλων ἐτύγχανον οὖσαι διαβολαὶ καὶ κατηγορίαι πρός τὸν τύραννον, ὡς διειλεγμένῳ περὶ καταλύσεως τῆς ἀρχῆς πρός τε Θεοδότην καὶ πρός Ἡρακλείδην.** |
 |   | *Éste, nada más volver, se adhirió a la tiranía. Otros continuaron con las calumnias y acusaciones contra Dión ante el tirano, afumando que había m a d o la ruina del régimen con Teodotes y Hera~lide* |
 | 77. | **2 ἤλπιζε μὲν γὰρ, ὡς ἔοικε, διὰ Πλάτωνος παραγενομένου τὸ δεσποτικὸν καὶ λίαν ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·** |
 |   | *D~e~ h. echo, Dión tenía la esperanza, según parece, de aprovechar la presencia de Platón para eliminar de la tiranía lo despótico y demasiado violento y convertir a Dionisio en un gobernante medido y justo.* |
 | 78. | **3 εἰ δὲ p.26 ἀντιβαίνοι καὶ μὴ μαλάσσοιτο, καταλύσας ἐκεῖνον ἐγνώκει τὴν πολιτείαν ἀποδιδόναι Συρακουσίοις, οὐκ ἐπαινῶν μὲν δημοκρατίαν, πάντως δὲ βελτίω τυραννίδος ἡγούμενος τοῖς διαμαρτάνουσιν ὑγιαινούσης ἀριστοκρατίας.** |
 |   | *Pero si se resistía y no se 3 ablandaba, había resuelto eliminarlo y devolver el gobierno a los sir acusa no^^^, no porque aprobase la democracia, sino porque la consideraba absolutamente mejor que una tiranía para los que no aciertan a dar con una aristocracia sana.* |
+
+## 13
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 79. | **13.1 ἐν τοιαύτῃ δὲ καταστάσει τῶν πραγμάτων ὄντων Πλάτων εἰς Σικελίαν ἀφικόμενος περὶ μὲν τὰς πρώτας ἀπαντήσεις θαυμαστῆς ἐτύγχανε φιλοφροσύνης καὶ τιμῆς.** |
 |   | *Estando así las cosas llegó Platón a Sicilia4', recibiendo, en 13 los primeros encuentros, una admirable buena disposición y consideración.* |
 | 80. | **2 καὶ γὰρ ἅρμα τῶν βασιλικῶν αὐτῷ παρέστη κεκοσμημένον διαπρεπῶς ἀποβάντι τῆς τριήρους, καὶ θυσίαν ἔθυσεν ὁ τύραννος ὡς εὐτυχήματος μεγάλου τῇ ἀρχῇ προσγεγονότος.** |
@@ -239,6 +254,11 @@
 | 84. | **6 τοῦτο κομιδῇ τοὺς περὶ τὸν Φίλιστον ἐλύπησεν, ἄμαχόν τινα τοῦ Πλάτωνος ἡγουμένους ἔσεσθαι χρόνῳ καὶ συνηθείᾳ τὴν δύναμιν, εἰ νῦν ἐκ συνουσίας ὀλίγης ἠλλοίωκεν οὕτω καὶ μεταβέβληκε τὴν γνώμην τὸ μειράκιον.** |
 |   | *Esto afligió mucho a Filisto y los suyos, que creían que, si tras una breve convivencia había cambiado y transformado tanto el pensamiento del muchacho, con el tiempo y el trato el poder de Platón iba a ser invencible.* |
 | 85. | **** |
+
+## 14
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 |   | *Exilio de Dión* |
 | 86. | **p.28.14.1 οὐκέτʼ οὖν καθʼ ἕνα καὶ λαθραίως, ἀλλὰ πάντες ἀναφανδὸν ἐλοιδόρουν τὸν Δίωνα, λέγοντες ὡς οὐ λέληθε κατεπᾴδων καὶ καταφαρμάσσων τῷ Πλάτωνος λόγῳ Διονύσιον, ὅπως ἀφέντος ἑκουσίως αὐτοῦ καὶ προεμένου τὴν ἀρχὴν ὑπολαβὼν εἰς τοὺς Ἀριστομάχης περιστήσῃ παῖδας, ὧν θεῖός ἐστιν.** |
 |   | *Entonces, ya no de uno en uno y secretamente, sino todos y de forma manifiesta injuriaban a Dión, diciendo que no se le escapaba a nadie que hechizaba y envenenaba a Dionisio con las palabras de Platón para que éste abandonase voluntariamente y abdicase, momento en el que él tomaría el poder y lo pasaría a los hijos de 2 Aristómaca51, de los que era tío.* |
@@ -252,6 +272,11 @@
 |   | *con pretextos muy medidos y diciéndole que se había acabado la enemistad, lo llevó a él solo al pie de la ciudadela, junto al mar, le mostró la carta y lo acusó de conspirar con los cartagineses contra él.* |
 | 91. | **7 ἀπολογεῖσθαι δὲ βουλομένου τοῦ Δίωνος οὐκ ἀνασχόμενος, ἀλλʼ εὐθὺς, ὡς εἶχεν, ἐνθέμενος εἰς ἀκάτιον προσέταξε τοῖς ναύταις κομίζοντας αὐτὸν ἐκθεῖναι πρὸς τὴν Ἰταλίαν.** |
 |   | *Aunque Dión quería 7 defenderse, no se lo permitió y, rápidamente, tal como estaba, tras embarcarlo en una pequeña nave, ordenó a los marineros que lo acompañaran y lo dejaran en las costas de Italias6.* |
+
+## 15
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 92. | **15.1 γενομένου δὲ τούτου καὶ φανέντος ὠμοῦ τοῖς ἀνθρώποις, τὴν μὲν οἰκίαν τοῦ τυράννου πένθος εἶχε διὰ τὰς γυναῖκας, ἡ δὲ πόλις τῶν Συρακουσίων ἐπῆρτο πράγματα νεώτερα καὶ μεταβολὴν προσδεχομένη ταχεῖαν ἐκ τοῦ περὶ Δίωνα θορύβου καὶ τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων.** |
 |   | *Tras este suceso, cruel a los ojos de la gente, se apoderó de 1s la casa del tiranoel lamento de las mujeres. La ciudad de Siracusa estaba inquieta, esperando novedades y un rápido cambio nacido del revuelo provocado por el asunto de Dión y de la desconfianza del resto hacia el tirano.* |
 | 93. | **2 ἃ δὴ συνορῶν ὁ Διονύσιος καὶ δεδοικώς, τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης, ὡς μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν αὐτοῦ παρόντος ἁμαρτεῖν βιασθείη·** |
@@ -262,6 +287,11 @@
 |   | *Dión tenía una gran fortuna y una pompa y un ajuar en su casa casi propio de un tirano, todo lo cual sus amigos recogieron y le llevaron.* |
 | 96. | **5 ἄλλα δʼ ἐπέμπετο πολλὰ παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων, ὥστε χρημάτων ἕνεκα καὶ πλούτου λαμπρὸν ἐν τοῖς Ἕλλησιν εἶναι καὶ διαφανῆναι τῇ τοῦ φυγάδος εὐπορίᾳ τὴν τῆς τυραννίδος δύναμιν.** |
 |   | *También le enviaron muchas otras cosas las mujeres y sus amigos, de manera que por estos bienes y riqueza brilló entre los griegos y se dejaba ver a través de la abundancia del exiliado el poder de la tiranía.* |
+
+## 16
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 97. | **16.1 Πλάτωνα δὲ Διονύσιος εὐθὺς μὲν εἰς τὴν ἀκρόπολιν μετέστησεν, ἔντιμον αὐτῷ σχήματι p.32 ξενίας φιλανθρώπου φρουρὰν μηχανησάμενος, ὡς μὴ συμπλέοι Δίωνι μάρτυς ὧν ἠδίκητο.** |
 |   | *En cuanto a PlatÓn5', Dionisio rápidamente lo trasladó a la acrópolis, disponiendo con astucia para él una guardia bajo pretexto de generosa hospitalidad, de modo que no pudiera embarcarse con Dión como testigo de las injusticias sufridas.* |
 | 98. | **2 χρόνῳ δὲ καὶ συνδιαιτήσει, καθάπερ ψαύειν ἀνθρώπου θηρίον, ἐθισθεὶς ὑπομένειν τήν τε[*] ὁμιλίαν αὐτοῦ καὶ τὸν λόγον, ἠράσθη τυραννικὸν ἔρωτα, μόνος ἀξιῶν ὑπὸ Πλάτωνος ἀντερᾶσθαι καὶ θαυμάζεσθαι μάλιστα πάντων, ἕτοιμος ὢν ἐπιτρέπειν τὰ πράγματα καὶ τὴν τυραννίδα μὴ προτιμῶντι τὴν πρὸς Δίωνα φιλίαν τῆς πρὸς αὐτόν,** |
@@ -274,6 +304,11 @@
 |   | *No tardó mucho en faltar a 5 esta promesa, aunque le envió a Dión las rentas de sus propiedades, pidiéndole a Platón que lo excusara por el retraso debido a la guerra:* |
 | 102. | **6 εἰρήνης γὰρ γενομένης τάχιστα μεταπέμψεσθαι τὸν Δίωνα, καὶ ἀξιοῦν αὐτὸν ἡσυχίαν ἄγειν καὶ μηδὲν νεωτερίζειν μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας.** |
 |   | *en cuanto la paz llegara, haría volver rápidamente a 6 Dión, y le pedía que estuviese tranquilo, no maquinara revueltas y no hablara mal de él entre los griegos.* |
+
+## 17
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 103. | **17.1 ταῦτα ἐπειρᾶτο ποιεῖν Πλάτων, καὶ Δίωνα τρέψας ἐπὶ φιλοσοφίαν ἐν Ἀκαδημείᾳ συνεῖχεν.** |
 |   | *Platón se esforzaba por cumplir estas órdenes y encaminó a 17 Dión hacia la filosofía acogiéndolo en la Academia.* |
 | 104. | **2 ᾤκει μὲν οὖν ἐν ἄστει παρὰ Καλλίππῳ τινὶ τῶν γνωρίμων, ἀγρὸν δὲ διαγωγῆς p.34 χάριν ἐκτήσατο, καὶ τοῦτον ὕστερον εἰς Σικελίαν πλέων Σπευσίππῳ δωρεὰν ἔδωκεν, 3 ᾧ μάλιστα τῶν Ἀθήνησι φίλων ἐχρῆτο καὶ συνδιῃτᾶτο, βουλομένου τοῦ Πλάτωνος ὁμιλίᾳ χάριν ἐχούσῃ καὶ παιδιᾶς ἐμμελοῦς κατὰ καιρὸν ἁπτομένῃ κεραννύμενον ἀφηδύνεσθαι τοῦ Δίωνος τὸ ἦθος.** |
@@ -298,6 +333,11 @@
 |   | *También nosotros en Siracusa hacíamos esto mismo».* |
 | 114. | **** |
 |   | *Tercer viaje de Platón a Sicilia (361 a. C.)* |
+
+## 18
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 115. | **18.1 χρόνου δὲ προϊόντος ὁ Διονύσιος ζηλοτυπῶν καὶ δεδοικὼς τοῦ Δίωνος τὴν παρὰ τοῖς Ἕλλησιν εὔνοιαν, ἐπαύσατο τὰς προσόδους ἀποστέλλων καὶ τὴν οὐσίαν παρέδωκεν ἰδίοις ἐπιτρόποις.** |
 |   | *Con el paso del tiempo, Dionisio, envidioso y recelando de la benevolencia de que disfrutaba Dión entre los griegos, @ dejó de enviarle las rentas y entregó sus 2 bienes a sus propios administradores* |
 | 116. | **2 βουλόμενος δὲ καὶ τὴν εἰς τοὺς φιλοσόφους διὰ Πλάτωνα κακοδοξίαν ἀναμάχεσθαι, πολλοὺς συνῆγε τῶν πεπαιδεῦσθαι δοκούντων.** |
@@ -320,6 +360,11 @@
 |   | *También le llegaron a Dión muchas peticiones de su hermana y su mujer, que le rogase a Platón que obedeciese a Dionisio y no le diese pretextos.* |
 | 125. | **9 οὕτω p.38 μὲν δή φησιν ὁ Πλάτων ἐλθεῖν τὸ τρίτον εἰς τὸν πορθμὸν τὸν περὶ Σκύλλαν,[*] ὄφρʼ ἔτι τὴν ὀλοὴν ἀναμετρήσειε Χάρυβδιν.** |
 |   | *Así dice Platón 9 que llegó por tercera vez al estrecho de Si~ilia~~, para recorrer una vez más la funesta Caribdis6'.* |
+
+## 19
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 126. | **19.1 ἐλθὼν δὲ μεγάλης μὲν αὐτὸν ἐνέπλησε χαρᾶς, μεγάλης δὲ πάλιν ἐλπίδος Σικελίαν, συνευχομένην καὶ συμφιλοτιμουμένην Πλάτωνα μὲν Φιλίστου περιγενέσθαι, φιλοσοφίαν δὲ τυραννίδος.** |
 |   | *Su regreso llenó de gran alegría a Dionisio y, de nuevo, de 19 una gran esperanza a Sicilia, que toda ella hacía votos y tenía la ambición de que Platón venciera a Filisto y la filosofía a la tiranía.* |
 | 127. | **2 ἦν δὲ πολλὴ μὲν τῶν γυναικῶν σπουδὴ περὶ αὐτόν, 3 ἐξαίρετος δὲ παρὰ τῷ Διονυσίῳ πίστις, ἣν οὐδεὶς ἄλλος εἶχεν, ἀδιερεύνητον αὐτῷ πλησιάζειν.** |
@@ -340,6 +385,11 @@
 |   | *Cuando le rogaron que la hiciera, dijo: «Anuncio que en 8 poco tiempo Platón y Dionisio se volverán enemigos»* |
 | 135. | **8 τέλος δὲ τὴν μ?ὲν οὐσίαν τοῦ Δίωνος ὁ Διονύσιος ἐπώλει καὶ τὰ χρήματα κατεῖχε, Πλάτωνα δʼ ἐν τῷ περὶ τὴν οἰκίαν κήπῳ διαιτώμενον εἷς τοὺς μισθοφόρους μετέστησε πάλαι μισοῦντας αὐτὸν καὶ ζητοῦντας ἀνελεῖν ὡς πείθοντα Διονύσιον ἀφεῖναι τὴν τυραννίδα καὶ ζῆν ἀδορυφόρητον,** |
 |   | *Finalmente, Dionisio hizo vender. los bienes de Dión y se quedó con el dinero, y a Platón, que vivía en los jardines en tomo al palacio, lo llevó con mercenarios que hacía tiempo lo odiaban y buscaban matarlo por persuadir a Dionisio de abandonar la tiranía y vivir sin escolta73* |
+
+## 20
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 136. | **20.1 ἐν τοιούτῳ δὲ κινδύνῳ γενομένου τοῦ Πλάτωνος οἱ περὶ Ἀρχύταν πυθόμενοι ταχὺ πέμπουσι πρεσβείαν καὶ τριακόντορον, ἀπαιτοῦντες τὸν ἄνδρα παρὰ Διονυσίου καὶ λέγοντες ὡς αὐτοὺς 2 λαβὼν ἀναδόχους τῆς ἀσφαλείας πλεύσειεν εἰς Συρακούσας.** |
 |   | *Era éste el peligro en el que estaba Platón; cuando se entera 20 Arquitas, envía rápidamente una embajada y una nave de treinta remeros, reclamándole a Dionisio que dejara ir a Platón y recordándole que había ido a Siracusa con garantías de seguridad.* |
 | 137. | **2 ἀπολεγομένου δὲ τοῦ Διονυσίου τὴν ἔχθραν ἑστιάσεσι καὶ φιλοφροσύναις περὶ τὴν προπομπήν, ἓν δέ τι προαχθέντος πρὸς αὐτὸν τοιοῦτον εἰπεῖν·** |
@@ -353,6 +403,11 @@
 | 141. | **οὐ μέντοι τὰ Πλάτωνος αὐτοῦ πάνυ τούτοις συνᾴδει.** |
 |   | *sin 4 embargo, lo que el propio filósofo dice no concuerda mucho con esto75.* |
 | 142. | **** |
+
+## 21
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 |   | *Expedición de Dión contra Dionisio (357 a. C.)* |
 | 143. | **p.42.21.1 Δίων δὲ καὶ τούτοις ἐχαλέπαινε, καὶ μετʼ ὀλίγον χρόνον ἐξεπολεμώθη παντάπασι πυθόμενος τὸ περὶ τὴν γυναῖκα, περὶ οὗ καὶ Πλάτων ᾐνίξατο γράφων πρὸς Διονύσιον, ἦν δὲ τοιοῦτον.** |
 |   | *Dión estaba irritado por este comportamiento y, tras POCO tiempo, proclamó una guerra abierta al enterarse de lo de su mujer, asunto sobre el que también Platón, de manera oscura, le había escrito a Dionisio.* |
@@ -380,6 +435,11 @@
 |   | *y también asombrados se quedaron los siracusanos del valor de esta mujer, de manera que tras la caída de la tiranía le dispensaron honor y trato reales7' y, una vez muerta, los ciudadanos la acompañaron, por decisión popular, hasta la tumba.* |
 | 155. | **ταῦτα μὲν οὖν οὐκ ἄχρηστον ἔχει τὴν παρέκβασιν.** |
 |   | *Es ésta una digresión, pero no inútil.* |
+
+## 22
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 156. | **22.1 ὁ δὲ Δίων ἐντεῦθεν ἤδη τρέπεται πρὸς πόλεμον, αὐτοῦ μὲν Πλάτωνος ἐκποδὼν ἱσταμένου διʼ αἰδῶ τῆς πρὸς Διονύσιον ξενίας καὶ γῆρας, Σπευσίππου δὲ καὶ τῶν ἄλλων ἑταίρων τῷ Δίωνι συλλαμβανόντων καὶ παρακελευομένων ἐλευθεροῦν Σικελίαν χεῖρας ὀρέγουσαν αὐτῷ καὶ προθύμως ὑποδεχομένην.** |
 |   | *Dión, desde ese momento, ya pone su mente en la guerra. 22 Platón se mantuvo al margen, tanto por respeto a la hospitalidad del tirano como por su propia vejez79; Espeusipo, en cambio, y los demás compañeros colaboraban con Dión y lo exhortaban para que liberase Sicilia, que le tendía las manos y deseaba de corazón recibirlo.* |
 | 157. | **2 ὅτε γὰρ ἐν Συρακούσαις Πλάτων διέτριβεν, οἱ περὶ Σπεύσιππον, ὡς ἔοικε, μᾶλλον ἀναμιγνύμενοι τοῖς ἀνθρώποις κατεμάνθανον τὴν διάνοιαν αὐτῶν, 3 καὶ τὸ μὲν πρῶτον ἐφοβοῦντο τὴν παρρησίαν ὡς διάπειραν οὖσαν ὑπὸ τοῦ τυράννου, χρόνῳ δʼ ἐπίστευσαν.** |
@@ -396,6 +456,11 @@
 |   | *De los desterrados por el tirano, no menos de mil, sólo veinticincos2 participaron en la expedición, los otros, por cobardía abandonaron.* |
 | 163. | **8 ὁρμητήριον δʼ ἦν ἡ Ζακυνθίων νῆσος, εἰς ἣν οἱ στρατιῶται συνελέγησαν ὀκτακοσίων ἐλάττους γενόμενοι, γνώριμοι δὲ πάντες ἐκ πολλῶν καὶ μεγάλων στρατειῶν, καὶ τοῖς σώμασιν ἠσκημένοι διαφερόντως, ἐμπειρίᾳ δὲ καὶ τόλμῃ πολὺ πάντων κράτιστοι, καὶ δυνάμενοι πλῆθος ὅσον ἤλπιζεν ἕξειν ἐν Σικελίᾳ Δίων ὑπεκκαῦσαι καὶ συνεξορμῆσαι πρὸς ἀλκήν.** |
 |   | *La base de las operaciones era la isla de Zacinto, donde se reunieron las tropas, menos de ochocientoss3, pero todos conocidos por muchas e importantes campañas, distinguidos por sus cuerpos ejercitados, con experiencia y audacia incomparables y capaces de encender y empujar con ellos a la lucha a esa muchedumbre que Dión confiaba tener en Sicilia.* |
+
+## 23
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 164. | **23.1 οὗτοι τὸ μὲν πρῶτον ἀκούσαντες ἐπὶ Διονύσιον καὶ Σικελίαν αἴρεσθαι τὸν στόλον, ἐξεπλάγησαν καὶ κατέγνωσαν, ὡς ὀργῆς τινος παραφροσύνῃ καὶ μανίᾳ τοῦ Δίωνος ἢ χρηστῶν ἐλπίδων ἀπορίᾳ ῥιπτοῦντος ἑαυτὸν εἰς ἀπεγνωσμένας πράξεις·** |
 |   | *Éstos, al principio, al oír que la expedición se dirigía contra Dionisio y Sicilia, se asustaron y censuraron el plan: que Dión se arrojaba a empresas desesperadas a causa del delirio o la locura motivadas por la cólera, o a falta de buenas esperanzas,* |
 | 165. | **καὶ τοῖς ἑαυτῶν ἡγεμόσι καὶ ξενολόγοις ὠργίζοντο μὴ προειποῦσιν εὐθὺς ἐξ ἀρχῆς τὸν πόλεμον.** |
@@ -408,6 +473,11 @@
 |   | *Tras disponer para Apolo un sacrificio grandioso, Dión se dirigió en procesión con los soldados, adornados con su panoplia, hasta el templo* |
 | 169. | **4 καὶ μετὰ τὴν θυσίαν ἐν τῷ σταδίῳ τῶν Ζακυνθίων κατακλιθέντας αὐτοὺς εἱστία, θαυμάζοντας ἀργυρῶν καὶ χρυσῶν ἐκπωμάτων καὶ τραπεζῶν ὑπερβάλλουσαν ἰδιωτικὸν πλοῦτον λαμπρότητα, καὶ λογιζομένους ὅτι παρηκμακὼς ἀνὴρ ἤδη καὶ τοσαύτης εὐπορίας κύριος οὐκ ἂν ἐπιχειροίη παραβόλοις paris.1624.968 πράγμασι χωρὶς ἐλπίδος βεβαίου καὶ φίλων ἐνδιδόντων ἐκεῖθεν αὐτῷ τὰς πλείστας καὶ μεγίστας ἀφορμάς.** |
 |   | *y, tras el sacrificio, los invitó a sentarse a banquetear en el estadio de Zacinto. Los dejó impresionados con una magnificencia que estaba muy por encima de una fortuna particular, admirados de las copas y mesas de plata y oro, y convencidos de que un hombre ya maduro8' y dueño de tales recursos no acometería empre'sas peligrosas sin una sólida esperanza y sin estar convencido de que los suyos le proporcionan'an allí más y mejores recursos.* |
+
+## 24
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 170. | **24.1 μετὰ δὲ τὰς σπονδὰς καὶ τὰς νενομισμένας κατευχὰς ἐξέλιπεν ἡ σελήνη, καὶ τοῖς μὲν περὶ τὸν Δίωνα θαυμαστὸν οὐδὲν ἦν λογιζομένοις τὰς ἐκλειπτικὰς περιόδους καὶ τὴν γινομένην τοῦ σκιάσματος ἀπάντησιν πρὸς τὴν σελήνην καὶ τῆς γῆς τὴν ἀντίφραξιν πρὸς τὸν ἥλιον.** |
 |   | *Tras las libaciones y las plegarias acostumbradas, la luna se 24 eclipsóBBP.a ra Dión no tenía nada de extraño, conocedor como era de los períodoseclípticos y de que la sombra proyectada sobre la luna nacía de la interposición de la tierra entre ella y el sol.* |
 | 171. | **2 ἐπεὶ δὲ τοῖς στρατιώταις διαταραχθεῖσιν ἔδει τινὸς παρηγορίας, Μιλτᾶς ὁ μάντις ἐν μέσῳ καταστὰς ἐκέλευε θαρρεῖν αὐτοὺς καὶ προσδοκᾶν p.50 τὰ κράτιστα·** |
@@ -434,6 +504,11 @@
 |   | *luego el más grande de los dioses muestra la desaparición y la destrucción de la tiranía.* |
 | 182. | **ταῦτα μὲν οὖν Θεόπομπος ἱστόρηκε.** |
 |   | *Así, al menos, lo relató el historiador TeopompoB9* |
+
+## 25
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 183. | **25.1 τοὺς δὲ στρατιώτας τοὺς Δίωνος ἐξεδέξαντο στρογγύλαι δύο ναῦς, τρίτον δὲ πλοῖον οὐ μέγα καὶ δύο τριακόντοροι παρηκολούθουν.** |
 |   | *Los soldados de Dión fueron embarcados en dos naves de transporte, acompañados de otra no muy grande y de dos 2 más de treinta remos* |
 | 184. | **2 ὅπλα p.52 δέ, χωρὶς ὧν εἶχον οἱ στρατιῶται, δισχιλίας μὲν ἐκόμιζεν ἀσπίδας, βέλη δὲ καὶ δόρατα πολλὰ, καὶ πλῆθος ἐφοδίων ἄφθονον, ὅπως ἐπιλίπῃ μηδὲν αὐτοὺς ποντοποροῦντας, ἅτε δὴ τὸ σύμπαν ἐπὶ πνεύμασι καὶ θαλάσσῃ πεποιημένους τὸν πλοῦν διὰ τὸ τὴν γῆν φοβεῖσθαι καὶ πυνθάνεσθαι Φίλιστον ἐν Ἰαπυγίᾳ ναυλοχοῦντα παραφυλάττειν.** |
@@ -464,6 +539,11 @@
 |   | *Ellos, descendiendo de las naves armados y a la carrera, no mataron, sin embargo, a nadie, pues Dión les había advertido de la amistad que lo unía al cartaginés, pero se lanzaron tras 14 los soldados puestos en fuga y se hicieron con la plaza.* |
 | 197. | **14 ὡς δʼ ἀπήντησαν ἀλλήλοις οἱ ἡγεμόνες καὶ ἠσπάσαντο, Δίων μὲν ἀπέδωκε τὴν πόλιν Συνάλῳ, οὐδὲν ἀδικήσας, Σύναλος δὲ τοὺς στρατιώτας ἐξένιζε καὶ συμπαρεσκεύαζεν ὧν Δίων ἐδεῖτο.** |
 |   | *Cuando los comandantes se encontraron y saludaron, Dión devolvió la ciudad a Sínalo, sin causarle ningún perjuicio, y Sínalo acogió a los soldados y les proporcionó todo cuanto Dión necesitaba.* |
+
+## 26
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 198. | **26.1 μάλιστα δʼ αὐτοὺς ἐθάρρυνε τὸ συμβεβηκὸς αὐτομάτως περὶ τὴν ἀποδημίαν τοῦ Διονυσίου·** |
 |   | *Les daba mucho ánimo la circunstancia de un viaje casual de Dionisio,* |
 | 199. | **νεωστὶ γὰρ ἐκπεπλευκὼς ἐτύγχανεν ὀγδοήκοντα ναυσὶν εἰς τὴν Ἰταλίαν.** |
@@ -488,6 +568,11 @@
 |   | *Se acercó un lobo 9 al olor de la carne y, cogiendo la pieza que estaba metida en el saco, se fue llevándose a la vez con la carne ese saco en el que el hombre llevaba la carta.* |
 | 209. | **p.58 10 ὡς δὲ διεγερθεὶς ᾔσθετο καὶ πολλὰ μάτην πλανηθεὶς καὶ διώξας οὐχ εὗρεν, ἔγνω μὴ πορεύεσθαι δίχα τῶν γραμμάτων πρὸς τὸν τύραννον, ἀλλʼ ἀποδρὰς ἐκποδὼν γενέσθαι.** |
 |   | *Una vez despierto, al darse cuenta, 10 dio en vano muchas vueltas sin encontrar lo que buscaba y decidió huir y desaparecer en vez de continuar viaje hacia el tirano sin la carta.* |
+
+## 27
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 210. | **27.1 Διονύσιος μὲν οὖν ὀψὲ καὶ παρʼ ἑτέρων ἔμελλε πυνθάνεσθαι τὸν ἐν Σικελίᾳ πόλεμον, Δίωνι δὲ πορευομένῳ Καμαριναῖοί τε προσέθεντο καὶ τῶν κατʼ ἀγροὺς Συρακουσίων ἀνισταμένων ἐπέρρει πλῆθος οὐκ ὀλίγον.** |
 |   | *Así pues, Dionisio se enteraría más tarde y por otras vías 27 de la guerra en Sicilia. A Dión, en su marcha, se le unieron los de Camarina9' y también se le suma una muchedumbre no pequeña de siracusanos que se habían sublevado en el campo.* |
 | 211. | **2 οἱ δὲ μετὰ Τιμοκράτους τὰς Ἐπιπολὰς φυλάσσοντες Λεοντῖνοι καὶ Καμπανοί, λόγον ψευδῆ προσπέμψαντος εἰς αὐτοὺς τοῦ Δίωνος ὡς ἐπὶ τὰς πόλεις πρῶτον paris.1624.970 τρέποιτο τὰς ἐκείνων, ἀπολιπόντες ᾤχοντο τὸν Τιμοκράτην τοῖς οἰκείοις βοηθήσοντες.** |
@@ -504,6 +589,11 @@
 |   | *Eran no menos de cinco mi11°3 los que se le habían unido en el camino: aunque mal armados, con lo que habían encontrado, suplían con buen ánimo las carencias de su equipamiento, de modo que, animados por Dión, se pusieron a correr y a animarse entre ellos dando gritos en favor de la libertad.* |
 | 217. | **** |
 |   | *Dión entra triunfante en Siracusa* |
+
+## 28
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 218. | **p.60 28.1 τῶν δʼ ἐν τῇ πόλει Συρακουσίων οἱ μὲν γνώριμοι καὶ χαρίεντες ἐσθῆτα καθαρὰν ἔχοντες ἀπήντων ἐπὶ τάς πύλας, οἱ δὲ πολλοὶ τοῖς τυράννου φίλοις ἐπετίθεντο καὶ συνήρπαζον τοὺς καλουμένους προσαγωγίδας, ἀνθρώπους ἀνοσίους καὶ θεοῖς ἐχθρούς, οἳ περιενόστουν ἐν τῇ πόλει καταμεμιγμένοι τοῖς Συρακουσίοις πολυπραγμονοῦντες καὶ διαγγέλλοντες τῷ τυράννῳ τάς τε διανοίας καὶ τάς φωνὰς ἑκάστων,** |
 |   | *De los siracusanos que se habían quedado en la ciudad, los más notables y respetados, vestidos de gala, salieron a las puertas al encuentro de Dión; la multitud se lanza contra los fieles al tirano y apresan a los llamados delatoreslo4,h ombres impíos y enemigos de los dioses, que iban de aquí para allá mezclándose con los siracusanos, metiéndose en todo y contándole al tirano las opiniones y palabras de cada uno.* |
 | 219. | **2 οὗτοι μὲν οὖν πρῶτοι δίκην ἐδίδοσαν ὑπὸ τῶν προστυγχανόντων ἀποτυμπανιζόμενοι Τιμοκράτης δὲ συμμῖξαι τοῖς φρουροῦσι τὴν ἀκρόπολιν μὴ δυνηθείς ἵππον λαβὼν διεξέπεσε τῆς πόλεως καὶ πάντα φεύγων ἐνέπλησε φόβου καὶ ταραχῆς, ἐπὶ μεῖζον αἴρων τὰ τοῦ Δίωνος, ὡς μὴ δοκοίη μέτριόν τι δείσας ἀποβεβληκέναι τὴν πόλιν.** |
@@ -512,6 +602,11 @@
 |   | *Entonces llegó Dión, a la cabeza, armado espléndidamente, y junto a él estaba a un lado su hermano Megacles y al otro Calipo el ateniense, coronados todos ellos.* |
 | 221. | **4 τῶν δὲ ξένων ἑκατὸν μὲν εἵποντο φύλακες περὶ τὸν Δίωνα, τοὺς δʼ ἄλλους ἦγον οἱ λοχαγοὶ διακεκοσμημένους, θεωμένων τῶν Συρακουσίων καὶ δεχομένων ὥσπερ ἱεράν τινα καὶ θεοπρεπῆ πομπὴν ἐλευθερίας καὶ δημοκρατίας διʼ ἐτῶν ὀκτὼ καὶ τετταράκοντα κατιούσης εἰς τὴν πόλιν.** |
 |   | *De los mercenarios, cien escoltaban a Dión como guardia de corps, a los otros los conducían en orden los generales, mientras los siracusanos los contemplaban y recibían como a una sagrada procesión religiosa que devolvía la libertad y la democracia a la ciudad tras cuarenta y ocho años'05.* |
+
+## 29
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 222. | **29.1 ἐπεὶ δὲ εἰσῆλθεν ὁ Δίων κατὰ τὰς Τεμενίτιδας πύλας, τῇ σάλπιγγι καταπαύσας τὸν θόρυβον, ἐκήρυξεν ὅτι Δίων καὶ Μεγακλῆς ἥκοντες ἐπὶ καταλύσει τῆς τυραννίδος ἐλευθεροῦσι Συρακουσίους καὶ τοὺς ἄλλους Σικελιώτας ἀπὸ τοῦ τυράννου.** |
 |   | *Una vez entró Dión por la puerta Temenítida, haciendo cesar el alboroto al toque de la trompeta, se anuncia mediante un heraldo que Dión y Megacles, llegados para acabar con la tiranía, liberan a los de Siracusa y al resto de sicilianos del tirano.* |
 | 223. | **2 βουλόμενος δὲ καὶ διʼ p.62 ἑαυτοῦ προσαγορεῦσαι τοὺς ἀνθρώπους ἀνῄει διὰ τῆς Ἀχραδινῆς, ἑκατέρωθεν παρὰ τὴν ὁδὸν τῶν Συρακουσίων ἱερεῖα καὶ τραπέζας καὶ κρατῆρας ἱστάντων, καὶ καθʼ οὓς γένοιτο προχύταις τε βαλλόντων καὶ προστρεπομένων ὥσπερ θεὸν κατευχαῖς.** |
@@ -530,6 +625,11 @@
 |   | *Una semana después, Dionisio entró por mar en la ciudadela, al tiempo que le llegaban en carretas a Dión las armas que le había dejado a Sínalo.* |
 | 230. | **8 ταύτας διένειμε τοῖς πολίταις, τῶν δʼ ἄλλων ἕκαστος ἑαυτὸν, ὡς δυνατὸν ἦν, ἐκόσμει καὶ παρεῖχεν ὁπλίτην πρόθυμον.** |
 |   | *Las repartió entre los ciudadanos y cada uno se equipaba como podía y se mostraban todos como soldados llenos de valor.* |
+
+## 30
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 231. | **30.1 Διονύσιος δὲ πρῶτον ἰδίᾳ πρὸς Δίωνα πρέσβεις ἔπεμπεν ἀποπειρώμενος·** |
 |   | *Dionisio, al principio, envió delegados a título particular a Dión para sondearlo.* |
 | 232. | **ἔπειτα κελεύσαντος ἐκείνου διαλέγεσθαι κοινῇ Συρακουσίοις p.64 ὡς ἐλευθέροις οὖσιν, ἐγένοντο λόγοι διὰ τῶν πρέσβεων παρὰ τοῦ τυράννου φιλάνθρωποι, φόρων ὑπισχνουμένου μετριότητα καὶ ῥᾳστώνην στρατειῶν, ὧν ἂν αὐτοὶ σύμψηφοι γένωνται.** |
@@ -562,6 +662,11 @@
 |   | *Pues, como habían confiado en hacerse con la ciudad toda mediante una rápida incursión, al encontrarse después, sin esperarlo, con hombres frescos y de ánimo belicoso, se retiraron a la ciudadela.* |
 | 246. | **12 ἔτι δὲ μᾶλλον, ὡς ἐνέδωκαν, ἐπικειμένων τῶν Ἑλλήνων τραπόμενοι κατεκλείσθησαν εἰς τὸ τεῖχος, ἑβδομήκοντα μὲν καὶ τέσσαρας ἀποκτείναντες τῶν μετὰ Δίωνος, ἑαυτῶν δὲ πολλοὺς ἀποβαλόντες,** |
 |   | *Viendo que se retiraban, los 12 griegos hicieron todavía más presión, arrinconándolos en su huida tras la muralla. De los que iban con Dión murieron setenta y cuatro, y en mucho mayor número perecieron los enemigos* |
+
+## 31
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 247. | **p.68 31.1 γενομένης δὲ λαμπρᾶς τῆς νίκης οἱ μὲν Συρακούσιοι τοὺς ξένους ἑκατὸν μναῖς ἐστεφάνωσαν, οἱ δὲ ξένοι Δίωνα χρυσῷ στεφάνῳ.** |
 |   | *Resultando, pues, una victoria brillante, los siracusanos dieron por corona a los mercenarios cien minas a cada uno, y los mercenarios a Dión una corona de oro* |
 | 248. | **2 κήρυκες δὲ παρὰ τοῦ Διονυσίου κατέβαινον paris.1624.972 ἐπιστολὰς πρὸς Δίωνα παρὰ τῶν οἰκείων γυναικῶν κομίζοντες, μία δʼ ἦν ἔξωθεν ἐπιγεγραμμένη, τῷ πατρὶ, παρʼ Ἱππαρίνου·** |
@@ -580,6 +685,11 @@
 |   | *Se recordaba en ella cuántas cosas había hecho de buen grado en favor de la tiranía"' y había amenazas contra los que le eran más próximos, su hermana, su hijo y su mujer, tremendas acusaciones junto a lamentos. Y lo que más lo alteró fue la petición de que no echase abajo la tiranía, sino que se hiciese cargo de ella, que no liberase a hombres que lo odiaban y le guardaban rencor, sino que se asegurase el mando y procurase con ello la tranquilidad de sus amigos y familiares.* |
 | 255. | **** |
 |   | *Maniobras de Heraclides* |
+
+## 32
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 256. | **32.1 ἀναγινωσκομένων δὲ τούτων οὐχ, ὅπερ ἦν δίκαιον, εἰσῄει τοὺς Συρακοσίους ἐκπλήττεσθαι τὴν ἀπάθειαν καὶ τὴν μεγαλοψυχίαν p.70 τοῦ Δίωνος ὑπὲρ τῶν καλῶν καὶ δικαίων ἀπισχυριζομένου πρὸς τοιαύτας οἰκειότητας, 2 ἀλλʼ ὑποψίας καὶ φόβου λαβόντες ἀρχήν, ὡς μεγάλης οὔσης ἀνάγκης ἐκείνῳ φείδεσθαι τοῦ τυράννου, πρὸς ἑτέρους ἤδη προστάτας ἀπέβλεπον καὶ μάλιστα πυνθανόμενοι καταπλεῖν Ἡρακλείδην ἀνεπτοήθησαν.** |
 |   | *Tras la lectura de estas cartas, no sucedió, como sería lo justo, que los siracusanos quedaran asombrados de la impasibilidad y grandeza de ánimo de Dión, que dejaba de lado los lazos familiares en favor de lo que consideraba bueno y justo, sino que empezaron a sentir desconfianza y miedo, como si realmente Dión estuviera en gran medida comprometido con el tirano, y volvieron ya su mirada hacia otros jefes, impresionados sobre todo al saber que Heraclides se había embarcado de vuelta.* |
 | 257. | **3 ἦν δὲ τῶν φυγάδων Ἡρακλείδης, στρατηγικὸς μέν ἄνθρωπος καὶ γνώριμος ἀφʼ ἡγεμονίας ἣν ἔσχε παρὰ τοῖς τυράννοις, οὐκ ἀραρὼς δὲ τὴν γνώμην, ἀλλὰ πρὸς πάντα κοῦφος, ἥκιστα δὲ βέβαιος ἐν κοινωνίᾳ πραγμάτων ἀρχὴν ἐχόντων καὶ δόξαν.** |
@@ -588,6 +698,11 @@
 |   | *Éste, después de enfrentarse en el Peloponeso con Dión, había decidido ir por mar con una tropa equipada por él mismo contra el tirano y, llegado a Siracusa con siete trirremes y tres naves de carga, encontró a Dionisio sitiado de nuevo y a los siracusanos exaltados* |
 | 259. | **5 εὐθὺς οὖν ὑπεδύετο τὴν τῶν πολλῶν χάριν, ἔχων μέν τι καὶ φύσει πιθανὸν καὶ κινητικὸν ὄχλου θεραπεύεσθαι ζητοῦντος, ὑπολαμβάνων δὲ καὶ μετάγων ῥᾷον αὐτούς, οἳ τὸ σεμνὸν τοῦ Δίωνος ὡς βαρὺ καὶ δυσπολίτευτον ἀπεστρέφοντο διὰ τὴν γεγενημένην ἐκ τοῦ κρατεῖν ἄνεσιν καὶ θρασύτητα, πρὸ τοῦ δῆμος εἶναι τὸ δημαγωγεῖσθαι θέλοντες.** |
 |   | *Muy S pronto se hizo con el favor de la mayoría, ya que era persuasivo por naturaleza y capaz de movilizar a una muchedumbre que buscaba el halago; se ganó y arrastró más fácilmente a aquellos que, rechazando la gravedad de Dión como algo pesado y contrario a un político y movidos por la audacia y el engreimiento de la victoria, preferían ser dirigidos por un demagogo antes de haberse constituido en verdadero pueblo.* |
+
+## 33
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 260. | **33.1 καὶ πρῶτον μὲν εἰς ἐκκλησίαν ἀφʼ αὑτῶν συνδραμόντες εἵλοντο τὸν Ἡρακλείδην ναύαρχον.** |
 |   | *En primer lugar, se reunieron en asamblea por propia iniciativa y eligieron a Heraclides como comandante de la flota.* |
 | 261. | **2 ἐπεὶ δὲ Δίων παρελθὼν ᾐτιᾶτο τὴν ἐκείνῳ διδομένην ἀρχὴν ἀφαίρεσιν εἶναι τῆς πρότερον αὐτῷ δεδομένης, οὐκέτι γὰρ αὐτοκράτωρ p.72 μένειν, ἂν ἄλλος ἡγῆται τῶν κατὰ θάλασσαν, ἄκοντες οἱ Συρακούσιοι πάλιν ἀπεψηφίσαντο τὸν Ἡρακλείδην.** |
@@ -598,6 +713,11 @@
 |   | *Heraclides se mostraba conciliador con Dión de palabra y de apariencia, confesando estar agradecido, y lo acompañaba sumiso obedeciendo sus instrucciones; pero, a escondidas, corrompía a muchos de los sublevados y, provocando levantamientos, iba suscitando revueltas en tomo a Dión, colocado en una situación 5 de absoluto apuro:* |
 | 264. | **5 εἴτε γὰρ ἀφιέναι κελεύοι Διονύσιον ὑπόσπονδον ἐκ τῆς ἄκρας, διαβολὴν εἶχε φείδεσθαι καὶ περισῴζειν ἐκεῖνον, εἴτε λυπεῖν μὴ βουλόμενος ἐπὶ τῆς πολιορκίας ἡσυχάζοι, διατηρεῖν ἐδόκει τὸν πόλεμον, ὡς μᾶλλον ἄρχοι καὶ καταπλήττοιτο τοὺς πολίτας.** |
 |   | *si ordenaba que se dejase ir a Dionisio de la ciudadela mediante un pacto, lo acusaban de tener clemencia con él y salvarle la vida; si, por el contrario, no queriendo liberarlo, se conformaba con mantener el asedio, parecería querer prolongar la guerra para tener el mando durante más tiempo y atemorizar a los ciudadanos.* |
+
+## 34
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 265. | **34.1 ἦν δέ τις Σῶσις, ἄνθρωπος ἐκ πονηρίας καὶ θρασύτητος εὐδοκιμῶν παρὰ τοῖς Συρακουσίοις, περιουσίαν ἡγουμένοις ἐλευθερίας τὸ μέχρι τοιούτων ἀνεῖσθαι τὴν παρρησίαν.** |
 |   | *Había un tal Sosis"? hombre bien conocido por su maldad y osadia entre los siracusanos, que consideraban un exceso de libertad llevar la franqueza de palabra a los extremos a los que 2 él la llevaba.* |
 | 266. | **2 οὗτος ἐπιβουλεύων Δίωνι πρῶτον μὲν ἐκκλησίας οὔσης ἀναστὰς πολλὰ τοὺς Συρακουσίους ἐλοιδόρησεν, εἰ μὴ συνιᾶσιν ὡς ἐμπλήκτου καὶ μεθυούσης ἀπηλλαγμένοι τυραννίδος ἐγρηγορότα καὶ νήφοντα δεσπότην εἰλήφασιν·** |
@@ -618,6 +738,11 @@
 |   | *Al punto iniciaron una persecución sin alcanzar a hombre alguno, pero vieron en una cavidad bajo una piedra una navaja, en el mismo lugar de donde fue visto salir Sosis corriendo.* |
 | 274. | **** |
 |   | *Muerte de Filisto* |
+
+## 35
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 275. | **35.1 ἦν μὲν οὖν ἤδη μοχθηρὰ τὰ περὶ τὸν p.76 Σῶσιν προσγενομένων δὲ τούτοις τοῖς ἐλέγχοις οἰκετῶν καταμαρτυρούντων ὡς ἔτι νυκτὸς ἐξέλθοι μόνος ἔχων τὸ ξυρόν, οἵ τε κατηγοροῦντες τοῦ Δίωνος ὑπεχώρησαν ὅ τε δῆμος καταψηφισάμενος θάνατον τοῦ Σώσιδος διηλλάσσετο τῷ Δίωνι.** |
 |   | *Muy mal estaba ya el asunto de Sosis, 35 pero cuando se unieron a estas pruebas las declaraciones de sus esclavos, diciendo que, siendo todavía de noche, había salido él solo con una navaja, los acusadores de Dión se retractaron y el pueblo, votando pena de muerte para Sosis, se reconcilió con Dión.* |
 | 276. | **2 τοὺς δὲ μισθοφόρους οὐδὲν ἧττον ἐν ὑποψίαις εἶχον, καὶ μάλιστα τῶν πλείστων ἀγώνων πρὸς τὸν τύραννον ἤδη γινομένων κατὰ θάλατταν, ἐπειδὴ Φίλιστος ἧκεν ἐξ Ἰαπυγίας ἔχων πολλὰς τριήρεις Διονυσίῳ βοηθήσων, καὶ τῶν ξένων ὄντων ὁπλιτῶν οὐδεμίαν ἔτι χρῆσιν ἐνόμιζον εἶναι πρὸς τὸν πόλεμον, ἀλλὰ κἀκείνους ἐφʼ ἑαυτοῖς ἔσεσθαι ναυβάταις οὖσι καὶ τὸ κράτος ἐκ τῶν νεῶν κτωμένοις.** |
@@ -636,6 +761,11 @@
 |   | *mientras todos los siracusanos se burlaban viendo atado de una pierna a aquel que le había dicho a Dionisio que no había que huir de la tiranía sobre un rápido caballo sino atado de una pierna.* |
 | 283. | **7 καίτοι τοῦτο Φίλιστος, ὡς ὑφʼ ἑτέρου λεχθέν, οὐχ ὑφʼ αὑτοῦ, πρὸς Διονύσιον ἐξήγγελκεν.** |
 |   | *Sin embargo, Fili~to'd'~ec ía que esto había sido dicho a Dionisio por otro, no por él.* |
+
+## 36
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 284. | **36.1 ἀλλὰ Τίμαιος οὐκ ἄδικον λαβὼν πρόφασιν τὴν ὑπὲρ τῆς τυραννίδος τοῦ Φιλίστου σπουδὴν καὶ πίστιν ἐμπίπλαται τῶν κατʼ αὐτοῦ βλασφημιῶν, ᾧ τοὺς μὲν ἀδικηθέντας τότε συγγνωστόν ἐστιν ἴσως ἄχρι τῆς εἰς ἀναίσθητον ὀργῆς χαλεποὺς γενέσθαι, 2 τοὺς δὲ ὕστερον συγγράφοντας τὰ πεπραγμένα καὶ τῷ μὲν βίῳ μὴ λυπηθέντας αὐτοῦ, τῷ δὲ λόγῳ χρωμένους, ἡ δόξα παραιτεῖται μὴ μεθʼ ὕβρεως μηδὲ μετὰ βωμολοχίας ὀνειδίζειν τὰς συμφοράς, ὢν οὐδὲν ἀπέχει καὶ τὸν ἄριστον ἀνδρῶν ἐκ τύχης μετασχεῖν.** |
 |   | *Pero Timeo, tomando, no sin razón, como excusa el empeño y compromiso de Filisto en favor de la tiranía, se sacia de insultos contra él'I9. Ahora bien, es quizá perdonable que los que sufrieron las injusticias de Filisto se mostraran crueles hasta la ira sobre un cadáver insensible, pero a los que más tarde se dedicaron a escribir la historia sin haber recibido daño alguno en vida de aquél y utilizando los testimonios de otros, su propia reputación les aconseja no hacer reproches con insolencia y bufonería por desventuras que ni siquiera el mejor de los hombres está completamente libre de padecer por obra de la fortuna.* |
 | 285. | **3 οὐ μὴν οὐδὲ Ἔφορος ὑγιαίνει τὸν Φίλιστον ἐγκωμιάζων, ὃς, καίπερ ὢν δεινότατος ἀδίκοις πράγμασι καὶ πονηροῖς ἤθεσιν εὐσχήμονας αἰτίας περιβαλεῖν καὶ λόγους ἔχοντας κόσμον ἐξευρεῖν, αὐτὸς αὑτὸν οὐ δύναται πάντα μηχανώμενος ἐξελέσθαι τῆς γραφῆς, ὡς οὐ φιλοτυραννότατος ἀνθρώπων γένοιτο καὶ μάλιστα πάντων ἀεὶ ζηλώσας καὶ θαυμάσας τρυφὴν καὶ δύναμιν καὶ πλούτους καὶ γάμους τοὺς τῶν τυράννων·** |
@@ -644,6 +774,11 @@
 |   | *Así pues, por lo que hace a Filisto, el que no alaba su proceder ni se burla de su suerte, ése es el más atinado.* |
 | 287. | **** |
 |   | *Huida de Dionisio de la ciudadela* |
+
+## 37
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 288. | **37.1 μετὰ δὲ τὴν Φιλίστου τελευτὴν Διονύσιος ἔπεμπε πρὸς Δίωνα τὴν μὲν ἀκρόπολιν ἐκείνῳ παραδιδοὺς καὶ τὰ ὅπλα καὶ τοὺς μισθοφόρους καὶ πέντε μηνῶν ἐντελῆ τούτοις μισθόν, 2 αὐτὸς δὲ ἀξιῶν ὑπόσπονδος εἰς Ἰταλίαν ἀπελθεῖν p.80 κἀκεῖ κατοικῶν καρποῦσθαι τῆς Συρακουσίας τὸν καλούμενον Γύαρτα, πολλὴν καὶ ἀγαθὴν χώραν ἀνήκουσαν ἀπὸ θαλάττης εἰς τὴν μεσόγειον.** |
 |   | *Tras la muerte de Filisto, Dionisio envió delegados a Dión ofreciendo la entrega, de las armas y de los mercenarios y el salario completo de éstos correspondiente a cinco meses; para sí 2 mismo reclamaba, mediante un pacto, ser enviado a Italia y, allí instalado, recibir de Siracusa las rentas de la llamada Gias12', tierra extensa y fértil que se extiende desde el mar hacia el interior.* |
 | 289. | **3 οὐ προσδεξαμένου δὲ τοῦ Δίωνος, ἀλλὰ δεῖσθαι τῶν Συρακουσίων κελεύσαντος, οἱ μὲν Συρακούσιοι ζῶντα λήψεσθαι τὸν Διονύσιον ἐλπίσαντες ἀπήλασαν τοὺς πρέσβεις, 4 ἐκεῖνος δὲ τὴν μὲν ἄκραν Ἀπολλοκράτει, τῷ πρεσβυτέρῳ τῶν παίδων, παρέδωκεν, αὐτὸς δὲ πνεῦμα τηρήσας ἐπίφορον καὶ τὰ τιμιώτατα τῶν σωμάτων καὶ τῶν χρημάτων ἐνθέμενος εἰς τὰς ναῦς λαθὼν τὸν ναύαρχον Ἡρακλείδην ἐξέπλευσεν.** |
@@ -654,6 +789,11 @@
 |   | *Poniéndose de su lado y maquinando contra Dión, que estaba en contra de esta medida, convenció a los siracusanos de votar sus propuestas, suprimir el salario de los mercenarios y elegir a otros estrategos, liberándose de la severidad de Dión.* |
 | 292. | **7 οἱ δʼ, ὥσπερ ἐκ μακρᾶς ἀρρωστίας τῆς τυραννίδος εὐθὺς ἐπιχειροῦντες ἐξανίστασθαι, καὶ πράττειν τὰ τῶν αὐτονομουμένων paris.1624.975 παρὰ καιρόν, ἐσφάλλοντο μὲν αὐτοὶ ταῖς πράξεσιν, ἐμίσουν δὲ τὸν Δίωνα βουλόμενον ὥσπερ ἰατρὸν ἐν ἀκριβεῖ καὶ σωφρονούσῃ διαίτῃ κατασχεῖν τὴν πόλιν.** |
 |   | *Los siracusanos, dispuestos a desembarazarse al punto de la tiranía, como si fuera una gran enfermedad, y a ser independientes antes de tiempo, fracasaron en sus propias empresas y, además, tomaron odio a Dión, que, como un médico, quería mantener a la ciudad en un régimen de vida riguroso y moderado.* |
+
+## 38
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 293. | **38.1 ἐκκλησιάζουσι δʼ αὐτοῖς ἐπὶ νέαις ἀρχαῖς, θέρους μεσοῦντος, ἐξαίσιοι βρονταὶ καὶ διοσημίαι πονηραὶ συνέβαινον ἐφʼ ἡμέρας δεκαπέντε συνεχῶς, ἀνιστᾶσαι τὸν δῆμον ὑπὸ p.82 δεισιδαιμονίας κωλυόμενον ἑτέρους ἀποδεῖξαι στρατηγούς.** |
 |   | *Mientras estaba reunida la asamblea para elegir nuevas magistraturas, en pleno verano, se sucedieron durante quince días seguidos fuertes truenos y otros malos presagios que hicieron disolverse al pueblo, al que la superstición impedía proceder a 2 la renovación de estrategos.* |
 | 294. | **2 ἐπεὶ δὲ φυλάξαντες εὐδίαν σταθερὰν οἱ δημαγωγοὶ συνετέλουν τὰς ἀρχαιρεσίας, βοῦς ἁμαξεὺς οὐκ ἀήθης οὐδʼ ἄπειρος ὄχλων, ἄλλως δέ πως τότε πρὸς τὸν ἐλαύνοντα θυμωθεὶς καὶ φυγὼν ἀπὸ τοῦ ζυγοῦ, δρόμῳ πρὸς τὸ θέατρον ὥρμησε·** |
@@ -670,6 +810,11 @@
 |   | *Los siracusanos, 6 menospreciándolos por ser pocos y por no hacer ademán de atacarlos, y siendo mucho más numerosos, se lanzaron contra ellos, en la idea de que fácilmente podrían vencerlos dentro de la ciudad y matarlos a todos.* |
 | 300. | **** |
 |   | *Retirada de Dión a Leontinos* |
+
+## 39
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 301. | **39.1 ἐν τούτῳ δὲ γεγονὼς ἀνάγκης καὶ τύχης ὁ Δίων ἢ μάχεσθαι τοῖς πολίταις ἢ μετὰ τῶν ξένων ἀποθανεῖν, πολλὰ μὲν ἱκέτευεν ὀρέγων τὰς χεῖρας τοῖς Συρακουσίοις καὶ τὴν ἀκρόπολιν p.84 περίπλεων πολεμίων οὖσαν ὑπερφαινομένων τὰ τείχη καὶ τὰ γενόμενα καθορώντων ἐπιδεικνύμενος·** |
 |   | *Encontrándose Dión por la fuerza de 39 las circunstancias obligado o a luchar contra los ciudadanos o a morir con los mercenarios, mucho les imploraba a los siracusanos, tendiéndoles las manos y mostrándoles la ciudadela llena de enemigos que se dejaban ver sobre las murallas y contemplaban los acontecimientos.* |
 | 302. | **2 ὡς δʼ ἦν ἀπαραίτητος ἡ τῶν πολλῶν φορά καὶ κατεῖχεν ὥσπερ ἐν πελάγει τὸ τῶν δημαγωγῶν πνεῦμα τὴν πόλιν, ἐμβολῆς μὲν ἀποσχέσθαι τοῖς ξένοις προσέταξεν, ὅσον δʼ ἐπιδραμόντων μετὰ βοῆς καὶ τοῖς ὅπλοις τιναξαμένων οὐδεὶς ἔμεινε τῶν Συρακουσίων, ἀλλʼ ᾤχοντο φεύγοντες ἀνὰ τὰς ἀγυιάς, οὐδενὸς ἐπιδιώκοντος·** |
@@ -680,6 +825,11 @@
 |   | *Los comandantes de los siracusanos, convertidos en objeto de risa por parte de las mujeres y deseosos de librarse de esa vergüenza, hicieron armarse de nuevo a los ciudadanos y perseguir a Dión. Lo encontraron en el cruce de un no y lanzaron contra él a la caballena a que atacase con escaramuzas,* |
 | 305. | **ὡς δʼ ἑώρων οὐκέτι πρᾴως οὐδὲ πατρικῶς ὑπομένοντα τὰς ἁμαρτίας αὐτῶν, ἀλλὰ θυμῷ τοὺς ξένους ἐπιστρέφοντα καὶ παραταττόμενον, αἰσχίονα φυγὴν τῆς προτέρας φυγόντες ὑπεχώρησαν εἰς τὴν πόλιν, οὐ πολλῶν ἀποθανόντων.** |
 |   | *pero como veían que ya no soportaba ni dulce ni paternalmente sus desmanes, sino que con ira hizo volverse contra ellos a los mercenarios, se retiraron hacia su ciudad en una huida más vergonzosa que la anterior y sufriendo pocas bajas.* |
+
+## 40
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 306. | **40.1 Δίωνα δὲ Λεοντῖνοι λαμπραῖς ἐδέχοντο τιμαῖς, καὶ τοὺς ξένους ἀνελάμβανον μισθοῖς καὶ πολιτείαις πρὸς δὲ τοὺς Συρακουσίους ἐπρέσβευον ἀξιοῦντες τὰ δίκαια τοῖς ξένοις ποιεῖν.** |
 |   | *Los de Leontinos acogieron a Dión con honores espléndidos y a los mercenarios con pagas y concesión de derechos civiles y enviaron embajadores a los siracusanos solicitándoles que se 2 comportaran con justicia con los mercenarios.* |
 | 307. | **2 οἱ δὲ πρέσβεις ἔπεμψαν κατηγορήσοντας Δίωνος τῶν δὲ συμμάχων ἁπάντων εἰς Λεοντίνους ἁθροισθέντων καὶ γενομένων λόγων ἐν αὐτοῖς, ἔδοξαν ἀδικεῖν οἱ Συρακούσιοι·** |
@@ -688,6 +838,11 @@
 |   | *pero 3 éstos no acataron lo decidido por los aliados, mostrándose arrogantes y orgullosos como para escuchar a nadie y sirviéndose de los generales como de esclavos temerosos del pueblo.* |
 | 309. | **** |
 |   | *Saqueo de Siracusa* |
+
+## 41
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 310. | **41.1 ἐκ τούτου καταπλέουσιν εἰς τὴν πόλιν παρὰ Διονυσίου τριήρεις Νύψιον ἄγουσαι τὸν paris.1624.976 Νεαπολίτην, σῖτον καὶ χρήματα κομίζοντα τοῖς πολιορκουμένοις.** |
 |   | *Después de eso, amban a la ciudad trirremes de parte de Dionisio, en las que venía Nipsio de Neápolis con grano y dinero para los asediados.* |
 | 311. | **2 γενομένης δὲ ναυμαχίας ἐνίκων μὲν οἱ Συρακούσιοι καὶ τέσσαρας τῶν τυραννικῶν νεῶν ἔλαβον, ὑβρίσαντες δὲ τῇ νίκῃ, καὶ διʼ ἀναρχίαν τὸ χαῖρον εἰς πότους καὶ συνουσίας μανικὰς τρέψαντες, οὕτω τῶν χρησίμων ἠμέλησαν ὥστε τὴν ἀκρόπολιν ἔχειν δοκοῦντες ἤδη καὶ τὴν πόλιν προσαπέβαλον.** |
@@ -698,6 +853,11 @@
 |   | *Rápidamente se dieron cuenta los siracusanos de la desgracia, pero lenta y penosamente, aterrorizados como estaban, se dispusieron a prestar algún socorro.* |
 | 314. | **6 πόρθησις γὰρ ἦν τὰ γινόμενα τῆς πόλεως, τῶν μὲν ἀνδρῶν φονευομένων, τῶν δὲ τειχῶν κατασκαπτομένων, γυναικῶν δὲ καὶ παίδων ἀγομένων εἰς τὴν ἀκρόπολιν μετʼ οἰμωγῆς, ἀπεγνωκότων δὲ τὰ πράγματα τῶν στρατηγῶν καὶ χρῆσθαι μὴ δυναμένων τοῖς πολίταις πρὸς τοὺς πολεμίους ἀναπεφυρμένους καὶ συμμεμιγμένους αὐτοῖς πανταχόθεν.** |
 |   | *Era un verdadero saqueo 6 de la ciudad lo que estaba teniendo lugar: la muerte de los hombres, la destrucción de las murallas, el traslado de mujeres y niños a la ciudadela en medio de gemidos y la renuncia por parte de los estrategos a hacerse cargo de la situación, al no poder servirse de los ciudadanos contra los enemigos, confundidos y mezclados como estaban unos con otros completamente.* |
+
+## 42
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 315. | **p.88 42.1 οὕτω δὲ τῶν κατὰ τὴν πόλιν ἐχόντων καὶ τοῦ κινδύνου πρὸς τὴν Ἀχραδινὴν πλησιάζοντος, εἰς ὃν μόνον ἦν καὶ λοιπὸν ἀπερείσασθαι τὴν ἐλπίδα πάντες μὲν ἐφρόνουν, ἔλεγε δὲ οὐδείς, αἰσχυνόμενοι τὴν ἀχαριστίαν καὶ τὴν ἀβουλίαν τὴν πρὸς Δίωνα.** |
 |   | *Estando así las cosas en la ciudad y acercándose el peligro a 42 Acradina, sólo en un hombre podía apoyarse la esperanza. Todos lo pensaban, aunque ninguno lo decía, avergonzados por la ingratitud e insensatez que habían mostrado hacia Dión.* |
 | 316. | **2 πλήν γε δὴ τῆς ἀνάγκης ἐκβιαζομένης παρὰ τῶν συμμάχων καὶ τῶν ἱππέων γίνεται φωνὴ καλεῖν Δίωνα καὶ μεταπέμπεσθαι τοὺς Πελοποννησίους ἐκ Λεοντίνων.** |
@@ -714,6 +874,11 @@
 |   | *Se iban 7 acercando algunos de los leontinos y se reunían junto a Dión muchos de los peloponesios, sospechando, por la seriedad y los ruegos de esos hombres, que se trataba de algo muy extraordinario.* |
 | 322. | **8 εὐθὺς οὖν ἡγεῖτο πρὸς τὴν ἐκκλησίαν αὐτοῖς, καὶ συνδραμόντων προθύμως οἱ περὶ τὸν Ἀρχωνίδην καὶ τὸν Ἑλλάνικον εἰσελθόντες ἐξήγγειλάν τε βραχέως τὸ μέγεθος τῶν κακῶν, καὶ παρεκάλουν τοὺς ξένους ἐπαμῦναι p.90 τοῖς Συρακουσίοις, τὸ μνησικακεῖν ἀφέντας, ὡς μείζονα δίκην δεδωκότων αὐτῶν ἢ λαβεῖν ἂν οἱ κακῶς πεπονθότες ἠξίωσαν.** |
 |   | *Rápidamente entonces los condujo a la asamblea y, lanzándose todos a la carrera con gran empeño, Arcónides y Helánico, nada más llegar, expusieron brevemente la magnitud de las desgracias e instaron a los mercenarios a socorrer a los siracusanos, olvidando el recuerdo de las afrentas, ya que habían pagado una pena mayor que si se la hubieran impuesto sus propias víctimas.* |
+
+## 43
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 323. | **43.1 παυσαμένων δὲ τούτων σιγὴ μὲν εἶχε πολλὴ τὸ θέατρον ἀναστάντος δὲ τοῦ Δίωνος καὶ λέγειν ἀρξαμένου πολλὰ τῶν δακρύων ἐκπίπτοντα τὴν φωνὴν ἐπέσχεν·** |
 |   | *Una vez hubieron terminado, un gran silencio se apoderó del teatrolZ4. Dión se puso en pie y comenzó a hablar, pero un fuerte llanto se adueñó de su voz.* |
 | 324. | **οἱ δὲ ξένοι παρεκάλουν θαρρεῖν καὶ συνήχθοντο.** |
@@ -730,6 +895,11 @@
 |   | *No había acabado de hablar y ya se lanzaban los mercenarios con griterío a pedirle que reaccionara y los condujera en auxilio de la ciudad. Los enviados de los sircusanos se arrojaban a abrazarlos, suplicando a los dioses muchos bienes para Dión y para los mercenarios.* |
 | 330. | **p.92 7 καταστάντος δὲ τὸν θορύβου παρήγγειλεν ὁ Δίων εὐθὺς ἀπιόντας παρασκευάζεσθαι καὶ δειπνήσαντας ἥκειν μετὰ τῶν ὅπλων εἰς αὐτὸν ἐκεῖνον τὸν τόπον, ἐγνωκὼς διὰ νυκτὸς βοηθεῖν.** |
 |   | *Apaciguado el alboroto, dio instrucciones 7 Dión para que rápidamente fueran a prepararse y que, tras la cena, se dirigieran con las armas a aquel mismo lugar, decidido a llevar la ayuda durante la noche.* |
+
+## 44
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 331. | **44.1 ἐν δὲ ταῖς Συρακούσαις τῶν Διονυσίου στρατηγῶν, ἄχρι μὲν ἦν ἡμέρα, πολλὰ κακὰ τὴν πόλιν ἐργασαμένων, γενομένης δὲ νυκτὸς ἀναχωρησάντων εἰς τὴν ἀκρόπολιν καί τινας ἐξ ἑαυτῶν ὀλίγους ἀποβαλόντων, 2 ἀναθαρρήσαντες οἱ δημαγωγοὶ τῶν Συρακουσίων, καί τοὺς πολεμίους ἐλπίσαντες ἀτρεμήσειν ἐπὶ τοῖς διαπεπραγμένοις, παρεκάλουν τοὺς πολίτας αὖθις ἐᾶν Δίωνα, κἂν προσίῃ μετὰ τῶν ξένων, μὴ δέχεσθαι μηδὲ παραχωρεῖν τῆς ἀρετῆς ἐκείνοις ὡς κρείττοσιν, ἀλλὰ σῴζειν τὴν πόλιν καί τὴν ἐλευθερίαν αὐτοὺς διʼ ἑαυτῶν.** |
 |   | *En Siracusa, los generales de Dionisio, mientras fue de día, 44 hicieron a la ciudad todo el daño que pudieron y, llegada la noche, se retiraron a la ciudadela habiendo perdido a muy pocos de sus hombres. Tomaron entonces nuevos ánimos los demagogos de los siracusanos, esperanzados en que los enemigos se quedm'an conformes con lo que habían hecho, e instaron a los ciudadanos a prescindir de Dión y, si venía con los mercenarios, no acogerlo ni ceder ante ellos en valor, como si fueran superiores, sino preservar la ciudad y la libertad ellos mismos y por sí mismos.* |
 | 332. | **3 πάλιν οὖν ἐπέμποντο πρὸς τὸν Δίωνα, παρὰ μὲν τῶν στρατηγῶν ἀποτρέποντες, παρὰ δὲ τῶν ἱππέων καί τῶν γνωρίμων πολιτῶν ἐπισπεύδοντες τὴν πορείαν.** |
@@ -748,6 +918,11 @@
 |   | *Los siracusanos, en su huida, unos eran asesinados al ser capturados en las calles, otros, refugiados en sus casas, eran echados fuera por el fuego y muchos edificios en llamas se desplomaban sobre los que com'an.* |
 | 339. | **** |
 |   | *Regreso de Dión a Siracusa* |
+
+## 45
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 340. | **45.1 τοῦτο τὸ πάθος μάλιστα τὴν πόλιν ἀνέῳξε Δίωνι πάντων συμφωνησάντων.** |
 |   | *Este desastre, sobre todo, abrió la ciudad a Dión, poniéndolos a todos de acuerdo.* |
 | 341. | **ἔτυχε μὲν γὰρ οὐκέτι σπουδῇ πορευόμενος, ὡς ἤκουσεν εἰς τὴν ἀκρόπολιν κατακεκλεῖσθαι τοὺς πολεμίους.** |
@@ -766,6 +941,11 @@
 |   | *Aprovechando la increíble rapidez y buena disposición de los mercenarios, se lanzó a través de las puertas, hacia lo que se conoce como Hecatómpedo* |
 | 348. | **6 καὶ τοὺς μὲν ἐλαφροὺς εὐθὺς ἀφῆκεν ἐλθεῖν πρὸς p.96 τοὺς πολεμίους, ὡς ἰδοῦσι θαρσῆσαι τοῖς Συρακουσίοις ἐγγένοιτο, τοὺς δʼ ὁπλίτας αὐτὸς συνέταττε καὶ τῶν πολιτῶν τοὺς ἐπιρρέοντας καὶ συνισταμένους, ὀρθίους λόχους ποιῶν καὶ διαιρῶν τὰς ἡγεμονίας, ὅπως πολλαχόθεν ἅμα προσφέροιτο φοβερώτερον.** |
 |   | *ecatómpedo'~Ll~e.g ado allí, envió a las tropas ligeras contra los enemigos rápidamente, para que los siracusanos se llenasen de ánimo viéndolos, y él mismo dispuso en orden a los hoplitas y a aquéllos de los ciudadanos que corrían a unirse a ellos, formando compañías ordenadas y separando los mandos, de modo que pudieran atacar por muchos lados a la vez mostrándose así más temibles.* |
+
+## 46
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 349. | **46.1 ἐπεὶ δὲ ταῦτα παρασκευασάμενος καὶ τοῖς θεοῖς προσευξάμενος ὤφθη διὰ τῆς πόλεως ἄγων ἐπὶ τοὺς πολεμίους, κραυγῇ καὶ χαρὰ καὶ πολὺς ἀλαλαγμὸς εὐχαῖς ὁμοῦ καὶ παρακλήσεσι μεμιγμένος ἐγίνετο παρὰ τῶν Συρακουσίων, τὸν μὲν Δίωνα σωτῆρα καὶ θεὸν ἀποκαλούντων, τοὺς δὲ ξένους ἀδελφοὺς καὶ πολίτας.** |
 |   | *Una vez que dispuesto todo esto y hechas las plegarias a los 46 dioses se le vio por la ciudad conduciendo sus tropas contra los enemigos, se escuchó entre los siracusanos un alboroto, un griterío de alegría y de guerra junto con súplicas y exhortaciones, llamando a Dión (padre y)lZ9 salvador y dios, y a los mercenarios, hermanos y conciudadanos.* |
 | 350. | **2 οὐδεὶς δὲ φίλαυτος οὕτως[*] ἦν καὶ φιλόψυχος παρὰ τὸν τότε καιρόν ὃς οὐ μᾶλλον ὑπὲρ μόνου Δίωνος ἢ τῶν ἄλλων ἁπάντων ἀγωνιῶν ἐφαίνετο, πρώτου πρὸς τὸν κίνδυνον πορευομένου διʼ αἵματος καὶ πυρὸς καὶ νεκρῶν πολλῶν κειμένων ἐν ταῖς πλατείαις.** |
@@ -784,6 +964,11 @@
 |   | *a los que se quedaron fuera, dispersos, los mercenarios los persiguieron y mataron.* |
 | 357. | **7 ἀπόλαυσιν δὲ τῆς νίκης ἐν τῷ παραυτίκα καὶ χαρὰν καὶ περιβολὰς ἔργῳ τηλικούτῳ πρεπούσας οὐ παρέσχεν ὁ καιρός, ἐπὶ τὰς οἰκίας τραπομένων τῶν Συρακουσίων καὶ τὸ πῦρ μόλις ἐν τῇ νυκτὶ κατασβεσάντων.** |
 |   | *Pero el momento no era propicio para el disfmte de la recién lograda victoria, ni para el regocijo y los abrazos que convienen a tan acabada gesta, y se volvieron los siracusanos a sus casas para durante la noche apagar, con gran esfuerzo, el fuego.* |
+
+## 47
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 358. | **47.1 ἡμέρα δʼ ὡς ἦν, τῶν μὲν ἄλλων οὐδεὶς ὑπέμεινε δημαγωγῶν, ἀλλὰ καταγνόντες ἑαυτῶν ἔφυγον, Ἡρακλείδης δὲ καὶ Θεοδότης αὐτοὶ κομίσαντες ἑαυτοὺς τῷ Δίωνι παρέδωκαν, ἀδικεῖν ὁμολογοῦντες καὶ δεόμενοι βελτίονος ἐκείνου τυχεῖν γεγόνασιν αὐτοὶ περὶ ἐκεῖνον·** |
 |   | *Cuando se hizo de día, ninguno de los demagogos se quedó en la ciudad, sino que huyeron al exilio sabiéndose culpables; Heraclides y Teodotes se entregaron a Dión, reconociendo haber obrado injustamente y pidiendo recibir de él un trato mejor 2 del que ellos mismos le habían dispensado.* |
 | 359. | **2 πρέπειν δὲ Δίωνι τήν ἄλλην ἅπασαν ἀρετὴν ἀσύγκριτον ἔχοντι καὶ πρὸς ὀργὴν κρείττονι φανῆναι τῶν ἠγνωμονηκότων, οἳ περὶ οὗ πρότερον ἐστασίασαν πρὸς αὐτόν νῦν ἥκουσιν ἡττᾶσθαι τῆς ἀρετῆς ὁμολογοῦντες.** |
@@ -806,6 +991,11 @@
 |   | *Pues tomar venganza de una injusticia recibida es visto por la ley como más justo que ser el primero en cometer la injusticia, pero, en su naturaleza, ambos comportamientos se originan en una misma debilidad.* |
 | 368. | **9 ἀνθρώπου δὲ κακίαν, εἰ καὶ χαλεπόν ἐστιν, οὐχ οὕτως ἄγριον εἶναι παντάπασι καὶ δύσκολον ὥστε μὴ μεταβάλλειν χάριτι νικηθεῖσαν ὑπὸ τῶν πολλάκις εὖ ποιούντων.** |
 |   | *Pues la maldad de un hombre, por dura que sea, no es tan salvaje ni intratable que no pueda cambiar en gratitud, vencida por quienes repetidamente le hacen el bien* |
+
+## 48
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 369. | **48.1 τοιούτοις χρησάμενος λογισμοῖς ὁ Δίων ἀφῆκε τοὺς περὶ τὸν Ἡρακλείδην.** |
 |   | *Tras estas palabras, Dión dejó ir a Heraclides y Teodotes* |
 | 370. | **2 τραπόμενος δὲ πρὸς τὸ διατείχισμα, τῶν μὲν Συρακουσίων ἕκαστον ἐκέλευσεν ἕνα κόψαντα σταυρὸν ἐγγὺς καταβάλλειν, τοὺς δὲ ξένους ἐπιστήσας διὰ νυκτός, ἀναπαυομένων τῶν Συρακουσίων, ἔλαθεν ἀποσταυρώσας τὴν ἀκρόπολιν, ὥστε μεθʼ ἡμέραν τὸ τάχος καὶ τὴν ἐργασίαν θεασαμένους ὁμοίως θαυμάζειν τοὺς πολίτας καὶ τοὺς πολεμίους.** |
@@ -824,6 +1014,11 @@
 |   | *mientras era él mismo el que hacía pactos a escondidas con Dionisio por medio de Fárax130 de Esparta.* |
 | 377. | **8 καὶ τοῦτο τῶν γνωριμωτάτων Συρακουσίων ὑπονοησάντων, στάσις ἦν ἐν τῷ στρατοπέδῳ καὶ διʼ αὐτὴν ἀπορία καὶ σπάνις ἐν ταῖς Συρακούσαις, 9 ὥστε παντάπασιν ἀμηχανεῖν τὸν Δίωνα καὶ κακῶς ἀκούειν ὑπὸ τῶν φίλων οὕτω δυσμεταχείριστον ἄνθρωπον καὶ διεφθαρμένον ὑπὸ φθόνου καὶ πονηρίας αὐξήσαντα καθʼ αὑτοῦ τὸν Ἡρακλείδην.** |
 |   | *Una vez sospecharon esto los nobles siracusanos, se produjo una división en el 9 ejército y, de ahí, incertidumbre y carestía en Siracusa. De modo que Dión dudaba de todo y oía cómo sus amigos lo criticaban por haber hecho crecer contra él mismo a Heraclides, el más difícil de manejar de los hombres y el más corrompido por la envidia y la maldad.* |
+
+## 49
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 378. | **49.1 Φάρακος δὲ πρὸς Νέᾳ πόλει τῆς Ἀκραγαντίνης στρατοπεδεύοντος, ἐξαγαγὼν τοὺς Συρακουσίους ἐβούλετο μὲν ἐν ἑτέρῳ καιρῷ διαγωνίσασθαι πρὸς αὐτόν, Ἡρακλείδου δὲ καὶ τῶν p.104 ναυτῶν καταβοώντων ὡς οὐ βούλεται μάχῃ κρῖναι τὸν πόλεμον Δίων, ἀλλʼ ἀεὶ μένοντος ἄρχειν, ἀναγκασθεὶς συνέβαλε καὶ ἡττήθη.** |
 |   | *Fárax acampaba junto a la ciudad de Neápolis de AcraganteI3'. Dión, al frente de los siracusanos, quería plantarle batalla en otro momento, pero ante la acusación de Heraclides y los marineros de que pretendía que la guerra no se decidiera en un combate para perpetuarse en el poder, obligado, se lanzó a 2 la batalla y fue vencido.* |
 | 379. | **2 γενομένης δὲ τῆς τροπῆς οὐ βαρείας, ἀλλὰ μᾶλλον ὑφʼ ἑαυτῶν καὶ τοῦ στασιάζειν ταραχθέντων, αὖθις ὁ Δίων παρεσκευάζετο μάχεσθαι καὶ συνέταττε πείθων καὶ παραθαρρύνων.** |
@@ -844,6 +1039,11 @@
 |   | *Dión responde que los siracusanos ya 7 tienen bastantes generales y que si la situación requiriése imperiosamente un espartano, él mismo lo era por adopción. Gesilo renunció al mando y, navegando hacia Dión, lo reconcilió con Heraclides, que juraba y daba plenas garantías por las cuales el propio Gesilo se comprometió por juramento a vengar a Dión y castigar a Heraclides en caso de que éste tramara alguna injusticia contra él.* |
 | 387. | **** |
 |   | *Dión recupera la ciudadela de Siracusa* |
+
+## 50
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 388. | **50.1 ἐκ τούτου κατέλυσαν μὲν οἱ Συρακούσιοι τὸ ναυτικόν, οὐδὲν γὰρ ἦν ἔργον αὐτοῦ, μεγάλαι δὲ δαπάναι τοῖς πλέουσι, καὶ στάσεως ἀφορμαὶ τοῖς ἄρχουσι·** |
 |   | *Después de esto, los siracusanos licenciaron la flota, pues ya no había necesidad de ella y eran muchos los gastos ocasionados por los marineros y los pretextos de sedición para sus jefes.* |
 | 389. | **τὴν δὲ ἄκραν ἐπολιόρκουν ἐξοικοδομήσαντες τὸ περιτείχισμα.** |
@@ -854,6 +1054,11 @@
 |   | ** |
 | 392. | **4 ὅπου γὰρ ἔτι νῦν τῶν λεγομένων κατὰ τῆς τύχης παραδειγμάτων ἐμφανέστατόν ἐστι καὶ μέγιστον ἡ Διονυσίου φυγή, τίνα χρὴ δοκεῖν αὐτῶν ἐκείνων τὴν τότε χαρὰν γενέσθαι καὶ πηλίκον φρονῆσαι τοὺς τὴν μεγίστην τῶν πώποτε τυραννίδων καθελόντας ἐλαχίσταις ἀφορμαῖς;** |
 |   | *Todavía ahora, cuando se ponen ejemplos 4 de los cambios de la fortuna, el más claro y mayor es el exilio de Dionisio134, ¿qué, alegría debemos pensar que fue la de los siracusanos y qué gran orgullo no tendrían habiendo destruido la mayor de las tiranías hasta entonces con tan débiles recursos?* |
+
+## 51
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 393. | **51.1 ἐκπλεύσαντος δὲ τοῦ Ἀπολλοκράτους, καὶ τοῦ Δίωνος εἰς τὴν ἀκρόπολιν βαδίζοντος, οὐκ ἐκαρτέρησαν αἱ γυναῖκες οὐδʼ ἀνέμειναν εἰσελθεῖν p.108 αὐτόν, ἀλλʼ ἐπὶ τὰς θύρας ἐξέδραμον, ἡ μὲν Ἀριστομάχη τὸν υἱὸν ἄγουσα τοῦ Δίωνος, ἡ δʼ Ἀρετὴ κατόπιν εἵπετο δακρύουσα, καὶ διαποροῦσα πῶς ἀσπάσηται καὶ προσείπῃ τὸν ἄνδρα κοινωνίας αὐτῇ πρὸς ἕτερον γεγενημένης.** |
 |   | *Una vez embarcado Apolócrates y dirigiéndose ya Dión a la ciudadela, no tuvieron paciencia las mujeres ni esperaron a que entrase, sino que corrieron hacia las puertas, Aristómaca, llevando al hijo de Dión, mientras Areté la seguía llorando y dudando cómo saludaría y se dirigiría a su marido, estando unida 2 a otro13* |
 | 394. | **2 ἀσπασαμένου δʼ αὑτοῦ πρῶτον τὴν ἀδελφήν, εἶτα τὸ παιδίον, ἡ Ἀριστομάχη προσαγαγοῦσα τὴν Ἀρετήν, ἠτυχοῦμεν, ὦ Δίων, ἔφη, σοῦ φεύγοντος·** |
@@ -868,6 +1073,11 @@
 |   | *Al decir tales cosas Aristómaca, Dión, con lágrimas, atrajo a sí cariñosamente a su mujer* |
 | 399. | **καὶ παραδοὺς αὐτῇ τὸν υἱὸν ἐκέλευσεν εἰς τὴν οἰκίαν τὴν αὑτοῦ βαδίζειν, ὅπου καὶ αὐτὸς διῃτᾶτο, τὴν ἄκραν ἐπὶ τοῖς Συρακουσίοις ποιησάμενος.** |
 |   | *y, tras entregarle a su hijo, le ordenó ir a su casa, donde él mismo ya vivía tras haber puesto la ciudadela en manos de los siracusanos.* |
+
+## 52
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 400. | **52.1 οὕτω δὲ τῶν πραγμάτων αὐτῷ προκεχωρηκότων οὐδὲν ἀπολαῦσαι πρότερον ἠξίωσε τῆς παρούσης εὐτυχίας ἢ τὸ καὶ φίλοις χάριτας καὶ συμμάχοις δωρεάς, μάλιστα δὲ τοῖς ἐν ἄστει συνήθεσι καὶ ξένοις ἀπονεῖμαί τινα φιλανθρωπίας καὶ τιμῆς μερίδα, τῇ μεγαλοψυχίᾳ τὴν δύναμιν ὑπερβαλλόμενος,** |
 |   | *A pesar del éxito de sus empresas, no juzgó oportuno disfrutar de la presente fortuna antes de dar las gracias a sus amigos, repartir beneficios a los aliados y, especialmente, dar alguna muestra de amabilidad o algún honor a sus más allegados, de la ciudad o merenarios, superando sus posibilidades con su generosidad.* |
 | 401. | **2 ἑαυτὸν δὲ λιτῶς καὶ σωφρόνως ἐκ τῶν τυχόντων διῴκει, θαυμαζόμενος ὅτι, μὴ μόνον Σικελίας τε καὶ Καρχηδόνος, ἀλλὰ καὶ τῆς paris.1624.981 Ἑλλάδος ὅλης ἀποβλεπούσης πρὸς αὐτὸν εὐημεροῦντα, καὶ μηδὲν οὕτω μέγα τῶν τότε p.110 νομιζόντων, μηδʼ ἐπιφανεστέρας περὶ ἄλλον ἡγεμόνα τόλμης καὶ τύχης γεγονέναι δοκούσης, 3 οὕτω παρεῖχεν ἑαυτὸν ἐσθῆτι καὶ θεραπείᾳ καὶ τραπέζῃ μέτριον, ὥσπερ ἐν Ἀκαδημείᾳ συσσιτῶν μετὰ Πλάτωνος, οὐκ ἐν ξεναγοῖς καὶ μισθοφόροις διαιτώμενος, οἷς αἱ καθʼ ἑκάστην ἡμέραν πλησμοναὶ καὶ ἀπολαύσεις παραμυθία τῶν πόνων καὶ τῶν κινδύνων εἰσίν.** |
@@ -878,6 +1088,11 @@
 |   | *Porfiaba, por su parte, en no ceder ni relajar en nada 5 su dignidad en el trato y su fmeza con el pueblo, aun cuando las circunstancias requenan de su benevolencia y Platón se lo censuraba, como ya hemos dicho, escribiéndole que la arrogancia es compañera de la soledad'38* |
 | 404. | **6 ἀλλὰ φύσει τε φαίνεται πρὸς τὸ πιθανὸν δυσκεράστῳ κεχρημένος, ἀντισπᾶν τε τοὺς Συρακουσίους ἄγαν ἀνειμένους καὶ διατεθρυμμένους προθυμούμενος.** |
 |   | *Pero parece que, por naturaleza, hacía uso de la persuasión con bastante dificultad, y prefena refrenar a los siracusanos que eran en exceso disolutos y muelles.* |
+
+## 53
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 405. | **** |
 |   | *Muerte de Heraclides* |
 | 406. | **53.1 ὁ γὰρ Ἡρακλείδης αὖθις ἐπέκειτο·** |
@@ -899,6 +1114,11 @@
 | 414. | **ὅμως δὲ τοῦ Δίωνος ταφάς τε λαμπρὰς παρασκευάσαντος καὶ μετὰ τοῦ στρατεύματος ἑπομένου προπέμψαντος τὸν νεκρόν, εἶτα διαλεχθέντος αὐτοῖς, συνέγνωσαν ὡς οὐ δυνατὸν ἦν ταρασσομένην παύσασθαι τὴν πόλιν Ἡρακλείδου καὶ Δίωνος ἅμα πολιτευομένων.** |
 |   | *Sin embargo, como Dión le preparó unos funerales espléndidos y acompañó el cadáver con el ejército en comitiva y después los arengó, lo perdonaron, en la idea de que no era posible que la ciudad abandonara su estado de agitación si Heraclides y Dión estaban a la vez en la vida política.* |
 | 415. | **** |
+
+## 54
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 |   | *Conjura contra Dión* |
 | 416. | **p.114 54.1 ἦν δέ τις ἑταῖρος τοῦ Δίωνος ἐξ Ἀθηνῶν, Κάλλιππος, ὅν φησιν ὁ Πλάτων οὐκ ἀπὸ παιδείας, ἀλλʼ ἐκ μυσταγωγιῶν καὶ τῆς περιτρεχούσης ἑταιρείας γνώριμον αὐτῷ γενέσθαι καὶ συνήθη, μετασχὼν δὲ τῆς στρατείας καὶ τιμώμενος, ὥστε καὶ συνεισελθεῖν εἰς τὰς Συρακούσας πρῶτος τῶν ἑταίρων ἁπάντων, ἐστεφανωμένος καὶ λαμπρὸς ἐν τοῖς ἀγῶσι καὶ διάσημος.** |
 |   | *Tenía Dión un amigo, Calipo el atenien~ e'~'a,l que dice Platón14' que había conocido no en relación con sus estudios sino en las iniciaciones a los misterios y en la camaradería habitual. Participó en la expedición y alcanzó honores, de modo que fue el primero de los amigos en entrar en Siracusa coronado. Había estado brillante en los combates y se había distinguido,* |
@@ -908,6 +1128,11 @@
 |   | *Le llevaba siempre palabras de los soldados en su contra, dichas de verdad o inventadas por él, y de este modo consiguió una autoridad tal, basada en la confianza, que podía encontrarse secretamente y hablar con toda libertad con quienes quería en contra de Dión, incluso a instancias suyas, para que no se escapase ninguno de los que tenían contra él sentimientos y ánimo desafecto.* |
 | 419. | **5 ἐκ δὲ τούτων συνέβαινε τοὺς μὲν πονηροὺς καὶ νοσοῦντας εὑρίσκειν ταχὺ καὶ συνιστάναι τόν Κάλλιππον, εἰ δέ τις ἀπωσάμενος τοὺς λόγους αὐτοῦ καὶ τὴν πεῖραν ἐξείποι πρὸς τόν Δίωνα, μὴ ταράττεσθαι p.116 μηδὲ χαλεπαίνειν ἐκεῖνον, ὡς ἃ προσέταττε τοῦ Καλλίππου περαίνοντος.** |
 |   | *Gracias a eso resultó que Calipo encontró y puso 5 de acuerdo rápidamente a malvados y corruptos, y si alguno rechazando sus palabras y su proyecto se lo contaba a Dión, éste ni se alteraba ni se irritaba con él, como si Calipo estuviera cumpliendo lo que se le había ordenado.* |
+
+## 55
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 420. | **55.1 συνισταμένης δὲ τῆς ἐπιβουλῆς φάσμα γίνεται τῷ Δίωνι μέγα καὶ τερατῶδες, ἐτύγχανε μὲν γὰρ ὀψὲ τῆς ἡμέρας καθεζόμενος ἐν παστάδι τῆς οἰκίας μόνος ὢν πρὸς ἑαυτῷ τὴν διάνοιαν·** |
 |   | *Mientras sigue en marcha la conjura, se le aparece un fantasma a Dión, grande y monstruoso. Estaba sentado en el amo de su casa, al atardecer del día, solo con sus pensamientos.* |
 | 421. | **2 ἐξαίφνης δὲ ψόφου γενομένου πρὸς θατέρῳ πέρατι τῆς στοᾶς, ἀποβλέψας ἔτι φωτὸς ὄντος εἶδε γυναῖκα μεγάλην, στολῇ μὲν καὶ προσώπῳ μηδὲν Ἐριννύος τραγικῆς παραλλάττουσαν, σαίρουσαν δὲ καλλύντρῳ τινὶ τὴν οἰκίαν.** |
@@ -918,6 +1143,11 @@
 |   | *Esto no llegó a suceder,* |
 | 424. | **4 μεθʼ ἡμέρας δʼ ὀλίγας ὁ υἱὸς αὐτοῦ σχεδὸν ἀντίπαις ὤν, ἔκ τινος λύπης καὶ ὀργῆς μικρὰν καὶ παιδικὴν ἀρχὴν λαβούσης, ἔρριψεν ἑαυτὸν ἀπὸ τοῦ τέγους ἐπὶ τὴν κεφαλὴν καὶ διεφθάρη.** |
 |   | *pero después de unos pocos días, su hijo, apenas un niño, por una pena y un enfado que había nacido de un motivo mínimo e infantil, se arrojó del tejado, de cabeza, y se mató'43.* |
+
+## 56
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 425. | **56.1 ἐν τοιούτοις δὲ τοῦ Δίωνος ὄντος, ὁ Κάλλιππος ἔτι μᾶλλον εἴχετο τῆς ἐπιβουλῆς, καὶ λόγον εἰς τοὺς Συρακουσίους ἐξέδωκεν ὡς ὁ Δίων, ἄπαις γεγονώς, ἔγνωκε τὸν Διονυσίου καλεῖν Ἀπολλοκράτην καὶ ποιεῖσθαι διάδοχον, ἀδελφιδοῦν μὲν ὄντα τῆς ἑαυτοῦ γυναικός, θυγατριδοῦν δὲ τῆς ἀδελφῆς.** |
 |   | *Mientras Dión pasaba por este trance, Calipo se aferraba aún más a su plan y lanzó entre los siracusanos el rumor de que Dión, habiéndose quedado sin hijos, había decidido llamar al hijo de Dionisio, Apolócrates, para hacerlo su sucesor, ya que 2 era sobrino de su mujer y nieto de su hermana.* |
 | 426. | **2 ἤδη δὲ καὶ τὸν Δίωνα καὶ τὰς γυναῖκας ὑπόνοια τῶν πραττομένων εἶχε, καὶ μηνύσεις ἐγίγνοντο πανταχόθεν.** |
@@ -935,6 +1165,11 @@
 | 432. | **6 ταῦτα ποιήσας ὁ Κάλλιππος πάντα, καὶ τὸν ὅρκον ἀπομόσας, οὕτω κατεγέλασε τῶν θεῶν ὥστε περιμείνας τὴν ἑορτὴν ἧς ὤμοσε θεοῦ, δρᾷ τὸν φόνον ἐν τοῖς Κορείοις, οὐδὲν ἴσως τὸ περὶ τὴν ἡμέραν τῆς θεοῦ ποιησάμενος, ὡς ἀσεβουμένης πάντως, εἰ καὶ κατʼ ἄλλον χρόνον ἔσφαττε τὸν μύστην αὐτῆς ὁ μυσταγωγός.** |
 |   | *Calipo, tras hacer todo lo requerido, pronunció el juramento, burlándose de las diosas hasta el punto de esperar la festividad de la divinidad por la que había jurado y llevar a cabo su crimen en las fiestas de Core, aunque quizá sin atender a que era el día de la diosa, ya que hubiera sido$a bsolutamente impío, también en cualquier otro momento, que el iniciador en los misterios degollase al iniciado por él1145.* |
 | 433. | **** |
+
+## 57
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 |   | *La muerte* |
 | 434. | **57.1 ὄντων δὲ πλειόνων ἐν τῇ κοινωνίᾳ τῆς πράξεως, καθεζομένου Δίωνος ἐν οἰκήματι κλίνας τινὰς ἔχοντι μετὰ τῶν φίλων, οἱ μὲν ἔξω τὴν paris.1624.983 οἰκίαν περιέστησαν, οἱ δὲ πρὸς ταῖς θύραις τοῦ οἴκου καὶ ταῖς θυρίσιν ἦσαν.** |
 |   | *Eran muchos los que estaban de 57 acuerdo en la conjura y, un día, mientras estaba Dión en una sala de su vivienda en la que había triclinios, con sus amigos, unos rodearon la casa y otros se apostaron en las puertas y las ventanas.* |
@@ -956,6 +1191,11 @@
 |   | *que estaba encinta, y la mujer, que tuvo que parir de la manera más miserable en prisión, dio a luz a un varón,* |
 | 443. | **ὅπερ καὶ θρέψαι μᾶλλον παρεβάλοντο πείσασαι τοὺς φύλακας, ἤδη τοῦ Καλλίππου θορυβουμένου τοῖς πράγμασιν.** |
 |   | *al que se dispusieron a criar tras persuadir a los guardianes, ya que la situación de Calipo empezaba a complicarse.* |
+
+## 58
+
+| **V** | **GRIEGO**/**Español** |
+| :---: | --- |
 | 444. | **58.1 ἐν ἀρχῇ μὲν γὰρ ἀποκτείνας τὸν Δίωνα λαμπρὸς ἦν καί κατεῖχε τὰς Συρακούσας·** |
 |   | *Pues al principio, tras haber matado a Diór~'e~r~a u, n personaje brillante y gozaba del mando en Siracusa.* |
 | 445. | **καί πρὸς τὴν Ἀθηναίων ἔγραφε πόλιν, ἣν μάλιστα μετὰ τοὺς θεοὺς ὤφειλεν αἰδεῖσθαι καί δεδιέναι τηλικούτου μύσους ἁψάμενος.** |

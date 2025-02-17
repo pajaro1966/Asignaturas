@@ -4179,10 +4179,29 @@ D--&gt;|"καὶ"|D3("καὶ διαίτης ἐν ἡδοναῖς καὶ πλ
 <h3 id="5-dionisio-i-rechaza-la-filosofia">5. Dionisio I rechaza la filosofía<a class="headerlink" href="#5-dionisio-i-rechaza-la-filosofia" title="Permanent link">&para;</a></h3>
 <!-- p.10. -->
 <p>5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ (1) ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις (3) τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων (4).</p>
-<pre class="mermaid"><code>flowchart TB
+<pre class="mermaid"><code>flowchart LR
 
-A("Or")
-A--&gt;B("Gentivo absoluto")--&gt;B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων")
+O("Discurso")--&gt;F("Oraciones&lt;br&gt;previas")--&gt;F1("...")
+O--&gt;|"δὲ"|A("Oración&lt;br&gt;actual")
+A--&gt;B("Gentivo&lt;br&gt;
+absoluto")--&gt;B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς&lt;br&gt;producido el encuentro")
+B1--&gt;|"μὲν"|B11("τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς&lt;br&gt;en general sobre la virtud del hombre")
+B1--&gt;|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων&lt;br&gt;pero discutidas sobre todo cuestiones acerca de" la valentía)
+A--&gt;|"ὡς"|C("Causa")
+C--&gt;C1
+C--&gt;|"δὲ"|C2
+C1("ὡς πάντας μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους&lt;br&gt;como Platón mostraba a todos más valientes que a los tiranos")
+C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν&lt;br&gt;y, apartándose de ese tema, enseñaba")
+C2--&gt;|"ὡς "|C21("Completiva CD")--&gt;|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων&lt;br&gt;que la vida de los justos era dichosa")
+C21("Completiva CD")--&gt;|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος&lt;br&gt;mientras que la de los injustos desdichada")
+
+A--&gt;|"οὔτε"|D
+D("Predicado1")--&gt;D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος&lt;br&gt;el tirano no soportaba sus razonamientos como (si estuviera siendo) puesto a prueba")
+A--&gt;|"τε"|E
+E("Predicado2")--&gt;E1("ἤχθετό τε τοῖς παροῦσι&lt;br&gt;y se molestaba con los presentes")
+E1--&gt;E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα&lt;br&gt;por aceptar al hombre con admiración")
+E1--&gt;|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων&lt;br&gt;y por dejarse hechizar por sus palabras")
+
 </code></pre>
 <details class="note">
 <summary>Note</summary>

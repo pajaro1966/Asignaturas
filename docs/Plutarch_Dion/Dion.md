@@ -248,7 +248,7 @@
 ```mermaid
 flowchart LR
 
-O("Discurso")-->F("Oraciones previas")-->F1("...")
+O("Discurso")-->F("Oraciones<br>previas")-->F1("...")
 O-->|"δὲ"|A("Oración<br>actual")
 A-->B("Gentivo<br>
 absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς<br>producido el encuentro")
@@ -257,7 +257,7 @@ B1-->|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπο
 A-->|"ὡς"|C("Causa")
 C-->C1
 C-->|"δὲ"|C2
-C1("ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους<br>como Platón mostraba a todos más valientes que a los tiranos")
+C1("ὡς πάντας μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους<br>como Platón mostraba a todos más valientes que a los tiranos")
 C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν<br>y, apartándose de ese tema, enseñaba")
 C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων<br>que la vida de los justos era dichosa")
 C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος<br>mientras que la de los injustos desdichada")

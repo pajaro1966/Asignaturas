@@ -246,10 +246,29 @@
 <!-- p.10. --> 5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ (1) ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις (3) τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων (4).
 
 ```mermaid
-flowchart TB
+flowchart LR
 
-A("Or")
-A-->B("Gentivo absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων")
+O("Discurso")-->F("Oraciones previas")-->F1("...")
+O-->|"δὲ"|A("Oración<br>actual")
+A-->B("Gentivo<br>
+absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς<br>producido el encuentro")
+B1-->|"μὲν"|B11("τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς<br>en general sobre la virtud del hombre")
+B1-->|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων<br>pero discutidas sobre todo cuestiones acerca de" la valentía)
+A-->|"ὡς"|C("Causa")
+C-->C1
+C-->|"δὲ"|C2
+C1("ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους<br>como Platón mostraba a todos más valientes que a los tiranos")
+C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν<br>y, apartándose de ese tema, enseñaba")
+C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων<br>que la vida de los justos era dichosa")
+C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος<br>mientras que la de los injustos desdichada")
+
+A-->|"οὔτε"|D
+D("Predicado1")-->D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος<br>el tirano no soportaba sus razonamientos como (si estuviera siendo) puesto a prueba")
+A-->|"τε"|E
+E("Predicado2")-->E1("ἤχθετό τε τοῖς παροῦσι<br>y se molestaba con los presentes")
+E1-->E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα<br>por aceptar al hombre con admiración")
+E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων<br>y por dejarse hechizar por sus palabras")
+
 
 ```
 

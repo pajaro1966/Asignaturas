@@ -20,11 +20,13 @@
 
 ![Página 94](Metodo/Textbook_Pagina_094.png)
 
-![Página 94](Metodo/Textbook_Pagina_094_Tabla.png)
-
-### Pronombres
+### Pronombres pesonales: nom., ac. y gen.
 
 ![Página 94](Metodo/Textbook_Pagina_094_Pronombres.png)
+
+### Pronombres clíticos
+
+![Página 94](Metodo/Textbook_Pagina_094_Tabla.png)
 
 ---
 

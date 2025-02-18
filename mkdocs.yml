@@ -135,3 +135,5 @@ extra_templates:
 plugins:
   - privacy
   - search
+extra_javascript:
+  - javascripts/mermaid.min.js

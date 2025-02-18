@@ -375,14 +375,18 @@ graph TB
 A("Discurso")
 A-->B
 A-->C
-B("Vocativo")-->B1("Ἀτρεΐδη,")
-C("Oración")
+B("Vocativo")-->B1("Ἀτρεΐδη,<br>Atrida,")
+C("Oración")-->D("Verbo")-->D1("ὀΐω<br>creo que")
+D1-->E("Completiva de infinitivo")
+E-->E1("νῦν<br>ahora")
+E-->E2("ἄμμε<br>nosotros")
+E-->E3("παλιμπλαγχθέντας<br>vagando de vuelta")
+E-->E4("ἂψ<br>de vuelta")
+E-->E5("ἀπονοστήσειν<br>vamos a regresar")
+E-->E6("εἴ κεν θάνατόν γε φύγοιμεν<br>por si podemos huir de la muerte")
+C-->F("Condicional")-->F1("εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς<br>si en el mismo lugar guerra y peste van a domar a los aqueos")
 
 ```
-
-
-, νῦν ἄμμε παλιμπλαγχθέντας ὀΐω ἂψ ἀπονοστήσειν, εἴ κεν θάνατόν γε φύγοιμεν,
-εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς·
 
 ---
 

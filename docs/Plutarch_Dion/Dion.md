@@ -107,7 +107,7 @@
     3. **ἀγαγέσθαι**: ἄγομαι γυναῖκα 'llevarse una mujer (a casa)' > 'casarse'.
     4. **λέγεται**: construcción personal: 'Dionisio es dicho haberse casado' > 'se dice que Dionisio se casó'.
     5. **νέμων ἑαυτὸν διατελεῖν**: διατελέω + participio (nom.) 'seguir haciendo algo'. El participio νέμων está en nominativo porque el infinitivo depende de λέγεται, cuyo sujeto es ὁ Διονύσιος. En una construcciónj impersonal el participio estaría en acusativo: λέγεται [τὸν Διονύσιον νέμοντ**α** ἑαυτὸν διατελεῖν].
-    ``` mermaid
+    ```mermaid
     graph TB
 
     A("λέγεται δʼ ")
@@ -154,7 +154,7 @@
     1. El párrafo empieza sin ningún conector (partícula). Este hecho (conexión asindética) es marginal en griego antiguo.
     2. **ὁ Δίων ἐν ἀρχῇ μὲν ... ὕστερον δὲ ...**: se contrastan dos informaciones sobre Dion.
     3. **παρὰ τῷ τυράννῳ**: 'era amado junto al tirano' > 'era amado en el entorno del tirano' > 'era amado por el tirano'. La interpretación como agente es contextual: 'En España se come mucha carne' > 'España/los españoles come(n) mucha carne'.
-    ``` mermaid
+    ```mermaid
     graph TB
 
     A("O")
@@ -176,7 +176,7 @@
           - **Subjuntivo + ἂν**: interpretación eventual que en oraciones relativas conduce a una interpretación indeterminada del referente: (a) 'busco un libro que **explica** la teoría de la relatividad' (un libro concreto);  (b) 'busco un libro que **explique** la teoría de la relatividad' (cualquier libro l respecto).
           - **αἰτῇ** < αἰτέ-η-σαι (subjuntivo)/αἰτέ-ε-σαι (indicativo)
     - Anáfora cero (cf. ø): el complemento directo e indirecto en griego puede no estar explícito. En español hay que suplirlo neceariamente. El español solo tiene anáfora cero en posición sujeto.
-    ``` mermaid
+    ```mermaid
     graph TB
 
     A0("Discurso")-->A00("Oración 1")-->A000("(Fragmentos anteriores)")
@@ -216,8 +216,7 @@
 τραφεὶς γὰρ (2) ἐν ἤθεσιν ὑπὸ τυράννῳ ταπεινοῖς, καὶ βίου μὲν ἀνίσου καὶ καταφόβου, θεραπείας δὲ νεοπλούτου καὶ τρυφῆς ἀπειροκάλου (4) καὶ διαίτης ἐν ἡδοναῖς καὶ πλεονεξίαις τιθεμένης τὸ καλὸν ἐθὰς (5) καὶ μεστὸς γενόμενος (6), 7 ὡς πρῶτον (1) ἐγεύσατο λόγου καὶ φιλοσοφίας ἡγεμονικῆς πρὸς ἀρετήν, ἀνεφλέχθη τὴν ψυχὴν (3) ταχύ, καὶ τῇ περὶ αὐτὸν εὐπειθείᾳ (8) τῶν καλῶν ἀκάκως πάνυ καὶ νεωτερικῶς προσδοκήσας ὑπὸ τῶν αὐτῶν λόγων ὅμοια πείσεσθαι (9) Διονύσιον, ἐσπούδασε καὶ διεπράξατο ποιησάμενος σχολὴν (7) αὐτὸν ἐντυχεῖν Πλάτωνι καὶ ἀκοῦσαι.
 
 ??? note
-
-    ``` mermaid
+    ```mermaid
 
     graph TB
     
@@ -245,38 +244,12 @@
 
 <!-- p.10. --> 5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ (1) ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις (3) τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων (4).
 
-``` mermaid
-graph LR
-
-O("Discurso")-->F("Oraciones<br>previas")-->F1("...")
-O-->|"δὲ"|A("Oración<br>actual")
-A-->B("Gentivo<br>
-absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς<br>producido el encuentro")
-B1-->|"μὲν"|B11("τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς<br>en general sobre la virtud del hombre")
-B1-->|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων<br>pero discutidas sobre todo cuestiones acerca de" la valentía)
-A-->|"ὡς"|C("Causa")
-C-->C1
-C-->|"δὲ"|C2
-C1("ὡς πάντας μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους<br>como Platón mostraba a todos más valientes que a los tiranos")
-C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν<br>y, apartándose de ese tema, enseñaba")
-C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων<br>que la vida de los justos era dichosa")
-C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος<br>mientras que la de los injustos desdichada")
-
-A-->|"οὔτε"|D
-D("Predicado1")-->D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος<br>el tirano no soportaba sus razonamientos como (si estuviera siendo) puesto a prueba")
-A-->|"τε"|E
-E("Predicado2")-->E1("ἤχθετό τε τοῖς παροῦσι<br>y se molestaba con los presentes")
-E1-->E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα<br>por aceptar al hombre con admiración")
-E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων<br>y por dejarse hechizar por sus palabras")
-
-```
-
 ??? note
     1. **ὥσπερ ἐξελεγχόμενος**: 'como (si) estuviera siendo puesto a prueba'.
     2. **τὸ ... ὅλον**: (τὸ) ὅλον (a) 'completamente'; (b) '(hablando) en general'.
     3. **ἀποδεχομένοις**: participio predicativo del segundo argumento: 'se enfadó con los presentes (τοῖς παροῦσι) por aprobarlo (ἀποδεχομένοις)'.
     4. **τῶν λεγομένων**: 'lo dicho por Platón' > 'sus palabras'. ¿Participios sustantivados o cambio de clase de palabra?: esp. *hecho*, *dicho*, *edicto*, *escrito*, *precepto*, etc.
-    ``` mermaid
+    ```mermaid
     graph LR
     O("Discurso")-->F("Oraciones<br>previas")-->F1("...")
     O-->|"δὲ"|A("Oración<br>actual")
@@ -290,14 +263,12 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν<br>y, apartándose de ese tema, enseñaba")
     C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων<br>que la vida de los justos era dichosa")
     C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος<br>mientras que la de los injustos desdichada")
-    
     A-->|"οὔτε"|D
     D("Predicado1")-->D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος<br>el tirano no soportaba sus razonamientos<br>como (si estuviera siendo) puesto a prueba")
     A-->|"τε"|E
     E("Predicado2")-->E1("ἤχθετό τε τοῖς παροῦσι<br>y se molestaba con los presentes")
     E1-->E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα<br>por aceptar al hombre con admiración")
     E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων<br>y por dejarse hechizar por sus palabras")
-    
     ```
 
 3 τέλος (1) δὲ θυμωθεὶς καὶ παροξυνθείς ἠρώτησεν αὐτόν ὅ τι δὴ βουλόμενος εἰς Σικελίαν παραγένοιτο.
@@ -559,7 +530,7 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     2. **τῷ σώματι ... ἀμπεχόμενον**: ἀμπέχω significa 'poner A (ac, ropa) alrededor de B (dat)' > 'vestir B (el cuerpo τῷ σώματι) con A'.
     3. **τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ**: 'el lujo y el equipamiento que rodea/envuelve su casa/residencia'. El SP περὶ τὴν οἴκησιν está en posición atributiva (el el artículo y los sustantivos) y, por tanto, modifica a estos como si fuera un adjetivo.
     4. **... μὲν ἀμπεχόμενον καὶ ... λαμπρυνόμενον, ... δὲ  ... ὄντα ... μηδὲ ... ἀξιοῦντα ...**: Los participios predicativos se refieren al sujeto del inifinitivo (τὸν ἄρχοντα) y están doordinados de manera adversativa los dos primeros (μέν) a los dos segundos (δέ).
-    ``` mermaid
+    ```mermaid
     graph TB
 
     A("Discurso")
@@ -609,7 +580,7 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     1. **ὥς φησιν αὐτός**: referencia a las cartas de Platón.
     2. **αἰσχυνθεὶς ... μὴ**: 'avergonzándose ante sí mismo no fuera que' ≈ 'temiendo que'.
     3. **ἂν ἅψασθαι**: inf. + ἄν potencial
-    ``` mermaid
+    ```mermaid
     graph TB
 
     A("Discurso")

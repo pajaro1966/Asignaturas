@@ -23,25 +23,24 @@
 
 (7) Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
 
-??? note
-    - (1) Adviértase cómo el primer verso enuncia la "cólera de Aquiles", tema principal de la Iliada. Originariamente la poesía épica era realmente cantada por los aedos (§ 2). La Musa canta por su boca.  
-    - (1) θε**ά**: [ᾱ rasgo eolio](notas.md#b1-alfa-larga)  
-    - (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  Πηληϊάδ**α-ο** > Πηληϊάδ**η-ο** > Πηληϊάδ**ε-ω**.  
-    - (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9): Ἀχιλ**ῆ-u-ος** Ἀχιλ**ῆ-ος** > Ἀχιλ**έ-ως**.
-    - (2) **οὐ**λ-ο-μένην: [alargamiento](notas.md#b7)  
-    - (2) **οὐ**λομένην: part. aor. med. de ὄλ-λυ-μι, aquí con valor modal, "que ojalá perezca, que mal haya".  
-    - (2) **ἄλγε'**: ἄλγ-ος > ἄλγ-ε-σ-α > ἄλγ-ε-α > ἄλγ-η
-    - (4) **αυτούς**: "a ellos", a sus cuerpos en contraposición a sus almas.  
-    - (3) προ**ΐ**αψεν: [aumento](notas.md#p)
-    - (4) **ἑλώρια**: ἑλ-ώρια εἷλ-ον (ἑλ-) αἱρέω.
-    - (4) κύν**εσσιν**: [dativo eolio](notas.md#i1)  
-    - (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
-    - (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
-    - (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).  
-    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
-    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
-    - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω > ἐρίζω
-    - (6) διαστή-**την**: [dual](notas.md#o42):ἀτ. δι-ε-στή-**την**. ἵστημι/ἵσταμαι > ἔ-στη-σα 'yo coloqué'/ἔ-στη-ν 'yo me coloqué/me levanté'.
+- (1) Adviértase cómo el primer verso enuncia la "cólera de Aquiles", tema principal de la Iliada. Originariamente la poesía épica era realmente cantada por los aedos (§ 2). La Musa canta por su boca.  
+- (1) θε**ά**: [ᾱ rasgo eolio](notas.md#b1-alfa-larga)  
+- (1) Πηληϊάδ**εω**: [genitivo](notas.md#g5) y [patronímico](notas.md#n1).  Πηληϊάδ**α-ο** > Πηληϊάδ**η-ο** > Πηληϊάδ**ε-ω**.  
+- (1) Ἀχιλ**ῆος**: [genitivo](notas.md#i9): Ἀχιλ**ῆ-u-ος** Ἀχιλ**ῆ-ος** > Ἀχιλ**έ-ως**.
+- (2) **οὐ**λ-ο-μένην: [alargamiento](notas.md#b7)  
+- (2) **οὐ**λομένην: part. aor. med. de ὄλ-λυ-μι, aquí con valor modal, "que ojalá perezca, que mal haya".  
+- (2) **ἄλγε'**: ἄλγ-ος > ἄλγ-ε-σ-α > ἄλγ-ε-α > ἄλγ-η
+- (4) **αυτούς**: "a ellos", a sus cuerpos en contraposición a sus almas.  
+- (3) προ**ΐ**αψεν: [aumento](notas.md#p)
+- (4) **ἑλώρια**: ἑλ-ώρια εἷλ-ον (ἑλ-) αἱρέω.
+- (4) κύν**εσσιν**: [dativo eolio](notas.md#i1)  
+- (5) Sobre el "plan de Zeus", ver vv. 517-530, y además § 11.  
+- (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
+- (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).  
+- (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
+- (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω  
+- (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω > ἐρίζω
+- (6) διαστή-**την**: [dual](notas.md#o42):ἀτ. δι-ε-στή-**την**. ἵστημι/ἵσταμαι > ἔ-στη-σα 'yo coloqué'/ἔ-στη-ν 'yo me coloqué/me levanté'.
 
 ---
 
@@ -172,70 +171,66 @@ NOTAS
 |41|ταύρων ἠδ' αἰγῶν, τὸ δέ μοι κρήηνον ἐέλδωρ·|
 |42|τίσειαν Δαναοὶ ἐμὰ δάκρυα σοῖσι βέλεσσιν.»|
 
-??? note
+- (33) **ἔφατ'**: [φημί](notas.md#o7 ).
+- **ἔδεισεν**: aoristo ingresivo, "le entró miedo".  
+- **ἐπείθετο μύθῳ**: 'obedecía a su orden'. πείθω: (a) act. A (nom.) πείθει B (ac.) 'A convence a B'; (b) media: B (nom.) πείθεται A (dat.) 'B obedece/cree a A'.
+- (35) **πολλὰ**: acusativo adverbial 'mucho', ático πολύ.
+- **κιὼν**: [aoristos radicales temáticos](notas.md#o20)  
+- (36) **τὸν**: uso 'relativo' del artículo.
+- **ἠΰκομος**: [ἐΰς/ἠΰς](notas.md#b2): 'de hermosa (εὐ) cabellera (κόμη)'.
+- **τέκε**: (ἔ-)τέκ-ε (sin aumento) de ἔ-τεκ-ον: aoristo radical temático de τί-κτω (τί-τκ-ω).
+- (37) **κλῦθί**: [aoristos radicales atemáticos](notas.md#o19)  
+- **μευ**: με(ι)ο > jon. μευ/át. μου [pronombres personales](notas.md#l1)  
+- **Χρύσην**: f., nombre de ciudad (no confundir con el nombre del sacerdote).  
+- **ἀμφι**βέβηκας: perfecto (que indica el estado resultante) de βαίνω, "doy pasos", literalmente, "estás con un paso dado (con las piernas abiertas) a uno y otro lado (ἀμφι-) de Crise" = "proteges a Crise".  
+- (38) **ζαθέην**: [yod secundaria](notas.md#c7)  
+- **ἶφι**: [-φι](notas.md#j1)
+- **ἀνάσσεις**: ἄναξ, ἄνακτ-ος ἄνα**κτ-y**ω > ἀνά**σσ**εις
+- (39) La plegaria comienza recordando al dios los servicios que le ha prestado Crises ; xap. : predicado, "con agrado tuyo" ; se refiere evidentemente a un tipo de templo muy primitivo, un mero techo para proteger la imagen del dios, colocada en una gruta (Leaf); los templos surgen en Grecia en época post-micénica y son raros en Homero (ver νηός; en el glosario).  
+- (39) **νηὸν**: ν**ᾱ**ός > jón-át. ν**η**ός > át. ν**εώ**ς (metátesis de cantidad) [νηός/νεώς](notas.md#h3); [declinación ática](https://pajaro1966.github.io/Paradigmas_Griegos/paradigmsNouns.html#par17)  
+- (40) **μηρί'(μηρία)**: los huesos de los muslos con la carne que queda adherida, recubiertos con grasa (por eso son **πίονα** "grasientos").  
+- **κατὰ ... ἔκηα**: κατα-καίω 'quemar del todo' [aoristos sigmáticos](notas.md#o24)  κα**υ**-**y**ω κα**ί**ω, ἔ-καυ-σα > ἔ-κη-α.
+- **ἠδ'**: [conjunciones](notas.md#m3)  
+- (41) **κρήηνον**: [κρᾱαίνω](notas.md#o18): κρᾱα**ν**-**y**ω > κραα**ίν**ω; κρᾱα**ν**-**σ**ον > κρᾱα**ν**-**σ**ον > κρᾱ**ᾱν**-ον (alargamiento compensatorio) > κρή**η**νον (alfa larga a eta).
+- **δέ**: apodótico: aparece en principales, tras subordinadas que las anteceden, para marcar su inicio: 'si ..., entonces ...'.  
+- **ἐέλδωρ**: [prótesis vocálica](notas.md#b16)  
+- (42) τί**σειαν**: [optativo desiderativo sin partícula](notas.md#t5): τίνω, τίν-σαι-εν > τίν-**σειαν**.  
+- **βέλεσσιν**: β**α**λ-yω > βαλλω, β**ο**λ-ή, β**έ**λος/βέλεσ-σιν > βέλε**σ**-**σ**ιν > βέλε**σ**ιν  
 
-    ``` mermaid
-    graph TB
-    
-    A0("Oración compuesta<br>ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
-    A0-->A1("ἀμφιβέβηκας<br>proteges")
-    A1-->A11("Χρύσην<br>Crisa")
-    A1-->|"τε1"|A12("Κίλλάν τε1 ζαθέην<br>y la muy divina Cila")
-    A0-->|"τε2"|A2("Τενέδοιό τε2 ἶφι ἀνάσσεις<br>y gobiernas con fuerza Ténedo")
-    
-    ```
+``` mermaid
+graph TB
 
-    ``` mermaid
-    graph TB
-    
-    A0("Oración compleja")
-    A0-->A1("Subordinadas condicionales")
-    A1-->A11("εἴ ... ἔρεψα,<br>si")
-    A11-->A111("ποτέ<br>alguna vez")
-    A11-->A112("τοι<br>para ti")
-    A11-->A113("χαρίεντ' ... νηὸν<br>(un) grato templo")
-    A11-->A114("ἐπὶ ... ἔρεψα<br>cubrí")
-    A1-->A12("ἢ εἰ ... αἰγῶν<br>o si")
-    A12-->A121("ποτέ<br>alguna vez")
-    A12-->A122("τοι<br>para ti")
-    A12-->A123("πίονα μηρί' ... ταύρων ἠδ' αἰγῶν<br>grasientos muslos de toros y cabras")
-    A12-->A124("κατὰ ... ἔκηα<br>quemé")
+A0("Oración compuesta<br>ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
+A0-->A1("ἀμφιβέβηκας<br>proteges")
+A1-->A11("Χρύσην<br>Crisa")
+A1-->|"τε1"|A12("Κίλλάν τε1 ζαθέην<br>y la muy divina Cila")
+A0-->|"τε2"|A2("Τενέδοιό τε2 ἶφι ἀνάσσεις<br>y gobiernas con fuerza Ténedo")
 
-    A0-->|"δέ"|A2("Oración principal")-->A21("τὸ δέ μοι κρήηνον ἐέλδωρ")
-    A21-->A211("τὸ δέ<br>esto")
-    A21-->A212("μοι<br>a mí")
-    A21-->A213("κρήηνον<br>llévame a cabo")
-    A21-->A214("ἐέλδωρ<br>como un deseo")
-    
-    ```
-        
-    NOTAS
-    
-    - (33) **ἔφατ'**: [φημί](notas.md#o7 ). 
-    - **ἔδεισεν**: aoristo ingresivo, "le entró miedo".  
-    - **ἐπείθετο μύθῳ**: 'obedecía a su orden'. πείθω: (a) act. A (nom.) πείθει B (ac.) 'A convence a B'; (b) media: B (nom.) πείθεται A (dat.) 'B obedece/cree a A'.
-    - (35) **πολλὰ**: acusativo adverbial 'mucho', ático πολύ.
-    - **κιὼν**: [aoristos radicales temáticos](notas.md#o20)  
-    - (36) **τὸν**: uso 'relativo' del artículo.
-    - **ἠΰκομος**: [ἐΰς/ἠΰς](notas.md#b2): 'de hermosa (εὐ) cabellera (κόμη)'.
-    - **τέκε**: (ἔ-)τέκ-ε (sin aumento) de ἔ-τεκ-ον: aoristo radical temático de τί-κτω (τί-τκ-ω).
-    - (37) **κλῦθί**: [aoristos radicales atemáticos](notas.md#o19)  
-    - **μευ**: με(ι)ο > jon. μευ/át. μου [pronombres personales](notas.md#l1)  
-    - **Χρύσην**: f., nombre de ciudad (no confundir con el nombre del sacerdote).  
-    - **ἀμφι**βέβηκας: perfecto (que indica el estado resultante) de βαίνω, "doy pasos", literalmente, "estás con un paso dado (con las piernas abiertas) a uno y otro lado (ἀμφι-) de Crise" = "proteges a Crise".  
-    - (38) **ζαθέην**: [yod secundaria](notas.md#c7)  
-    - **ἶφι**: [-φι](notas.md#j1) 
-    - **ἀνάσσεις**: ἄναξ, ἄνακτ-ος ἄνα**κτ-y**ω > ἀνά**σσ**εις
-    - (39) La plegaria comienza recordando al dios los servicios que le ha prestado Crises ; xap. : predicado, "con agrado tuyo" ; se refiere evidentemente a un tipo de templo muy primitivo, un mero techo para proteger la imagen del dios, colocada en una gruta (Leaf); los templos surgen en Grecia en época post-micénica y son raros en Homero (ver νηός; en el glosario).  
-    - (39) **νηὸν**: ν**ᾱ**ός > jón-át. ν**η**ός > át. ν**εώ**ς (metátesis de cantidad) [νηός/νεώς](notas.md#h3); [declinación ática](https://pajaro1966.github.io/Paradigmas_Griegos/paradigmsNouns.html#par17)  
-    - (40) **μηρί'(μηρία)**: los huesos de los muslos con la carne que queda adherida, recubiertos con grasa (por eso son **πίονα** "grasientos").  
-    - **κατὰ ... ἔκηα**: κατα-καίω 'quemar del todo' [aoristos sigmáticos](notas.md#o24)  κα**υ**-**y**ω κα**ί**ω, ἔ-καυ-σα > ἔ-κη-α.
-    - **ἠδ'**: [conjunciones](notas.md#m3)  
-    - (41) **κρήηνον**: [κρᾱαίνω](notas.md#o18): κρᾱα**ν**-**y**ω > κραα**ίν**ω; κρᾱα**ν**-**σ**ον > κρᾱα**ν**-**σ**ον > κρᾱ**ᾱν**-ον (alargamiento compensatorio) > κρή**η**νον (alfa larga a eta).
-    - **δέ**: apodótico: aparece en principales, tras subordinadas que las anteceden, para marcar su inicio: 'si ..., entonces ...'.  
-    - **ἐέλδωρ**: [prótesis vocálica](notas.md#b16)  
-    - (42) τί**σειαν**: [optativo desiderativo sin partícula](notas.md#t5): τίνω, τίν-σαι-εν > τίν-**σειαν**.  
-    - **βέλεσσιν**: β**α**λ-yω > βαλλω, β**ο**λ-ή, β**έ**λος/βέλεσ-σιν > βέλε**σ**-**σ**ιν > βέλε**σ**ιν  
+```
+
+``` mermaid
+graph TB
+
+A0("Oración compleja")
+A0-->A1("Subordinadas condicionales")
+A1-->A11("εἴ ... ἔρεψα,<br>si")
+A11-->A111("ποτέ<br>alguna vez")
+A11-->A112("τοι<br>para ti")
+A11-->A113("χαρίεντ' ... νηὸν<br>(un) grato templo")
+A11-->A114("ἐπὶ ... ἔρεψα<br>cubrí")
+A1-->A12("ἢ εἰ ... αἰγῶν<br>o si")
+A12-->A121("ποτέ<br>alguna vez")
+A12-->A122("τοι<br>para ti")
+A12-->A123("πίονα μηρί' ... ταύρων ἠδ' αἰγῶν<br>grasientos muslos de toros y cabras")
+A12-->A124("κατὰ ... ἔκηα<br>quemé")
+
+A0-->|"δέ"|A2("Oración principal")-->A21("τὸ δέ μοι κρήηνον ἐέλδωρ")
+A21-->A211("τὸ δέ<br>esto")
+A21-->A212("μοι<br>a mí")
+A21-->A213("κρήηνον<br>llévame a cabo")
+A21-->A214("ἐέλδωρ<br>como un deseo")
+
+```
 
 ---
 
@@ -350,6 +345,44 @@ NOTAS
 - (66) **τελείων**: adjetivo que se aplica a las víctimas "impecables" y aptas para el sacrificio (las prescripciones rituales podían referirse a la especie animal, al sexo, al color de la piel, a su integridad física, etc.).  
 - (65-67) **εἴ ... ἠδ' ...**: (≈ εἴτε ... εἴτε ...): interrogativa indirecta; acaso se ha cometido alguna falta ritual en una oración o en un sacrificio.  
 - (68) τοῖσι: [dativo](notas.md#r2)  
+
+```mermaid
+graph TB
+
+O1("Discurso")
+O1-->O2
+O1-->|"δ'1 (coordinador)"|O
+O2("Oraciones previas")-->O21("...")
+O("Oración")
+O-->A
+O-->|"δ'2 (apodótico)"|B
+A("Subordinada")-->A1("οἳ δ'1 ἐπεὶ οὖν<br>ellos cuando")
+A1-->A11("ἤγερθεν<br>se reunieron")
+A1-->|"τε"|A12("ὁμηγερέες τε γένοντο<br>y llegaron a quedar juntos")
+B("Principal")-->B10("τοῖσι δ'2<br>entre ellos")
+B-->B11("ἀνιστάμενος<br>levantándose")
+B-->B12("μετέφη<br>habló entre ellos")
+B-->B13("πόδας ὠκὺς Ἀχιλλεύς<br>Aquiles rápido de pies")
+
+```
+
+## Mi punto de edición
+
+```mermaid
+
+graph TB
+
+A("Discurso")
+A-->B
+A-->C
+B("Vocativo")-->B1("Ἀτρεΐδη,")
+C("Oración")
+
+```
+
+
+, νῦν ἄμμε παλιμπλαγχθέντας ὀΐω ἂψ ἀπονοστήσειν, εἴ κεν θάνατόν γε φύγοιμεν,
+εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς·
 
 ---
 
@@ -832,16 +865,16 @@ NOTAS
   - "dile en son de reproche **cómo**/**la manera en que** va a suceder".
 - (211) **ὡς ἔσεται**:
   - Traducciones:
-    - Seymour: «**as opportunity shall offer**.»
-    - Estalella: «é injúriale de palabra **como te parezca**.»
-    - Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
-    - Crespo (Gredos): «Mas si, injúrialo de palabra e indícale **lo que sucederá**.»
+- Seymour: «**as opportunity shall offer**.»
+- Estalella: «é injúriale de palabra **como te parezca**.»
+- Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
+- Crespo (Gredos): «Mas si, injúrialo de palabra e indícale **lo que sucederá**.»
   - Hom.Od. 19.312: ἀλλά μοι ὧδ᾽ ἀνὰ θυμὸν ὀΐεται, **ὡς ἔσεταί περ**
-    - Murray (Loeb): «Yet in my heart I forebode it thus, even as it shall be.».
-    - Estalella: «Pero mi ánimo presiente lo que ha de ocurrir.»
+- Murray (Loeb): «Yet in my heart I forebode it thus, even as it shall be.».
+- Estalella: «Pero mi ánimo presiente lo que ha de ocurrir.»
   - Hom.Od. 21.212 σφῶϊν δ', **ὡς ἔσεταί περ**, ἀληθείην καταλέξω·
-    - Murray (Loeb): «But to you two will I tell the truth, even as it shall be.».
-    - Estalella: «Os voy á revelar con sinceridad lo que ha de llevarse á efecto».
+- Murray (Loeb): «But to you two will I tell the truth, even as it shall be.».
+- Estalella: «Os voy á revelar con sinceridad lo que ha de llevarse á efecto».
 - (213) **τοι**: pron., regido por el preverbio παρ-.  
 - (213) **παρέσσεται**: [εἰμί](notas.md#o5).
 - (213-214) Kirk: «213-14 Actually Akhilleus will receive far more than the value of Briseis, if she can be so valued; 24.686 suggests that 'three times' is a conventional factor, which also has legal overtones (cf. 128 and comment, also on 203), as well as reinforcing the passionate sibilation. The resumptive σὺ δ᾽ἴσχεο... provides typical closing contrast after the more leisurely pace and discursive tone of the preceding verse-and-a-half.»

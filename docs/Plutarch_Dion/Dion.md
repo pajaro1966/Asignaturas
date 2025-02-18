@@ -310,10 +310,10 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
 ??? note
     1. φαίνῃ ... εὑρηκώς: φαίνομαι + participio/infinitivo.
           1. φαίνομαι εὑρηκώς (participio): 'se ve que lo has encontrado' > **certidumbre epistémica** 'está claro que lo has encontrado'.
-          2. φαίνομαι εὑρηκέναι (infinitivo): 'parece que lo has encontrado' > **incertidumbre epistémica** 'puede que lo hayas encontrado'.
+          2. φαίνομαι εὑρηκέναι (infinitivo): 'parece que lo has encontrado' > **incertidumbre epistémica** 'puede que lo hayas encontrado'. = δοκέω1 'parecer'.
 
 5 οἱ μὲν οὖν (1) περὶ τὸν Δίωνα τοῦτο τέλος ᾤοντο τῆς ὀργῆς γεγονέναι, <!-- paris.1624.960 --> καὶ τὸν Πλάτωνα σπεύδοντα συνεξέπεμπον (2) ἐπὶ τριήρους, ἣ Πόλλιν ἐκόμιζεν εἰς τὴν Ἑλλάδα τὸν Σπαρτιάτην 6 ὁ δὲ Διονύσιος κρύφα τοῦ Πόλλιδος ἐποιήσατο δέησιν (3) μάλιστα (4) μὲν ἀποκτεῖναι τὸν ἄνδρα κατὰ πλοῦν (5), εἰ δὲ μή, πάντως (4) ἀποδόσθαι·
-βλαβήσεσθαι γὰρ (6) οὐδέν, ἀλλʼ εὐδαιμονήσειν ὁμοίως, δίκαιον ὄντα, κἂν (7) δοῦλος γένηται.
+βλαβήσεσθαι (8) γὰρ (6) οὐδέν, ἀλλʼ εὐδαιμονήσειν ὁμοίως, δίκαιον ὄντα, κἂν (7) δοῦλος γένηται.
 
 ??? note
     1. **μὲν οὖν**: esta combinación se utiliza (a) para cerrar o resumir una unidad discursiva antes de comenzar otra o (b) para introducir directamente la siguiente sección.
@@ -323,13 +323,15 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     5. **κατὰ πλοῦν**: 'durante la travesía'.
     6. **βλαβήσεσθαι γὰρ οὐδέν, ἀλλʼ εὐδαιμονήσειν**: la unidad introducida por γάρ introduce las explicaciones de Dionisio y por eso los verbos están en infinitivo: se trata de un estilo indirecto: 'porque, según él, ....'.
     7. **κἂν**: κἄν = καὶ ἐάν: condicional 'incluso si ...' > concesiva 'aunque ...'. Cf. eng. *even if*.
+    8. βλαβήσεσθαι: βλαφ-θή-σ-ε-σθαι
 
-7 διὸ καὶ λέγεται (3) Πόλλις εἰς Αἴγιναν φέρων ἀποδόσθαι (1) Πλάτωνα, πολέμου πρὸς Ἀθηναίους ὄντος αὐτοῖς καὶ ψηφίσματος ὅπως ὁ ληφθεὶς Ἀθηναίων ἐν Αἰγίνῃ πιπράσκηται (2).
+7 διὸ καὶ λέγεται (3) Πόλλις εἰς Αἴγιναν φέρων ἀποδόσθαι (1) Πλάτωνα, πολέμου πρὸς Ἀθηναίους ὄντος αὐτοῖς (4) καὶ ψηφίσματος ὅπως ὁ ληφθεὶς Ἀθηναίων ἐν Αἰγίνῃ πιπράσκηται (2).
 
 ??? note
     1. **ἀποδόσθαι**: ἀποδίδομαι 'vender' = πιπράσκω, v. πέρνημι.
     2. **πιπράσκηται**: πιπράσκω, πέρνημι 'a. exportar para vender especialmente cautivos vendidos como esclavos, b. vender'.
     3. **λέγεται Πόλλις ... ἀποδόσθαι**: construcción personal 'Polis es dicho haber vendido' > 'se dice que Polis vendió'.
+    4. πολέμου πρὸς Ἀθηναίους ὄντος αὐτοῖς: πόλεμός ἐστι μοι πρὸς τοὺς Ἀθηναίους. 'una guerra existe para mí con los atenienses' > 'tengo una guerra con los atenienses'.
 
 8 οὐ μὴν ὅ γε (1) Δίων ἔλαττον εἶχε παρὰ τῷ Διονυσίῳ τιμῆς ἢ πίστεως, ἀλλὰ πρεσβείας τε τὰς μεγίστας διῴκει καὶ πεμπόμενος πρὸς <!-- p.12 --> Καρχηδονίους ἐθαυμάσθη διαφερόντως·
 καὶ τὴν παρρησίαν ἔφερεν αὐτοῦ μόνου σχεδόν ἀδεῶς λέγοντος τὸ παριστάμενον (2), ὡς καὶ τὴν περὶ Γέλωνος ἐπίπληξιν.
@@ -338,11 +340,12 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     1. **μὴν (...) γε**: 'sin embargo': eliminación la inferencia lógica de que el disgusto de Dionisio I ante Platón pudiera haber maldispuesto al tirano contra Dion.
     2. **τὸ παριστάμενον**: 'lo que está presente a la mente, un pensamiento'.
 
-9 χλευαζομένης (1) γὰρ (2), ὡς ἔοικε, τῆς Γέλωνος ἀρχῆς, αὐτόν τε τὸν Γέλωνα τοῦ Διονυσίου γέλωτα τῆς Σικελίας γεγονέναι φήσαντος, οἱ μὲν ἄλλοι τὸ σκῶμμα προσεποιοῦντο θαυμάζειν, ὁ δὲ Δίων δυσχεράνας (2), καὶ μὴν, ἔφη, σὺ τυραννεῖς διὰ Γέλωνα πιστευθείς· διὰ σὲ δὲ οὐδεὶς ἕτερος πιστευθήσεται.
+9 χλευαζομένης (1) γὰρ (2), ὡς ἔοικε, τῆς Γέλωνος ἀρχῆς, αὐτόν τε τὸν Γέλωνα τοῦ Διονυσίου γέλωτα τῆς Σικελίας γεγονέναι φήσαντος, οἱ μὲν ἄλλοι τὸ σκῶμμα προσεποιοῦντο (3) θαυμάζειν, ὁ δὲ Δίων δυσχεράνας (2), «καὶ μὴν», ἔφη, «σὺ τυραννεῖς διὰ Γέλωνα πιστευθείς· διὰ σὲ δὲ οὐδεὶς ἕτερος πιστευθήσεται».
 
 ??? note
     1. **γάρ**: la unidad introducida por esta partícula explica en qué consistió el ataque en relación a Gelón.
     2. **δυσχεράνας**: δυσχεραίνω 'no llevar bien, estar disgustado'.
+    3. **προσεποιοῦντο**: προσ-ε-ποιέ-οντο > προσ-ε-ποιοῦ-ντο:
 
 10 τῷ γὰρ ὄντι φαίνεται κάλλιστον μὲν Γέλων ἐπιδειξάμενος θέαμα μοναρχουμένην πόλιν, αἴσχιστον δὲ Διονύσιος.
 

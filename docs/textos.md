@@ -291,23 +291,24 @@ NOTAS
 - (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
 
-``` mermaid
+```mermaid
 graph TB
-  A("Oración")
-  node_1["Verbo"]
-  node_2["ἔκλαγξαν<br>sonaron"]
-  node_3["Sujeto"]
-  node_4["ὀϊστοὶ<br>(las) flechas"]
-  node_5["ἐπ#39; ὤμων<br>(situadas) sobre los hombros"]-->node_51("χωομένοιο<br>del encolerizado (dios)")
-  node_6["Genitivo absoluto"]
-  node_7["αὐτοῦ κινηθέντος<br>al ponerse en movimiento"]
-  A --> node_1
-  node_1 --> node_2
-  A --> node_3
-  node_3 --> node_4
-  node_4 --> node_5
-  A --> node_6
-  node_6 --> node_7
+
+A("Oración")
+node_1["Verbo"]
+node_2["ἔκλαγξαν<br>sonaron"]
+node_3["Sujeto"]
+node_4["ὀϊστοὶ<br>(las) flechas"]
+node_5["ἐπ#39; ὤμων<br>(situadas) sobre los hombros"]-->node_51("χωομένοιο<br>del encolerizado (dios)")
+node_6["Genitivo absoluto"]
+node_7["αὐτοῦ κινηθέντος<br>al ponerse en movimiento"]
+A --> node_1
+node_1 --> node_2
+A --> node_3
+node_3 --> node_4
+node_4 --> node_5
+A --> node_6
+node_6 --> node_7
 ```
 
 !["Apolo, el que hiere de lejos"](Imagenes/Niobid_Krater_detail.jpeg)  
@@ -332,7 +333,8 @@ graph TB
 
 NOTAS
 
-- (57) ἤγερθ**εν**: [desinencias personales](notas.md#o41)  
+- (57) ἤγερθ**εν**: [desinencias personales](notas.md#o41): ἤγερθ**εν**/ἤγερ-**θησαν**
+- **ὁμηγερέες**:  ὁμ-ηγερ-έες
 - (58) **τοῖσι**: [dativo](notas.md#r2)  
 - (58) **δ'**: [partículas apodóticas](notas.md#v1)  
 - (59) **Ἀτρεΐδη**: [nominativo masculino η](notas.md#g3)  

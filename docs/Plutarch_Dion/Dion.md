@@ -107,7 +107,7 @@
     3. **ἀγαγέσθαι**: ἄγομαι γυναῖκα 'llevarse una mujer (a casa)' > 'casarse'.
     4. **λέγεται**: construcción personal: 'Dionisio es dicho haberse casado' > 'se dice que Dionisio se casó'.
     5. **νέμων ἑαυτὸν διατελεῖν**: διατελέω + participio (nom.) 'seguir haciendo algo'. El participio νέμων está en nominativo porque el infinitivo depende de λέγεται, cuyo sujeto es ὁ Διονύσιος. En una construcciónj impersonal el participio estaría en acusativo: λέγεται [τὸν Διονύσιον νέμοντ**α** ἑαυτὸν διατελεῖν].
-    ```mermaid
+    ``` mermaid
     graph TB
 
     A("λέγεται δʼ ")
@@ -154,7 +154,7 @@
     1. El párrafo empieza sin ningún conector (partícula). Este hecho (conexión asindética) es marginal en griego antiguo.
     2. **ὁ Δίων ἐν ἀρχῇ μὲν ... ὕστερον δὲ ...**: se contrastan dos informaciones sobre Dion.
     3. **παρὰ τῷ τυράννῳ**: 'era amado junto al tirano' > 'era amado en el entorno del tirano' > 'era amado por el tirano'. La interpretación como agente es contextual: 'En España se come mucha carne' > 'España/los españoles come(n) mucha carne'.
-    ```mermaid
+    ``` mermaid
     graph TB
 
     A("O")
@@ -176,7 +176,7 @@
           - **Subjuntivo + ἂν**: interpretación eventual que en oraciones relativas conduce a una interpretación indeterminada del referente: (a) 'busco un libro que **explica** la teoría de la relatividad' (un libro concreto);  (b) 'busco un libro que **explique** la teoría de la relatividad' (cualquier libro l respecto).
           - **αἰτῇ** < αἰτέ-η-σαι (subjuntivo)/αἰτέ-ε-σαι (indicativo)
     - Anáfora cero (cf. ø): el complemento directo e indirecto en griego puede no estar explícito. En español hay que suplirlo neceariamente. El español solo tiene anáfora cero en posición sujeto.
-    ```mermaid
+    ``` mermaid
     graph TB
 
     A0("Discurso")-->A00("Oración 1")-->A000("(Fragmentos anteriores)")
@@ -217,7 +217,7 @@
 
 ??? note
 
-    ```mermaid
+    ``` mermaid
 
     graph TB
     
@@ -245,7 +245,7 @@
 
 <!-- p.10. --> 5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον (2) περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ (1) ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις (3) τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων (4).
 
-```mermaid
+``` mermaid
 graph LR
 
 O("Discurso")-->F("Oraciones<br>previas")-->F1("...")
@@ -533,7 +533,7 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     2. **τῷ σώματι ... ἀμπεχόμενον**: ἀμπέχω significa 'poner A (ac, ropa) alrededor de B (dat)' > 'vestir B (el cuerpo τῷ σώματι) con A'.
     3. **τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ**: 'el lujo y el equipamiento que rodea/envuelve su casa/residencia'. El SP περὶ τὴν οἴκησιν está en posición atributiva (el el artículo y los sustantivos) y, por tanto, modifica a estos como si fuera un adjetivo.
     4. **... μὲν ἀμπεχόμενον καὶ ... λαμπρυνόμενον, ... δὲ  ... ὄντα ... μηδὲ ... ἀξιοῦντα ...**: Los participios predicativos se refieren al sujeto del inifinitivo (τὸν ἄρχοντα) y están doordinados de manera adversativa los dos primeros (μέν) a los dos segundos (δέ).
-    ```mermaid
+    ``` mermaid
     graph TB
 
     A("Discurso")
@@ -583,7 +583,7 @@ E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομ�
     1. **ὥς φησιν αὐτός**: referencia a las cartas de Platón.
     2. **αἰσχυνθεὶς ... μὴ**: 'avergonzándose ante sí mismo no fuera que' ≈ 'temiendo que'.
     3. **ἂν ἅψασθαι**: inf. + ἄν potencial
-    ```mermaid
+    ``` mermaid
     graph TB
 
     A("Discurso")

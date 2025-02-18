@@ -174,7 +174,7 @@ NOTAS
 
 ??? note
 
-    ```mermaid
+    ``` mermaid
     graph TB
     
     A0("Oración compuesta<br>ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
@@ -185,7 +185,7 @@ NOTAS
     
     ```
 
-    ```mermaid
+    ``` mermaid
     graph TB
     
     A0("Oración compleja")
@@ -291,7 +291,7 @@ NOTAS
 - (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
 
-```mermaid
+``` mermaid
 graph TB
   A("Oración")
   node_1["Verbo"]

@@ -288,15 +288,15 @@ NOTAS
 - (53) **Ἐννῆμαρ**: [neutros en -r-/-t-](notas.md#i6)  
 - (54) **τῇ δεκάτῃ**: aunque en el verso anterior el aedo ha usado el neutro ἦμαρ, que es arcaísmo, aquí está pensando en ἡμέρη, que es la forma usual en jonio; como se ve, la asamblea podía ser convocada no sólo por el soberano, sino por uno de los γέροντες (ver glosario).
 - **ἀγορὴν δὲ**: = ἀγορήν-δε adv. de dirección 'llamó a asamblea'.
-- **καλέσσατο**: [Αlternancia σ/σσ](notas.md#e1); [καλέω](Verbos/kalew.png).  
-- (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.  
+- **καλέσσατο**: [Αlternancia σ/σσ](notas.md#e1); [καλέω](Verbos/kalew.png): se trata de una doble sigma analógica con los verbos que sí la tienen etimológicamente: τέλος, ους τελέσ-yω ἐ-τέλε**σ**-**σ**α > át. ἐ-τέλε**σ**α.  
+- (55) **θεὰ λευκώλενος Ἥρη**: otra vez una divinidad es la causa de un acto humano.
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
 
 ```mermaid
 
-graph TB
+flowchart TB
 
-A("ἔκλαγξαν δ' ἄρ' ὀϊστοὶ ἐπ' ὤμων χωομένοιο, αὐτοῦ κινηθέντος")
+A("Oración")
   node_1["Verbo"]
   node_2["ἔκλαγξαν<br>sonaron"]
   node_3["Sujeto"]

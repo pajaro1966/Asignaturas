@@ -277,8 +277,7 @@ NOTAS
 - **νυκτὶ ἐοικώς**: «igual a la noche» porque estaba como negro de ira. ϝείκ-ω > εἴκω, ϝέ-ϝοικ-α > ἔοικ-α 'parecer(se)'.
 - (48) **μετὰ ... ἕηκε**: [tmesis](notas.md#) [ἵημι](notas.md#o6); [temas](verbo.md#60-ἵημι)
 - (49) **ἀργυρέοιο βιοῖο**: genitivo de origen sin preposición.
-- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7): **ὀ**ρεύς > Ion. **οὐ**ρεύς, [-ευς](notas.md#i9): ὀρ**ῆ**(ϝ)-**ᾰ** > ὀρ**ῆ**-**ᾰ** >	ὀρ**έ**-**ᾱ**.
-  
+- (50) **οὐρῆας**: [alargamiento métrico](notas.md#b7): **ὀ**ρεύς > Ion. **οὐ**ρεύς, [-ευς](notas.md#i9): ὀρ**ῆ**(ϝ)-**ᾰ** > ὀρ**ῆ**-**ᾰ** > ὀρ**έ**-**ᾱ**.
 - (51) **αὐτοῖσι**: a los hombres, en contraste con los mulos y perros.  
 - **ἐφιεὶς**: ἐφ-(σ)ι-(σ)ε-ντ-ς > ἐφ-(σ)ι-(σ)**ει**-ς
 - **ἐχεπευκές**: el adjetivo (sólo en este verso y en IV 129) es un compuesto con primer elemento verbal ἐχε- y *πεῦκος, tema en -s no atestiguado, pero evidentemente relacionado con πεύκη "pino"; propiamente describía una flecha con vastago de pino (y punta de bronce, ver ὀϊστός en el glosario); se trata de un singular colectivo, pues Apolo no lanzó sólo una flecha.  
@@ -293,10 +292,8 @@ NOTAS
 - (56) **ῥα**: [conjunciones](notas.md#m3)  
 
 ```mermaid
-
-flowchart TB
-
-A("Oración")
+graph TB
+  A("Oración")
   node_1["Verbo"]
   node_2["ἔκλαγξαν<br>sonaron"]
   node_3["Sujeto"]
@@ -311,7 +308,6 @@ A("Oración")
   node_4 --> node_5
   A --> node_6
   node_6 --> node_7
-
 ```
 
 !["Apolo, el que hiere de lejos"](Imagenes/Niobid_Krater_detail.jpeg)  
@@ -950,7 +946,7 @@ NOTAS
 
 [MFA de Boston](https://collections.mfa.org/objects/153661/mixing-bowl-calyx-krater-with-the-killing-of-agamemnon)
 
-o28 o28 
+o28 o28
 
 o29
 

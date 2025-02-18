@@ -333,7 +333,8 @@ NOTAS
 - (58) **τοῖσι**: [dativo](notas.md#r2)  
 - (58) **δ'**: [partículas apodóticas](notas.md#v1)  
 - (59) **Ἀτρεΐδη**: [nominativo masculino η](notas.md#g3)  
-- (60) **κεν**: [condicionales y concesivas](notas.md#u7)  
+- (60) **εἴ κεν**: [condicionales y concesivas](notas.md#u7): 'por si': depende de ἀπονοστήσειν ('regresaremos')
+- **εἰ ...**:esta condicional depende del verbo principal ὀΐω ('creo'): «si nos va a dominar la guerra y la peste entonces creo que vamos a regresar, porque (si regresamos) quizá podamos librarnos de la muerte.»
 - (61) **δαμᾷ**: [futuro](notas.md#o27); [δάμνημι](verbo.md#35-δάμνημι)  
 - (62) **ἐρείομεν**: [subjuntivo](notas.md#o39)  
 - (62) **ἱερῆα**: [sustantivos en -ευς](notas.md#i9)  

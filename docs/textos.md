@@ -332,20 +332,23 @@ NOTAS
 - **ὁμηγερέες**:  ὁμ-ηγερ-έες
 - (58) **τοῖσι**: [dativo](notas.md#r2)  
 - (58) **δ'**: [partículas apodóticas](notas.md#v1)  
-- (59) **Ἀτρεΐδη**: [nominativo masculino η](notas.md#g3)  
+- (59) **Ἀτρεΐδη**: [nominativo masculino η](notas.md#g3)
+- **παλιμπλαγχθέντας**: πάλιν πλαγχθέντας < πλάζω ἔπλαγξα πλάζομαι 'vagar'.
 - (60) **εἴ κεν**: [condicionales y concesivas](notas.md#u7): 'por si': depende de ἀπονοστήσειν ('regresaremos')
 - **εἰ ...**:esta condicional depende del verbo principal ὀΐω ('creo'): «si nos va a dominar la guerra y la peste entonces creo que vamos a regresar, porque (si regresamos) quizá podamos librarnos de la muerte.»
-- (61) **δαμᾷ**: [futuro](notas.md#o27); [δάμνημι](verbo.md#35-δάμνημι)  
+- (61) **δαμᾷ**: [futuro](notas.md#o27); [δάμνημι](verbo.md#35)
 - (62) **ἐρείομεν**: [subjuntivo](notas.md#o39)  
 - (62) **ἱερῆα**: [sustantivos en -ευς](notas.md#i9)  
 - (63) **ὄναρ**: el sueño es enviado por Zeus, y, por lo tanto, el intérprete de sueños profetiza (habla προ- "en lugar de").  
+- **γάρ**: es un inciso, y debería ir entre paréntesis o guiones.
 - (63) **τ'**: [τε](notas.md#m4)  
 - (65) **ἑκατόμβης**: [genitivo](notas.md#r1).  
 - (66) **αἴ κέν πως**: 'por si de alguna manera': condicional final. En ático se construyen con ἐάν+subjuntivo (verbo principal en presente o futuro) y εἰ + optativo (verbo principal en pasado).  
 - (66) **κνίση**: es el olor de la grasa quemada en los sacrificios, del que participan (ἀντιάω v. 67) los dioses.  
 - (66) **τελείων**: adjetivo que se aplica a las víctimas "impecables" y aptas para el sacrificio (las prescripciones rituales podían referirse a la especie animal, al sexo, al color de la piel, a su integridad física, etc.).  
-- (65-67) **εἴ ... ἠδ' ...**: (≈ εἴτε ... εἴτε ...): interrogativa indirecta; acaso se ha cometido alguna falta ritual en una oración o en un sacrificio.  
-- (68) τοῖσι: [dativo](notas.md#r2)  
+- (65-67) **εἴ ... ἠδ' ...**: (≈ εἴτε ... εἴτε ...): interrogativa indirecta; acaso se ha cometido alguna falta ritual en una oración o en un sacrificio.
+- **ἡμῖν ἀπὸ λοιγὸν ἀμῦναι**: tmesis ἡμῖν λοιγὸν ἀποἀμῦναι: 'apartarnos la ruina' > 'protegernos de la ruina': la imagen es que alguien aparta algo a alguien y de esta manera lo protege de ello: 'apártame la muerte (aléjala de mí)' > 'protégeme de la muerte'
+- (68) **τοῖσι**: [dativo](notas.md#r2)  
 
 ```mermaid
 graph TB
@@ -366,8 +369,6 @@ B-->B12("μετέφη<br>habló entre ellos")
 B-->B13("πόδας ὠκὺς Ἀχιλλεύς<br>Aquiles rápido de pies")
 
 ```
-
-## Mi punto de edición
 
 ```mermaid
 
@@ -418,13 +419,15 @@ C-->F("Condicional")-->F1("εἰ δὴ ὁμοῦ πόλεμός τε δαμ�
 
 NOTAS
   
+- (68) **κατ' ... ἕζετο**: tmesis 'se sentaba'.
 - (69) **ὄχ'**: [-α](notas.md#j10)  
 - (70) **ἐόντα**: [εἰμί](notas.md#o5)  
 - (71) **νήεσσ'**: [ναῦς](notas.md#i10); νήεσσι: regido por ἡγήσατ';  
 - (71) **εἴσω**: adv. "adentro", completa el sentido del acusativo precedente.  
 - (71) **Ἴλιον**: [acusativo](notas.md#r3)  
 - (72) **ἣν**: [posesivos](notas.md#l2)  
-- (72) **τήν**: [ὁ, ἡ, τό](notas.md#l4)  
+- (72) **τήν**: [ὁ, ἡ, τό](notas.md#l4)
+- (72) **πόρε**: aor. rad. temático ἔπορον (inf. πορεῖν), pf. pass. πέπρωμαι, fut. πορῶ.
 - (73) **ὅ**: [ὁ, ἡ, τό](notas.md#l4): Calcante.  
 - (73) **σφιν**: [pronombres personales](notas.md#l1)  
 - (73) **μετέειπεν**: [aoristos temáticos reduplicados](notas.md#o21)  
@@ -450,6 +453,8 @@ NOTAS
 - (82) **ἑοῖσι**: [posesivos](notas.md#l2).  
 - (82) **ὄφρα τελέσσῃ**: entiéndase, "hasta que satisfaga su rencor".  
 - (83)**στήθεσσιν**: στῆθος ους (στήθ**ο**σ-/στήθ**ε**σ-), στήθε**σ**-**σ**ιν > στήθε**σ**ιν.  
+
+## Mi punto de edición
 
 ---
 

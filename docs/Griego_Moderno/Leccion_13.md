@@ -4,7 +4,7 @@
 
 ## 93: 'Αχ, αυτοί οι γιατροί!' (audio)
 
-<audio controls="controls">
+<audio controls="controls" style="width: 100%;">
   <source type="audio/mpeg" src="../GM_Audios/13_Akh_avtoi_hoi_giatroi.mp3"></source>
 </audio>
 

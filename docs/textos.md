@@ -320,7 +320,7 @@ node_6 --> node_7
 |60|ἂψ ἀπονοστήσειν, εἴ κεν θάνατόν γε φύγοιμεν,|
 |61|εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς·|
 |62|ἀλλ' ἄγε δή τινα μάντιν ἐρείομεν ἢ ἱερῆα|
-|63|ἢ καὶ ὀνειροπόλον, καὶ γάρ τ' ὄναρ ἐκ Διός ἐστιν,|
+|63|ἢ καὶ ὀνειροπόλον, —καὶ γάρ τ' ὄναρ ἐκ Διός ἐστιν— |
 |64|ὅς κ' εἴποι ὅ τι τόσσον ἐχώσατο Φοῖβος Ἀπόλλων,|
 |65|εἴ ταρ ὅ γ' εὐχωλῆς ἐπιμέμφεται ἠδ' ἑκατόμβης,|
 |66|αἴ κέν πως ἀρνῶν κνίσης αἰγῶν τε τελείων|
@@ -338,7 +338,7 @@ NOTAS
 - **εἰ ...**:esta condicional depende del verbo principal ὀΐω ('creo'): «si nos va a dominar la guerra y la peste entonces creo que vamos a regresar, porque (si regresamos) quizá podamos librarnos de la muerte.»
 - (61) **δαμᾷ**: [futuro](notas.md#o27); [δάμνημι](verbo.md#35)
 - (62) **ἐρείομεν**: [subjuntivo](notas.md#o39)  
-- (62) **ἱερῆα**: [sustantivos en -ευς](notas.md#i9)  
+- (62) **ἱερῆα**: [sustantivos en -ευς](notas.md#i9) ἱερηύς ἱερῆu-α > ἱερῆ-α > ἱερέ-ᾱ
 - (63) **ὄναρ**: el sueño es enviado por Zeus, y, por lo tanto, el intérprete de sueños profetiza (habla προ- "en lugar de").  
 - **γάρ**: es un inciso, y debería ir entre paréntesis o guiones.
 - (63) **τ'**: [τε](notas.md#m4)  
@@ -347,6 +347,7 @@ NOTAS
 - (66) **κνίση**: es el olor de la grasa quemada en los sacrificios, del que participan (ἀντιάω v. 67) los dioses.  
 - (66) **τελείων**: adjetivo que se aplica a las víctimas "impecables" y aptas para el sacrificio (las prescripciones rituales podían referirse a la especie animal, al sexo, al color de la piel, a su integridad física, etc.).  
 - (65-67) **εἴ ... ἠδ' ...**: (≈ εἴτε ... εἴτε ...): interrogativa indirecta; acaso se ha cometido alguna falta ritual en una oración o en un sacrificio.
+- (67) **ἀμῦναι**: in. aor. act. ἀμυνω, ἤμυ**ν**-**σ**α > ἤμῡ**ν**-*α. 
 - **ἡμῖν ἀπὸ λοιγὸν ἀμῦναι**: tmesis ἡμῖν λοιγὸν ἀποἀμῦναι: 'apartarnos la ruina' > 'protegernos de la ruina': la imagen es que alguien aparta algo a alguien y de esta manera lo protege de ello: 'apártame la muerte (aléjala de mí)' > 'protégeme de la muerte'
 - (68) **τοῖσι**: [dativo](notas.md#r2)  
 
@@ -421,8 +422,8 @@ NOTAS
   
 - (68) **κατ' ... ἕζετο**: tmesis 'se sentaba'.
 - (69) **ὄχ'**: [-α](notas.md#j10)  
-- (70) **ἐόντα**: [εἰμί](notas.md#o5)  
-- (71) **νήεσσ'**: [ναῦς](notas.md#i10); νήεσσι: regido por ἡγήσατ';  
+- (70) **ἐόντα**: [εἰμί](notas.md#o5)
+- (71) **νήεσσ'**: [ναῦς](notas.md#i10); νήεσσι: regido por ἡγήσατ'.
 - (71) **εἴσω**: adv. "adentro", completa el sentido del acusativo precedente.  
 - (71) **Ἴλιον**: [acusativo](notas.md#r3)  
 - (72) **ἣν**: [posesivos](notas.md#l2)  
@@ -453,8 +454,6 @@ NOTAS
 - (82) **ἑοῖσι**: [posesivos](notas.md#l2).  
 - (82) **ὄφρα τελέσσῃ**: entiéndase, "hasta que satisfaga su rencor".  
 - (83)**στήθεσσιν**: στῆθος ους (στήθ**ο**σ-/στήθ**ε**σ-), στήθε**σ**-**σ**ιν > στήθε**σ**ιν.  
-
-## Mi punto de edición
 
 ---
 

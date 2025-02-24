@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+— Πατέρα, χθες {1:SHORTANSWER:=σου} {1:SHORTANSWER:=αγόρασα}  τσιγάρα. {1:SHORTANSWER:=Τα} κάπνισες όλα; — Όχι, να τα. (εσύ, αγοράζω, αυτό)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σου, αγόρασα, Τα</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Παιδιά, {1:SHORTANSWER:=μου} {1:SHORTANSWER:=δανείζετε} πέντε ευρώ; (εγώ, δανείζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου, δανείζετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Οι γονείς μου μένουν στην Αθήνα και {1:SHORTANSWER:=τους} {1:SHORTANSWER:=τηλεφωνώ} κάθε βδομάδα. (αυτοί, τηλεφωνώ)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους, τηλεφωνώ</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Τα παιδιά μας {1:SHORTANSWER:=τους} {1:SHORTANSWER:=έστειλαν} δώρα τα Χριστούγεννα. (αυτοί, στέλνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους, έστειλαν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Της αδελφής μου  {1:SHORTANSWER:=της} {1:SHORTANSWER:=χρωστώ} σαράντα ευρώ. Δε νομίζω ότι χρωστώ αλλού. (αυτή, χρωστώ)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">της, χρωστώ</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Να ο Θανάσης και ο Πρόδρομος.  {1:SHORTANSWER:=Τους} {1:SHORTANSWER:=βλέπεις} εκεί πέρα; (αυτοί, βλέπω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους, βλέπεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Όταν η πόρτα είναι ανοιχτή και κρυώνω {1:SHORTANSWER:=την} {1:SHORTANSWER:=κλείνω} . Εσύ, αφού κρυώνεις, γιατί δεν {1:SHORTANSWER:=την} {1:SHORTANSWER:=κλείνεις} ; (αυτή, κλείνω, αυτή, κλείνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">την, κλείνω, την, κλείνεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Οι βρύσες του σπιτιού μας ήταν παλιές {1:SHORTANSWER:=Τις} {1:SHORTANSWER:=άλλαξα} . (αυτές, αλλάζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τις, άλλαξα</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+Μου μιλούν ελληνικά, αλλά δεν {1:SHORTANSWER:=τους} {1:SHORTANSWER:=καταλαβαίνω} καθόλου. (αυτοί, καταλαβαίνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους, καταλαβαίνω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Ε</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Ε10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Ε. Να συμπληρώσετε τα κενά με το σωστό τύπο των αντωνυμιών και των ρημάτων που είναι στην παρένθεση.</h6>        
+{1:SHORTANSWER:=Μας} {1:SHORTANSWER:=δίνετε} δύο εισιτήρια δίτλα δίπλα, σας παρακαλώ; (εμεις, δίνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μας, δίνετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

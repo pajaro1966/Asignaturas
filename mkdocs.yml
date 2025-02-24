@@ -9,6 +9,7 @@ nav:
     - Lección 13: 'Griego_Moderno/Leccion_13.md'
     - Lección 13 (ejercicios): 'reveal.js-master/GMod_Leccion_13_Exerc.html'
     - Lecciones 10-13 (repaso): 'Griego_Moderno/Leccion_10_13.md'
+    - Lección 10-13 (ejercicios): 'reveal.js-master/GMod_Leccion_10_13_Exerc.html'
     - Lección 14: 'Griego_Moderno/Leccion_14.md'
     - Lección 15: 'Griego_Moderno/Leccion_15.md'
     - Lección 16: 'Griego_Moderno/Leccion_16.md'
@@ -65,7 +66,7 @@ nav:
     - 'Vocabulario/Vocab_Intro.md'
   - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
   - Pruebas:
-    - Morfología: 'Morfologia/Mofolgia_Todo.html'
+    - Morfología: 'Morfologia/Morfologia_Todo.html'
     - Reveal: 'reveal.js-master/index_copia.html'
 site_url: https://sitename.example
 extra_css:

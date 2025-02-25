@@ -329,6 +329,19 @@ node_6 --> node_7
 NOTAS
 
 - (57) ἤγερθ**εν**: [desinencias personales](notas.md#o41): ἤγερθ**εν**/ἤγερ-**θησαν**
+- (57) οἳ δ' ἐπεὶ **οὖν** ἤγερθεν ὁμηγερέες τε γένοντο ...: la partícula οὖν remite a la reunión de los aqueos de la que se ha apartado la atención al explicar mediante la partícula γάρ que se trataba de una iniciativa inspirada por Hera a Aquiles.
+```mermaid
+
+graph TB
+
+A("Discurso")
+A-->B("Convocatoria de Aquiles")-->B1("54	τῇ δεκάτῃ δ' ἀγορὴν δὲ καλέσσατο λαὸν Ἀχιλλεύς·")
+A-->|"γὰρ"|C(Excursos sobre Hera)-->C1("55	τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·/ 56	κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.")
+A-->|"οὖν"|D("Retorno a la asamble")-->D1("οἳ δ' ἐπεὶ οὖν ἤγερθεν ὁμηγερέες τε γένοντο ...")
+
+```
+
+
 - **ὁμηγερέες**:  ὁμ-ηγερ-έες
 - (58) **τοῖσι**: [dativo](notas.md#r2)  
 - (58) **δ'**: [partículas apodóticas](notas.md#v1)  

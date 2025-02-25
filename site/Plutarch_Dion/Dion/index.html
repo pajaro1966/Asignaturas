@@ -4360,7 +4360,7 @@ E1--&gt;|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγο
 <summary>Note</summary>
 <ol>
 <li><strong>ὡς ἄριστα</strong>: 'de la mejor manera (ἄριστα) posible (ὡς)'.</li>
-<li><strong>οὐ μὴν ἀλλὰ</strong>:</li>
+<li><strong>οὐ μὴν ἀλλὰ</strong>: 'nevertheless, notwithstanding, yet, still', <strong>οὐ μὴν ἀλλὰ καί</strong> 'not only so, but what is more'.</li>
 <li><strong>πρὸς χάριν</strong>: 'para agradarle'.</li>
 <li><strong>αὐτὸς</strong>: 'él mismo'.</li>
 <li><strong>ἐπικρεμάμενον</strong>: ἐπικρεμάννυμι, ἐπικρεμαννύω 'colgar sobre alguien' &gt; 'amenazar'.</li>
@@ -4368,7 +4368,22 @@ E1--&gt;|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγο
 <li><strong>διαθήσεσθαι</strong>: futuro dependiendo de un verbo en pasado &gt; esp. condicional 'dijo que '.</li>
 <li><strong>διαθήσεσθαι τὸν πόλεμον</strong>: 'disponer la guerra' &gt; 'ponerle fin'.</li>
 </ol>
+<p>```mermaid
+graph TB</p>
 </details>
+<p>0--&gt;A("Contexto<br>anterior")---&gt;A1("...")
+0--&gt;|"οὐ μὴν ἀλλὰ"|B("Oración")
+B--&gt;|"Genitivo absoluto"|B11("συλλόγου πρώτου τῶν φίλων γενομένου<br>παρὰ τὸν νέον Διονύσιον ")
+B--&gt;|"Predicado1"|B21("οὕτω διελέχθη περὶ τῶν συμφερόντων<br>πρὸς τὸν καιρὸν ὁ Δίων")
+B21--&gt;|"ὥστε<br>Consecutiva"|B211("ὥστε τοὺς ἄλλους ἅπαντας")--&gt;|"μὲν"|B2111("τῇ μὲν φρονήσει παῖδας ἀποδεῖξαι")
+B211--&gt;|"δὲ"|B2112("τῇ δὲ παρρησίᾳ δούλους<br>τῆς τυραννίδος")
+B2112--&gt;|"Participio<br>Pred-OD"|B21121("ἀγεννῶς καὶ περιφόβως τὰ πολλὰ<br>πρὸς χάριν τῷ μειρακίῳ συμβουλεύοντας,")
+B--&gt;|"Predicado2<br>δὲ"|B31("μάλιστα δὲ αὐτοὺς ἐξέπληξε")--&gt;|"Participio<br>Pred-OD"|B311("τὸν ἀπὸ Καρχηδόνος κίνδυνον<br>ἐπικρεμάμενον τῇ ἀρχῇ δεδοικότας")
+B31--&gt;|"Participio<br>Pred-Suj"|B312("ὑποσχόμενος")
+B312--&gt;|"μέν<br>Completiva1"|B3121("πλεύσας εὐθὺς εἰς Λιβύην ὡς<br>ἄριστα διαθήσεσθαι τὸν πόλεμον,")--&gt;|"εἰ<br>condicional"|B31211("εἰ μὲν εἰρήνης δέοιτο Διονύσιος,")
+B312--&gt;|"δέ<br>Completiva2"|B3122("θρέψειν αὐτὸς ἰδίοις τέλεσι καὶ παρέξειν εἰς <br>τὸν πόλεμον αὐτῷ πεντήκοντα τριήρεις εὖ πλεούσας.")--&gt;|"εἰ<br>condicional"|B31221("εἰ δὲ πολεμεῖν προθυμοῖτο,")</p>
+<div class="language-text highlight"><pre><span></span><code>```
+</code></pre></div>
 <h3 id="62-la-corte-del-joven-tirano">6.2. La corte del joven tirano<a class="headerlink" href="#62-la-corte-del-joven-tirano" title="Permanent link">&para;</a></h3>
 <p>7.1 ὁ μὲν οὖν Διονύσιος ὑπερφυῶς τὴν μεγαλοψυχίαν ἐθαύμασε καὶ τὴν προθυμίαν ἠγάπησεν·
 2 οἱ δὲ ἐλέγχεσθαι τῇ λαμπρότητι καὶ ταπεινοῦσθαι τῇ δυνάμει τοῦ Δίωνος οἰόμενοι, ταύτην εὐθὺς ἀρχὴν λαβόντες, οὐδεμιᾶς ἐφείδοντο (2) φωνῆς ᾗ τὸ μειράκιον ἐξαγριαίνειν ἔμελλον πρὸς αὐτόν, ὡς ὑπερχόμενον διὰ τῆς θαλάττης τυραννίδα καὶ περισπῶντα (3) ταῖς ναυσὶ τὴν δύναμιν εἰς τοὺς Ἀριστομάχης παῖδας, ἀδελφιδοῦς ὄντας αὐτῷ.</p>
@@ -4687,29 +4702,26 @@ C--&gt;C5("Verbo")--&gt;C51("ὑπήκουσεν&lt;br&gt;hizo caso")
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
-<li><strong>ὁ γὰρ δὴ Φίλιστος ...</strong>: la partícula γάρ introduce un excursus sobre Filisto que se extiende hasta el punto 12. En él la combinación μὲν οὖν nos devuelve a la narración principal.
-<pre class="mermaid"><code>
-graph TB
-
+<li><strong>ὁ γὰρ δὴ Φίλιστος ...</strong>: la partícula γάρ introduce un excursus sobre Filisto que se extiende hasta el punto 12. En él la combinación μὲν οὖν nos devuelve a la narración principal.</li>
+</ol>
+</div>
+<pre class="mermaid"><code>graph TB
 A("Narración principal:&lt;br&gt;se menciona a Filisto")--&gt;A1("ἔπεισαν αὐτὸν ἀπὸ τῆς φυγῆς μεταπέμπεσθαι Φίλιστον&lt;br&gt;"lo convencieron para hacer traer de vuelta a Filipo ..."")
 B("Excurso sobre Filisto&lt;br&gt;(flashback)")--&gt;B1("ὁ &lt;b&gt;γὰρ&lt;/b&gt; δὴ Φίλιστος ...&lt;br&gt;"En efecto, Filisto ..."")
 C("Regreso a la narración principal:&lt;br&gt;regreso de Filisto")--&gt;C1("οὗτος &lt;b&gt;μὲν οὖν&lt;/b&gt; εὐθὺς κατελθὼν ...&lt;br&gt;"Pues bien, como decía, el tal Filisto ..."")
-
 0("Discurso")--&gt;A
 0--&gt;B
-0--&gt;C
-</code></pre></li>
-<li></li>
-</ol>
-</div>
+0--&gt;C</code></pre>
 <p>6 ἐπεὶ δὲ Λεπτίνης, ἐκ γυναικὸς ἣν διαφθείρας ἑτέρῳ συνοικοῦσαν ἔσχε γενομένων αὐτῷ δυεῖν (4) θυγατέρων (3), τὴν ἑτέραν ἔδωκε Φιλίστῳ μηδὲ φράσας πρὸς Διονύσιον, ὀργισθεὶς ἐκεῖνος (1) τὴν μὲν γυναῖκα τοῦ Λεπτίνου δήσας ἐν πέδαις καθεῖρξε, τὸν δὲ Φίλιστον ἐξήλασε Σικελίας, φυγόντα παρὰ ξένους τινὰς εἰς τὸν Ἀδρίαν, ὅπου καὶ δοκεῖ τὰ πλεῖστα συνθεῖναι τῆς ἱστορίας (2) σχολάζων.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
 <li><strong>Διονύσιον, ὀργισθεὶς ἐκεῖνος</strong>: se refiere a Dionisio el viejo, como queda claro en 11.7.</li>
 <li><strong>τὰ πλεῖστα συνθεῖναι τῆς ἱστορίας</strong>: Filisto es una de las fuentes sobre la historia de Sicilia.</li>
-<li><strong>ἐκ γυναικὸς ... θυγατέρων</strong>: la relativa depende del genitivo absoluto.
-<pre class="mermaid"><code>graph TB
+<li><strong>ἐκ γυναικὸς ... θυγατέρων</strong>: la relativa depende del genitivo absoluto.</li>
+</ol>
+</div>
+<p><pre class="mermaid"><code>graph TB
 0("GENITIVO ABSOLUTO")
 0--&gt;|"ORIGEN"|D("ἐκ γυναικὸς&lt;br&gt;de una mujer")
 D--&gt;D1("RELATIVA")
@@ -4717,23 +4729,20 @@ D1--&gt;|"CD-Ac"|D2("ἣν&lt;br&gt;a la cual")
 D1--&gt;|"PARTICIPIO"|D3("διαφθείρας&lt;br&gt;tras corromperla")
 D3--&gt;D31("ἑτέρῳ συνοικοῦσαν&lt;br&gt;cuando convivía con otro")
 D1--&gt;|"VERBO"|D4("ἔσχε&lt;br&gt;consiguió")
-0--&gt;|"VERBO"|A("γενομένων&lt;br&gt;nacidas")---&gt;A1("&amp;nbsp;")
-0--&gt;|"BENEF"|B("αὐτῷ&lt;br&gt;a él")---&gt;B1("&amp;nbsp;")
+0--&gt;|"VERBO"|A("γενομένων&lt;br&gt;nacidas")---&gt;A1("&amp;nbsp;")  0--&gt;|"BENEF"|B("αὐτῷ&lt;br&gt;a él")---&gt;B1("&amp;nbsp;")
 0--&gt;|"SUJETO"|C("δυεῖν θυγατέρων&lt;br&gt;dos hijas")---&gt;C1("&amp;nbsp;")
-</code></pre></li>
-<li><strong>δυεῖν</strong>: dat. gen. dual (especialmente en femenino), át. δυoῖν.</li>
-</ol>
-</div>
-<p>7 οὐ γὰρ ἐπανῆλθε τοῦ πρεσβυτέρου ζῶντος (1), ἀλλὰ μετὰ τὴν ἐκείνου τελευτήν, ὥσπερ εἴρηται, κατήγαγεν <!-- paris.1624.963 --> αὐτὸν ὁ πρὸς Δίωνα τῶν ἄλλων φθόνος, ὡς αὐτοῖς τε μᾶλλον ἐπιτήδειον ὄντα καὶ τῇ τυραννίδι βεβαιότερον.</p>
+</code></pre>
+    1. <strong>δυεῖν</strong>: dat. gen. dual (especialmente en femenino), át. δυoῖν.</p>
+<p>7 οὐ γὰρ ἐπανῆλθε τοῦ πρεσβυτέρου ζῶντος (1), ἀλλὰ μετὰ τὴν ἐκείνου τελευτήν, ὥσπερ εἴρηται, κατήγαγεν (2) <!-- paris.1624.963 --> αὐτὸν ὁ πρὸς Δίωνα τῶν ἄλλων φθόνος, ὡς αὐτοῖς τε μᾶλλον ἐπιτήδειον ὄντα καὶ τῇ τυραννίδι βεβαιότερον.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
-<li>τοῦ πρεσβυτέρου <strong>ζῶντος</strong>: ζῶντος tema de presente: 'mientras vivió (Dionisio) el viejo'.</li>
+<li>τοῦ πρεσβυτέρου <strong>ζῶντος</strong>: ζῶντος tema de presente (aspecto imperfectivo): 'mientras vivió (Dionisio) el viejo'.</li>
 </ol>
 </div>
 <h3 id="72-el-plan-de-dion">7.2. El plan de Dion<a class="headerlink" href="#72-el-plan-de-dion" title="Permanent link">&para;</a></h3>
-<p>12.1 οὗτος μὲν οὖν εὐθὺς κατελθὼν διεπεφύκει τῆς τυραννίδος τῷ δὲ Δίωνι καὶ παρʼ ἄλλων ἐτύγχανον οὖσαι διαβολαὶ καὶ κατηγορίαι πρός τὸν τύραννον, ὡς διειλεγμένῳ περὶ καταλύσεως τῆς ἀρχῆς πρός τε Θεοδότην καὶ πρός Ἡρακλείδην.
-2 ἤλπιζε μὲν γὰρ, ὡς ἔοικε, διὰ Πλάτωνος παραγενομένου τὸ δεσποτικὸν καὶ λίαν ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·
+<p>12.1 οὗτος μὲν οὖν εὐθὺς κατελθὼν διεπεφύκει τῆς τυραννίδος τῷ δὲ Δίωνι καὶ παρʼ ἄλλων ἐτύγχανον οὖσαι διαβολαὶ καὶ κατηγορίαι πρός τὸν τύραννον, ὡς διειλεγμένῳ περὶ καταλύσεως τῆς ἀρχῆς πρός τε Θεοδότην καὶ πρός Ἡρακλείδην.</p>
+<p>2 ἤλπιζε μὲν γὰρ, ὡς ἔοικε, διὰ Πλάτωνος παραγενομένου τὸ δεσποτικὸν καὶ λίαν ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·
 3 εἰ δὲ p.26 ἀντιβαίνοι καὶ μὴ μαλάσσοιτο, καταλύσας ἐκεῖνον ἐγνώκει τὴν πολιτείαν ἀποδιδόναι Συρακουσίοις, οὐκ ἐπαινῶν μὲν δημοκρατίαν, πάντως δὲ βελτίω τυραννίδος ἡγούμενος τοῖς διαμαρτάνουσιν ὑγιαινούσης ἀριστοκρατίας.</p>
 <h3 id="73-llegada-de-platon">7.3. Llegada de Platón<a class="headerlink" href="#73-llegada-de-platon" title="Permanent link">&para;</a></h3>
 <p>13.1 ἐν τοιαύτῃ δὲ καταστάσει τῶν πραγμάτων ὄντων Πλάτων εἰς Σικελίαν ἀφικόμενος περὶ μὲν τὰς πρώτας ἀπαντήσεις θαυμαστῆς ἐτύγχανε φιλοφροσύνης καὶ τιμῆς.

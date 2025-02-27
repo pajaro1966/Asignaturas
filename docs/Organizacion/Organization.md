@@ -1,7 +1,10 @@
-# Organización
+# 1. Organización
 
-## 1. Año 2024
+---
 
+## 1.1. Año 2024
+
+### 1.1. Un nivel más
 
 ```mermaid
 ---
@@ -9,18 +12,16 @@ title: ACTIVIDADES 2023-2024,
 config:
   "theme": base,
   "themeCSS": ".taskText {fill: white; text-anchor: middle;
-  }, .grid .tick line {stroke: darkgray !important; stroke-dasharray: 0 ;
-	opacity: 0.5 !important;
-}"
+  }, .grid .tick line {stroke: darkgray !important; stroke-dasharray: 0 ; opacity: 0.5 !important;}"
 ---
 gantt
 
     title ACTIVIDADES 2023-2024
     dateFormat DD-MM-YYYY
-	axisFormat %m	
-	tickInterval 1m
+ axisFormat %m 
+ tickInterval 1m
 
-	
+ 
 section DICIEMBRE-23
 %%DICIEMBRE%%
 %%12 DIC:crit, a1, 01-12-2023, 31-12-2023
@@ -182,11 +183,41 @@ ICGL17 23-26 Sept 2025: 23-09-2025, 26-09-2025
 
 ---
 
-## 2. Proyectos
+## 1.2. Proyectos
+
 ---
 
-### 2.1. Trabajos pendiente
+### 1.2.1. Participios
 
+- [ ] Gerundios: leer bibliografía
+- [ ] Participios: leer bibliografía
+  - [ ] RAE (Bosque&Demonte)
+- [ ] Completivas: leer bibliografía
+  - [ ] Paso del participio a να.
+- [ ] Converbios.
+- [ ] Corpus
+  - [ ] Añadir NT
+  - [ ] Añadir Jenofonte.
+  - [ ] GrMod > Español
+  - [ ] Español > GrMod
+    - [ ] Javier Marías: enamoramientos
+- [ ] Traducir capítulos de gramática RAE
+
+---
+
+### 1.2.2. Gramática GrAnt: pragmática
+
+
+---
+
+### 1.2.3. Luciano
+
+
+
+
+---
+
+### 1.2.4. Trabajos pendiente
 
 ```mermaid
 
@@ -268,13 +299,11 @@ Diccionario Gramatical del griego antiguo: crit, a1, 30-12-2024, 1d
 
 ```
 
-
-
 ---
 
-### 2.1. Ezra: artículo
+### 1.2.5. Ezra: artículo
   
-#### 2.1.1. Tareas
+#### 1.2.5.1. Tareas
 
 - [ ] Corpus.
 - [ ] Bibliografía.
@@ -282,8 +311,7 @@ Diccionario Gramatical del griego antiguo: crit, a1, 30-12-2024, 1d
 - [ ] Artículo: boceto.
 - [ ] Leer a Ezra.
 
-
-#### 2.1.2. Corpus
+#### 1.2.5.2. Corpus
 
 |     Sistemas     | Notas | xml | búsquedas simultáneas | traducciones | crear/editar | solo ver |
 |----------------|:-----:|:---:|:---------------------:|:------------:|:------------:|:--------:|
@@ -293,12 +321,12 @@ Diccionario Gramatical del griego antiguo: crit, a1, 30-12-2024, 1d
 | BD condicionales |   +   |  +  |           +           |      +       |      +       |          |
 |      Chrome      |   +   |  +  |           +           |      +       |      +       |          |
 
-
 ---
 
-### 2.2. LA SUBORDINACIÓN EN GRIEGO MODERNO
+### 1.2.6. LA SUBORDINACIÓN EN GRIEGO MODERNO
 
-#### 2.2.1. TAREAS
+#### 1.2.6.1. TAREAS
+
 - [ ] Capítulos
   - [x] 03. Completivas introducción.
     - [x] Leer
@@ -312,52 +340,51 @@ Diccionario Gramatical del griego antiguo: crit, a1, 30-12-2024, 1d
     - [x] Leído.
     - [ ] Το γεγονός οτι
   - [ ] 06. Completivas: που.
-      - [x] Bibliografía
-      - [x] Leído
-      - [ ] Haciendo tabla de MPs
+    - [x] Bibliografía
+    - [x] Leído
+    - [ ] Haciendo tabla de MPs
   - [ ] 07. Completivas: μήπως.
-      - [x] Bibliografía
-      - [x] Leído
-      - [ ] Haciendo tabla de MPs
+    - [x] Bibliografía
+    - [x] Leído
+    - [ ] Haciendo tabla de MPs
 
   - [ ] 06. Interrogativas indirectas.
-      - [ ] Bibliografía
-      - [x] Leído
-      - [ ] Haciendo tabla de MPs
-      - [ ] Mejoras: es demasiado complejo
-
+    - [ ] Bibliografía
+    - [x] Leído
+    - [ ] Haciendo tabla de MPs
+    - [ ] Mejoras: es demasiado complejo
 
   - [ ] 09. Completivas: diferencias
-      - [ ] Bibliografía
-      - [±] Leído
-      - [ ] Haciendo tabla de MPs
+    - [ ] Bibliografía
+    - [±] Leído
+    - [ ] Haciendo tabla de MPs
 
   - [ ] 10. Causales
-      - [ ] Bibliografía
-      - [ ] Leído
+    - [ ] Bibliografía
+    - [ ] Leído
 
   - [ ] 11. Finales
-      - [x] Bibliografía
-      - [x] Leído
+    - [x] Bibliografía
+    - [x] Leído
 
   - [ ] 12. Consecutivas.
-      - [ ] Bibliografía
-        - [x] Mellel
-        - [x] Carpeta
-        - [ ] Triandafilidis
-      - [x] Leído
+    - [ ] Bibliografía
+      - [x] Mellel
+      - [x] Carpeta
+      - [ ] Triandafilidis
+    - [x] Leído
 
   - [ ] 13. Condicionales
-      - [x] Bibliografía
-      - [x] Leído
+    - [x] Bibliografía
+    - [x] Leído
 
   - [ ] 14. Concesivas
-      - [x] Bibliografía
-      - [x] Leído
+    - [x] Bibliografía
+    - [x] Leído
 
   - [ ] 15. Comparativas
-      - [x] Bibliografía
-      - [ ] Leído
+    - [x] Bibliografía
+    - [ ] Leído
 
 - [ ] Recopilar bibliografía
   - [ ] Ver gramáticas
@@ -376,7 +403,7 @@ Diccionario Gramatical del griego antiguo: crit, a1, 30-12-2024, 1d
 - [ ] Base de datos de construcciones: tengo una en Filemaker.
 - [ ] Simplificar ejemplos
 
-#### 2.2.2. CRONODIAGRAMA
+#### 1.2.6.2. CRONODIAGRAMA
 
 ```mermaid
 ---
@@ -385,15 +412,15 @@ config:
   "theme": base,
   "themeCSS": ".taskText {fill: white; text-anchor: middle;
   }, .grid .tick line {stroke: darkgray !important; stroke-dasharray: 0 ;
-	opacity: 0.5 !important;
+ opacity: 0.5 !important;
 }"
 ---
 gantt
 
   title SUBORDINACIÓN EN GRIEGO MODERNO
   dateFormat DD-MM-YYYY
-	axisFormat %	
-	tickInterval 1week
+ axisFormat % 
+ tickInterval 1week
   
 
 
@@ -474,10 +501,9 @@ DICIEMBRE: crit, 2024-12-01, 30d
 
 ```
 
-
 ---
 
-### 2.3. Libro sobre Prefijación
+### 1.2.7. Libro sobre Prefijación
 
 ```mermaid
 
@@ -520,58 +546,38 @@ section pendiente
 
 ---
 
-### 2.3. Gramática práctica del Griego Antiguo
+### 1.2.8. Gramática práctica del Griego Antiguo
 
 ---
 
-### 2.3. Homero
+### 1.2.9. CIVIS: 8-12 April 2024 + 25-31 July 2024
+
+[CIVIS](https://civis.eu/en/learn/civis-courses/languages-in-europe-and-their-diachronies-2)
+
+#### 1.2.9.1. [Spring programme](https://conferences.uoa.gr/event/81/page/583-spring-school)
+
+[Spring](https://conferences.uoa.gr/event/81/page/583-spring-school)
 
 ---
 
-
-### 2.4. Regalos
-
----
-
-
-### 2.5. AMGL (Greek lexicography): May 31, 2024
-
-https://www.lit.auth.gr/amgl44/
+### 1.2.10. Brill
 
 ---
 
-
-### 2.6. Exámenes KEG (14/16-5-2024):
-
-https://www.greek-language.gr/certification/node/15.html
+## 1.3. Clases
 
 ---
 
-
-### 2.7. CIVIS: 8-12 April 2024 + 25-31 July 2024:
-
-https://civis.eu/en/learn/civis-courses/languages-in-europe-and-their-diachronies-2
-
-#### 2.7.1. [Spring programme](https://conferences.uoa.gr/event/81/page/583-spring-school)
-
-https://conferences.uoa.gr/event/81/page/583-spring-school
+### 1.3.1. Griego moderno
 
 ---
 
-### 2.8. MESOB:
+### 1.3.2. Máster: Plutarco
 
-https://www.uam.es/Profesorado/documento/1446830603196/CALENDARIO_MESOB_2023-24%20(actualizado%2007-07-2023).pdf?blobheader=application/pdf
-
----
-### 2.9. Brill
----
-
-## 3. Clases
 
 ---
 
-
-### 3.1. MESOB
+### 1.3.3. MESOB
 
 ```mermaid
 ---
@@ -580,15 +586,15 @@ config:
   "theme": base,
   "themeCSS": ".taskText {fill: white; text-anchor: middle;
   }, .grid .tick line {stroke: darkgray !important; stroke-dasharray: 0 ;
-	opacity: 0.5 !important;
+ opacity: 0.5 !important;
 }"
 ---
 gantt
 
   title MESOB (8 de enero a 17 de mayo
   dateFormat DD-MM-YYYY
-	axisFormat %	
-	tickInterval 1week
+ axisFormat % 
+ tickInterval 1week
   excludes weekends
 
 section Enero
@@ -621,18 +627,18 @@ section Abril
 
 ---
 
-### 3.2. Homero
+### 1.3.4. Homero
 
 - [ ] Temario
-    - [ ] Creación:  analísticos vs. unitarios
-    -  [ ] Lengua: dialectos y lenguas literarias
-    -  [ ] Fonética
-    -  [ ] Morfología 
-    -  [ ] Sintaxis
-    -  [ ] Métrica
-    -  [ ] Cavafy
-    -  [ ] Narrativa de la Ilíada
-    -  [ ] Narrativa de la Odisea
+  - [ ] Creación:  analísticos vs. unitarios
+  - [ ] Lengua: dialectos y lenguas literarias
+  - [ ] Fonética
+  - [ ] Morfología
+  - [ ] Sintaxis
+  - [ ] Métrica
+  - [ ] Cavafy
+  - [ ] Narrativa de la Ilíada
+  - [ ] Narrativa de la Odisea
   - [ ] Textos seleccionados
     - [ ] Textos vistos en clase
     - [ ] Textos discutidos por los alumnos
@@ -641,7 +647,7 @@ section Abril
   - [ ]  Traducciones
   - [ ]  Introducciones
   - [ ]  Antologías
- - [ ]  Periodización
+- [ ]  Periodización
 - [ ]  Herramientas
   - [ ]  Ruipérez
     - [ ]  Notas: archivo de Ruipérez
@@ -652,6 +658,8 @@ section Abril
 
 ---
 
+### 1.3.5. Gráfico de asignaturas
+
 ```mermaid
 ---
 displayMode: compact
@@ -659,74 +667,78 @@ displayMode: compact
 
 gantt
 
-  title MESOB (8 de enero a 17 de mayo
+  title HOMERO
   dateFormat DD-MM-YYYY
   axisFormat %m
-  tickInterval 1week
+  tickInterval 1m
  
-
 section UAM
-Comienzo de clases: milestone, 28-01-2025, 1d
-Comienzo de clases: milestone, 28-02-2025, 1d
-Máster: milestone, crit, 11-03-2025
-Semana Santa: crit, 12-04-2025, 21-04-2025
-Fiesta Fac: milestone, crit, 24-04-2025
+  Comienzo de clases: milestone, 28-01-2025, 1d
+  Máster: milestone, crit, 11-03-2025
+  Semana Santa: crit, 12-04-2025, 21-04-2025
+  Fiesta Fac: crit, milestone, 24-04-2025
 
 section semanas
+  Sem 02: 06-01-2025, 6d
+  Sem 03: 13-01-2025, 6d
+  Sem 04: 20-01-2025, 6d
+  Sem 05: 27-01-2025, 6d
+  Sem 06: 03-02-2025, 6d
+  Sem 07: 10-02-2025, 6d
+  Sem 08: 17-02-2025, 6d
+  Sem 09: 24-02-2025, 6d
+  Sem 10: 03-03-2025, 6d
+  Sem 11: 10-03-2025, 6d
+  Sem 12: 17-03-2025, 6d
+  Sem 13: 24-03-2025, 6d
+  Sem 14: 31-03-2025, 6d
+  Sem 15: 07-04-2025, 6d
+  Sem 16: 14-04-2025, 6d
+  Sem 17: 21-04-2025, 6d
+  Sem 18: 28-04-2025, 6d
+  Sem 19: 05-05-2025, 6d
+  Sem 20: 12-05-2025, 6d
 
-Semana 02: 06-01-2025, 12-01-2025
-Semana 03: 13-01-2025, 19-01-2025
-Semana 04: 20-01-2025, 26-01-2025
-Semana 05: 27-01-2025, 02-02-2025
-Semana 06: 03-02-2025, 09-02-2025
-Semana 07: 10-02-2025, 16-02-2025
-Semana 08: 17-02-2025, 23-02-2025
-Semana 09: 24-02-2025, 02-03-2025
-Semana 10: 03-03-2025, 09-03-2025
-Semana 11: 10-03-2025, 16-03-2025
-Semana 12: 17-03-2025, 23-03-2025
-Semana 13: 24-03-2025, 30-03-2025
-Semana 14: 31-03-2025, 06-04-2025
-Semana 15: 07-04-2025, 13-04-2025
-Semana 16: 14-04-2025, 20-04-2025
-Semana 17: 21-04-2025, 27-04-2025
-Semana 18: 28-04-2025, 04-05-2025
-Semana 19: 05-05-2025, 11-05-2025
-Semana 20: 12-05-2025, 18-05-2025
+section Gr moderno
+  Lec_12: done, 29-01-2025, 17d
+  Lec_13: done, 19-02-2025, 6d
+  Lec_14: 27-02-2025, 6d
+  Lec_15: 06-03-2025, 6d
+  Lec_16: 13-03-2025, 6d
+  Lec_17: 20-03-2025, 6d
+  Lec_18: 27-03-2025, 6d
+  Lec_19: 03-04-2025, 6d
+  Lec_20: 10-04-2025, 6d
+  Lec_21: 17-04-2025, 6d
+  Lec_22: 01-05-2025, 6d
+  Lec_23: 08-05-2025, 6d
+  Lec_24: 15-05-2025, 6d
 
-section Griego moderno
+section MESOB
 
-Lec_12: 28-01-2025, 16-02-2025
-Lec_13: 19-02-2025, 23-02-2025
-Lec_14: 27-02-2025, 03-03-2025
+Comienzo: milestone, 08-01-2025, 17d
+
+section HOMERO
+
+Versos 1-80: done, 29-01-2025, 17d
+
+section MASTER
+
+Comienzo: 11-03-2025, 29-04-2025
+
+
+section ENTREGAS
+
+Participios: crit, 10-03-2025, 1d
+Pragmática: crit, 31-03-2025, 1d
 
 ```
 
-Semana 02: 06-01-2025, 12-01-2025
-Semana 03: 13-01-2025, 19-01-2025
-Semana 04: 20-01-2025, 26-01-2025
-Semana 05: 27-01-2025, 02-02-2025
-Semana 06: 03-02-2025, 09-02-2025
-Semana 07: 10-02-2025, 16-02-2025
-Semana 08: 17-02-2025, 23-02-2025
-Semana 09: 24-02-2025, 02-03-2025
-Semana 10: 03-03-2025, 09-03-2025
-Semana 11: 10-03-2025, 16-03-2025
-Semana 12: 17-03-2025, 23-03-2025
-Semana 13: 24-03-2025, 30-03-2025
-Semana 14: 31-03-2025, 06-04-2025
-Semana 15: 07-04-2025, 13-04-2025
-Semana 16: 14-04-2025, 20-04-2025
-Semana 17: 21-04-2025, 27-04-2025
-Semana 18: 28-04-2025, 04-05-2025
-Semana 19: 05-05-2025, 11-05-2025
-Semana 20: 12-05-2025, 18-05-2025
-
 ---
 
-## 4. Semanas
+## 1.4. Semanas
 
-### 4.1. Semana 08 enero 14 enero
+### 1.4.1. Semana 08 enero 14 enero
 
 ```mermaid
 ---
@@ -738,8 +750,8 @@ gantt
     dateFormat HH:mm
     axisFormat %H:%M
 
-	tickInterval 1h
-	
+ tickInterval 1h
+ 
 section LUNES
 09-Leva: a1, 09:00, 09:59
 10-XXX: a1, 10:00, 10:59
@@ -840,21 +852,23 @@ XXX: a1, 16:00, 17:00
 20-XXX: a1, 20:00, 21:00
 
 ```
-## Innnovación docente
 
-### Informe
-### Nuevo
+## 1.5. Innnovación docente
+
+### 1.5.1. Informe
+
+### 1.5.2. Nuevo
 
 [URL](https://innovaciondocente.uam.es)
 
 ---
-## Médicos
+
+## 1.6. Médicos
 
 - 26-06/28-06, 09:45 PRINCESA: ![OTORRINO](imagenes/26_06_2024_Otorrino.jpeg)  
 - 16-04-2024: 08:30: ESCANER TORAX Hospital Santa Cristina Maestro Vives 2: ![FOTO](imagenes/16_04_2024_Escaner_Torax.jpeg)
 
-## Tiempo pasado
-
+## 1.7. Tiempo pasado
 
 ```mermaid
 
@@ -893,7 +907,7 @@ Post ±403 a.C. Acciones legales contra Eratóstenes: a2, -403, 1y
 
 ---
 
-## Your code
+## 1.8. Your code
 
 ```mermaid
 

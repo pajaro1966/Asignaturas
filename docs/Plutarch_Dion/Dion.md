@@ -719,12 +719,53 @@
 
 ### 8.1. Exilio de Dion; aislamiento de Platón
 
-p.28.14.1 οὐκέτʼ οὖν καθʼ ἕνα καὶ λαθραίως, ἀλλὰ πάντες ἀναφανδὸν ἐλοιδόρουν τὸν Δίωνα, λέγοντες ὡς οὐ λέληθε κατεπᾴδων καὶ καταφαρμάσσων τῷ Πλάτωνος λόγῳ Διονύσιον, ὅπως ἀφέντος ἑκουσίως αὐτοῦ καὶ προεμένου τὴν ἀρχὴν ὑπολαβὼν εἰς τοὺς Ἀριστομάχης περιστήσῃ παῖδας, ὧν θεῖός ἐστιν.
+<!-- p.28. --> 14.1 οὐκέτʼ οὖν καθʼ ἕνα καὶ λαθραίως, ἀλλὰ πάντες ἀναφανδὸν ἐλοιδόρουν τὸν Δίωνα, λέγοντες ὡς οὐ λέληθε κατεπᾴδων καὶ καταφαρμάσσων τῷ Πλάτωνος λόγῳ Διονύσιον, ὅπως ἀφέντος ἑκουσίως αὐτοῦ καὶ προεμένου τὴν ἀρχὴν ὑπολαβὼν εἰς τοὺς Ἀριστομάχης περιστήσῃ παῖδας, ὧν θεῖός ἐστιν.
+
+!!! note
+    1. **περιστήσῃ**: 'pasar algo que uno ha recibido (como en una rueda)'.
+    ```mermaid
+    graph LR
+    0("...")-.->A("Dionisio el joven")-.->B("Dion")-->C("Sobrinos de Dion")-.->D("...")
+    ```
+
 2 ἔνιοι δὲ προσεποιοῦντο δυσχεραίνειν, εἰ πρότερον μὲν Ἀθηναῖοι ναυτικαῖς καὶ πεζικαῖς δυνάμεσι μεγάλαις δεῦρο πλεύσαντες ἀπώλοντο καὶ διεφθάρησαν πρότερον ἢ λαβεῖν Συρακούσας, 3 νυνὶ δὲ διʼ ἑνὸς σοφιστοῦ καταλύουσι τὴν Διονυσίου τυραννίδα, συμπείσαντες αὐτὸν ἐκ τῶν μυρίων δορυφόρων ἀποδράντα, καὶ καταλιπόντα τὰς τετρακοσίας τριήρεις καὶ τοὺς μυρίους ἱππεῖς καὶ τοὺς πολλάκις τοσούτους ὁπλίτας, ἐν Ἀκαδημείᾳ τὸ σιωπώμενον ἀγαθὸν ζητεῖν καὶ διὰ γεωμετρίας εὐδαίμονα γενέσθαι, τὴν ἐν ἀρχῇ καὶ χρήμασι καὶ τρυφαῖς εὐδαιμονίαν Δίωνι καὶ τοῖς Δίωνος ἀδελφιδοῖς προέμενον.
-4 ἐκ τούτων ὑποψίας πρῶτον, εἶτα καὶ φανερωτέρας ὀργῆς καὶ διαφορᾶς γενομένης, ἐκομίσθη τις ἐπιστολὴ κρύφα πρὸς Διονύσιον, ἣν ἐγεγράφει Δίων πρὸς τοὺς Καρχηδονίων ἐπιμελητάς κελεύων, ὅταν Διονυσίῳ περὶ τῆς εἰρήνης διαλέγωνται, μὴ χωρὶς αὐτοῦ ποιήσασθαι τὴν ἔντευξιν, ὡς πάντα θησομένους ἀμεταπτώτως διʼ αὐτοῦ.
-5 ταύτην ἀναγνοὺς Διονύσιος Φιλίστῳ καὶ μετʼ ἐκείνου βουλευσάμενος, ὥς φησι Τίμαιος, ὑπῆλθε τὸν Δίωνα πεπλασμέναις διαλύσεσι·
-6 καὶ μέτρια σκηψάμενος διαλλάττεσθαί τε φήσας, μόνον τε ἀπαγαγὼν ὑπὸ τὴν ἀκρόπολιν πρὸς τὴν paris.1624.964 p.30 θάλασσαν, ἔδειξε τὴν ἐπιστολὴν καὶ κατηγόρησεν ὡς συνισταμένου μετὰ Καρχηδονίων ἐπʼ αὐτόν.
-7 ἀπολογεῖσθαι δὲ βουλομένου τοῦ Δίωνος οὐκ ἀνασχόμενος, ἀλλʼ εὐθὺς, ὡς εἶχεν, ἐνθέμενος εἰς ἀκάτιον προσέταξε τοῖς ναύταις κομίζοντας αὐτὸν ἐκθεῖναι πρὸς τὴν Ἰταλίαν.
+
+!!! note
+    1. **δυσχεραίνειν, εἰ**: 'llevaban mal que'. La condicional frente a una completiva de ὅτι indica que se trata de una hipótesis: los atenienses no han destruido todavía la tiranía siracusana por medio de Platón.  οὐ φαύλως γὰρ ἂν δόξειεν ὁ παρὰ τῷ (5) ποιητῇ Ἀμφιάραος παραμυθεῖσθαι τὴν Ἀρχεμόρου μητέρα **δυσχεραίνουσαν ὅτι** νήπιος ὢν ὁ παῖς καὶ ἄγαν ἄωρος ἐτελεύτησε. φησὶ γὰρ οὕτως· ("Not ill considered, evidently, is the comfort which Amphiaraus in the poem offers to the mother of Archemorus, who **is greatly affected because** her son came to his end in his infancy long before his time."). Cf. en español "se enfadó **porque llegué** tarde"/"se enfadaría **si llegara** tarde".
+    ```mermaid
+    graph TB
+    A("Oración")-->|"Predicado"|B("2 ἔνιοι δὲ προσεποιοῦντο δυσχεραίνειν,<br>algunos fingían llevar mal")-->B1("&nbsp;")
+    A-->|"Condicional"|C("Condicional<br>que")
+    C-->|"Condicional1<br>μέν"|C1("εἰ πρότερον μὲν Ἀθηναῖοι ναυτικαῖς καὶ πεζικαῖς δυνάμεσι μεγάλαις δεῦρο<br>πλεύσαντες ἀπώλοντο καὶ διεφθάρησαν πρότερον ἢ λαβεῖν Συρακούσας,<br>que antes los atenienses con fuerzas navales y terrestres numerosas arribaran<br>aquí y perecieran y fueran destruidos antes de que pudieran tomar Siracusa")
+    C-->|"Condicional2<br>δέ"|C2("3 νυνὶ δὲ διʼ ἑνὸς σοφιστοῦ καταλύουσι τὴν Διονυσίου τυραννίδα,<br>y que ahora, en cambio, a través de un único sofista estuvieran disolviendo la tiranía de Dionisio")
+    C2-->|"Participio<br>Pred-Suj"|C21("συμπείσαντες αὐτὸν<br>convenciéndolo")
+    C21-->|"Completiva-Inf"|C211(" ... , ἐν Ἀκαδημείᾳ τὸ σιωπώμενον ἀγαθὸν ζητεῖν καὶ διὰ γεωμετρίας εὐδαίμονα γενέσθαι, ...<br>de que buscara en la Academia el bien silenciado y ser feliz a través de la geometría")
+    C211-->|"Participio<br>Pred-Suj-Ac"|C2111("ἐκ τῶν μυρίων δορυφόρων ἀποδράντα, καὶ καταλιπόντα τὰς τετρακοσίας<br>τριήρεις καὶ τοὺς μυρίους ἱππεῖς καὶ τοὺς πολλάκις τοσούτους ὁπλίτας<br>tras huir de sus innumerables guardias de corps y abandonar las cuatrocientas<br> trirremes y los innumerables soldados de caballería y otros tantos hoplitas multiplicados por mucho")
+    C211-->|"Participio<br>Pred-Suj-Ac"|C2112("τὴν ἐν ἀρχῇ καὶ χρήμασι καὶ τρυφαῖς εὐδαιμονίαν<br>Δίωνι καὶ τοῖς Δίωνος ἀδελφιδοῖς προέμενον.<br>dejando la felicidad que reside en el poder, las riquezs y el lujo<br> a Dion y sus sobrinos")
+
+    ```
+
+4 ἐκ τούτων ὑποψίας πρῶτον, εἶτα καὶ φανερωτέρας ὀργῆς καὶ διαφορᾶς γενομένης, ἐκομίσθη τις ἐπιστολὴ κρύφα πρὸς Διονύσιον, ἣν ἐγεγράφει Δίων πρὸς τοὺς Καρχηδονίων ἐπιμελητάς κελεύων, ὅταν Διονυσίῳ περὶ τῆς εἰρήνης διαλέγωνται, μὴ χωρὶς αὐτοῦ ποιήσασθαι τὴν ἔντευξιν, ὡς πάντα θησομένους (1) ἀμεταπτώτως (2) διʼ αὐτοῦ.
+
+!!! note
+    1. **ὡς ... θησομένους**: participio de futuro > final.
+    2. **ἀμεταπτώτως**: ἀ- + μετα-πί-πτω + -τος > ἀ-μετα-πτώ-τως
+
+5 ταύτην ἀναγνοὺς Διονύσιος Φιλίστῳ καὶ μετʼ ἐκείνου βουλευσάμενος, ὥς φησι Τίμαιος, ὑπῆλθε τὸν Δίωνα πεπλασμέναις διαλύσεσι·(2)
+
+!!! note
+    1. **ὑπῆλθε**: ὑπέρχομαι 'acercarse a alguien a escondidas o para engañarlo'.
+    2. **διαλύσεσι**: διάλυσις 'separación': (a) reconciliación (cuando dos personas que están luchando cuerpo a cuerpo se separan); (b) rotura de amistad (cuando dos personas que están juntos como amigos se separan).
+
+6 καὶ μέτρια σκηψάμενος διαλλάττεσθαί τε φήσας, μόνον τε ἀπαγαγὼν ὑπὸ τὴν ἀκρόπολιν πρὸς τὴν <!-- paris.1624.964 p.30 --> θάλασσαν, ἔδειξε τὴν ἐπιστολὴν καὶ κατηγόρησεν (1) ὡς συνισταμένου μετὰ Καρχηδονίων ἐπʼ αὐτόν.
+
+!!! note
+    1. **κατηγόρησεν**: "κατηγόρησεν (acusó) αὐτοῦ (a Dion) ὡς (como ) συνισταμένου (por estar conjurado ...)". El verbo κατηγορέω significa 'A (nom.) lanza una acusación B (ac.) contra alguien C ((κατά) + gen.)'.
+
+7 ἀπολογεῖσθαι δὲ βουλομένου τοῦ Δίωνος οὐκ ἀνασχόμενος, ἀλλʼ εὐθὺς, ὡς εἶχεν, ἐνθέμενος (1) εἰς ἀκάτιον προσέταξε τοῖς ναύταις κομίζοντας αὐτὸν ἐκθεῖναι πρὸς τὴν Ἰταλίαν.
+
+!!! note
+    1. **ὡς εἶχεν, ἐνθέμενος**: 'metiéndolo en un bote tal y como estaba'. La oración ὡς εἶχεν ('tal como estaba') se refiere perdicativamente al CD de ἐνθέμενος. Se quiere indicar que Dion no llevaba nada ni estaba preparado para la travesía.
 
 ### 8.2. El resultado del exilio de Dion
 

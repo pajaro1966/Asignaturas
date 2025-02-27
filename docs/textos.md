@@ -336,7 +336,7 @@ graph TB
 
 A("Discurso")
 A-->B("Convocatoria de Aquiles")-->B1("54	τῇ δεκάτῃ δ' ἀγορὴν δὲ καλέσσατο λαὸν Ἀχιλλεύς·")
-A-->|"γὰρ"|C(Excursos sobre Hera)-->C1("55	τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·/ 56	κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.")
+A-->|"γὰρ"|C(Excursos sobre Hera)-->C1("55	τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·/<br> 56	κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.")
 A-->|"οὖν"|D("Retorno a la asamble")-->D1("οἳ δ' ἐπεὶ οὖν ἤγερθεν ὁμηγερέες τε γένοντο ...")
 
 ```
@@ -449,24 +449,29 @@ NOTAS
 - (74) **ἦ μέν**: combinación de partículas fuertemente afirmativa después de verbo de "jurar" (ático ἦ μήν).  
 - **κέλεαί**: κέλε(ϝ)ε-σαί  
 - (76) **τοὶ**: [pronombres personales](notas.md#l1)  
-- (76) **ἐγὼν**: [pronombres personales](notas.md#l1)  
+- (76) **ἐγὼν**: [pronombres personales](notas.md#l1)
+- (76) **ὄμοσσον**: [analógico](verbo.md#91): ὄμοσον -> ὄμοσσον.
 - (77-78) **ἦ**: partícula empleada en aseveraciones enfáticas, como p.ej. juramentos.  
 - (78) χολωσ-**έμεν**: [infinitivo](notas.md#o40)  
 - (78) **μέγα**: acus. adv.  
 - (78-79) **ὃς** (Agamenón) μέγα πάντων / Ἀργείων κρατέει **καί** **οἱ** (Agamenón) πείθονται Ἀχαιοί: nótese cómo la oración subordinada relativa se interrumpe y da paso a una independiente, por relajación de la tensión necesaria para sostener la subordinación a cierta distancia del pronombre que la introduce.  
   - A.R.: es un caso parecido al español 'que su': «vino Pedro, el chico **que** (el chico) vimos ayer y **que su**  (el chico) padre trabaja en un banco»  
-- (79) **οἱ**: [pronombres personales](notas.md#l1)  
-- (80) **ὅτε χώσεται**: Oración temporal eventual universal sin necesidad de partícula modal.  
+- (79) **οἱ**: [pronombres personales](notas.md#l1)
+- (79) **πείθονται**: (a) act. πείθω A (nom.) convence a B (ac.); med. πείθεται B (nom) obedece/cree a A (dat)
+- (80) **ὅτε χώσεται**: Oración temporal eventual universal sin necesidad de partícula modal. = át. ὅταν χώσηται.  
 - (80) χώσ**εται**: [subjuntivo](notas.md#o39)  
-- (80) **χέρηϊ**: [comparativos](notas.md#k2)  
+- (80) **χέρηϊ**: [comparativos](notas.md#k2): χερ-ίων,  χείρων, ον, χείρ-ον-ι.  
 - (81) **εἴ**: [condicionales y concesivas](notas.md#u7)  
 - (81) **τε**: [partículas apodóticas](notas.md#v1); [τε](grammar#grammar/τε.md)  
 - (81) **χόλος**: propiamente "hiél" (complemento directo de "digerir"); en sentido figurado, "ira", "cólera" momentánea y pasajera, en oposición a κότος "rencor".  
+- **καταπέψῃ**: καταπέσσω.
 - (81) **αὐτῆμαρ**: [neutros en -r-/-t-](notas.md#i6).  
 - (82) **ὄφρα**: [temporales](notas.md#u4).  
 - (82) **ἑοῖσι**: [posesivos](notas.md#l2).  
 - (82) **ὄφρα τελέσσῃ**: entiéndase, "hasta que satisfaga su rencor".  
-- (83)**στήθεσσιν**: στῆθος ους (στήθ**ο**σ-/στήθ**ε**σ-), στήθε**σ**-**σ**ιν > στήθε**σ**ιν.  
+- (83)**στήθεσσιν**: στῆθος ους (στήθ**ο**σ-/στήθ**ε**σ-), στήθε**σ**-**σ**ιν > στήθε**σ**ιν.
+- (83) **σαώσεις**: σαϝος > σαϝος > σῶς: σαϝος σαϝό-yω / σῶς + ίζω > σῴζω.
+- σαϝώ-σεις > σαώ-σεις > σώ-σεις 
 
 ---
 
@@ -485,7 +490,8 @@ NOTAS
 
 NOTAS
   
-- (84) **τὸν**: regido por el preverbio de **προσ**-έφη.  
+- (84) **τὸν**: regido por el preverbio de **προσ**-έφη. 
+- (84) **προσ-έφη**: reden, an-reden.
 - (85) **μάλα**: va con el participio.  
 - (85) **ὅ τι**: [relativas](notas.md#u1)  
 - (86) **οὐ**: negación recogida en el v. 88;  

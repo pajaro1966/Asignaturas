@@ -158,12 +158,17 @@
     graph TB
 
     A("O")
-    A-->A1("Circunstancia")-->A11("ταύτης ἀδελφὸς ὢν<br>siendo hermano de ella")
-    A-->A21("Sujeto")-->A2("ὁ Δίων<br>Dion")
+    A-->A1("Circunstancia")-->A11("ταύτης ἀδελφὸς ὢν
+    siendo hermano de ella")
+    A-->A21("Sujeto")-->A2("ὁ Δίων
+    Dion")
     A-->A0("Predicado")
-    A0-->|"μὲν"|A3("ἐν ἀρχῇ μὲν εἶχε τιμὴν ἀπὸ τῆς ἀδελφῆς<br>al principio gozaba de honores gracias a su hermana")
-    A0-->|"δὲ"|A4("ὕστερον δὲ ... ἤδη καθʼ ἑαυτὸν ἠγαπᾶτο παρὰ τῷ τυράννῳ<br>pero después ... ya por sí mismo era amado junto al tirano")
-    A4-->|"..."|A41("τοῦ φρονεῖν διδοὺς πεῖραν<br>como daba (continuamente) prueba de su prudencia")
+    A0-->|"μὲν"|A3("ἐν ἀρχῇ μὲν εἶχε τιμὴν ἀπὸ τῆς ἀδελφῆς
+    al principio gozaba de honores gracias a su hermana")
+    A0-->|"δὲ"|A4("ὕστερον δὲ ... ἤδη καθʼ ἑαυτὸν ἠγαπᾶτο παρὰ τῷ τυράννῳ
+    pero después ... ya por sí mismo era amado junto al tirano")
+    A4-->|"..."|A41("τοῦ φρονεῖν διδοὺς πεῖραν
+    como daba (continuamente) prueba de su prudencia")
 
     ```
 
@@ -181,20 +186,35 @@
 
     A0("Discurso")-->A00("Oración 1")-->A000("(Fragmentos anteriores)")
     A0-->|"καὶ"|A1("Oración 2")
-    A1-->A2("Focalizador")-->A21("πρὸς ἅπασι τοῖς ἄλλοις<br>además de todo lo demás<br>entre otras cosas")
-    A1-->A3("Predicado")-->A31("εἴρητο<br>estaba dicho (ordenado)")
-    A1-->A4("Complemento indirecto")-->A41("τοῖς ταμίαις<br>a los tesoreros")
-    A1-->A5("Sujeto<br>(completivas de infinitivo)")
-    A5-->A51("διδόναι<br>que dieran")
-    A51-->A510("ø<br>(ellos, ac.)")
-    A51-->A511("ὅ τι ἂν αἰτῇ Δίων<br>lo que pidiera Dion")
-    A51-->A512("ø<br>(a Dion)")
-    A5-->|"δὲ"|A52("... δὲ ... φράζειν<br>y que indicaran")
-    A52-->A520("ø<br>(ellos, ac.)")
-    A52-->A521("δόντας<br>tras dár(selo)")
-    A52-->A524("ø<br>(eso)")
-    A52-->A522("πρὸς αὐτὸν<br>a él")
-    A52-->A523("αὐθημερὸν<br>el mismo día")
+    A1-->A2("Focalizador")-->A21("πρὸς ἅπασι τοῖς ἄλλοις
+    además de todo lo demás
+    entre otras cosas")
+    A1-->A3("Predicado")-->A31("εἴρητο
+    estaba dicho (ordenado)")
+    A1-->A4("Complemento indirecto")-->A41("τοῖς ταμίαις
+    a los tesoreros")
+    A1-->A5("Sujeto
+    (completivas de infinitivo)")
+    A5-->A51("διδόναι
+    que dieran")
+    A51-->A510("ø
+    (ellos, ac.)")
+    A51-->A511("ὅ τι ἂν αἰτῇ Δίων
+    lo que pidiera Dion")
+    A51-->A512("ø
+    (a Dion)")
+    A5-->|"δὲ"|A52("... δὲ ... φράζειν
+    y que indicaran")
+    A52-->A520("ø
+    (ellos, ac.)")
+    A52-->A521("δόντας
+    tras dár(selo)")
+    A52-->A524("ø
+    (eso)")
+    A52-->A522("πρὸς αὐτὸν
+    a él")
+    A52-->A523("αὐθημερὸν
+    el mismo día")
 
     ```
 
@@ -220,13 +240,20 @@
 
     graph TB
     
-    A("γενόμενος<br>llegando a estar") --> B("ἐθὰς καὶ μεστὸς<br>acostumbrado e incluso harto")
-    B-->|"μὲν"|C("μὲν")-->C1("βίου μὲν ἀνίσου<br>a una vida desigual")
-    C-->|"καὶ"|C2("καὶ καταφόβου<br>y sometida al miedo")
+    A("γενόμενος
+    llegando a estar") --> B("ἐθὰς καὶ μεστὸς
+    acostumbrado e incluso harto")
+    B-->|"μὲν"|C("μὲν")-->C1("βίου μὲν ἀνίσου
+    a una vida desigual")
+    C-->|"καὶ"|C2("καὶ καταφόβου
+    y sometida al miedo")
     B-->|"δὲ"|D("δὲ")
-    D-->D1("θεραπείας δὲ νεοπλούτου<br>y a un cuidado de nuevo rico")
-    D-->|"καὶ"|D2("καὶ τρυφῆς ἀπειροκάλου<br>y a un lujo desconocedor de lo hermoso")
-    D-->|"καὶ"|D3("καὶ διαίτης ἐν ἡδοναῖς καὶ πλεονεξίαις τιθεμένης τὸ καλὸν<br>y a un estilo de vida que pone en los placeres y excesos el concepto de lo hermoso")
+    D-->D1("θεραπείας δὲ νεοπλούτου
+    y a un cuidado de nuevo rico")
+    D-->|"καὶ"|D2("καὶ τρυφῆς ἀπειροκάλου
+    y a un lujo desconocedor de lo hermoso")
+    D-->|"καὶ"|D3("καὶ διαίτης ἐν ἡδοναῖς καὶ πλεονεξίαις τιθεμένης τὸ καλὸν
+    y a un estilo de vida que pone en los placeres y excesos el concepto de lo hermoso")
     
     ```
 
@@ -251,24 +278,39 @@
     4. **τῶν λεγομένων**: 'lo dicho por Platón' > 'sus palabras'. ¿Participios sustantivados o cambio de clase de palabra?: esp. *hecho*, *dicho*, *edicto*, *escrito*, *precepto*, etc.
     ```mermaid
     graph LR
-    O("Discurso")-->F("Oraciones<br>previas")-->F1("...")
-    O-->|"δὲ"|A("Oración<br>actual")
-    A-->B("Gentivo<br>absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς<br>producido el encuentro")
-    B1-->|"μὲν"|B11("τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς<br>en general sobre la virtud del hombre")
-    B1-->|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων<br>pero discutidas sobre todo cuestiones acerca de" la valentía)
+    O("Discurso")-->F("Oraciones
+    previas")-->F1("...")
+    O-->|"δὲ"|A("Oración
+    actual")
+    A-->B("Gentivo
+    absoluto")-->B1("γενομένης δὲ τῆς συνουσίας αὐτοῖς
+    producido el encuentro")
+    B1-->|"μὲν"|B11("τὸ μὲν ὅλον περὶ ἀνδρὸς ἀρετῆς
+    en general sobre la virtud del hombre")
+    B1-->|"δὲ"|B12("πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων
+    pero discutidas sobre todo cuestiones acerca de" la valentía)
     A-->|"ὡς"|C("Causa")
     C-->C1
     C-->|"δὲ"|C2
-    C1("ὡς πάντας μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους<br>como Platón mostraba a todos más valientes que a los tiranos")
-    C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν<br>y, apartándose de ese tema, enseñaba")
-    C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων<br>que la vida de los justos era dichosa")
-    C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος<br>mientras que la de los injustos desdichada")
+    C1("ὡς πάντας μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους
+    como Platón mostraba a todos más valientes que a los tiranos")
+    C2("ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν
+    y, apartándose de ese tema, enseñaba")
+    C2-->|"ὡς "|C21("Completiva CD")-->|"μὲν"|C211("ὡς μακάριος μὲν ὁ τῶν δικαίων
+    que la vida de los justos era dichosa")
+    C21("Completiva CD")-->|"δὲ"|C212("ἄθλιος δὲ ὁ τῶν ἀδίκων βίος
+    mientras que la de los injustos desdichada")
     A-->|"οὔτε"|D
-    D("Predicado1")-->D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος<br>el tirano no soportaba sus razonamientos<br>como (si estuviera siendo) puesto a prueba")
+    D("Predicado1")-->D1("οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ ἐξελεγχόμενος
+    el tirano no soportaba sus razonamientos
+    como (si estuviera siendo) puesto a prueba")
     A-->|"τε"|E
-    E("Predicado2")-->E1("ἤχθετό τε τοῖς παροῦσι<br>y se molestaba con los presentes")
-    E1-->E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα<br>por aceptar al hombre con admiración")
-    E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων<br>y por dejarse hechizar por sus palabras")
+    E("Predicado2")-->E1("ἤχθετό τε τοῖς παροῦσι
+    y se molestaba con los presentes")
+    E1-->E11("θαυμαστῶς ἀποδεχομένοις τὸν ἄνδρα
+    por aceptar al hombre con admiración")
+    E1-->|"καὶ"|E12("καὶ κηλουμένοις ὑπὸ τῶν λεγομένων
+    y por dejarse hechizar por sus palabras")
     ```
 
 3 τέλος (1) δὲ θυμωθεὶς καὶ παροξυνθείς ἠρώτησεν αὐτόν ὅ τι δὴ βουλόμενος εἰς Σικελίαν παραγένοιτο.
@@ -351,17 +393,34 @@
     8. **διαθήσεσθαι τὸν πόλεμον**: 'disponer la guerra' > 'ponerle fin'.
     ```mermaid
     graph TB
-    0-->A("Contexto<br>anterior")--->A1("...")
+    0-->A("Contexto
+    anterior")--->A1("...")
     0-->|"οὐ μὴν ἀλλὰ"|B("Oración")
-    B-->|"Genitivo absoluto"|B11("συλλόγου πρώτου τῶν φίλων γενομένου<br>παρὰ τὸν νέον Διονύσιον ")
-    B-->|"Predicado1"|B21("οὕτω διελέχθη περὶ τῶν συμφερόντων<br>πρὸς τὸν καιρὸν ὁ Δίων")
-    B21-->|"ὥστε<br>Consecutiva"|B211("ὥστε τοὺς ἄλλους ἅπαντας")-->|"μὲν"|B2111("τῇ μὲν φρονήσει παῖδας ἀποδεῖξαι")
-    B211-->|"δὲ"|B2112("τῇ δὲ παρρησίᾳ δούλους<br>τῆς τυραννίδος")
-    B2112-->|"Participio<br>Pred-OD"|B21121("ἀγεννῶς καὶ περιφόβως τὰ πολλὰ<br>πρὸς χάριν τῷ μειρακίῳ συμβουλεύοντας,")
-    B-->|"Predicado2<br>δὲ"|B31("μάλιστα δὲ αὐτοὺς ἐξέπληξε")-->|"Participio<br>Pred-OD"|B311("τὸν ἀπὸ Καρχηδόνος κίνδυνον<br>ἐπικρεμάμενον τῇ ἀρχῇ δεδοικότας")
-    B31-->|"Participio<br>Pred-Suj"|B312("ὑποσχόμενος")
-    B312-->|"μέν<br>Completiva1"|B3121("πλεύσας εὐθὺς εἰς Λιβύην ὡς<br>ἄριστα διαθήσεσθαι τὸν πόλεμον,")-->|"εἰ<br>condicional"|B31211("εἰ μὲν εἰρήνης δέοιτο Διονύσιος,")
-    B312-->|"δέ<br>Completiva2"|B3122("θρέψειν αὐτὸς ἰδίοις τέλεσι καὶ παρέξειν εἰς <br>τὸν πόλεμον αὐτῷ πεντήκοντα τριήρεις εὖ πλεούσας.")-->|"εἰ<br>condicional"|B31221("εἰ δὲ πολεμεῖν προθυμοῖτο,")
+    B-->|"Genitivo absoluto"|B11("συλλόγου πρώτου τῶν φίλων γενομένου
+    παρὰ τὸν νέον Διονύσιον ")
+    B-->|"Predicado1"|B21("οὕτω διελέχθη περὶ τῶν συμφερόντων
+    πρὸς τὸν καιρὸν ὁ Δίων")
+    B21-->|"ὥστε
+    Consecutiva"|B211("ὥστε τοὺς ἄλλους ἅπαντας")-->|"μὲν"|B2111("τῇ μὲν φρονήσει παῖδας ἀποδεῖξαι")
+    B211-->|"δὲ"|B2112("τῇ δὲ παρρησίᾳ δούλους
+    τῆς τυραννίδος")
+    B2112-->|"Participio
+    Pred-OD"|B21121("ἀγεννῶς καὶ περιφόβως τὰ πολλὰ
+    πρὸς χάριν τῷ μειρακίῳ συμβουλεύοντας,")
+    B-->|"Predicado2
+    δὲ"|B31("μάλιστα δὲ αὐτοὺς ἐξέπληξε")-->|"Participio
+    Pred-OD"|B311("τὸν ἀπὸ Καρχηδόνος κίνδυνον
+    ἐπικρεμάμενον τῇ ἀρχῇ δεδοικότας")
+    B31-->|"Participio
+    Pred-Suj"|B312("ὑποσχόμενος")
+    B312-->|"μέν
+    Completiva1"|B3121("πλεύσας εὐθὺς εἰς Λιβύην ὡς
+    ἄριστα διαθήσεσθαι τὸν πόλεμον,")-->|"εἰ
+    condicional"|B31211("εἰ μὲν εἰρήνης δέοιτο Διονύσιος,")
+    B312-->|"δέ
+    Completiva2"|B3122("θρέψειν αὐτὸς ἰδίοις τέλεσι καὶ παρέξειν εἰς
+    τὸν πόλεμον αὐτῷ πεντήκοντα τριήρεις εὖ πλεούσας.")-->|"εἰ
+    condicional"|B31221("εἰ δὲ πολεμεῖν προθυμοῖτο,")
     ```
 
 ### 6.2. La corte del joven tirano
@@ -549,27 +608,49 @@
 
     A("Discurso")
     A-->A1("O1")-->A11("Fragmento anterior")
-    A-->|"χωρὶς δὲ τούτων<br>aparte de eso"|A2(O2)
-    A2-->A22("Verbo")-->A221("εἶναι<br>(decía que) era")
-    A2-->A21("Atributo")-->A211("ἀφιλότιμον ... καὶ ἄζηλον<br>falto de ambición y de envidia")
+    A-->|"χωρὶς δὲ τούτων
+    aparte de eso"|A2(O2)
+    A2-->A22("Verbo")-->A221("εἶναι
+    (decía que) era")
+    A2-->A21("Atributo")-->A211("ἀφιλότιμον ... καὶ ἄζηλον
+    falto de ambición y de envidia")
     
-    A2-->A23("Sujeto (ac)")-->A231("τὸν ἄρχοντα<br>el gobernante")
-    A2-->A24("Participios predicativos (ac)<br>(valor condicional)")-->A241("μέν<br>por un lado")
-    A241-->A2411("ἀμπεχόμενον<br>si vestía")
-    A2411-->A24111("τῷ μὲν σώματι<br>su cuerpo")
-    A2411-->A24112("περιττῶς<br>excesivamente")
-    A241-->A2412("καὶ ... λαμπρυνόμενον<br>y brillaba")
-    A2412-->A24121("τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ<br>por el lujo y decoración alrededor de su casa")
+    A2-->A23("Sujeto (ac)")-->A231("τὸν ἄρχοντα
+    el gobernante")
+    A2-->A24("Participios predicativos (ac)
+    (valor condicional)")-->A241("μέν
+    por un lado")
+    A241-->A2411("ἀμπεχόμενον
+    si vestía")
+    A2411-->A24111("τῷ μὲν σώματι
+    su cuerpo")
+    A2411-->A24112("περιττῶς
+    excesivamente")
+    A241-->A2412("καὶ ... λαμπρυνόμενον
+    y brillaba")
+    A2412-->A24121("τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ
+    por el lujo y decoración alrededor de su casa")
 
-    A24-->A242("δέ<br>pero, en cambio,")-->A2421("ὄντα<br>era")
-    A2421-->A24211("ὁμιλίᾳ δὲ καὶ λόγῳ<br>por su trato y su palabra")
-    A2421-->A24212("μηδὲν<br>en nada")
-    A2421-->A24213("σεμνότερον<br>más respetable")-->A242131("τοῦ προστυχόντος<br>que cualquiera")
-    A242-->|μηδὲ|A2422("μηδὲ ... ἀξιοῦντα<br>ni pretendía")
-    A2422-->A24221("ἔχειν<br>tener")
-    A24221-->A242211("τῆς ψυχῆς τὸ βασίλειον<br>el reino de su alma")
-    A24221-->A242212("κεκοσμημένον<br>decorado")
-    A242212-->A2422121("βασιλικῶς καὶ πρεπόντως<br>de una manera propia de un rey y como cuadraba")
+    A24-->A242("δέ
+    pero, en cambio,")-->A2421("ὄντα
+    era")
+    A2421-->A24211("ὁμιλίᾳ δὲ καὶ λόγῳ
+    por su trato y su palabra")
+    A2421-->A24212("μηδὲν
+    en nada")
+    A2421-->A24213("σεμνότερον
+    más respetable")-->A242131("τοῦ προστυχόντος
+    que cualquiera")
+    A242-->|μηδὲ|A2422("μηδὲ ... ἀξιοῦντα
+    ni pretendía")
+    A2422-->A24221("ἔχειν
+    tener")
+    A24221-->A242211("τῆς ψυχῆς τὸ βασίλειον
+    el reino de su alma")
+    A24221-->A242212("κεκοσμημένον
+    decorado")
+    A242212-->A2422121("βασιλικῶς καὶ πρεπόντως
+    de una manera propia de un rey y como cuadraba")
 
     ```
 
@@ -602,17 +683,28 @@
     A-->|"μὲν οὖν"|C
     B("Or1")
     C("Or"2)
-    C-->C1("Sujeto")-->C11("Πλάτων<br>Platón")
-    C-->C2("Comentario")-->C21("ὥς φησιν αὐτός<br>según él mismo afirma")
-    C-->C3("Participio1")-->C31("αἰσχυνθεὶς<br>avergonzándose")
-    C31-->C311("ἑαυτὸν<br>ante sí mismo")
-    C31-->C312("μάλιστα<br>sobre todo")
-    C31-->C313("μὴ δόξειε<br>de que pareciera")
-    C313-->C3131("λόγος εἶναί μόνον<br>que era solo palabras")
-    C313-->C3132("ἔργου δʼ ἑκὼν οὐδενὸς ἂν ἅψασθαι<br>pero que no acometería voluntario ninguna acción")
-    C-->C4("Participio2")-->C41("καὶ προσδοκήσας<br>y esperando")
-    C41-->C411("διʼ ἑνὸς ἀνδρὸς ὥσπερ ἡγεμονικοῦ μέρους ἐκκαθαρθέντος ὅλην ἰατρεύσειν Σικελίαν νοσοῦσαν<br>que a través de un solo hombre purificado como un miembro director sanaría Sicilia entera, que estaba enferma")
-    C-->C5("Verbo")-->C51("ὑπήκουσεν<br>hizo caso")
+    C-->C1("Sujeto")-->C11("Πλάτων
+    Platón")
+    C-->C2("Comentario")-->C21("ὥς φησιν αὐτός
+    según él mismo afirma")
+    C-->C3("Participio1")-->C31("αἰσχυνθεὶς
+    avergonzándose")
+    C31-->C311("ἑαυτὸν
+    ante sí mismo")
+    C31-->C312("μάλιστα
+    sobre todo")
+    C31-->C313("μὴ δόξειε
+    de que pareciera")
+    C313-->C3131("λόγος εἶναί μόνον
+    que era solo palabras")
+    C313-->C3132("ἔργου δʼ ἑκὼν οὐδενὸς ἂν ἅψασθαι
+    pero que no acometería voluntario ninguna acción")
+    C-->C4("Participio2")-->C41("καὶ προσδοκήσας
+    y esperando")
+    C41-->C411("διʼ ἑνὸς ἀνδρὸς ὥσπερ ἡγεμονικοῦ μέρους ἐκκαθαρθέντος ὅλην ἰατρεύσειν Σικελίαν νοσοῦσαν
+    que a través de un solo hombre purificado como un miembro director sanaría Sicilia entera, que estaba enferma")
+    C-->C5("Verbo")-->C51("ὑπήκουσεν
+    hizo caso")
     
 
     ```
@@ -629,9 +721,15 @@
     1. **ὁ γὰρ δὴ Φίλιστος ...**: la partícula γάρ introduce un excursus sobre Filisto que se extiende hasta el punto 12. En él la combinación μὲν οὖν nos devuelve a la narración principal.
     ```mermaid
     graph TB
-    A("Narración principal:<br>se menciona a Filisto")-->A1("ἔπεισαν αὐτὸν ἀπὸ τῆς φυγῆς μεταπέμπεσθαι Φίλιστον<br>"lo convencieron para hacer traer de vuelta a Filipo ..."")
-    B("Excurso sobre Filisto<br>(flashback)")-->B1("ὁ <b>γὰρ</b> δὴ Φίλιστος ...<br>"En efecto, Filisto ..."")
-    C("Regreso a la narración principal:<br>regreso de Filisto")-->C1("οὗτος <b>μὲν οὖν</b> εὐθὺς κατελθὼν ...<br>"Pues bien, como decía, el tal Filisto ..."")
+    A("Narración principal:
+    se menciona a Filisto")-->A1("ἔπεισαν αὐτὸν ἀπὸ τῆς φυγῆς μεταπέμπεσθαι Φίλιστον
+    "lo convencieron para hacer traer de vuelta a Filipo ..."")
+    B("Excurso sobre Filisto
+    (flashback)")-->B1("ὁ <b>γὰρ</b> δὴ Φίλιστος ...
+    "En efecto, Filisto ..."")
+    C("Regreso a la narración principal:
+    regreso de Filisto")-->C1("οὗτος <b>μὲν οὖν</b> εὐθὺς κατελθὼν ...
+    "Pues bien, como decía, el tal Filisto ..."")
     0("Discurso")-->A
     0-->|"γάρ"|B
     0-->|"μὲν οὖν"|C
@@ -647,15 +745,23 @@
     ```mermaid
     graph TB
     0("GENITIVO ABSOLUTO")
-    0-->|"ORIGEN"|D("ἐκ γυναικὸς<br>de una mujer")
+    0-->|"ORIGEN"|D("ἐκ γυναικὸς
+    de una mujer")
     D-->D1("RELATIVA")
-    D1-->|"CD-Ac"|D2("ἣν<br>a la cual")
-    D1-->|"PARTICIPIO"|D3("διαφθείρας<br>tras corromperla")
-    D3-->D31("ἑτέρῳ συνοικοῦσαν<br>cuando convivía con otro")
-    D1-->|"VERBO"|D4("ἔσχε<br>consiguió")
-    0-->|"VERBO"|A("γενομένων<br>nacidas")--->A1("&nbsp;")
-    0-->|"BENEF"|B("αὐτῷ<br>a él")--->B1("&nbsp;")
-    0-->|"SUJETO"|C("δυεῖν θυγατέρων<br>dos hijas")--->C1("&nbsp;")
+    D1-->|"CD-Ac"|D2("ἣν
+    a la cual")
+    D1-->|"PARTICIPIO"|D3("διαφθείρας
+    tras corromperla")
+    D3-->D31("ἑτέρῳ συνοικοῦσαν
+    cuando convivía con otro")
+    D1-->|"VERBO"|D4("ἔσχε
+    consiguió")
+    0-->|"VERBO"|A("γενομένων
+    nacidas")--->A1("&nbsp;")
+    0-->|"BENEF"|B("αὐτῷ
+    a él")--->B1("&nbsp;")
+    0-->|"SUJETO"|C("δυεῖν θυγατέρων
+    dos hijas")--->C1("&nbsp;")
 
     ```
 
@@ -684,8 +790,14 @@
     graph TB
     0-->A("Contexto anterior")-->A1("...")
     0-->|"γάρ"|B("Explicación")
-    B-->|"μέν"|B1("ἤλπιζε <b>μὲν γὰρ</b>, ὡς ἔοικε, διὰ Πλάτωνος<br>παραγενομένου τὸ δεσποτικὸν καὶ λίαν<br>ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα<br>καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·")
-    B-->|"δέ"|B2("εἰ <b>δὲ</b> ἀντιβαίνοι καὶ μὴ μαλάσσοιτο, καταλύσας<br> ἐκεῖνον ἐγνώκει τὴν πολιτείαν ἀποδιδόναι Συρακουσίοις,<br>οὐκ ἐπαινῶν μὲν δημοκρατίαν, πάντως δὲ βελτίω τυραννίδος<br>ἡγούμενος τοῖς διαμαρτάνουσιν ὑγιαινούσης ἀριστοκρατίας.")
+    B-->|"μέν"|B1("ἤλπιζε <b>μὲν γὰρ</b>, ὡς ἔοικε, διὰ Πλάτωνος
+    παραγενομένου τὸ δεσποτικὸν καὶ λίαν
+    ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα
+    καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·")
+    B-->|"δέ"|B2("εἰ <b>δὲ</b> ἀντιβαίνοι καὶ μὴ μαλάσσοιτο, καταλύσας
+     ἐκεῖνον ἐγνώκει τὴν πολιτείαν ἀποδιδόναι Συρακουσίοις,
+    οὐκ ἐπαινῶν μὲν δημοκρατίαν, πάντως δὲ βελτίω τυραννίδος
+    ἡγούμενος τοῖς διαμαρτάνουσιν ὑγιαινούσης ἀριστοκρατίας.")
     ```
 
 3 εἰ δὲ <!-- >p.26 --> ἀντιβαίνοι καὶ μὴ μαλάσσοιτο, καταλύσας ἐκεῖνον ἐγνώκει τὴν πολιτείαν ἀποδιδόναι Συρακουσίοις, οὐκ ἐπαινῶν μὲν δημοκρατίαν, πάντως δὲ βελτίω τυραννίδος ἡγούμενος τοῖς διαμαρτάνουσιν ὑγιαινούσης ἀριστοκρατίας.
@@ -734,14 +846,33 @@
     1. **δυσχεραίνειν, εἰ**: 'llevaban mal que'. La condicional frente a una completiva de ὅτι indica que se trata de una hipótesis: los atenienses no han destruido todavía la tiranía siracusana por medio de Platón.  οὐ φαύλως γὰρ ἂν δόξειεν ὁ παρὰ τῷ (5) ποιητῇ Ἀμφιάραος παραμυθεῖσθαι τὴν Ἀρχεμόρου μητέρα **δυσχεραίνουσαν ὅτι** νήπιος ὢν ὁ παῖς καὶ ἄγαν ἄωρος ἐτελεύτησε. φησὶ γὰρ οὕτως· ("Not ill considered, evidently, is the comfort which Amphiaraus in the poem offers to the mother of Archemorus, who **is greatly affected because** her son came to his end in his infancy long before his time."). Cf. en español "se enfadó **porque llegué** tarde"/"se enfadaría **si llegara** tarde".
     ```mermaid
     graph TB
-    A("Oración")-->|"Predicado"|B("2 ἔνιοι δὲ προσεποιοῦντο δυσχεραίνειν,<br>algunos fingían llevar mal")-->B1("&nbsp;")
-    A-->|"Condicional"|C("Condicional<br>que")
-    C-->|"Condicional1<br>μέν"|C1("εἰ πρότερον μὲν Ἀθηναῖοι ναυτικαῖς καὶ πεζικαῖς δυνάμεσι μεγάλαις δεῦρο<br>πλεύσαντες ἀπώλοντο καὶ διεφθάρησαν πρότερον ἢ λαβεῖν Συρακούσας,<br>que antes los atenienses con fuerzas navales y terrestres numerosas arribaran<br>aquí y perecieran y fueran destruidos antes de que pudieran tomar Siracusa")
-    C-->|"Condicional2<br>δέ"|C2("3 νυνὶ δὲ διʼ ἑνὸς σοφιστοῦ καταλύουσι τὴν Διονυσίου τυραννίδα,<br>y que ahora, en cambio, a través de un único sofista estuvieran disolviendo la tiranía de Dionisio")
-    C2-->|"Participio<br>Pred-Suj"|C21("συμπείσαντες αὐτὸν<br>convenciéndolo")
-    C21-->|"Completiva-Inf"|C211(" ... , ἐν Ἀκαδημείᾳ τὸ σιωπώμενον ἀγαθὸν ζητεῖν καὶ διὰ γεωμετρίας εὐδαίμονα γενέσθαι, ...<br>de que buscara en la Academia el bien silenciado y ser feliz a través de la geometría")
-    C211-->|"Participio<br>Pred-Suj-Ac"|C2111("ἐκ τῶν μυρίων δορυφόρων ἀποδράντα, καὶ καταλιπόντα τὰς τετρακοσίας<br>τριήρεις καὶ τοὺς μυρίους ἱππεῖς καὶ τοὺς πολλάκις τοσούτους ὁπλίτας<br>tras huir de sus innumerables guardias de corps y abandonar las cuatrocientas<br> trirremes y los innumerables soldados de caballería y otros tantos hoplitas multiplicados por mucho")
-    C211-->|"Participio<br>Pred-Suj-Ac"|C2112("τὴν ἐν ἀρχῇ καὶ χρήμασι καὶ τρυφαῖς εὐδαιμονίαν<br>Δίωνι καὶ τοῖς Δίωνος ἀδελφιδοῖς προέμενον.<br>dejando la felicidad que reside en el poder, las riquezs y el lujo<br> a Dion y sus sobrinos")
+    A("Oración")-->|"Predicado"|B("2 ἔνιοι δὲ προσεποιοῦντο δυσχεραίνειν,
+    algunos fingían llevar mal")-->B1("&nbsp;")
+    A-->|"Condicional"|C("Condicional
+    que")
+    C-->|"Condicional1
+    μέν"|C1("εἰ πρότερον μὲν Ἀθηναῖοι ναυτικαῖς καὶ πεζικαῖς δυνάμεσι μεγάλαις δεῦρο
+    πλεύσαντες ἀπώλοντο καὶ διεφθάρησαν πρότερον ἢ λαβεῖν Συρακούσας,
+    que antes los atenienses con fuerzas navales y terrestres numerosas arribaran
+    aquí y perecieran y fueran destruidos antes de que pudieran tomar Siracusa")
+    C-->|"Condicional2
+    δέ"|C2("3 νυνὶ δὲ διʼ ἑνὸς σοφιστοῦ καταλύουσι τὴν Διονυσίου τυραννίδα,
+    y que ahora, en cambio, a través de un único sofista estuvieran disolviendo la tiranía de Dionisio")
+    C2-->|"Participio
+    Pred-Suj"|C21("συμπείσαντες αὐτὸν
+    convenciéndolo")
+    C21-->|"Completiva-Inf"|C211(" ... , ἐν Ἀκαδημείᾳ τὸ σιωπώμενον ἀγαθὸν ζητεῖν καὶ διὰ γεωμετρίας εὐδαίμονα γενέσθαι, ...
+    de que buscara en la Academia el bien silenciado y ser feliz a través de la geometría")
+    C211-->|"Participio
+    Pred-Suj-Ac"|C2111("ἐκ τῶν μυρίων δορυφόρων ἀποδράντα, καὶ καταλιπόντα τὰς τετρακοσίας
+    τριήρεις καὶ τοὺς μυρίους ἱππεῖς καὶ τοὺς πολλάκις τοσούτους ὁπλίτας
+    tras huir de sus innumerables guardias de corps y abandonar las cuatrocientas
+     trirremes y los innumerables soldados de caballería y otros tantos hoplitas multiplicados por mucho")
+    C211-->|"Participio
+    Pred-Suj-Ac"|C2112("τὴν ἐν ἀρχῇ καὶ χρήμασι καὶ τρυφαῖς εὐδαιμονίαν
+    Δίωνι καὶ τοῖς Δίωνος ἀδελφιδοῖς προέμενον.
+    dejando la felicidad que reside en el poder, las riquezs y el lujo
+     a Dion y sus sobrinos")
 
     ```
 
@@ -784,13 +915,24 @@
     ```mermaid
     graph TB
     A("Oración")
-    A-->|"Participio<br>Pred-Suj"|B("ἃ δὴ συνορῶν ... καὶ δεδοικώς<br>viendo y temiendo estos hechos")
-    A-->|"Sujeto"|C("ὁ Διονύσιος<br>Dionisio")
-    A-->|"Predicado1<br>μέν"|D("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας<br>por un lado, animaba a los amigos y a las mujeres")
-    D-->|"Genitivo absoluto"|E("ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης,<br>como si no se hubiera producido un destierro para Dion, sino una ausencia")
-    E-->|"Oración final<br>ὡς"|F("ὡς μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν ... ἁμαρτεῖν βιασθείη·<br> para no verse (Dionisio) forzado a cometer un error peor por la cólera ante su arrogancia")
-    F-->|"Genitivo absoluto"|G("αὐτοῦ παρόντος<br>si él (Dion) permanecía (en la ciudad)")
-    A-->|"Predicado2<br>δέ"|H("δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ... <br>y, por otro, tras dar a los esclavos de Dion dos naves, les ordenó ...")
+    A-->|"Participio
+    Pred-Suj"|B("ἃ δὴ συνορῶν ... καὶ δεδοικώς
+    viendo y temiendo estos hechos")
+    A-->|"Sujeto"|C("ὁ Διονύσιος
+    Dionisio")
+    A-->|"Predicado1
+    μέν"|D("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας
+    por un lado, animaba a los amigos y a las mujeres")
+    D-->|"Genitivo absoluto"|E("ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης,
+    como si no se hubiera producido un destierro para Dion, sino una ausencia")
+    E-->|"Oración final
+    ὡς"|F("ὡς μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν ... ἁμαρτεῖν βιασθείη·
+     para no verse (Dionisio) forzado a cometer un error peor por la cólera ante su arrogancia")
+    F-->|"Genitivo absoluto"|G("αὐτοῦ παρόντος
+    si él (Dion) permanecía (en la ciudad)")
+    A-->|"Predicado2
+    δέ"|H("δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ...
+    y, por otro, tras dar a los esclavos de Dion dos naves, les ordenó ...")
 
     ```
 
@@ -804,31 +946,50 @@
     ```mermaid
     graph TB
     A("Oración")
-    A-->|"μέν"|B("Oración1")-->B1("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας<br>por un lado, animaba a los amigos y a las mujeres ...")
+    A-->|"μέν"|B("Oración1")-->B1("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας
+    por un lado, animaba a los amigos y a las mujeres ...")
     A-->|"δέ"|C("Oración2")
-    C-->|"Participio<br>Pred-Suj"|D("... δὲ ... παραδοὺς ...<br>y, por otro, tras dar")
-    D-->|"OD"|D1("δύο ... ναῦς<br>dos naves")
-    D-->|"OI"|D2("<b>τοῖς Δίωνος οἰκείοις<sub>i</sub></b><br>a los esclavos de Dionisio")
-    C-->|"Verbo"|E("ἐκέλευσεν<br>ordenó")
-    E-->|"Ac<br>CD/Suj"|E1("<b>ø<sub>i</sub><br>(Ac)</b><br>a ellos que/que ellos")
-    E-->|"Participio<br>Pred-OI"|E2("<b>ἐνθεμένοις<sub>i</sub><br>(ἐνθεμένους<sub>i</sub>)</b><br>tras meter")
-    E2-->|"OD"|E11("ὅσα βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας<br>cuanto quisiera de lo suyo, dinero y servidores")
-    E-->|"Completiva"|E3("ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον<br>se lo llevaran a él al Peloponeso")
+    C-->|"Participio
+    Pred-Suj"|D("... δὲ ... παραδοὺς ...
+    y, por otro, tras dar")
+    D-->|"OD"|D1("δύο ... ναῦς
+    dos naves")
+    D-->|"OI"|D2("<b>τοῖς Δίωνος οἰκείοις<sub>i</sub></b>
+    a los esclavos de Dionisio")
+    C-->|"Verbo"|E("ἐκέλευσεν
+    ordenó")
+    E-->|"Ac
+    CD/Suj"|E1("<b>ø<sub>i</sub>
+    (Ac)</b>
+    a ellos que/que ellos")
+    E-->|"Participio
+    Pred-OI"|E2("<b>ἐνθεμένοις<sub>i</sub>
+    (ἐνθεμένους<sub>i</sub>)</b>
+    tras meter")
+    E2-->|"OD"|E11("ὅσα βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας
+    cuanto quisiera de lo suyo, dinero y servidores")
+    E-->|"Completiva"|E3("ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον
+    se lo llevaran a él al Peloponeso")
     E3-->|"OD"|E11
     ```
     ```mermaid
     graph TB
     A("Análisis1")
     A-->B(CD)
-    B-->|"Núcleo"|C("Relativa")-->C1("ὅσα βούλοιντο τῶν ἐκείνου<br>lo que quisieran de (las cosas) de él")
-    C1-->|"Aposición"|D("χρήματα καὶ θεράποντας<br>, dinero y servidores")
+    B-->|"Núcleo"|C("Relativa")-->C1("ὅσα βούλοιντο τῶν ἐκείνου
+    lo que quisieran de (las cosas) de él")
+    C1-->|"Aposición"|D("χρήματα καὶ θεράποντας
+    , dinero y servidores")
 
     E("Análisis2")
     E-->F(CD)
     F-->|"Núcleo"|G("Relativa")
-    G-->|"OD"|H("ὅσα χρήματα καὶ θεράποντας<br>cuanto dinero y servidores")
-    H-->|"Genitivo partitivo"|H1("τῶν ἐκείνου<br>de los de él")
-    G-->I("βούλοιντο<br>quisieran")
+    G-->|"OD"|H("ὅσα χρήματα καὶ θεράποντας
+    cuanto dinero y servidores")
+    H-->|"Genitivo partitivo"|H1("τῶν ἐκείνου
+    de los de él")
+    G-->I("βούλοιντο
+    quisieran")
     ```
 
 4 ἦν δʼ οὐσία μεγάλη τῷ Δίωνι καὶ σχεδόν τι (1) τυραννικὴ πομπὴ καὶ κατασκευὴ περὶ τὴν δίαιταν, ἣν οἱ φίλοι συλλαβόντες (2) ἐκόμιζον.

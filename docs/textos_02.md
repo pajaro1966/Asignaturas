@@ -182,11 +182,16 @@
     ``` mermaid
     graph TB
 
-    A0("Oración compuesta<br>ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
-    A0-->A1("ἀμφιβέβηκας<br>proteges")
-    A1-->A11("Χρύσην<br>Crisa")
-    A1-->|"τε1"|A12("Κίλλάν τε1 ζαθέην<br>y la muy divina Cila")
-    A0-->|"τε2"|A2("Τενέδοιό τε2 ἶφι ἀνάσσεις<br>y gobiernas con fuerza Ténedo")
+    A0("Oración compuesta
+    ἀμφιβέβηκας Χρύσην Κίλλάν τε1 ζαθέην Τενέδοιό τε2 ἶφι ἀνάσσεις")
+    A0-->A1("ἀμφιβέβηκας
+    proteges")
+    A1-->A11("Χρύσην
+    Crisa")
+    A1-->|"τε1"|A12("Κίλλάν τε1 ζαθέην
+    y la muy divina Cila")
+    A0-->|"τε2"|A2("Τενέδοιό τε2 ἶφι ἀνάσσεις
+    y gobiernas con fuerza Ténedo")
     ```
 
 ??? note "(38) Κίλλάν τε ζαθέην Τενέδοιό τε ἶφι ἀνάσσεις,"
@@ -211,22 +216,36 @@
     graph TB
     A0("Oración compleja")
     A0-->A1("Subordinadas condicionales")
-    A1-->A11("εἴ ... ἔρεψα,<br>si")
-    A11-->A111("ποτέ<br>alguna vez")
-    A11-->A112("τοι<br>para ti")
-    A11-->A113("χαρίεντ' ... νηὸν<br>(un) grato templo")
-    A11-->A114("ἐπὶ ... ἔρεψα<br>cubrí")
-    A1-->A12("ἢ εἰ ... αἰγῶν<br>o si")
-    A12-->A121("ποτέ<br>alguna vez")
-    A12-->A122("τοι<br>para ti")
-    A12-->A123("πίονα μηρί' ... ταύρων ἠδ' αἰγῶν<br>grasientos muslos de toros y cabras")
-    A12-->A124("κατὰ ... ἔκηα<br>quemé")
+    A1-->A11("εἴ ... ἔρεψα,
+    si")
+    A11-->A111("ποτέ
+    alguna vez")
+    A11-->A112("τοι
+    para ti")
+    A11-->A113("χαρίεντ' ... νηὸν
+    (un) grato templo")
+    A11-->A114("ἐπὶ ... ἔρεψα
+    cubrí")
+    A1-->A12("ἢ εἰ ... αἰγῶν
+    o si")
+    A12-->A121("ποτέ
+    alguna vez")
+    A12-->A122("τοι
+    para ti")
+    A12-->A123("πίονα μηρί' ... ταύρων ἠδ' αἰγῶν
+    grasientos muslos de toros y cabras")
+    A12-->A124("κατὰ ... ἔκηα
+    quemé")
 
     A0-->|"δέ"|A2("Oración principal")-->A21("τὸ δέ μοι κρήηνον ἐέλδωρ")
-    A21-->A211("τὸ δέ<br>esto")
-    A21-->A212("μοι<br>a mí")
-    A21-->A213("κρήηνον<br>llévame a cabo")
-    A21-->A214("ἐέλδωρ<br>como un deseo")
+    A21-->A211("τὸ δέ
+    esto")
+    A21-->A212("μοι
+    a mí")
+    A21-->A213("κρήηνον
+    llévame a cabo")
+    A21-->A214("ἐέλδωρ
+    como un deseo")
     
     ```
 
@@ -261,12 +280,17 @@
 
     A("Oración")
     node_1["Verbo"]
-    node_2["ἔκλαγξαν<br>sonaron"]
+    node_2["ἔκλαγξαν
+    sonaron"]
     node_3["Sujeto"]
-    node_4["ὀϊστοὶ<br>(las) flechas"]
-    node_5["ἐπ#39; ὤμων<br>(situadas) sobre los hombros"]-->node_51("χωομένοιο<br>del encolerizado (dios)")
+    node_4["ὀϊστοὶ
+    (las) flechas"]
+    node_5["ἐπ#39; ὤμων
+    (situadas) sobre los hombros"]-->node_51("χωομένοιο
+    del encolerizado (dios)")
     node_6["Genitivo absoluto"]
-    node_7["αὐτοῦ κινηθέντος<br>al ponerse en movimiento"]
+    node_7["αὐτοῦ κινηθέντος
+    al ponerse en movimiento"]
     A --> node_1
     node_1 --> node_2
     A --> node_3
@@ -331,7 +355,8 @@
 
     A("Discurso")
     A-->B("Convocatoria de Aquiles")-->B1("54 τῇ δεκάτῃ δ' ἀγορὴν δὲ καλέσσατο λαὸν Ἀχιλλεύς·")
-    A-->|"γὰρ"|C(Excursos sobre Hera)-->C1("55 τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·/<br> 56 κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.")
+    A-->|"γὰρ"|C(Excursos sobre Hera)-->C1("55 τῷ γὰρ ἐπὶ φρεσὶ θῆκε θεὰ λευκώλενος Ἥρη·/
+     56 κήδετο γὰρ Δαναῶν, ὅτι ῥα θνήσκοντας ὁρᾶτο.")
     A-->|"οὖν"|D("Retorno a la asamble")-->D1("οἳ δ' ἐπεὶ οὖν ἤγερθεν ὁμηγερέες τε γένοντο ...")
 
     ```
@@ -346,13 +371,20 @@
     O("Oración")
     O-->A
     O-->|"δ'2 (apodótico)"|B
-    A("Subordinada")-->A1("οἳ δ'1 ἐπεὶ οὖν<br>ellos cuando")
-    A1-->A11("ἤγερθεν<br>se reunieron")
-    A1-->|"τε"|A12("ὁμηγερέες τε γένοντο<br>y llegaron a quedar juntos")
-    B("Principal")-->B10("τοῖσι δ'2<br>entre ellos")
-    B-->B11("ἀνιστάμενος<br>levantándose")
-    B-->B12("μετέφη<br>habló entre ellos")
-    B-->B13("πόδας ὠκὺς Ἀχιλλεύς<br>Aquiles rápido de pies")
+    A("Subordinada")-->A1("οἳ δ'1 ἐπεὶ οὖν
+    ellos cuando")
+    A1-->A11("ἤγερθεν
+    se reunieron")
+    A1-->|"τε"|A12("ὁμηγερέες τε γένοντο
+    y llegaron a quedar juntos")
+    B("Principal")-->B10("τοῖσι δ'2
+    entre ellos")
+    B-->B11("ἀνιστάμενος
+    levantándose")
+    B-->B12("μετέφη
+    habló entre ellos")
+    B-->B13("πόδας ὠκὺς Ἀχιλλεύς
+    Aquiles rápido de pies")
 
     ```
 
@@ -371,16 +403,25 @@
     A("Discurso")
     A-->B
     A-->C
-    B("Vocativo")-->B1("Ἀτρεΐδη,<br>Atrida,")
-    C("Oración")-->D("Verbo")-->D1("ὀΐω<br>creo que")
+    B("Vocativo")-->B1("Ἀτρεΐδη,
+    Atrida,")
+    C("Oración")-->D("Verbo")-->D1("ὀΐω
+    creo que")
     D1-->E("Completiva de infinitivo")
-    E-->E1("νῦν<br>ahora")
-    E-->E2("ἄμμε<br>nosotros")
-    E-->E3("παλιμπλαγχθέντας<br>vagando de vuelta")
-    E-->E4("ἂψ<br>de vuelta")
-    E-->E5("ἀπονοστήσειν<br>vamos a regresar")
-    E-->E6("εἴ κεν θάνατόν γε φύγοιμεν<br>por si podemos huir de la muerte")
-    C-->F("Condicional")-->F1("εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς<br>si en el mismo lugar guerra y peste van a domar a los aqueos")
+    E-->E1("νῦν
+    ahora")
+    E-->E2("ἄμμε
+    nosotros")
+    E-->E3("παλιμπλαγχθέντας
+    vagando de vuelta")
+    E-->E4("ἂψ
+    de vuelta")
+    E-->E5("ἀπονοστήσειν
+    vamos a regresar")
+    E-->E6("εἴ κεν θάνατόν γε φύγοιμεν
+    por si podemos huir de la muerte")
+    C-->F("Condicional")-->F1("εἰ δὴ ὁμοῦ πόλεμός τε δαμᾷ καὶ λοιμὸς Ἀχαιούς
+    si en el mismo lugar guerra y peste van a domar a los aqueos")
 
     ```
 

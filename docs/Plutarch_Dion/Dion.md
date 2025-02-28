@@ -765,15 +765,81 @@
 7 ἀπολογεῖσθαι δὲ βουλομένου τοῦ Δίωνος οὐκ ἀνασχόμενος, ἀλλʼ εὐθὺς, ὡς εἶχεν, ἐνθέμενος (1) εἰς ἀκάτιον προσέταξε τοῖς ναύταις κομίζοντας αὐτὸν ἐκθεῖναι πρὸς τὴν Ἰταλίαν.
 
 !!! note
-    1. **ὡς εἶχεν, ἐνθέμενος**: 'metiéndolo en un bote tal y como estaba'. La oración ὡς εἶχεν ('tal como estaba') se refiere perdicativamente al CD de ἐνθέμενος. Se quiere indicar que Dion no llevaba nada ni estaba preparado para la travesía.
+    1. **ὡς εἶχεν, ἐνθέμενος**: 'metiéndolo en un bote tal y como estaba'. La oración ὡς εἶχεν ('tal como estaba') se refiere predicativamente al CD de ἐνθέμενος (Dion). Se quiere indicar que Dion no llevaba nada ni estaba preparado para la travesía.
 
 ### 8.2. El resultado del exilio de Dion
 
-15.1 γενομένου δὲ τούτου καὶ φανέντος ὠμοῦ τοῖς ἀνθρώποις, τὴν μὲν οἰκίαν τοῦ τυράννου πένθος εἶχε διὰ τὰς γυναῖκας, ἡ δὲ πόλις τῶν Συρακουσίων ἐπῆρτο πράγματα νεώτερα καὶ μεταβολὴν προσδεχομένη ταχεῖαν ἐκ τοῦ περὶ Δίωνα θορύβου καὶ τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων.
-2 ἃ δὴ συνορῶν ὁ Διονύσιος καὶ δεδοικώς, τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης, ὡς μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν αὐτοῦ παρόντος ἁμαρτεῖν βιασθείη·
-3 δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ἐνθεμένοις ὅσα βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον.
-4 ἦν δʼ οὐσία μεγάλη τῷ Δίωνι καὶ σχεδόν τι τυραννικὴ πομπὴ καὶ κατασκευὴ περὶ τὴν δίαιταν, ἣν οἱ φίλοι συλλαβόντες ἐκόμιζον.
-5 ἄλλα δʼ ἐπέμπετο πολλὰ παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων, ὥστε χρημάτων ἕνεκα καὶ πλούτου λαμπρὸν ἐν τοῖς Ἕλλησιν εἶναι καὶ διαφανῆναι τῇ τοῦ φυγάδος εὐπορίᾳ τὴν τῆς τυραννίδος δύναμιν.
+15.1 γενομένου δὲ τούτου καὶ φανέντος ὠμοῦ τοῖς ἀνθρώποις, τὴν μὲν οἰκίαν τοῦ τυράννου πένθος εἶχε διὰ τὰς γυναῖκας, ἡ δὲ πόλις τῶν Συρακουσίων ἐπῆρτο πράγματα νεώτερα καὶ μεταβολὴν προσδεχομένη ταχεῖαν ἐκ τοῦ περὶ Δίωνα θορύβου (1) καὶ τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων. (2)
+
+!!! note
+    1. **ἐκ τοῦ περὶ Δίωνα θορύβου**: 'como resultado del alboroto acerca de Dion'. La preposición ἐκ indica origen en el espacio y causa en relaciones abstractas: el alboroto acerca de Dion es la causa de la excitación de la ciudad y, por tanto, la excitación de la ciudad es su resultado.
+    2. **τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων**: 'la desconfianza (τῆς ἀπιστίας) de los demás (τῶν ἄλλων) hacia el tirano (πρὸς τὸν τύραννον)' < 'los demás (suj. οἱ ἄλλοι) desconfían (ἀπιστοῦσιν) del tirano (dat. τῷ τυράννῳ)'.
+
+2 ἃ (1) δὴ συνορῶν ὁ Διονύσιος καὶ δεδοικώς, τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης, (2) ὡς (3) μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν αὐτοῦ παρόντος ἁμαρτεῖν βιασθείη·
+
+!!! note
+    1. **ἃ**: 'falso relativo': el antecedente son los hechos descritos en párrafo anterior.
+    2. **ὡς ... γεγενημένης**: genitivo absoluto. La partícula ὡς indica subjetividad: no se trata de la opinión de Plutarco, sino de lo que pretextaba Dionisio.
+    3. **ἀποδημίας ... ὡς ...**: la final encabezada por ὡς indica la finalidad de la 'ausencia' de Dion.
+    ```mermaid
+    graph TB
+    A("Oración")
+    A-->|"Participio<br>Pred-Suj"|B("ἃ δὴ συνορῶν ... καὶ δεδοικώς<br>viendo y temiendo estos hechos")
+    A-->|"Sujeto"|C("ὁ Διονύσιος<br>Dionisio")
+    A-->|"Predicado1<br>μέν"|D("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας<br>por un lado, animaba a los amigos y a las mujeres")
+    D-->|"Genitivo absoluto"|E("ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης,<br>como si no se hubiera producido un destierro para Dion, sino una ausencia")
+    E-->|"Oración final<br>ὡς"|F("ὡς μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν ... ἁμαρτεῖν βιασθείη·<br> para no verse (Dionisio) forzado a cometer un error peor por la cólera ante su arrogancia")
+    F-->|"Genitivo absoluto"|G("αὐτοῦ παρόντος<br>si él (Dion) permanecía (en la ciudad)")
+    A-->|"Predicado2<br>δέ"|H("δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ... <br>y, por otro, tras dar a los esclavos de Dion dos naves, les ordenó ...")
+
+    ```
+
+## EDICIÓN
+
+3 δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ἐνθεμένοις (1) ὅσα (2) βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον.
+
+!!! note
+    1. **ἐνθεμένοις**: el participio se refiere a los esclavos, que son (i) el complemento en dativo de παραδοὺς y, al mismo tiempo, (ii) el sujeto en acusativo del infinitivo ἀπάγειν o el complemento directo de ἐκέλευσεν. Plutarco ha decidido concertarlo con el primero (dat. ἐνθεμένοις), pero podría haberlo hecho con el segundo (ac. ἐνθεμένους).
+    2. **ὅσα ... θεράποντας**: La oración de relativo es el objeto directo tanto de ἐνθεμένοις como de ἀπάγειν. Se puede interpretar (i) que la oración de relativo lleva luego dos aposiciones ([ὅσα βούλοιντο τῶν ἐκείνου] χρήματα καὶ θεράποντας) o (ii) que la relativa es un modificador del CD χρήματα καὶ θεράποντας ([(ὅσα βούλοιντο τῶν ἐκείνου) χρήματα καὶ θεράποντας]). El análisis primero es el normal en español, mientras que el segundo es el más probable en griego antiguo.
+    ```mermaid
+    graph TB
+    A("Oración")
+    A-->|"μέν"|B("Oración1")-->B1("τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας<br>por un lado, animaba a los amigos y a las mujeres ...")
+    A-->|"δέ"|C("Oración2")
+    C-->|"Participio<br>Pred-Suj"|D("... δὲ ... παραδοὺς ...<br>y, por otro, tras dar")
+    D-->|"OD"|D1("δύο ... ναῦς<br>dos naves")
+    D-->|"OI"|D2("<b>τοῖς Δίωνος οἰκείοις<sub>i</sub></b><br>a los esclavos de Dionisio")
+    C-->|"Verbo"|E("ἐκέλευσεν<br>ordenó")
+    E-->|"Ac<br>CD/Suj"|E1("<b>ø<sub>i</sub><br>(Ac)</b><br>a ellos que/que ellos")
+    E-->|"Participio<br>Pred-OI"|E2("<b>ἐνθεμένοις<br>(ἐνθεμένους)</b><br>tras meter")
+    E2-->|"OD"|E11("ὅσα βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας<br>cuanto quisiera de lo suyo, dinero y servidores")
+    E-->|"Completiva"|E3("ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον<br>se lo llevaran a él al Peloponeso")
+    E3-->|"OD"|E11
+    ```
+    ```mermaid
+    graph TB
+    A("Análisis1")
+    A-->B(CD)
+    B-->|"Núcleo"|C("ὅσα βούλοιντο τῶν ἐκείνου")
+    B-->|"Aposición"|D("χρήματα καὶ θεράποντας<br>dinero y servidores")
+
+    E("Análisis2")
+    E-->F(CD)
+    F-->|"Núcleo"|G("ὅσα βούλοιντο τῶν ἐκείνου")
+    F-->|"Núcleo"|H("χρήματα καὶ θεράποντας<br>dinero y servidores")
+    ```
+
+4 ἦν δʼ οὐσία μεγάλη τῷ Δίωνι καὶ σχεδόν τι (1) τυραννικὴ πομπὴ καὶ κατασκευὴ περὶ τὴν δίαιταν, ἣν οἱ φίλοι συλλαβόντες (2) ἐκόμιζον.
+
+!!! note
+    1. **τι**: 'algo', 'un poco'. Pronombre con valor adverbial modificando a τυραννικὴ.
+    2. **συλλαβόντες**: 'tras reunir'; el prefijo συν- indica que se trata de cosas que están dispersas en diferentes lugares y se juntan para poderlas trasportar en los dos barcos preparados por Dionisio.
+
+5 ἄλλα δʼ ἐπέμπετο πολλὰ παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων, ὥστε χρημάτων ἕνεκα καὶ πλούτου λαμπρὸν ἐν τοῖς Ἕλλησιν εἶναι (2) καὶ διαφανῆναι τῇ τοῦ φυγάδος εὐπορίᾳ τὴν τῆς τυραννίδος δύναμιν.
+
+!!! note
+    1. **παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων**: 'de parte de ...'
+    2. **ὥστε ... εἶναι καὶ διαφανῆναι**: consecutivas con verbo en infinitivo y sujeto en acusativo: indican que el resultado es buscado, pero no se tiene certeza de que se vaya a verificar: cf. esp. (a) estudia tanto que **aprobará** (el hablante está seguro del resultado), (b) 'estudia tanto **como para aprobar**' (el hablante no está seguro).
 
 ### 8.3. Dionisio II interés exclusivo por Platón
 

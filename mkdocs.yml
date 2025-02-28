@@ -46,7 +46,7 @@ nav:
       - 'Términos homéricos': 'terminos_Homer.md'
       - 'Verbos': 'verbo.md'
     - Textos:
-      - 'Ilíada': 'textos.md'
+      - 'Ilíada': 'textos_02.md'
       - 'Odisea': 'text_Odisea.md'
     - 'Traducciones': 
       - Ilíada: 'traduc_ES.md'

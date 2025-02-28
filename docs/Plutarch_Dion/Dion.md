@@ -811,7 +811,7 @@
     D-->|"OI"|D2("<b>τοῖς Δίωνος οἰκείοις<sub>i</sub></b><br>a los esclavos de Dionisio")
     C-->|"Verbo"|E("ἐκέλευσεν<br>ordenó")
     E-->|"Ac<br>CD/Suj"|E1("<b>ø<sub>i</sub><br>(Ac)</b><br>a ellos que/que ellos")
-    E-->|"Participio<br>Pred-OI"|E2("<b>ἐνθεμένοις<br>(ἐνθεμένους)</b><br>tras meter")
+    E-->|"Participio<br>Pred-OI"|E2("<b>ἐνθεμένοις<sub>i</sub><br>(ἐνθεμένους<sub>i</sub>)</b><br>tras meter")
     E2-->|"OD"|E11("ὅσα βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας<br>cuanto quisiera de lo suyo, dinero y servidores")
     E-->|"Completiva"|E3("ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον<br>se lo llevaran a él al Peloponeso")
     E3-->|"OD"|E11
@@ -820,13 +820,15 @@
     graph TB
     A("Análisis1")
     A-->B(CD)
-    B-->|"Núcleo"|C("ὅσα βούλοιντο τῶν ἐκείνου")
-    B-->|"Aposición"|D("χρήματα καὶ θεράποντας<br>dinero y servidores")
+    B-->|"Núcleo"|C("Relativa")-->C1("ὅσα βούλοιντο τῶν ἐκείνου<br>lo que quisieran de (las cosas) de él")
+    C1-->|"Aposición"|D("χρήματα καὶ θεράποντας<br>, dinero y servidores")
 
     E("Análisis2")
     E-->F(CD)
-    F-->|"Núcleo"|G("ὅσα βούλοιντο τῶν ἐκείνου")
-    F-->|"Núcleo"|H("χρήματα καὶ θεράποντας<br>dinero y servidores")
+    F-->|"Núcleo"|G("Relativa")
+    G-->|"OD"|H("ὅσα χρήματα καὶ θεράποντας<br>cuanto dinero y servidores")
+    H-->|"Genitivo partitivo"|H1("τῶν ἐκείνου<br>de los de él")
+    G-->I("βούλοιντο<br>quisieran")
     ```
 
 4 ἦν δʼ οὐσία μεγάλη τῷ Δίωνι καὶ σχεδόν τι (1) τυραννικὴ πομπὴ καὶ κατασκευὴ περὶ τὴν δίαιταν, ἣν οἱ φίλοι συλλαβόντες (2) ἐκόμιζον.

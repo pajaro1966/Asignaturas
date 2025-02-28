@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sitename.example/textos_02/</loc>
+         <lastmod>2025-02-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sitename.example/traduc_ES/</loc>
          <lastmod>2025-02-28</lastmod>
          <changefreq>daily</changefreq>

@@ -600,8 +600,9 @@
 ??? note "(99) ἀπριάτην ἀνάποινον, ἄγειν θ' ἱερὴν ἑκατόμβην"
 
 ??? note "(100) ἐς Χρύσην· τότε κέν μιν ἱλασσάμενοι πεπίθοιμεν.»"
-    - (100) **πεπίθοιμεν**: [aoristos radicales temáticos](notas.md#o20); aor. tem. reduplicado con sentido factitivo, "entonces... podríamos hacerle atendemos (en nuestras súplicas)".
+    - (100) **πεπίθοιμεν**: [aoristos radicales temáticos](notas.md#o20); aor. tem. reduplicado con sentido factitivo, "entonces... podríamos hacerle atendemos (en nuestras súplicas)". πείθω ἔ-πει-σα, ἐ-πιθ-ό-μην.
     - (100) **μιν**: Apolo.
+    -  **ἱλασσάμενοι**: ἱλά-σκ-ο-μαι.
 
 ---
 
@@ -622,6 +623,7 @@
     - (104) **ὄσσε**: [dual](notas.md#i18)
     - (104) **οἱ**: dat. simpatètico "sus ojos".
     - (104) **ἐΐκτην**: [perfecto](notas.md#o29)
+    - (104) **λαμπετόωντι**: λαμπετά-ο-ντ-ι > λαμπετό-ω-ντ-ι > -at. λαμπετῶ-ντ-ι 
 
 ??? note "(105) Κάλχαντα πρώτιστα κάκ' ὀσσόμενος προσέειπε·"
     - (105) **Κάλχαντα**: acus. regido por el preverbio de **προσ**-έειπε.
@@ -629,6 +631,7 @@
     - (105) **πρώτιστα**: [ordinales](notas.md#k4).
 
 ??? note "(106) «μάντι κακῶν οὐ πώ ποτέ μοι τὸ κρήγυον εἶπας·"
+    - (106) μάντι: μάντις, μάντει. -ηι-, -ι-.
 
 ??? note "(107) αἰεί τοι τὰ κάκ' ἐστὶ φίλα φρεσὶ μαντεύεσθαι,"
 

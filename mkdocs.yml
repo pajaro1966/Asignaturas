@@ -31,10 +31,12 @@ nav:
       - Geografía: 'Geografia/Talbert_New/Talbert.md'
       - Reveal: 'Plutarch_Dion/Sicilia_Mapa.html'
     - Bibliografía: 'Plutarch_Dion/Plutarco_Bib.md'
-    - Edición: 'Plutarch_Dion/Teubner_Ed.md'
+    - Edición: 
+      - 'Zeitgler': 'Plutarch_Dion/Teubner_Ed.md'
+      - 'Chambry-Flaceliere': 'Plutarch_Dion/Dion_Belles_Lettres.pdf'
   - Homero: 
     - Instrumenta:
-      - 'Comentarios': 
+      - 'Comentarios':
         - 'Ilíada': 'Comentarios/Homer_Seymour.md'
         - 'Odisea': 'Comentarios/Homer_Merry_Monro.md'
       - 'Geografía': 'geografia.md'

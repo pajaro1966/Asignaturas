@@ -445,7 +445,8 @@
 !!! note
     1. **εὐθὺς ἐξ ἀρχῆς**: 'directamente desde el principio'.
     2. **ἀεί**: continuamente.
-    3. **ῥεμβώδεις**:
+    3. **ῥεμβώδεις**: 'irregular'.
+    4. **ἀσχήμονας**: ἀ-σχ-ή-μον-ας ἀ-σχ-ή-μων, -ον.
 
     <iframe src="https://philolog.us/lsj/ἐπιείκεια" style="width:100%; height:400px;"></iframe>
 
@@ -465,24 +466,66 @@
 
 ### 6.3. Juicio de Dion
 
-8.1 ἦν οὖν, ὡς εἰκὸς, ὁ Δίων ἐπαχθής εἰς οὐδὲν ἡδὺ καὶ νεωτερικὸν ἐνδιδοὺς ἑαυτόν, διὸ καὶ πιθανὰ κακιῶν προσρήματα (1) ταῖς ἀρεταῖς ἐπιφέροντες αὐτοῦ διέβαλλον, ὑπεροψίαν τὴν σεμνότητα καὶ τὴν παρρησίαν αὐθάδειαν ἀποκαλοῦντες (2)·
+8.1 ἦν οὖν, ὡς εἰκὸς, ὁ Δίων ἐπαχθής εἰς οὐδὲν ἡδὺ καὶ νεωτερικὸν ἐνδιδοὺς ἑαυτόν, διὸ (3) καὶ πιθανὰ κακιῶν προσρήματα (1) ταῖς ἀρεταῖς ἐπιφέροντες αὐτοῦ διέβαλλον, ὑπεροψίαν τὴν σεμνότητα καὶ τὴν παρρησίαν αὐθάδειαν ἀποκαλοῦντες (2)·
 
 !!! note
     1. **προσρήματα**: 'nombres, denominaciones'.
     2. **ἀποκαλοῦντες**: este participio explicita cómo calificaban negativamente cada una de sus virtudes.
+    3. **διὸ**: διά + ὅ 'por lo cual'.
     ```mermaid
     graph TB
-    A("Discurso")-->B("Tópico A<br>odio contra Dion<br>comportamiento de Dion")-->B1("φανερώταται δὲ καὶ μέγισται τῶν<br>εἰς φθόνον καὶ μῖσος αἰτιῶν<br>ὑπῆρχον ἡ τοῦ βίου διαφορὰ<br>καὶ τὸ τῆς διαίτης ἄμικτον")
+    A("Discurso")-->B("Unidades precedentes")-->B1("&nbsp;")
+    A-->|"οὖν"|C("Oración")
+    C-->D("ἦν<br>era")
+    C-->E("οὖν<br>por tanto")
+    C-->F("ὡς εἰκὸς<br>como es natural")
+    C-->G("ὁ Δίων<br>Dion")
+    C-->H("ἐπαχθής<br>odioso")
+    C-->I("ἐνδιδοὺς<br>al no entregar[se]")
+    I-->I1("εἰς οὐδὲν ἡδὺ καὶ νεωτερικὸν<br>a nada agradable y novedoso")
+    I-->I2("ἑαυτόν<br>a sí mismo")
+    C-->J("Subordinada")
+    J-->J0("διὸ<br>por lo que")
+    J-->J1("καὶ<br>incluso")
+    J-->J2("ἐπιφέροντες<br>atribuyendo")
+    J2-->J21("πιθανὰ κακιῶν προσρήματα<br>probables nombres de maldades")
+    J2-->J22("ταῖς ἀρεταῖς αὐτοῦ<br>a sus virtudes")
+    J-->J30("ø<br>[lo]")
+    J-->J3("διέβαλλον<br>calumniaban")
+    J-->J4("ἀποκαλοῦντες<br>denominando")
+    J4-->|"Pred-CD1"|J41("ὑπεροψίαν<br>soberbia")
+    J4-->|"CD1"|J42("τὴν σεμνότητα<br>a su gravedad")
+    J4-->|"CD2"|J43("καὶ τὴν παρρησίαν<br>y a su libertad de palabra")
+    J4-->|"Pred-CD2"|J44("αὐθάδειαν<br>arrogancia")
+    ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Tópico A<br>odio contra Dion<br>comportamiento de Dion")-->B1("[1] φανερώταται δὲ καὶ μέγισται τῶν<br>εἰς φθόνον καὶ μῖσος αἰτιῶν<br>ὑπῆρχον ἡ τοῦ βίου διαφορὰ<br>καὶ τὸ τῆς διαίτης ἄμικτον")
     A-->|"<b>γάρ</b>"|C("Explicación<br>comportamiento de los demás cortesanos")
-    C-->|"<b>μέν</b>"|C1("οἱ <b>μὲν γὰρ</b>, εὐθὺς ἐξ ἀρχῆς νέου τυράννου<br>καὶ τεθραμμένου φαύλως ὁμιλίαν<br>καὶ συνήθειαν ἡδοναῖς καὶ<br>κολακείαις καταλαμβάνοντες, ἀεί<br>τινας ἔρωτας καὶ διατριβὰς ἐμηχανῶντο<br>ῥεμβώδεις περὶ πότους καὶ γυναῖκας,<br>καὶ παιδιὰς ἑτέρας ἀσχήμονας, ὑφʼ ὧν<br>ἡ τυραννὶς, ὥσπερ σίδηρος, μαλασσομένη,<br> τοῖς μὲν ἀρχομένοις ἐφάνη φιλάνθρωπος,<br>καὶ τὸ λίαν ἀπάνθρωπον ὑπανῆκεν,<br>οὐκ ἐπιεικείᾳ τινὶ μᾶλλον ἢ<br>ῥᾳθυμίᾳ τοῦ κρατοῦντος ἀμβλυνομένη.")
-    
-    C-->|"<b>δέ</b>"|C2("ἐκ <b>δὲ</b> τούτου προϊοῦσα καὶ<br>νεμομένη κατὰ μικρὸν ἡ περὶ<br>τὸ μειράκιον ἄνεσις τοὺς ἀδαμαντίνους<br>δεσμοὺς ἐκείνους, οἷς ὁ πρεσβύτερος<br>Διονύσιος ἔφη δεδεμένην ἀπολείπειν τὴν<br>μοναρχίαν, ἐξέτηξε καὶ διέφθειρεν.")
-    C1-->|"<b>γάρ</b>"|C11("ἡμέρας <b>γὰρ</b>, ὥς φασιν, ἐνενήκοντα<br>συνεχῶς ἔπινεν ἀρξάμενος, καὶ τὴν αὐλὴν<br>ἐν τῷ χρόνῳ τούτῳ σπουδαίοις ἀνδράσι<br>καὶ λόγοις ἄβατον καὶ ἀνείσοδον<br>οὖσαν μέθαι καὶ σκώμματα καὶ<br>ψαλμοὶ καὶ ὀρχήσεις καὶ βωμολοχίαι κατεῖχον.")
+    C-->|"<b>μέν</b>"|C1("[2] οἱ <b>μὲν γὰρ</b>, εὐθὺς ἐξ ἀρχῆς νέου τυράννου<br>καὶ τεθραμμένου φαύλως ὁμιλίαν<br>καὶ συνήθειαν ἡδοναῖς καὶ<br>κολακείαις καταλαμβάνοντες, ἀεί<br>τινας ἔρωτας καὶ διατριβὰς ἐμηχανῶντο<br>ῥεμβώδεις περὶ πότους καὶ γυναῖκας,<br>καὶ παιδιὰς ἑτέρας ἀσχήμονας, ὑφʼ ὧν<br>ἡ τυραννὶς, ὥσπερ σίδηρος, μαλασσομένη,<br> τοῖς μὲν ἀρχομένοις ἐφάνη φιλάνθρωπος,<br>καὶ τὸ λίαν ἀπάνθρωπον ὑπανῆκεν,<br>οὐκ ἐπιεικείᾳ τινὶ μᾶλλον ἢ<br>ῥᾳθυμίᾳ τοῦ κρατοῦντος ἀμβλυνομένη.")
+
+    C-->|"<b>δέ</b>"|C2("[3] ἐκ <b>δὲ</b> τούτου προϊοῦσα καὶ<br>νεμομένη κατὰ μικρὸν ἡ περὶ<br>τὸ μειράκιον ἄνεσις τοὺς ἀδαμαντίνους<br>δεσμοὺς ἐκείνους, οἷς ὁ πρεσβύτερος<br>Διονύσιος ἔφη δεδεμένην ἀπολείπειν τὴν<br>μοναρχίαν, ἐξέτηξε καὶ διέφθειρεν.")
+    C1-->|"<b>γάρ</b>"|C11("[4] ἡμέρας <b>γὰρ</b>, ὥς φασιν, ἐνενήκοντα<br>συνεχῶς ἔπινεν ἀρξάμενος, καὶ τὴν αὐλὴν<br>ἐν τῷ χρόνῳ τούτῳ σπουδαίοις ἀνδράσι<br>καὶ λόγοις ἄβατον καὶ ἀνείσοδον<br>οὖσαν μέθαι καὶ σκώμματα καὶ<br>ψαλμοὶ καὶ ὀρχήσεις καὶ βωμολοχίαι κατεῖχον.")
     C2-->|"<b>γάρ</b>"|C11
-    A-->|"<b>οὖν</b>"|D("Tópico A<br>odio contra Dion<br>comportamiento de Dion")-->D1("ἦν <b>οὖν</b>, ὡς εἰκὸς, ὁ Δίων ἐπαχθής")
+    A-->|"<b>οὖν</b>"|D("Tópico A<br>odio contra Dion<br>comportamiento de Dion")-->D1("[5] ἦν <b>οὖν</b>, ὡς εἰκὸς, ὁ Δίων ἐπαχθής")
     ```
 
 καὶ νουθετῶν κατηγορεῖν ἐδόκει καὶ μὴ συνεξαμαρτάνων καταφρονεῖν.
+
+!!! note
+    ```mermaid
+    graph TB
+    A(Discurso)-->B("Discurso precedente")-->B1("&nbsp;")
+    A-->A1("καὶ<br>y")
+    A-->C("Oración compuesta")
+    C-->D("ἐδόκει<br>parecía")
+    D-->D1("κατηγορεῖν<br>acusar[los]")
+    D1-->D11("νουθετῶν<br>al reconvenirles")
+    D-->D2("καὶ<br>y")
+    D-->D3("καταφρονεῖν<br>despreciar[los]")
+    D3-->D31("μὴ συνεξαμαρτάνων<br>al no compartir sus errores")
+    ```
+
 2 ἀμέλει (1) δὲ καὶ φύσει τινὰ τὸ ἦθος ὄγκον (2) εἶχεν αὐτοῦ καὶ τραχύτητα δυσπρόσοδον (3) ἐντεύξει (4) καὶ δυσξύμβολον.
 
 !!! note
@@ -490,8 +533,24 @@
     2. **ὄγκον**: ὄγκος 'bulto', 'masa' > 'orgullo'.
     3. **δυσπρόσοδον**: δυσ-πρόσ-οδος, ον 'difícil (δυσ-) de acercarse (-πρόσ-οδον)' > 'difícil de acercarse'.
     4. **ἐντεύξει**: ἔντευξις: dativo restrictitivo: 'díficil en las relaciones'.
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Discurso anterior")-->B1(" ... ")
+    A-->|"δὲ"|C("Oración")
+    C-->C1("ἀμέλει<br>sin duda")
+    C-->C2("<b>δέ</b><br>pero")
+    C-->C3("καὶ<br>también")
+    C-->C4("φύσει<br>por naturaleza")
+    C-->C5("τὸ ἦθος<br>el carácter")-->C51("αὐτοῦ")
+    C-->C6("εἶχεν<br>tenía")
+    C-->C7("τινὰ ... ὄγκον ... καὶ τραχύτητα<br>cierto orgullo y aspereza")
+    C7-->C71("δυσπρόσοδον ... καὶ δυσξύμβολον<br>difícil de abordar y de tratar")
+    C71-->C711("ἐντεύξει<br>para las relaciones")
+    ```
 
 3 οὐ γὰρ μόνον ἀνδρὶ (1) νέῳ καὶ διατεθρυμμένῳ (2) τὰ ὦτα (3) κολακείαις ἄχαρις ἦν συγγενέσθαι (4) καὶ προσάντης (5), πολλοὶ δὲ καὶ τῶν πάνυ χρωμένων (9) αὐτῷ καὶ τὴν ἁπλότητα καὶ τὸ γενναῖον ἀγαπώντων τοῦ τρόπου κατεμέμφοντο τῆς ὁμιλίας (6), ὡς (8) ἀγροικότερον καὶ βαρύτερον πολιτικῶν χρειῶν τοῖς δεομένοις συναλλάσσοντα (7).
+
+## EDICIÓN
 
 !!! note
     1. **ἀνδρὶ νέῳ καὶ διατεθρυμμένῳ**: el joven Dionisio II.
@@ -503,6 +562,39 @@
     7. **συναλλάσσοντα**: se refiere a Dion, que es el objeto de κατεμέμφοντο.
     8. **ὡς ... συναλλάσσοντα**: 'como teniendo relaciones': la partícula ὡς indica que se trata de la opinión subjetiva del sujeto de κατεμέμφοντο y no del hablante (Plutarco).
     9. **χρωμένων αὐτῷ**: χράομαι + dat. 'utilizar algo'; + dativo de persona 'tener trato con alguien'.
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades precedentes")-->B1(" ... ")
+    A-->|"γὰρ"|0("Unidades presentes")
+    0-->C("Oración1")
+    C-->C0("οὐ<br>no")
+    C-->C1("<b>γὰρ</b><br>en efecto")
+    C-->C2("μόνον<br>solo")
+    C-->C3("ἀνδρὶ<br>para [un] hombre")
+    C3-->C31("νέῳ<br>joven")
+    C3-->C32("καὶ<br>y")
+    C3-->C33("διατεθρυμμένῳ<br>destruido")
+    C33-->C331("τὰ ὦτα<br>en cuanto a sus oídos")
+    C33-->C332("κολακείαις<br>por las adulaciones")
+    C-->C4("ἦν<br>era")
+    C-->C5("ἄχαρις ... καὶ προσάντης<br>poco grato y difícil")-->C351("συγγενέσθαι<br>para relacionarse [con él]")
+    0-->|"δὲ"|D("Oración2")
+    D-->D1("πολλοὶ<br>muchos")
+    D-->D0("<b>δὲ</b><br>pero")
+    D1-->D11("τῶν ... χρωμένων<br>de quienes trataban<br>[como amigo]")
+    D11-->D111("πάνυ<br>mucho")
+    D11-->D112("αὐτῷ<br>a él")
+    D1-->D12("καὶ<br>y")
+    D1-->D13("ἀγαπώντων<br>amaban")
+    D13-->D131("τὴν ἁπλότητα καὶ τὸ γενναῖον<br>su sencillez y nobleza")
+    D-->D2("κατεμέμφοντο<br>[lo] censuraban")
+    D-->D3("τοῦ τρόπου ... τῆς ὁμιλίας<br>por el modo de su trato")
+    D-->D4("ø<br>a él")
+    D-->D5("ὡς ... συναλλάσσοντα<br>por relacionarse, según ellos,")
+    D5-->D51("ἀγροικότερον καὶ βαρύτερον<br>de manera demasiado tosca y dura")
+    D5-->D52("τοῖς δεομένοις<br>con quienes necesitaban")
+    D52-->D521("πολιτικῶν χρειῶν<br>sus servicios políticos")
+    ```
 
 <!--
 
@@ -1067,14 +1159,13 @@
     J1-->J12("μὴ προτιμῶντι<br>si (Platón) no prefería")
     J12-->J121("τὴν πρὸς Δίωνα φιλίαν<br>su amistad hacia Dion")
     J12-->J122("τῆς πρὸς αὐτόν.<br>a la suya")
-
     ```
 
 3 ἦν οὖν (1) τῷ Πλάτωνι συμφορὰ τὸ πάθος αὐτοῦ τοῦτο, μαινομένου (2) καθάπερ οἱ δυσέρωτες ὑπὸ ζηλοτυπίας, καὶ πολλὰς μὲν ὀργὰς ἐν ὀλίγῳ χρόνῳ, πολλὰς δὲ διαλλαγὰς καὶ δεήσεις ποιουμένου (2) πρὸς αὐτόν, ἀκροᾶσθαι δὲ τῶν λόγων καὶ κοινωνεῖν τῆς περὶ φιλοσοφίαν πραγματείας σπουδάζοντος (2) μὲν ὑπερφυῶς, αἰδουμένου (2) δὲ τοὺς ἀποτρέποντας ὡς διαφθαρησομένου.
 
 !!! note
     1. **οὖν**: conclusión de lo anterior: 'así que'.
-    2. **αὐτοῦ ... μαινομένου ... ποιουμένου ... σπουδάζοντος ... αἰδουμένου ...**: participios concertando con αὐτοῦ (Dionisio), pero que también se pueden entender como un genitivo absoluto con el mismo sujeto lógico (αὐτοῦ). 
+    2. **αὐτοῦ ... μαινομένου ... ποιουμένου ... σπουδάζοντος ... αἰδουμένου ...**: participios concertando con αὐτοῦ (Dionisio), pero que también se pueden entender como un genitivo absoluto con el mismo sujeto lógico (αὐτοῦ).
     ```mermaid
     graph TB
     A("Discurso")-->B("Contexto<br>precedente")-->B1("&nbsp;")
@@ -1110,16 +1201,16 @@
 4 ἐν τούτῳ δὲ πολέμου (1) τινὸς ἐμπεσόντος ἀποπέμπει τὸν Πλάτωνα, συνθέμενος εἰς ὥραν ἔτους (2) μεταπέμψασθαι (3) Δίωνα.
 
 !!! note
-   1. **πολέμου τινὸς ἐμπεσόντος**: ???
-   2. **εἰς ὥραν ἔτους**: 'para la siguiente temporada'. La ὥρα ἔτους es la época en la que se podía combatir por hacer buen tiempo.
-   3. **μεταπέμψασθαι**: 'enviar (al alguien) para traer a alguien (ac.)' > 'hacer venir'.
+    1. **πολέμου τινὸς ἐμπεσόντος**: ???
+    2. **εἰς ὥραν ἔτους**: 'para la siguiente temporada'. La ὥρα ἔτους es la época en la que se podía combatir por hacer buen tiempo.
+    3. **μεταπέμψασθαι**: 'enviar (al alguien) para traer a alguien (ac.)' > 'hacer venir'.
 
 5 καὶ τοῦτο μὲν εὐθὺς ἐψεύσατο, τὰς δὲ προσόδους τῶν κτημάτων ἀπέπεμπεν αὐτῷ, ἀξιῶν Πλάτωνα συγγνῶναι περὶ τοῦ χρόνου διὰ τὸν πόλεμον·
 
 !!! note
     1. **περὶ τοῦ χρόνου**: 'por el tiempo' que se retrasaba en traer de vuelta a Dion. Se explica en la siguiente unidad.
 
-## EDICIÓN
+## EDICIÓN2
 
 6 εἰρήνης γὰρ (1) γενομένης τάχιστα μεταπέμψεσθαι (2) τὸν Δίωνα, καὶ ἀξιοῦν (2) αὐτὸν ἡσυχίαν ἄγειν καὶ μηδὲν νεωτερίζειν μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας.
 
@@ -1131,20 +1222,16 @@
     A("Dicurso")
     A-->B("Contexto<br>previo")-->B1("...")
     A-->|"γάρ"|C("Explicación")
-    C-->C1("γάρ<br>en efecto")
-    C-->C2("εἰρήνης ... γενομένης<br>cuando se produjera la paz")
-    C-->C3("μεταπέμψεσθαι<br>(decía que) enviaría a buscar")
+    C-->|"Genitivo absoluto"|C2("εἰρήνης <b>γάρ</b> γενομένης<br>cuando, en efecto, se produjera la paz")
+    C-->|"Predicado1"|C3("μεταπέμψεσθαι<br>(decía que) enviaría a buscar")
     C3-->C31("τὸν Δίωνα<br>a Dion")
-    C-->C4("καὶ ἀξιοῦν<br>y (decía que) [le] pedía")
+    C-->|"Predicado 2<br>καὶ"|C4("<b>καὶ</b> ἀξιοῦν<br>y (decía que) [le] pedía")
     C4-->C41("αὐτὸν<br>a él")
     C4-->C42("Completivas<br>CD")
     C42-->C421("ἡσυχίαν ἄγειν<br>que estuviera tranquilo")
-    C42-->|"καὶ"|C422("καὶ μηδὲν νεωτερίζειν<br>y no creara revueltas")
-    C42-->|"μηδὲ"|C423("μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας<br>ni hablara mal contra él ante los griegos")
+    C42-->|"καὶ"|C422("<b>καὶ</b> μηδὲν νεωτερίζειν<br>y no creara revueltas")
+    C42-->|"μηδὲ"|C423("<b>μηδὲ</b> βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας<br>ni hablara mal contra él ante los griegos")
     ```
-
-6 εἰρήνης γὰρ (1) γενομένης τάχιστα μεταπέμψεσθαι (2) τὸν Δίωνα, καὶ ἀξιοῦν (2) αὐτὸν ἡσυχίαν ἄγειν καὶ μηδὲν νεωτερίζειν μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας.
-
 
 ### 8.4. La reputación de Dion en Grecia
 

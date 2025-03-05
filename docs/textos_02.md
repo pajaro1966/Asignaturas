@@ -634,9 +634,11 @@
     - (106) μάντι: μάντις, μάντει. -ηι-, -ι-.
 
 ??? note "(107) αἰεί τοι τὰ κάκ' ἐστὶ φίλα φρεσὶ μαντεύεσθαι,"
+    1. ἐστὶ φίλα: He was likely to come. él era probable venir/era probable que viniera
 
 ??? note "(108) ἐσθλὸν δ' οὔτέ τί πω εἶπας ἔπος οὔτ' ἐτέλεσσας·"
     - (108) **ἐσθλὸν ... ἔπος**: "presagio favorable"; Agamenón intenta desprestigiar a Calcante como adivino.
+    - ἐτέλεσσας: τέλoς/ (1) τελέσ-yω  > τελέ-ω; (1) ἐ-τέλεσ-σα > (2) ἐ-τέλεσα.
 
 ??? note "(109) καὶ νῦν ἐν Δαναοῖσι θεοπροπέων ἀγορεύεις"
 

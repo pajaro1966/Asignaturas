@@ -1297,21 +1297,6 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#edicion2" class="md-nav__link">
-    <span class="md-ellipsis">
-      EDICIÓN2
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="EDICIÓN2">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
   <a href="#84-la-reputacion-de-dion-en-grecia" class="md-nav__link">
     <span class="md-ellipsis">
@@ -1323,6 +1308,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edicion2" class="md-nav__link">
+    <span class="md-ellipsis">
+      EDICIÓN2
+    </span>
+  </a>
   
 </li>
       
@@ -3528,21 +3522,6 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#edicion2" class="md-nav__link">
-    <span class="md-ellipsis">
-      EDICIÓN2
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="EDICIÓN2">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
   <a href="#84-la-reputacion-de-dion-en-grecia" class="md-nav__link">
     <span class="md-ellipsis">
@@ -3554,6 +3533,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edicion2" class="md-nav__link">
+    <span class="md-ellipsis">
+      EDICIÓN2
+    </span>
+  </a>
   
 </li>
       
@@ -4151,7 +4139,41 @@
 <li><strong>ὥσπερ ... οὕτως ...</strong> : "al igual que ... así (también)..."</li>
 <li><strong>οἱ περὶ Γλαῦκον ἐξ ἀρχῆς Κορίνθιοι γεγονότες</strong>: los antepasados de Glauco eran corintios.</li>
 <li><strong>εἰκὸς ... ἐγκαλεῖν</strong>: εἰκός ἐστι + inf. 'es razonable/natural'.</li>
-<li><strong>τῆς γραφῆς ταύτης</strong>: la presente obra de Plutarco.</li>
+<li><strong>τῆς γραφῆς ταύτης</strong>: la presente obra de Plutarco.
+<pre class="mermaid"><code>graph TB
+A("Oración compuesta")
+A--&gt;B0("ἆρά γε, ... &lt;br&gt;¿Acaso")
+A--&gt;|"Subordinada&lt;br&gt;comparativa"|B("ὥσπερ ... φησίν&lt;br&gt;al igual que afirma")
+A--&gt;|"Vocativo"|B00(", ὦ Σόσσιε Σενεκίων,&lt;br&gt;oh Sosio Seneción")
+B--&gt;|"Sujeto"|B01("ὁ Σιμωνίδης&lt;br&gt;Simónides")
+B--&gt;|"CD-Ac+Inf"|B1("... μηνίειν ...&lt;br&gt;que se encoleriza")
+B1--&gt;|"Compañía"|B11("τοῖς Κορινθίοις&lt;br&gt;con los corintios")
+B1--&gt;|"Neg"|B12("οὐ&lt;br&gt;no")
+B1--&gt;|"Sujeto"|B13("τὸ Ἴλιον&lt;br&gt;Ilión")
+B1--&gt;|"Part&lt;br&gt;Pred-Dat"|B14("ἐπιστρατεύσασι&lt;br&gt;por haber hecho una expedición")--&gt;|"Compañía"|B141("μετὰ τῶν Ἀχαιῶν&lt;br&gt;junto con los aqueos")
+B1--&gt;|"Subordinada&lt;br&gt;causal"|B15("ὅτι ...   συνεμάχουν ...&lt;br&gt;porque habían luchado")
+B15--&gt;|"Compañía"|B151("κἀκείνοις&lt;br&gt;también con ellos")
+B15--&gt;|"Sujeto"|B152("οἱ περὶ Γλαῦκον&lt;br&gt;los de Glaucón")
+B15--&gt;|"Part&lt;br&gt;Pred-Suj"|B153("γεγονότες&lt;br&gt;que eran")
+B153--&gt;|"Tiempo"|B1531("ἐξ ἀρχῆς&lt;br&gt;de origen")
+B153--&gt;|"Sujeto"|B1532("Κορίνθιοι&lt;br&gt;corintios")
+B15--&gt;|"Manera"|B154("προθύμως&lt;br&gt;con entusiamo")
+
+A--&gt;|"Pred"|C("οὕτως εἰκὸς&lt;br&gt;asimismo ‹es› razonable")
+C--&gt;|"Suj&lt;br&gt;AcInf"|C1("ἐγκαλεῖν&lt;br&gt;que ‹no› acusen")
+C1--&gt;|"Compñaía"|C11("τῇ Ἀκαδημείᾳ&lt;br&gt;a la Academia")
+C1--&gt;|"Sujeto"|C12("μήτε Ῥωμαίους μήτε Ἕλληνας&lt;br&gt;ni romanos ni griegos")
+C1--&gt;|"Partipio&lt;br&gt;Pred-Suj"|C13("φερομένους&lt;br&gt;porque se llevan")
+C13--&gt;|"OD"|C131("ἴσον&lt;br&gt;lo mismo")
+C13--&gt;|"Origen"|C132("ἐκ τῆς γραφῆς ταύτης&lt;br&gt;de este escrito")
+C132--&gt;|"Relativa"|C1321("ἣ ... περιέχει ... &lt;br&gt;que contiene")
+C1321--&gt;|"OD"|C13211("τόν τε Βρούτου ... βίον καὶ τόν Δίωνος&lt;br&gt;la vida de Bruto y la de Dion")
+C13211--&gt;|"Relativca"|D("ὧν ... ὥρμησαν&lt;br&gt;de los cuales se lanzaron")
+D--&gt;|"Sujeto"|D1("ὁ μὲν&lt;br&gt;el uno")--&gt;|"Part&lt;br&gt;Pred-Suj"|D11("αὐτῷ Πλάτωνι πλησιάσας&lt;br&gt;tras acercarse al propio Platón")
+D--&gt;D2("ὁ δὲ&lt;br&gt;y el otro")--&gt;|"Part&lt;br&gt;Pred-Suj"|D21("τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος&lt;br&gt;criado entre los discursos de Platón")
+D--&gt;|"Origen"|D3("ὥσπερ ἐκ μιᾶς ...  παλαίστρας&lt;br&gt;como desde una misma palestra")
+D--&gt;|"Pred-Suj"|D4("ἀμφότεροι&lt;br&gt;ambos")
+D--&gt;|"Dirección"|D5("ἐπὶ τοὺς μεγίστους ἀγῶνας.&lt;br&gt;a los mayores combates")</code></pre></li>
 </ol>
 </div>
 <hr />
@@ -4161,9 +4183,9 @@
 <ol>
 <li><strong>τὸ ... μαρτυρῆσαι ... οὐ θαυμαστόν ἐστιν</strong>:</li>
 <li><strong>τῷ καθηγεμόνι τῆς ἀρετῆς</strong>: Platón era 'el guía' de ambos.</li>
-<li><strong>φρονήσει καὶ δικαιοσύνῃ δύναμιν ἐπὶ τὸ αὐτὸ καὶ τύχην συνελθεῖν</strong>: 'A (nom.) se reúne (συνέρχομαι) con B (dat.) en el mismo lugar (ἐπὶ τὸ αὐτὸ)'.</li>
-<li>Colonias griegas
-<img alt="Colonias griegas" src="../Plut_Mapas/Sicilia_Colonias_Griegas.jpg" /></li>
+<li><strong>φρονήσει καὶ δικαιοσύνῃ δύναμιν ἐπὶ τὸ αὐτὸ καὶ τύχην συνελθεῖν</strong>: 'A (nom.) se reúne (συνέρχομαι) con B (dat.) en el mismo lugar (ἐπὶ τὸ αὐτὸ)'.
+<pre class="mermaid"><code>graph TB
+</code></pre></li>
 </ol>
 <hr />
 </div>
@@ -5441,7 +5463,6 @@ G1--&gt;G11("ὡς διαφθαρησομένου&lt;br&gt;pensando que iba a se
 <li><strong>περὶ τοῦ χρόνου</strong>: 'por el tiempo' que se retrasaba en traer de vuelta a Dion. Se explica en la siguiente unidad.</li>
 </ol>
 </div>
-<h2 id="edicion2">EDICIÓN2<a class="headerlink" href="#edicion2" title="Permanent link">&para;</a></h2>
 <p>6 εἰρήνης γὰρ (1) γενομένης τάχιστα μεταπέμψεσθαι (2) τὸν Δίωνα, καὶ ἀξιοῦν (2) αὐτὸν ἡσυχίαν ἄγειν καὶ μηδὲν νεωτερίζειν μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -5464,17 +5485,69 @@ C42--&gt;|"μηδὲ"|C423("&lt;b&gt;μηδὲ&lt;/b&gt; βλασφημεῖν �
 </ol>
 </div>
 <h3 id="84-la-reputacion-de-dion-en-grecia">8.4. La reputación de Dion en Grecia<a class="headerlink" href="#84-la-reputacion-de-dion-en-grecia" title="Permanent link">&para;</a></h3>
-<p>17.1 ταῦτα ἐπειρᾶτο ποιεῖν Πλάτων, καὶ Δίωνα τρέψας ἐπὶ φιλοσοφίαν ἐν Ἀκαδημείᾳ συνεῖχεν.
-2 ᾤκει μὲν οὖν ἐν ἄστει παρὰ Καλλίππῳ τινὶ τῶν γνωρίμων, ἀγρὸν δὲ διαγωγῆς p.34 χάριν ἐκτήσατο, καὶ τοῦτον ὕστερον εἰς Σικελίαν πλέων Σπευσίππῳ δωρεὰν ἔδωκεν, 3 ᾧ μάλιστα τῶν Ἀθήνησι φίλων ἐχρῆτο καὶ συνδιῃτᾶτο, βουλομένου τοῦ Πλάτωνος ὁμιλίᾳ χάριν ἐχούσῃ καὶ παιδιᾶς ἐμμελοῦς κατὰ καιρὸν ἁπτομένῃ κεραννύμενον ἀφηδύνεσθαι τοῦ Δίωνος τὸ ἦθος.
-4 τοιοῦτος δέ τις ὁ Σπεύσιππος ἦν·
-ᾗ καὶ σκῶψαι ἀγαθὸν αὐτὸν ἐν τοῖς Σίλλοις ὁ Τίμων προσηγόρευσεν.
-5 αὐτῷ δὲ Πλάτωνι χορηγοῦντι παίδων χορῷ τόν τε χορὸν ἤσκησεν ὁ Δίων καὶ τὸ δαπάνημα πᾶν ἐτέλεσε παρʼ ἑαυτοῦ, συγχωροῦντος τοῦ Πλάτωνος τὴν τοιαύτην φιλοτιμίαν πρὸς τοὺς Ἀθηναίους, ὡς ἐκείνῳ μᾶλλον εὔνοιαν ἢ δόξαν αὐτῷ φέρουσαν.
-paris.1624.965 6 ἐπεφοίτα δὲ καὶ ταῖς ἄλλαις πόλεσιν ὁ Δίων, καὶ συνεσχόλαζε καὶ συνεπανηγύριζε τοῖς ἀρίστοις καὶ πολιτικωτάτοις ἀνδράσιν, οὐδὲν ἐν τῇ διαίτῃ σόλοικον ἐπιδεικνύμενος οὐδὲ τυραννικὸν οὐδὲ ἐπιτεθρυμμένον, ἀλλὰ σωφροσύνην καὶ ἀρετὴν καὶ ἀνδρείαν καὶ περὶ λόγους καὶ περὶ φιλοσοφίαν εὐσχήμονας διατριβάς.
-7 ἐφʼ οἷς εὔνοια παρὰ πάντων ἐγίνετο καὶ ζῆλος αὐτῷ τιμαί τε δημόσιαι καὶ ψηφίσματα παρὰ τῶν πόλεων.
-8 Λακεδαιμόνιοι δὲ καὶ Σπαρτιάτην αὐτὸν ἐποιήσαντο, τῆς Διονυσίου καταφρονήσαντες ὀργῆς, καίπερ αὐτοῖς τότε προθύμως ἐπὶ τοὺς Θηβαίους συμμαχοῦντος.
-9 λέγεται δέ ποτε τὸν Δίωνα τοῦ Μεγαρέως Πτοιοδώρου δεόμενον ἐπὶ τὴν οἰκίαν ἐλθεῖν ἦν δέ, ὡς ἔοικε, τῶν πλουσίων τις καὶ δυνατῶν ὁ Πτοιόδωρος·
-10 ὄχλον οὖν ἐπὶ θύραις ἰδὼν ὁ Δίων καὶ πλῆθος ἀσχολιῶν καὶ δυσέντευκτον αὐτὸν καὶ δυσπρόσοδον, ἀπιδὼν πρὸς τοὺς φίλους δυσχεραίνοντας καὶ ἀγανακτοῦντας, p.36 τί τοῦτον ἔφη, μεμφόμεθα;
-καὶ γὰρ αὐτοὶ πάντως ἐν Συρακούσαις ὅμοια τούτοις ἐποιοῦμεν.</p>
+<h2 id="edicion2">EDICIÓN2<a class="headerlink" href="#edicion2" title="Permanent link">&para;</a></h2>
+<p>17.1 ταῦτα ἐπειρᾶτο ποιεῖν Πλάτων, καὶ Δίωνα τρέψας ἐπὶ φιλοσοφίαν ἐν Ἀκαδημείᾳ συνεῖχεν.</p>
+<p>2 ᾤκει μὲν οὖν ἐν ἄστει παρὰ Καλλίππῳ τινὶ τῶν γνωρίμων, ἀγρὸν δὲ διαγωγῆς p.34 χάριν ἐκτήσατο, καὶ τοῦτον ὕστερον εἰς Σικελίαν πλέων Σπευσίππῳ δωρεὰν ἔδωκεν, 3 ᾧ μάλιστα τῶν Ἀθήνησι φίλων ἐχρῆτο καὶ συνδιῃτᾶτο, βουλομένου τοῦ Πλάτωνος ὁμιλίᾳ (1) χάριν ἐχούσῃ καὶ παιδιᾶς ἐμμελοῦς κατὰ καιρὸν ἁπτομένῃ κεραννύμενον ἀφηδύνεσθαι τοῦ Δίωνος τὸ ἦθος.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li><strong>ὁμιλίᾳ</strong>: se refiere a Espeusipo, que servía de compañía a Dion.
+<pre class="mermaid"><code>graph TB
+A("Genitivo absoluto")
+A--&gt;B1("βουλομένου&lt;br&gt;queriendo")--&gt;B("AcI&lt;br&gt;que")
+A--&gt;C("τοῦ Πλάτωνος&lt;br&gt;Platón")
+B--&gt;E("κεραννύμενον&lt;br&gt;mezclándose")
+E--&gt;F("ὁμιλίᾳ&lt;br&gt;con una compañía")
+F--&gt;G("ἐχούσῃ&lt;br&gt;que tuviera")
+G--&gt;H("χάριν&lt;br&gt;encanto")
+F--&gt;I("καὶ ... ἁπτομένῃ&lt;br&gt;y que tocara")
+I--&gt;J("παιδιᾶς ἐμμελοῦς&lt;br&gt;algún juego apropiado")
+I--&gt;J2("κατὰ καιρὸν&lt;br&gt;de vez en cuando")
+B--&gt;D("ἀφηδύνεσθαι&lt;br&gt;se dulcificara")
+B--&gt;D1("τοῦ Δίωνος τὸ ἦθος&lt;br&gt;el carácter de Dion")</code></pre></li>
+</ol>
+</div>
+<p>4 τοιοῦτος δέ τις ὁ Σπεύσιππος ἦν·
+ᾗ (1) καὶ «σκῶψαι ἀγαθὸν» (2) αὐτὸν ἐν τοῖς Σίλλοις ὁ Τίμων προσηγόρευσεν.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li>ᾗ: ?</li>
+<li>«<strong>σκῶψαι ἀγαθὸν</strong>»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso). </li>
+</ol>
+</div>
+<p>5 αὐτῷ δὲ Πλάτωνι χορηγοῦντι παίδων χορῷ τόν τε χορὸν ἤσκησεν ὁ Δίων καὶ τὸ δαπάνημα πᾶν ἐτέλεσε παρʼ ἑαυτοῦ, συγχωροῦντος τοῦ Πλάτωνος τὴν τοιαύτην φιλοτιμίαν πρὸς τοὺς Ἀθηναίους, ὡς ἐκείνῳ μᾶλλον εὔνοιαν ἢ δόξαν αὐτῷ φέρουσαν.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li><strong>ἐκείνῳ ...  ἢ ... αὐτῷ ...</strong>: 'más a Dion .... que ... a él'.</li>
+</ol>
+</div>
+<!-- paris.1624.965 -->
+<p>6 ἐπεφοίτα δὲ καὶ ταῖς ἄλλαις πόλεσιν ὁ Δίων, καὶ συνεσχόλαζε καὶ συνεπανηγύριζε τοῖς ἀρίστοις καὶ πολιτικωτάτοις ἀνδράσιν, οὐδὲν ἐν τῇ διαίτῃ σόλοικον ἐπιδεικνύμενος οὐδὲ τυραννικὸν οὐδὲ ἐπιτεθρυμμένον, ἀλλὰ σωφροσύνην καὶ ἀρετὴν καὶ ἀνδρείαν καὶ περὶ λόγους καὶ περὶ φιλοσοφίαν εὐσχήμονας διατριβάς.
+7 ἐφʼ οἷς εὔνοια παρὰ πάντων ἐγίνετο καὶ ζῆλος αὐτῷ τιμαί τε δημόσιαι καὶ ψηφίσματα παρὰ τῶν πόλεων.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li><strong>ἐφʼ οἷς</strong>: 'falso relativo': 'cosas por las cuales' &gt; 'por eso'.</li>
+</ol>
+</div>
+<p>8 Λακεδαιμόνιοι δὲ καὶ Σπαρτιάτην αὐτὸν ἐποιήσαντο, τῆς Διονυσίου καταφρονήσαντες ὀργῆς, καίπερ αὐτοῖς τότε προθύμως ἐπὶ τοὺς Θηβαίους συμμαχοῦντος. (1)</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li><strong>Διονυσίου ... καίπερ ... συμμαχοῦντος</strong>: de Dionisio, aunque (este) era aliado ...</li>
+</ol>
+</div>
+<p>9 λέγεται δέ ποτε τὸν Δίωνα τοῦ Μεγαρέως Πτοιοδώρου δεόμενον ἐπὶ τὴν οἰκίαν ἐλθεῖν ἦν δέ, ὡς ἔοικε, τῶν πλουσίων τις καὶ δυνατῶν ὁ Πτοιόδωρος·
+10 ὄχλον οὖν ἐπὶ θύραις ἰδὼν ὁ Δίων καὶ πλῆθος ἀσχολιῶν καὶ δυσέντευκτον αὐτὸν καὶ δυσπρόσοδον, ἀπιδὼν πρὸς τοὺς φίλους δυσχεραίνοντας καὶ ἀγανακτοῦντας, <!-- p.36 --> τί τοῦτον ἔφη, μεμφόμεθα; (1) καὶ γὰρ (2) αὐτοὶ πάντως ἐν Συρακούσαις ὅμοια τούτοις ἐποιοῦμεν.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol>
+<li><strong>τί τοῦτον ... μεμφόμεθα;</strong>: '¿Por qué lo reprobamos a él?' &gt; 'No deberíamos reprobarlo'.</li>
+<li><strong>γὰρ</strong>: Dion justifica sus palabras anteriores: '(lo digo) porque ...'.</li>
+</ol>
+</div>
 <h2 id="9-tercer-viaje-de-platon-a-silicia-361-ac">9. Tercer viaje de Platón a Silicia (361 a.C.)<a class="headerlink" href="#9-tercer-viaje-de-platon-a-silicia-361-ac" title="Permanent link">&para;</a></h2>
 <h3 id="91-los-celos-de-dionisio-ii">9.1. Los celos de Dionisio II<a class="headerlink" href="#91-los-celos-de-dionisio-ii" title="Permanent link">&para;</a></h3>
 <p>18.1 χρόνου δὲ προϊόντος ὁ Διονύσιος ζηλοτυπῶν καὶ δεδοικὼς τοῦ Δίωνος τὴν παρὰ τοῖς Ἕλλησιν εὔνοιαν, ἐπαύσατο τὰς προσόδους ἀποστέλλων καὶ τὴν οὐσίαν παρέδωκεν ἰδίοις ἐπιτρόποις.

@@ -206,6 +206,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sitename.example/Morfologia/Grammar_Homer/</loc>
+         <lastmod>2025-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sitename.example/Morfologia/Morfologia_Prueba/</loc>
          <lastmod>2025-03-11</lastmod>
          <changefreq>daily</changefreq>

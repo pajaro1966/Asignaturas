@@ -68,12 +68,24 @@
     3. **φρονήσει καὶ δικαιοσύνῃ δύναμιν ἐπὶ τὸ αὐτὸ καὶ τύχην συνελθεῖν**: 'A (nom.) se reúne (συνέρχομαι) con B (dat.) en el mismo lugar (ἐπὶ τὸ αὐτὸ)'.
     ```mermaid
     graph TB
-    
+    A("Discurso")-->B("Unidades anteriores")
+    A-->|"καὶ"|C("Unidad actual<br>y")
+    C-->|"Sujeto"|E("καὶ τὸ μὲν μαρτυρῆσαι  ... <br>el que atestigüen")
+    E-->|"Part<br>Pred-Suj"|E1("ὅμοια πολλὰ καὶ ἀδελφὰ πράξαντας<br>tras haber hecho muchas cosas semejantes y hermanas")
+    E-->|"OI"|E2("τῷ καθηγεμόνι τῆς ἀρετῆς<br>en favor del guía de la virtud")
+    E-->|"OD"|E3("ὅτι δεῖ<br>que es necesario")
+    E3-->|"Sujeto"|E31("συνελθεῖν<br>que se reúnan")
+    E31-->|"Compañía"|E311("φρονήσει καὶ δικαιοσύνῃ<br>junto con la sensatez y la justicia")
+    E31-->|"Sujeto"|E312("δύναμιν ... καὶ τύχην<br>el poder y la fortuna")
+    E31-->|"Dirección"|E313("ἐπὶ τὸ αὐτὸ<br>para la mismo")
+    E3-->|"Finalidad"|E32("ἵνα ... λάβωσιν<br>a fin de que alcancen")
+    E32-->|"OD"|E321("κάλλος ἅμα καὶ μέγεθος<br>belleza y grandeza")
+    E32-->|"Sujeto"|E322("αἱ πολιτικαὶ πράξεις<br>las acciones políticas")
+    C-->|"Neg"|F("οὐ<br>no")
+    C-->|"Atributo"|G("θαυμαστόν<br>sorprendente")
+    C-->|"Verbo"|D("ἐστιν<br>es")
     ```
 
-    ---
-
-    
 ---
 
 4 ὡς γὰρ (1) Ἱππόμαχος ο ἀλείπτης ἔλεγε τοὺς γεγυμνασμένους παρʼ αὐτῷ (4) καὶ (2) κρέας ἐξ ἀγορᾶς ἰδὼν φέροντας ἐπιγνῶναι πόρρωθεν, οὕτω τόν λόγον ἐστὶν εἰκὸς τῶν πεπαιδευμένων ὁμοίως (3) ἕπεσθαι ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν ἐπιφέροντα μετὰ τοῦ πρέποντος.
@@ -588,8 +600,6 @@
 
 3 οὐ γὰρ μόνον ἀνδρὶ (1) νέῳ καὶ διατεθρυμμένῳ (2) τὰ ὦτα (3) κολακείαις ἄχαρις ἦν συγγενέσθαι (4) καὶ προσάντης (5), πολλοὶ δὲ καὶ τῶν πάνυ χρωμένων (9) αὐτῷ καὶ τὴν ἁπλότητα καὶ τὸ γενναῖον ἀγαπώντων τοῦ τρόπου κατεμέμφοντο τῆς ὁμιλίας (6), ὡς (8) ἀγροικότερον καὶ βαρύτερον πολιτικῶν χρειῶν τοῖς δεομένοις συναλλάσσοντα (7).
 
-## EDICIÓN
-
 !!! note
     1. **ἀνδρὶ νέῳ καὶ διατεθρυμμένῳ**: el joven Dionisio II.
     2. **διατεθρυμμένῳ**: θρύπτω 'romper'.
@@ -642,26 +652,64 @@
 
 -->
 
+## EDICIÓN
+
 4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων (3) ἔγραψε πρὸς αὐτόν <!-- p.18 --> ἐξευλαβεῖσθαι (1) τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν (2).
 
 !!! note
     1. **ἔγραψε πρὸς αὐτόν .... ἐξευλαβεῖσθαι**: 'le pidió por escrito'. La completiva de infinitivo transpone al estilo indirecto tanto la fuerza ilocutiva declarativa como la imperativa.
     2. **ὡς ... συνοικοῦσαν**: razón aducida por Platón.
     3. **ὥσπερ ἀποθεσπίζων**: 'como dando un oráculo'. La conjunción ὥσπερ afecta al participio; se trata de una oración comparativa **truncada**: 'dijo como (diría) dando un oráculo'.
+    ```mermaid
+    graph TB
+    A("Oración compleja")-->B("Unidad anterior")-->B1("---")
+    A-->C("Oración subordinada relativa")
+    C-->|"Tema"|D("περὶ ὧν<br>(cosas) sobre las cuales")
+    C-->|"Sujeto"|E("καὶ Πλάτων<br>también Platón")
+    C-->|"Tiempo"|F("ὕστερον<br>después")
+    C-->|"Participio<br>Pred-Suj"|G("ὥσπερ ἀποθεσπίζων<br>como vaticinando")
+    C-->|"Verbo"|H("ἔγραψε<br>escribió")
+    C-->|"OI"|I("πρὸς αὐτόν<br>a él")
+    C-->|"OD"|J("ἐξευλαβεῖσθαι<br>que se precaviera")
+    J-->|"OD"|K("τὴν αὐθάδειαν<br>de la soberbia")
+    J-->|"Participio<br>Pred-OD"|L("ὡς ... συνοικοῦσαν<br>porque, según él, cohabitaba")
+    L-->|"Compañía"|M("ἐρημίᾳ<br>con la soledad")
+    ```
 
-<!--
--->
 
-!!! note "Traducción"
+<!-- !!! note "Traducción"
     | GRIEGO | ESPAÑOL |
     | --- | --- |
     | 4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων ἔγραψε πρὸς αὐτόν ἐξευλαβεῖσθαι τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν. | Cosas sobre las que también Platón  después, como si estuviera hablando proféticamente, le pidió por escrito que se precaviera de la soberbia porque, según él, era compañera de la soledad. |
+-->
 
-5 οὐ μὴν ἀλλὰ τότε πλείστου δοκῶν ἄξιος ὑπάρχειν διὰ τὰ πράγματα καὶ μόνος ἢ μάλιστα τὴν τυραννίδα σαλεύουσαν ἀνορθοῦν καὶ διαφυλάττειν, ἐγίνωσκεν (2) οὐ πρὸς χάριν (1), ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου πρῶτος ὢν (2) καὶ μέγιστος.
+5 οὐ μὴν ἀλλὰ (3) τότε πλείστου δοκῶν ἄξιος ὑπάρχειν διὰ τὰ πράγματα καὶ μόνος ἢ μάλιστα τὴν τυραννίδα σαλεύουσαν ἀνορθοῦν καὶ διαφυλάττειν, ἐγίνωσκεν (2) οὐ πρὸς χάριν (1), ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου πρῶτος ὢν (2) καὶ μέγιστος.
 
 !!! note
     1. **πρὸς χάριν, ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου**: 'no para favolecerlo, sino por la necesidad del tirano, a su pesar'.
     2. **ἐγίνωσκεν ... ὢν**: 'completiva' de participio: 'se daba cuenta de que era ...'.
+    3. **οὐ μὴν ἀλλά**: 'sin embargo'.
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidad anterior")
+    A-->C("οὐ μὴν ἀλλὰ<br>sin embargo")
+    A-->D("Unidad Posterior")
+    D-->D00("δοκῶν ... <br>pareciendo")
+    D00-->D0("τότε<br>entonces")
+    D00-->D1("ὑπάρχειν<br>que era")
+    D1-->D11("ἄξιος<br>digno")-->D111("πλείστου<br>de más ‹que nadie›")
+    D11-->D112("διὰ τὰ πράγματα<br>debido a las circunstancias")
+    D1-->D12("καὶ μόνος ἢ μάλιστα<br>y el único o el que más")
+    D12-->D121("ἀνορθοῦν καὶ διαφυλάττειν<br>para enderezar y mantener a salvo")-->D1211("τὴν τυραννίδα<br>la tiranía")
+    D121-->D1212("σαλεύουσαν<br>porque estaba agitada")
+    D-->E("ἐγίνωσκεν<br>sabía ‹que›")
+    F-->E1("Causa")
+    E1-->E11("οὐ πρὸς χάριν<br>no para favorecerlo")
+    E1-->E12("ἀλλʼ ὑπὸ χρείας<br>sino por necesidad")-->E121("Genitivo absoluto")
+    E121-->E1211("ἄκοντος<br>sin quererlo")
+    E121-->E1212("τοῦ τυράννου<br>el tirano")
+    E-->F("ὢν<br>era")-->F1("πρῶτος ... καὶ μέγιστος<br>el primero y más importante")
+    ```
 
 ### 6.4. El legado de Dionisio I: padre sobreprotector y tiranía suspicaz
 
@@ -1300,7 +1348,7 @@
 
 !!! note
     1. ᾗ: ?
-    2. «**σκῶψαι ἀγαθὸν**»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso). 
+    2. «**σκῶψαι ἀγαθὸν**»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso).
 
 5 αὐτῷ δὲ Πλάτωνι χορηγοῦντι παίδων χορῷ τόν τε χορὸν ἤσκησεν ὁ Δίων καὶ τὸ δαπάνημα πᾶν ἐτέλεσε παρʼ ἑαυτοῦ, συγχωροῦντος τοῦ Πλάτωνος τὴν τοιαύτην φιλοτιμίαν πρὸς τοὺς Ἀθηναίους, ὡς ἐκείνῳ μᾶλλον εὔνοιαν ἢ δόξαν αὐτῷ φέρουσαν.
 

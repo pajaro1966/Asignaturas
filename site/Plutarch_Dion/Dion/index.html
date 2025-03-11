@@ -4185,9 +4185,23 @@ D--&gt;|"Dirección"|D5("ἐπὶ τοὺς μεγίστους ἀγῶνας.&l
 <li><strong>τῷ καθηγεμόνι τῆς ἀρετῆς</strong>: Platón era 'el guía' de ambos.</li>
 <li><strong>φρονήσει καὶ δικαιοσύνῃ δύναμιν ἐπὶ τὸ αὐτὸ καὶ τύχην συνελθεῖν</strong>: 'A (nom.) se reúne (συνέρχομαι) con B (dat.) en el mismo lugar (ἐπὶ τὸ αὐτὸ)'.
 <pre class="mermaid"><code>graph TB
-</code></pre></li>
+A("Discurso")--&gt;B("Unidades anteriores")
+A--&gt;|"καὶ"|C("Unidad actual&lt;br&gt;y")
+C--&gt;|"Sujeto"|E("καὶ τὸ μὲν μαρτυρῆσαι  ... &lt;br&gt;el que atestigüen")
+E--&gt;|"Part&lt;br&gt;Pred-Suj"|E1("ὅμοια πολλὰ καὶ ἀδελφὰ πράξαντας&lt;br&gt;tras haber hecho muchas cosas semejantes y hermanas")
+E--&gt;|"OI"|E2("τῷ καθηγεμόνι τῆς ἀρετῆς&lt;br&gt;en favor del guía de la virtud")
+E--&gt;|"OD"|E3("ὅτι δεῖ&lt;br&gt;que es necesario")
+E3--&gt;|"Sujeto"|E31("συνελθεῖν&lt;br&gt;que se reúnan")
+E31--&gt;|"Compañía"|E311("φρονήσει καὶ δικαιοσύνῃ&lt;br&gt;junto con la sensatez y la justicia")
+E31--&gt;|"Sujeto"|E312("δύναμιν ... καὶ τύχην&lt;br&gt;el poder y la fortuna")
+E31--&gt;|"Dirección"|E313("ἐπὶ τὸ αὐτὸ&lt;br&gt;para la mismo")
+E3--&gt;|"Finalidad"|E32("ἵνα ... λάβωσιν&lt;br&gt;a fin de que alcancen")
+E32--&gt;|"OD"|E321("κάλλος ἅμα καὶ μέγεθος&lt;br&gt;belleza y grandeza")
+E32--&gt;|"Sujeto"|E322("αἱ πολιτικαὶ πράξεις&lt;br&gt;las acciones políticas")
+C--&gt;|"Neg"|F("οὐ&lt;br&gt;no")
+C--&gt;|"Atributo"|G("θαυμαστόν&lt;br&gt;sorprendente")
+C--&gt;|"Verbo"|D("ἐστιν&lt;br&gt;es")</code></pre></li>
 </ol>
-<hr />
 </div>
 <hr />
 <p>4 ὡς γὰρ (1) Ἱππόμαχος ο ἀλείπτης ἔλεγε τοὺς γεγυμνασμένους παρʼ αὐτῷ (4) καὶ (2) κρέας ἐξ ἀγορᾶς ἰδὼν φέροντας ἐπιγνῶναι πόρρωθεν, οὕτω τόν λόγον ἐστὶν εἰκὸς τῶν πεπαιδευμένων ὁμοίως (3) ἕπεσθαι ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν ἐπιφέροντα μετὰ τοῦ πρέποντος.</p>
@@ -4743,7 +4757,6 @@ C71--&gt;C711("ἐντεύξει&lt;br&gt;para las relaciones")</code></pre></li
 </ol>
 </div>
 <p>3 οὐ γὰρ μόνον ἀνδρὶ (1) νέῳ καὶ διατεθρυμμένῳ (2) τὰ ὦτα (3) κολακείαις ἄχαρις ἦν συγγενέσθαι (4) καὶ προσάντης (5), πολλοὶ δὲ καὶ τῶν πάνυ χρωμένων (9) αὐτῷ καὶ τὴν ἁπλότητα καὶ τὸ γενναῖον ἀγαπώντων τοῦ τρόπου κατεμέμφοντο τῆς ὁμιλίας (6), ὡς (8) ἀγροικότερον καὶ βαρύτερον πολιτικῶν χρειῶν τοῖς δεομένοις συναλλάσσοντα (7).</p>
-<h2 id="edicion">EDICIÓN<a class="headerlink" href="#edicion" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
@@ -4797,41 +4810,61 @@ D52--&gt;D521("πολιτικῶν χρειῶν&lt;br&gt;sus servicios polític
 
 -->
 
+<h2 id="edicion">EDICIÓN<a class="headerlink" href="#edicion" title="Permanent link">&para;</a></h2>
 <p>4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων (3) ἔγραψε πρὸς αὐτόν <!-- p.18 --> ἐξευλαβεῖσθαι (1) τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν (2).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
 <li><strong>ἔγραψε πρὸς αὐτόν .... ἐξευλαβεῖσθαι</strong>: 'le pidió por escrito'. La completiva de infinitivo transpone al estilo indirecto tanto la fuerza ilocutiva declarativa como la imperativa.</li>
 <li><strong>ὡς ... συνοικοῦσαν</strong>: razón aducida por Platón.</li>
-<li><strong>ὥσπερ ἀποθεσπίζων</strong>: 'como dando un oráculo'. La conjunción ὥσπερ afecta al participio; se trata de una oración comparativa <strong>truncada</strong>: 'dijo como (diría) dando un oráculo'.</li>
+<li><strong>ὥσπερ ἀποθεσπίζων</strong>: 'como dando un oráculo'. La conjunción ὥσπερ afecta al participio; se trata de una oración comparativa <strong>truncada</strong>: 'dijo como (diría) dando un oráculo'.
+<pre class="mermaid"><code>graph TB
+A("Oración compleja")--&gt;B("Unidad anterior")--&gt;B1("---")
+A--&gt;C("Oración subordinada relativa")
+C--&gt;|"Tema"|D("περὶ ὧν&lt;br&gt;(cosas) sobre las cuales")
+C--&gt;|"Sujeto"|E("καὶ Πλάτων&lt;br&gt;también Platón")
+C--&gt;|"Tiempo"|F("ὕστερον&lt;br&gt;después")
+C--&gt;|"Participio&lt;br&gt;Pred-Suj"|G("ὥσπερ ἀποθεσπίζων&lt;br&gt;como vaticinando")
+C--&gt;|"Verbo"|H("ἔγραψε&lt;br&gt;escribió")
+C--&gt;|"OI"|I("πρὸς αὐτόν&lt;br&gt;a él")
+C--&gt;|"OD"|J("ἐξευλαβεῖσθαι&lt;br&gt;que se precaviera")
+J--&gt;|"OD"|K("τὴν αὐθάδειαν&lt;br&gt;de la soberbia")
+J--&gt;|"Participio&lt;br&gt;Pred-OD"|L("ὡς ... συνοικοῦσαν&lt;br&gt;porque, según él, cohabitaba")
+L--&gt;|"Compañía"|M("ἐρημίᾳ&lt;br&gt;con la soledad")</code></pre></li>
 </ol>
 </div>
-<!--
+<!-- !!! note "Traducción"
+    | GRIEGO | ESPAÑOL |
+    | --- | --- |
+    | 4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων ἔγραψε πρὸς αὐτόν ἐξευλαβεῖσθαι τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν. | Cosas sobre las que también Platón  después, como si estuviera hablando proféticamente, le pidió por escrito que se precaviera de la soberbia porque, según él, era compañera de la soledad. |
 -->
 
-<div class="admonition note">
-<p class="admonition-title">Traducción</p>
-<table>
-<thead>
-<tr>
-<th>GRIEGO</th>
-<th>ESPAÑOL</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων ἔγραψε πρὸς αὐτόν ἐξευλαβεῖσθαι τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν.</td>
-<td>Cosas sobre las que también Platón  después, como si estuviera hablando proféticamente, le pidió por escrito que se precaviera de la soberbia porque, según él, era compañera de la soledad.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>5 οὐ μὴν ἀλλὰ τότε πλείστου δοκῶν ἄξιος ὑπάρχειν διὰ τὰ πράγματα καὶ μόνος ἢ μάλιστα τὴν τυραννίδα σαλεύουσαν ἀνορθοῦν καὶ διαφυλάττειν, ἐγίνωσκεν (2) οὐ πρὸς χάριν (1), ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου πρῶτος ὢν (2) καὶ μέγιστος.</p>
+<p>5 οὐ μὴν ἀλλὰ (3) τότε πλείστου δοκῶν ἄξιος ὑπάρχειν διὰ τὰ πράγματα καὶ μόνος ἢ μάλιστα τὴν τυραννίδα σαλεύουσαν ἀνορθοῦν καὶ διαφυλάττειν, ἐγίνωσκεν (2) οὐ πρὸς χάριν (1), ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου πρῶτος ὢν (2) καὶ μέγιστος.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
 <li><strong>πρὸς χάριν, ἀλλʼ ἄκοντος ὑπὸ χρείας τοῦ τυράννου</strong>: 'no para favolecerlo, sino por la necesidad del tirano, a su pesar'.</li>
 <li><strong>ἐγίνωσκεν ... ὢν</strong>: 'completiva' de participio: 'se daba cuenta de que era ...'.</li>
+<li><strong>οὐ μὴν ἀλλά</strong>: 'sin embargo'.
+<pre class="mermaid"><code>graph TB
+A("Discurso")--&gt;B("Unidad anterior")
+A--&gt;C("οὐ μὴν ἀλλὰ&lt;br&gt;sin embargo")
+A--&gt;D("Unidad Posterior")
+D--&gt;D00("δοκῶν ... &lt;br&gt;pareciendo")
+D00--&gt;D0("τότε&lt;br&gt;entonces")
+D00--&gt;D1("ὑπάρχειν&lt;br&gt;que era")
+D1--&gt;D11("ἄξιος&lt;br&gt;digno")--&gt;D111("πλείστου&lt;br&gt;de más ‹que nadie›")
+D11--&gt;D112("διὰ τὰ πράγματα&lt;br&gt;debido a las circunstancias")
+D1--&gt;D12("καὶ μόνος ἢ μάλιστα&lt;br&gt;y el único o el que más")
+D12--&gt;D121("ἀνορθοῦν καὶ διαφυλάττειν&lt;br&gt;para enderezar y mantener a salvo")--&gt;D1211("τὴν τυραννίδα&lt;br&gt;la tiranía")
+D121--&gt;D1212("σαλεύουσαν&lt;br&gt;porque estaba agitada")
+D--&gt;E("ἐγίνωσκεν&lt;br&gt;sabía ‹que›")
+F--&gt;E1("Causa")
+E1--&gt;E11("οὐ πρὸς χάριν&lt;br&gt;no para favorecerlo")
+E1--&gt;E12("ἀλλʼ ὑπὸ χρείας&lt;br&gt;sino por necesidad")--&gt;E121("Genitivo absoluto")
+E121--&gt;E1211("ἄκοντος&lt;br&gt;sin quererlo")
+E121--&gt;E1212("τοῦ τυράννου&lt;br&gt;el tirano")
+E--&gt;F("ὢν&lt;br&gt;era")--&gt;F1("πρῶτος ... καὶ μέγιστος&lt;br&gt;el primero y más importante")</code></pre></li>
 </ol>
 </div>
 <h3 id="64-el-legado-de-dionisio-i-padre-sobreprotector-y-tirania-suspicaz">6.4. El legado de Dionisio I: padre sobreprotector y tiranía suspicaz<a class="headerlink" href="#64-el-legado-de-dionisio-i-padre-sobreprotector-y-tirania-suspicaz" title="Permanent link">&para;</a></h3>
@@ -5513,7 +5546,7 @@ B--&gt;D1("τοῦ Δίωνος τὸ ἦθος&lt;br&gt;el carácter de Dion")<
 <p class="admonition-title">Note</p>
 <ol>
 <li>ᾗ: ?</li>
-<li>«<strong>σκῶψαι ἀγαθὸν</strong>»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso). </li>
+<li>«<strong>σκῶψαι ἀγαθὸν</strong>»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso).</li>
 </ol>
 </div>
 <p>5 αὐτῷ δὲ Πλάτωνι χορηγοῦντι παίδων χορῷ τόν τε χορὸν ἤσκησεν ὁ Δίων καὶ τὸ δαπάνημα πᾶν ἐτέλεσε παρʼ ἑαυτοῦ, συγχωροῦντος τοῦ Πλάτωνος τὴν τοιαύτην φιλοτιμίαν πρὸς τοὺς Ἀθηναίους, ὡς ἐκείνῳ μᾶλλον εὔνοιαν ἢ δόξαν αὐτῷ φέρουσαν.</p>

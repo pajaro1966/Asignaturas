@@ -7,3 +7,10 @@
     overflow: scroll;
   }
   
+  /* TAMAÑO DE FUENTE DEL CUERPO DE PÁGINA MARKDOWN */
+  
+  article {
+    font-size: 34px !important;
+  }
+
+  details, article table {font-size: 34px !important;}

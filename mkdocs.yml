@@ -41,6 +41,9 @@ nav:
         - 'Ilíada': 'Comentarios/Homer_Seymour.md'
         - 'Odisea': 'Comentarios/Homer_Merry_Monro.md'
       - 'Geografía': 'geografia.md'
+      - 'Gramática breve': 
+        - PDF: 'Morfologia/Homero_Lengua.pdf'
+        - Web: 'Morfologia/Grammar_Homer.md'
       - 'Métrica': 'metric_Homer.md'
       - 'Nombres y epítetos': 'nombres_Homer.md'
       - 'Notas': 'notas.md'

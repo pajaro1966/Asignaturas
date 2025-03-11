@@ -685,8 +685,6 @@
     - (119) **ἔοικε**: "está bien", "es decoroso".
     - **ἀγέραστος**: γέρας, αος 'regalo de honor' > ἀ-γέρασ-τος 'sin regalos de honor': esp. cabeza > des-cabeza-do.
 
-## EDICIÓN
-
 !!! note "(120) λεύσσετε γὰρ τό γε πάντες ὅ μοι γέρας ἔρχεται ἄλλῃ.»"
     - (120) **τό**: pronominal, anunciando ὅ.
     - (120) **ἄλλη**: adv. "por otro camino".
@@ -726,7 +724,7 @@
 !!! note "(123) πῶς γάρ τοι δώσουσι γέρας μεγάθυμοι Ἀχαιοί;"
 
 !!! note "(124) οὐδέ τί που ἴδμεν ξυνήϊα κείμενα πολλά·"
-    - (124) **ἴδμεν**: [οἶδα](notas.md#o4):  ἴδ-μεν >  ἴσ-μεν. Completiva de participio: BA §347
+    - (124) **ἴδμεν**: [οἶδα](notas.md#o4):  ἴδ-μεν >  ἴσ-μεν. Completiva de participio: BA §347.
     - (124) **τί**: indefinido, acus. adv. para suavizar la expresión.
     - (124) **που**: adv. de lugar; el botín sin repartir es todavía propiedad común y está amontonado en el suelo.
     ```mermaid
@@ -735,8 +733,8 @@
     A-->B("οὐδέ<br>ni")
     A-->|"Intensidad"|C("τί<br>para nada")
     A-->|"Verbo"|E("ἴδμεν<br>sabemos")
-    A-->|"OD"|F("ξυνήϊα ... πολλά<br>muchos objetos comunes")
-    A-->|"Pred-OD"|G("κείμενα<br>existentes")
+    A-->|"OD<br>Ac"|F("ξυνήϊα ... πολλά<br>muchos objetos comunes")
+    A-->|"Participio<br>Pred-OD<br>Ac"|G("κείμενα<br>existentes")
     G-->|"Lugar"|D("που<br>en algún lugar")
         
     H("Oración")
@@ -744,9 +742,9 @@
     H-->|"Intensidad"|J("τί<br>para nada")
     H-->|"Verbo"|L("ἴδμεν<br>sabemos")
     H-->|"OD"|M("Completiva")
-    M--> N("ὅτι/ὡς<br>que")
-    M-->|"Sujeto"|O("ξυνήϊα ... πολλά<br>muchos objetos comunes")
-    M-->|"Verbo"|Q("κεῖνται<br>existentan")
+    M-->|"Conj"|N("ὅτι/ὡς<br>que")
+    M-->|"Sujeto<br>Nom"|O("ξυνήϊα ... πολλά<br>muchos objetos comunes")
+    M-->|"Verbo"|Q("κεῖται<br>existen")
     M-->|"Lugar"|K("που<br>en algún lugar")
     
     F:::SN
@@ -756,23 +754,54 @@
     Q:::VERB
     D:::ADV
     K:::ADV
-    
+    M:::SUB
     classDef SN fill:orange
     classDef VERB fill:lightblue
     classDef CONJ fill:lightgreen
     classDef ADV fill:lightyellow
+    classDef SUB fill:lightgray
+    ```
+    ```mermaid
+    graph TB
+    A-->|"Sujeto<br>Nom"|0("ἐγὼ<br>yo")
+    A-->|"Verbo"|C("ὁρῶ<br>veo")
+    A("Oración<br>Te veo correr")-->|"CD<br>Ac"|B("σε<br>te/a ti")
+    A-->|"Verbo<br>Participio<br>Pred-Ac"|D("τρέχοντα<br>correr")
+    
+    E-->|"Sujeto<br>Nom"|1("ἐγὼ<br>yo")
+    E("Oración<br>Veo que tú corres")-->|"verbo"|F("ὁρῶ<br>veo")
+    E-->|"CD"|G("Completiva")
+    G-->|"Conj"|H("ὅτι/ὡς<br>que")
+    G-->|"Sujeto<br>Nom"|I("σὺ<br>tú")
+    G-->|"Verbo"|J("τρέχεις<br>corres")
+
+    B:::SN
+    I:::SN
+    D:::VERB
+    J:::VERB
+    H:::CONJ
+    G:::SUB
+
+    classDef SN fill:orange
+    classDef VERB fill:lightblue
+    classDef CONJ fill:lightgreen
+    classDef ADV fill:lightyellow
+    classDef SUB fill:lightgray
 
     ```
-  που ἴδμεν ξυνήϊα κείμενα πολλά
+
+## EDICIÓN
 
 !!! note "(125) ἀλλὰ τὰ μὲν πολίων ἐξεπράθομεν, τὰ δέδασται,"
-    - (125) **τὰ (relativo)... τὰ (demostrativo)**: "las cosas que hemos obtenido de las ciudades al saquearlas, esas cosas..,".
+    - (125) **τὰ** (relativo)... **τὰ** (demostrativo) ... : "**las cosas que** hemos obtenido de las ciudades al saquearlas, **esas cosas**..,".
     - (125) **πολίων**: [temas en -i](notas.md#i8)
     - ἐξεπράθομεν: ἐκ-πέρθ-ω πέρ-σω ἔ-πρᾰθ-ον
     - (125) **τὰ**: [ὁ, ἡ, τό](notas.md#l4).
+    - **δέδασται**: δατ-έ-ο-μαι δε-δατ-ται > δέ-δασ-ται.
 
 !!! note "(126) λαοὺς δ' οὐκ ἐπέοικε παλίλλογα ταῦτ' ἐπαγείρειν."
     - (126) **παλίλλογα**: predicado, "recogiéndolas de nuevo": πάλιν 'hacia atrás' + λέγω 'reunir'.
+    - λαοὺς: ac. sujeto de ἐπαγείρειν.
 
 !!! note "(127) ἀλλὰ σὺ μὲν νῦν τῆνδε θεῷ πρόες· αὐτὰρ Ἀχαιοὶ"
     - (127) **τήνδε**: Criseida.
@@ -786,6 +815,7 @@
 
 !!! note "(129) δῷσι πόλιν Τροίην εὐτείχεον ἐξαλαπάξαι."
     - (129) **δῷσι**: [subjuntivo](notas.md#o39)
+    - (129) **ἐξαλαπάξαι**: ἐξ-αλαπάζω 'saquear, asaltar', ἐξ-αλάπαγ-σαι.
 
 ---
 

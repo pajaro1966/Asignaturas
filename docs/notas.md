@@ -400,9 +400,11 @@ Algunos temas en -r, neutros, han formado su flexión con ayuda de otro tema en 
 
 Los temas en -ρ, nombres de parentesco, tienen con frecuencia un grado vocálico distinto del del ático ἀνέρες, μητέρι.
 
-### i8 Temas en i
+### i8 Temas en i {#i8}
 
 En los temas en -i Homero ofrece un solo tipo con elemento predesinencial en grado cero y unido directamente a las desinencias: ὕβριος, πολίων. El ac. πόλεις (IX 328) debe ser un aticismo de la tradición manuscrita. Para el dat. de sing. en -ῑ cf. [b8](notas#b8-contracción).
+
+![πόλις](Morfologia/Polis.png)
 
 ### i9 Sustantivos en -ευς {#i9}
 

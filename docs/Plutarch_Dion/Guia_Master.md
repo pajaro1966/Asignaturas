@@ -1,4 +1,4 @@
-# Guía para el MESOB
+# Guía para el máster
 
 ## 1. Traducción de textos
 
@@ -55,4 +55,16 @@ Diccionario gramatical:
 
 ## 7. Tareas
 
-1. Leer en español la obra de Plutarco.
+1. Leer en español la obra de Plutarco. Es necesario leerla al menos dos o tres veces.
+2. Traducir todos los días.
+3. Revisar las ediciones para comprobar en qué puntos difieren de la versión digital.
+4. Revisar las traducciones para comprobar posibles discrepancias e interpretaciones.
+5. Revisar la morfología.
+6. Revisar la formación de palabras.
+7. Revisar sintaxis.
+8. Comparar con otras obras:
+    1. Platón: cartas (7ª).
+    2. Platón: República (descripción de la tiranía).
+    3. Nepote: Dion.
+    4. Diodoro Sículo.
+9.  Sacar un listado de los nombres propios.

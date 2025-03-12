@@ -93,8 +93,49 @@
 !!! note "Notas"
     1. **γὰρ**: esta partícula introduce secciones que explican lo dicho anteriormente; por ejemplo, elaboran, ejemplifican, amplían, etc. lo previamente expuesto.
     2. **καὶ ... ἰδὼν φέροντας**: 'incluso viéndolos'/'viéndolos incluso traer ...' > 'simplemente con verlos traer ...'
-    3. **τῶν πεπαιδευμένων ὁμοίως**: 'educados de la misma manera', es decir, en las enseñanzas de Platón.
-    4. **τοὺς γεγυμνασμένους παρʼ αὐτῷ**: 'los adiestrados junto a él': 'junto a él' > 'en su gimnasio' > 'por él'.
+    3. **ἰδὼν**: participio en nominativo, porque, aunque está dentro de la completiva de infinitivo, el sujeto de la principal y de esta es el mismo. En estos casos el participio predicativo puede concertar con el nominativo sujeto de la principal (ἰδὼν) o con el acusativo sujeto del infinitivo (ἰδόντα).
+    4. **τῶν πεπαιδευμένων ὁμοίως**: 'educados de la misma manera', es decir, en las enseñanzas de Platón.
+    5. **τοὺς γεγυμνασμένους παρʼ αὐτῷ**: 'los adiestrados junto a él': 'junto a él' > 'en su gimnasio' > 'por él'.
+    ```mermaid
+    graph TB
+    A("Discurso")
+
+    A-->B--->B1("...")
+
+    A-->|"γὰρ"|C("Oración compuesta")
+        
+    C-->|"ὡς"|D("Subordinada comparativa")
+    subgraph SUBORDINADA
+    D-->|"Conj"|E("ὡς<br>como")
+    D-->|"Suj"|F("Ἱππόμαχος ο ἀλείπτης<br>Hipómaco el maestro de gimnasia")
+    D-->|"Verbo"|G("ἔλεγε<br>decía")
+    D-->|"OD"|H("Completiva<br>que")
+    H-->|"OD"|I("<b>τοὺς γεγυμνασμένους</b><br>a los adiestrados")-->|"Lugar"|I1("παρʼ αὐτῷ<br>junto a él")
+    H-->|"Part<br>Pred-Suj"|J("... ἰδὼν ...<br>al ver-")
+    J-->|"OD"|J1("ø<br>-<b>los</b>")
+    J-->|"Part<br>Pred-OD"|J2("καὶ ... φέροντας<br>incluso trayendo")
+    J2-->|"OD"|J21("κρέας<br>carne")
+    J2-->|"Origen"|J22("ἐξ ἀγορᾶς<br>del mercado")
+    H-->|"Verbo"|K("ἐπιγνῶναι<br>‹<b>los</b>› reconocía")
+    H-->|"Origen"|L("πόρρωθεν<br>desde lejos")
+
+    end 
+    
+    C-->|"οὕτω"|M("Oración principal")
+    subgraph PRINCIPAL
+    M-->|"Manera"|N("οὕτω<br>asimismo")
+    M-->|"Verbo"|O("ἐστὶν<br>es")
+    M-->|"Atributo"|P("εἰκὸς<br>lógico")
+    M-->|"Sujeto"|Q("Completiva<br>que")
+    Q-->|"Sujeto"|R("τόν λόγον<br>el pensamiento")-->|"Participio"|R1("τῶν πεπαιδευμένων<br>de los educados")-->|"Manera"|R11("ὁμοίως<br>de la misma manera")
+    Q-->|"Verbo"|S("ἕπεσθαι<br>siga")
+    Q-->|"2ºArg"|T("ταῖς πράξεσιν<br>a sus actos")
+    Q-->|"Part<br>Pred-Suj"|U("ἐπιφέροντα<br>aportando")
+    U-->|"OD"|U1("ἐμμέλειάν τινα καὶ ῥυθμὸν<br>cierta armonía y ritmo")
+    U-->|"Compañía"|U2("μετὰ τοῦ πρέποντος<br>junto con el sentido de lo debido")
+    
+    end
+    ```
 
 ### 3.2. Fortunas comunes: ¿malos espíritus?
 
@@ -110,11 +151,53 @@
     1. **γάρ**: explicativo.
     2. προανῃρέθησαν ... τοῦ τέλους: 'fueron levantados (ἀνῃρέθησαν, quitados de en medio > asesinados) antes (προ-) del fin/propósito (τοῦ τέλους)'.
     3. **τοῦ τέλους, εἰς ὃ προὔθεντο τὰς πράξεις ἐκ πολλῶν καὶ μεγάλων ἀγώνων καταθέσθαι μὴ δυνηθέντες**: 'antes del propósito (τοῦ τέλους), al que (εἰς ὃ) se habían propuesto (προὔθεντο) sus acciones (τὰς πράξεις) después de muchas y grandes hazañas (ἐκ πολλῶν καὶ μεγάλων ἀγώνων) emplear/dedicar (καταθέσθαι) no pudiendo (μὴ δυνηθέντες).
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")-->B1("...")
+    A-->C("Oración")
+    C-->|"Verbo"|D("προανῃρέθησαν<br>fueron pre-eliminados")
+    C-->|"Sujeto"|E("ἀμφότεροι<br>ambos")
+    C-->|"Tiempo"|F("τοῦ τέλους<br>‹antes del› objetivo")
+    C-->G("Subordinada relativa")
+    G-->|"Dirección"|J
+    G-->|"Verbo"|H("προὔθεντο<br>se habían propuesto")
+    H-->I("Completiva")
+    I-->|"Dirección"|J("εἰς ὃ<br>al que")
+    I-->|"OD"|K("τὰς πράξεις<br>las acciones")
+    I-->|"Tiempo"|L("ἐκ πολλῶν καὶ μεγάλων ἀγώνων<br>después de muchos y grandes combates")
+    I-->|"Verbo"|M("καταθέσθαι<br>dedicar")
+    C-->|"Part<br>Pred-Suj"|N("μὴ δυνηθέντες<br>no pudiendo ‹lograrlo›")---->|"Tiempo"|L
+    ```
 
 3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.
 
 !!! note
     1. **ὃ δὲ πάντων θαυμασιώτατον, ὅτι ...**: 'Y lo más sorprendente de todo, (que) ...'. Es una colocación frecuente. Es un falso relativo (ὃ) más un adjetivo (normalmente en grado superlativo) que lo califica (θαυμασιώτατον) que se refiere al fragmento siguiente presentado mediante una completiva (ὅτι): 'Y lo (que es) más X (es) que ...'.
+    ```mermaid
+    graph TB
+        A("Discurso")-->B("Unidades anteriores")--->B1("...")
+    A-->|"δὲ"|C("Oración")
+    C-->D("Relativa")
+    D-->|"Sujeto"|E("ὃ<br>lo que")
+    D-->|"Verbo"|G("ø<br>‹es›")
+    D-->|"Atributo"|F("θαυμασιώτατον<br>lo más sorprendente")-->|"Compl-Adj"|F1("πάντων<br>de todo")
+    C--->|"Verbo"|H("ø<br>‹es›")
+    C-->|"Atributo"|I("Completiva")
+    I-->|"Conjunción"|J("ὅτι<br>que")
+    I-->|"Sujeto"|K("καὶ τὸ δαιμόνιον<br>incluso el demon")
+    I-->|"OI"|L("ἀμφοτέροις<br>a ambos")
+    I-->|"Verbo"|M("ὑπεδήλωσε<br>indicó")
+    I-->|"OD"|N("τὴν τελευτήν<br>el final")
+    I--->|"Circunstancia"|O("Genitivo absoluto")
+    O-->|"Manera"|P("ὁμοίως<br>de la misma manera")
+    O-->|"OI"|Q("ἑκατέρῳ<br>a cada uno")
+    O-->|"Sujeto"|R("φάσματος<br>una aparición")
+    O-->|"Dirección"|S("εἰς ὄψιν<br>a la vista")
+    O-->|"Predicativo<br>Suj"|T("οὐκ εὐμενοῦς<br>no favorable")
+    O-->|"Verbo"|U("παραγενομένου<br>presentándose")
+    ```
+
+## EDICIÓN
 
 4 καίτοι λόγος (1) τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν (2) νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια (3) καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.
 
@@ -122,6 +205,29 @@
     1. **λόγος τίς ἐστι τῶν ἀναιρούντων ... προσπεσεῖν**: 'existe (ἐστι) cierto razonamiento (λόγος τίς) por parte de quienes eliminan/descartan tales cosas (τῶν ἀναιρούντων τὰ τοιαῦτα) de que no se le presentaría (προσπεσεῖν)'.
     2. **μηδενὶ ἂν νοῦν ἔχοντι προσπεσεῖν**: la partícula ἄν indica que hay una relación entre el participio y el infinitivo irreal: 'a nadie que tuviera mente/estuviera en su sano juicio se le aparecería'.
     3. **παιδάρια καὶ γύναια**: παῖς/παιδ-ός  + άριον 'niñito'; γυνή + ιον > γύναιον 'mujercita': diminutivo afectivo/despectivo.
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")---->B1("...")
+    A-->|"καίτοι"|C("Oración")
+    C-->|"Atributo"|D("λόγος τίς<br>un argumento")-->|"CN<br>Part-Sust"|D1("τῶν ἀναιρούντων<br>de los que descartan")-->|"OD"|D11("τὰ τοιαῦτα<br>este tipo de cosas")
+    C-->|"Verbo"|E("ἐστι<br>es")--->E1("...")
+    C-->|"Sujeto"|F("Completiva<br>que")
+    F-->|"Sujeto"|F1("Completiva1")
+    F1-->|"OI"|G("μηδενὶ ... ἔχοντι<br>a nadie que tenga")-->|"OD"|G1("νοῦν<br>juicio")
+    F1-->|"Verbo"|H("ἂν  προσπεσεῖν<br>se le presentaría")
+    F1-->|"Sujeto"|I("φάντασμα δαίμονος μηδὲ εἴδωλον<br>una aparición de un demon ni una imagen")
+    F-->|"ἀλλὰ<br>sino que"|F2("Completiva2")
+    F2-->J("Sujeto")
+    J-->J1("παιδάρια<br>niñitos")
+    J-->J2("καὶ γύναια<br>y mujercitas")
+    J-->J3("καὶ ... ἀνθρώπους<br>y personas")-->|"Adj"|J31("παραφόρους<br>fuera de sí")-->|"Causa"|J311("δι' ἀσθένειαν<br>por una enfermedad")
+    F2-->|"Partic<br>Pred-Suj"|K("γενομένους<br>cuando se encuentran")-->|"Lugar"|K1("ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος<br>en un estado de desvarío del alma o destemplanza del cuerpo")
+    F2-->|"Verbo"|L("ἐφέλκεσθαι<br>sacan")
+    F2-->|"OD"|M("δόξας ... κενὰς καὶ ἀλλοκότους<br>opiniones infundadas y extrañas")
+    F2-->|"Particip<br>Pred-Suj"|N("ἔχοντας<br>porque tienen")
+    N-->|"OD"|O("δαίμονα πονηρὸν<br>un demon malvado")-->|"Aposición"|Q("τὴν δεισιδαιμονίαν<br>la superstición")
+    N-->|"Lugar"|P("ἐν αὑτοῖς<br>en sí mismos")
+    ```
 
 5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ (2) τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ (1) διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.
 

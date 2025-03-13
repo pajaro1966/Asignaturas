@@ -1108,9 +1108,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicion" class="md-nav__link">
+  <a href="#edicion1" class="md-nav__link">
     <span class="md-ellipsis">
-      EDICIÓN
+      EDICIÓN1
     </span>
   </a>
   
@@ -1216,7 +1216,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicion_1" class="md-nav__link">
+  <a href="#edicion" class="md-nav__link">
     <span class="md-ellipsis">
       EDICIÓN
     </span>
@@ -3432,9 +3432,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicion" class="md-nav__link">
+  <a href="#edicion1" class="md-nav__link">
     <span class="md-ellipsis">
-      EDICIÓN
+      EDICIÓN1
     </span>
   </a>
   
@@ -3540,7 +3540,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#edicion_1" class="md-nav__link">
+  <a href="#edicion" class="md-nav__link">
     <span class="md-ellipsis">
       EDICIÓN
     </span>
@@ -4367,14 +4367,12 @@ C--&gt;J("&lt;b&gt;ἐστιν&lt;/b&gt;")</code></pre></li>
 <li><strong>καὶ ... ἰδὼν φέροντας</strong>: 'incluso viéndolos'/'viéndolos incluso traer ...' &gt; 'simplemente con verlos traer ...'</li>
 <li><strong>ἰδὼν</strong>: participio en nominativo, porque, aunque está dentro de la completiva de infinitivo, el sujeto de la principal y de esta es el mismo. En estos casos el participio predicativo puede concertar con el nominativo sujeto de la principal (ἰδὼν) o con el acusativo sujeto del infinitivo (ἰδόντα).</li>
 <li><strong>τῶν πεπαιδευμένων ὁμοίως</strong>: 'educados de la misma manera', es decir, en las enseñanzas de Platón.</li>
-<li><strong>τοὺς γεγυμνασμένους παρʼ αὐτῷ</strong>: 'los adiestrados junto a él': 'junto a él' &gt; 'en su gimnasio' &gt; 'por él'.
+<li><strong>τοὺς γεγυμνασμένους παρʼ αὐτῷ</strong>: 'los adiestrados junto a él': 'junto a él' &gt; 'en su gimnasio' &gt; 'por él'.</li>
+<li><strong>μετὰ τοῦ πρέποντος</strong>: compañía ≈ coordinación.
 <pre class="mermaid"><code>graph TB
 A("Discurso")
-
 A--&gt;B---&gt;B1("...")
-
-A--&gt;|"γὰρ"|C("Oración compuesta")
-
+A--&gt;|"γὰρ"|C("Oración compuesta")---&gt;C1("...")
 C--&gt;|"ὡς"|D("Subordinada comparativa")
 subgraph SUBORDINADA
 D--&gt;|"Conj"|E("ὡς&lt;br&gt;como")
@@ -4405,7 +4403,20 @@ Q--&gt;|"Part&lt;br&gt;Pred-Suj"|U("ἐπιφέροντα&lt;br&gt;aportando")
 U--&gt;|"OD"|U1("ἐμμέλειάν τινα καὶ ῥυθμὸν&lt;br&gt;cierta armonía y ritmo")
 U--&gt;|"Compañía"|U2("μετὰ τοῦ πρέποντος&lt;br&gt;junto con el sentido de lo debido")
 
-end</code></pre></li>
+end</code></pre>
+<pre class="mermaid"><code>graph TB
+A("Discurso")
+
+A--&gt;B("Unidades anteriores")---&gt;B1("...")
+A--&gt;C("&lt;b&gt;γὰρ&lt;/b&gt;")
+A--&gt;D("Oración compleja")
+D--&gt;E("&lt;b&gt;ὡς&lt;/b&gt; ... Ἱππόμαχος ο ἀλείπτης &lt;b&gt;ἔλεγε&lt;/b&gt;")
+E--&gt;F("τοὺς γεγυμνασμένους παρʼ αὐτῷ ... &lt;b&gt;ἐπιγνῶναι&lt;/b&gt; πόρρωθεν")
+F--&gt;G("καὶ ... &lt;b&gt;ἰδὼν&lt;/b&gt; ...")
+G--&gt;H("κρέας ἐξ ἀγορᾶς ... &lt;b&gt;φέροντας&lt;/b&gt;")
+D--&gt;I("&lt;b&gt;οὕτω&lt;/b&gt; ... &lt;b&gt;ἐστὶν&lt;/b&gt; εἰκὸς")
+I--&gt;J("τόν λόγον ... τῶν πεπαιδευμένων ὁμοίως &lt;b&gt;ἕπεσθαι&lt;/b&gt; ταῖς πράξεσιν")
+J--&gt;K("ἐμμέλειάν τινα καὶ ῥυθμὸν &lt;b&gt;ἐπιφέροντα&lt;/b&gt; μετὰ τοῦ πρέποντος")</code></pre></li>
 </ol>
 </div>
 <h3 id="32-fortunas-comunes-malos-espiritus">3.2. Fortunas comunes: ¿malos espíritus?<a class="headerlink" href="#32-fortunas-comunes-malos-espiritus" title="Permanent link">&para;</a></h3>
@@ -4438,10 +4449,19 @@ I--&gt;|"Dirección"|J("εἰς ὃ&lt;br&gt;al que")
 I--&gt;|"OD"|K("τὰς πράξεις&lt;br&gt;las acciones")
 I--&gt;|"Tiempo"|L("ἐκ πολλῶν καὶ μεγάλων ἀγώνων&lt;br&gt;después de muchos y grandes combates")
 I--&gt;|"Verbo"|M("καταθέσθαι&lt;br&gt;dedicar")
-C--&gt;|"Part&lt;br&gt;Pred-Suj"|N("μὴ δυνηθέντες&lt;br&gt;no pudiendo ‹lograrlo›")----&gt;|"Tiempo"|L</code></pre></li>
+C--&gt;|"Part&lt;br&gt;Pred-Suj"|N("μὴ δυνηθέντες&lt;br&gt;no pudiendo ‹lograrlo›")----&gt;|"Tiempo"|L</code></pre>
+<pre class="mermaid"><code>graph TB
+A("Discurso")--&gt;B("Unidades anteriores")---&gt;B1("...")
+A--&gt;C("&lt;b&gt;γὰρ&lt;/b&gt;")---&gt;C1("...")
+A--&gt;D("Oración")
+D--&gt;E("&lt;b&gt;προανῃρέθησαν&lt;/b&gt; ... ἀμφότεροι τοῦ τέλους")
+E--&gt;F("εἰς &lt;b&gt;ὃ&lt;/b&gt; &lt;b&gt;προὔθεντο&lt;/b&gt;")
+F--&gt;G("εἰς &lt;b&gt;ὃ&lt;/b&gt; ... τὰς πράξεις ... &lt;b&gt;καταθέσθαι&lt;/b&gt;")
+E--&gt;H("ἐκ πολλῶν καὶ μεγάλων ἀγώνων ... μὴ &lt;b&gt;δυνηθέντες&lt;/b&gt;")</code></pre></li>
 </ol>
 </div>
 <p>3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.</p>
+<h2 id="edicion1">EDICIÓN1<a class="headerlink" href="#edicion1" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
@@ -4466,7 +4486,14 @@ O--&gt;|"OI"|Q("ἑκατέρῳ&lt;br&gt;a cada uno")
 O--&gt;|"Sujeto"|R("φάσματος&lt;br&gt;una aparición")
 O--&gt;|"Dirección"|S("εἰς ὄψιν&lt;br&gt;a la vista")
 O--&gt;|"Predicativo&lt;br&gt;Suj"|T("οὐκ εὐμενοῦς&lt;br&gt;no favorable")
-O--&gt;|"Verbo"|U("παραγενομένου&lt;br&gt;presentándose")</code></pre></li>
+O--&gt;|"Verbo"|U("παραγενομένου&lt;br&gt;presentándose")</code></pre>
+<pre class="mermaid"><code>graph TB
+A("Discurso")--&gt;B("Unidades anteriores")---&gt;B1("...")
+A--&gt;C("&lt;b&gt;δὲ&lt;/b&gt;")---&gt;C1("...")
+A--&gt;D("Oración")
+D--&gt;E("&lt;b&gt;ὃ&lt;/b&gt; ... πάντων θαυμασιώτατον")
+D--&gt;F("&lt;b&gt;ὅτι&lt;/b&gt; καὶ τὸ δαιμόνιον ἀμφοτέροις &lt;b&gt;ὑπεδήλωσε&lt;/b&gt; τὴν τελευτήν")
+F--&gt;G("ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς &lt;b&gt;παραγενομένου&lt;/b&gt;")</code></pre></li>
 </ol>
 </div>
 <p>4 καίτοι λόγος (1) τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν (2) νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια (3) καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.</p>
@@ -4526,7 +4553,6 @@ N--&gt;|"Lugar"|P("ἐν αὑτοῖς&lt;br&gt;en sí mismos")</code></pre></l
 </ol>
 </div>
 <p>5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ (2) τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ (1) διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.</p>
-<h2 id="edicion">EDICIÓN<a class="headerlink" href="#edicion" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ol>
@@ -5097,7 +5123,7 @@ D52--&gt;D521("πολιτικῶν χρειῶν&lt;br&gt;sus servicios polític
 
 -->
 
-<h2 id="edicion_1">EDICIÓN<a class="headerlink" href="#edicion_1" title="Permanent link">&para;</a></h2>
+<h2 id="edicion">EDICIÓN<a class="headerlink" href="#edicion" title="Permanent link">&para;</a></h2>
 <p>4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων (3) ἔγραψε πρὸς αὐτόν <!-- p.18 --> ἐξευλαβεῖσθαι (1) τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν (2).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>

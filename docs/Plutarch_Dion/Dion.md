@@ -126,14 +126,12 @@
     3. **ἰδὼν**: participio en nominativo, porque, aunque está dentro de la completiva de infinitivo, el sujeto de la principal y de esta es el mismo. En estos casos el participio predicativo puede concertar con el nominativo sujeto de la principal (ἰδὼν) o con el acusativo sujeto del infinitivo (ἰδόντα).
     4. **τῶν πεπαιδευμένων ὁμοίως**: 'educados de la misma manera', es decir, en las enseñanzas de Platón.
     5. **τοὺς γεγυμνασμένους παρʼ αὐτῷ**: 'los adiestrados junto a él': 'junto a él' > 'en su gimnasio' > 'por él'.
+    6. **μετὰ τοῦ πρέποντος**: compañía ≈ coordinación.
     ```mermaid
     graph TB
     A("Discurso")
-
     A-->B--->B1("...")
-
-    A-->|"γὰρ"|C("Oración compuesta")
-        
+    A-->|"γὰρ"|C("Oración compuesta")--->C1("...")
     C-->|"ὡς"|D("Subordinada comparativa")
     subgraph SUBORDINADA
     D-->|"Conj"|E("ὡς<br>como")
@@ -165,6 +163,21 @@
     U-->|"Compañía"|U2("μετὰ τοῦ πρέποντος<br>junto con el sentido de lo debido")
     
     end
+    ```
+    ```mermaid
+    graph TB
+    A("Discurso")
+
+    A-->B("Unidades anteriores")--->B1("...")
+    A-->C("<b>γὰρ</b>")
+    A-->D("Oración compleja")
+    D-->E("<b>ὡς</b> ... Ἱππόμαχος ο ἀλείπτης <b>ἔλεγε</b>")
+    E-->F("τοὺς γεγυμνασμένους παρʼ αὐτῷ ... <b>ἐπιγνῶναι</b> πόρρωθεν")
+    F-->G("καὶ ... <b>ἰδὼν</b> ...")
+    G-->H("κρέας ἐξ ἀγορᾶς ... <b>φέροντας</b>")
+    D-->I("<b>οὕτω</b> ... <b>ἐστὶν</b> εἰκὸς")
+    I-->J("τόν λόγον ... τῶν πεπαιδευμένων ὁμοίως <b>ἕπεσθαι</b> ταῖς πράξεσιν")
+    J-->K("ἐμμέλειάν τινα καὶ ῥυθμὸν <b>ἐπιφέροντα</b> μετὰ τοῦ πρέποντος")
     ```
 
 ### 3.2. Fortunas comunes: ¿malos espíritus?
@@ -198,8 +211,20 @@
     I-->|"Verbo"|M("καταθέσθαι<br>dedicar")
     C-->|"Part<br>Pred-Suj"|N("μὴ δυνηθέντες<br>no pudiendo ‹lograrlo›")---->|"Tiempo"|L
     ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")--->B1("...")
+    A-->C("<b>γὰρ</b>")--->C1("...")
+    A-->D("Oración")
+    D-->E("<b>προανῃρέθησαν</b> ... ἀμφότεροι τοῦ τέλους")
+    E-->F("εἰς <b>ὃ</b> <b>προὔθεντο</b>")
+    F-->G("εἰς <b>ὃ</b> ... τὰς πράξεις ... <b>καταθέσθαι</b>")
+    E-->H("ἐκ πολλῶν καὶ μεγάλων ἀγώνων ... μὴ <b>δυνηθέντες</b>")
+    ```
 
 3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.
+
+## EDICIÓN1
 
 !!! note
     1. **ὃ δὲ πάντων θαυμασιώτατον, ὅτι ...**: 'Y lo más sorprendente de todo, (que) ...'. Es una colocación frecuente. Es un falso relativo (ὃ) más un adjetivo (normalmente en grado superlativo) que lo califica (θαυμασιώτατον) que se refiere al fragmento siguiente presentado mediante una completiva (ὅτι): 'Y lo (que es) más X (es) que ...'.
@@ -225,6 +250,15 @@
     O-->|"Dirección"|S("εἰς ὄψιν<br>a la vista")
     O-->|"Predicativo<br>Suj"|T("οὐκ εὐμενοῦς<br>no favorable")
     O-->|"Verbo"|U("παραγενομένου<br>presentándose")
+    ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")--->B1("...")
+    A-->C("<b>δὲ</b>")--->C1("...")
+    A-->D("Oración")
+    D-->E("<b>ὃ</b> ... πάντων θαυμασιώτατον")
+    D-->F("<b>ὅτι</b> καὶ τὸ δαιμόνιον ἀμφοτέροις <b>ὑπεδήλωσε</b> τὴν τελευτήν")
+    F-->G("ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς <b>παραγενομένου</b>")
     ```
 
 4 καίτοι λόγος (1) τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν (2) νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια (3) καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.
@@ -272,7 +306,7 @@
     F1-->|"OI"|G("μηδενὶ ... ἔχοντι<br>a nadie que tenga")-->|"OD"|G1("νοῦν<br>juicio")
     F1-->|"Verbo"|H("ἂν  προσπεσεῖν<br>se le presentaría")
     F1-->|"Sujeto"|I("φάντασμα δαίμονος μηδὲ εἴδωλον<br>una aparición de un demon ni una imagen")
-    
+
     ```
     ```mermaid
     graph TB
@@ -290,8 +324,6 @@
     ```
 
 5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ (2) τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ (1) διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.
-
-## EDICIÓN
 
 !!! note
     1. **μὴ διαμείναντες ... τύχωσιν**: la negación va con el participio y con el verbo principal 'para que no permanezcan ... y así no obtengan ...'
@@ -854,7 +886,6 @@
     J-->|"Participio<br>Pred-OD"|L("ὡς ... συνοικοῦσαν<br>porque, según él, cohabitaba")
     L-->|"Compañía"|M("ἐρημίᾳ<br>con la soledad")
     ```
-
 
 <!-- !!! note "Traducción"
     | GRIEGO | ESPAÑOL |

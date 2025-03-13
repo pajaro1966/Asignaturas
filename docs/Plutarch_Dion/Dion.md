@@ -21,6 +21,9 @@
     2. **οἱ περὶ Γλαῦκον ἐξ ἀρχῆς Κορίνθιοι γεγονότες**: los antepasados de Glauco eran corintios.
     3. **εἰκὸς ... ἐγκαλεῖν**: εἰκός ἐστι + inf. 'es razonable/natural'.
     4. **τῆς γραφῆς ταύτης**: la presente obra de Plutarco.
+    5. ἐντραφεὶς: ἐν-τραφ-θεὶς, τρέφ-ω.
+    6. Pedro habla como su padre (habla)
+    7. Dion y Bruto se lanzaron a las mayores (desde el platonismo) como (si se hubieran lanzado) desde una palestra.
     ```mermaid
     graph TB
     A("Oración compuesta")
@@ -57,6 +60,19 @@
     D-->|"Pred-Suj"|D4("ἀμφότεροι<br>ambos")
     D-->|"Dirección"|D5("ἐπὶ τοὺς μεγίστους ἀγῶνας.<br>a los mayores combates")
     ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")-->B1("...")
+    A-->C("Oración compleja")
+    C-->D("<b>ὥσπερ</b> ὁ Σιμωνίδης <b>φησίν</b>")
+    D-->E("τοῖς Κορινθίοις οὐ <b>μηνίειν</b> τὸ Ἴλιον<br>ἐπιστρατεύσασι μετὰ τῶν Ἀχαιῶν")
+    E-->F("<b>ὅτι</b> κἀκείνοις οἱ περὶ Γλαῦκον ἐξ ἀρχῆς<br>Κορίνθιοι γεγονότες <b>συνεμάχουν</b> προθύμως")
+    C-->H("ὦ Σόσσιε Σενεκίων")
+    C-->I("ἆρά γε ... <b>οὕτως</b> εἰκὸς")
+    I-->J("τῇ Ἀκαδημείᾳ <b>μήτε</b> Ῥωμαίους <b>μήτε</b> Ἕλληνας<br><b>ἐγκαλεῖν</b> ἴσον φερομένους ἐκ τῆς γραφῆς ταύτης")
+    J-->K("<b>ἣ</b> τόν τε Βρούτου <b>περιέχει</b> βίον καὶ τόν Δίωνος")
+    K-->L("<b>ὧν</b> ὁ μὲν αὐτῷ Πλάτωνι πλησιάσας, ὁ δὲ<br>τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος, <b>ὥσπερ</b> ἐκ μιᾶς<br><b>ὥρμησαν</b> ἀμφότεροι παλαίστρας ἐπὶ τοὺς μεγίστους ἀγῶνας")
+    ```
 
 ---
 
@@ -66,6 +82,7 @@
     1. **τὸ ... μαρτυρῆσαι ... οὐ θαυμαστόν ἐστιν**:
     2. **τῷ καθηγεμόνι τῆς ἀρετῆς**: Platón era 'el guía' de ambos.
     3. **φρονήσει καὶ δικαιοσύνῃ δύναμιν ἐπὶ τὸ αὐτὸ καὶ τύχην συνελθεῖν**: 'A (nom.) se reúne (συνέρχομαι) con B (dat.) en el mismo lugar (ἐπὶ τὸ αὐτὸ)'.
+    4. **ἐπὶ τὸ αὐτὸ ... ἵνα ...**: 'para lo mismo ... para ...'
     ```mermaid
     graph TB
     A("Discurso")-->B("Unidades anteriores")
@@ -84,6 +101,19 @@
     C-->|"Neg"|F("οὐ<br>no")
     C-->|"Atributo"|G("θαυμαστόν<br>sorprendente")
     C-->|"Verbo"|D("ἐστιν<br>es")
+    ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")---->B1("...")
+    A-->K("<b>καὶ</b>")---->K1("...")
+    A-->C("Oración")
+    C-->D("<b>τὸ</b> μὲν ὅμοια πολλὰ καὶ ἀδελφὰ πράξαντας<br><b>μαρτυρῆσαι</b> τῷ καθηγεμόνι τῆς ἀρετῆς")
+    D-->E("<b>ὅτι δεῖ</b>")
+    E-->F("φρονήσει καὶ δικαιοσύνῃ δύναμιν <b>ἐπὶ τὸ αὐτὸ</b> καὶ τύχην <b>συνελθεῖν</b>")
+    F-->G("<b>ἵνα</b> κάλλος ἅμα καὶ μέγεθος αἱ πολιτικαὶ πράξεις <b>λάβωσιν</b>")
+    C-->H("οὐ")
+    C-->I("θαυμαστόν")
+    C-->J("<b>ἐστιν</b>")
     ```
 
 ---
@@ -197,8 +227,6 @@
     O-->|"Verbo"|U("παραγενομένου<br>presentándose")
     ```
 
-## EDICIÓN
-
 4 καίτοι λόγος (1) τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν (2) νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια (3) καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.
 
 !!! note
@@ -228,12 +256,57 @@
     N-->|"OD"|O("δαίμονα πονηρὸν<br>un demon malvado")-->|"Aposición"|Q("τὴν δεισιδαιμονίαν<br>la superstición")
     N-->|"Lugar"|P("ἐν αὑτοῖς<br>en sí mismos")
     ```
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")---->B1("...")
+    A-->|"καίτοι"|C("Oración")
+    C-->|"Atributo"|D("λόγος τίς<br>un argumento")-->|"CN<br>Part-Sust"|D1("τῶν ἀναιρούντων<br>de los que descartan")-->|"OD"|D11("τὰ τοιαῦτα<br>este tipo de cosas")
+    C-->|"Verbo"|E("ἐστι<br>es")--->E1("...")
+    C-->|"Sujeto"|F("Completiva<br>que")
+    F-->|"Sujeto"|F1("Completiva1")-->F11("...")
+    F-->|"ἀλλὰ<br>sino que"|F2("Completiva2")-->F21("...")
+    ```
+    ```mermaid
+    graph TB
+    F("Completiva<br>que")-->|"Sujeto"|F1("Completiva1")
+    F1-->|"OI"|G("μηδενὶ ... ἔχοντι<br>a nadie que tenga")-->|"OD"|G1("νοῦν<br>juicio")
+    F1-->|"Verbo"|H("ἂν  προσπεσεῖν<br>se le presentaría")
+    F1-->|"Sujeto"|I("φάντασμα δαίμονος μηδὲ εἴδωλον<br>una aparición de un demon ni una imagen")
+    
+    ```
+    ```mermaid
+    graph TB
+    F("Completiva<br>que")-->|"ἀλλὰ<br>sino que"|F2("Completiva2")
+    F2-->J("Sujeto")
+    J-->J1("παιδάρια<br>niñitos")
+    J-->J2("καὶ γύναια<br>y mujercitas")
+    J-->J3("καὶ ... ἀνθρώπους<br>y personas")-->|"Adj"|J31("παραφόρους<br>fuera de sí")-->|"Causa"|J311("δι' ἀσθένειαν<br>por una enfermedad")
+    F2-->|"Partic<br>Pred-Suj"|K("γενομένους<br>cuando se encuentran")-->|"Lugar"|K1("ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος<br>en un estado de desvarío del alma o destemplanza del cuerpo")
+    F2-->|"Verbo"|L("ἐφέλκεσθαι<br>sacan")
+    F2-->|"OD"|M("δόξας ... κενὰς καὶ ἀλλοκότους<br>opiniones infundadas y extrañas")
+    F2-->|"Particip<br>Pred-Suj"|N("ἔχοντας<br>porque tienen")
+    N-->|"OD"|O("δαίμονα πονηρὸν<br>un demon malvado")-->|"Aposición"|Q("τὴν δεισιδαιμονίαν<br>la superstición")
+    N-->|"Lugar"|P("ἐν αὑτοῖς<br>en sí mismos")
+    ```
 
 5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ (2) τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ (1) διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.
+
+## EDICIÓN
 
 !!! note
     1. **μὴ διαμείναντες ... τύχωσιν**: la negación va con el participio y con el verbo principal 'para que no permanezcan ... y así no obtengan ...'
     2. **οὐκ οἶδα μὴ**: Madvig δέδοικα. No es necesario φοβέομαι + μή 'me temo que' ≈ 'quizá'; οὐκ οἶδα 'no sé' ≈ 'quizá': la equivalencia entre ambas expresiones (incertidumbre epistémica) hace que la segunda pueda tomar una completiva encabezada por μή.
+    ```mermaid
+    graph TB
+    A("Discurso")-->B("Unidades anteriores")-->B1("...")
+    A-->C("Oración compleja")
+    C-->D("<b>εἰ</b> δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς<br>οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι πάθος, <b>οὕτως</b> ὑπὸ φάσματος <b>διετέθησαν</b>")
+    D-->E("<b>ὥστε</b> καὶ <b>φράσαι</b> πρὸς ἑτέρους")
+    C-->F("οὐκ <b>οἶδα</b>")
+    F-->G("<b>μὴ</b> τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον <b>ἀναγκασθῶμεν</b> <b>προσδέχεσθαι</b> λόγον")
+    G-->H("<b>ὡς</b> τὰ φαῦλα δαιμόνια καὶ βάσκανα, προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς<br>πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους <b>ἐπάγει</b>, σείοντα καὶ σφάλλοντα τὴν ἀρετήν")
+    H-->I("<b>ὡς</b> μὴ διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν <b>τύχωσιν</b>")
+    ```
 
 7 ἀλλὰ ταῦτα μὲν εἰς ἄλλον ἀνακείσθω λόγον. ἐν τούτῳ δέ, p.6 δωδεκάτῳ τῶν παραλλήλων ὄντι βίων, τὸν τοῦ πρεσβυτέρου προεισαγάγωμεν.
 

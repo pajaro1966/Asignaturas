@@ -67,6 +67,7 @@ nav:
     - 'Verbos': 'verbo.md'
     - Charlas:
       - 'Lengua de Homero': 'Charlas/Lengua_Homer/Homero_Lengua.html'
+  - ANKI: 'Herramientas/Anki.md'
   - 'Innova 2024-2025': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'

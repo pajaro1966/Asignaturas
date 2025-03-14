@@ -261,6 +261,6 @@ El uso de las partículas difiere en ocasiones del posterior
 - **οὐδέ**/**μηδέ**: también en oraciones afirmativas como conector
 - **οὖν**: casi exclusivamente en conexión con temporales **ἐπεί**, **ὡς**
 - **περ**: enfatiza la palabra precedente, sobre todo con participios, especialmente en un sentido concesivo (κηδομένη περ), enfático (ἀρείοσι ἠέ περ ὑμῖν) o limitativo-contrastivo (τιμήν περ)
-- **τε** "épico": en afirmaciones generales, especialmente frecuente también en el segundo miembro de un símil.
+- **τε** "épico": en afirmaciones generales, especialmente frecuente también en el segundo miembro de un símil.@
 - **τοι**: como partícula es un dativo ético reforzado del pronombre personal de 2ª pers. (y a menudo no se distingue claramente de éste); requiere una atención especial por parte del interlocutor
 - **τοιγάρ** (de la raíz del demostrativo το-): en Homero a menudo encabeza la respuesta a una petición.

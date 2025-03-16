@@ -787,6 +787,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../reveal.js-master/GMod_Leccion_16_Exerc.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lección 16 (ejercicios)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../Griego_Moderno/Leccion_17/" class="md-nav__link">
         
   
@@ -4644,8 +4665,8 @@ K--&gt;L("&lt;b&gt;ὅτε&lt;/b&gt; πρῶτον αὐτοκράτωρ ἐπ�
 </ol>
 </details>
 <p>4 λέγεται (4) δʼ ἡμέρᾳ μὲν ἀμφοτέρας ἀγαγέσθαι (3) μιᾷ καὶ μηδενὶ γενέσθαι φανερὸς (1) ἀνθρώπων ὁποτέρᾳ προτέρᾳ συνέλθοι (2), τὸν δὲ ἄλλον χρόνον ἴσον νέμων ἑαυτὸν διατελεῖν (5) ἑκατέρᾳ, κοινῇ μὲν εἰθισμένων δειπνεῖν μετʼ αὐτοῦ, παρὰ νύκτα δὲ ἐν μέρει συναναπαυομένων.</p>
-<details class="note">
-<summary>Note</summary>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ol>
 <li><strong>γενέσθαι φανερὸς ἀνθρώπων ὁποτέρᾳ προτέρᾳ συνέλθοι</strong>: construcción personal (Dionisio concierta con φανερός): 'Dionisio estuvo claro (γενέσθαι φανερὸς) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) se unió (συνέλθοι)'. En español empleamos la construcción impersonal (la interrogativa indirecta es sujeto):  ' estuvo claro (γενέσθαι <strong>φανερὸν</strong>) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) ὁ Διόνυσος (Dionisio) se unió (συνέλθοι)'. A diferencia del español, en inglés estás construcciones personales son frecuenta: <em>He is likely to come tomorrow</em> 'Él probable venir mañana' &gt; 'Es probable que él venga mañana'.</li>
 <li><strong>συνέλθοι</strong>: optativo oblicuo: optativo en subordinada que depende de un verbo en pasado.</li>
@@ -4668,9 +4689,73 @@ C2("παρὰ νύκτα &lt;b&gt;δὲ&lt;/b&gt; ἐν μέρει&lt;br&gt;&lt;
 A--&gt;B
 A--&gt;C0--&gt;C
 C--&gt;|"&lt;b&gt;μὲν&lt;/b&gt;"|C1
-C--&gt;|"&lt;b&gt;δὲ&lt;/b&gt;"|C2</code></pre></li>
+C--&gt;|"&lt;b&gt;δὲ&lt;/b&gt;"|C2</code></pre>
+<pre class="mermaid"><code>graph TB
+subgraph Construcción impersonal
+direction TB
+A("Oración")
+A--&gt;|"Atributo"|B("&lt;b&gt;φανερόν&lt;/b&gt;&lt;br&gt;claro")
+A--&gt;|"Verbo"|C("ἐστι/γίγνεται&lt;br&gt;es/llega a estar")
+A--&gt;|"Sujeto"|D("Completiva&lt;br&gt;&amp;nbsp;")
+D--&gt;|"Compañía"|E("ὁποτέρᾳ&lt;br&gt;con cuál&lt;br&gt;de las dos")
+D--&gt;|"Sujeto"|F("&lt;b&gt;ὁ Διονύσιος&lt;/b&gt;&lt;br&gt;Dionisio")
+D--&gt;|"Pred-Comp"|G("προτέρᾳ&lt;br&gt;primera")
+D--&gt;|"Verbo"|H("συνῆλθε&lt;br&gt;se unió")
+end
+
+    subgraph Construcción personal
+direction TB
+I("Oración")
+I--&gt;|"Sujeto"|N("&lt;b&gt;ὁ Διονύσιος&lt;/b&gt;&lt;br&gt;Dionisio")
+I--&gt;|"Atributo"|J("&lt;b&gt;φανερός&lt;/b&gt;&lt;br&gt;claro")
+I--&gt;|"Verbo"|K("ἐστι/γίγνεται&lt;br&gt;es/llega a estar")
+I--&gt;|"NS"|L("Completiva&lt;br&gt;&amp;nbsp;")
+L--&gt;|"Compañía"|M("ὁποτέρᾳ&lt;br&gt;con cuál&lt;br&gt;de las dos")
+L--&gt;|"Sujeto"|O("&lt;b&gt;ø&lt;/b&gt;&lt;br&gt;Dionisio")
+L--&gt;|"Pred-Comp"|P("προτέρᾳ&lt;br&gt;primera")
+L--&gt;|"Verbo"|Q("συνῆλθε&lt;br&gt;se unió")
+end
+O:::Resalt
+N:::Resalt
+F:::Resalt
+J:::Resalt
+B:::Resalt2
+D:::Resalt2
+classDef Resalt fill:white,stroke:red,stroke-width:4px;
+classDef Resalt2 fill:white,stroke:blue,stroke-width:4px;</code></pre>
+<pre class="mermaid"><code>graph TB
+subgraph Construcción impersonal
+direction TB
+A("Oración")
+A--&gt;|"Verbo"|C("λέγεται&lt;br&gt;es dicho&lt;br&gt;se dice")
+A--&gt;|"Sujeto"|D("Completiva&lt;br&gt;que")
+D--&gt;|"Sujeto&lt;br&gt;Acus"|F("&lt;b&gt;τὸν Διονύσιον&lt;/b&gt;&lt;br&gt;Dionisio")
+D--&gt;|"Tiempo"|G("ἡμέρᾳ μιᾷ&lt;br&gt;en un solo día")
+D--&gt;|"OD&lt;br&gt;Acus"|H("ἀμφοτέρας&lt;br&gt;a ambas")
+D--&gt;|"Verbo"|X("ἀγαγέσθαι&lt;br&gt;se llevó (a casa)")
+end
+subgraph Construcción personal
+direction TB
+I("Oración")
+I--&gt;|"Sujeto&lt;br&gt;Nom"|N("&lt;b&gt;ὁ Διονύσιος&lt;/b&gt;&lt;br&gt;Dionisio")
+I--&gt;|"Verbo"|K("λέγεται&lt;br&gt;es dicho&lt;br&gt;se dice")
+I--&gt;|"NS"|L("Completiva&lt;br&gt;&amp;nbsp;")
+L--&gt;|"Tiempo"|M("ἡμέρᾳ μιᾷ&lt;br&gt;en un solo día")
+L--&gt;|"Sujeto&lt;br&gt;Acus"|O("&lt;b&gt;ø&lt;/b&gt;&lt;br&gt;Dionisio")
+L--&gt;|"OD&lt;br&gt;Acus"|P("ἀμφοτέρας&lt;br&gt;a ambas")
+L--&gt;|"Verbo"|Q("ἀγαγέσθαι&lt;br&gt;haberse llevado&lt;br&gt;(a casa)")
+end
+O:::Resalt
+N:::Resalt
+F:::Resalt
+K:::Resalt
+C:::Resalt2
+D:::Resalt2
+classDef Resalt fill:white,stroke:red,stroke-width:4px;
+classDef Resalt2 fill:white,stroke:blue,stroke-width:4px;</code></pre></li>
 </ol>
-</details>
+</div>
+<p>λέγεται (4) δʼ ἡμέρᾳ μὲν   (3) </p>
 <p>5 καίτοι τῶν Συρακουσίων ἐβούλετο τὸ πλῆθος τὴν ἐγγενῆ πλέον ἔχειν τῆς ξένης·
 ἀλλὰ ἐκείνῃ προτέρᾳ ὑπῆρχε (1) τεκούσῃ (2) τὸν πρεσβεύοντα τῆς Διονυσίου γενεᾶς υἱὸν αὐτῇ βοηθεῖν πρὸς τὸ γένος. (3)</p>
 <details class="note">

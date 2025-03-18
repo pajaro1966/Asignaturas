@@ -3,25 +3,49 @@ nav:
   - Home: 'index.md'
   - Griego Moderno: 
     - Referencias: 'Griego_Moderno/GrMod_Bibl.md'
+    - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_TODAS_Vocab.html'
     - Lección 1: 'Griego_Moderno/Leccion_01.md'
-    - Lección 12: 'Griego_Moderno/Leccion_12.md'
-    - Lección 12 (ejercicios): 'reveal.js-master/GMod_Leccion_12_Exerc.html'
-    - Lección 13: 'Griego_Moderno/Leccion_13.md'
-    - Lección 13 (ejercicios): 'reveal.js-master/GMod_Leccion_13_Exerc.html'
-    - Lecciones 10-13 (repaso): 'Griego_Moderno/Leccion_10_13.md'
-    - Lección 10-13 (ejercicios): 'reveal.js-master/GMod_Leccion_10_13_Exerc.html'
-    - Lección 14: 'Griego_Moderno/Leccion_14.md'
-    - Lección 14 (ejercicios): 'reveal.js-master/GMod_Leccion_14_Exerc.html'
-    - Lección 15: 'Griego_Moderno/Leccion_15.md'
-    - Lección 15 (ejercicios): 'reveal.js-master/GMod_Leccion_15_Exerc.html'
-    - Lección 16: 'Griego_Moderno/Leccion_16.md'
-    - Lección 16 (ejercicios): 'reveal.js-master/GMod_Leccion_16_Exerc.html'
-    - Lección 17: 'Griego_Moderno/Leccion_17.md'
-    - Lección 18: 'Griego_Moderno/Leccion_18.md'
-    - Lección 19: 'Griego_Moderno/Leccion_19.md'
-    - Lección 20: 'Griego_Moderno/Leccion_20.md'
-    - Lección 21: 'Griego_Moderno/Leccion_21.md'
-    - Lección 22: 'Griego_Moderno/Leccion_22.md'
+    - Lección 12:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_12_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_12.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_12_Exerc.html'
+    - Lección 13:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_13_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_13.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_13_Exerc.html'
+    - Lecciones 10-13:
+      - Repaso: 'Griego_Moderno/Leccion_10_13.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_10_13_Exerc.html'
+    - Lección 14:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_14_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_14.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_14_Exerc.html'
+    - Lección 15:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_15_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_15.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_15_Exerc.html'
+    - Lección 16:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_16_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_16.md'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_16_Exerc.html'
+    - Lección 17:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_17_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_17.md'
+    - Lección 18:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_18_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_18.md'
+    - Lección 19:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_19_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_19.md'
+    - Lección 20:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_20_Vocab.html'
+      - Lección 20: 'Griego_Moderno/Leccion_20.md'
+    - Lección 21:
+      - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_21_Vocab.html'
+      - Lección 21: 'Griego_Moderno/Leccion_21.md'
+    - Lección 22:
+      - Vocabulario): 'Griego_Moderno/Vocabulario/Leccion_22_Vocab.html'
+      - Lección: 'Griego_Moderno/Leccion_22.md'
     - Lecciones 14-22 (repaso): 'Griego_Moderno/Leccion_14_22.md'
   - Plutarco:
     - Guía (MESOB): 'Plutarch_Dion/Dion_MESOB.md'
@@ -68,7 +92,9 @@ nav:
     - 'Verbos': 'verbo.md'
     - Charlas:
       - 'Lengua de Homero': 'Charlas/Lengua_Homer/Homero_Lengua.html'
-  - ANKI: 'Herramientas/Anki.md'
+  - ANKI: 
+    - 'Alumnos': 'Herramientas/Anki.md'
+    - 'Presentación': 'Herramientas/Anki_02.md'
   - 'Innova 2024-2025': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'

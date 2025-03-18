@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/16Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Β1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τη συνεχή υποτακτική των ρημάτων που είναι στην παρένθεση.</h6>        
+Οι γονείς τους τους είπαν {1:SHORTANSWER:=να μην ξοδύουν} τόσα λεφτά. (ξοδεύω + άρνηση)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να μην ξοδύουν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Β2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τη συνεχή υποτακτική των ρημάτων που είναι στην παρένθεση.</h6>        
+Μου άρεσε {1:SHORTANSWER:=να βλέπω} έργα επιστημονικής φαντασίας. (βλέπω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να βλέπω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Β3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τη συνεχή υποτακτική των ρημάτων που είναι στην παρένθεση.</h6>        
+Ο γιατρός της της είπε {1:SHORTANSWER:=να μην παίρνει} πολλά φάρμακα. (παίρνω + άρνηση)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να μην παίρνει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Β4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τη συνεχή υποτακτική των ρημάτων που είναι στην παρένθεση.</h6>        
+Θα σας κάνει καλό {1:SHORTANSWER:=να πηγαίνετε} με τα πόδια στη δουλειά σας. (πηγαίνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να πηγαίνετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Β5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τη συνεχή υποτακτική των ρημάτων που είναι στην παρένθεση.</h6>        
+Είναι ωφέλιμο {1:SHORTANSWER:=να τρώμε} πολλά φρούτα και λαχανικά. (τρώω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να τρώμε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

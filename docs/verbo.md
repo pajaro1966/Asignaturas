@@ -6,7 +6,7 @@
 
 ---
 
-## 2. ἀγείρω
+## 2. ἀγείρω (visto)
 
 ![ἀγείρω](Verbos/ageirw_01.png)
 
@@ -20,21 +20,21 @@
 
 ---
 
-## 4. ἄγω
+## 4. ἄγω (visto)
 
 ![ἄγω](Verbos/agw_01.png)
 ![ἄγω](Verbos/agw_02.png)
 
 ---
 
-## 5. αἱρέω {#airew}
+## 5. αἱρέω (visto) {#airew}
 
 ![Default text](Verbos/airew_01.png)
 ![Default text](Verbos/airew_02.png)
 
 ---
 
-## 6. αἴρω
+## 6. αἴρω  (visto)
 
 ![Default text](Verbos/airw_01.png)
 ![Default text](Verbos/airw_02.png)
@@ -47,7 +47,7 @@
 
 ---
 
-## 8. ἀκούω
+## 8. ἀκούω (visto)
 
 ![Default text](Verbos/akouw_01.png)
 ![Default text](Verbos/akouw_02.png)
@@ -78,7 +78,7 @@
 ![Default text](Verbos/amartanw_01.png)
 ![Default text](Verbos/amartanw_02.png)
 
-## 14. ἀμύνω
+## 14. ἀμύνω (visto)
 
 ![Default text](Verbos/amunw.png)
 
@@ -86,7 +86,7 @@
 
 ![Default text](Verbos/analiskw.png)
 
-## 16.  ἁνδάνω
+## 16.  ἁνδάνω (visto)
 
 ![Default text](Verbos/andanw.png)
 
@@ -117,12 +117,12 @@
 ![Default text](Verbos/arpazw_01.png)
 ![Default text](Verbos/arpazw_02.png)
 
-## 23. βαίνω
+## 23. βαίνω (visto)
 
 ![Default text](Verbos/bainw_01.png)
 ![Default text](Verbos/bainw_02.png)
 
-## 24. βάλλω
+## 24. βάλλω (visto)
 
 ![Default text](Verbos/ballw_01.png)
 ![Default text](Verbos/ballw_02.png)
@@ -145,7 +145,7 @@
 ![Default text](Verbos/blwskw_01.png)
 ![Default text](Verbos/blwskw_02.png)
 
-## 29. βούλομαι
+## 29. βούλομαι (visto)
 
 ![Default text](Verbos/boulomai_01.png)
 ![Default text](Verbos/boulomai_02.png)
@@ -172,7 +172,7 @@
 
 ![Default text](Verbos/daknw.png)
 
-## 35. δάμνημι
+## 35. δάμνημι (visto)
 
 ![Default text](Verbos/damnhmi.png)
 
@@ -181,7 +181,7 @@
 ![Default text](Verbos/deiknumi_01.png)
 ![Default text](Verbos/deiknumi_02.png)
 
-## 37. δέρκομαι
+## 37. δέρκομαι (visto)
 
 ![Default text](Verbos/derkomai_01.png)
 ![Default text](Verbos/derkomai_02.png)
@@ -191,7 +191,7 @@
 ![Default text](Verbos/derw_01.png)
 ![Default text](Verbos/derw_02.png)
 
-## 39. δέχομαι
+## 39. δέχομαι (visto)
 
 ![Default text](Verbos/dechomai_01.png)
 ![Default text](Verbos/dechomai_02.png)
@@ -201,7 +201,7 @@
 ![Default text](Verbos/didaskw_01.png)
 ![Default text](Verbos/didaskw_02.png)
 
-## 41. δίδωμι
+## 41. δίδωμι (visto)
 
 ![Default text](Verbos/didwmi_01.png)
 ![Default text](Verbos/didwmi_02.png)
@@ -227,17 +227,17 @@
 
 ---
 
-## 46. ἕζομαι
+## 46. ἕζομαι (visto)
 
 ![Default text](Verbos/ezomai_01.png)
 ![Default text](Verbos/ezomai_02.png)
 
-## 47. εἰμι
+## 47. εἰμι (visto)
 
 ![Default text](Verbos/eimi_ser_01.png)
 ![Default text](Verbos/eimi_ser_02.png)
 
-## 48. εἶμι
+## 48. εἶμι (visto)
 
 ![Default text](Verbos/eimi_ir_01.png)
 ![Default text](Verbos/eimi_ir_02.png)
@@ -252,7 +252,7 @@
 ![Default text](Verbos/ennumi_01.png)
 ![Default text](Verbos/ennumi_02.png)
 
-## 51. ἕπομαι
+## 51. ἕπομαι (visto)
 
 ![Default text](Verbos/epomai_01.png)
 ![Default text](Verbos/epomai_02.png)
@@ -262,7 +262,7 @@
 ![Default text](Verbos/euriskw_01.png)
 ![Default text](Verbos/euriskw_02.png)
 
-## 53. ἔχω
+## 53. ἔχω (visto)
 
 ![Default text](Verbos/echw_01.png)
 ![Default text](Verbos/echw_02.png)
@@ -292,25 +292,25 @@
 ![Default text](Verbos/thnhskw_01.png)
 ![Default text](Verbos/thnhskw_02.png)
 
-## 60. ἵημι
+## 60. ἵημι (visto)
 
 ![Default text](Verbos/ihmi_01.png)
 ![Default text](Verbos/ihmi_02.png)
 
-## 61. ἱκνέομαι
+## 61. ἱκνέομαι (visto)
 
 ![Default text](Verbos/ikneomai.png)
 
-## 62. ἵστημι
+## 62. ἵστημι (visto)
 
 ![Default text](Verbos/isthmi_01.png)
 ![Default text](Verbos/isthmi_02.png)
 
-## 63. καίω
+## 63. καίω (visto)
 
 ![Default text](Verbos/kaiw.png)
 
-## 64. καλέω
+## 64. καλέω (visto)
 
 ![Default text](Verbos/kalew.png)
 
@@ -331,7 +331,7 @@
 
 ![Default text](Verbos/klaiw.png)
 
-## 69. κλέπτω
+## 69. κλέπτω (visto)
 
 ![Default text](Verbos/kleptw_01.png)
 ![Default text](Verbos/kleptw_02.png)
@@ -380,7 +380,7 @@
 
 ![Default text](Verbos/lanthanw.png)
 
-## 80. λέγω
+## 80. λέγω (visto)
 
 ![Default text](Verbos/legw_01.png)
 ![Default text](Verbos/legw_02.png)
@@ -428,23 +428,23 @@
 
 ![Default text](Verbos/ozw.png)
 
-## 90. ὄλλῡμι
+## 90. ὄλλῡμι (visto)
 
 ![Default text](Verbos/ollumi_01.png)
 ![Default text](Verbos/ollumi_02.png)
 
-## 91. ὄμνῡμι
+## 91. ὄμνῡμι (visto)
 
 ![Default text](Verbos/omnumi_01.png)
 ![Default text](Verbos/omnumi_02.png)
 
-## 92. ὁράω
+## 92. ὁράω (visto)
 
 ![Default text](Verbos/oraw_01.png)
 ![Default text](Verbos/oraw_02.png)
 ![Default text](Verbos/oraw_03.png)
 
-## 93.  ὄρνυμι
+## 93.  ὄρνυμι (visto)
 
 ![Default text](Verbos/ornumi_01.png)
 ![Default text](Verbos/ornumi_02.png)
@@ -463,7 +463,7 @@
 
 ![Default text](Verbos/paschw.png)
 
-## 97. πείθω
+## 97. πείθω (visto)
 
 ![Default text](Verbos/peithw_01.png)
 ![Default text](Verbos/peithw_02.png)
@@ -473,7 +473,7 @@
 ![Default text](Verbos/peirw_01.png)
 ![Default text](Verbos/peirw_02.png)
 
-## 99. πέμπω
+## 99. πέμπω (visto)
 
 ![Default text](Verbos/pempw.png)
 
@@ -487,7 +487,7 @@
 ![Default text](Verbos/phgnumi_01.png)
 ![Default text](Verbos/phgnumi_02.png)
 
-## 102. πίμπλημι
+## 102. πίμπλημι (visto)
 
 ![Default text](Verbos/pimplhmi_01.png)
 ![Default text](Verbos/pimplhmi_02.png)
@@ -619,11 +619,11 @@
 ![Default text](Verbos/tithemi_01.png)
 ![Default text](Verbos/tithemi_02.png)
 
-## 130. τίκτω
+## 130. τίκτω (visto)
 
 ![Default text](Verbos/tiktw.png)
 
-## 131. τίνω
+## 131. τίνω (visto)
 
 ![Default text](Verbos/tinw_01.png)
 ![Default text](Verbos/tinw_02.png)
@@ -633,7 +633,7 @@
 ![Default text](Verbos/titrwskw_01.png)
 ![Default text](Verbos/titrwskw_02.png)
 
-## 133. τρέπω
+## 133. τρέπω (visto)
 
 ![Default text](Verbos/trepw_01.png)
 ![Default text](Verbos/trepw_02.png)
@@ -662,18 +662,18 @@
 ![Default text](Verbos/tuptw_01.png)
 ![Default text](Verbos/tuptw_02.png)
 
-## 139. φαίνω
+## 139. φαίνω (visto)
 
 ![Default text](Verbos/fainw_01.png)
 ![Default text](Verbos/fainw_02.png)
 
-## 140. φέρω
+## 140. φέρω (visto)
 
 ![Default text](Verbos/ferw_01.png)
 ![Default text](Verbos/ferw_02.png)
 ![Default text](Verbos/ferw_03.png)
 
-## 141. φεύγω
+## 141. φεύγω (visto)
 
 ![Default text](Verbos/feugw_01.png)
 ![Default text](Verbos/feugw_02.png)
@@ -702,7 +702,7 @@
 
 ![Default text](Verbos/fulassw.png)
 
-## 147. χαίρω
+## 147. χαίρω (visto)
 
 ![Default text](Verbos/chairw_01.png)
 ![Default text](Verbos/chairw_02.png)
@@ -712,7 +712,7 @@
 ![Default text](Verbos/chew_01.png)
 ![Default text](Verbos/chew_02.png)
 
-## 149. ὠθέω
+## 149. ὠθέω (visto)
 
 ![Default text](Verbos/wthew_01.png)
 ![Default text](Verbos/wthew_02.png)

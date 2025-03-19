@@ -51,7 +51,7 @@ nav:
     - Guía (MESOB): 'Plutarch_Dion/Dion_MESOB.md'
     - Guía (Máster): 'Plutarch_Dion/Guia_Master.md'
     - Texto: 'Plutarch_Dion/Dion.md'
-    - Traducción: 'Plutarch_Dion/Dion_Bilingue.md'
+    - Traducción: 'Plutarch_Dion/Dion_Bilingue_ΝΟ.md'
     - Estructura: 'Plutarch_Dion/Dion_Estructura.md'
     - Geografía: 
       - Sicilia: 'Plutarch_Dion/Geografia_Sicilia.md'
@@ -94,7 +94,7 @@ nav:
       - 'Lengua de Homero': 'Charlas/Lengua_Homer/Homero_Lengua.html'
   - ANKI: 
     - 'Alumnos': 'Herramientas/Anki.md'
-    - 'Presentación': 'Herramientas/Anki.md'
+    - 'Presentación': 'Herramientas/Anki_02.md'
   - 'Innova 2024-2025': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'

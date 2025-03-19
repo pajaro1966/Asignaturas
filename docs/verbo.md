@@ -247,7 +247,7 @@
 ![Default text](Verbos/elaunw_01.png)
 ![Default text](Verbos/elaunw_02.png)
 
-## 50. ἕννῡμι
+## 50. ἕννῡμι (visto) {#50}
 
 ![Default text](Verbos/ennumi_01.png)
 ![Default text](Verbos/ennumi_02.png)

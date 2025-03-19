@@ -12,7 +12,15 @@
 
 ## 116: 'Ένα ζευγάρι ετοιμάζει το σπίτι τους' (texto)
 
+<audio controls="controls">
+  <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
+</audio>
+
 ![Página 116](Metodo/Textbook_Pagina_116.png)
+
+<audio controls="controls">
+  <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
+</audio>
 
 ---
 

@@ -906,7 +906,7 @@
 
 ??? note  "(147) ὄφρ' ἥμιν ἑκάεργον ἱλάσσεαι ἱερὰ ῥέξας."
     - (147) **ἱερά**: η. pl. "víctimas".
-    - (147) **ἱλάσσεαι**: [subjuntivo](notas.md#o39)
+    - (147) **ἱλάσσεαι**: [subjuntivo](notas.md#o39):  ἱλάσσ-η/ε-σαι > ἱλάσσ-η/ε-αι > ἱλάσσ-ῇ.
 
 ---
 
@@ -915,8 +915,11 @@
 ??? note  "(148) Τὸν δ' ἄρ' ὑπόδρα ἰδὼν προσέφη πόδας ὠκὺς Ἀχιλλεύς·"
     - (148) **ὑπόδρα**: adv., lit. "mirando (cf. έδρακον) de abajo a arriba (ΰπο-)", "con torva mirada".
 
-??? note  "(149) ὤ μοι ἀναιδείην ἐπιειμένε κερδαλεόφρον"
+!!! note  "(149) «ὤ μοι ἀναιδείην ἐπιειμένε κερδαλεόφρον"
     - (149) **ἐπιειμένε**: [preverbios](notas.md#b15); "revestido de", con acusativo como los verbos que significan "vestirse"; en la concepción homérica, ciertas facultades son fuerzas externas que recubren a la persona (cf. ἐπιειμ. ἀλκήν, μένος ἀμφιβάλλειν, δύναμιν περιθεῖναι).
+        - ἐπιειμένε1: ἐπι-έν-νυμι 'sobre-vestir'. [ἕννυμι](verbo.md#50)
+        - ἐπιειμένε2: ἐφ-ίη-μι: ἐπι-ει-μέν-ε;
+        - ἐπιμένω ἐπ-έ-μεν-σα
 
 ??? note  "(150) πῶς τίς τοι πρόφρων ἔπεσιν πείθηται Ἀχαιῶν"
     - (150) **τις** (indef.)... Ἀχαιῶν.

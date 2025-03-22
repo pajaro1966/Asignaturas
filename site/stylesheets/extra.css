@@ -14,8 +14,9 @@
     font-size: 34px !important;
   }
 
-  div.admonition, details, article table {font-size: 28px !important;}
-
+  div.admonition, details, article table 
+  {font-size: 28px !important;}
+details.note {display:none;}
 /*
   article svg {
     font-size:22px;

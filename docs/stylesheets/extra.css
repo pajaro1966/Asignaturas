@@ -14,9 +14,14 @@
     font-size: 34px !important;
   }
 
-  div.admonition, details, article table {font-size: 28px !important;}
+  div.admonition, details, article table 
+  {font-size: 28px !important;}
 
+  div.danger {display:none !important;}
+span.mi_nota {color: blue; background-color: beige; vertical-align: super; font-size: smaller;}
 /*
+
+
   article svg {
     font-size:22px;
   }

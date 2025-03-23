@@ -14,13 +14,16 @@
     font-size: 34px !important;
   }
 
-  div.admonition, details, article table 
+  article table 
+  {font-size: 20px !important;}
+
+  div.admonition, details
   {font-size: 28px !important;}
 
   div.danger ul, div.danger ol {display:none !important;}
   details.danger ul, details.danger ol {display:none !important;}
   
-span.mi_nota {color: blue; background-color: beige; vertical-align: super; font-size: smaller; border: 1px solid red;}
+sup {color: blue; background-color: beige; font-size: 60%; border: 1px solid red;}
 /*
 
 

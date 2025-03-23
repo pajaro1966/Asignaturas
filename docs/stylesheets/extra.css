@@ -18,6 +18,8 @@
   {font-size: 28px !important;}
 
   div.danger ul, div.danger ol {display:none !important;}
+  details.danger ul, details.danger ol {display:none !important;}
+  
 span.mi_nota {color: blue; background-color: beige; vertical-align: super; font-size: smaller; border: 1px solid red;}
 /*
 

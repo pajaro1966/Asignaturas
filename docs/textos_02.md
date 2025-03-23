@@ -34,7 +34,7 @@
     - (5) ἐτελε**ί**ετο: (i) [yod](notas.md#c6); (ii) imperfecto durativo.  
 
 !!! note  "(6) ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε"
-    - (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).    
+    - (6) **ἐξ οὗ**: La oración temporal debe hacerse depender del imperativo del verso 1 : "canta. Musa, la cólera de Aquiles [comenzando] desde que A. y A. se distanciaron (aor. intransitivo)...", es decir, en el repertorio épico tradicional el aedo selecciona su canto (§ 2e).
     - (6) ἐρίσαντ-**ε**: [dual](notas.md#i18): ἔρις, ἔριδ-ος ἐρίδ-yω > ἐρίζω
     - (6) διαστή-**την**: [dual](notas.md#o42):ἀτ. δι-ε-στή-**την**. ἵστημι/ἵσταμαι > ἔ-στη-σα 'yo coloqué'/ἔ-στη-ν 'yo me coloqué/me levanté'.
 
@@ -736,7 +736,7 @@
     A-->|"OD<br>Ac"|F("ξυνήϊα ... πολλά<br>muchos objetos comunes")
     A-->|"Participio<br>Pred-OD<br>Ac"|G("κείμενα<br>existentes")
     G-->|"Lugar"|D("που<br>en algún lugar")
-        
+
     H("Oración")
     H-->I("οὐδέ<br>ni")
     H-->|"Intensidad"|J("τί<br>para nada")
@@ -839,7 +839,7 @@
     - **αὐτὰρ**: 'en cambio': contrasta el με con σύ.
 
 !!! note  "(134) ἧσθαι δευόμενον, κέλεαι δέ με τήνδ' ἀποδοῦναι;"
-    - (134) **ἧσθαι**: "estar sentado", es decir, "estar inactivo". 
+    - (134) **ἧσθαι**: "estar sentado", es decir, "estar inactivo".
     - (134) **δευόμενον**: [notación de wau](notas.md#c2): δευ-ό-μενον > át. δε-ό-μενον
 
 !!! note  "(135) ἀλλ' εἰ μὲν δώσουσι γέρας μεγάθυμοι Ἀχαιοὶ"
@@ -1001,63 +1001,61 @@
 ![Briseida](Imagenes/Briseis_Phoinix_Louvre_G152.jpg)
 [Museo del Louvre: copa ática de figuras rojas (± 490 a.C.): Briseida y Fénix](https://commons.wikimedia.org/wiki/File:Briseis_Phoinix_Louvre_G152.jpg)
 
+??? danger "(172) Τὸν δ' ἠμείβετ' ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·"
 
-
-??? note "(172) Τὸν δ' ἠμείβετ' ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·"
-
-??? note "(173) «φεῦγε μάλ' εἴ τοι θυμὸς ἐπέσσυται, οὐδέ σ' ἔγωγε"
+??? danger "(173) «φεῦγε μάλ' εἴ τοι θυμὸς ἐπέσσυται, οὐδέ σ' ἔγωγε"
     - (173) **μάλα**: únase al imperativo que precede, al que presta vigor; precisamente para no incurrir en el posible reproche de haber huido, Aquiles no se aleja de Troya, sino que, apartado del combate, permanece en sus naves.
     - (173) **εἴ τοι ...** : "si te ha sobrevenido el deseo".
     - (173) ἐπ**έ**-σσυ-ται: [aumento de perfecto](notas.md#o34): επι-σεύω.
 
-??? note "(174) λίσσομαι εἵνεκ' ἐμεῖο μένειν· πάρ' ἔμοιγε καὶ ἄλλοι"
+??? danger "(174) λίσσομαι εἵνεκ' ἐμεῖο μένειν· πάρ' ἔμοιγε καὶ ἄλλοι"
     - (174) **εἵ**νεκ': [alargamiento métrico](notas.md#b7).
     - (174) **ἐμεῖο**: [pronombres personales](notas.md#l1)
 
-??? note "(175) οἵ κέ με τιμήσουσι, μάλιστα δὲ μητίετα Ζεύς."
+??? danger "(175) οἵ κέ με τιμήσουσι, μάλιστα δὲ μητίετα Ζεύς."
     - (175) **κέ ... τιμήσουσι**: [futuro con ἄν](notas.md#t4)
     - (175) **μητίετα**: [nominativo masculino ᾰ](notas.md#g2).
     - (175) De Zeus, en efecto, los reyes han recibido su cetro y su poder.  - (176) **ἐσ-σι**: [εἰμί](notas.md#o5).
 
-??? note "(176) ἔχθιστος δέ μοί ἐσσι διοτρεφέων βασιλήων·"
+??? danger "(176) ἔχθιστος δέ μοί ἐσσι διοτρεφέων βασιλήων·"
 
-??? note "(177) αἰεὶ γάρ τοι ἔρις τε φίλη πόλεμοί τε μάχαι τε·"
+??? danger "(177) αἰεὶ γάρ τοι ἔρις τε φίλη πόλεμοί τε μάχαι τε·"
 
-??? note "(178) εἰ μάλα καρτερός ἐσσι, θεός που σοὶ τό γ' ἔδωκεν·"
+??? danger "(178) εἰ μάλα καρτερός ἐσσι, θεός που σοὶ τό γ' ἔδωκεν·"
     - (178) El verso es una clara ilustración de lo que se comenta en el glosario, s. v. μένος; el mérito no es, pues, de Aquiles.
     - (178) **τό**: "eso", tu valor, implicado en el adjetivo καρτερός.
 
-??? note "(179) οἴκαδ' ἰὼν σὺν νηυσί τε σῇς καὶ σοῖς ἑτάροισι"
+??? danger "(179) οἴκαδ' ἰὼν σὺν νηυσί τε σῇς καὶ σοῖς ἑτάροισι"
     - (179) **ἑτάροισι**: [vocalismo especial](notas.md#b18)
 
-??? note "(180) Μυρμιδόνεσσιν ἄνασσε, σέθεν δ' ἐγὼ οὐκ ἀλεγίζω,"
+??? danger "(180) Μυρμιδόνεσσιν ἄνασσε, σέθεν δ' ἐγὼ οὐκ ἀλεγίζω,"
     - (180) **Μυρμιδόν-εσσιν**: [dativo](notas.md#r2) r2d.
     - (180) σέ-**θεν**: [pronombres personales](notas.md#l1)
 
-??? note "(181) οὐδ' ὄθομαι κοτέοντος· ἀπειλήσω δέ τοι ὧδε·"
+??? danger "(181) οὐδ' ὄθομαι κοτέοντος· ἀπειλήσω δέ τοι ὧδε·"
     - (181) **ὄθομαι**: 'preocuparse de alguien (gen.)'.
     - (181) **κοτέοντος**: únase a σέθεν.
     - (181) **ἀπειλήσω**: en futuro, porque la amenaza se proyecta al porvenir.
 
-??? note "(182) ὡς ἔμ' ἀφαιρεῖται Χρυσηΐδα Φοῖβος Ἀπόλλων,"
+??? danger "(182) ὡς ἔμ' ἀφαιρεῖται Χρυσηΐδα Φοῖβος Ἀπόλλων,"
 
-??? note "(183) τὴν μὲν ἐγὼ σὺν νηΐ τ' ἐμῇ καὶ ἐμοῖς ἑτάροισι"
+??? danger "(183) τὴν μὲν ἐγὼ σὺν νηΐ τ' ἐμῇ καὶ ἐμοῖς ἑτάροισι"
     - (183) **τήν**: Criseida.
     - (183) **νηΐ**: [ναῦς](notas.md#i10)
 
-??? note "(184) πέμψω, ἐγὼ δέ κ' ἄγω Βρισηΐδα καλλιπάρῃον"
+??? danger "(184) πέμψω, ἐγὼ δέ κ' ἄγω Βρισηΐδα καλλιπάρῃον"
 
-??? note "(185) αὐτὸς ἰὼν κλισίην δὲ τὸ σὸν γέρας ὄφρ' ἐῢ εἰδῇς"
+??? danger "(185) αὐτὸς ἰὼν κλισίην δὲ τὸ σὸν γέρας ὄφρ' ἐῢ εἰδῇς"
 
-??? note "(186) ὅσσον φέρτερός εἰμι σέθεν, στυγέῃ δὲ καὶ ἄλλος"
+??? danger "(186) ὅσσον φέρτερός εἰμι σέθεν, στυγέῃ δὲ καὶ ἄλλος"
     - (186) **φέρτερός**: [comparativos](notas.md#k2); "más poderoso", comparativo homérico, sin positivo, formado sobre la raíz de φέρω; se ha sugerido (Palmer) que originariamente expresaba la noción de recibir más tributos (φόροι), lo que, al menos en este pasaje, conviene al wánax Agamenón y, en VI 158, al rey Preto.
     - (186) **στυγέω**: 'odiar'.
 
-??? note "(187) ἶσον ἐμοὶ φάσθαι καὶ ὁμοιωθήμεναι ἄντην.»"
+??? danger "(187) ἶσον ἐμοὶ φάσθαι καὶ ὁμοιωθήμεναι ἄντην.»"
     - (187) **ἐμοί**: cf. V. 163.
     - (187) **φάσθαι**: [φημί](notas.md#o7)
     - (187) **ὁμοιωθή-μεναι**: [infinitivo](notas.md#o40)
-    
+
 <!-- |172|Τὸν δ' ἠμείβετ' ἔπειτα ἄναξ ἀνδρῶν Ἀγαμέμνων·|
 
 |173|«φεῦγε μάλ' εἴ τοι θυμὸς ἐπέσσυται, οὐδέ σ' ἔγωγε|
@@ -1110,6 +1108,66 @@
 
 ## 1.188-205: Atenea se acerca a Aquiles para calmarlo
 
+??? danger "(188) Ὣς φάτο· Πηλεΐωνι δ' ἄχος γένετ', ἐν δέ οἱ ἦτορ"
+    - (188) **ἐν**: [preposiciones como adverbios](notas.md#m2).
+    - (188) **οἱ**: anafórico, dat. simpatètico, "su corazón".
+
+??? danger "(189) στήθεσσιν λασίοισι διάνδιχα μερμήριξεν,"
+    - (189) **στήθεσσιν**: [dativo](notas.md#r2) r2d.
+
+??? danger "(190) ἢ ὅ γε φάσγανον ὀξὺ ἐρυσσάμενος παρὰ μηροῦ"
+    - (190) **ὁ**: Aquiles.
+    - (190-192) **ἢ ... ἦε ...**: interrogativa indirecta doble.
+
+??? danger "(191) τοὺς μὲν ἀναστήσειεν, ὃ δ' Ἀτρεΐδην ἐναρίζοι,"
+    - (191) **τους μέν**: contrasta con Ἀτρ.
+    - (191) **ὁ**: Aquiles; άναστήσ.: aor. sigm. transitivo "hacer levantarse". "5 anterioridad de la acción verbal es sugerida por el contexto.
+    - (191) **ἀναστήσειεν**: [optativo oblicuo](notas.md#t10).
+    - (191) **ἐναρίζοι**: [optativo oblicuo](notas.md#t10).
+
+??? danger "(192) ἦε χόλον παύσειεν ἐρητύσειέ τε θυμόν."
+    - (192) **ἦε**: [conjunciones](notas.md#m3).
+
+??? danger "(193) ἧος ὃ ταῦθ' ὥρμαινε κατὰ φρένα καὶ κατὰ θυμόν,"
+    - (193) **ἧος**: [temporales](notas.md#u4).
+
+??? danger "(194) ἕλκετο δ' ἐκ κολεοῖο μέγα ξίφος, ἦλθε δ' Ἀθήνη"
+    - (194) **δ'**: [partículas apodóticas](notas.md#v1).
+
+??? danger "(195) οὐρανόθεν· πρὸ γὰρ ἧκε θεὰ λευκώλενος Ἥρη"
+    - (195) **οὐρανόθεν**: [-θεν](notas.md#j2).
+
+??? danger "(196) ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·"
+
+??? danger "(197) στῆ δ' ὄπιθεν, ξανθῆς δὲ κόμης ἕλε Πηλεΐωνα"
+    - (197) **ὄπιθεν**: [-θεν](notas.md#j4).
+    - (197) **ξανθῆς κόμης**: gen. con verbo de "tocar" o "agarrar" ; los héroes homéricos eran en su mayoría rubios, como procedentes de Europa Central (cf. XXIII 141).
+
+??? danger "(198) οἴῳ φαινομένη· τῶν δ' ἄλλων οὔ τις ὁρᾶτο·"
+
+??? danger "(199) θάμβησεν δ' Ἀχιλεύς, μετὰ δ' ἐτράπετ', αὐτίκα δ' ἔγνω"
+    - (199) **θάμβησεν**: aor. ingresivo, "se quedó pasmado".
+
+??? danger "(200) Παλλάδ' Ἀθηναίην· δεινὼ δέ οἱ ὄσσε φάανθεν·"
+    - (200) **δεινὼ**: [dual -ω/-οιιν](notas.md#h5); predicado..
+    - (200) **οἱ**: anafórico, dat. simpatètico, "sus ojos".
+    - (200) **ὄσσε**: [dual](notas.md#i18).
+    - (200) **φάανθεν·**: [diéctasis](notas.md#b12); [libertad de concordancia con duales](notas.md#q1).
+
+??? danger "(201) καί μιν φωνήσας ἔπεα πτερόεντα προσηύδα·"
+
+??? danger "(202) «τίπτ' αὖτ' αἰγιόχοιο Διὸς τέκος εἰλήλουθας;"
+    - (202) **εἰλήλουθας**: [perfecto](notas.md#o28)
+
+??? danger "(203) ἦ ἵνα ὕβριν ἴδῃ Ἀγαμέμνονος Ἀτρεΐδαο;"
+
+??? danger "(204) ἀλλ' ἔκ τοι ἐρέω, τὸ δὲ καὶ τελέεσθαι ὀΐω·"
+
+??? danger "(205) ᾗς ὑπεροπλίῃσι τάχ' ἄν ποτε θυμὸν ὀλέσσῃ»."
+    - (205) **ᾗς**: [posesivos](notas.md#l2)
+    - (205) **ὀλέσσῃ**: [subjuntivo eventual en principal](notas.md#t2)
+
+<!--
 |V|GRIEGO|
 |:---:|---|
 |188|Ὣς φάτο· Πηλεΐωνι δ' ἄχος γένετ', ἐν δέ οἱ ἦτορ|
@@ -1156,6 +1214,7 @@
 - (202) **εἰλήλουθας**: [perfecto](notas.md#o28)  
 - (205) **ᾗς**: [posesivos](notas.md#l2)  
 - (205) **ὀλέσσῃ**: [subjuntivo eventual en principal](notas.md#t2)  
+-->
 
 ![Egisto asesina a Agamenón](Imagenes/Egisto_Agamenon_SC88757.jpg)
 ![Egisto asesina a Agamenón](Imagenes/Egisto_Agamenon_SC88757_Roll_Out.png)
@@ -1166,6 +1225,44 @@
 
 ## 1.206-214: discurso de Atenea
 
+??? danger "(206) Τὸν δ' αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·"
+
+??? danger "(207) «ἦλθον ἐγὼ παύσουσα τὸ σὸν μένος, αἴ κε πίθηαι,"
+    - (207) **παύσουσα**: part. fut. desiderativo equivalente a una construcción final.
+
+??? danger "(208) οὐρανόθεν· πρὸ δέ μ' ἧκε θεὰ λευκώλενος Ἥρη"
+
+??? danger "(209) ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·"
+
+??? danger "(210) ἀλλ' ἄγε λῆγ' ἔριδος, μηδὲ ξίφος ἕλκεο χειρί·"
+
+??? danger "(211) ἀλλ' ἤτοι ἔπεσιν μὲν ὀνείδισον ὡς ἔσεταί περ·"
+    - (211) **ἔσεταί**: [εἰμί](notas.md#o5)
+    - (211) **ὀνείδισον ὡς ...**: "dile en son de reproche cómo va a suceder".
+      - "dile en son de reproche **cómo**/**la manera en que** va a suceder".
+    - (211) **ὡς ἔσεται**:Traducciones:
+      - Seymour: «**as opportunity shall offer**.»
+    - Estalella: «é injúriale de palabra **como te parezca**.»
+    - Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
+    - Crespo (Gredos): «Mas si, injúrialo de palabra e indícale **lo que sucederá**.»
+      - Hom.Od. 19.312: ἀλλά μοι ὧδ᾽ ἀνὰ θυμὸν ὀΐεται, **ὡς ἔσεταί περ**
+    - Murray (Loeb): «Yet in my heart I forebode it thus, even as it shall be.».
+    - Estalella: «Pero mi ánimo presiente lo que ha de ocurrir.»
+      - Hom.Od. 21.212 σφῶϊν δ', **ὡς ἔσεταί περ**, ἀληθείην καταλέξω·
+    - Murray (Loeb): «But to you two will I tell the truth, even as it shall be.».
+    - Estalella: «Os voy á revelar con sinceridad lo que ha de llevarse á efecto».
+
+??? danger "(212) ὧδε γὰρ ἐξερέω, τὸ δὲ καὶ τετελεσμένον ἔσται·"
+
+??? danger "(213) καί ποτέ τοι τρὶς τόσσα παρέσσεται ἀγλαὰ δῶρα"
+    - (213) **τοι**: pron., regido por el preverbio παρ-.
+    - (213) **παρέσσεται**: [εἰμί](notas.md#o5).
+    - (213-214) Kirk: «213-14 Actually Akhilleus will receive far more than the value of Briseis, if she can be so valued; 24.686 suggests that 'three times' is a conventional factor, which also has legal overtones (cf. 128 and comment, also on 203), as well as reinforcing the passionate sibilation. The resumptive σὺ δ᾽ἴσχεο... provides typical closing contrast after the more leisurely pace and discursive tone of the preceding verse-and-a-half.»
+
+??? danger "(214) ὕβριος εἵνεκα τῆσδε· σὺ δ' ἴσχεο, πείθεο δ' ἡμῖν.»"
+    - (214) **ἡμῖν**: Atena y Hera, que la había enviado (cf. vv. 195, 208).
+
+<!--
 |V|GRIEGO|
 |:---:|---|
 |206|Τὸν δ' αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·|
@@ -1184,8 +1281,7 @@ NOTAS
 - (211) **ἔσεταί**: [εἰμί](notas.md#o5)  
 - (211) **ὀνείδισον ὡς ...**: "dile en son de reproche cómo va a suceder".
   - "dile en son de reproche **cómo**/**la manera en que** va a suceder".
-- (211) **ὡς ἔσεται**:
-  - Traducciones:
+- (211) **ὡς ἔσεται**: Traducciones:
 - Seymour: «**as opportunity shall offer**.»
 - Estalella: «é injúriale de palabra **como te parezca**.»
 - Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
@@ -1200,6 +1296,7 @@ NOTAS
 - (213) **παρέσσεται**: [εἰμί](notas.md#o5).
 - (213-214) Kirk: «213-14 Actually Akhilleus will receive far more than the value of Briseis, if she can be so valued; 24.686 suggests that 'three times' is a conventional factor, which also has legal overtones (cf. 128 and comment, also on 203), as well as reinforcing the passionate sibilation. The resumptive σὺ δ᾽ἴσχεο... provides typical closing contrast after the more leisurely pace and discursive tone of the preceding verse-and-a-half.»
 - (214) **ἡμῖν**: Atena y Hera, que la había enviado (cf. vv. 195, 208).  
+-->
 
 ---
 
@@ -1207,6 +1304,33 @@ NOTAS
 
 ![Aquiles y Agamenón](Imagenes/Achilles_Agamemnon_Pompei_mosaic_NAMNaples_10006.jpeg)  
 
+??? danger "(215) Τὴν δ' ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·"
+
+??? danger "(216) «χρὴ μὲν σφωΐτερόν γε θεὰ ἔπος εἰρύσσασθαι"
+    - (216) **σφωΐτερόν**: [posesivos](notas.md#l2).
+    - (216) **εἰρύσσασθαι**: [ῥύομαι, ἔρυμαι](notas.md#o10).
+    - (216) Como sujeto en acusativo del infinitivo puede sobreentenderse la primera persona.
+
+??? danger "(217) καὶ μάλα περ θυμῷ κεχολωμένον· ὧς γὰρ ἄμεινον·"
+    - (217) **περ**: [condicionales y concesivas](notas.md#u7).
+
+??? danger "(218) ὅς κε θεοῖς ἐπιπείθηται μάλα τ' ἔκλυον αὐτοῦ»."
+    - (218) **ὅς**: refiérase a αὐτοῦ.
+    - (218) **τ'**: [τε](notas.md#m4)
+    - (218) **κλυον**: aor. gnómico o general; no indica tiempo pasado y lleva generalmente aumento; sujeto "los dioses".
+
+??? danger "(219) Ἦ καὶ ἐπ' ἀργυρέῃ κώπῃ σχέθε χεῖρα βαρεῖαν,"
+    - (219) **Ἦ**: [ἦ](notas.md#o3).
+
+??? danger "(220) ἂψ δ' ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδ' ἀπίθησε"
+
+??? danger "(221) μύθῳ Ἀθηναίης· ἣ δ' Οὔλυμπον δὲ βεβήκει"
+    - (221) **βεβήκει**: [desinencias personales](notas.md#o41); [perfecto pro presente](notas.md#t1); perfecto intensivo, "se marchó a grandes pasos" (contrastar con V . 37).
+
+??? danger "(222) δώματ' ἐς αἰγιόχοιο Διὸς μετὰ δαίμονας ἄλλους."
+    - (222) **μετὰ**: [particularidades de las preposiciones](notas.md#s1)
+
+<!--
 |V|GRIEGO|
 |:---:|---|
 |215|Τὴν δ' ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·|
@@ -1230,11 +1354,78 @@ NOTAS
 - (219) **Ἦ**: [ἦ](notas.md#o3).  
 - (221) **βεβήκει**: [desinencias personales](notas.md#o41); [perfecto pro presente](notas.md#t1); perfecto intensivo, "se marchó a grandes pasos" (contrastar con V . 37).  
 - (222) **μετὰ**: [particularidades de las preposiciones](notas.md#s1)  
+-->
 
 ---
 
 ## 1.223-244: Aquiles se dirige a Agamenón y abandona la lucha
 
+??? danger "(223) Πηλεΐδης δ' ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν"
+
+??? danger "(224) Ἀτρεΐδην προσέειπε, καὶ οὔ πω λῆγε χόλοιο·"
+
+??? danger "(225) «οἰνοβαρές, κυνὸς ὄμματ' ἔχων, κραδίην δ' ἐλάφοιο,"
+    - (225) **κυνός**: cf. v. 159.
+    - (225) **κραδίην**: [vocalismo de sonantes](notas.md#b3).
+
+??? danger "(226) οὔτέ ποτ' ἐς πόλεμον ἅμα λαῷ θωρηχθῆναι"
+    - (226) **λαῷ**: [dativo](notas.md#r2).
+
+??? danger "(227) οὔτε λόχον δ' ἰέναι σὺν ἀριστήεσσιν Ἀχαιῶν"
+    - (227) **λόχον δ'**: [-δε](notas.md#j7); **λόχος**: es la emboscada o golpe de mano, verdadera prueba de valor reservada sólo a los mejores.
+
+??? danger "(228) τέτληκας θυμῷ· τὸ δέ τοι κὴρ εἴδεται εἶναι."
+    - (228) **τὸ**: "eso".
+
+??? danger "(229) ἦ πολὺ λώϊόν ἐστι κατὰ στρατὸν εὐρὺν Ἀχαιῶν"
+    - (229) **λώϊόν**: [comparativos](notas.md#k2).
+
+??? danger "(230) δῶρ' ἀποαιρεῖσθαι ὅς τις σέθεν ἀντίον εἴπῃ·"
+    - (230) **ἀποαιρεῖσθαι**: [preverbios](notas.md#b15).
+    - (230) **σέθεν**: [pronombres personales](notas.md#l1).
+    - (230) **εἴπῃ·**: [subjuntivo eventual en subordinada](notas.md#t3).
+
+??? danger "(231) δημοβόρος βασιλεὺς ἐπεὶ οὐτιδανοῖσιν ἀνάσσεις·"
+    - (231) οὐτιδαν**οῖσιν**: [dativo](notas.md#r2).
+
+??? danger "(232) ἦ γὰρ ἂν, Ἀτρεΐδη, νῦν ὕστατα λωβήσαιο."
+
+??? danger "(233) ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι·"
+
+??? danger "(234) ναὶ μὰ τόδε σκῆπτρον, τὸ μὲν οὔ ποτε φύλλα καὶ ὄζους"
+    - (234) **τὸ**: [ὁ, ἡ, τό](notas.md#l4) l4c.
+
+??? danger "(235) φύσει, ἐπεὶ δὴ πρῶτα τομὴν ἐν ὄρεσσι λέλοιπεν,"
+
+??? danger "(236) οὐδ' ἀναθηλήσει· περὶ γάρ ῥά ἑ χαλκὸς ἔλεψε"
+    - (236) **ῥά**: [conjunciones](notas.md#m3).
+    - (236) **ἑ**: [pronombres personales](notas.md#l1)
+
+??? danger "(237) φύλλά τε καὶ φλοιόν· νῦν αὖτέ μιν υἷες Ἀχαιῶν"
+
+??? danger "(238) ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας"
+    - (238) **τε**: [relativas](notas.md#u1)
+
+??? danger "(239) πρὸς Διὸς εἰρύαται· ὃ δέ τοι μέγας ἔσσεται ὅρκος·"
+    - (239) **εἰρύαται·**: [desinencias personales](notas.md#o41); [ῥύομαι, ἔρυμαι](notas.md#o10).
+    - (239) **ἔσσεται**: [εἰμί](notas.md#o5).
+
+??? danger "(240) ἦ ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν"
+    - (240) **ἵξεται**: [acusativo](notas.md#r3).
+
+??? danger "(241) σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ"
+    - (241) **περ**: [condicionales y concesivas](notas.md#u7): concesivo ≈ át. καίπερ.
+    - (241) **ἂν**: [temporales](notas.md#u4)
+
+??? danger "(242) χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο"
+
+??? danger "(243) θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις"
+    - (243) ἔνδο**θι**: [-θι](notas.md#j5)
+
+??? danger "(244) χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας."
+    - (244) **τ'**: [causales](notas.md#u8); [completivas declarativas](notas.md#u9)
+
+<!--
 |V|GRIEGO|
 |:---:|---|
 |223|Πηλεΐδης δ' ἐξαῦτις ἀταρτηροῖς ἐπέεσσιν|
@@ -1265,7 +1456,8 @@ NOTAS
 - (225) **κυνός**: cf. v. 159.  
 - (225) **κραδίην**: [vocalismo de sonantes](notas.md#b3).  
 - (226) **λαῷ**: [dativo](notas.md#r2).  
-- (227) **λόχον δ'**: [-δε](notas.md#j7); **λόχος**: es la emboscada o golpe de mano, verdadera prueba de valor reservada sólo a los mejores.  
+- (227) **λόχον δ'**: [-δε](notas.md#j7); **λόχος**: es la emboscada o golpe de mano, verdadera prueba de valor reservada sólo a los mejores.
+- (228) **τὸ**: "eso".   
 - (229) **λώϊόν**: [comparativos](notas.md#k2).  
 - (230) **ἀποαιρεῖσθαι**: [preverbios](notas.md#b15).  
 - (230) **σέθεν**: [pronombres personales](notas.md#l1).  
@@ -1281,8 +1473,8 @@ NOTAS
 - (241) **περ**: [condicionales y concesivas](notas.md#u7): concesivo ≈ át. καίπερ.
 - (241) **ἂν**: [temporales](notas.md#u4)  
 - (243) ἔνδο**θι**: [-θι](notas.md#j5)  
-- (244) **τ'**: [causales](notas.md#u8); [completivas declarativas](notas.md#u9)  
-- (228) **τὸ**: "eso".  
+- (244) **τ'**: [causales](notas.md#u8); [completivas declarativas](notas.md#u9)   
+-->
 
 ---
 

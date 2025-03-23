@@ -974,6 +974,7 @@
 καὶ νουθετῶν κατηγορεῖν ἐδόκει καὶ μὴ συνεξαμαρτάνων καταφρονεῖν.
 
 !!! danger "Temporalmente oculto"
+    1. Nota
     ```mermaid
     graph TB
     A(Discurso)-->B("Discurso precedente")-->B1("&nbsp;")

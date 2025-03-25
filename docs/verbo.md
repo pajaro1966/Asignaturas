@@ -1,12 +1,12 @@
 # Manual práctico de morfología verbal griega
 
-## 1. ἀγγέλλω
+## 1. ἀγγέλλω {#1}
 
 ![Image](Verbos/aggellw.png)
 
 ---
 
-## 2. ἀγείρω (visto)
+## 2. ἀγείρω (visto) {#2}
 
 ![ἀγείρω](Verbos/ageirw_01.png)
 
@@ -14,13 +14,13 @@
 
 ---
 
-## 3. ἄγνυμι
+## 3. ἄγνυμι {#3}
 
 ![Default text](Verbos/agnumi.png)
 
 ---
 
-## 4. ἄγω (visto)
+## 4. ἄγω (visto) {#4}
 
 ![ἄγω](Verbos/agw_01.png)
 ![ἄγω](Verbos/agw_02.png)
@@ -232,17 +232,17 @@
 ![Default text](Verbos/ezomai_01.png)
 ![Default text](Verbos/ezomai_02.png)
 
-## 47. εἰμι (visto)
+## 47. εἰμι (visto) {#eimi}
 
 ![Default text](Verbos/eimi_ser_01.png)
 ![Default text](Verbos/eimi_ser_02.png)
 
-## 48. εἶμι (visto)
+## 48. εἶμι (visto) {#48}
 
 ![Default text](Verbos/eimi_ir_01.png)
 ![Default text](Verbos/eimi_ir_02.png)
 
-## 49. ἐλαύνω
+## 49. ἐλαύνω (visto) {#49}
 
 ![Default text](Verbos/elaunw_01.png)
 ![Default text](Verbos/elaunw_02.png)
@@ -292,7 +292,7 @@
 ![Default text](Verbos/thnhskw_01.png)
 ![Default text](Verbos/thnhskw_02.png)
 
-## 60. ἵημι (visto)
+## 60. ἵημι (visto) {#60}
 
 ![Default text](Verbos/ihmi_01.png)
 ![Default text](Verbos/ihmi_02.png)

@@ -915,7 +915,11 @@
 ??? note  "(148) Τὸν δ' ἄρ' ὑπόδρα ἰδὼν προσέφη πόδας ὠκὺς Ἀχιλλεύς·"
     - (148) **ὑπόδρα**: adv., lit. "mirando (cf. έδρακον) de abajo a arriba (ΰπο-)", "con torva mirada".
 
+<<<<<<< HEAD
 ??? note  "(149) «ὤ μοι ἀναιδείην ἐπιειμένε κερδαλεόφρον,"
+=======
+??? note  "(149) «ὤ μοι ἀναιδείην ἐπιειμένε κερδαλεόφρον"
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
     - (149) **ἐπιειμένε**: [preverbios](notas.md#b15); "revestido de", con acusativo como los verbos que significan "vestirse"; en la concepción homérica, ciertas facultades son fuerzas externas que recubren a la persona (cf. ἐπιειμ. ἀλκήν, μένος ἀμφιβάλλειν, δύναμιν περιθεῖναι).
         - ἐπιειμένε1: ἐπι-έν-νυμι 'sobre-vestir'; [ἕννυμι](verbo.md#50)
         - ἐπιειμένε2: ἐφ-ίη-μι: ἐπι-ει-μέν-ε;  [ἵημι](verbo.md#60)
@@ -929,6 +933,7 @@
     - (151) **ἶφι**: [-φι](notas.md#j1)
     - (151) **όδόν**: acus. interno.
 
+<<<<<<< HEAD
 ??? note  "(152) οὐ γὰρ ἐγὼ Τρώων ἕνεκ' ἤλυθον αἰχμητάων"
     - (152) **ἤλυθον**: [ἔρχομαι](notas.md#o23): [temas](verbo.md#48)
     - (152) **αἰχμητάων**: [yod](notas.md#c6): αἰχμητ**ά**-**ω**ν > αἰχμητ**ῶ**ν
@@ -952,10 +957,32 @@
       - ὄρος, ὄρους (ὄρεσ-ος); οὔρος
       - ὀρεύς, Ion. οὐρεύς, έως, ὁ
       - οὐρά, Ion. οὐρή, ἡ
+=======
+??? danger  "(152) οὐ γὰρ ἐγὼ Τρώων ἕνεκ' ἤλυθον αἰχμητάων"
+    - (152) **ἤλυθον**: [ἔρχομαι](notas.md#o23)
+    - (152) **αἰχμητάων**: [yod](notas.md#c6): ????
+
+??? danger  "(153) δεῦρο μαχησόμενος, ἐπεὶ οὔ τί μοι αἴτιοί εἰσιν·"
+    - (153) **μαχησόμενος**: [futuro](notas.md#o27)
+    - (153) **οὔ τι**: acus. adv., "en nada".
+
+??? danger  "(154) οὐ γὰρ πώποτ' ἐμὰς βοῦς ἤλασαν οὐδὲ μὲν ἵππους,"
+    - (154) **βοῦς**: [βοῦς](notas.md#i11); "vacas", según se deduce del género del posesivo; el robar ganado y el arrasar campos era frecuentemente causa de guerra.
+
+??? danger  "(155) οὐδέ ποτ' ἐν Φθίῃ ἐριβώλακι βωτιανείρῃ"
+    - (155) **ἐρι-**: prefijo con valor intensivo o ponderativo.
+
+??? danger  "(156) καρπὸν ἐδηλήσαντ', ἐπεὶ ἦ μάλα πολλὰ μεταξὺ"
+    - (156) **καρτιός**: "fruto"; aquí, entiéndase "los sembrados y las plantaciones".
+
+??? danger  "(157) οὔρεά τε σκιόεντα θάλασσά τε ἠχήεσσα·"
+    - (157) **οὔρεά**: [alargamiento métrico](notas.md#b7)
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
     - (157) **σκιόεντα**: adjetivación no ornamental; los montes son "umbrosos" gracias al abundante arbolado, cf. v. 156.
     - (157) **σκιόεντα**: [εις, εσσα, εν](notas.md#k6) σκιά 'sombra' > σκιά + εις/εσσα/εν > σκιόεις, εσσα, εν
     - (157) **ἠχήεσσα**: [εις, εσσα, εν](notas.md#k6): ἦχος/ἠχή 'sonido' > ἠχή + εις/εσσα/εν > σκιόεις, εσσα, εν.
 
+<<<<<<< HEAD
 ??? note  "(158) ἀλλὰ σοὶ, ὦ μέγ' ἀναιδὲς, ἅμ' ἑσπόμεθ' ὄφρα σὺ χαίρῃς,"
     - (158) **ἑσπόμεθ'**: [aoristos temáticos reduplicados](notas.md#o21)
 
@@ -973,24 +1000,52 @@
     - (162) **ἔπι**: [anástrofe](notas.md#s2)
 
 ??? note  "(163) οὐ μὲν σοί ποτε ἶσον ἔχω γέρας ὁππότ' Ἀχαιοὶ"
+=======
+??? danger  "(158) ἀλλὰ σοὶ ὦ μέγ' ἀναιδὲς ἅμ' ἑσπόμεθ' ὄφρα σὺ χαίρῃς,"
+    - (158) **ἑσπόμεθ'**: [aoristos temáticos reduplicados](notas.md#o21)
+
+??? danger  "(159) τιμὴν ἀρνύμενοι Μενελάῳ σοί τε κυνῶπα"
+    - (159) **ἀρνύμενοι**: tema de presente con sentido de conato, "intentando conseguir".
+    - (159) **κυνῶπα**: [nominativo masculino η](notas.md#g3); "cara de perro", animal modelo de desvergüenza.
+
+??? danger  "(160) πρὸς Τρώων· τῶν οὔ τι μετατρέπῃ οὐδ' ἀλεγίζεις·"
+
+??? danger  "(161) καὶ δή μοι γέρας αὐτὸς ἀφαιρήσεσθαι ἀπειλεῖς,"
+
+??? danger  "(162) ᾧ ἔπι πολλὰ μόγησα, δόσαν δέ μοι υἷες Ἀχαιῶν."
+    - (162) **ᾧ**: tiene por antecedente γέρας.
+    - (162) **ἔπι**: [anástrofe](notas.md#s2)
+
+??? danger  "(163) οὐ μὲν σοί ποτε ἶσον ἔχω γέρας ὁππότ' Ἀχαιοὶ"
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
     - (163) **σοί**: dat. con adjetivo de igualdad o semejanza, "igual que tú".
     - (163) **ἶσον**: [-σϝ-](notas.md#c5)
     - **ὁππότ' ... ἐκπέρσωσ'**: ὁπότε. En ático se esperaría ἄν + subjuntivo para indicar repetición: 'cada vez que saquean ...'.
 
+<<<<<<< HEAD
 ??? note  "(164) Τρώων ἐκπέρσωσ' εὖ ναιόμενον πτολίεθρον·"
+=======
+??? danger  "(164) Τρώων ἐκπέρσωσ' εὖ ναιόμενον πτολίεθρον·"
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
     - (164) **ἐκπέρσωσ'**: [temporales](notas.md#u4)
     - (164) **πτολίεθρον**: [π-/πτ-](notas.md#e5)
 
 ??? danger  "(165) ἀλλὰ τὸ μὲν πλεῖον πολυάϊκος πολέμοιο"
 
 ??? danger  "(166) χεῖρες ἐμαὶ διέπουσ'· ἀτὰρ ἤν ποτε δασμὸς ἵκηται,"
+<<<<<<< HEAD
     - **ἀτὰρ**: responde a μέν.
+=======
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
 
 ??? danger  "(167) σοὶ τὸ γέρας πολὺ μεῖζον, ἐγὼ δ' ὀλίγον τε φίλον τε"
     - (167) **ὀλίγον τε φίλον τε (γέρας)**: expresión afectiva.
 
 ??? danger  "(168) ἔρχομ' ἔχων ἐπὶ νῆας, ἐπεί κε κάμω πολεμίζων."
+<<<<<<< HEAD
     - **ἐπεί κε κάμω**: 'cada vez que yo ...'. Ático ἐπεί +  ἄν > ἐπάν/ἐπήν
+=======
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
 
 ??? danger  "(169) νῦν δ' εἶμι Φθίην δ', ἐπεὶ ἦ πολὺ φέρτερόν ἐστιν"
     - (169) **φέρτερόν**: [comparativos](notas.md#k2)
@@ -1001,8 +1056,12 @@
     - (170) **ἴμεν**: [infinitivo](notas.md#o40)
 
 ??? danger  "(171) ἐνθάδ' ἄτιμος ἐὼν ἄφενος καὶ πλοῦτον ἀφύξειν."
+<<<<<<< HEAD
     - (171) **ἐὼν**: [εἰμί](notas.md#o5); [temas](verbo.md#eimi)
     - **ἀφύξειν**: ἀφύ**G**-**y**ω > ἀφύ**σσ**ω.
+=======
+    - (171) **ἐὼν**: [εἰμί](notas.md#o5)
+>>>>>>> 9f7da4a7c73b1adef6de05a261443cea39ee60c0
 
 ---
 

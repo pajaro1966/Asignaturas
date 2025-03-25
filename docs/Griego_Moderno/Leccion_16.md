@@ -28,7 +28,7 @@
 
 ---
 
-## 117: 'Οι πρώτες δυσκολίες' (texto 1:08)
+## 117: 'Οι πρώτες δυσκολίες' (texto)/Μέλλοντας 
 
 <audio controls="controls">
   <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>

@@ -135,43 +135,43 @@ Hermann Ebbinghaus
 
 - Mazos
 
-![Anki](/Herramientas/Anki_Imagines/Anki_General.png)
+![Anki](Anki_Imagines/Anki_General.png)
 
 - Añadir
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Anadir.png)
+![Anki](Anki_Imagines/Anki_Anadir.png)
 
 - Explorar
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Explorar.png)
+![Anki](Anki_Imagines/Anki_Explorar.png)
 
 - Estadísticas
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas.png)
+![Anki](Anki_Imagines/Anki_Estadisticas.png)
 
 - Sincronizar
 
-![Anki](/Herramientas/Anki_Imagines/Anki_General.png)
+![Anki](Anki_Imagines/Anki_General.png)
 
 - Descargar mazos compartidos
 
 https://ankiweb.net/shared/decks
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Mazos_Compartidos.png)
+![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
 
 - Crear mazos
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Crear_Mazo.png)
+![Anki](Anki_Imagines/Anki_Crear_Mazo.png)
 
 - Importar mazos
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Importar.png)
+![Anki](Anki_Imagines/Anki_Importar.png)
 
 ---
 
 ### 1.3.2. Mazos: estudio
 
-![Anki](/Herramientas/Anki_Imagines/Anki_General.png)
+![Anki](Anki_Imagines/Anki_General.png)
 
 #### 1.3.2.1. Selección del curso
 
@@ -186,7 +186,7 @@ Vamos a bajarnos un curso:
 
 Seleccionamos el curso que deseemos y aparece esta pantalla:
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estudio_Inicio.png)
+![Anki](Anki_Imagines/Anki_Estudio_Inicio.png)
 
 Nos indica los siguientes datos:
 
@@ -200,11 +200,11 @@ Anki no solo presenta **tarjetas nuevas** cada día (de acuerdo con nuestras opc
 
 Anki nos presenta el anverso de la tarjeta que queremos estudiar (la interfaz puede cambiar de curso a curso):
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estudio_Front.png)
+![Anki](Anki_Imagines/Anki_Estudio_Front.png)
 
 Dependiendo del tipo de tarjeta que tengamos (básica, cloze, type, etc.), tendremos que reaccionar con una acción determinada. Una vez que hayamos respondido a la pregunta, comprobamos la respuesta correcta pulsando "Mostrar respuesta" y esta aparece con un nuevo menú en la parte inferior:
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estudio_Back.png)
+![Anki](Anki_Imagines/Anki_Estudio_Back.png)
 
 El usuario debe ahora decidir si se sabe o no el contenido de la tarjeta y puntuar el resultado: "Otra vez" (mal), "Difícil" (algo mejor), "Bien" ("mejor") y "Fácil". Hay otras posibilidades.
 
@@ -215,7 +215,7 @@ Si se detecta algún error, el usuario puede corregir la tarjeta.
 
 Hay otras opciones:
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estudio_Opciones.png)
+![Anki](Anki_Imagines/Anki_Estudio_Opciones.png)
 
 Yo no me complico la vida: si me la sé, marco "Bien". Si no, marco "Otra vez". Si la palabra es demasiado fácil y se quiere dejar de estudiar para que no incremente el número de repasos, se puede "Enterrar" o "Suspender".
 
@@ -223,7 +223,7 @@ Yo no me complico la vida: si me la sé, marco "Bien". Si no, marco "Otra vez". 
 
 Se pueden añadir notas y tarjetas una a una mediante la pantalla "Añadir":
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Anadir.png)
+![Anki](Anki_Imagines/Anki_Anadir.png)
 
 Hay que comprobar que se añade al mazo de tarjetas deseado y que el tipo de nota es el que se pretende. Como se verá más adelante, la misma **nota** puede tener más de un **tipo de tarjeta**.
 
@@ -235,7 +235,7 @@ Esta manera de introducir los datos es lenta y pesada. Es mejor crear una tabla 
 
 La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki:
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Explorar_02.png)
+![Anki](Anki_Imagines/Anki_Explorar_02.png)
 
 1. Búsquedas guardadas.
 2. Hoy.
@@ -247,11 +247,11 @@ La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki:
 
 El apartado "Mazos" contiene un listado de todos los mazos y se puede ver dentro de ellos las "Notas" y las "Tarjetas".
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Explorar_Mazos.png)
+![Anki](Anki_Imagines/Anki_Explorar_Mazos.png)
 
 El apartado contiene los tipos de notas: básico, básico
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Explorar_Tipos_Notas.png)
+![Anki](Anki_Imagines/Anki_Explorar_Tipos_Notas.png)
 
 Anki tiene diferentes tipos de notas. Estos tipos se pueden modificar para crear otros nuevos.
 
@@ -354,40 +354,40 @@ Presenta dos modalidades principales: tarjetas básicas unidireccionales y bidir
 
 Esta opción permite ocultar una o más partes del campo frontal (mediante la etiqueta {{c1::XXXX}}):
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_01_C.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_01_C.png)
 
 Al mostrarse la tarjeta la sección del campo marcada queda oculta:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_01.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_01.png)
 
 Al solicitar la respuesta la secuencia oculta se descubre y destaca:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_01_B.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_01_B.png)
 
 Se puede ocultar más de un elemento por campo con cloze. En este caso se crearán tantas tarjetas como elementos hayan sido ocultados:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_02_A.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02_A.png)
 
 Y se crean tantas tarjetas (dos en el ejemplo, ver el azul) como elementos ocultados, aunque haya solo una nota (ver en verde "Notas"):
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_02.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02.png)
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_02_E.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02_E.png)
 
 Y, por tanto, dos preguntas:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_02_B.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02_B.png)
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_02_C.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02_C.png)
 
 
 Se pueden ocultar con Cloze tantos elementos de un mismo campo como se quiera. En el siguiente ejemplos se han marcado 15 elementos de una tabla html para crear y poder estudiar el paradigma completo de ἄνθρωπος. Los colores de la raíz muestran el cambio de acentuación de acuerdo con la longitud de la final:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_Anthropos.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_Anthropos.png)
 
 Esta única nota permite la creación de 15 tarjetas con todas las formas del paradigma de ἄνθρωπος:
 
-![Cloze 1](/Herramientas/Anki_Imagines/Anki_Tipos_Cloze_Anthropos_B.png)
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_Anthropos_B.png)
 
 ##### 1.3.4.2.3. Type
 
@@ -408,17 +408,17 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 
 ### 1.3.5. Estadísticas
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_01.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_01.png)
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_02.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_02.png)
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_03.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_03.png)
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_04.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_04.png)
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_05.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_05.png)
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Estadisticas_06.png)
+![Anki](Anki_Imagines/Anki_Estadisticas_06.png)
 
 ### 1.3.6. Sincronizar
 
@@ -426,12 +426,12 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 
 https://ankiweb.net/shared/decks
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Mazos_Compartidos.png)
+![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
 
 ### 1.3.8. Crear mazos
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Crear_Mazo.png)
+![Anki](Anki_Imagines/Anki_Crear_Mazo.png)
 
 ### 1.3.9. Importar mazos
 
-![Anki](/Herramientas/Anki_Imagines/Anki_Importar.png)
+![Anki](Anki_Imagines/Anki_Importar.png)

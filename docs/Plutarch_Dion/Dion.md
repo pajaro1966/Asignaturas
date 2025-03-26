@@ -787,9 +787,7 @@
 
 ??? note "Temporalmente oculto"
     1. φαίνῃ ... εὑρηκώς: φαίνομαι + participio/infinitivo.
-          1. φαίν-ῃ; 
-          1. φαίν-ε-σαι > φαίν-ῃ/φαίν-ει 
-          2. φαίν-η-σαι > φαίν-ῃ
+          1. Morfología: (a) φαίν-ῃ; (b) φαίν-ε-σαι > φαίν-ῃ/φαίν-ει (c)φαίν-η-σαι > φαίν-ῃ
           3. φαίνομαι εὑρηκώς (participio): 'se ve que lo has encontrado' > **certidumbre epistémica** 'está claro que lo has encontrado'.
           4. φαίνομαι εὑρηκέναι (infinitivo): 'parece que lo has encontrado' > **incertidumbre epistémica** 'puede que lo hayas encontrado'. = δοκέω1 'parecer'.
 

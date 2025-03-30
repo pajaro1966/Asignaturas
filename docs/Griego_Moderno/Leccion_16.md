@@ -4,27 +4,100 @@
 
 ## 116: 'Ένα ζευγάρι ετοιμάζει το σπίτι τους' (audio)
 
-<audio controls="controls">
-  <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
-</audio>
+<div class="audio-block" style="width: 100%;">
+  <audio class="fragmented-audio" controls style="width: 100%;>
+    <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
+<br>
+  <button data-segment="0-8">⏯ 1</button> 
+  <button data-segment="7-13">⏯ 2</button> 
+  <button data-segment="13-23">⏯ 3</button> 
+  <button data-segment="23-26">⏯ 4</button> 
+  <button data-segment="26-29">⏯ 5</button> 
+  <button data-segment="29-37">⏯ 6</button> 
+  <button data-segment="37-42">⏯ 7</button> 
+  <button data-segment="42-47">⏯ 8</button> 
+  <button data-segment="47-54">⏯ 9</button> 
+  <button data-segment="54-59">⏯ 10</button> 
+  <button data-segment="59-67">⏯ 11</button> 
+</div>
 
 ---
 
 ## 116: 'Ένα ζευγάρι ετοιμάζει το σπίτι τους' (texto)
 
-<audio controls="controls">
-  <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
-</audio>
+<div class="audio-block" >
+  <audio class="fragmented-audio" controls style="width:100%;">
+    <source src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3" type="audio/mpeg">
+    Το πρόγραμμα περιήγησής σας δεν υποστηρίζει ήχο HTML5.
+  </audio>
 
-Ένα ζευγάρι ετοιμάζει το σπίτι του
+  <table>
+    <tr>
+      <td><button data-segment="0-8">⏯</button></td>
+      <td>Ένα ζευγάρι ετοιμάζει το σπίτι του</td>
+    </tr>
+    <tr>
+      <td><button data-segment="7-13">⏯</button></td>
+      <td>Ο Στέφανος και η Χριστίνα παντρεύονται και γι' αυτό χτίζουν σπίτι.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="13-23">⏯</button></td>
+      <td>Το σπίτι τους <b>θα έχει</b> δύο κρεβατοκάμαρες, μια σαλοτραπεζαρία, μια κουζίνα, μπάνιο και ένα πρόχειρο δωμάτιο.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="23-26">⏯</button></td>
+      <td><b>Θα τελειώσει</b> σε έξι μήνες.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="26-29">⏯</button></td>
+      <td>Όμως, άρχισαν κιόλας <b>να αγοράζουν</b> τα έπιπλα.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="29-37">⏯</button></td>
+      <td>Της Χριστίνας της αρέσει <b>να τριγυρίζει</b> στα μικρά μαγαζιά και <b>να ψάχνει</b> για παλιά τραπέζια, καρέκλες, κομοδίνα.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="37-42">⏯</button></td>
+      <td>Πιστεύει ότι αυτά δίνουν χρώμα και προσωπικότητα σ' ένα σπίτι.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="42-47">⏯</button></td>
+      <td>Θέλει <b>να</b> το <b>επιπλώσει</b> <b>μόνη της</b>, με το προσωπικό της γούστο.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="47-54">⏯</button></td>
+      <td>Αύριο <b>θα πάνε</b> μαζί με το Στέφανο σ' ένα παλαιοπωλείο <b>να διαλέξουν</b> μερικά κομμάτια.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="54-59">⏯</button></td>
+      <td>Είναι πραγματική απόλαυση <b>να αγοράζει</b> κανείς πράγματα για το σπίτι του.</td>
+    </tr>
+    <tr>
+      <td><button data-segment="59-67">⏯</button></td>
+      <td>Και ο Στέφανος και η Χριστίνα, κάθε φορά που ψωνίζουν κάτι, κάνουν σαν μικρά παιδιά από τη χαρά τους.</td>
+    </tr>
+  </table>
+</div>
 
-Ο Στέφανος και η Χριστίνα παντρεύονται και γι' αυτό χτίζουν σπίτι. Το σπίτι τους **θα έχει** δύο κρεβατοκάμαρες, μια σαλοτραπεζαρία, μια κουζίνα, μπάνιο και ένα  πρόχειρο δωμάτιο. **Θα τελειώσει** σε έξι μήνες. Όμως, άρχισαν κιόλας **να αγοράζουν** τα έπιπλα. Της Χριστίνας της αρέσει **να τριγυρίζει** στα μικρά μαγαζιά κοι **να ψάχνει** για παλιά τραπέζια, καρέκλες, κομοδίνα. Πιστεύει ότι αυτά δίνουν χρώμα και προσωπικότητα σ' ένα σπίτι. Θέλει **να** το **επιπλώσει** **μόνη της**, με το προσωπτικό της γούστο. Αύριο **θα πάνε** μαζί με το Στέφανο σ' ένα παλαιοπωλείο **να διαλέξουν** μερικά κομμάτια. Είναι πραγματική απόλαυση **να αγοράζει** κανείς πράγματα για το σπίτι του. Και ο Στέφανος και η Χριστίνα, κάθε φορά που ψωνίζουν κάτι, κάνουν σαν μικρά παιδιά από τη χαρά τους.
+<div>
+  <button data-segment="0-8" style="text-align: center;">⏯</button> Ένα ζευγάρι ετοιμάζει το σπίτι του<br> 
+  <button data-segment="7-13">⏯</button> Ο Στέφανος και η Χριστίνα παντρεύονται και γι' αυτό χτίζουν σπίτι.
+  <button data-segment="13-23">⏯</button> Το σπίτι τους <b>  θα έχει</b> δύο κρεβατοκάμαρες, μια σαλοτραπεζαρία, μια κουζίνα, μπάνιο και ένα  πρόχειρο δωμάτιο. 
+  <button data-segment="23-26">⏯</button>  <b> Θα τελειώσει</b> σε έξι μήνες. 
+  <button data-segment="26-29">⏯</button> Όμως, άρχισαν κιόλας <b>  να αγοράζουν</b> τα έπιπλα.
+  <button data-segment="29-37">⏯</button> Της Χριστίνας της αρέσει <b>  να τριγυρίζει</b> στα μικρά μαγαζιά κοι <b>  να ψάχνει</b> για παλιά τραπέζια, καρέκλες, κομοδίνα.
+
+  <button data-segment="37-42">⏯</button> Πιστεύει ότι αυτά δίνουν χρώμα και προσωπικότητα σ' ένα σπίτι.
+  <button data-segment="42-47">⏯</button> Θέλει <b>  να</b> το <b>επιπλώσει</b> <b>  μόνη της</b> , με το προσωπτικό της γούστο.
+  <button data-segment="47-54">⏯</button> Αύριο <b>  θα πάνε</b> μαζί με το Στέφανο σ' ένα παλαιοπωλείο <b>  να διαλέξουν</b> μερικά κομμάτια.
+  <button data-segment="54-59">⏯</button> Είναι πραγματική απόλαυση <b>  να αγοράζει</b> κανείς πράγματα για το σπίτι του.
+  <button data-segment="59-67">⏯</button> Και ο Στέφανος και η Χριστίνα, κάθε φορά που ψωνίζουν κάτι, κάνουν σαν μικρά παιδιά από τη χαρά τους. 
+
+</div>
 
 ![Página 116](Metodo/Textbook_Pagina_116.png)
-
-<audio controls="controls">
-  <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
-</audio>
 
 ---
 

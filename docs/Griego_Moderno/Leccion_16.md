@@ -4,6 +4,12 @@
 
 ## 116: 'Ένα ζευγάρι ετοιμάζει το σπίτι τους' (audio)
 
+<audio id="audio" controls>
+  <source src="audios/tu-audio.mp3" type="audio/mpeg">
+</audio>
+
+<div id="lyrics"></div>
+
 <div class="audio-block" style="width: 100%;">
   <audio class="fragmented-audio" controls style="width: 100%;>
     <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3">

@@ -73,6 +73,8 @@
     J-->K("<b>ἣ</b> τόν τε Βρούτου <b>περιέχει</b> βίον καὶ τόν Δίωνος")
     K-->L("<b>ὧν</b> ὁ μὲν αὐτῷ Πλάτωνι πλησιάσας, ὁ δὲ<br>τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος, <b>ὥσπερ</b> ἐκ μιᾶς<br><b>ὥρμησαν</b> ἀμφότεροι παλαίστρας ἐπὶ τοὺς μεγίστους ἀγῶνας")
     ```
+!!! question "Pregunta"
+    1. Explica la comparación que establece Plutarco entre corintios, troyanos y aqueos con romanos, griegos y su propia obra.
 
 ---
 
@@ -116,11 +118,12 @@
     C-->J("<b>ἐστιν</b>")
     ```
 
+!!! question "Pregunta"
+    1. ¿Qué relación guarda este fragmento con la idea platónica de convertir al rey en filósofo?
+
 ---
 
 4 ὡς γὰρ^1^ Ἱππόμαχος ο ἀλείπτης ἔλεγε τοὺς γεγυμνασμένους παρʼ αὐτῷ^4^ καὶ^2^ κρέας ἐξ ἀγορᾶς ἰδὼν φέροντας ἐπιγνῶναι πόρρωθεν, οὕτω τόν λόγον ἐστὶν εἰκὸς τῶν πεπαιδευμένων ὁμοίως^3^ ἕπεσθαι ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν ἐπιφέροντα μετὰ τοῦ πρέποντος.
-
-4 **ὡς** γὰρ^1^ Ἱππόμαχος ο ἀλείπτης **ἔλεγε** τοὺς γεγυμνασμένους παρʼ αὐτῷ^4^ καὶ^2^ κρέας ἐξ ἀγορᾶς **ἰδὼν** **φέροντας** **ἐπιγνῶναι** πόρρωθεν, **οὕτω** τόν λόγον **ἐστὶν** εἰκὸς τῶν **πεπαιδευμένων** ὁμοίως^3^ **ἕπεσθαι** ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν **ἐπιφέροντα** μετὰ τοῦ πρέποντος.
 
 ??? note "Notas"
     1. **γὰρ**: esta partícula introduce secciones que explican lo dicho anteriormente; por ejemplo, elaboran, ejemplifican, amplían, etc. lo previamente expuesto.
@@ -129,6 +132,7 @@
     4. **τῶν πεπαιδευμένων ὁμοίως**: 'educados de la misma manera', es decir, en las enseñanzas de Platón.
     5. **τοὺς γεγυμνασμένους παρʼ αὐτῷ**: 'los adiestrados junto a él': 'junto a él' > 'en su gimnasio' > 'por él'.
     6. **μετὰ τοῦ πρέποντος**: compañía ≈ coordinación.
+    7. Estructura: "**ὡς** γὰρ^1^ Ἱππόμαχος ο ἀλείπτης **ἔλεγε** τοὺς γεγυμνασμένους παρʼ αὐτῷ^4^ καὶ^2^ κρέας ἐξ ἀγορᾶς **ἰδὼν** **φέροντας** **ἐπιγνῶναι** πόρρωθεν, **οὕτω** τόν λόγον **ἐστὶν** εἰκὸς τῶν **πεπαιδευμένων** ὁμοίως^3^ **ἕπεσθαι** ταῖς πράξεσιν, ἐμμέλειάν τινα καὶ ῥυθμὸν **ἐπιφέροντα** μετὰ τοῦ πρέποντος."
     ```mermaid
     graph TB
     A("Discurso")
@@ -181,6 +185,8 @@
     I-->J("τόν λόγον ... τῶν πεπαιδευμένων ὁμοίως <b>ἕπεσθαι</b> ταῖς πράξεσιν")
     J-->K("ἐμμέλειάν τινα καὶ ῥυθμὸν <b>ἐπιφέροντα</b> μετὰ τοῦ πρέποντος")
     ```
+!!! question "Pregunta"
+    1. ¿Qué valor tiene la construcción μετὰ τοῦ πρέποντος? ¿Cómo se podría expresar su relación con ἐμμέλειάν τινα καὶ ῥυθμὸν con otra estructura sintáctica?
 
 ### 3.2. Fortunas comunes: ¿malos espíritus?
 
@@ -189,7 +195,10 @@
 ??? note "Notas"
     1. **τοῖς συμπτώμασι μᾶλλον ἢ ταῖς προαιρέσεσιν**: dat. de causa 'por coincidencias más que por preferencias'.
     2. **συνάγουσι τῶν ἀνδρῶν τοὺς βίους εἰς ὁμοιότητα**: 'los reúnen en similitud' > 'los hacen comparables'.
-    3. ὁμοιότητα: ὅμοιος > ὅμοιο-της, .τητοςö φίλος φιλίας δίκαιος δικαιοσύνη.
+    3. **ὁμοιότητα**: (a) ὅμοιος 'igual' > ὅμοιο-της  -τητος 'igual-dad', (b) ὁ φίλος 'amigo' > φιλ-ία amistad; (c) δίκαιος ια ιον 'justo' > δικαιο-σύνη 'justicia'.
+
+!!! question "Pregunta"
+    1. ¿Qué significa en el pasaje αὐταί y por qué? Compara los tres significados básicos de αὐτός, ή ό y explica cómo se pueden diferenciar.
 
 2 προανῃρέθησαν^1^ γὰρ ἀμφότεροι τοῦ τέλους, εἰς ὃ^2^ προὔθεντο τὰς πράξεις ἐκ πολλῶν καὶ μεγάλων ἀγώνων καταθέσθαι μὴ δυνηθέντες.
 
@@ -230,6 +239,9 @@
 
 3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.
 
+!!! question "Preguntas"
+    1. Explica el orden de palabras de φάσματος y εὐμενοῦς en la siguiente construcción: «ἑκατέρῳ **φάσματος** εἰς ὄψιν οὐκ **εὐμενοῦς** παραγενομένου.»
+
 ??? note "Notas"
     1. **ὃ δὲ πάντων θαυμασιώτατον, ὅτι ...**: 'Y lo más sorprendente de todo, (que) ...'. Es una colocación frecuente. Es un falso relativo (ὃ) más un adjetivo (normalmente en grado superlativo) que lo califica (θαυμασιώτατον) que se refiere al fragmento siguiente presentado mediante una completiva (ὅτι): 'Y lo (que es) más X (es) que ...'.
     ```mermaid
@@ -266,6 +278,9 @@
     ```
 
 4 καίτοι λόγος^1^ τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν^2^ νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια^3^ καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.
+
+!!! question "Preguntas"
+    1. ¿Cómo traducirías en este pasaje καίτοι y para qué se usa?
 
 ??? note "Notas"
     1. **λόγος τίς ἐστι τῶν ἀναιρούντων ... προσπεσεῖν**: 'existe (ἐστι) cierto razonamiento (λόγος τίς) por parte de quienes eliminan/descartan tales cosas (τῶν ἀναιρούντων τὰ τοιαῦτα) de que no se le presentaría (προσπεσεῖν)'.
@@ -329,6 +344,9 @@
 
 5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι^3^ πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ^2^ τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ^1^ διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.
 
+!!! question "Preguntas"
+    1. Explica la función de πάθος en la frase.
+
 ??? note "Notas"
     1. **μὴ διαμείναντες ... τύχωσιν**: la negación va con el participio y con el verbo principal 'para que no permanezcan ... y así no obtengan ...'
     2. **οὐκ οἶδα μὴ**: Madvig δέδοικα. No es necesario φοβέομαι + μή 'me temo que' ≈ 'quizá'; οὐκ οἶδα 'no sé' ≈ 'quizá': la equivalencia entre ambas expresiones (incertidumbre epistémica) hace que la segunda pueda tomar una completiva encabezada por μή.
@@ -347,19 +365,28 @@
 
 7 ἀλλὰ ταῦτα μὲν εἰς ἄλλον ἀνακείσθω λόγον. ἐν τούτῳ δέ, p.6 δωδεκάτῳ τῶν παραλλήλων ὄντι βίων, τὸν τοῦ πρεσβυτέρου προεισαγάγωμεν.
 
+!!! question "Preguntas"
+    1. ¿A qué se refiere ταῦτα en el fragmento?
+
 ## 4. Dion y Dionisio el Viejo
 
 ### 4.1. Las dos esposas de Dionisio I
 
 3.1 Διονύσιος ὁ πρεσβύτερος εἰς τὴν ἀρχὴν καταστάς^2^ εὐθὺς^4^ ἔγημε^3^ τὴν Ἑρμοκράτους τοῦ Συρακουσίου θυγατέρα. 2 ταύτην, οὔπω τῆς τυραννίδος <!-- paris.1624.959 --> ἱδρυμένης βεβαίως, ἀποστάντες οἱ Συρακούσιοι δεινὰς καὶ παρανόμους ὕβρεις εἰς τὸ σῶμα καθύβρισαν, ἐφʼ αἷς προήκατο^1^ τὸν βίον ἑκουσίως.
 
+!!! question "Preguntas"
+    1. ¿Por qué las unidades encabezadas por Διονύσιος y ταύτην no están introducidas por ninguna partícula o conector discursivo? ¿Es normal?
+
 ??? note "Notas"
     1. **προήκατο**: προ-ίημι.
-    2. **καταστάς**: καθ-ί-στη-μι (α)κατ-έ-στη-ν κατα-στά-ντ-ς > κατα-στά-ς; (β) ἔ-στη-σα στή-σα-ντ-ς.
+    2. **καταστάς**: καθ-ί-στη-μι (a) aor. intr. κατ-έ-στη-ν κατα-στά-ντ-ς > κατα-στά-ς; (b) aor. intr. ἔ-στη-σα στή-σα-ντ-ς.
     3. **ἔγημε**: γαμέω ἔ-γαμ-σα > ἔ-γημ-α.
-    4. εὐθὺς: 'en cuanto'.
+    4. **εὐθὺς**: 'en cuanto'.
 
 3 Διονύσιος δὲ τὴν ἀρχὴν ἀναλαβὼν^2^ καὶ κρατυνάμενος αὖθις ἄγεται δύο γυναῖκας ἅμα, τὴν μὲν ἐκ Λοκρῶν ὄνομα Δωρίδα, τὴν δὲ ἐπιχώριον Ἀριστομάχην, θυγατέρα Ἱππαρίνου, πρωτεύσαντος ἀνδρὸς Συρακουσίων καὶ Διονυσίῳ συνάρξαντος ὅτε πρῶτον^1^ αὐτοκράτωρ ἐπὶ τὸν πόλεμον ᾑρέθη στρατηγός.
+
+!!! question "Preguntas"
+    1. Explica el orden de palabras en la oración **αὐτοκράτωρ** ἐπὶ τὸν πόλεμον ᾑρέθη **στρατηγός**.
 
 ??? note "Notas"
     1. **ὅτε πρῶτον**: 'tan pronto como', 'en cuanto'.

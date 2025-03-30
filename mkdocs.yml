@@ -176,3 +176,5 @@ plugins:
 extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/audio-control.js
+  - javascript/lrc.js
+  - javascript/karaoke.js

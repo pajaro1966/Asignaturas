@@ -68,14 +68,16 @@
 
 Α —Ευχαριστώ.
 
+## Separa
+
 <div class="audio-block" style="width: 100%;">
- <audio class="fragmented-audio" controls style="width: 100%;>
- <source type="audio/mpeg" src="../GM_Audios/17_Audio.mp3">
+ <audio class="fragmented-audio" controls style="width: 100%;">
+ <source src="../GM_Audios/17_Audio.mp3" type="audio/mpeg" >
  Tu navegador no soporta el elemento de audio.
  </audio>
 <br>
 <table>
-<tr><td > <button data-segment="0-6"> ⏯ </button> </td> <td> <button data-segment="0-4"> ⏯ </button> </td></tr> 
+<tr><td > <button data-segment="0-6"> ⏯ </button> </td> <td> <button data-segment="0-4"> ⏯ </button> Δέκατο έβδομο μάθημα</td></tr> 
 <tr><td> </td> <td> <button data-segment="4-6"> ⏯ </button> Στο ξενοδοχείο </td></tr> 
 <tr><td> <button data-segment="7-12"> ⏯ </button> </td> <td> <button data-segment="7-10"> ⏯ </button> Α. —Χαίρετε, είμαι ο κύριος Παυλίδης. 
  <button data-segment="10-12"> ⏯ </button> Έκλεισα ένα μονόκλινο δωμάτιο χθες. </td></tr> 
@@ -106,12 +108,62 @@
 </table>
 </div>
 
+---
 
-[Página 130](Metodo/Textbook_Pagina_130.png)
+<div class="audio-block" style="width: 100%;">
+<audio class="fragmented-audio" controls style="width:100%;">
+<source type="audio/mpeg" src="../GM_Audios/17_Audio.mp3">Tu navegador no soporta el elemento de audio.</audio>
+<br>
+<table>
+<tr><td> <button data-segment="0-6"> ⏯ </button> </td> <td> <button data-segment="0-4"> ⏯ Δέκατο έβδομο μάθημα</button> </td></tr> 
+<tr><td> </td> <td> <button data-segment="4-6"> ⏯ Στο ξενοδοχείο</button>  </td></tr> 
+<tr><td> <button data-segment="7-12"> ⏯ </button> </td> <td> <button data-segment="7-10"> ⏯  Α. —Χαίρετε, είμαι ο κύριος Παυλίδης. </button>
+ <button data-segment="10-12"> ⏯  Έκλεισα ένα μονόκλινο δωμάτιο χθες. </button></td></tr> 
+<tr><td> <button data-segment="13-21"> ⏯ </button> </td> <td> <button data-segment="13-18"> ⏯  Β —Α, μάλιστα. Έχουμε δωμάτια στο πρώτο πάτωμα, στο δεύτερο και στο τρίτο. </button>
+ <button data-segment="19-21"> ⏯ Σε ποιο πάτωμα προτιμάτε; </button></td></tr> 
+<tr><td> <button data-segment="22-27"> ⏯ </button> </td> <td> <button data-segment="22-24"> ⏯  Α —Δώστε μου αυτό που είναι στο τρίτο. </button>
+ <button data-segment="24-27"> ⏯  Έχουν όλα ντους και τηλέφωνο; </button></td></tr> 
+<tr><td> <button data-segment="27-37"> ⏯ </button> </td> <td> <button data-segment="27-28.75"> ⏯  Β —Ασφαλώς έχουν. </button>
+ <button data-segment="29-33"> ⏯  Αφήστε τις αποσκευές σας, θα σας τις φέρει ο υπάλληλος του ξενοδοχείου. </button>
+ <button data-segment="33-37"> ⏯  Δώστε μου, παρακαλώ, την ταυτότητα ή το διαβατήριό σας. </button></td></tr> 
+<tr><td> <button data-segment="37-40"> ⏯ </button> </td> <td> <button data-segment="37-40"> ⏯  Α —Ορίστε η ταυτότητά μου. </button></td></tr> 
+<tr><td> <button data-segment="39-44"> ⏯ </button> </td> <td> <button data-segment="39-42"> ⏯  Β —Πάρτε το κλειδί του δωματίου σας. </button>
+ <button data-segment="42-44"> ⏯  Είναι το 305. </button></td></tr> 
+<tr><td> <button data-segment="45-58"> ⏯ </button> </td> <td> <button data-segment="45-46"> ⏯  Α —Ευχαριστώ. </button>
+ <button data-segment="46-48"> ⏯  Ίσως με ζητήσει κάποιος κύριος. </button>
+ <button data-segment="49-51"> ⏯  Καλέστε με, σας παρακαλώ, αμέσως. </button>
+ <button data-segment="51-52"> ⏯  Περιμένω και ένα φαξ. </button>
+ <button data-segment="53-58"> ⏯ Σας παρακαλώ, στείλτε μού το στο δωμάτιό μου. </button></td></tr>
+<tr><td> <button data-segment="59-67"> ⏯ </button> </td> <td> <button data-segment="58-59"> ⏯  Β —Εντάξει, κύριε. </button>
+ <button data-segment="59-61"> ⏯  Μην περιμένετε το ασανσέρ. </button>
+ <button data-segment="61-63"> ⏯  Δε λειτουργεί αυτήν τη στιγμή. </button>
+ <button data-segment="63-67"> ⏯  Αν δε θέλετε να περιμένετε, πηγαίνετε από τις σκάλες. </button></td></tr> 
+<tr><td> <button data-segment="67-75"> ⏯ </button> </td> <td> <button data-segment="67-72"> ⏯  Α —Α, όταν έρθουν οἱ απογευματινές εφημερίδες, στείλτε μου μία. </button>
+ <button data-segment="73-75"> ⏯  Πού μπορώ να πιω κάτι; </button></td></tr>
+<tr><td> <button data-segment="75-82"> ⏯ </button> </td> <td> <button data-segment="75-78"> ⏯  Β —Στο μπαρ του ξενοδοχείου μας, στον ημιώροφο, </button>
+ <button data-segment="78-82"> ⏯  ή πείτε να σας φέρουν κάτι στο δωμάτιό σας. </button></td></tr> 
+<tr><td> <button data-segment="82-83"> ⏯ </button> </td> <td> <button data-segment="82-83"> ⏯  Α —Ευχαριστώ. </button></td></tr> 
+</table>
+</div>
+
+![Página 130](Metodo/Textbook_Pagina_130.png)
 
 ---
 
 ## 131 Προστακτική
+
+### Παραδείγματα
+
+|Συνεχής|Απλή|
+|:---: | :---: |
+|Γιώργο, **σκούπιζε** τα πόδια σου, όταν μπαίνεις στο σπίτι.|Γιώργο, **σκούπισε** τα πόδια σου, γιατί μόλις καθάρισα.|
+|Παιδιά, **σκουπίζετε** τα πόδια σας όταν μπαίνετε στο σπίτι.|Παιδιά, **σκουπίστε** τα πόδια σας, γιατί μόλις καθάρισα.|
+|Μαρίνα, **πρόσεχε**, όταν περνάς το δρόμο.|Μαρίνα, **πρόσεξε**, έρχεται ένα αυτοκίνητο.|
+|Ελένη, Χρίστο, **προσέχετε**, όταν περνάτε το δρόμο.|Ελένη, Χρίστο **προσέξτε**, έρχεται ένα ουτοκίνητο.|
+|Μαρία, **άναβε** τη λάμπα του γραφείου, όταν διαβάζεις.|Μαρία, **άναψε** το φως, γιατί νύχτωσε.|
+|Μαρία, Σοφία, **ανάβετε** τη λάμπα του γραφείου, όταν διαβάζετε.|Μαρία, Σοφία, **ανάψτε** το φως, γιατί νύχτωσε.|
+
+### Μορφολογία
 
 ![Página 131](Metodo/Textbook_Pagina_131.png)
 

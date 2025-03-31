@@ -159,7 +159,7 @@
 ![Default text](Verbos/gamew_01.png)
 ![Default text](Verbos/gamew_02.png)
 
-## 32. γιγνώσκω
+## 32. γιγνώσκω (visto) {#32}
 
 ![Default text](Verbos/gignwskw_01.png)
 ![Default text](Verbos/gignwskw_02.png)

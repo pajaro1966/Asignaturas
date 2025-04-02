@@ -15,7 +15,7 @@
   }
 
   article table 
-  {font-size: 28px !important;}
+  {font-size: 20px !important;}
 
   div.admonition, details
   {font-size: 28px !important;}
@@ -39,3 +39,8 @@ sup {color: blue; background-color: beige; font-size: 60%; border: 1px solid red
     font-weight: bold;
     border: 2px solid #1976d2;
   }
+
+  #edicion, #edicion_1 {color: red; }
+
+  [href^="#edicion"] {color: red !important; }
+  [href^="#edicion1"] {color: red !important; }

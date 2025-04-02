@@ -858,8 +858,6 @@
 ??? note  "(138) ἢ τεὸν ἢ Αἴαντος ἰὼν γέρας, ἢ Ὀδυσῆος"
     - (138) **τεὸν**: [posesivos](notas.md#l2)
 
-### EDICIÓN
-
 ??? note  "(139) ἄξω ἑλών· ὃ δέ κεν κεχολώσεται ὅν κεν ἵκωμαι."
     - (139) **ὁ**: pron. antecedente de ὅv.
     - (139) **μετάφρ.**: "reconsideremos", con idea de cambio (μετά) de opinión.
@@ -1245,42 +1243,52 @@
 
 ## 1.206-214: discurso de Atenea
 
-??? danger "(206) Τὸν δ' αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·"
+??? note "(206) Τὸν δ' αὖτε προσέειπε θεὰ γλαυκῶπις Ἀθήνη·"
 
-??? danger "(207) «ἦλθον ἐγὼ παύσουσα τὸ σὸν μένος, αἴ κε πίθηαι,"
+??? note "(207) «ἦλθον ἐγὼ παύσουσα τὸ σὸν μένος, αἴ κε πίθηαι,"
     - (207) **παύσουσα**: part. fut. desiderativo equivalente a una construcción final.
+    - **πίθηαι**: pres. πείθ-ω aor. ἐ-πιθ-ό-μην: subj. aor. (1) πίθ-η-σαι > (2) πίθ-η-αι > (3) πίθ-ῃ.
 
-??? danger "(208) οὐρανόθεν· πρὸ δέ μ' ἧκε θεὰ λευκώλενος Ἥρη"
+??? note "(208) οὐρανόθεν· πρὸ δέ μ' ἧκε θεὰ λευκώλενος Ἥρη"
+    - **οὐρανόθεν**: οὐρανός οὐρανό-θεν
+    - Repetición de los versos 208-209.
 
-??? danger "(209) ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·"
+??? note "(209) ἄμφω ὁμῶς θυμῷ φιλέουσά τε κηδομένη τε·"
 
-??? danger "(210) ἀλλ' ἄγε λῆγ' ἔριδος, μηδὲ ξίφος ἕλκεο χειρί·"
+??? note "(210) ἀλλ' ἄγε λῆγ' ἔριδος, μηδὲ ξίφος ἕλκεο χειρί·"
+    - **ἄγε λῆγ'**: imperativo ἄγε > interjección 'venga' + imperativos (λῆγε).
+    - ἕλκεο: ἕλκ**ε**-**σ**-**ο** > ἕλκ**ε**-**ο** > ἕλκ**ου**
+    - μηδὲ: 
+        - μηδὲ/οὐδέ: A μήτε/οὔτε B 'A y no B'; μηδὲ/οὐδέ B 'tampoco/ni siquiera B'
+        - μήτε/οὔτε: μήτε/οὔτε A μήτε/οὔτε B 'ni A ni B'
 
-??? danger "(211) ἀλλ' ἤτοι ἔπεσιν μὲν ὀνείδισον ὡς ἔσεταί περ·"
+??? note "(211) ἀλλ' ἤτοι ἔπεσιν μὲν ὀνείδισον ὡς ἔσεταί περ·"
     - (211) **ἔσεταί**: [εἰμί](notas.md#o5)
     - (211) **ὀνείδισον ὡς ...**: "dile en son de reproche cómo va a suceder".
-      - "dile en son de reproche **cómo**/**la manera en que** va a suceder".
+        - "dile en son de reproche **cómo**/**la manera en que** va a suceder".
     - (211) **ὡς ἔσεται**:Traducciones:
-      - Seymour: «**as opportunity shall offer**.»
-    - Estalella: «é injúriale de palabra **como te parezca**.»
-    - Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
-    - Crespo (Gredos): «Mas si, injúrialo de palabra e indícale **lo que sucederá**.»
-      - Hom.Od. 19.312: ἀλλά μοι ὧδ᾽ ἀνὰ θυμὸν ὀΐεται, **ὡς ἔσεταί περ**
-    - Murray (Loeb): «Yet in my heart I forebode it thus, even as it shall be.».
-    - Estalella: «Pero mi ánimo presiente lo que ha de ocurrir.»
-      - Hom.Od. 21.212 σφῶϊν δ', **ὡς ἔσεταί περ**, ἀληθείην καταλέξω·
-    - Murray (Loeb): «But to you two will I tell the truth, even as it shall be.».
-    - Estalella: «Os voy á revelar con sinceridad lo que ha de llevarse á efecto».
+        - Seymour: «**as opportunity shall offer**.»
+        - Estalella: «é injúriale de palabra **como te parezca**.»
+        - Murray (Loeb): «With words indeed taunt him, telling him **how it shall be**.»
+        - Crespo (Gredos): «Mas si, injúrialo de palabra e indícale **lo que sucederá**.»
+        - Hom.Od. 19.312: ἀλλά μοι ὧδ᾽ ἀνὰ θυμὸν ὀΐεται, **ὡς ἔσεταί περ**
+            - Murray (Loeb): «Yet in my heart I forebode it thus, even as it shall be.».
+            - Estalella: «Pero mi ánimo presiente lo que ha de ocurrir.»
+        - Hom.Od. 21.212 σφῶϊν δ', **ὡς ἔσεταί περ**, ἀληθείην καταλέξω·
+            - Murray (Loeb): «But to you two will I tell the truth, even as it shall be.».
+            - Estalella: «Os voy á revelar con sinceridad lo que ha de llevarse á efecto».
 
-??? danger "(212) ὧδε γὰρ ἐξερέω, τὸ δὲ καὶ τετελεσμένον ἔσται·"
+??? note "(212) ὧδε γὰρ ἐξερέω, τὸ δὲ καὶ τετελεσμένον ἔσται·"
+    - Atenea reproduce las palabras finales de Aquiles.
 
-??? danger "(213) καί ποτέ τοι τρὶς τόσσα παρέσσεται ἀγλαὰ δῶρα"
+??? note "(213) καί ποτέ τοι τρὶς τόσσα παρέσσεται ἀγλαὰ δῶρα"
     - (213) **τοι**: pron., regido por el preverbio παρ-.
     - (213) **παρέσσεται**: [εἰμί](notas.md#o5).
     - (213-214) Kirk: «213-14 Actually Akhilleus will receive far more than the value of Briseis, if she can be so valued; 24.686 suggests that 'three times' is a conventional factor, which also has legal overtones (cf. 128 and comment, also on 203), as well as reinforcing the passionate sibilation. The resumptive σὺ δ᾽ἴσχεο... provides typical closing contrast after the more leisurely pace and discursive tone of the preceding verse-and-a-half.»
 
-??? danger "(214) ὕβριος εἵνεκα τῆσδε· σὺ δ' ἴσχεο, πείθεο δ' ἡμῖν.»"
+??? note "(214) ὕβριος εἵνεκα τῆσδε· σὺ δ' ἴσχεο, πείθεο δ' ἡμῖν.»"
     - (214) **ἡμῖν**: Atena y Hera, que la había enviado (cf. vv. 195, 208).
+    - **πείθεο**: πείθω: imperativo (1) πείθ-**ε**-**σο** > (2) πείθ-**ε**-**ο** > (3) πείθ-**ου**
 
 <!--
 |V|GRIEGO|
@@ -1324,30 +1332,33 @@ NOTAS
 
 ![Aquiles y Agamenón](Imagenes/Achilles_Agamemnon_Pompei_mosaic_NAMNaples_10006.jpeg)  
 
-??? danger "(215) Τὴν δ' ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·"
+??? note "(215) Τὴν δ' ἀπαμειβόμενος προσέφη πόδας ὠκὺς Ἀχιλλεύς·"
 
-??? danger "(216) «χρὴ μὲν σφωΐτερόν γε θεὰ ἔπος εἰρύσσασθαι"
+??? note "(216) «χρὴ μὲν σφωΐτερόν γε, θεὰ, ἔπος εἰρύσσασθαι"
     - (216) **σφωΐτερόν**: [posesivos](notas.md#l2).
     - (216) **εἰρύσσασθαι**: [ῥύομαι, ἔρυμαι](notas.md#o10).
     - (216) Como sujeto en acusativo del infinitivo puede sobreentenderse la primera persona.
 
-??? danger "(217) καὶ μάλα περ θυμῷ κεχολωμένον· ὧς γὰρ ἄμεινον·"
+??? note "(217) καὶ μάλα περ θυμῷ κεχολωμένον· ὧς γὰρ ἄμεινον·"
     - (217) **περ**: [condicionales y concesivas](notas.md#u7).
+    - **κεχολωμένον**: participio en acusativo concertado con el sujeto elíptico de εἰρύσσασθαι: «(ἐμὲ) εἰρύσσασθαι κεχολωμένον».
 
-??? danger "(218) ὅς κε θεοῖς ἐπιπείθηται μάλα τ' ἔκλυον αὐτοῦ»."
+## <span style="background-color: red !important!">Edición</span>
+
+??? note "(218) ὅς κε θεοῖς ἐπιπείθηται μάλα τ' ἔκλυον αὐτοῦ»."
     - (218) **ὅς**: refiérase a αὐτοῦ.
-    - (218) **τ'**: [τε](notas.md#m4)
+    - (218) **τ'**: [τε](notas.md#m4): τε épico aparece en contexto en que se dice una verdad general.
     - (218) **κλυον**: aor. gnómico o general; no indica tiempo pasado y lleva generalmente aumento; sujeto "los dioses".
 
-??? danger "(219) Ἦ καὶ ἐπ' ἀργυρέῃ κώπῃ σχέθε χεῖρα βαρεῖαν,"
+??? note "(219) Ἦ καὶ ἐπ' ἀργυρέῃ κώπῃ σχέθε χεῖρα βαρεῖαν,"
     - (219) **Ἦ**: [ἦ](notas.md#o3).
 
-??? danger "(220) ἂψ δ' ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδ' ἀπίθησε"
+??? note "(220) ἂψ δ' ἐς κουλεὸν ὦσε μέγα ξίφος, οὐδ' ἀπίθησε"
 
-??? danger "(221) μύθῳ Ἀθηναίης· ἣ δ' Οὔλυμπον δὲ βεβήκει"
+??? note "(221) μύθῳ Ἀθηναίης· ἣ δ' Οὔλυμπον δὲ βεβήκει"
     - (221) **βεβήκει**: [desinencias personales](notas.md#o41); [perfecto pro presente](notas.md#t1); perfecto intensivo, "se marchó a grandes pasos" (contrastar con V . 37).
 
-??? danger "(222) δώματ' ἐς αἰγιόχοιο Διὸς μετὰ δαίμονας ἄλλους."
+??? note "(222) δώματ' ἐς αἰγιόχοιο Διὸς μετὰ δαίμονας ἄλλους."
     - (222) **μετὰ**: [particularidades de las preposiciones](notas.md#s1)
 
 <!--

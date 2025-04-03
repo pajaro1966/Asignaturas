@@ -1299,9 +1299,9 @@
 ??? danger "Temporalmente oculto"
     1. **δεηθῆναι τοῦ πρώτου**: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+γεν.)'.
     2. **πᾶσαν δέησιν**: acusativo interno 'le suplicaba toda súplica' > 'le suplicaba de todas las maneras posibles'
+    3. [Estructura](Discurso/Dion_10_01.md)
 
-[Estructura](Discurso/Dion_10_01.md)
-
+<!-- 
 ```mermaid
 graph TB
 
@@ -1334,6 +1334,7 @@ D-->|"<b style="background-color: white;color: red;">μὲν δὴ</b>"|D6("CIER
 A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="background-color: white;color: violet;">DION</b> INTENTA MEJORAR LA EDUCACIÓN DE <b style="background-color: white;color: blue;">DIONISIO II</b>")-->E1("10.1 <b style="background-color: white;color: blue;">τὸν</b> <b style="background-color: white;color: red;">δʼ</b> <b style="background-color: white;color: blue;">υἱὸν</b> <b style="background-color: white;color: green;">αὐτοῦ</b>,<br><b>καθάπερ εἴρηται</b>, <b style="background-color: white;color: blue;">διαλελωβημένον</b><br><b>ἀπαιδευσίᾳ</b> καὶ <b style="background-color: white;color: blue;">συντετριμμένον</b><br>τὸ ἦθος <b style="background-color: white;color: violet;">ὁ Δίων</b><br><b style="background-color: white;color: violet;">ὁρῶν παρεκάλει</b> πρὸς παιδείαν<br><b style="background-color: white;color: blue;">τραπέσθαι</b> καὶ <b style="background-color: white;color: blue;">δεηθῆναι</b> τοῦ<br>πρώτου τῶν φιλοσόφων πᾶσαν<br>δέησιν ἐλθεῖν εἰς Σικελίαν·
 ")
 ```
+-->
 
 2 ἐλθόντι δὲ παρασχεῖν^2^ αὑτόν, ὅπως διακοσμηθεὶς τὸ ἦθος εἰς ἀρετῆς λόγον, καὶ πρὸς τὸ θειότατον ἀφομοιωθεὶς παράδειγμα τῶν ὄντων καὶ κάλλιστον, ᾧ^3^ τὸ πᾶν ἡγουμένῳ^4^ πειθόμενον^1^ ἐξ ἀκοσμίας κόσμος ἐστί, 3 πολλὴν μὲν εὐδαιμονίαν ἑαυτῷ μηχανήσεται, πολλὴν δὲ τοῖς πολίταις, ὅσα νῦν ἐν ἀθυμίᾳ διοικοῦσι πρὸς ἀνάγκην τῆς ἀρχῆς, ταῦτα σωφροσύνῃ καὶ δικαιοσύνῃ μετʼ εὐμενείας πατρονομούμενα παρασχών^5^ καὶ γενόμενος βασιλεὺς ἐκ τυράννου.
 

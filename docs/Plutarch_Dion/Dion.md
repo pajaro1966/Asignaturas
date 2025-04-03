@@ -1288,7 +1288,7 @@
 
 8 ὁ μὲν δὴ^2^ Πλάτωνι θυμωθείς ὅτι μὴ πάντων αὐτὸν ἀνθρώπων ἀνδρειότατον ὄντα ἀπέφηνεν, οὕτω περίφοβον καὶ τοσούτων ὑπὸ δειλίας^1^ κακῶν μεστὴν εἶχε τὴν ψυχήν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **τοσούτων ὑπὸ δειλίας κακῶν**: 'tantos males causados por la cobardía'.
     2. **μὲν δὴ**: se cierra la sección que trata de Dionisio el viejo y se pasa a hablar sobre su hijo.
 
@@ -1296,10 +1296,11 @@
 
 10.1 τὸν δʼ υἱὸν αὐτοῦ, καθάπερ εἴρηται, διαλελωβημένον ἀπαιδευσίᾳ καὶ συντετριμμένον τὸ ἦθος ὁ Δίων ὁρῶν παρεκάλει πρὸς παιδείαν τραπέσθαι καὶ δεηθῆναι τοῦ πρώτου^1^ τῶν φιλοσόφων πᾶσαν δέησιν^2^ ἐλθεῖν εἰς Σικελίαν·
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **δεηθῆναι τοῦ πρώτου**: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+γεν.)'.
     2. **πᾶσαν δέησιν**: acusativo interno 'le suplicaba toda súplica' > 'le suplicaba de todas las maneras posibles'
     3. [Estructura](Discurso/Dion_10_01.md)
+    4. [Estructura, foto](Discurso/Dion_10_01_Base.png)
 
 <!-- 
 ```mermaid
@@ -1470,11 +1471,12 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 ??? danger "Temporalmente oculto"
     1. **ὡς ... ἕξοντες**: ὡς introduce el pensamiento del sujeto frente al del hablante (Plutarco): "en la idea de que iban a tener ...", "porque, según ellos, iban a tener ...", "pensando que tendrían ...".
 
-5 ὁ γὰρ δὴ Φίλιστος ἐξ ἀρχῆς τε τῇ τυραννίδι καθισταμένῃ προθυμότατον ἑαυτὸν παρέσχε, καὶ τὴν ἄκραν διεφύλαξε φρουραρχῶν ἐπὶ πολὺν χρόνον.
+5 ὁ γὰρ δὴ Φίλιστος ἐξ ἀρχῆς τε τῇ τυραννίδι καθισταμένῃ^2^ προθυμότατον ἑαυτὸν παρέσχε, καὶ τὴν ἄκραν διεφύλαξε φρουραρχῶν ἐπὶ πολὺν χρόνον.
 ἦν δὲ λόγος ὡς καὶ τῇ μητρὶ πλησιάζοι τοῦ πρεσβυτέρου Διονυσίου, τοῦ τυράννου μὴ παντάπασιν ἀγνοοῦντος.
 
 ??? danger "Temporalmente oculto"
     1. **ὁ γὰρ δὴ Φίλιστος ...**: la partícula γάρ introduce un excursus sobre Filisto que se extiende hasta el punto 12. En él la combinación μὲν οὖν nos devuelve a la narración principal.
+    2. **τῇ τυραννίδι καθισταμένῃ**: construcción dominante: cf. ab urbe condita 'desde la ciudad construida' > 'desde la construcción de la ciudad'.
     ```mermaid
     graph TB
     A("Narración principal:
@@ -1492,6 +1494,9 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
     ```
 
 6 ἐπεὶ δὲ Λεπτίνης, ἐκ γυναικὸς ἣν διαφθείρας ἑτέρῳ συνοικοῦσαν ἔσχε γενομένων αὐτῷ δυεῖν^4^ θυγατέρων^3^, τὴν ἑτέραν ἔδωκε Φιλίστῳ μηδὲ φράσας πρὸς Διονύσιον, ὀργισθεὶς ἐκεῖνος^1^ τὴν μὲν γυναῖκα τοῦ Λεπτίνου δήσας ἐν πέδαις καθεῖρξε, τὸν δὲ Φίλιστον ἐξήλασε Σικελίας, φυγόντα παρὰ ξένους τινὰς εἰς τὸν Ἀδρίαν, ὅπου καὶ δοκεῖ τὰ πλεῖστα συνθεῖναι τῆς ἱστορίας^2^ σχολάζων.
+
+??? question
+    1. Cuál es la función de καί en "ὅπου **καὶ** δοκεῖ"? ¿Cómo lo traducirías?
 
 ??? danger "Temporalmente oculto"
     1. **Διονύσιον, ὀργισθεὶς ἐκεῖνος**: se refiere a Dionisio el viejo, como queda claro en 11.7.

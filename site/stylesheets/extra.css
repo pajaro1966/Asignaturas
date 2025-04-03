@@ -7,6 +7,9 @@
     overflow: scroll;
 
   }
+
+  .mermaid b.particl {color:red !important;}
+  
   
   /* TAMAÑO DE FUENTE DEL CUERPO DE PÁGINA MARKDOWN */
   

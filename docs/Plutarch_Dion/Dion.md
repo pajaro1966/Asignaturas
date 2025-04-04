@@ -1267,28 +1267,28 @@
 
 4 εἰσῄει δὲ πρὸς αὐτὸν εἰς τὸ δωμάτιον οὔτε ἀδελφὸς οὔθʼ υἱὸς ὡς ἔτυχεν^1^ ἠμφιεσμένος, ἀλλʼ ἔδει πρὶν εἰσελθεῖν ἀποδύντα τὴν ἑαυτοῦ στολὴν ἕκαστον ἑτέραν ἀναλαβεῖν, ὁραθέντα γυμνὸν ὑπὸ τῶν φυλαττόντων.
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **ὡς ἔτυχεν ἠμφιεσμένος**: 'vestido como por casualidad estuviera (vestido)' > 'tal y como estaba vestido'.
 
 5 ἐπεὶ δὲ Λεπτίνης ὁ ἀδελφὸς αὐτῷ ποτε p.20 χωρίου φύσιν ἐξηγούμενος λαβὼν λόγχην παρά τινος τῶν δορυφόρων ὑπέγραψε^1^ τὸν τόπον, ἐκείνῳ μὲν ἰσχυρῶς ἐχαλέπηνε, τὸν δέ δόντα τὴν λόγχην ἀπέκτεινεν.
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **ὑπέγραψε**: 'dibujó en el suelo'.
 
 6 ἔλεγε δέ τοὺς φίλους φυλάττεσθαι νοῦν ἔχοντας εἰδὼς καὶ βουλομένους^2^ μᾶλλον τυραννεῖν ἢ τυραννεῖσθαι.
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **ἔχοντας εἰδὼς καὶ βουλομένους**: 'completivas' de participio: (a) 'sabiendo que eran ... y querían ...'; (b) 'sabedor de que, si tenía ..., querían también ...'
 
 7 καὶ Μαρσύαν δέ τινα τῶν προηγμένων ὑπʼ αὐτοῦ καὶ τεταγμένων ἐφʼ ἡγεμονίας ἀνεῖλε δόξαντα κατὰ τοὺς ὕπνους σφάττειν αὐτόν, ὡς^2^ ἀπʼ ἐννοίας μεθημερινῆς καὶ <!-- paris.1624.962 --> διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης^1^.
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **ὡς ἀπʼ ἐννοίας μεθημερινῆς καὶ διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης**: 'como si a Marsias esa visión (el sueño) se le hubiera aparecido (por la noche) como resultado de un pensamiento y un cálculo diurnos'.
     2. **ὡς**: la conjunción indica que se trata de una presentación de las ideas subjetivas de Dionisio y que el autor (Plutarco) no las comparte necesariamente.
 
 8 ὁ μὲν δὴ^2^ Πλάτωνι θυμωθείς ὅτι μὴ πάντων αὐτὸν ἀνθρώπων ἀνδρειότατον ὄντα ἀπέφηνεν, οὕτω περίφοβον καὶ τοσούτων ὑπὸ δειλίας^1^ κακῶν μεστὴν εἶχε τὴν ψυχήν.
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **τοσούτων ὑπὸ δειλίας κακῶν**: 'tantos males causados por la cobardía'.
     2. **μὲν δὴ**: se cierra la sección que trata de Dionisio el viejo y se pasa a hablar sobre su hijo.
 
@@ -1296,11 +1296,12 @@
 
 10.1 τὸν δʼ υἱὸν αὐτοῦ, καθάπερ εἴρηται, διαλελωβημένον ἀπαιδευσίᾳ καὶ συντετριμμένον τὸ ἦθος ὁ Δίων ὁρῶν παρεκάλει πρὸς παιδείαν τραπέσθαι καὶ δεηθῆναι τοῦ πρώτου^1^ τῶν φιλοσόφων πᾶσαν δέησιν^2^ ἐλθεῖν εἰς Σικελίαν·
 
-??? note "Temporalmente oculto"
+??? note "Notas"
     1. **δεηθῆναι τοῦ πρώτου**: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+γεν.)'.
     2. **πᾶσαν δέησιν**: acusativo interno 'le suplicaba toda súplica' > 'le suplicaba de todas las maneras posibles'
     3. [Estructura](Discurso/Dion_10_01.md)
     4. [Estructura, foto](Discurso/Dion_10_01_Base.png)
+    5. [Estructura xml](Discurso/Dion_09_10.xml)
 
 <!-- 
 ```mermaid
@@ -1339,7 +1340,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 2 ἐλθόντι δὲ παρασχεῖν^2^ αὑτόν, ὅπως διακοσμηθεὶς τὸ ἦθος εἰς ἀρετῆς λόγον, καὶ πρὸς τὸ θειότατον ἀφομοιωθεὶς παράδειγμα τῶν ὄντων καὶ κάλλιστον, ᾧ^3^ τὸ πᾶν ἡγουμένῳ^4^ πειθόμενον^1^ ἐξ ἀκοσμίας κόσμος ἐστί, 3 πολλὴν μὲν εὐδαιμονίαν ἑαυτῷ μηχανήσεται, πολλὴν δὲ τοῖς πολίταις, ὅσα νῦν ἐν ἀθυμίᾳ διοικοῦσι πρὸς ἀνάγκην τῆς ἀρχῆς, ταῦτα σωφροσύνῃ καὶ δικαιοσύνῃ μετʼ εὐμενείας πατρονομούμενα παρασχών^5^ καὶ γενόμενος βασιλεὺς ἐκ τυράννου.
 
-??? danger "Temporalmente oculto"
+??? note "Notas"
     1. **ᾧ τὸ πᾶν ἡγουμένῳ πειθόμενον**: 'al cual lo que le obedece como un guía' > 'al (ᾧ) que todo lo que lo toma ( τὸ πᾶν πειθόμενον) como guía (ἡγουμένῳ )'.
     2. **παρασχεῖν**: infinitivo que describe una petición adicional (cf. παρεκάλει).
     3. **ᾧ**: dativo con πειθόμενον: πείθομαί τινι 'obedecer, hacer caso a alguien'.

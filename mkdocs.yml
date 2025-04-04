@@ -104,6 +104,7 @@ nav:
   - Pruebas:
     - Morfología: 'Morfologia/Morfologia_Todo.html'
     - Reveal: 'reveal.js-master/index_copia.html'
+    - Pragmática: 'Pragmatica/Ejemplos.xml'
 site_url: https://sitename.example
 extra_css:
   - stylesheets/extra.css

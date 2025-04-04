@@ -1,0 +1,40 @@
+sentence {
+    /* border: 1px solid black; */
+    margin: 5px 5px 5px 5px ;
+    padding: 5px 5px 5px 5px ;}
+
+    ejemplo {
+        display: block;
+        margin: 5px 5px 5px 5px ;
+        padding: 5px 5px 5px 5px ;}
+
+    .NarrowFocus {color: red;
+        border: 1px solid black;
+        margin: 5px 5px 5px 5px ;
+        padding: 5px 5px 5px 5px ;}
+        
+    .NarrowFocus::after {content: " narrow focus"; 
+        text-transform: capitalize;
+    vertical-align: sub;
+    color: black;
+    font-size: 80%;}
+    .Verb {font-weight: bold;}
+
+    numero::after {content: ") ";}
+    numero::before {content: "(";}
+
+    referencia {
+        display: block;
+        margin: 5px 5px 5px 5px ;
+        padding: 5px 5px 5px 5px ;
+    }
+        referencia::before {content: "(";}
+        referencia::after {content: ")";}
+    
+    traduccion {display: inline-block;}
+
+    comment {
+        display: inline-block;
+        margin: 5px 5px 5px 5px ;
+        padding: 5px 5px 5px 5px ;
+    }

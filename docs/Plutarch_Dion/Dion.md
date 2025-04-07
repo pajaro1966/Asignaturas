@@ -1280,6 +1280,106 @@
 ??? note "Notas"
     1. **ἔχοντας εἰδὼς καὶ βουλομένους**: 'completivas' de participio: (a) 'sabiendo que eran ... y querían ...'; (b) 'sabedor de que, si tenía ..., querían también ...'
 
+!!! note "Interpretación a1"
+    «Decía que se protegía de los amigos si eran inteligentes, (se protegía) porque sabía que (en ese caso) también preferían ser tiranos a ser gobernados por uno»
+    ```mermaid
+    graph TB
+    A("Oración")-->B("ἔλεγε<br>decía ‹que›")
+    B-->C("Completiva")
+    C-->D("τοὺς φίλους<br>de los amigos")
+    C-->E("φυλάττεσθαι<br>se guardaba")
+    C-->F("νοῦν ἔχοντας<br>si tenían inteligencia")
+    C-->G("εἰδὼς<br>(se guardaba) porque sabía ‹que›")
+    G-->H("Completiva (?)")
+    H-->I("καὶ<br>también")
+    H-->J("βουλομένους<br>querían")
+    H-->K("μᾶλλον<br>más")
+    H-->L("τυραννεῖν ἢ τυραννεῖσθαι<br>ser tiranos que estar sometidos a uno")
+    
+    F:::Fal
+    G:::Gal
+    
+    classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+    classDef Gal fill:orange,stroke:red,stroke-width:4px;
+    ```
+
+!!! note "Interpretación a2"
+    «Decía que se protegía de los amigos si eran inteligentes, (lo decía) porque sabía que (en ese caso) también preferían ser tiranos a ser gobernados por uno»
+    
+    ```mermaid
+    
+    graph TB
+    A("Oración")-->B("ἔλεγε<br>decía ‹que›")
+    B-->C("Completiva")
+    C-->D("τοὺς φίλους<br>de los amigos")
+    C-->E("φυλάττεσθαι<br>se guardaba")
+    C-->F("νοῦν ἔχοντας<br>si tenían inteligencia")-->F1(" ")
+    B-->G("εἰδὼς<br>(lo decía) porque sabía ‹que›")
+    G-->H("Completiva (?)")
+    H-->I("καὶ<br>también")
+    H-->J("βουλομένους<br>querían")
+    H-->K("μᾶλλον<br>más")
+    H-->L("τυραννεῖν ἢ τυραννεῖσθαι<br>ser tiranos que estar sometidos a uno")
+    
+    F:::Fal
+    G:::Gal
+    
+    classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+    classDef Gal fill:orange,stroke:red,stroke-width:4px;
+    ```
+
+!!! note "Interpretación b1"
+    «Decía que se protegía de los amigos porque sabía que, si eran inteligentes, (en ese caso) también preferían ser tiranos a ser gobernados por uno»
+    
+    ```mermaid
+    graph TB
+    A("Oración")-->B("ἔλεγε<br>decía ‹que›")
+    B-->C("Completiva")
+    C-->D("τοὺς φίλους<br>de los amigos")
+    C-->E("φυλάττεσθαι<br>se guardaba")-->E1(" ")
+    B-->G("εἰδὼς<br>(lo decía)<br>porque sabía ‹que›")
+    G-->H("Completiva (?)")
+    G-->F("νοῦν ἔχοντας<br>si tenían<br>inteligencia")-->F1(" ")
+    H-->I("καὶ<br>también")
+    H-->J("βουλομένους<br>querían")
+    H-->K("μᾶλλον<br>más")
+    H-->L("τυραννεῖν ἢ<br>τυραννεῖσθαι<br>ser tiranos que estar<br>sometidos a uno")
+    
+    F:::Fal
+    G:::Gal
+    I:::Coord
+    
+    classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+    classDef Gal fill:orange,stroke:red,stroke-width:4px;
+    classDef Coord fill:lightgreen,stroke:green,stroke-width:4px;
+    
+    ```
+
+!!! note "Interpretación b2"
+    «Decía que se protegía de los amigos porque sabía que eran inteligentes y preferían ser tiranos a ser gobernados por uno»
+    
+    ```mermaid
+    graph TB
+    A("Oración")-->B("ἔλεγε<br>decía ‹que›")
+    B-->C("Completiva")
+    C-->D("τοὺς φίλους<br>de los amigos")
+    C-->E("φυλάττεσθαι<br>se guardaba")-->E1(" ")
+    B-->G("εἰδὼς<br>porque sabía ‹que›")
+    G-->H("Completivas (?)")
+    H-->F("νοῦν ἔχοντας<br>tenían inteligencia")
+    H-->I("καὶ<br>y")
+    H-->J("βουλομένους μᾶλλον<br>más")
+    J-->L("τυραννεῖν ἢ τυραννεῖσθαι<br>ser tiranos que estar sometidos a uno")
+    
+    F:::Fal
+    G:::Gal
+    I:::Coord
+    
+    classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+    classDef Gal fill:orange,stroke:red,stroke-width:4px;
+    classDef Coord fill:lightgreen,stroke:green,stroke-width:4px;
+    ```
+
 7 καὶ Μαρσύαν δέ τινα τῶν προηγμένων ὑπʼ αὐτοῦ καὶ τεταγμένων ἐφʼ ἡγεμονίας ἀνεῖλε δόξαντα κατὰ τοὺς ὕπνους σφάττειν αὐτόν, ὡς^2^ ἀπʼ ἐννοίας μεθημερινῆς καὶ <!-- paris.1624.962 --> διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης^1^.
 
 ??? note "Notas"

@@ -4268,6 +4268,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Pragmatica/Ejemplos.xml" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pragmática
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -6508,28 +6529,121 @@ E--&gt;F("ὢν&lt;br&gt;era")--&gt;F1("πρῶτος ... καὶ μέγιστο
 </details>
 <p>4 εἰσῄει δὲ πρὸς αὐτὸν εἰς τὸ δωμάτιον οὔτε ἀδελφὸς οὔθʼ υἱὸς ὡς ἔτυχεν<sup>1</sup> ἠμφιεσμένος, ἀλλʼ ἔδει πρὶν εἰσελθεῖν ἀποδύντα τὴν ἑαυτοῦ στολὴν ἕκαστον ἑτέραν ἀναλαβεῖν, ὁραθέντα γυμνὸν ὑπὸ τῶν φυλαττόντων.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>ὡς ἔτυχεν ἠμφιεσμένος</strong>: 'vestido como por casualidad estuviera (vestido)' &gt; 'tal y como estaba vestido'.</li>
 </ol>
 </details>
 <p>5 ἐπεὶ δὲ Λεπτίνης ὁ ἀδελφὸς αὐτῷ ποτε p.20 χωρίου φύσιν ἐξηγούμενος λαβὼν λόγχην παρά τινος τῶν δορυφόρων ὑπέγραψε<sup>1</sup> τὸν τόπον, ἐκείνῳ μὲν ἰσχυρῶς ἐχαλέπηνε, τὸν δέ δόντα τὴν λόγχην ἀπέκτεινεν.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>ὑπέγραψε</strong>: 'dibujó en el suelo'.</li>
 </ol>
 </details>
 <p>6 ἔλεγε δέ τοὺς φίλους φυλάττεσθαι νοῦν ἔχοντας εἰδὼς καὶ βουλομένους<sup>2</sup> μᾶλλον τυραννεῖν ἢ τυραννεῖσθαι.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>ἔχοντας εἰδὼς καὶ βουλομένους</strong>: 'completivas' de participio: (a) 'sabiendo que eran ... y querían ...'; (b) 'sabedor de que, si tenía ..., querían también ...'</li>
 </ol>
 </details>
+<div class="admonition note">
+<p class="admonition-title">Interpretación a1</p>
+<p>«Decía que se protegía de los amigos si eran inteligentes, (se protegía) porque sabía que (en ese caso) también preferían ser tiranos a ser gobernados por uno»
+<pre class="mermaid"><code>graph TB
+A("Oración")--&gt;B("ἔλεγε&lt;br&gt;decía ‹que›")
+B--&gt;C("Completiva")
+C--&gt;D("τοὺς φίλους&lt;br&gt;de los amigos")
+C--&gt;E("φυλάττεσθαι&lt;br&gt;se guardaba")
+C--&gt;F("νοῦν ἔχοντας&lt;br&gt;si tenían inteligencia")
+C--&gt;G("εἰδὼς&lt;br&gt;(se guardaba) porque sabía ‹que›")
+G--&gt;H("Completiva (?)")
+H--&gt;I("καὶ&lt;br&gt;también")
+H--&gt;J("βουλομένους&lt;br&gt;querían")
+H--&gt;K("μᾶλλον&lt;br&gt;más")
+H--&gt;L("τυραννεῖν ἢ τυραννεῖσθαι&lt;br&gt;ser tiranos que estar sometidos a uno")
+
+F:::Fal
+G:::Gal
+
+classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+classDef Gal fill:orange,stroke:red,stroke-width:4px;</code></pre></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Interpretación a2</p>
+<p>«Decía que se protegía de los amigos si eran inteligentes, (lo decía) porque sabía que (en ese caso) también preferían ser tiranos a ser gobernados por uno»</p>
+<pre class="mermaid"><code>
+graph TB
+A("Oración")--&gt;B("ἔλεγε&lt;br&gt;decía ‹que›")
+B--&gt;C("Completiva")
+C--&gt;D("τοὺς φίλους&lt;br&gt;de los amigos")
+C--&gt;E("φυλάττεσθαι&lt;br&gt;se guardaba")
+C--&gt;F("νοῦν ἔχοντας&lt;br&gt;si tenían inteligencia")--&gt;F1(" ")
+B--&gt;G("εἰδὼς&lt;br&gt;(lo decía) porque sabía ‹que›")
+G--&gt;H("Completiva (?)")
+H--&gt;I("καὶ&lt;br&gt;también")
+H--&gt;J("βουλομένους&lt;br&gt;querían")
+H--&gt;K("μᾶλλον&lt;br&gt;más")
+H--&gt;L("τυραννεῖν ἢ τυραννεῖσθαι&lt;br&gt;ser tiranos que estar sometidos a uno")
+
+F:::Fal
+G:::Gal
+
+classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+classDef Gal fill:orange,stroke:red,stroke-width:4px;</code></pre>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Interpretación b1</p>
+<p>«Decía que se protegía de los amigos porque sabía que, si eran inteligentes, (en ese caso) también preferían ser tiranos a ser gobernados por uno»</p>
+<pre class="mermaid"><code>graph TB
+A("Oración")--&gt;B("ἔλεγε&lt;br&gt;decía ‹que›")
+B--&gt;C("Completiva")
+C--&gt;D("τοὺς φίλους&lt;br&gt;de los amigos")
+C--&gt;E("φυλάττεσθαι&lt;br&gt;se guardaba")--&gt;E1(" ")
+B--&gt;G("εἰδὼς&lt;br&gt;(lo decía)&lt;br&gt;porque sabía ‹que›")
+G--&gt;H("Completiva (?)")
+G--&gt;F("νοῦν ἔχοντας&lt;br&gt;si tenían&lt;br&gt;inteligencia")--&gt;F1(" ")
+H--&gt;I("καὶ&lt;br&gt;también")
+H--&gt;J("βουλομένους&lt;br&gt;querían")
+H--&gt;K("μᾶλλον&lt;br&gt;más")
+H--&gt;L("τυραννεῖν ἢ&lt;br&gt;τυραννεῖσθαι&lt;br&gt;ser tiranos que estar&lt;br&gt;sometidos a uno")
+
+F:::Fal
+G:::Gal
+I:::Coord
+
+classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+classDef Gal fill:orange,stroke:red,stroke-width:4px;
+classDef Coord fill:lightgreen,stroke:green,stroke-width:4px;
+</code></pre>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Interpretación b2</p>
+<p>«Decía que se protegía de los amigos porque sabía que eran inteligentes y preferían ser tiranos a ser gobernados por uno»</p>
+<pre class="mermaid"><code>graph TB
+A("Oración")--&gt;B("ἔλεγε&lt;br&gt;decía ‹que›")
+B--&gt;C("Completiva")
+C--&gt;D("τοὺς φίλους&lt;br&gt;de los amigos")
+C--&gt;E("φυλάττεσθαι&lt;br&gt;se guardaba")--&gt;E1(" ")
+B--&gt;G("εἰδὼς&lt;br&gt;porque sabía ‹que›")
+G--&gt;H("Completivas (?)")
+H--&gt;F("νοῦν ἔχοντας&lt;br&gt;tenían inteligencia")
+H--&gt;I("καὶ&lt;br&gt;y")
+H--&gt;J("βουλομένους μᾶλλον&lt;br&gt;más")
+J--&gt;L("τυραννεῖν ἢ τυραννεῖσθαι&lt;br&gt;ser tiranos que estar sometidos a uno")
+
+F:::Fal
+G:::Gal
+I:::Coord
+
+classDef Fal fill:#f9f,stroke:blue,stroke-width:4px;
+classDef Gal fill:orange,stroke:red,stroke-width:4px;
+classDef Coord fill:lightgreen,stroke:green,stroke-width:4px;</code></pre>
+</div>
 <p>7 καὶ Μαρσύαν δέ τινα τῶν προηγμένων ὑπʼ αὐτοῦ καὶ τεταγμένων ἐφʼ ἡγεμονίας ἀνεῖλε δόξαντα κατὰ τοὺς ὕπνους σφάττειν αὐτόν, ὡς<sup>2</sup> ἀπʼ ἐννοίας μεθημερινῆς καὶ <!-- paris.1624.962 --> διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης<sup>1</sup>.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>ὡς ἀπʼ ἐννοίας μεθημερινῆς καὶ διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης</strong>: 'como si a Marsias esa visión (el sueño) se le hubiera aparecido (por la noche) como resultado de un pensamiento y un cálculo diurnos'.</li>
 <li><strong>ὡς</strong>: la conjunción indica que se trata de una presentación de las ideas subjetivas de Dionisio y que el autor (Plutarco) no las comparte necesariamente.</li>
@@ -6537,7 +6651,7 @@ E--&gt;F("ὢν&lt;br&gt;era")--&gt;F1("πρῶτος ... καὶ μέγιστο
 </details>
 <p>8 ὁ μὲν δὴ<sup>2</sup> Πλάτωνι θυμωθείς ὅτι μὴ πάντων αὐτὸν ἀνθρώπων ἀνδρειότατον ὄντα ἀπέφηνεν, οὕτω περίφοβον καὶ τοσούτων ὑπὸ δειλίας<sup>1</sup> κακῶν μεστὴν εἶχε τὴν ψυχήν.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>τοσούτων ὑπὸ δειλίας κακῶν</strong>: 'tantos males causados por la cobardía'.</li>
 <li><strong>μὲν δὴ</strong>: se cierra la sección que trata de Dionisio el viejo y se pasa a hablar sobre su hijo.</li>
@@ -6546,12 +6660,13 @@ E--&gt;F("ὢν&lt;br&gt;era")--&gt;F1("πρῶτος ... καὶ μέγιστο
 <h3 id="65-dion-guia-a-dionisio-ii">6.5. Dion guía a Dionisio II<a class="headerlink" href="#65-dion-guia-a-dionisio-ii" title="Permanent link">&para;</a></h3>
 <p>10.1 τὸν δʼ υἱὸν αὐτοῦ, καθάπερ εἴρηται, διαλελωβημένον ἀπαιδευσίᾳ καὶ συντετριμμένον τὸ ἦθος ὁ Δίων ὁρῶν παρεκάλει πρὸς παιδείαν τραπέσθαι καὶ δεηθῆναι τοῦ πρώτου<sup>1</sup> τῶν φιλοσόφων πᾶσαν δέησιν<sup>2</sup> ἐλθεῖν εἰς Σικελίαν·</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
-<li><strong>δεηθῆναι τοῦ πρώτου</strong>: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+γεν.)'.</li>
+<li><strong>δεηθῆναι τοῦ πρώτου</strong>: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+gen.)'.</li>
 <li><strong>πᾶσαν δέησιν</strong>: acusativo interno 'le suplicaba toda súplica' &gt; 'le suplicaba de todas las maneras posibles'</li>
 <li><a href="../Discurso/Dion_10_01/">Estructura</a></li>
 <li><a href="../Discurso/Dion_10_01_Base.png">Estructura, foto</a></li>
+<li><a href="../Discurso/Dion_09_10.xml">Estructura xml</a></li>
 </ol>
 </details>
 <!-- 
@@ -6589,7 +6704,7 @@ A--&gt;|"&lt;b style="background-color: white;color: red;"&gt;δέ&lt;/b&gt;"|E(
 
 <p>2 ἐλθόντι δὲ παρασχεῖν<sup>2</sup> αὑτόν, ὅπως διακοσμηθεὶς τὸ ἦθος εἰς ἀρετῆς λόγον, καὶ πρὸς τὸ θειότατον ἀφομοιωθεὶς παράδειγμα τῶν ὄντων καὶ κάλλιστον, ᾧ<sup>3</sup> τὸ πᾶν ἡγουμένῳ<sup>4</sup> πειθόμενον<sup>1</sup> ἐξ ἀκοσμίας κόσμος ἐστί, 3 πολλὴν μὲν εὐδαιμονίαν ἑαυτῷ μηχανήσεται, πολλὴν δὲ τοῖς πολίταις, ὅσα νῦν ἐν ἀθυμίᾳ διοικοῦσι πρὸς ἀνάγκην τῆς ἀρχῆς, ταῦτα σωφροσύνῃ καὶ δικαιοσύνῃ μετʼ εὐμενείας πατρονομούμενα παρασχών<sup>5</sup> καὶ γενόμενος βασιλεὺς ἐκ τυράννου.</p>
 <details class="note">
-<summary>Temporalmente oculto</summary>
+<summary>Notas</summary>
 <ol>
 <li><strong>ᾧ τὸ πᾶν ἡγουμένῳ πειθόμενον</strong>: 'al cual lo que le obedece como un guía' &gt; 'al (ᾧ) que todo lo que lo toma ( τὸ πᾶν πειθόμενον) como guía (ἡγουμένῳ )'.</li>
 <li><strong>παρασχεῖν</strong>: infinitivo que describe una petición adicional (cf. παρεκάλει).</li>
@@ -6600,7 +6715,7 @@ A--&gt;|"&lt;b style="background-color: white;color: red;"&gt;δέ&lt;/b&gt;"|E(
 </ol>
 </details>
 <p>4 τοὺς γὰρ ἀδαμαντίνους<sup>1</sup> δεσμοὺς οὐχ, ὥσπερ ὁ <!-- p.22 --> πατὴρ ἔλεγεν αὐτοῦ, φόβον καὶ βίαν καὶ νεῶν πλῆθος εἶναι<sup>2</sup> καὶ βαρβάρων μυρίανδρον φυλακήν, εὔνοιαν δὲ καὶ προθυμίαν καὶ χάριν ἐγγενομένην ὑπʼ ἀρετῆς καὶ δικαιοσύνης, ἅ, καίπερ ὄντα μαλακώτερα τῶν συντόνων καὶ σκληρῶν ἐκείνων, ἰσχυρότερα πρὸς διαμονὴν ἡγεμονίας ὑπάρχειν<sup>2</sup>.</p>
-<details class="note">
+<details class="danger">
 <summary>Temporalmente oculto</summary>
 <ol>
 <li><strong>ἀδαμαντίνους</strong>: δαμάω/δαμά-ζω 'domar' &gt; ἀ-δάμα-ς, -αντ-ος &gt; ἀ-δαμά-ντ-ινος, η, ον 'indomable'.</li>
@@ -6608,7 +6723,7 @@ A--&gt;|"&lt;b style="background-color: white;color: red;"&gt;δέ&lt;/b&gt;"|E(
 </ol>
 </details>
 <p>5 χωρὶς δὲ τούτων<sup>1</sup> ἀφιλότιμον εἶναι καὶ ἄζηλον τὸν ἄρχοντα, τῷ μὲν σώματι περιττῶς ἀμπεχόμενον<sup>4^^2</sup> καὶ τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ<sup>3</sup> λαμπρυνόμενον, ὁμιλίᾳ δὲ καὶ λόγῳ μηδὲν ὄντα τοῦ προστυχόντος σεμνότερον, μηδὲ τῆς ψυχῆς τὸ βασίλειον ἀξιοῦντα κεκοσμημένον ἔχειν βασιλικῶς καὶ πρεπόντως.</p>
-<details class="note">
+<details class="danger">
 <summary>Temporalmente oculto</summary>
 <ol>
 <li><strong>χωρὶς τούτων</strong>: 'aparte de eso' &gt; 'además'. Dion introduce un segundo argumento.</li>

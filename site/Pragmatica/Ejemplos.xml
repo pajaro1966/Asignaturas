@@ -1,0 +1,78 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="Ejemplos.css"?>
+
+<Ejemplos>
+
+
+<ejemplo>
+<numero>35</numero>
+<sentence>
+ΚΟ. 
+<span class="NarrowFocus">ποῖ</span>
+τοῦτον
+ἕλκεις;
+</sentence>
+<sentence>ΓΡ.Α.
+<span class="NarrowFocus">εἰς ἐμαυτῆς</span>
+<span class="Verb">εἰσάγω</span>
+</sentence>
+<referencia>Ar. Eccl. 1037</referencia>
+
+<traduccion>(Young girl:) Where are you dragging him off to? :: (First old woman:) I’m taking him to myplace.</traduccion>
+
+<comment>
+The presupposed information in the answer is ‘I am taking him to X’: since the girl asked ποῖ τοῦτον ἕλκεις;, the woman can regard the information that she is dragging the man in question somewhere as already knownto the girl (to the extent that ‘him’ can be left unexpressed in the answer). The asserted information is limited to the single constituent εἰς ἐμαυτῆς; compare (31) and (32). Thefocus is a single constituent, and precedes
+the verb.
+</comment>
+
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+<ejemplo>
+<numero>XXX</numero>
+<sentence>XXX</sentence>
+<referencia>XXX</referencia>
+<traduccion>XXX</traduccion>
+<comment>XXX</comment>
+</ejemplo>
+
+</Ejemplos>

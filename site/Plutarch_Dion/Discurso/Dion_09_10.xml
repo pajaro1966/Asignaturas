@@ -1,0 +1,276 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="discurso.css"?>
+
+<discurso>
+
+<fragmento level="0">
+
+<titulo>
+<span entidad="Dion">Dion</span>
+ve la falta de educación de
+<span entidad="Dio2">Dionisio II</span>
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">1</span>
+αἰτίαν
+
+<span cat="particl"> δέ </span>
+τούτου τὴν ἀπαιδευσίαν εἶναι 
+  <span entidad="Dion">νομίζων</span>
+  <span entidad="Dion">ἐμβαλεῖν</span>
+  <span entidad="Dio2">αὐτὸν</span> εἰς διατριβὰς ἐλευθερίους <span entidad="Dion">ἐφιλοτιμεῖτο</span>
+  <span cat="conj">καὶ</span>
+  <span entidad="Dion">γεῦσαι</span> λόγων <span cat="conj">καὶ</span> μαθημάτων ἠθοποιῶν, <span cat="conj"> ὡς </span> ἀρετήν τε <span entidad="Dio2">παύσαιτο</span>
+  <span entidad="Dio2">δεδιὼς</span>
+  <span cat="conj">καὶ</span> τοῖς καλοῖς
+  <span entidad="Dio2">χαίρειν</span>
+  <span entidad="Dio2">ἐθισθείη</span>.
+  
+  <traduccion>
+  Dión, creyendo que la causa de todo esto era la falta de educación del tirano, se afanaba en inclinarlo a una instrucción liberal y en hacerlo tomar gusto por los razonamientos y enseñanzas que forman el carácter, de manera que dejase de temer a la virtud y se acostumbrara a obtener placer con las cosas buenas.
+  </traduccion>
+  </fragmento>
+  
+  <fragmento level="1">
+
+<titulo>
+Educación dada por
+<span entidad="Dio1">Dionisio I</span>
+a
+<span entidad="Dio2">Dionisio II</span>
+</titulo>
+
+  <span entidad="num1">9</span>.<span entidad="num2">2</span>
+  φύσει<span cat="particl"><span cat="particl"> γὰρ </span></span>
+  οὐ
+  <span entidad="Dio2">γεγόνει</span>
+  τῶν φαυλοτάτων τυράννων
+  <span entidad="Dio2">ὁ</span>
+  <span entidad="Dio2">Διονύσιος</span>
+  , 
+  <span cat="particl">ἀλλ'</span>
+  <span entidad="Dio1">ὁ</span>
+  <span entidad="Dio1">πατὴρ</span>
+  ,
+  <span entidad="Dio1">δεδοικώς</span>
+  <span cat="conj">μὴ</span>
+  φρονήματος 
+  <span entidad="Dio2">μεταλαβὼν</span>
+  <span cat="conj">καὶ</span>
+  <span entidad="Dio2">συγγενόμενος</span>
+  νοῦν ἔχουσιν ἀνθρώποις
+  <span entidad="Dio2">ἐπιβουλεύσειεν</span>
+  <span entidad="Dio1">αὐτῷ</span>
+  <span cat="conj">καὶ</span>
+  <span entidad="Dio2">παρέλοιτο</span>
+  τὴν ἀρχήν,
+  <span entidad="Dio1">ἐφρούρει</span>
+  <span entidad="Dio2">κατάκλειστον</span>
+  οἴκοι, δι' ἐρημίαν ὁμιλίας ἑτέρας <span cat="conj">καὶ</span> ἀπειρίᾳ πραγμάτων, 
+  <span cat="conj">ὥς</span>
+  φασιν, ἁμάξια <span cat="conj">καὶ</span> λυχνίας <span cat="conj">καὶ</span> δίφρους3 ξυλίνους <span cat="conj">καὶ</span> τραπέζας
+  <span entidad="Dio2">τεκταινόμενον</span>
+  .
+    <traduccion>
+    Pues, por naturaleza, Dionisio no era de los peores tiran o pero su, padre, temiendo que si abrazaba la sensatez y se rodeaba de hombres inteligentes conspirara contra él y le arrebatara el poder, lo vigilaba encerrado en casa, privado de otro trato y al margen de cualquier actividad, construyendo, dicen, carritos, lamparitas, asientos y mesas de madera.
+  </traduccion>
+  </fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: el barbero
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">3</span>
+
+οὕτω
+<span cat="particl"> γὰρ </span>
+<span entidad="Dio1">ἦν</span>
+<span entidad="Dio1">ἄπιστος</span>
+<span cat="conj">καὶ</span> πρὸς ἅπαντας ἀνθρώπους
+<span entidad="Dio1">ὕποπτος</span>
+<span cat="conj">καὶ</span>
+<span entidad="Dio1">προβεβλημένος</span>
+διὰ φόβον
+<span entidad="Dio1">ὁ</span>
+<span entidad="Dio1">πρεσβύτερος</span>
+<span entidad="Dio1">Διονύσιος</span>
+<span cat="conj">ὥστε</span>
+<span cat="conj"> μηδὲ </span> τῆς κεφαλῆς3 τὰς τρίχας ἀφελεῖν κουρικαῖς μαχαίραις,
+<span cat="particl">ἀλλὰ</span>
+τῶν πλαστῶν τις ἐπιφοιτῶν ἄνθρακι τὴν κόμην περιέκαιεν.
+
+<traduccion>
+Tan desconfiado era Dionisio el Viejo y receloso con todos los hombres y tanto se protegía por culpa del miedo, que ni se dejaba cortar el cabello con tijeras, sino que cuando el barbero venía le quemaba el cabello con un carbón.
+</traduccion>
+
+</fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: las visitas son desnudadas
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">4</span>
+
+εἰσῄει<span cat="particl"> δὲ </span>
+<span entidad="Dio1">πρὸς</span>
+<span entidad="Dio1">αὐτὸν</span>
+εἰς τὸ δωμάτιον
+<span cat="conj">οὔτε</span>
+ἀδελφὸς <span cat="conj"> οὔθ' </span> υἱὸς <span cat="conj"> ὡς </span> ἔτυχεν1 ἠμφιεσμένος,
+<span cat="conj">ἀλλ'</span>
+ἔδει πρὶν εἰσελθεῖν ἀποδύντα τὴν ἑαυτοῦ στολὴν ἕκαστον ἑτέραν ἀναλαβεῖν, ὁραθέντα γυμνὸν ὑπὸ τῶν φυλαττόντων.
+
+<traduccion>
+A su presencia en el palacio ni su hermano ni su hijo llegaban tal como iban vestidos, sino que debían quitarse la túnica y tomar otra, dejándose ver desnudos por los guardianes.
+</traduccion>
+  </fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: Leptines dibuja un mapa con una lanza
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">5</span>
+
+<span cat="conj">ἐπεὶ</span>
+<span cat="particl"> δὲ </span>Λεπτίνης ὁ ἀδελφὸς <span entidad="Dio1">αὐτῷ</span>
+ποτε χωρίου φύσιν ἐξηγούμενος λαβὼν λόγχην παρά τινος τῶν δορυφόρων ὑπέγραψε τὸν τόπον, ἐκείνῳ
+<span cat="particl">μὲν</span>
+ἰσχυρῶς
+<span entidad="Dio1">ἐχαλέπηνε</span>
+,
+τὸν<span cat="particl"> δέ </span>
+δόντα τὴν λόγχην
+<span entidad="Dio1">ἀπέκτεινεν</span>
+.
+  <traduccion>
+  Una vez que su hermano Leptines para explicarle la naturaleza de un lugar, hizo su trazado en el suelo tomando la lanza de uno de los guardias de corps, se irritó durísimamente con él e hizo matar al que le había prestado la lanza.
+  </traduccion>
+  </fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: hay que guardarse de los amigos
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">6</span>
+<span entidad="Dio1">ἔλεγε</span>
+<span cat="particl"> δέ </span>
+τοὺς φίλους φυλάττεσθαι νοῦν ἔχοντας
+<span entidad="Dio1">εἰδὼς</span>
+<span cat="conj">καὶ</span> βουλομένους μᾶλλον τυραννεῖν
+<span cat="conj">ἢ</span>
+τυραννεῖσθαι.
+
+
+<traduccion>
+Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, preferirían ejercer la tiranía a soportarla.
+</traduccion>
+  </fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: el asesinato de Marsias
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">7</span>
+
+<span cat="conj">καὶ</span> Μαρσύαν<span cat="particl"> δέ </span>τινα τῶν προηγμένων
+<span entidad="Dio1">ὑπ'</span>
+<span entidad="Dio1">αὐτοῦ</span>
+<span cat="conj">καὶ</span>
+τεταγμένων ἐφ' ἡγεμονίας ἀνεῖλε δόξαντα κατὰ τοὺς ὕπνους σφάττειν
+<span entidad="Dio1">αὐτόν</span>
+,
+<span cat="conj">ὡς</span>
+ἀπ' ἐννοίας μεθημερινῆς
+<span cat="conj">καὶ</span>
+διαλογισμοῦ τῆς ὄψεως ταύτης εἰς τὸν ὕπνον αὐτῷ παραγενομένης.
+
+  <traduccion>
+  A Marsias, uno de los que él mismo había promocionado y que desempeñaba un alto cargo, lo hizo matar porque había soñado que degollaba al tirano: sin duda esa visión se le había mostrado en sueños a partir de un plan y un razonamiento concebidos durante el día.
+  </traduccion>
+  </fragmento>
+
+<fragmento level="2">
+<titulo>
+Miedos de
+<span entidad="Dio1">Dionisio I</span>
+: cierre del excurso
+</titulo>
+
+<span entidad="num1">9</span>.<span entidad="num2">8</span> 
+<span entidad="Dio1">ὁ</span>
+<span cat="particl"> μὲν δὴ </span>Πλάτωνι
+<span entidad="Dio1">θυμωθείς</span>
+<span cat="conj">ὅτι</span>
+μὴ πάντων
+<span entidad="Dio1">αὐτὸν</span>
+ἀνθρώπων
+<span entidad="Dio1">ἀνδρειότατον</span>
+<span entidad="Dio1">ὄντα</span>
+ἀπέφηνεν, οὕτω περίφοβον
+<span cat="conj">καὶ</span>
+τοσούτων ὑπὸ δειλίας1 κακῶν μεστὴν
+<span entidad="Dio1">εἶχε</span>
+τὴν ψυχήν
+.
+  <traduccion>
+  Hasta ese punto tenía el alma espantada y llena de todos los vicios de la cobardía el mismo que se había irritado con Platón porque no lo tuvo por el más valeroso de los hombres.
+  </traduccion>
+  </fragmento>
+
+<fragmento level="0">
+
+<titulo>
+<span entidad="Dion">Dion</span>
+ve la falta de educación
+dada por 
+ <span entidad="Dio1">Dionisio I</span>
+a
+<span entidad="Dio2">Dionisio II</span>
+</titulo>
+
+
+<span entidad="num1">10</span>.<span entidad="num2">1</span>
+<span entidad="Dio2">τὸν</span>
+<span cat="particl"> δ' </span>
+<span entidad="Dio2">υἱὸν</span>
+<span entidad="Dio1">αὐτοῦ</span>
+,
+<span cat="conj">καθάπερ</span> εἴρηται,
+<span entidad="Dio2">διαλελωβημένον</span>
+ἀπαιδευσίᾳ
+<span cat="conj">καὶ</span>
+<span entidad="Dio2">συντετριμμένον</span>
+τὸ ἦθος
+<span entidad="Dion">ὁ</span>
+<span entidad="Dion">Δίων</span>
+<span entidad="Dion">ὁρῶν</span>
+<span entidad="Dion">παρεκάλει</span>
+πρὸς παιδείαν
+<span entidad="Dio2">τραπέσθαι</span>
+<span cat="conj">καὶ</span>
+<span entidad="Dio2">δεηθῆναι</span>
+τοῦ πρώτου τῶν φιλοσόφων πᾶσαν δέησιν ἐλθεῖν εἰς Σικελίαν·
+
+<traduccion>
+Dión, como ya he dicho, viendo al hijo del tirano echado a lo perder por la ignorancia y con el carácter corrompido, lo exhortaba a inclinarse al estudio y a rogar al primero de los filósofos que viniese a Sicilia.
+</traduccion>
+
+</fragmento>
+
+
+</discurso>

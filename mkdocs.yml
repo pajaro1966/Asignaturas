@@ -2,6 +2,7 @@ site_name: Asignaturas
 nav:
   - Home: 'index.md'
   - Griego Moderno: 
+    - Examen de abril: 'Griego_Moderno/Examen_Preguntas.md'
     - Referencias: 'Griego_Moderno/GrMod_Bibl.md'
     - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_TODAS_Vocab.html'
     - Lección 1: 'Griego_Moderno/Leccion_01.md'
@@ -28,7 +29,6 @@ nav:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_16_Vocab.html'
       - Lección: 'Griego_Moderno/Leccion_16.md'
       - Ejercicios: 'reveal.js-master/GMod_Leccion_16_Exerc.html'
-    - Examen de abril: 'Griego_Moderno/Examen_Preguntas.md'
     - Lección 17:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_17_Vocab.html'
       - Lección: 'Griego_Moderno/Leccion_17.md'

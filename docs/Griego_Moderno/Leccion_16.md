@@ -103,7 +103,7 @@
 
 </div>
 
-![Página 116](Metodo/Textbook_Pagina_116.png)
+[Página 116](Metodo/Textbook_Pagina_116.png)
 
 ---
 
@@ -139,7 +139,7 @@
   <source type="audio/mpeg" src="../GM_Audios/16_Hena_zevgari_hetoimazei_to_spiti_tou.mp3"></source>
 </audio>
 
-![Página 117](Metodo/Textbook_Pagina_117.png)
+[Página 117](Metodo/Textbook_Pagina_117.png)
 
 ---
 
@@ -182,7 +182,7 @@
 | :---: | :---: |
 | Ο συνεχής μέλλοντας δείχνει τη **διάρκεια** ή την **επανάληψη** μιας πράξης στο μέλλον. | Ο απλός μέλλοντας δείχνει ότι<br>μια πράξη **θα γίνει** και **θα τελειώσει** στο μέλλον<br>και παρουσιάζει την πράξη στο **σύνολό** της, συνοπτικά, σαν να ολοκληρώνεται σε **μια στιγμή**. |
 
-![Página 118](Metodo/Textbook_Pagina_118.png)
+[Página 118](Metodo/Textbook_Pagina_118.png)
 
 ---
 
@@ -206,7 +206,7 @@
 |**6b** Η Ελένη θα του διαβάσει τα νέα.|Η Ελένη|(δε)|θα|του|  |διαβάσει|  |τα νέα.|
 |**6c** Η Ελένη θα του τα διαβάσει.|Η Ελένη|(δε)|θα|του|τα|διαβάσει|  |  |
 
-![Página 119](Metodo/Textbook_Pagina_119.png)
+[Página 119](Metodo/Textbook_Pagina_119.png)
 
 ---
 
@@ -226,7 +226,7 @@
 - κάθε πότε;
 - όλο το πρωί
 
-![Página 119](Metodo/Textbook_Pagina_119.png)
+[Página 119](Metodo/Textbook_Pagina_119.png)
 
 ---
 
@@ -254,7 +254,7 @@
 |να διαβά**ζ**-ετε|να διαβά**σ**-ετε|-ετε|
 |να διαβά**ζ**-ουν|να διαβά**σ**-ουν|-ουν|
 
-![Página 120](Metodo/Textbook_Pagina_120.png)
+[Página 120](Metodo/Textbook_Pagina_120.png)
 
 ---
 
@@ -278,8 +278,8 @@
 |να **μη** διαβά**ζ**-ετε|να **μη** διαβά**σ**-ετε|-ετε|
 |να **μη** διαβά**ζ**-ουν|να **μη** διαβά**σ**-ουν|-ουν|
 
-![Página 120](Metodo/Textbook_Pagina_120.png)
-![Página 121](Metodo/Textbook_Pagina_121.png)
+[Página 120](Metodo/Textbook_Pagina_120.png)
+[Página 121](Metodo/Textbook_Pagina_121.png)
 
 ---
 
@@ -291,8 +291,8 @@
 | :---:|:---: |
 |Ἡ συνεχής υποτακτική δείχνει τη **διάρκεια** ή **επανάληψη** μιας πράξης.| Η απλή υποτακτική παρουσιάζει την πράξη του ρήματος<br>στο **σύνολό** της, **συνοπτικά**, σαν να ολοκληρώνεται σε **μια στιγμή**.|
 
-![Página 121](Metodo/Textbook_Pagina_121.png)
-![Página 122](Metodo/Textbook_Pagina_122.png)
+[Página 121](Metodo/Textbook_Pagina_121.png)
+[Página 122](Metodo/Textbook_Pagina_122.png)
 
 #### Σήμασία
 
@@ -425,9 +425,9 @@
 
 ---
 
-![Página 122](Metodo/Textbook_Pagina_122.png)
-![Página 123](Metodo/Textbook_Pagina_123.png)
-![Página 124](Metodo/Textbook_Pagina_124.png)
+[Página 122](Metodo/Textbook_Pagina_122.png)
+[Página 123](Metodo/Textbook_Pagina_123.png)
+[Página 124](Metodo/Textbook_Pagina_124.png)
 
 ---
 
@@ -443,7 +443,7 @@
 
 - <ins>Με το **να μιλάς**</ins> συνέχεια στην τάξη, δεν αφήνεις και τους άλλους να προσέξουν.
 
-![Página 124](Metodo/Textbook_Pagina_124.png)
+[Página 124](Metodo/Textbook_Pagina_124.png)
 
 ---
 
@@ -474,32 +474,32 @@
 |— Να τους το διαβάσει;|  |  |Να|  |τους το|διαβάσει;|  |
 |— Ναι, ας τους το διαβάσει.|Ναι, |  |ας|  |τους το|διαβάσει.|  |
 
-![Página 124](Metodo/Textbook_Pagina_124.png)
-![Página 125](Metodo/Textbook_Pagina_125.png)
+[Página 124](Metodo/Textbook_Pagina_124.png)
+[Página 125](Metodo/Textbook_Pagina_125.png)
 
 ---
 
 ## 125 Ασκήσεις
 
-![Página 125](Metodo/Textbook_Pagina_125.png)
+[Página 125](Metodo/Textbook_Pagina_125.png)
 
 ---
 
 ## 126 Ασκήσεις
 
-![Página 126](Metodo/Textbook_Pagina_126.png)
+[Página 126](Metodo/Textbook_Pagina_126.png)
 
 ---
 
 ## 127 Ασκήσεις
 
-![Página 127](Metodo/Textbook_Pagina_127.png)
+[Página 127](Metodo/Textbook_Pagina_127.png)
 
 ---
 
 ## 128 Ασκήσεις/ιδιωτισμοί-εκφράσεις
 
-![Página 128](Metodo/Textbook_Pagina_128.png)
+[Página 128](Metodo/Textbook_Pagina_128.png)
 
 ---
 

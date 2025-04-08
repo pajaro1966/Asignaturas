@@ -1,7 +1,20 @@
 # Preguntas
 
 <style>
-  rt {color:blue;}
+  * {font-size: 24px;}
+
+ruby {ruby-position: under; }
+rt {color: blue;font-size: 80%;padding-top: 5px;}
+
+
+.sujeto::after {content: " SUJ"; color: red; vertical-align: sub; font-size: 60%}
+.FIN::after {content: " FINAL"; color: red;}
+
+.FIN, .sujeto {border: 1px solid red;}
+
+span {margin: 5px 5px 5px 5px;}
+
+span {padding: 3px 3px 3px 3px;}
 </style>
 
 ## Subjuntivo
@@ -19,7 +32,8 @@ El subjuntivo se puede utilizar de las siguientes maneras:
 #### Uso completivo
 
 1. Posición sujeto
-    - <ruby>μ᾽<rt>me</rt></ruby><ruby>αρέσει<rt>gusta</rt></ruby> <ruby>να πηγαίνω<rt>ir</rt></ruby> <ruby>στην<rt>a la</rt></ruby> <ruby>παραλία<rt>playa</rt></ruby>
+    - <ruby>μ᾽<rt>me</rt></ruby><ruby>αρέσει<rt>gusta</rt></ruby> 
+    <span class="sujeto"><ruby>να πηγαίνω<rt>ir</rt></ruby> <ruby>στην<rt>a la</rt></ruby> <ruby>παραλία<rt>playa</rt></ruby></span>
     - <ruby>μ᾽<rt>me</rt></ruby><ruby>αρέσει<rt>gusta</rt></ruby> <ruby>να πηγαίνεις<rt>que vayas</rt></ruby> <ruby>στην<rt>a la</rt></ruby> <ruby>παραλία<rt>playa</rt></ruby>
 
 2. Posición OD

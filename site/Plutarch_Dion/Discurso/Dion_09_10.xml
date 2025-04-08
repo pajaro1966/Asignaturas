@@ -7,7 +7,7 @@
 
 <titulo>
 <span entidad="Dion">Dion</span>
-ve la falta de educación de
+ve la falta de <span entidad="Top">educación</span> de
 <span entidad="Dio2">Dionisio II</span>
 </titulo>
 
@@ -15,7 +15,7 @@ ve la falta de educación de
 αἰτίαν
 
 <span cat="particl"> δέ </span>
-τούτου τὴν ἀπαιδευσίαν εἶναι 
+τούτου <span entidad="Top">τὴν ἀπαιδευσίαν</span> εἶναι 
   <span entidad="Dion">νομίζων</span>
   <span entidad="Dion">ἐμβαλεῖν</span>
   <span entidad="Dio2">αὐτὸν</span> εἰς διατριβὰς ἐλευθερίους <span entidad="Dion">ἐφιλοτιμεῖτο</span>
@@ -34,7 +34,7 @@ ve la falta de educación de
   <fragmento level="1">
 
 <titulo>
-Educación dada por
+<span entidad="Top">Educación</span> dada por
 <span entidad="Dio1">Dionisio I</span>
 a
 <span entidad="Dio2">Dionisio II</span>
@@ -52,7 +52,7 @@ a
   <span entidad="Dio1">ὁ</span>
   <span entidad="Dio1">πατὴρ</span>
   ,
-  <span entidad="Dio1">δεδοικώς</span>
+  <span entidad="Dio1" class="Theme">δεδοικώς</span>
   <span cat="conj">μὴ</span>
   φρονήματος 
   <span entidad="Dio2">μεταλαβὼν</span>
@@ -70,7 +70,7 @@ a
   <span cat="conj">ὥς</span>
   φασιν, ἁμάξια <span cat="conj">καὶ</span> λυχνίας <span cat="conj">καὶ</span> δίφρους3 ξυλίνους <span cat="conj">καὶ</span> τραπέζας
   <span entidad="Dio2">τεκταινόμενον</span>
-  .
+.
     <traduccion>
     Pues, por naturaleza, Dionisio no era de los peores tiran o pero su, padre, temiendo que si abrazaba la sensatez y se rodeaba de hombres inteligentes conspirara contra él y le arrebatara el poder, lo vigilaba encerrado en casa, privado de otro trato y al margen de cualquier actividad, construyendo, dicen, carritos, lamparitas, asientos y mesas de madera.
   </traduccion>
@@ -78,7 +78,7 @@ a
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : el barbero
 </titulo>
@@ -110,7 +110,7 @@ Tan desconfiado era Dionisio el Viejo y receloso con todos los hombres y tanto s
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : las visitas son desnudadas
 </titulo>
@@ -133,7 +133,7 @@ A su presencia en el palacio ni su hermano ni su hijo llegaban tal como iban ves
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : Leptines dibuja un mapa con una lanza
 </titulo>
@@ -158,7 +158,7 @@ Miedos de
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : hay que guardarse de los amigos
 </titulo>
@@ -180,7 +180,7 @@ Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, 
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : el asesinato de Marsias
 </titulo>
@@ -206,7 +206,7 @@ Miedos de
 
 <fragmento level="2">
 <titulo>
-Miedos de
+<span class="Theme">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : cierre del excurso
 </titulo>
@@ -236,7 +236,7 @@ Miedos de
 
 <titulo>
 <span entidad="Dion">Dion</span>
-ve la falta de educación
+ve la falta de <span entidad="Top">educación</span>
 dada por 
  <span entidad="Dio1">Dionisio I</span>
 a
@@ -250,9 +250,11 @@ a
 <span entidad="Dio2">υἱὸν</span>
 <span entidad="Dio1">αὐτοῦ</span>
 ,
-<span cat="conj">καθάπερ</span> εἴρηται,
+<span cat="cohesion">
+<span cat="conj">καθάπερ</span> εἴρηται</span>
+,
 <span entidad="Dio2">διαλελωβημένον</span>
-ἀπαιδευσίᾳ
+<span entidad="Top">ἀπαιδευσίᾳ</span>
 <span cat="conj">καὶ</span>
 <span entidad="Dio2">συντετριμμένον</span>
 τὸ ἦθος

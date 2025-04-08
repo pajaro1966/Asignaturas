@@ -8,11 +8,15 @@ fragmento {display: block; border: 1px solid black; padding: 5px 5px 5px 5px; ma
 [level^="4"] {margin-left: 120px; background-color: white;border: 3px solid red;}
 
 [cat^="particl"] {color: red;}
-[cat^="conj"] {/* color: white; background-color: grey; */ border: 1px solid blue;padding: 1px 1px 1px 1px;}
+[cat^="conj"] {/* color: white; background-color: grey;  border: 1px solid blue;padding: 1px 1px 1px 1px;*/}
+[cat^="cohesion"] {/* color: white;*/ background-color: lightcoral; /* border: 1px solid red;padding: 1px 1px 1px 1px;*/}
+
+.Theme {border: 1px solid orange; background-color: white;}
 
 [entidad^="Dion"] {color: violet; background-color: white;}
 [entidad^="Dio1"] {color: green; background-color: white;}
 [entidad^="Dio2"] {color: blue;background-color: white;}
+[entidad^="Top"] {color: darkorange;background-color: white;}
 
 [entidad^="num1"] {font-weight: bold;}
 [entidad^="num2"] {font-weight: bold;}

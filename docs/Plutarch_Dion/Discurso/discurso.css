@@ -1,3 +1,4 @@
+span { line-height: 130%;}
 
 fragmento {display: block; border: 1px solid black; padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px; color: black;}
 
@@ -9,14 +10,17 @@ fragmento {display: block; border: 1px solid black; padding: 5px 5px 5px 5px; ma
 
 [cat^="particl"] {color: red;}
 [cat^="conj"] {/* color: white; background-color: grey;  border: 1px solid blue;padding: 1px 1px 1px 1px;*/}
-[cat^="cohesion"] {/* color: white;*/ background-color: lightcoral; /* border: 1px solid red;padding: 1px 1px 1px 1px;*/}
 
-.Theme {border: 1px solid orange; background-color: white;}
+[cat^="cohesion"] {/* color: white; background-color: lightcoral;*/  border: 1px dotted red;/*padding: 1px 1px 1px 1px;*/}
 
-[entidad^="Dion"] {color: violet; background-color: white;}
-[entidad^="Dio1"] {color: green; background-color: white;}
-[entidad^="Dio2"] {color: blue;background-color: white;}
-[entidad^="Top"] {color: darkorange;background-color: white;}
+[entidad^="Top_1"] {background-color: Salmon ; }
+[entidad^="Top_2"]  {background-color: orange; }
+[entidad^="stop"]::before  {content: ""; }
+
+[entidad^="Dion"] {color: violet; }
+[entidad^="Dio1"] {color: green; }
+[entidad^="Dio2"] {color: blue;}
+[entidad^=""] {color: darkorange;}
 
 [entidad^="num1"] {font-weight: bold;}
 [entidad^="num2"] {font-weight: bold;}

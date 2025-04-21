@@ -7,7 +7,7 @@
 
 <titulo>
 <span entidad="Dion">Dion</span>
-ve la falta de <span entidad="Top">educación</span> de
+ve la falta de <span entidad="Top_1">educación</span> de
 <span entidad="Dio2">Dionisio II</span>
 </titulo>
 
@@ -15,7 +15,7 @@ ve la falta de <span entidad="Top">educación</span> de
 αἰτίαν
 
 <span cat="particl"> δέ </span>
-τούτου <span entidad="Top">τὴν ἀπαιδευσίαν</span> εἶναι 
+τούτου <span entidad="Top_1">τὴν ἀπαιδευσίαν</span> εἶναι 
   <span entidad="Dion">νομίζων</span>
   <span entidad="Dion">ἐμβαλεῖν</span>
   <span entidad="Dio2">αὐτὸν</span> εἰς διατριβὰς ἐλευθερίους <span entidad="Dion">ἐφιλοτιμεῖτο</span>
@@ -34,43 +34,52 @@ ve la falta de <span entidad="Top">educación</span> de
   <fragmento level="1">
 
 <titulo>
-<span entidad="Top">Educación</span> dada por
+<span entidad="Top_1">Educación</span> dada por
 <span entidad="Dio1">Dionisio I</span>
 a
 <span entidad="Dio2">Dionisio II</span>
 </titulo>
 
   <span entidad="num1">9</span>.<span entidad="num2">2</span>
-  φύσει<span cat="particl"><span cat="particl"> γὰρ </span></span>
+  
+  
+  <span entidad="Top_1">φύσει
+  <span cat="particl"><span cat="particl"> γὰρ </span></span>
   οὐ
   <span entidad="Dio2">γεγόνει</span>
   τῶν φαυλοτάτων τυράννων
   <span entidad="Dio2">ὁ</span>
   <span entidad="Dio2">Διονύσιος</span>
+  </span>
   , 
   <span cat="particl">ἀλλ'</span>
   <span entidad="Dio1">ὁ</span>
   <span entidad="Dio1">πατὴρ</span>
   ,
-  <span entidad="Dio1" class="Theme">δεδοικώς</span>
+  <span entidad="Top_2">
+  <span entidad="Dio1">δεδοικώς</span>
   <span cat="conj">μὴ</span>
-  φρονήματος 
+  </span>
+  <span entidad="Top_1">φρονήματος 
   <span entidad="Dio2">μεταλαβὼν</span>
   <span cat="conj">καὶ</span>
   <span entidad="Dio2">συγγενόμενος</span>
   νοῦν ἔχουσιν ἀνθρώποις
+  </span>
+  <span entidad="Top_2">
   <span entidad="Dio2">ἐπιβουλεύσειεν</span>
   <span entidad="Dio1">αὐτῷ</span>
   <span cat="conj">καὶ</span>
   <span entidad="Dio2">παρέλοιτο</span>
-  τὴν ἀρχήν,
+  τὴν ἀρχήν</span>
+  ,
+  <span entidad="Top_1">
   <span entidad="Dio1">ἐφρούρει</span>
   <span entidad="Dio2">κατάκλειστον</span>
   οἴκοι, δι' ἐρημίαν ὁμιλίας ἑτέρας <span cat="conj">καὶ</span> ἀπειρίᾳ πραγμάτων, 
   <span cat="conj">ὥς</span>
-  φασιν, ἁμάξια <span cat="conj">καὶ</span> λυχνίας <span cat="conj">καὶ</span> δίφρους3 ξυλίνους <span cat="conj">καὶ</span> τραπέζας
-  <span entidad="Dio2">τεκταινόμενον</span>
-.
+  φασιν, ἁμάξια <span cat="conj">καὶ</span> λυχνίας <span cat="conj">καὶ</span> δίφρους ξυλίνους <span cat="conj">καὶ</span> τραπέζας
+  <span entidad="Dio2">τεκταινόμενον</span></span>.
     <traduccion>
     Pues, por naturaleza, Dionisio no era de los peores tiran o pero su, padre, temiendo que si abrazaba la sensatez y se rodeaba de hombres inteligentes conspirara contra él y le arrebatara el poder, lo vigilaba encerrado en casa, privado de otro trato y al margen de cualquier actividad, construyendo, dicen, carritos, lamparitas, asientos y mesas de madera.
   </traduccion>
@@ -78,7 +87,7 @@ a
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : el barbero
 </titulo>
@@ -93,12 +102,12 @@ a
 <span entidad="Dio1">ὕποπτος</span>
 <span cat="conj">καὶ</span>
 <span entidad="Dio1">προβεβλημένος</span>
-διὰ φόβον
+<span entidad="Top_2">διὰ φόβον</span>
 <span entidad="Dio1">ὁ</span>
 <span entidad="Dio1">πρεσβύτερος</span>
 <span entidad="Dio1">Διονύσιος</span>
 <span cat="conj">ὥστε</span>
-<span cat="conj"> μηδὲ </span> τῆς κεφαλῆς3 τὰς τρίχας ἀφελεῖν κουρικαῖς μαχαίραις,
+<span cat="conj"> μηδὲ </span> τῆς κεφαλῆς τὰς τρίχας ἀφελεῖν κουρικαῖς μαχαίραις,
 <span cat="particl">ἀλλὰ</span>
 τῶν πλαστῶν τις ἐπιφοιτῶν ἄνθρακι τὴν κόμην περιέκαιεν.
 
@@ -110,7 +119,7 @@ Tan desconfiado era Dionisio el Viejo y receloso con todos los hombres y tanto s
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : las visitas son desnudadas
 </titulo>
@@ -122,7 +131,7 @@ Tan desconfiado era Dionisio el Viejo y receloso con todos los hombres y tanto s
 <span entidad="Dio1">αὐτὸν</span>
 εἰς τὸ δωμάτιον
 <span cat="conj">οὔτε</span>
-ἀδελφὸς <span cat="conj"> οὔθ' </span> υἱὸς <span cat="conj"> ὡς </span> ἔτυχεν1 ἠμφιεσμένος,
+ἀδελφὸς <span cat="conj"> οὔθ' </span> υἱὸς <span cat="conj"> ὡς </span> ἔτυχεν ἠμφιεσμένος,
 <span cat="conj">ἀλλ'</span>
 ἔδει πρὶν εἰσελθεῖν ἀποδύντα τὴν ἑαυτοῦ στολὴν ἕκαστον ἑτέραν ἀναλαβεῖν, ὁραθέντα γυμνὸν ὑπὸ τῶν φυλαττόντων.
 
@@ -133,7 +142,7 @@ A su presencia en el palacio ni su hermano ni su hijo llegaban tal como iban ves
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : Leptines dibuja un mapa con una lanza
 </titulo>
@@ -158,7 +167,7 @@ A su presencia en el palacio ni su hermano ni su hijo llegaban tal como iban ves
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : hay que guardarse de los amigos
 </titulo>
@@ -180,7 +189,7 @@ Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, 
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : el asesinato de Marsias
 </titulo>
@@ -206,14 +215,17 @@ Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, 
 
 <fragmento level="2">
 <titulo>
-<span class="Theme">Miedos</span> de
+<span entidad="Top_2">Miedos</span> de
 <span entidad="Dio1">Dionisio I</span>
 : cierre del excurso
 </titulo>
 
 <span entidad="num1">9</span>.<span entidad="num2">8</span> 
 <span entidad="Dio1">ὁ</span>
-<span cat="particl"> μὲν δὴ </span>Πλάτωνι
+<span entidad="stop">
+<span cat="particl"> μὲν</span> <span cat="particl">δὴ </span>
+</span>
+Πλάτωνι
 <span entidad="Dio1">θυμωθείς</span>
 <span cat="conj">ὅτι</span>
 μὴ πάντων
@@ -221,9 +233,9 @@ Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, 
 ἀνθρώπων
 <span entidad="Dio1">ἀνδρειότατον</span>
 <span entidad="Dio1">ὄντα</span>
-ἀπέφηνεν, οὕτω περίφοβον
+ἀπέφηνεν, οὕτω <span entidad="Top_2">περίφοβον</span>
 <span cat="conj">καὶ</span>
-τοσούτων ὑπὸ δειλίας1 κακῶν μεστὴν
+τοσούτων ὑπὸ <span entidad="Top_2">δειλίας</span> κακῶν μεστὴν
 <span entidad="Dio1">εἶχε</span>
 τὴν ψυχήν
 .
@@ -236,7 +248,7 @@ Decía que había que vigilar a los amigos, sabedor de que, sensatos como eran, 
 
 <titulo>
 <span entidad="Dion">Dion</span>
-ve la falta de <span entidad="Top">educación</span>
+ve la falta de <span entidad="Top_1">educación</span>
 dada por 
  <span entidad="Dio1">Dionisio I</span>
 a
@@ -248,13 +260,13 @@ a
 <span entidad="Dio2">τὸν</span>
 <span cat="particl"> δ' </span>
 <span entidad="Dio2">υἱὸν</span>
-<span entidad="Dio1">αὐτοῦ</span>
-,
+<span entidad="Dio1">αὐτοῦ</span>,
+
 <span cat="cohesion">
-<span cat="conj">καθάπερ</span> εἴρηται</span>
-,
+<span cat="conj">καθάπερ</span> εἴρηται
+</span>,
 <span entidad="Dio2">διαλελωβημένον</span>
-<span entidad="Top">ἀπαιδευσίᾳ</span>
+<span entidad="Top_1">ἀπαιδευσίᾳ</span>
 <span cat="conj">καὶ</span>
 <span entidad="Dio2">συντετριμμένον</span>
 τὸ ἦθος
@@ -273,6 +285,4 @@ Dión, como ya he dicho, viendo al hijo del tirano echado a lo perder por la ign
 </traduccion>
 
 </fragmento>
-
-
 </discurso>

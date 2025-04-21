@@ -13,7 +13,7 @@ fragmento {display: block; border: 1px solid black; padding: 5px 5px 5px 5px; ma
 
 [cat^="cohesion"] {/* color: white; background-color: lightcoral;*/  border: 1px dotted red;/*padding: 1px 1px 1px 1px;*/}
 
-[entidad^="Top_1"] {background-color: Salmon ; }
+[entidad^="Top_1"] {background-color: Khaki ; }
 [entidad^="Top_2"]  {background-color: orange; }
 [entidad^="stop"]::before  {content: ""; }
 

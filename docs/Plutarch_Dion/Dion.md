@@ -1206,7 +1206,7 @@
     L-->|"Compañía"|M("ἐρημίᾳ<br>con la soledad")
     ```
 
-<!-- ??? danger "Temporalmente oculto" "Traducción"
+<!-- ??? note "Temporalmente oculto" "Traducción"
     | GRIEGO | ESPAÑOL |
     | --- | --- |
     | 4 περὶ ὧν καὶ Πλάτων ὕστερον ὥσπερ ἀποθεσπίζων ἔγραψε πρὸς αὐτόν ἐξευλαβεῖσθαι τὴν αὐθάδειαν ὡς ἐρημίᾳ συνοικοῦσαν. | Cosas sobre las que también Platón  después, como si estuviera hablando proféticamente, le pidió por escrito que se precaviera de la soberbia porque, según él, era compañera de la soledad. |
@@ -1495,13 +1495,13 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 4 τοὺς γὰρ ἀδαμαντίνους^1^ δεσμοὺς οὐχ, ὥσπερ ὁ <!-- p.22 --> πατὴρ ἔλεγεν αὐτοῦ, φόβον καὶ βίαν καὶ νεῶν πλῆθος εἶναι^2^ καὶ βαρβάρων μυρίανδρον φυλακήν, εὔνοιαν δὲ καὶ προθυμίαν καὶ χάριν ἐγγενομένην ὑπʼ ἀρετῆς καὶ δικαιοσύνης, ἅ, καίπερ ὄντα μαλακώτερα τῶν συντόνων καὶ σκληρῶν ἐκείνων, ἰσχυρότερα πρὸς διαμονὴν ἡγεμονίας ὑπάρχειν^2^.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἀδαμαντίνους**: δαμάω/δαμά-ζω 'domar' > ἀ-δάμα-ς, -αντ-ος > ἀ-δαμά-ντ-ινος, η, ον 'indomable'.
     2. **γὰρ ... εἶναι ... ἅ ... ὑπάρχειν**: los infinitivos después de γάρ indican que estas explicaciones no son del hablante (Plutarco), sino que son atribuidas a Dion; se trata de infinitivos declarativos de estilo indirecto: 'porque, según Dion, ...'.
 
 5 χωρὶς δὲ τούτων^1^ ἀφιλότιμον εἶναι καὶ ἄζηλον τὸν ἄρχοντα, τῷ μὲν σώματι περιττῶς ἀμπεχόμενον^4^ ^2^ καὶ τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ^3^ λαμπρυνόμενον, ὁμιλίᾳ δὲ καὶ λόγῳ μηδὲν ὄντα τοῦ προστυχόντος σεμνότερον, μηδὲ τῆς ψυχῆς τὸ βασίλειον ἀξιοῦντα κεκοσμημένον ἔχειν βασιλικῶς καὶ πρεπόντως.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **χωρὶς τούτων**: 'aparte de eso' > 'además'. Dion introduce un segundo argumento.
     2. **τῷ σώματι ... ἀμπεχόμενον**: ἀμπέχω significa 'poner A (ac, ropa) alrededor de B (dat)' > 'vestir B (el cuerpo τῷ σώματι) con A'.
     3. **τῇ περὶ τὴν οἴκησιν ἁβρότητι καὶ κατασκευῇ**: 'el lujo y el equipamiento que rodea/envuelve su casa/residencia'. El SP περὶ τὴν οἴκησιν está en posición atributiva (el el artículo y los sustantivos) y, por tanto, modifica a estos como si fuera un adjetivo.
@@ -1563,21 +1563,26 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 11.1 ταῦτα πολλάκις τοῦ Δίωνος παραινοῦντος, καὶ τῶν λόγων τοῦ Πλάτωνος ἔστιν οὕστινας^1^ ὑποσπείροντος, ἔσχεν ἔρως τὸν Διονύσιον ὀξὺς καὶ περιμανὴς τῶν τε λόγων καὶ τῆς συνουσίας τοῦ Πλάτωνος.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἔστιν οὕστινας**: 'hay a quienes' > 'a algunos'; cf. esp. *cualquiera*: 'compraré el libro **cual quiera**' > 'compraré **cualquier** libro'.
+        1. ἔστιν οἵτινες με μισοῦσιν
+        1. ἔστιν οὕστινας μισῶ
+        1. ἔστιν οἵστισιν χρῶμαι 
+    2. **ταῦτα πολλάκις τοῦ Δίωνος παραινοῦντος**: este genitivo absoluto resume todas las secciones anteriores en las que Dion aconseja a Dionisio I.
 
 2 εὐθὺς οὖν Ἀθήναζε πολλὰ μὲν ἐφοίτα γράμματα παρὰ τοῦ Διονυσίου, πολλαὶ δʼ ἐπισκήψεις^1^ παρὰ τοῦ Δίωνος, ἄλλαι δʼ ἐξ Ἰταλίας παρὰ τῶν Πυθαγορικῶν, διακελευομένων παραγενέσθαι καὶ νέας ψυχῆς ἐξουσίᾳ μεγάλῃ καὶ δυνάμει περιφερομένης ἐπιλαβέσθαι^2^ καὶ κατασχεῖν ἐμβριθεστέροις λογισμοῖς.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἐπισκήψεις**: ἐπἰσκ**η**ψις 'exhortación' ≠ ἐπἰσκ**ε**ψις 'inspección, visita'.
     2. **ἐπιλαβέσθαι**: (a) ἐπιλαμβάνω 'coger algo (ac.)'; (b) med. ἐπιλαμβάνομαι 'poderarse de algo (gen.)': cf. esp. 'cojo **la barra**'/'**me** cojo **de la barra**.'
 
-3 Πλάτων μὲν οὖν, ὥς φησιν αὐτός, ἑαυτὸν αἰσχυνθεὶς μάλιστα, μὴ^2^ δόξειε λόγος εἶναί μόνον, ἔργου δʼ ἑκὼν οὐδενὸς ἂν ἅψασθαι^3^, καὶ προσδοκήσας διʼ ἑνὸς ἀνδρὸς ὥσπερ ἡγεμονικοῦ μέρους ἐκκαθαρθέντος ὅλην ἰατρεύσειν Σικελίαν νοσοῦσαν, ὑπήκουσεν.
+3 Πλάτων μὲν οὖν,^4^ ὥς φησιν αὐτός, ἑαυτὸν αἰσχυνθεὶς μάλιστα, μὴ^2^ δόξειε λόγος εἶναί μόνον, ἔργου δʼ ἑκὼν οὐδενὸς ἂν ἅψασθαι^3^, καὶ προσδοκήσας διʼ ἑνὸς ἀνδρὸς ὥσπερ ἡγεμονικοῦ μέρους ἐκκαθαρθέντος ὅλην ἰατρεύσειν Σικελίαν νοσοῦσαν, ὑπήκουσεν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὥς φησιν αὐτός**: referencia a las cartas de Platón.
     2. **αἰσχυνθεὶς ... μὴ**: 'avergonzándose ante sí mismo no fuera que' ≈ 'temiendo que'.
     3. **ἂν ἅψασθαι**: inf. + ἄν potencial
+    4. **μὲν οὖν**: se cierra la sección dedicada al intento de hacer regresar a Platón antes de pasar a la reacción de los enemigo de Dion.
     ```mermaid
     graph TB
 
@@ -1614,13 +1619,13 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 4 οἱ δὲ τῷ Δίωνι πολεμοῦντες φοβούμενοι τὴν τοῦ Διονυσίου μεταβολήν ἔπεισαν αὐτὸν ἀπὸ τῆς <!-- p.24 --> φυγῆς μεταπέμπεσθαι Φίλιστον, ἄνδρα καὶ πεπαιδευμένον περὶ λόγους καὶ τυραννικῶν ἠθῶν ἐμπειρότατον, ὡς^1^ ἀντίταγμα πρὸς Πλάτωνα καὶ φιλοσοφίαν ἐκεῖνον ἕξοντες.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὡς ... ἕξοντες**: ὡς introduce el pensamiento del sujeto frente al del hablante (Plutarco): "en la idea de que iban a tener ...", "porque, según ellos, iban a tener ...", "pensando que tendrían ...".
 
 5 ὁ γὰρ δὴ Φίλιστος ἐξ ἀρχῆς τε τῇ τυραννίδι καθισταμένῃ^2^ προθυμότατον ἑαυτὸν παρέσχε, καὶ τὴν ἄκραν διεφύλαξε φρουραρχῶν ἐπὶ πολὺν χρόνον.
 ἦν δὲ λόγος ὡς καὶ τῇ μητρὶ πλησιάζοι τοῦ πρεσβυτέρου Διονυσίου, τοῦ τυράννου μὴ παντάπασιν ἀγνοοῦντος.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὁ γὰρ δὴ Φίλιστος ...**: la partícula γάρ introduce un excursus sobre Filisto que se extiende hasta el punto 12. En él la combinación μὲν οὖν nos devuelve a la narración principal.
     2. **τῇ τυραννίδι καθισταμένῃ**: construcción dominante: cf. ab urbe condita 'desde la ciudad construida' > 'desde la construcción de la ciudad'.
     ```mermaid
@@ -1644,7 +1649,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 ??? question
     1. Cuál es la función de καί en "ὅπου **καὶ** δοκεῖ"? ¿Cómo lo traducirías?
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **Διονύσιον, ὀργισθεὶς ἐκεῖνος**: se refiere a Dionisio el viejo, como queda claro en 11.7.
     2. **τὰ πλεῖστα συνθεῖναι τῆς ἱστορίας**: Filisto es una de las fuentes sobre la historia de Sicilia.
     3. **ἐκ γυναικὸς ... θυγατέρων**: la relativa depende del genitivo absoluto.
@@ -1674,7 +1679,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 7 οὐ γὰρ ἐπανῆλθε τοῦ πρεσβυτέρου ζῶντος^1^, ἀλλὰ μετὰ τὴν ἐκείνου τελευτήν, ὥσπερ εἴρηται, κατήγαγεν^2^ <!-- paris.1624.963 --> αὐτὸν ὁ πρὸς Δίωνα τῶν ἄλλων φθόνος, ὡς^3^ αὐτοῖς τε μᾶλλον ἐπιτήδειον ὄντα καὶ τῇ τυραννίδι βεβαιότερον.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. τοῦ πρεσβυτέρου **ζῶντος**: ζῶντος tema de presente (aspecto imperfectivo): 'mientras vivió (Dionisio) el viejo'.
     2. **κατήγαγεν**: el prefijo κατα- se emplea para referirse específicamente al regreso de los desterrados.
     3. **ὡς ... ὄντα**: ὡς subjetivo: 'porque, según ellos (ὡς), era más ...'.
@@ -1683,14 +1688,14 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 12.1 οὗτος μὲν οὖν^1^ εὐθὺς κατελθὼν^2^ διεπεφύκει τῆς τυραννίδος τῷ δὲ Δίωνι^3^ καὶ παρʼ ἄλλων ἐτύγχανον οὖσαι διαβολαὶ καὶ κατηγορίαι πρός τὸν τύραννον, ὡς διειλεγμένῳ περὶ καταλύσεως τῆς ἀρχῆς πρός τε Θεοδότην καὶ πρός Ἡρακλείδην.
 
-??? danger "Temporalmente oculto"
-    1. **μὲν οὖν**: se recupera el hilo principal de la natrración: el regreso de Filisto.
+??? note "Temporalmente oculto"
+    1. **οὗτος μὲν οὖν**: se recupera el hilo principal de la natrración: el regreso de Filisto. Tanto el pronombre anafórico como la combinación de partículas sirven a ese propósito.
     2. **κατελθὼν**: el prefijo κατα- se emplea para referirse específicamente al regreso de los desterrados.
     3. **Δίωνι ... ὡς διειλεγμένῳ**: 'a Dion, porque, supuestamente (ὡς), había conversado ...'.
 
 2 ἤλπιζε μὲν γὰρ,^2^ ὡς ἔοικε, διὰ Πλάτωνος παραγενομένου^1^ τὸ δεσποτικὸν καὶ λίαν ἄκρατον ἀφελὼν τῆς τυραννίδος ἐμμελῆ τινα καὶ νόμιμον ἄρχοντα τὸν Διονύσιον καταστήσειν·
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **διὰ Πλάτωνος παραγενομένου**: construcción de participio dominante 'a través de Platón presente' > 'a través de la presencia de Platón': cf. ab urbe condita 'desde la ciudad fundada' > 'desde la fundación de la ciudad'.
     2. **γὰρ**: esta partícula introduce una explicación y tiene en su ámbito esta unidad y la siguiente (cf. μὲν ... δὲ ...).
     ```mermaid
@@ -1711,28 +1716,31 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 ### 7.3. Llegada de Platón
 
-13.1 ἐν τοιαύτῃ δὲ καταστάσει τῶν πραγμάτων ὄντων Πλάτων εἰς Σικελίαν ἀφικόμενος περὶ μὲν τὰς πρώτας ἀπαντήσεις θαυμαστῆς ἐτύγχανε φιλοφροσύνης καὶ τιμῆς.
+13.1 ἐν τοιαύτῃ δὲ καταστάσει τῶν πραγμάτων ὄντων^2^ Πλάτων εἰς Σικελίαν ἀφικόμενος περὶ μὲν τὰς πρώτας^3^ ἀπαντήσεις θαυμαστῆς ἐτύγχανε φιλοφροσύνης καὶ τιμῆς.
 2 καὶ γὰρ ἅρμα τῶν βασιλικῶν αὐτῷ παρέστη κεκοσμημένον διαπρεπῶς ἀποβάντι τῆς τριήρους, καὶ θυσίαν ἔθυσεν ὁ τύραννος ὡς εὐτυχήματος μεγάλου τῇ ἀρχῇ προσγεγονότος.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὡς ... προσγεγονότος**: ὡς aporta valor subjetivo al genitivo absoluto: 'porque, según él (ὡς, Dionisio), ...'
+    2. **ἐν τοιαύτῃ δὲ καταστάσει τῶν πραγμάτων ὄντων**: esta expresión resume todo lo descrito en los apartados anteriores: 'estando las cosas en este estado (que se ha descrito)'. Sirve como 'setting' para todo lo que se dice en los apartados 13.1-13.5
+    3. **περὶ μὲν τὰς πρώτας**: este μὲν es respondido más adelante por δέ en 13.3-13.5
 
 3 αἰδὼς δὲ συμποσίων καὶ σχηματισμὸς αὐλῆς καὶ πρᾳότης αὐτοῦ τοῦ τυράννου περὶ ἕκαστα τῶν χρηματιζομένων θαυμαστὰς ἐνέδωκεν ἐλπίδας μεταβολῆς τοῖς πολίταις.
 4 φορὰ δέ τις ἦν ἐπὶ λόγους καὶ φιλοσοφίαν ἁπάντων, καὶ τὸ τυραννεῖον, ὥς φασι, κονιορτὸς^1^ ὑπὸ πλήθους τῶν γεωμετρούντων κατεῖχεν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **κονιορτὸς**: Un área cubierta de arena se empleaba a modo de pizarra para dibujar las figuras geométricas.
 
 5 ἡμερῶν δὲ ὀλίγων διαγενομένων θυσία μὲν ἦν πάτριος ἐν τοῖς τυραννείοις τοῦ δὲ κήρυκος, ὥσπερ εἰώθει, κατευξαμένου διαμένειν τὴν τυραννίδα ἀσάλευτον πολλοὺς χρόνους, ὁ Διονύσιος λέγεται παρεστὼς, «οὐ παύσῃ»^1^, φάναι, «καταρώμενος ἡμῖν;»
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **οὐ παύσῃ ... καταρώμενος ἡμῖν;** interrogativa de futuro con fuerza ilocutiva directiva: '¿No vas a parar de maldecirnos?' > 'Deja de maldecirnos de una vez'.
 
 6 τοῦτο κομιδῇ^1^ τοὺς περὶ τὸν Φίλιστον ἐλύπησεν, ἄμαχόν^2^ τινα τοῦ Πλάτωνος ἡγουμένους ἔσεσθαι χρόνῳ καὶ συνηθείᾳ τὴν δύναμιν, εἰ νῦν ἐκ συνουσίας ὀλίγης ἠλλοίωκεν οὕτω καὶ μεταβέβληκε τὴν γνώμην τὸ μειράκιον.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **κομιδῇ**: dativo de κομιδή con valor adverbial: 'con cuidado' > 'completamente, bastante'.
     2. **ἄμαχόν**: ἀ-[μάχη]-ος/ον > ἄ-μαχ-ος/ον: (a) act. 'que no lucha'; (b) pas. 'con el que no se lucha' > 'imbatible'.
+    3. **τοῦτο**: se refiere a todos los hechos subsiguientes a la llegada de Platón (13.1-13.5).
 
 ## 8. Exilio de Dion
 
@@ -1740,7 +1748,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 <!-- p.28. --> 14.1 οὐκέτʼ οὖν καθʼ ἕνα καὶ λαθραίως, ἀλλὰ πάντες ἀναφανδὸν ἐλοιδόρουν τὸν Δίωνα, λέγοντες ὡς οὐ λέληθε κατεπᾴδων καὶ καταφαρμάσσων τῷ Πλάτωνος λόγῳ Διονύσιον, ὅπως ἀφέντος ἑκουσίως αὐτοῦ καὶ προεμένου τὴν ἀρχὴν ὑπολαβὼν εἰς τοὺς Ἀριστομάχης περιστήσῃ παῖδας, ὧν θεῖός ἐστιν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **περιστήσῃ**: 'pasar algo que uno ha recibido (como en una rueda)'.
     ```mermaid
     graph LR
@@ -1757,7 +1765,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 2 ἔνιοι δὲ προσεποιοῦντο δυσχεραίνειν, εἰ πρότερον μὲν Ἀθηναῖοι ναυτικαῖς καὶ πεζικαῖς δυνάμεσι μεγάλαις δεῦρο πλεύσαντες ἀπώλοντο καὶ διεφθάρησαν πρότερον ἢ λαβεῖν Συρακούσας, 3 νυνὶ δὲ διʼ ἑνὸς σοφιστοῦ καταλύουσι τὴν Διονυσίου τυραννίδα, συμπείσαντες αὐτὸν ἐκ τῶν μυρίων δορυφόρων ἀποδράντα, καὶ καταλιπόντα τὰς τετρακοσίας τριήρεις καὶ τοὺς μυρίους ἱππεῖς καὶ τοὺς πολλάκις τοσούτους ὁπλίτας, ἐν Ἀκαδημείᾳ τὸ σιωπώμενον ἀγαθὸν ζητεῖν καὶ διὰ γεωμετρίας εὐδαίμονα γενέσθαι, τὴν ἐν ἀρχῇ καὶ χρήμασι καὶ τρυφαῖς εὐδαιμονίαν Δίωνι καὶ τοῖς Δίωνος ἀδελφιδοῖς προέμενον.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **δυσχεραίνειν, εἰ**: 'llevaban mal que'. La condicional frente a una completiva de ὅτι indica que se trata de una hipótesis: los atenienses no han destruido todavía la tiranía siracusana por medio de Platón.  οὐ φαύλως γὰρ ἂν δόξειεν ὁ παρὰ τῷ^5^ ποιητῇ Ἀμφιάραος παραμυθεῖσθαι τὴν Ἀρχεμόρου μητέρα **δυσχεραίνουσαν ὅτι** νήπιος ὢν ὁ παῖς καὶ ἄγαν ἄωρος ἐτελεύτησε. φησὶ γὰρ οὕτως· ("Not ill considered, evidently, is the comfort which Amphiaraus in the poem offers to the mother of Archemorus, who **is greatly affected because** her son came to his end in his infancy long before his time."). Cf. en español "se enfadó **porque llegué** tarde"/"se enfadaría **si llegara** tarde".
     ```mermaid
     graph TB
@@ -1793,37 +1801,37 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 4 ἐκ τούτων ὑποψίας πρῶτον, εἶτα καὶ φανερωτέρας ὀργῆς καὶ διαφορᾶς γενομένης, ἐκομίσθη τις ἐπιστολὴ κρύφα πρὸς Διονύσιον, ἣν ἐγεγράφει Δίων πρὸς τοὺς Καρχηδονίων ἐπιμελητάς κελεύων, ὅταν Διονυσίῳ περὶ τῆς εἰρήνης διαλέγωνται, μὴ χωρὶς αὐτοῦ ποιήσασθαι τὴν ἔντευξιν, ὡς πάντα θησομένους^1^ ἀμεταπτώτως^2^ διʼ αὐτοῦ.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὡς ... θησομένους**: participio de futuro > final.
     2. **ἀμεταπτώτως**: ἀ- + μετα-πί-πτω + -τος > ἀ-μετα-πτώ-τως
 
 5 ταύτην ἀναγνοὺς Διονύσιος Φιλίστῳ καὶ μετʼ ἐκείνου βουλευσάμενος, ὥς φησι Τίμαιος, ὑπῆλθε τὸν Δίωνα πεπλασμέναις διαλύσεσι·^2^
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὑπῆλθε**: ὑπέρχομαι 'acercarse a alguien a escondidas o para engañarlo'.
     2. **διαλύσεσι**: διάλυσις 'separación': (a) reconciliación (cuando dos personas que están luchando cuerpo a cuerpo se separan); (b) rotura de amistad (cuando dos personas que están juntos como amigos se separan).
 
 6 καὶ μέτρια σκηψάμενος διαλλάττεσθαί τε φήσας, μόνον τε ἀπαγαγὼν ὑπὸ τὴν ἀκρόπολιν πρὸς τὴν <!-- paris.1624.964 p.30 --> θάλασσαν, ἔδειξε τὴν ἐπιστολὴν καὶ κατηγόρησεν^1^ ὡς συνισταμένου μετὰ Καρχηδονίων ἐπʼ αὐτόν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **κατηγόρησεν**: "κατηγόρησεν (acusó) αὐτοῦ (a Dion) ὡς (como ) συνισταμένου (por estar conjurado ...)". El verbo κατηγορέω significa 'A (nom.) lanza una acusación B (ac.) contra alguien C ((κατά) + gen.)'.
 
 7 ἀπολογεῖσθαι δὲ βουλομένου τοῦ Δίωνος οὐκ ἀνασχόμενος, ἀλλʼ εὐθὺς, ὡς εἶχεν, ἐνθέμενος^1^ εἰς ἀκάτιον προσέταξε τοῖς ναύταις κομίζοντας αὐτὸν ἐκθεῖναι πρὸς τὴν Ἰταλίαν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὡς εἶχεν, ἐνθέμενος**: 'metiéndolo en un bote tal y como estaba'. La oración ὡς εἶχεν ('tal como estaba') se refiere predicativamente al CD de ἐνθέμενος (Dion). Se quiere indicar que Dion no llevaba nada ni estaba preparado para la travesía.
 
 ### 8.2. El resultado del exilio de Dion
 
 15.1 γενομένου δὲ τούτου καὶ φανέντος ὠμοῦ τοῖς ἀνθρώποις, τὴν μὲν οἰκίαν τοῦ τυράννου πένθος εἶχε διὰ τὰς γυναῖκας, ἡ δὲ πόλις τῶν Συρακουσίων ἐπῆρτο πράγματα νεώτερα καὶ μεταβολὴν προσδεχομένη ταχεῖαν ἐκ τοῦ περὶ Δίωνα θορύβου^1^ καὶ τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων.^2^
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἐκ τοῦ περὶ Δίωνα θορύβου**: 'como resultado del alboroto acerca de Dion'. La preposición ἐκ indica origen en el espacio y causa en relaciones abstractas: el alboroto acerca de Dion es la causa de la excitación de la ciudad y, por tanto, la excitación de la ciudad es su resultado.
     2. **τῆς πρὸς τὸν τύραννον ἀπιστίας τῶν ἄλλων**: 'la desconfianza (τῆς ἀπιστίας) de los demás (τῶν ἄλλων) hacia el tirano (πρὸς τὸν τύραννον)' < 'los demás (suj. οἱ ἄλλοι) desconfían (ἀπιστοῦσιν) del tirano (dat. τῷ τυράννῳ)'.
 
 2 ἃ^1^ δὴ συνορῶν ὁ Διονύσιος καὶ δεδοικώς, τοὺς μὲν φίλους παρεμυθεῖτο καὶ τὰς γυναῖκας ὡς οὐ φυγῆς, ἀλλʼ ἀποδημίας τῷ Δίωνι γεγενημένης,^2^ ὡς^3^ μή τι χεῖρον ὀργῇ πρὸς τὴν αὐθάδειαν αὐτοῦ παρόντος ἁμαρτεῖν βιασθείη·
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἃ**: 'falso relativo': el antecedente son los hechos descritos en párrafo anterior.
     2. **ὡς ... γεγενημένης**: genitivo absoluto. La partícula ὡς indica subjetividad: no se trata de la opinión de Plutarco, sino de lo que pretextaba Dionisio.
     3. **ἀποδημίας ... ὡς ...**: la final encabezada por ὡς indica la finalidad de la 'ausencia' de Dion.
@@ -1853,7 +1861,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 3 δύο δὲ ναῦς παραδοὺς τοῖς Δίωνος οἰκείοις ἐκέλευσεν ἐνθεμένοις^1^ ὅσα^2^ βούλοιντο τῶν ἐκείνου χρήματα καὶ θεράποντας ἀπάγειν πρὸς αὐτὸν εἰς Πελοπόννησον.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἐνθεμένοις**: el participio se refiere a los esclavos, que son (i) el complemento en dativo de παραδοὺς y, al mismo tiempo, (ii) el sujeto en acusativo del infinitivo ἀπάγειν o el complemento directo de ἐκέλευσεν. Plutarco ha decidido concertarlo con el primero (dat. ἐνθεμένοις), pero podría haberlo hecho con el segundo (ac. ἐνθεμένους).
     2. **ὅσα ... θεράποντας**: La oración de relativo es el objeto directo tanto de ἐνθεμένοις como de ἀπάγειν. Se puede interpretar (i) que la oración de relativo lleva luego dos aposiciones ([ὅσα βούλοιντο τῶν ἐκείνου] χρήματα καὶ θεράποντας) o (ii) que la relativa es un modificador del CD χρήματα καὶ θεράποντας ([(ὅσα βούλοιντο τῶν ἐκείνου) χρήματα καὶ θεράποντας]). El análisis primero es el normal en español, mientras que el segundo es el más probable en griego antiguo.
     ```mermaid
@@ -1907,13 +1915,13 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 4 ἦν δʼ οὐσία μεγάλη τῷ Δίωνι καὶ σχεδόν τι^1^ τυραννικὴ πομπὴ καὶ κατασκευὴ περὶ τὴν δίαιταν, ἣν οἱ φίλοι συλλαβόντες^2^ ἐκόμιζον.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **τι**: 'algo', 'un poco'. Pronombre con valor adverbial modificando a τυραννικὴ.
     2. **συλλαβόντες**: 'tras reunir'; el prefijo συν- indica que se trata de cosas que están dispersas en diferentes lugares y se juntan para poderlas trasportar en los dos barcos preparados por Dionisio.
 
 5 ἄλλα δʼ ἐπέμπετο πολλὰ παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων, ὥστε χρημάτων ἕνεκα καὶ πλούτου λαμπρὸν ἐν τοῖς Ἕλλησιν εἶναι^2^ καὶ διαφανῆναι τῇ τοῦ φυγάδος εὐπορίᾳ τὴν τῆς τυραννίδος δύναμιν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **παρὰ τῶν γυναικῶν καὶ τῶν ἑταίρων**: 'de parte de ...'
     2. **ὥστε ... εἶναι καὶ διαφανῆναι**: consecutivas con verbo en infinitivo y sujeto en acusativo: indican que el resultado es buscado, pero no se tiene certeza de que se vaya a verificar: cf. esp. (a) estudia tanto que **aprobará** (el hablante está seguro del resultado), (b) 'estudia tanto **como para aprobar**' (el hablante no está seguro).
 
@@ -1921,7 +1929,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 16.1 Πλάτωνα δὲ Διονύσιος εὐθὺς μὲν εἰς τὴν ἀκρόπολιν μετέστησεν, ἔντιμον αὐτῷ^2^ σχήματι <!-- p.32 --> ξενίας φιλανθρώπου φρουρὰν μηχανησάμενος, ὡς μὴ συμπλέοι Δίωνι μάρτυς ὧν ἠδίκητο.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **σχήματι ξενίας φιλανθρώπου**: 'con apariencia de benevolente hospitalidad'.
     2. **ἔντιμον αὐτῷ**: ac. predicativo del OD φρουρὰν: 'como un honor para él'.
     ```mermaid
@@ -1936,7 +1944,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 2 χρόνῳ δὲ καὶ συνδιαιτήσει, καθάπερ ψαύειν ἀνθρώπου θηρίον,^1^ ἐθισθεὶς ὑπομένειν τήν τε[*] ὁμιλίαν αὐτοῦ καὶ τὸν λόγον, ἠράσθη τυραννικὸν ἔρωτα^2^, μόνος ἀξιῶν ὑπὸ Πλάτωνος ἀντερᾶσθαι^3^ καὶ θαυμάζεσθαι μάλιστα πάντων, ἕτοιμος ὢν ἐπιτρέπειν τὰ πράγματα καὶ τὴν τυραννίδα μὴ προτιμῶντι^4^ τὴν πρὸς Δίωνα φιλίαν τῆς πρὸς αὐτόν.^5^
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **καθάπερ ψαύειν ἀνθρώπου θηρίον**: ?
     2. **ἠράσθη τυραννικὸν ἔρωτα**: acusativo interno 'se enamoró (con) un amor tiránico'.
     3. **ὑπὸ Πλάτωνος ἀντερᾶσθαι**: ἀντι- 'ser correpondido en amor por Platón': Dionisio amaba a Platón (ἐρᾶται) y quería que éste corepondiera a su amor (ἀντεράομαι).
@@ -1967,7 +1975,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 3 ἦν οὖν^1^ τῷ Πλάτωνι συμφορὰ τὸ πάθος αὐτοῦ τοῦτο, μαινομένου^2^ καθάπερ οἱ δυσέρωτες ὑπὸ ζηλοτυπίας, καὶ πολλὰς μὲν ὀργὰς ἐν ὀλίγῳ χρόνῳ, πολλὰς δὲ διαλλαγὰς καὶ δεήσεις ποιουμένου^2^ πρὸς αὐτόν, ἀκροᾶσθαι δὲ τῶν λόγων καὶ κοινωνεῖν τῆς περὶ φιλοσοφίαν πραγματείας σπουδάζοντος^2^ μὲν ὑπερφυῶς, αἰδουμένου^2^ δὲ τοὺς ἀποτρέποντας ὡς διαφθαρησομένου.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **οὖν**: conclusión de lo anterior: 'así que'.
     2. **αὐτοῦ ... μαινομένου ... ποιουμένου ... σπουδάζοντος ... αἰδουμένου ...**: participios concertando con αὐτοῦ (Dionisio), pero que también se pueden entender como un genitivo absoluto con el mismo sujeto lógico (αὐτοῦ).
     ```mermaid
@@ -2004,19 +2012,19 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 4 ἐν τούτῳ δὲ πολέμου^1^ τινὸς ἐμπεσόντος ἀποπέμπει τὸν Πλάτωνα, συνθέμενος εἰς ὥραν ἔτους^2^ μεταπέμψασθαι^3^ Δίωνα.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **πολέμου τινὸς ἐμπεσόντος**: ???
     2. **εἰς ὥραν ἔτους**: 'para la siguiente temporada'. La ὥρα ἔτους es la época en la que se podía combatir por hacer buen tiempo.
     3. **μεταπέμψασθαι**: 'enviar (al alguien) para traer a alguien (ac.)' > 'hacer venir'.
 
 5 καὶ τοῦτο μὲν εὐθὺς ἐψεύσατο, τὰς δὲ προσόδους τῶν κτημάτων ἀπέπεμπεν αὐτῷ, ἀξιῶν Πλάτωνα συγγνῶναι περὶ τοῦ χρόνου διὰ τὸν πόλεμον·
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **περὶ τοῦ χρόνου**: 'por el tiempo' que se retrasaba en traer de vuelta a Dion. Se explica en la siguiente unidad.
 
 6 εἰρήνης γὰρ^1^ γενομένης τάχιστα μεταπέμψεσθαι^2^ τὸν Δίωνα, καὶ ἀξιοῦν^2^ αὐτὸν ἡσυχίαν ἄγειν καὶ μηδὲν νεωτερίζειν μηδὲ βλασφημεῖν κατʼ αὐτοῦ πρὸς τοὺς Ἕλληνας.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **γὰρ ...**: esta unidad explica la petición anterior.
     2. **μεταπέμψεσθαι ... καὶ ἀξιοῦν**: infinitivos de estilo indirecto; Plutarco no dice lo que él piensa, sino que reproduce la excusa que daba Dionisio para retrasar el regreso de Dión: '(decía) que ...'.
     ```mermaid
@@ -2041,7 +2049,7 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 
 2 ᾤκει μὲν οὖν ἐν ἄστει παρὰ Καλλίππῳ τινὶ τῶν γνωρίμων, ἀγρὸν δὲ διαγωγῆς p.34 χάριν ἐκτήσατο, καὶ τοῦτον ὕστερον εἰς Σικελίαν πλέων Σπευσίππῳ δωρεὰν ἔδωκεν, 3 ᾧ μάλιστα τῶν Ἀθήνησι φίλων ἐχρῆτο καὶ συνδιῃτᾶτο, βουλομένου τοῦ Πλάτωνος ὁμιλίᾳ^1^ χάριν ἐχούσῃ καὶ παιδιᾶς ἐμμελοῦς κατὰ καιρὸν ἁπτομένῃ κεραννύμενον ἀφηδύνεσθαι τοῦ Δίωνος τὸ ἦθος.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ὁμιλίᾳ**: se refiere a Espeusipo, que servía de compañía a Dion.
     ```mermaid
     graph TB
@@ -2062,30 +2070,30 @@ A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="back
 4 τοιοῦτος δέ τις ὁ Σπεύσιππος ἦν·
 ᾗ^1^ καὶ «σκῶψαι ἀγαθὸν»^2^ αὐτὸν ἐν τοῖς Σίλλοις ὁ Τίμων προσηγόρευσεν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. ᾗ: ?
     2. «**σκῶψαι ἀγαθὸν**»: 'Timón lo saludaba como alguien incluso bueno para bromear en los Silois' (una obra sarcástica en verso).
 
 5 αὐτῷ δὲ Πλάτωνι χορηγοῦντι παίδων χορῷ τόν τε χορὸν ἤσκησεν ὁ Δίων καὶ τὸ δαπάνημα πᾶν ἐτέλεσε παρʼ ἑαυτοῦ, συγχωροῦντος τοῦ Πλάτωνος τὴν τοιαύτην φιλοτιμίαν πρὸς τοὺς Ἀθηναίους, ὡς ἐκείνῳ μᾶλλον εὔνοιαν ἢ δόξαν αὐτῷ φέρουσαν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἐκείνῳ ...  ἢ ... αὐτῷ ...**: 'más a Dion .... que ... a él'.
 
 <!-- paris.1624.965 --> 6 ἐπεφοίτα δὲ καὶ ταῖς ἄλλαις πόλεσιν ὁ Δίων, καὶ συνεσχόλαζε καὶ συνεπανηγύριζε τοῖς ἀρίστοις καὶ πολιτικωτάτοις ἀνδράσιν, οὐδὲν ἐν τῇ διαίτῃ σόλοικον ἐπιδεικνύμενος οὐδὲ τυραννικὸν οὐδὲ ἐπιτεθρυμμένον, ἀλλὰ σωφροσύνην καὶ ἀρετὴν καὶ ἀνδρείαν καὶ περὶ λόγους καὶ περὶ φιλοσοφίαν εὐσχήμονας διατριβάς.
 7 ἐφʼ οἷς εὔνοια παρὰ πάντων ἐγίνετο καὶ ζῆλος αὐτῷ τιμαί τε δημόσιαι καὶ ψηφίσματα παρὰ τῶν πόλεων.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **ἐφʼ οἷς**: 'falso relativo': 'cosas por las cuales' > 'por eso'.
 
 8 Λακεδαιμόνιοι δὲ καὶ Σπαρτιάτην αὐτὸν ἐποιήσαντο, τῆς Διονυσίου καταφρονήσαντες ὀργῆς, καίπερ αὐτοῖς τότε προθύμως ἐπὶ τοὺς Θηβαίους συμμαχοῦντος.^1^
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **Διονυσίου ... καίπερ ... συμμαχοῦντος**: de Dionisio, aunque (este) era aliado ...
 
 9 λέγεται δέ ποτε τὸν Δίωνα τοῦ Μεγαρέως Πτοιοδώρου δεόμενον ἐπὶ τὴν οἰκίαν ἐλθεῖν ἦν δέ, ὡς ἔοικε, τῶν πλουσίων τις καὶ δυνατῶν ὁ Πτοιόδωρος·
 10 ὄχλον οὖν ἐπὶ θύραις ἰδὼν ὁ Δίων καὶ πλῆθος ἀσχολιῶν καὶ δυσέντευκτον αὐτὸν καὶ δυσπρόσοδον, ἀπιδὼν πρὸς τοὺς φίλους δυσχεραίνοντας καὶ ἀγανακτοῦντας, <!-- p.36 --> τί τοῦτον ἔφη, μεμφόμεθα;^1^ καὶ γὰρ^2^ αὐτοὶ πάντως ἐν Συρακούσαις ὅμοια τούτοις ἐποιοῦμεν.
 
-??? danger "Temporalmente oculto"
+??? note "Temporalmente oculto"
     1. **τί τοῦτον ... μεμφόμεθα;**: '¿Por qué lo reprobamos a él?' > 'No deberíamos reprobarlo'.
     2. **γὰρ**: Dion justifica sus palabras anteriores: '(lo digo) porque ...'.
 

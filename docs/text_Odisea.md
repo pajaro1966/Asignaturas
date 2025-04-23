@@ -408,6 +408,93 @@
 
 [Esculturas de Sperlonga](https://en.wikipedia.org/wiki/Sperlonga_sculptures)
 
+
+
+??? note "(375) καὶ τότʼ ἐγὼ τὸν μοχλὸν ὑπὸ σποδοῦ ἤλασα πολλῆς,"
+    - (375) **μόχλον**: es el arma que van a utilizar y a la que ya ha aludido antes el poeta.
+
+??? note "(376) ἧος θερμαίνοιτο· ἔπεσσι δὲ πάντας ἑταίρους"
+
+??? note "(377) θάρσυνον, μή τίς μοι ὑποδείσας ἀναδύη. "
+    - (377) **μοι**: dat. ético.
+    - (377) **ἀναδύη**: por άναδυΐη. Opt. aor. radical atemátíco. Ver [δύω](verbo.md#143-δύω).
+      - West: ἀναδυ-ί-η: conjetura de Bekker.
+
+??? note "(378) ἀλλʼ ὅτε δὴ τάχʼ ὁ μοχλὸς ἐλάινος ἐν πυρὶ μέλλεν"
+
+??? note "(379) ἅψεσθαι, χλωρός περ ἐών, διεφαίνετο δʼ αἰνῶς,"
+
+??? note "(380) καὶ τότʼ ἐγὼν ἆσσον φέρον ἐκ πυρός, ἀμφὶ δʼ ἑταῖροι"
+
+??? note "(381) ἵσταντʼ· αὐτὰρ θάρσος ἐνέπνευσεν μέγα δαίμων."
+    - (381) **δαίμων**: ver Od. VI 172.
+
+??? danger "(382) οἱ μὲν μοχλὸν ἑλόντες ἐλάινον, ὀξὺν ἐπʼ ἄκρῳ,"
+
+??? danger "(383) ὀφθαλμῷ ἐνέρεισαν· ἐγὼ δʼ ἐφύπερθεν ἐρεισθεὶς"
+    - (383) **ὀφθαλμῷ**: el cíclope tiene un solo ojo. Esta circunstancia hace que el plan de incapacitar a Polifemo cegándole sea el más adecuado, si se tiene en cuenta, además, que el tamaño y la fuerza del gigante harían prácticamente inútil cualquier intento de atentar contra su vida.
+
+??? danger "(384) δίνεον, ὡς ὅτε τις τρυπῷ δόρυ νήιον ἀνὴρ"
+    - (384) **τρυπῷ**: opt. de τρυπά-ω que no participa de la extensión del tipo atemático en -ιη- a la categoría de los verbos contractos (at. *τιμα-ο-ί-η > τιμῴη).
+    - (384-386) Ulises utiliza la estaca como un carpintero el taladro o berbiquí: mientras el carpintero presiona en la parte superior sobre el mango, que permite en su interior el libre juego de la espiga, sus ayudantes imprimen un movimiento en la parte inferior (ἔνερθεν ὑποσσείουσιν) mediante una correa que mantienen asida por uno y otro extremo (ἁψάμενοι ἑκάτερθε) de manera que, con tirones alternativos, imprimen a la espiga un movimiento de vaivén.
+
+??? danger "(385) τρυπάνῳ, οἱ δέ τʼ ἔνερθεν ὑποσσείουσιν ἱμάντι"
+    - (385) **οἱ δέ**: "los otros", esto es, "los ayudantes" en contraposición a τις ... ἀνήρ "el carpintero".
+
+??? danger "(386) ἁψάμενοι ἑκάτερθε, τὸ δὲ τρέχει ἐμμενὲς αἰεί."
+    - (386) **τὸ δέ**: "el taladro" (τό τρύπανον).
+
+??? danger "(387) ὣς τοῦ ἐν ὀφθαλμῷ πυριήκεα μοχλὸν ἑλόντες"
+    - (387) **ὣς**: recoge la comparación iniciada en ὡς ὅτε: **ὡς ὅτε** ... **ὣς** ... («como cuando ... así también ...»).
+    - (387) **πυριήκεα**:
+      - **πυριηκής ές**: πυρι-ηκ-ής: ἀκή 'punta': 'afilado a fuego'.
+      - πυρι-ήκεσ-α > πυρι-ήκ**ε**-**α** > πυρι-ήκ**η**
+
+??? danger "(388) δινέομεν, τὸν δʼ αἷμα περίρρεε θερμὸν ἐόντα."
+    - (388) **τὸν**: la estaca, regido por περι-.
+
+??? danger "(389) πάντα δέ οἱ βλέφαρʼ ἀμφὶ καὶ ὀφρύας εὗσεν ἀυτμὴ"
+    - (389) **πάντα**: predic. "enteramente";
+    - (389) **οἱ**: dat. simpatètico anafórico del cíclope;
+    - (389) **ὀψρύας**: pl. poético, pues Polifemo tenía una sola ceja.
+
+??? danger "(390) γλήνης καιομένης, σφαραγεῦντο δέ οἱ πυρὶ ῥίζαι."
+    - (390) **γλήνης καιομένης**: depende de άϋτμή.
+      - Pero también puede ser un genitivo absoluto.
+    - (390) **ῥίζαι**: "las raíces" del ojo.
+
+??? danger "(391) ὡς δʼ ὅτʼ ἀνὴρ χαλκεὺς πέλεκυν μέγαν ἠὲ σκέπαρνον"
+    - (391) **χαλκεύς**: "herrero" (ver Od. III 432).
+    - (391) [**πέλεκυς**](Imagenes/Pelekus.jpg).
+    ![**πέλεκυς**](Imagenes/Pelekus.jpg).
+    - (391) [**σκέπαρνον**](https://exarc.net/issue-2018-1/at/adze-plane-skeparnon-multipurpose-adze-or-two-handled-adze-practical-work-alleged-predecessor).
+
+??? danger "(392) εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα"
+    - (392) **μεγάλα**: ac. adv.
+    - (392) **ἰάχοντα**: concierta con πέλεκυν, pues ἠὲ σκέπαρνον es una frase parentètica. Se aplica al chirrido característico del hierro candente cuando se le introduce en agua fría al tratar de darle temple (φαρμάσσων). La metalurgia del hierro es rasgo postmicénico.
+
+??? danger "(393) φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν·"
+    - (393) **τὸ**: "eso", es decir, "el temple".
+
+??? danger "(394) ὣς τοῦ σίζʼ ὀφθαλμὸς ἐλαϊνέῳ περὶ μοχλῷ."
+
+??? danger "(395) σμερδαλέον δὲ μέγʼ ᾤμωξεν, περὶ δʼ ἴαχε πέτρη,"
+
+??? danger "(396) ἡμεῖς δὲ δείσαντες ἀπεσσύμεθʼ· αὐτὰρ ὁ μοχλὸν"
+
+??? danger "(397) ἐξέρυσʼ ὀφθαλμοῖο πεφυρμένον αἵματι πολλῷ."
+
+??? danger "(398) τὸν μὲν ἔπειτʼ ἔρριψεν ἀπὸ ἕο χερσὶν ἀλύων,"
+
+??? danger "(399) αὐτὰρ ὁ Κύκλωπας μεγάλʼ ἤπυεν, οἵ ῥά μιν ἀμφὶς"
+
+??? danger "(400) ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας."
+    - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado.
+    - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
+    - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8-temas-en-i) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
+    
+<!--
+
 | V | GRIEGO |
 | --- | --- |
 | 375 | καὶ τότʼ ἐγὼ τὸν μοχλὸν ὑπὸ σποδοῦ ἤλασα πολλῆς, |
@@ -437,9 +524,7 @@
 | 399 | αὐτὰρ ὁ Κύκλωπας μεγάλʼ ἤπυεν, οἵ ῥά μιν ἀμφὶς |
 | 400 | ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας. |
 
----
-
->**NOTAS**
+**NOTAS**
 
 - (375) **μόχλον**: es el arma que van a utilizar y a la que ya ha aludido antes el poeta.
 - (377) **μοι**: dat. ético.
@@ -473,6 +558,8 @@
 - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
 - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8-temas-en-i) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
 
+-->
+
 ![Vaso de Eleusis](Imagenes/Ciclope_Ceguera_Vaso.png)
 
 [Eleusis: ánfora funeraria protoática.](https://es.wikipedia.org/wiki/Archivo:Polyphemus_Eleusis_2630.jpg)
@@ -480,6 +567,45 @@
 ---
 
 ## 401-414 Los cíclopes se interesan por Polifemo
+
+
+
+??? danger "(401) οἱ δὲ βοῆς ἀίοντες ἐφοίτων ἄλλοθεν ἄλλος,"
+
+??? danger "(402) ἱστάμενοι δʼ εἴροντο περὶ σπέος ὅττι ἑ κήδοι·"
+    - (402) **περὶ σπέος**: únese a ἱστάμενοι.
+
+??? danger "(403) «τίπτε τόσον, Πολύφημʼ, ἀρημένος ὧδʼ ἐβόησας"
+    - (403) **τόσον ... ἀρημένος**: el participio tiene valor concesivo. Los cíclopes, que no se distinguen por su solidaridad (ver Od. IX 115), están, más que preocupados, molestos por las voces que les han despertado.
+
+??? danger "(404) νύκτα διʼ ἀμβροσίην καὶ ἀύπνους ἄμμε τίθησθα;"
+    - (404) **νύκτα διʼ ἀμβροσίην**: "durante". Uso temporal con ac. propio de Homero y limitado a νύκτα.
+    - (404) **τίθησθα**: presente (para la desin. ver [o41 a](notas#o41-desinencias-personales)).
+
+??? danger "(405) ἦ μή τίς σευ μῆλα βροτῶν ἀέκοντος ἐλαύνει;"
+
+??? danger "(406) ἦ μή τίς σʼ αὐτὸν κτείνει δόλῳ ἠὲ βίηφιν;»"
+    - (406) **μή** (también v. 406): pregunta formulada con un matiz de incredulidad. Se espera respuesta negativa.
+
+??? danger "(407) τοὺς δʼ αὖτʼ ἐξ ἄντρου προσέφη κρατερὸς Πολύφημος·"
+
+??? danger "(408) «ὦ φίλοι, Οὖτίς με κτείνει δόλῳ οὐδὲ βίηφιν.»"
+    - (408) Polifemo dice: "intenta matarme Nadie" (Οὖτις), pero los cíclopes entenderán "no intenta matarme nadie" (οὖτις).
+
+??? danger "(409) οἱ δʼ ἀπαμειβόμενοι ἔπεα πτερόεντʼ ἀγόρευον·"
+
+??? danger "(410) «εἰ μὲν δὴ μή τίς σε βιάζεται οἶον ἐόντα,"
+    - (410) **μή τις**: la negación debería ser oó, pero Homero emplea μή para evitar una nueva ambigüedad y
+
+??? danger "(411) νοῦσον γʼ οὔ πως ἔστι Διὸς μεγάλου ἀλέασθαι,"
+
+??? danger "(412) ἀλλὰ σύ γʼ εὔχεο πατρὶ Ποσειδάωνι ἄνακτι.»"
+
+??? danger "(413) ὣς ἄρʼ ἔφαν ἀπιόντες, ἐμὸν δʼ ἐγέλασσε φίλον κῆρ,"
+
+??? danger "(414) ὡς ὄνομʼ ἐξαπάτησεν ἐμὸν καὶ μῆτις ἀμύμων."
+    
+<!--
 
 | V | GRIEGO |
 | --- | --- |
@@ -507,6 +633,8 @@
 - (406) **μή** (también v. 406): pregunta formulada con un matiz de incredulidad. Se espera respuesta negativa.
 - (408) Polifemo dice: "intenta matarme Nadie" (Οὖτις), pero los cíclopes entenderán "no intenta matarme nadie" (οὖτις).
 - (410) **μή τις**: la negación debería ser oó, pero Homero emplea μή para evitar una nueva ambigüedad y
+
+-->
 
 ## 415-463 Odiseo y los suyos salen de la cueva bajo las ovejas
 

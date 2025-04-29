@@ -32,7 +32,7 @@ nav:
     - Lección 17:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_17_Vocab.html'
       - Lección: 'Griego_Moderno/Leccion_17.md'
-      - Ejercicios: 'reveal.js-master/GMod_Leccion_17_Exerc.html'
+      - Ejercicios: 'reveal.js-master/GMod_Leccion_17_Exerc_B.html'
     - Lección 18:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_18_Vocab.html'
       - Lección: 'Griego_Moderno/Leccion_18.md'
@@ -53,7 +53,9 @@ nav:
     - Guía (MESOB): 'Plutarch_Dion/Dion_MESOB.md'
     - Guía (Máster): 'Plutarch_Dion/Guia_Master.md'
     - Texto: 'Plutarch_Dion/Dion.md'
-    - Discurso: 'Plutarch_Dion/Discurso/Dion_Discurso.html'
+    - Discurso: 
+      - Estructura: 'Plutarch_Dion/Discurso/Dion_Discurso.html'
+      - Introducción: 'Plutarch_Dion/Discurso/Discurso_Intro.md'
     - Traducción: 'Plutarch_Dion/Dion_Bilingue_02.md'
     - Estructura: 'Plutarch_Dion/Dion_Estructura.md'
     - Geografía: 

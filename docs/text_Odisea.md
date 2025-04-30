@@ -425,40 +425,43 @@
 ??? note "(379) ἅψεσθαι, χλωρός περ ἐών, διεφαίνετο δʼ αἰνῶς,"
 
 ??? note "(380) καὶ τότʼ ἐγὼν ἆσσον φέρον ἐκ πυρός, ἀμφὶ δʼ ἑταῖροι"
+    - **ἆσσον**: 'más cerca' (Odiseo)
 
 ??? note "(381) ἵσταντʼ· αὐτὰρ θάρσος ἐνέπνευσεν μέγα δαίμων."
     - (381) **δαίμων**: ver Od. VI 172.
 
-??? danger "(382) οἱ μὲν μοχλὸν ἑλόντες ἐλάινον, ὀξὺν ἐπʼ ἄκρῳ,"
+??? note "(382) οἱ μὲν μοχλὸν ἑλόντες ἐλάινον, ὀξὺν ἐπʼ ἄκρῳ,"
 
-??? danger "(383) ὀφθαλμῷ ἐνέρεισαν· ἐγὼ δʼ ἐφύπερθεν ἐρεισθεὶς"
+??? note "(383) ὀφθαλμῷ ἐνέρεισαν· ἐγὼ δʼ ἐφύπερθεν ἐρεισθεὶς"
     - (383) **ὀφθαλμῷ**: el cíclope tiene un solo ojo. Esta circunstancia hace que el plan de incapacitar a Polifemo cegándole sea el más adecuado, si se tiene en cuenta, además, que el tamaño y la fuerza del gigante harían prácticamente inútil cualquier intento de atentar contra su vida.
 
-??? danger "(384) δίνεον, ὡς ὅτε τις τρυπῷ δόρυ νήιον ἀνὴρ"
-    - (384) **τρυπῷ**: opt. de τρυπά-ω que no participa de la extensión del tipo atemático en -ιη- a la categoría de los verbos contractos (at. *τιμα-ο-ί-η > τιμῴη).
+??? note "(384) δίνεον, ὡς ὅτε τις τρυπῷ δόρυ νήιον ἀνὴρ"
+    - (384) **τρυπῷ**: opt. de τρυπά-ω (*τιμά-ο-ι > τιμῷ) que no participa de la extensión del tipo atemático en -ιη- a la categoría de los verbos contractos (at. *τιμα-ο-ί-η > τιμῴη).
     - (384-386) Ulises utiliza la estaca como un carpintero el taladro o berbiquí: mientras el carpintero presiona en la parte superior sobre el mango, que permite en su interior el libre juego de la espiga, sus ayudantes imprimen un movimiento en la parte inferior (ἔνερθεν ὑποσσείουσιν) mediante una correa que mantienen asida por uno y otro extremo (ἁψάμενοι ἑκάτερθε) de manera que, con tirones alternativos, imprimen a la espiga un movimiento de vaivén.
 
-??? danger "(385) τρυπάνῳ, οἱ δέ τʼ ἔνερθεν ὑποσσείουσιν ἱμάντι"
+??? note "(385) τρυπάνῳ, οἱ δέ τʼ ἔνερθεν ὑποσσείουσιν ἱμάντι"
     - (385) **οἱ δέ**: "los otros", esto es, "los ayudantes" en contraposición a τις ... ἀνήρ "el carpintero".
+    - ![Taladro de correa](Imagenes/Odisea_Taladro.png)
+    - ![Taladro de correa](Imagenes/Odisea_Taladro_02.png)
 
-??? danger "(386) ἁψάμενοι ἑκάτερθε, τὸ δὲ τρέχει ἐμμενὲς αἰεί."
+??? note "(386) ἁψάμενοι ἑκάτερθε, τὸ δὲ τρέχει ἐμμενὲς αἰεί."
     - (386) **τὸ δέ**: "el taladro" (τό τρύπανον).
 
-??? danger "(387) ὣς τοῦ ἐν ὀφθαλμῷ πυριήκεα μοχλὸν ἑλόντες"
+??? note "(387) ὣς τοῦ ἐν ὀφθαλμῷ πυριήκεα μοχλὸν ἑλόντες"
     - (387) **ὣς**: recoge la comparación iniciada en ὡς ὅτε: **ὡς ὅτε** ... **ὣς** ... («como cuando ... así también ...»).
     - (387) **πυριήκεα**:
       - **πυριηκής ές**: πυρι-ηκ-ής: ἀκή 'punta': 'afilado a fuego'.
       - πυρι-ήκεσ-α > πυρι-ήκ**ε**-**α** > πυρι-ήκ**η**
 
-??? danger "(388) δινέομεν, τὸν δʼ αἷμα περίρρεε θερμὸν ἐόντα."
+??? note "(388) δινέομεν, τὸν δʼ αἷμα περίρρεε θερμὸν ἐόντα."
     - (388) **τὸν**: la estaca, regido por περι-.
 
-??? danger "(389) πάντα δέ οἱ βλέφαρʼ ἀμφὶ καὶ ὀφρύας εὗσεν ἀυτμὴ"
+??? note "(389) πάντα δέ οἱ βλέφαρʼ ἀμφὶ καὶ ὀφρύας εὗσεν ἀυτμὴ"
     - (389) **πάντα**: predic. "enteramente";
     - (389) **οἱ**: dat. simpatètico anafórico del cíclope;
     - (389) **ὀψρύας**: pl. poético, pues Polifemo tenía una sola ceja.
 
-??? danger "(390) γλήνης καιομένης, σφαραγεῦντο δέ οἱ πυρὶ ῥίζαι."
+??? note "(390) γλήνης καιομένης, σφαραγεῦντο δέ οἱ πυρὶ ῥίζαι."
     - (390) **γλήνης καιομένης**: depende de άϋτμή.
       - Pero también puede ser un genitivo absoluto.
     - (390) **ῥίζαι**: "las raíces" del ojo.

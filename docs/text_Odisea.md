@@ -408,8 +408,6 @@
 
 [Esculturas de Sperlonga](https://en.wikipedia.org/wiki/Sperlonga_sculptures)
 
-
-
 ??? note "(375) καὶ τότʼ ἐγὼ τὸν μοχλὸν ὑπὸ σποδοῦ ἤλασα πολλῆς,"
     - (375) **μόχλον**: es el arma que van a utilizar y a la que ya ha aludido antes el poeta.
 
@@ -436,7 +434,7 @@
     - (383) **ὀφθαλμῷ**: el cíclope tiene un solo ojo. Esta circunstancia hace que el plan de incapacitar a Polifemo cegándole sea el más adecuado, si se tiene en cuenta, además, que el tamaño y la fuerza del gigante harían prácticamente inútil cualquier intento de atentar contra su vida.
 
 ??? note "(384) δίνεον, ὡς ὅτε τις τρυπῷ δόρυ νήιον ἀνὴρ"
-    - (384) **τρυπῷ**: opt. de τρυπά-ω (*τιμά-ο-ι > τιμῷ) que no participa de la extensión del tipo atemático en -ιη- a la categoría de los verbos contractos (at. *τιμα-ο-ί-η > τιμῴη).
+    - (384) **τρυπῷ**: opt. de τρυπά-ω (τιμά-ο-ι > τιμῷ) que no participa de la extensión del tipo atemático en -ιη- a la categoría de los verbos contractos (at. τιμα-ο-ί-η > τιμῴη).
     - (384-386) Ulises utiliza la estaca como un carpintero el taladro o berbiquí: mientras el carpintero presiona en la parte superior sobre el mango, que permite en su interior el libre juego de la espiga, sus ayudantes imprimen un movimiento en la parte inferior (ἔνερθεν ὑποσσείουσιν) mediante una correa que mantienen asida por uno y otro extremo (ἁψάμενοι ἑκάτερθε) de manera que, con tirones alternativos, imprimen a la espiga un movimiento de vaivén.
 
 ??? note "(385) τρυπάνῳ, οἱ δέ τʼ ἔνερθεν ὑποσσείουσιν ἱμάντι"
@@ -495,7 +493,7 @@
     - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado.
     - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
     - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8-temas-en-i) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
-    
+
 <!--
 
 | V | GRIEGO |
@@ -571,8 +569,6 @@
 
 ## 401-414 Los cíclopes se interesan por Polifemo
 
-
-
 ??? danger "(401) οἱ δὲ βοῆς ἀίοντες ἐφοίτων ἄλλοθεν ἄλλος,"
 
 ??? danger "(402) ἱστάμενοι δʼ εἴροντο περὶ σπέος ὅττι ἑ κήδοι·"
@@ -607,7 +603,7 @@
 ??? danger "(413) ὣς ἄρʼ ἔφαν ἀπιόντες, ἐμὸν δʼ ἐγέλασσε φίλον κῆρ,"
 
 ??? danger "(414) ὡς ὄνομʼ ἐξαπάτησεν ἐμὸν καὶ μῆτις ἀμύμων."
-    
+
 <!--
 
 | V | GRIEGO |
@@ -710,9 +706,8 @@ NOTAS
 - (452) **νῦν αὖτε**: 'ahora, en cambio'.
 - (453) **ἐξαλάωσε**: ἀλαός, όν 'ciego' > ἐξ-αλαό-ω 'cegar'.
 - (456) **εἰ ... ὁμοφρονέοις ... τε γένοιο**: 'ojalá': (a) ático: potencial 'ojalá algo ocurra'; (b) Hom. potencial o irreal ('ojalá algo ocurriera (que no va a ocurrir)').
-- (463) **ὑπʼ ἀρνειοῦ**: (a) origen: ὑπό + gen. 'de debajo del carnero.'; (b) dirección: ὑπό + ac. '(ir para estar) debajo de' 433 **λασίην ὑπὸ γαστέρʼ** ἐλυσθεὶς; (c) posición 9.443	ὥς οἱ **ὑπʼ** εἰροπόκων ὀίων **στέρνοισι** δέδεντο.
+- (463) **ὑπʼ ἀρνειοῦ**: (a) origen: ὑπό + gen. 'de debajo del carnero.'; (b) dirección: ὑπό + ac. '(ir para estar) debajo de' 433 **λασίην ὑπὸ γαστέρʼ** ἐλυσθεὶς; (c) posición 9.443 ὥς οἱ **ὑπʼ** εἰροπόκων ὀίων **στέρνοισι** δέδεντο.
 - (463) **ὑπέλυσα**: ὑπολύω 'desatar de debajo' πρῶτος **ὑπʼ ἀρνειοῦ** λυόμην, **ὑπ**έλυσα δʼ ἑταίρους.
-
 
 ![Polifemo controla los corderos](Imagenes/Polifemos_Corderos_Eckersberg.jpg)
 
@@ -810,7 +805,6 @@ NOTAS
 | 523 | «αἲ γὰρ δὴ ψυχῆς τε καὶ αἰῶνός σε δυναίμην |
 | 524 | εὖνιν ποιήσας πέμψαι δόμον Ἄϊδος εἴσω, |
 | 525 | ὡς οὐκ ὀφθαλμόν γʼ ἰήσεται οὐδʼ ἐνοσίχθων.» |
-
 
 - (509) **ἐκέκαστο**: καίνυμι 'elsewh. καίνυμαι, surpass, excel, in' > later, to be adorned, equipped.
 

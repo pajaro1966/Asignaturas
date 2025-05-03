@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulario Griego-Español</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Menú superior fijo */
+        #menu {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        #menu button {
+            padding: 8px 12px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Tabla de vocabulario */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 60px; /* espacio para el menú */
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td.visited {
+            background-color: #e0ffe0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Pantalla completa para mostrar palabra y traducción */
+        #fullscreen {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            font-size: 8vw;
+            text-align: center;
+            z-index: 1001;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #fullscreen.green {
+            background-color: green;
+        }
+
+        #fullscreen.orange {
+            background-color: orange;
+        }
+
+        #fullscreen button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 600px) {
+            th, td {
+                font-size: 1rem;
+                padding: 8px;
+            }
+
+            #fullscreen {
+                font-size: 12vw;
+            }
+
+            #fullscreen button {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú superior para mostrar/ocultar la columna de español -->
+    <div id="menu">
+        <button onclick="toggleSpanish()">Mostrar/Ocultar Español</button>
+    </div>
+
+    <!-- Tabla de vocabulario -->
+    <table id="vocabulario">
+        <thead>
+            <tr>
+                <th>Griego</th>
+                <th class="spanish">Español</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td onclick="showFullscreen(this)" data-spanish="palabra, razón">λόγος</td><td class="spanish">palabra, razón</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="hombre">ἀνήρ</td><td class="spanish">hombre</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="vida">ζωή</td><td class="spanish">vida</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="alma">ψυχή</td><td class="spanish">alma</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="mujer">γυνή</td><td class="spanish">mujer</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="tiempo">χρόνος</td><td class="spanish">tiempo</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="muerte">θάνατος</td><td class="spanish">muerte</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="amor">ἀγάπη</td><td class="spanish">amor</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="justicia">δικαιοσύνη</td><td class="spanish">justicia</td></tr>
+            <tr><td onclick="showFullscreen(this)" data-spanish="sabiduría">σοφία</td><td class="spanish">sabiduría</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Pantalla completa para mostrar palabra y traducción -->
+    <div id="fullscreen">
+        <div id="displayText"></div>
+        <button onclick="returnToGreek()">Volver al Griego</button>
+        <button onclick="toggleTranslation()">Ver Traducción</button>
+    </div>
+
+    <script>
+        let currentGreek = "";
+        let currentSpanish = "";
+        let showingGreek = true;
+
+        // Mostrar u ocultar la columna de español
+        function toggleSpanish() {
+            document.querySelectorAll('.spanish').forEach(el => {
+                el.classList.toggle('hidden');
+            });
+        }
+
+        // Mostrar palabra en pantalla completa
+        function showFullscreen(cell) {
+            currentGreek = cell.innerText;
+            currentSpanish = cell.dataset.spanish;
+            showingGreek = true;
+            document.getElementById('displayText').innerText = currentGreek;
+            document.getElementById('fullscreen').className = 'green';
+            document.getElementById('fullscreen').style.display = 'flex';
+
+            // Marcar como visitado
+            cell.classList.add('visited');
+        }
+
+        // Alternar entre griego y español
+        function toggleTranslation() {
+            if (showingGreek) {
+                document.getElementById('displayText').innerText = currentSpanish;
+                document.getElementById('fullscreen').className = 'orange';
+                showingGreek = false;
+            } else {
+                document.getElementById('displayText').innerText = currentGreek;
+                document.getElementById('fullscreen').className = 'green';
+                showingGreek = true;
+            }
+        }
+
+        // Volver a la tabla
+        function returnToGreek() {
+            document.getElementById('fullscreen').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

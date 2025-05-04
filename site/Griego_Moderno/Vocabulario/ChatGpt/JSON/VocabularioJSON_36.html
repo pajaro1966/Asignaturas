@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- Archivo: VocabularioJSON_36.html -->
+<!--
+FUNCIONALIDADES IMPLEMENTADAS EN ESTA VERSIÓN:
+
+- Separación completa entre estudio griego→español y español→griego mediante funciones independientes.
+
+- JSON embebido en el body usando <script type="application/json">.
+
+- Palabras estudiadas desde el español se marcan con fondo naranja pastel.
+
+- Estudio desde español: clic en palabra española abre tarjeta naranja, traducción al griego (verde), y navegación por palabras españolas.
+
+1. Tabla dinámica de vocabulario griego-español desde JSON.
+2. Mostrar/ocultar columna español.
+3. Tarjeta pantalla completa al hacer clic en palabra griega.
+4. Botón para ver traducción y volver a la tabla.
+5. Palabras griegas estudiadas se marcan en verde.
+6. Campo de búsqueda funcional.
+7. ✅ Solucionado conflicto con document.exitFullscreen() renombrando la función.
+-->
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VocabularioJSON_36</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; }
+    #menu {
+      background: #333; color: white;
+      padding: 10px; text-align: center; position: sticky; top: 0;
+    }
+    #menu button, #menu input {
+      padding: 8px 12px; margin: 5px; font-size: 1rem;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+    td.visited { background-color: #d8f8d8; }  /* Verde pastel */
+td.visited-es { background-color: #ffe4c4; }  /* Naranja pastel */
+    .spanish.hidden { display: none; }
+
+    #fullscreen {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background-color: green;
+      color: white;
+      font-size: 8vw;
+      text-align: center;
+      z-index: 1000;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #fullscreen.orange { background-color: orange; }
+    #fullscreen button {
+  min-width: 120px;
+  min-height: 60px;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  margin: 8px;
+}
+    #fullscreen button:disabled {
+      background-color: #ccc;
+      color: #666;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+<script id="jsonData" type="application/json">
+[
+  { "griego": "λόγος", "español": "palabra, razón", "visitado": false },
+  { "griego": "ἀνήρ", "español": "hombre", "visitado": false },
+  { "griego": "ζωή", "español": "vida", "visitado": false },
+  { "griego": "ψυχή", "español": "alma", "visitado": false },
+  { "griego": "γυνή", "español": "mujer", "visitado": false },
+  { "griego": "χρόνος", "español": "tiempo", "visitado": false },
+  { "griego": "θάνατος", "español": "muerte", "visitado": false },
+  { "griego": "ἀγάπη", "español": "amor", "visitado": false },
+  { "griego": "δικαιοσύνη", "español": "justicia", "visitado": false },
+  { "griego": "σοφία", "español": "sabiduría", "visitado": false }
+]
+</script>
+
+
+<div id="menu">
+  <input type="text" id="search" placeholder="Buscar..." oninput="filtrarTabla()">
+  <button onclick="toggleSpanish()">Mostrar/Ocultar Español</button>
+  <button onclick="startFromGreek()">Estudiar Griego → Español</button>
+  <button onclick="startFromSpanish()">Estudiar Español → Griego</button>
+
+</div>
+
+<table>
+  <thead>
+    <tr><th>Griego</th><th class="spanish">Español</th></tr>
+  </thead>
+  <tbody id="tableBody">
+  </tbody>
+</table>
+
+<div id="fullscreen" style="display: none;">
+  <div id="displayText"></div>
+  
+  <div>
+    <button onclick="prevCard()" id="btnPrev">Anterior</button>
+    <button onclick="toggleTranslation()">Ver Traducción</button>
+    <button onclick="nextCard()" id="btnNext">Siguiente</button>
+  </div>
+  <button onclick="cerrarTarjeta()">Volver a la Tabla</button>
+</div>
+
+<script>
+  let currentIndex = null;
+
+  const raw = document.getElementById("jsonData").textContent;
+  const vocabulario = JSON.parse(raw);
+
+  let showingGreek = true;
+  let currentMode = "greek";
+
+  
+  function updateNavButtons() {
+    document.getElementById("btnPrev").disabled = currentIndex <= 0;
+    document.getElementById("btnNext").disabled = currentIndex >= vocabulario.length - 1;
+  }
+
+  
+  function renderTable() {
+    const tbody = document.getElementById("tableBody");
+    tbody.innerHTML = "";
+    vocabulario.forEach((entry, index) => {
+      const row = document.createElement("tr");
+
+      const tdGriego = document.createElement("td");
+      tdGriego.textContent = entry.griego;
+      tdGriego.onclick = () => showCardFromGreek(index);
+
+      const tdEsp = document.createElement("td");
+      tdEsp.textContent = entry.español;
+      tdEsp.classList.add("spanish");
+      tdEsp.onclick = () => showCardFromSpanish(index);
+
+      // Marcar independientemente sin borrar el otro color
+      if (entry.visitado && currentMode === "greek") {
+        tdGriego.classList.add("visited");
+      }
+      if (entry.visitado && currentMode === "spanish") {
+        tdEsp.classList.add("visited-es");
+      }
+      // Si ya estaba estudiado desde el otro modo
+      if (entry.visitado && tdGriego.className !== "visited") {
+        if (tdGriego.classList.contains("visited") === false && entry.griegoMarcado) {
+          tdGriego.classList.add("visited");
+        }
+      }
+      if (entry.visitado && tdEsp.className !== "visited-es") {
+        if (tdEsp.classList.contains("visited-es") === false && entry.espanolMarcado) {
+          tdEsp.classList.add("visited-es");
+        }
+      }
+
+      row.appendChild(tdGriego);
+      row.appendChild(tdEsp);
+      tbody.appendChild(row);
+    });
+  }
+
+
+  function toggleSpanish() {
+    document.querySelectorAll(".spanish").forEach(cell => cell.classList.toggle("hidden"));
+  }
+
+  function filtrarTabla() {
+    const query = document.getElementById("search").value.toLowerCase();
+    const rows = document.querySelectorAll("#tableBody tr");
+    rows.forEach(row => {
+      const g = row.cells[0].innerText.toLowerCase();
+      const e = row.cells[1].innerText.toLowerCase();
+      row.style.display = g.includes(query) || e.includes(query) ? "" : "none";
+    });
+  }
+
+  function cerrarTarjeta() {
+    const fs = document.getElementById("fullscreen");
+    fs.style.display = "none";
+    fs.className = "";
+    document.getElementById("displayText").innerText = "";
+    currentIndex = null;
+  }
+
+  renderTable();
+    updateNavButtons();
+
+  
+  function showCardFromGreek(index) {
+    currentIndex = index;
+    currentMode = "greek";
+    showingGreek = true;
+    const fs = document.getElementById("fullscreen");
+    fs.style.display = "flex";
+    fs.className = "green";
+    document.getElementById("displayText").innerText = vocabulario[index].griego;
+    vocabulario[index].visitado = true;
+    renderTable();
+    updateNavButtons();
+  }
+
+  function showCardFromSpanish(index) {
+    currentIndex = index;
+    currentMode = "spanish";
+    showingGreek = false;
+    const fs = document.getElementById("fullscreen");
+    fs.style.display = "flex";
+    fs.className = "orange";
+    document.getElementById("displayText").innerText = vocabulario[index].español;
+    vocabulario[index].visitado = true;
+    renderTable();
+    updateNavButtons();
+  }
+
+  
+  function prevCard() {
+    if (currentIndex > 0) {
+      if (!showingGreek && currentMode === "greek") toggleTranslation();
+      if (showingGreek && currentMode === "spanish") toggleTranslation();
+
+      if (currentMode === "greek") {
+        showCardFromGreek(currentIndex - 1);
+      } else {
+        showCardFromSpanish(currentIndex - 1);
+      }
+    }
+  }
+
+  function nextCard() {
+    if (currentIndex < vocabulario.length - 1) {
+      if (!showingGreek && currentMode === "greek") toggleTranslation();
+      if (showingGreek && currentMode === "spanish") toggleTranslation();
+
+      if (currentMode === "greek") {
+        showCardFromGreek(currentIndex + 1);
+      } else {
+        showCardFromSpanish(currentIndex + 1);
+      }
+    }
+  }
+
+  
+  function startFromGreek() {
+    showCardFromGreek(0);
+  }
+
+  function startFromSpanish() {
+    showCardFromSpanish(0);
+  }
+
+
+  function toggleTranslation() {
+    if (currentIndex === null || vocabulario[currentIndex] === undefined) return;
+
+    const entry = vocabulario[currentIndex];
+    showingGreek = !showingGreek;
+    document.getElementById("displayText").innerText = showingGreek ? entry.griego : entry.español;
+    document.getElementById("fullscreen").className = showingGreek ? "green" : "orange";
+  }
+
+</script>
+</body>
+</html>

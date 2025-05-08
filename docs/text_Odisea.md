@@ -464,32 +464,33 @@
       - Pero también puede ser un genitivo absoluto.
     - (390) **ῥίζαι**: "las raíces" del ojo.
 
-??? danger "(391) ὡς δʼ ὅτʼ ἀνὴρ χαλκεὺς πέλεκυν μέγαν ἠὲ σκέπαρνον"
+??? note "(391) ὡς δʼ ὅτʼ ἀνὴρ χαλκεὺς πέλεκυν μέγαν ἠὲ σκέπαρνον"
     - (391) **χαλκεύς**: "herrero" (ver Od. III 432).
     - (391) [**πέλεκυς**](Imagenes/Pelekus.jpg).
     ![**πέλεκυς**](Imagenes/Pelekus.jpg).
     - (391) [**σκέπαρνον**](https://exarc.net/issue-2018-1/at/adze-plane-skeparnon-multipurpose-adze-or-two-handled-adze-practical-work-alleged-predecessor).
 
-??? danger "(392) εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα"
+??? note "(392) εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα"
     - (392) **μεγάλα**: ac. adv.
     - (392) **ἰάχοντα**: concierta con πέλεκυν, pues ἠὲ σκέπαρνον es una frase parentètica. Se aplica al chirrido característico del hierro candente cuando se le introduce en agua fría al tratar de darle temple (φαρμάσσων). La metalurgia del hierro es rasgo postmicénico.
 
-??? danger "(393) φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν·"
+??? note "(393) φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν·"
     - (393) **τὸ**: "eso", es decir, "el temple".
 
-??? danger "(394) ὣς τοῦ σίζʼ ὀφθαλμὸς ἐλαϊνέῳ περὶ μοχλῷ."
+??? note "(394) ὣς τοῦ σίζʼ ὀφθαλμὸς ἐλαϊνέῳ περὶ μοχλῷ."
+    (391) **ὡς** δʼ ὅτʼ ἀνὴρ χαλκεὺς πέλεκυν μέγαν ἠὲ σκέπαρνον / εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα / φαρμάσσων <ins>(τὸ **γὰρ** αὖτε σιδήρου γε κράτος ἐστίν·)</ins> / **ὣς** τοῦ σίζʼ ὀφθαλμὸς ἐλαϊνέῳ περὶ μοχλῷ.
 
-??? danger "(395) σμερδαλέον δὲ μέγʼ ᾤμωξεν, περὶ δʼ ἴαχε πέτρη,"
+??? note "(395) σμερδαλέον δὲ μέγʼ ᾤμωξεν, περὶ δʼ ἴαχε πέτρη,"
 
-??? danger "(396) ἡμεῖς δὲ δείσαντες ἀπεσσύμεθʼ· αὐτὰρ ὁ μοχλὸν"
+??? note "(396) ἡμεῖς δὲ δείσαντες ἀπεσσύμεθʼ· αὐτὰρ ὁ μοχλὸν"
 
-??? danger "(397) ἐξέρυσʼ ὀφθαλμοῖο πεφυρμένον αἵματι πολλῷ."
+??? note "(397) ἐξέρυσʼ ὀφθαλμοῖο πεφυρμένον αἵματι πολλῷ."
 
-??? danger "(398) τὸν μὲν ἔπειτʼ ἔρριψεν ἀπὸ ἕο χερσὶν ἀλύων,"
+??? note "(398) τὸν μὲν ἔπειτʼ ἔρριψεν ἀπὸ ἕο χερσὶν ἀλύων,"
 
-??? danger "(399) αὐτὰρ ὁ Κύκλωπας μεγάλʼ ἤπυεν, οἵ ῥά μιν ἀμφὶς"
+??? note "(399) αὐτὰρ ὁ Κύκλωπας μεγάλʼ ἤπυεν, οἵ ῥά μιν ἀμφὶς"
 
-??? danger "(400) ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας."
+??? note "(400) ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας."
     - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado.
     - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
     - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8-temas-en-i) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.

@@ -87,7 +87,9 @@ nav:
       - 'Odisea': 'text_Odisea.md'
     - 'Traducciones': 
       - Ilíada: 'traduc_ES.md'
-      - Odisea: 'Trad_Hom_Od.md'
+      - Odisea:
+        - Bilingüe: 'Trad_Hom_Od.md'
+        - Segala: "Daniel_Caballero/Odisea_Segala/Odisea_Segala_01.html"
   - Lengua:
     - 'Diccionarios':
       - 'Philolog.us': 'https://philolog.us'

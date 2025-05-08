@@ -34,23 +34,27 @@
 
 span.num {color: red; font-size: 140%; background-color: #C0C0C0;}
 .interroga {color: white; background-color: black;}
+span[entidad]::before {content: attr(entidad); position: absolute; right: 86%; text-align: left; text-indent: 0 ; font-size: 70%; }
+span[entidad]::after {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; }
 
-[entidad="Alcinoo"] {background-color: lightgreen; }
-[entidad="Antinoo"] {background-color: green; color: white; }
-[entidad="Egiptio"] {background-color: peachpuff; color: black; }
-[entidad="Eurimaco"] {background-color: greenyellow; color: ; }
-[entidad="Euriclea"] {background-color: salmon; color: ; }
-[entidad="feacios"] {background-color: beige;}
-[entidad="Haliterses"] {background-color: papayawhip;}
-[entidad="Leocrito"] {background-color: yellowgreen;}
-[entidad="Mentor"] {background-color: gold;}
-[entidad="Minerva"] {background-color: aqua;}
-[entidad="Nausicaa"] {background-color: pink;}
-[entidad="Odiseo"] {background-color: lightcoral;}
-[entidad="Penelope"] {background-color: pink;}
-[entidad="Pretendientes"] {border: 4px solid green;}
-[entidad="Telemaco"] {background-color: orange;}
-[entidad="Zeus"] {background-color: blue; color: white; }
+span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before, span[entidad="Alcinoo"]::after  {background-color: lightgreen; }
+[entidad="Antinoo"], [entidad="Antinoo"]::after, [entidad="Antinoo"]::before {background-color: green; color: white; }
+[entidad="Egiptio"], [entidad="Egiptio"]::after, [entidad="Egiptio"]::before {background-color: peachpuff; color: black; }
+[entidad="Eurimaco"], [entidad="Eurimaco"]::after, [entidad="Eurimaco"]::before {background-color: greenyellow;  }
+[entidad="Euriclea"], [entidad="Euriclea"]::after, [entidad="Euriclea"]::before {background-color: salmon; }
+[entidad="feacios"], [entidad="feacios"]::after, [entidad="feacios"]::before {background-color: beige;}
+[entidad="Haliterses"], [entidad="Haliterses"]::after, [entidad="Haliterses"]::before {background-color: papayawhip;}
+[entidad="Leocrito"], [entidad="Leocrito"]::after, [entidad="Leocrito"]::before {background-color: yellowgreen;}
+[entidad="Mentor"], [entidad="Mentor"]::after, [entidad="Mentor"]::before {background-color: gold;}
+[entidad="Minerva"], [entidad="Minerva"]::after, [entidad="Minerva"]::before {background-color: aqua;}
+[entidad="Nausicaa"], [entidad="Nausicaa"]::after, [entidad="Nausicaa"]::before {background-color: pink;}
+[entidad="Nestor"], [entidad="Nestor"]::after, [entidad="Nestor"]::before {background-color: BurlyWood ;}
+[entidad="Odiseo"], [entidad="Odiseo"]::after, [entidad="Odiseo"]::before {background-color: lightcoral;}
+[entidad="Penelope"], [entidad="Penelope"]::after, [entidad="Penelope"]::before {background-color: pink;}
+[entidad="Pisistrato"], [entidad="Pisistrato"]::after, [entidad="Pisistrato"]::before {background-color: brown; color: white;}
+[entidad="Pretendientes"], [entidad="Pretendientes"]::after, [entidad="Pretendientes"]::before {background-color: LimeGreen ;}
+[entidad="Telemaco"], [entidad="Telemaco"]::after, [entidad="Telemaco"]::before {background-color: orange;}
+[entidad="Zeus"], [entidad="Zeus"]::after, [entidad="Zeus"]::before {background-color: blue; color: white; }
 ul {
   list-style-type: none;
   margin: 0;
@@ -399,7 +403,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
         <li><details><summary><span>C2</span></summary>
           <a class="active" href="#canto_02">2.0</a>
-          <span><a class="active" href="#II_1">2.1</a>
+          <a class="active" href="#II_1">2.1</a>
           <a class="active" href="#II_1">2.1</a>
           <a class="active" href="#II_15">2.15</a>
           <a class="active" href="#II_25">2.25</a>
@@ -2993,30 +2997,24 @@ zarlo—sin duda he de ser débil y ha de faltarme el valor marcial—que ya arr
 Así dijo encolerizado; y, rezumándole las lágrimas, arrojó el cetro en tierra. Movióse á piedad el pueblo, y todos callaron; sin que nadie se atreviese á contestar á Telémaco con ásperas palabras, salvo Antínoo, que respondió diciendo:
 </p>
 <p id="II_85">
-<span class="num">2.85
-</span>
-«<span entidad="Antinoo">¡Telémaco altílocuo, incapaz de moderar tus ímpetus! <span class="interroga">¿Qué has dicho para ultrajarnos?</span> Tú deseas cubrirnos de baldón. Mas la culpa no la tienen los aqueos que pretenden á tu madre, sino ella, que sabe proceder con gran astucia. Tres años van con éste, y pronto llegará el cuarto, que se fisga del ánimo que los aquivos tienen en su pecho. Á todos les da esperanzas, y á cada uno en particular le hace promesas y le envía mensajes; pero son muy diferentes los pensamientos que en su inteligencia revuelve. Y aún discurrió su espíritu este otro engaño: Se puso á tejer en el palacio una gran tela sutil é interminable, y á la hora nos habló de esta guisa:
-<i>
-¡Jóvenes, pretendientes míos! Ya que ha muerto el divinal Ulises, aguardad, para instar mis bodas, que acabe este lienzo—no sea que se me pierdan inútilmente los hilos,—á fin de que tenga sudario el héroe Laertes en el momento fatal de la aterradora muerte. ¡No se me vaya á indignar alguna de las aqueas del pueblo, si ve enterrar sin mortaja á un hombre que ha poseído tantos bienes!
-</i>
-Así dijo, y nuestro ánimo generoso se dejó persuadir. Desde aquel instante pasaba el día labrando la gran tela, y por la noche, tan luego como se alumbraba con las antorchas, deshacía lo tejido. De esta suerte logró ocultar el engaño y que sus palabras fueran creídas por los aqueos
-<span class="pagenum" id="Page_26">
-[p. 26]
-</span>
+<span class="num">2.85</span>
+
+«<span entidad="Antinoo">¡Telémaco altílocuo, incapaz de moderar tus ímpetus! <span class="interroga">¿Qué has dicho para ultrajarnos?</span> Tú deseas cubrirnos de baldón. Mas la culpa no la tienen los aqueos que pretenden á tu madre, sino ella, que sabe proceder con gran astucia. Tres años van con éste, y pronto llegará el cuarto, que se fisga del ánimo que los aquivos tienen en su pecho. Á todos les da esperanzas, y á cada uno en particular le hace promesas y le envía mensajes; pero son muy diferentes los pensamientos que en su inteligencia revuelve. Y aún discurrió su espíritu este otro engaño: Se puso á tejer en el palacio una gran tela sutil é interminable, y á la hora nos habló de esta guisa:</span> 
+
+<span entidad="Penelope"><i>¡Jóvenes, pretendientes míos! Ya que ha muerto el divinal Ulises, aguardad, para instar mis bodas, que acabe este lienzo—no sea que se me pierdan inútilmente los hilos,—á fin de que tenga sudario el héroe Laertes en el momento fatal de la aterradora muerte. ¡No se me vaya á indignar alguna de las aqueas del pueblo, si ve enterrar sin mortaja á un hombre que ha poseído tantos bienes!</i></span>
+
+<span entidad="Antinoo">Así dijo, y nuestro ánimo generoso se dejó persuadir. Desde aquel instante pasaba el día labrando la gran tela, y por la noche, tan luego como se alumbraba con las antorchas, deshacía lo tejido. De esta suerte logró ocultar el engaño y que sus palabras fueran creídas por los aqueos 
+  <span class="pagenum" id="Page_26">[p. 26] </span> 
 durante un trienio; mas, así que vino el cuarto año y volvieron á sucederse las estaciones, nos lo reveló una de las mujeres, que conocía muy bien lo que pasaba, y sorprendimos á Penélope destejiendo la espléndida tela. Así fué como, mal de su grado, se vió en la necesidad de acabarla. Oye, pues, lo que te responden los pretendientes, para que lo sepa tu espíritu y lo sepan también los aqueos todos. Haz que tu madre vuelva á su casa, y ordénale que tome por esposo á quien su padre le aconseje y á ella le plazca. Y si atormentare largo tiempo á los aqueos, confiando en las dotes que Minerva le otorgó en tal abundancia—ser diestra en labores primorosas, gozar de buen juicio, y valerse de astucias que jamás hemos oído decir que conocieran las anteriores aquivas Tiro, Alcmena y Micene, la de hermosa diadema, pues ninguna concibió pensamientos semejantes á los de Penélope—no se habrá decidido por lo más conveniente, ya que tus bienes y riquezas serán devorados mientras siga con el propósito que los dioses le infundieron en el pecho. Ella ganará ciertamente mucha fama, pero á ti te quedará tan sólo la añoranza de los copiosos bienes que hayas poseído; y nosotros ni tornaremos á nuestros negocios, ni nos llegaremos á otra parte, hasta que Penélope no se haya casado con alguno de los aqueos.»</span>
 </p>
 <p id="II_129">
-<span class="num">2.129
-</span>
+<span class="num">2.129</span>
 Contestóle el prudente Telémaco: «<span entidad="Telemaco">¡Antínoo! No es razón que eche de mi casa, contra su voluntad, á la que me dió el ser y me ha criado. Mi padre quizás esté vivo en otra tierra, quizás haya muerto; pero me será gravoso haber de restituir á Icario muchísimas cosas si voluntariamente le envío mi madre. Y entonces no sólo padeceré infortunios á causa de la ausencia de mi padre, sino que los dioses me causarán otros; pues mi madre, al salir de la casa, imprecará las odiosas Furias, y caerá sobre mí la indignación de los hombres. Jamás, por consiguiente, daré yo semejante orden. Si os indigna el ánimo lo que ocurre, salid del palacio, disponed otros festines y comeos vuestros bienes, convidándoos sucesiva y recíprocamente en vuestras casas. Pero si os parece mejor y más acertado destruir impunemente los bienes de un solo hombre, seguid consumiéndolos; que yo invocaré á los sempiternos dioses por si algún día nos concede Júpiter que vuestras obras sean castigadas, y quizás muráis en este palacio sin que nadie os vengue.»</span>
 </p>
 <p id="II_146">
-<span class="num">2.146
-</span>
+<span class="num">2.146</span>
 Así habló Telémaco; y el longividente Júpiter envióle dos águilas que echaron á volar desde la cumbre de un monte. Ambas volaban muy juntas, con las alas extendidas, y tan rápidas como el viento; y al hallarse en medio de la ruidosa ágora, giraron ve
-<span class="pagenum" id="Page_27">
-[p. 27]
-</span>
+<span class="pagenum" id="Page_27">[p. 27]</span>
 lozmente, batiendo las tupidas alas, miráronles á todos á la cabeza como presagio de muerte, desgarráronse con las uñas la cabeza y el cuello, y se lanzaron hacia la derecha por cima de las casas y á través de la ciudad. Quedáronse todos los presentes muy admirados de ver con sus propios ojos las susodichas aves, y meditaban en su espíritu qué fuera lo que tenía que suceder; cuando el anciano héroe Haliterses Mastórida, el único que se señalaba sobre los de su edad en conocer los augurios y explicar las cosas fatales, les arengó con benevolencia diciendo:
 </p>
 <p id="II_161">
@@ -3254,22 +3252,18 @@ directamente á Néstor, domador de caballos, y sepamos qué guarda allá en su 
 <p id="III_21">
 <span class="num">3.21
 </span>
-Repuso el prudente Telémaco: «<span entidad="">¡Méntor! <span class="interroga">¿Cómo quieres que yo me acerque á él, cómo puedo ir á saludarle?</span> Aún no soy práctico en hablar con discreción y da vergüenza que un joven interrogue á un anciano.»</span>
+Repuso el prudente Telémaco: «<span entidad="Telemaco">¡Méntor! <span class="interroga">¿Cómo quieres que yo me acerque á él, cómo puedo ir á saludarle?</span> Aún no soy práctico en hablar con discreción y da vergüenza que un joven interrogue á un anciano.»</span>
 </p>
 <p id="III_25">
 <span class="num">3.25
 </span>
-Díjole Minerva, la deidad de los brillantes ojos: «<span entidad="">¡Telémaco! Discurrirás en tu mente algunas cosas y un numen te sugerirá las restantes, pues no creo que tu nacimiento y tu crianza se hayan efectuado contra la voluntad de los dioses.»</span>
+Díjole Minerva, la deidad de los brillantes ojos: «<span entidad="Minerva">¡Telémaco! Discurrirás en tu mente algunas cosas y un numen te sugerirá las restantes, pues no creo que tu nacimiento y tu crianza se hayan efectuado contra la voluntad de los dioses.»</span>
 </p>
 <p id="III_29">
-<span class="num">3.29
-</span>
-Cuando así hubo hablado, Palas Minerva caminó á buen paso y Telémaco fué siguiendo las pisadas de la deidad. Llegaron adonde estaba la junta de los varones pilios en los asientos: allí se había sentado Néstor con sus hijos y á su alrededor los compañeros preparaban el banquete, ya asando carne, ya espetándola en los asadores. Y apenas vieron á los huéspedes, adelantáronse todos juntos, los saludaron con las manos y les invitaron á sentarse. Pisístrato Nestórida fué el primero que se les acercó, y asiéndolos de la mano, los hizo sentar para el convite en unas blandas pieles, sobre la arena del mar, cerca de su hermano Trasimedes y de su propio padre. En seguida dióles parte de las entrañas, echó vino en una copa de oro y, ofreciéndosela á Palas Minerva, hija de Júpiter que lleva la égida, así le dijo:
+<span class="num">3.29</span>
+ Cuando así hubo hablado, Palas Minerva caminó á buen paso y Telémaco fué siguiendo las pisadas de la deidad. Llegaron adonde estaba la junta de los varones pilios en los asientos: allí se había sentado Néstor con sus hijos y á su alrededor los compañeros preparaban el banquete, ya asando carne, ya espetándola en los asadores. Y apenas vieron á los huéspedes, adelantáronse todos juntos, los saludaron con las manos y les invitaron á sentarse. Pisístrato Nestórida fué el primero que se les acercó, y asiéndolos de la mano, los hizo sentar para el convite en unas blandas pieles, sobre la arena del mar, cerca de su hermano Trasimedes y de su propio padre. En seguida dióles parte de las entrañas, echó vino en una copa de oro y, ofreciéndosela á Palas Minerva, hija de Júpiter que lleva la égida, así le dijo:
 </p>
-<p id="III_43">
-<span class="num">3.43
-</span>
-«<span entidad="">¡Forastero! Eleva tus preces al soberano Neptuno, ya que al venir acá os habéis encontrado con el festín que en su honor celebramos. Mas, tan pronto como hicieres la libación y hubieres rogado, como es justo, dale á ése la copa de dulce vino para que lo libe también, pues supongo que ruega asimismo á los dioses; como que todos los hombres están necesitados de las deidades. Pero á causa de ser el más joven—debe de tener mis años—te daré primero á ti la áurea copa.»</span>
+<p id="III_43"><span class="num">3.43</span> «<span entidad="Pisistrato"> ¡Forastero! Eleva tus preces al soberano Neptuno, ya que al venir acá os habéis encontrado con el festín que en su honor celebramos. Mas, tan pronto como hicieres la libación y hubieres rogado, como es justo, dale á ése la copa de dulce vino para que lo libe también, pues supongo que ruega asimismo á los dioses; como que todos los hombres están necesitados de las deidades. Pero á causa de ser el más joven—debe de tener mis años—te daré primero á ti la áurea copa.»</span>
 </p>
 <p id="III_51">
 <span class="num">3.51
@@ -3279,7 +3273,7 @@ En diciendo esto, púsole en la mano la copa de dulce vino. Minerva holgóse de 
 <p id="III_55">
 <span class="num">3.55
 </span>
-«<span entidad="">¡Óyeme, Neptuno, que circundas la tierra! No te niegues á llevar al cabo lo que ahora te pedimos. Ante todo llena de gloria á Néstor y á sus vástagos; dales á los pilios grata recompensa por tan ínclita hecatombe y concede también que Telémaco y yo no nos
+«<span entidad="Minerva">¡Óyeme, Neptuno, que circundas la tierra! No te niegues á llevar al cabo lo que ahora te pedimos. Ante todo llena de gloria á Néstor y á sus vástagos; dales á los pilios grata recompensa por tan ínclita hecatombe y concede también que Telémaco y yo no nos
 <span class="pagenum" id="Page_37">
 [p. 37]
 </span>
@@ -3293,7 +3287,7 @@ Tal fué su ruego, y ella misma cumplió lo que acababa de pedir. Entregó en se
 <p id="III_69">
 <span class="num">3.69
 </span>
-«<span entidad="">Ésta es la ocasión más oportuna para interrogar á los huéspedes é inquirir quiénes son, ahora que se han saciado de comida:
+«<span entidad="Nestor">Ésta es la ocasión más oportuna para interrogar á los huéspedes é inquirir quiénes son, ahora que se han saciado de comida:
 <i>
 ¡Forasteros! <span class="interroga">¿Quiénes sois?</span> <span class="interroga">¿De dónde llegasteis, navegando por los húmedos caminos?</span> <span class="interroga">¿Venís por algún negocio ó andáis por el mar, á la ventura, como los piratas que divagan, exponiendo su vida y produciendo daño á los hombres de extrañas tierras?</span>
 </i>
@@ -26093,10 +26087,7 @@ This website includes information about Project Gutenberg™, including how to m
 </section>
 <script>
 const cantos = []; const h2s = document.querySelectorAll("h2.nobreak.g1.ws1"); h2s.forEach(h2 =>
-{ const numero = h2.textContent.trim(); const tituloElem = h2.nextElementSibling; const titulo = tituloElem?</span>.classList.contains("subh2") ?</span> tituloElem.textContent.trim() : ""; // Busca todos los
-<p>
-hasta el próximo
-<h2>
+{ const numero = h2.textContent.trim(); const tituloElem = h2.nextElementSibling; const titulo = tituloElem?.classList.contains("subh2") ?tituloElem.textContent.trim() : ""; // Busca todos los <p> hasta el próximo <h2>
 let p = h2.parentElement.nextElementSibling; const secciones = []; while (p && !(p.querySelector("h2.nobreak.g1.ws1"))) { if (p.tagName === "P" && p.id) { const linea = p.id.split("_")[1]; const preview = p.textContent.trim().slice(0, 80); secciones.push({ línea: linea, texto: preview }); } p = p.nextElementSibling; } cantos.push({ numero, titulo, secciones }); }); console.log(cantos);
 </script>
 </body>

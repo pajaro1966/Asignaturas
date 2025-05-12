@@ -489,11 +489,12 @@
 ??? note "(398) τὸν μὲν ἔπειτʼ ἔρριψεν ἀπὸ ἕο χερσὶν ἀλύων,"
 
 ??? note "(399) αὐτὰρ ὁ Κύκλωπας μεγάλʼ ἤπυεν, οἵ ῥά μιν ἀμφὶς"
+    - οἵ: relativo;≠ (a) οἱ artículo nom. pl. masc. ; (b) οἱ: pron. 3ª dat. sg.
 
 ??? note "(400) ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας."
     - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado.
     - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
-    - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8-temas-en-i) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
+    - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
 
 <!--
 
@@ -570,24 +571,24 @@
 
 ## 401-414 Los cíclopes se interesan por Polifemo
 
-??? danger "(401) οἱ δὲ βοῆς ἀίοντες ἐφοίτων ἄλλοθεν ἄλλος,"
+??? note "(401) οἱ δὲ βοῆς ἀίοντες ἐφοίτων ἄλλοθεν ἄλλος,"
 
-??? danger "(402) ἱστάμενοι δʼ εἴροντο περὶ σπέος ὅττι ἑ κήδοι·"
+??? note "(402) ἱστάμενοι δʼ εἴροντο περὶ σπέος ὅττι ἑ κήδοι·"
     - (402) **περὶ σπέος**: únese a ἱστάμενοι.
 
-??? danger "(403) «τίπτε τόσον, Πολύφημʼ, ἀρημένος ὧδʼ ἐβόησας"
+??? note "(403) «τίπτε τόσον, Πολύφημʼ, ἀρημένος ὧδʼ ἐβόησας"
     - (403) **τόσον ... ἀρημένος**: el participio tiene valor concesivo. Los cíclopes, que no se distinguen por su solidaridad (ver Od. IX 115), están, más que preocupados, molestos por las voces que les han despertado.
 
-??? danger "(404) νύκτα διʼ ἀμβροσίην καὶ ἀύπνους ἄμμε τίθησθα;"
+??? note "(404) νύκτα διʼ ἀμβροσίην καὶ ἀύπνους ἄμμε τίθησθα;"
     - (404) **νύκτα διʼ ἀμβροσίην**: "durante". Uso temporal con ac. propio de Homero y limitado a νύκτα.
     - (404) **τίθησθα**: presente (para la desin. ver [o41 a](notas#o41-desinencias-personales)).
 
-??? danger "(405) ἦ μή τίς σευ μῆλα βροτῶν ἀέκοντος ἐλαύνει;"
+??? note "(405) ἦ μή τίς σευ μῆλα βροτῶν ἀέκοντος ἐλαύνει;"
 
-??? danger "(406) ἦ μή τίς σʼ αὐτὸν κτείνει δόλῳ ἠὲ βίηφιν;»"
+??? note "(406) ἦ μή τίς σʼ αὐτὸν κτείνει δόλῳ ἠὲ βίηφιν;»"
     - (406) **μή** (también v. 406): pregunta formulada con un matiz de incredulidad. Se espera respuesta negativa.
 
-??? danger "(407) τοὺς δʼ αὖτʼ ἐξ ἄντρου προσέφη κρατερὸς Πολύφημος·"
+??? note "(407) τοὺς δʼ αὖτʼ ἐξ ἄντρου προσέφη κρατερὸς Πολύφημος·"
 
 ??? danger "(408) «ὦ φίλοι, Οὖτίς με κτείνει δόλῳ οὐδὲ βίηφιν.»"
     - (408) Polifemo dice: "intenta matarme Nadie" (Οὖτις), pero los cíclopes entenderán "no intenta matarme nadie" (οὖτις).

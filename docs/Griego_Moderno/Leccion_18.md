@@ -2,6 +2,11 @@
 
 <style>
   button {border: 1px solid black; border-radius: 25px; padding: 5px 5px 5px 5px;}
+  .suf_0 {color: blue;}
+  .suf_1 {color: blue;}
+  .suf_2 {color: red;}
+  .suf_3 {color: green;}
+
   </style>
 ---
 
@@ -173,11 +178,48 @@
 
 ## 140 -ής -ήδες
 
-![Página 140](Metodo/Textbook_Pagina_140.png)
+
+Αρσενικά σε -ης, πληθ. -ηδες
+
+1. — Έφυγαν οι **μουσαφίρήδες** που είχες στο σπίτι σου; — Ναι, προχθές.
+1. Η αστυνομία ελέγχει τις ζυγαριές των **μανάβηδων** και των **χασάπηδων**.
+1. Ο **σπιτονοικοκύρης** μου μου είπε ότι θέλει κι άλλη αύξηση στο νοίκι.
+1. Τι το κρατάς αυτό το ρολόι; Ούτε **παλιατζής** δεν το παίρνει.
+
+
+|Αριθμός|Πτώση|Άρθρο|Ουσιαστικό|Ουσιαστικό|Επίθημα|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Ενικός|Ονομαστική|ο|μανάβ<span class="suf_0">ης</span>|καφετζ<span class="suf_0">ής</span>|-<span class="suf_1">η</span><span class="suf_3">ς</span>|
+|  |Γενική|του|μανάβ<span class="suf_0">η</span>|καφετζ<span class="suf_0">ή</span>|-<span class="suf_1">η</span>|
+|  |Αιτιατική|τον|μανάβ<span class="suf_0">η</span>|καφετζ<span class="suf_0">ή</span>|-<span class="suf_1">η</span>|
+|  |Κλητική|  |μανάβ<span class="suf_0">η</span>|καφετζ<span class="suf_0">ή</span>|-<span class="suf_1">η</span>|
+|Πληθυντικός|Ονομαστική|οι|μανάβ<span class="suf_0">ηδες</span>|καφετζ<span class="suf_0">ήδες</span>|-<span class="suf_1">η</span><span class="suf_2">δ</span><span class="suf_3">ες</span>|
+|  |Γενική|των|μανάβ<span class="suf_0">ηδων</span>|καφετζ<span class="suf_0">ήδων</span>|-<span class="suf_1">η</span><span class="suf_2">δ</span><span class="suf_3">ων</span>|
+|  |Αιτιατική|τους|μανάβ<span class="suf_0">ηδες</span>|καφετζ<span class="suf_0">ήδες</span>|-<span class="suf_1">η</span><span class="suf_2">δ</span><span class="suf_3">ες</span>|
+|  |Κλητική|  |μανάβ<span class="suf_0">ηδες</span>|καφετζ<span class="suf_0">ήδες</span>|-<span class="suf_1">η</span><span class="suf_2">δ</span><span class="suf_3">ες</span>|
+
+
+[Página 140](Metodo/Textbook_Pagina_140.png)
 
 ---
 
-## 141 Αρσενικά -άς -άδες/-ής -είς, ουδέτερα -ος -η
+## 141 -άς -άδες
+
+|Αριθμός|Πτώση|Άρθρο|Ουσιαστικό|Επίθημα|
+|:---:|:---:|:---:|:---:|:---:|
+|Ενικός|Ονομαστική|ο|ψαρ<span class="suf_0">άς</span>|-<span class="suf_0">άς</span>|
+|  |Γενική|του|ψαρ<span class="suf_0">ά</span>|-<span class="suf_0">ά</span>|
+|  |Αιτιατική|τον|ψαρ<span class="suf_0">ά</span>|-<span class="suf_0">ά</span>|
+|  |Κλητική|  |ψαρ<span class="suf_0">ά</span>|-<span class="suf_0">ά</span>|
+|Πληθυντικός|Ονομαστική|οι|ψαρ<span class="suf_0">άδες</span>|-<span class="suf_0">άδες</span>|
+|  |Γενική|των|ψαρ<span class="suf_0">άδων</span>|-<span class="suf_0">άδων</span>|
+|  |Αιτιατική|τους|ψαρ<span class="suf_0">άδες</span>|-<span class="suf_0">άδες</span>|
+|  |Κλητική|  |ψαρ<span class="suf_0">άδες|-<span class="suf_0">άδες</span>|
+
+## 141 -ής -είς
+
+
+## 141 ουδέτερα -ος -η
 
 ![Página 141](Metodo/Textbook_Pagina_141.png)
 

@@ -36,67 +36,69 @@ span.num {color: red; font-size: 100%; background-color: #C0C0C0;}
 
 .interroga {color: white; background-color: black;}
 
-span[entidad][nivel="1"] {border: 2px solid black; display: block; margin-top: 5px; margin-bottom: 5px; }
+span[entidad][nivel="1"] {border: 2px solid black; display: block; padding: 5px 5px 5px 5px; margin-bottom: 5px; margin-bottom: 5px;}
 /* 
 span[entidad] span[entidad] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 20px; border: 2px solid red; font-size: 90%;}
 */ 
-span[entidad][nivel="2"] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 10px; margin-bottom: 10px; border: 2px solid red; font-size: 90%;}
+span[entidad][nivel="2"] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 0px; margin-bottom: 10px; padding: 5px 5px 5px 5px; border: 2px solid red; font-size: 90%;}
 
-span[entidad]::before {content: attr(entidad); position: absolute; right: 86%;; text-align: left; text-indent: 0 ; }
+span[entidad]::before {content: attr(entidad); position: absolute; right: 81%;; text-align: left; text-indent: 0 ; border: 2px solid black;}
 
 /*
 span[entidad] span[entidad]::before {margin-top: 25px; right: 85.5%; font-size: 95%; font-size: 90%; border: 2px solid red;}
 */
 
-span[entidad][nivel="2"]::before {margin-top: 25px; right: 85.5%; font-size: 95%; font-size: 90%; border: 2px solid red;}
+span[entidad][nivel="2"]::before {margin-top: 0px; right: 76%; font-size: 95%; font-size: 90%; border: 2px solid red;}
 
-span[entidad]::after {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; }
+/*
+span[entidad]::after */ {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; }
+*/
+span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before, span/*[entidad="Alcinoo"]::after */  {background-color: lightgreen; }
 
-span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before, span[entidad="Alcinoo"]::after  {background-color: lightgreen; }
-[entidad="Antinoo"], [entidad="Antinoo"]::after, [entidad="Antinoo"]::before {background-color: green; color: white; }
-[entidad="Egiptio"], [entidad="Egiptio"]::after, [entidad="Egiptio"]::before {background-color: peachpuff; color: black; }
-[entidad="Eteoneo"], [entidad="Eteoneo"]::after, [entidad="Eteoneo"]::before {background-color: BurlyWood ;}
-[entidad="Eurimaco"], [entidad="Eurimaco"]::after, [entidad="Eurimaco"]::before {background-color: greenyellow;  }
-[entidad="Euriclea"], [entidad="Euriclea"]::after, [entidad="Euriclea"]::before {background-color: salmon; }
-[entidad="feacios"], [entidad="feacios"]::after, [entidad="feacios"]::before {background-color: beige;}
-[entidad="Haliterses"], [entidad="Haliterses"]::after, [entidad="Haliterses"]::before {background-color: papayawhip;}
-[entidad="Helena"], [entidad="Helena"]::after, [entidad="Helena"]::before {background-color: pink;}
+[entidad="Antinoo"]/* , [entidad="Antinoo"]::after */, [entidad="Antinoo"]::before {background-color: green; color: white; }
+[entidad="Egiptio"]/* , [entidad="Egiptio"]::after */, [entidad="Egiptio"]::before {background-color: peachpuff; color: black; }
+[entidad="Eteoneo"]/* , [entidad="Eteoneo"]::after */, [entidad="Eteoneo"]::before {background-color: BurlyWood ;}
+[entidad="Eurimaco"]/* , [entidad="Eurimaco"]::after */, [entidad="Eurimaco"]::before {background-color: greenyellow;  }
+[entidad="Euriclea"]/* , [entidad="Euriclea"]::after */, [entidad="Euriclea"]::before {background-color: salmon; }
+[entidad="feacios"]/* , [entidad="feacios"]::after */, [entidad="feacios"]::before {background-color: beige;}
+[entidad="Haliterses"]/* , [entidad="Haliterses"]::after */, [entidad="Haliterses"]::before {background-color: papayawhip;}
+[entidad="Helena"]/* , [entidad="Helena"]::after */, [entidad="Helena"]::before {background-color: pink;}
 
-[entidad="Idotea"], [entidad="Idotea"]::after, [entidad="Idotea"]::before {background-color: blueviolet; color: white;}
+[entidad="Idotea"]/* , [entidad="Idotea"]::after */, [entidad="Idotea"]::before {background-color: blueviolet; color: white;}
 
-[entidad="Iftima"], [entidad="Iftima"]::after, [entidad="Iftima"]::before {background-color: aqua; color: white;}
+[entidad="Iftima"]/* , [entidad="Iftima"]::after */, [entidad="Iftima"]::before {background-color: aqua; color: white;}
 
-[entidad="Leocrito"], [entidad="Leocrito"]::after, [entidad="Leocrito"]::before {background-color: yellowgreen;}
+[entidad="Leocrito"]/* , [entidad="Leocrito"]::after */, [entidad="Leocrito"]::before {background-color: yellowgreen;}
 
-[entidad="Medonte"], [entidad="Medonte"]::after, [entidad="Medonte"]::before {background-color: brown; color: white;}
+[entidad="Medonte"]/* , [entidad="Medonte"]::after */, [entidad="Medonte"]::before {background-color: brown; color: white;}
 
-[entidad="Menelao"], [entidad="Menelao"]::after, [entidad="Menelao"]::before {background-color: Tan ;}
-[entidad="Mentor"], [entidad="Mentor"]::after, [entidad="Mentor"]::before {background-color: gold;}
-[entidad="Minerva"], [entidad="Minerva"]::after, [entidad="Minerva"]::before {background-color: aqua; border: 2px solid aqua; }
-[entidad="Nausicaa"], [entidad="Nausicaa"]::after, [entidad="Nausicaa"]::before {background-color: pink;}
-[entidad="Nestor"], [entidad="Nestor"]::after, [entidad="Nestor"]::before {background-color: BurlyWood ;}
+[entidad="Menelao"]/* , [entidad="Menelao"]::after */, [entidad="Menelao"]::before {background-color: Tan ;}
+[entidad="Mentor"]/* , [entidad="Mentor"]::after */, [entidad="Mentor"]::before {background-color: gold;}
+[entidad="Minerva"]/* , [entidad="Minerva"]::after */, [entidad="Minerva"]::before {background-color: aqua; border: 2px solid aqua; }
+[entidad="Nausicaa"]/* , [entidad="Nausicaa"]::after */, [entidad="Nausicaa"]::before {background-color: pink;}
+[entidad="Nestor"]/* , [entidad="Nestor"]::after */, [entidad="Nestor"]::before {background-color: BurlyWood ;}
 
-[entidad="Noemon"], [entidad="Noemon"]::after, [entidad="Noemon"]::before {background-color: gold ;}
+[entidad="Noemon"]/* , [entidad="Noemon"]::after */, [entidad="Noemon"]::before {background-color: gold ;}
 
-[entidad="Odiseo"], [entidad="Odiseo"]::after, [entidad="Odiseo"]::before {background-color: lightcoral;}
-[entidad="Penelope"], [entidad="Penelope"]::after, [entidad="Penelope"]::before {background-color: pink;}
-[entidad="Pisistrato"], [entidad="Pisistrato"]::after, [entidad="Pisistrato"]::before {background-color: brown; color: white;}
+[entidad="Odiseo"]/* , [entidad="Odiseo"]::after */, [entidad="Odiseo"]::before {background-color: lightcoral;}
+[entidad="Penelope"]/* , [entidad="Penelope"]::after */, [entidad="Penelope"]::before {background-color: pink;}
+[entidad="Pisistrato"]/* , [entidad="Pisistrato"]::after */, [entidad="Pisistrato"]::before {background-color: brown; color: white;}
 
-[entidad="Pretendientes"], [entidad="Pretendientes"]::after, [entidad="Pretendientes"]::before {background-color: LimeGreen ;}
+[entidad="Pretendientes"]/* , [entidad="Pretendientes"]::after */, [entidad="Pretendientes"]::before {background-color: LimeGreen ;}
 
-[entidad="Proteo"], [entidad="Proteo"]::after, [entidad="Proteo"]::before {background-color: lightblue ;}
+[entidad="Proteo"]/* , [entidad="Proteo"]::after */, [entidad="Proteo"]::before {background-color: lightblue ;}
 
-[entidad="Telemaco"], [entidad="Telemaco"]::after, [entidad="Telemaco"]::before {background-color: orange;}
-[entidad="Zeus"], [entidad="Zeus"]::after, [entidad="Zeus"]::before {background-color: blue; color: white; }
+[entidad="Telemaco"]/* , [entidad="Telemaco"]::after */, [entidad="Telemaco"]::before {background-color: orange;}
+[entidad="Zeus"]/* , [entidad="Zeus"]::after */, [entidad="Zeus"]::before {background-color: blue; color: white; }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 8%;
+  width: 9.5%;
   background-color: black; /* #f1f1f1; */
   position: fixed;
-  right: 92%;
+  right: 90%;
   height: 100%;
   overflow: auto;
 }
@@ -118,8 +120,8 @@ li a:hover:not(.active) {
   color: white;
 }
 
-div {margin-left:35%; }
-p {margin-left:35%; }
+div {/* margin-left:35%; */}
+p {/* margin-left:35%; */}
 
 /*
 
@@ -166,6 +168,8 @@ details {padding-left: 7px;}
 details summary {color: white;}
 details span a {font-size: 75% !important;}
 
+.hang .mt2 {padding-left: 0px !important;}
+
 </style>
 <title>
 La Odisea, by Homero—A Project Gutenberg eBook
@@ -173,13 +177,19 @@ La Odisea, by Homero—A Project Gutenberg eBook
 <link href="images/cover.jpg" rel="icon" type="image/x-cover" id="id-4867946946363366231">
 <style>
 
+body {
+  max-width: 80%;
+  font-size: 24px;
+  margin-left: 20%;
+    margin-right: 2%;
+}
+/* body { max-width:  32em; font-size: 24px; } */
 
-body { max-width: 70% /* 32em */ ; font-size: 24px; } 
+/* @media screen { body { margin: 0 auto } } */ 
 
-@media screen { body { margin: 0 auto } } 
 .pagedjs_page_content > div { margin: 0 auto } 
 
-p { margin: 0; text-align: justify; text-indent: 1.25em }
+p { margin: 0; text-align: justify; /* text-indent: 1.25em */}
 
 h1, h2 { text-align: center; font-weight: normal }
 
@@ -261,7 +271,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
  .centra { text-align: center; text-indent: 0 }
 
- .smcap { font-variant: small-caps }
+ .smcap { font-variant: small-caps ; font-weight: bold;}
 
  .adcha { text-align: right; padding-right: 1.25em }
 
@@ -275,7 +285,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
  .indnom { font-size: smaller }
 
- .pagenum { position: absolute; right: 88%; font-size: small; font-variant: normal; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: right; color: #B0B0B0; text-indent: 0 }
+ .pagenum { position: absolute; right: 84%; font-size: small; font-variant: normal; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: right; color: #B0B0B0; text-indent: 0 }
 
  table { margin: 0 auto }
 
@@ -3382,7 +3392,7 @@ Díjole Minerva, la deidad de los brillantes ojos: <span nivel="1" entidad="Mine
 <p id="III_239">
 <span class="num">3.239
 </span>
-Contestóle el prudente Telémaco: <span nivel="1" entidad="Telemaco">«¡Méntor! No hablemos más de tales cosas, aunque nos sintamos afligidos. Ya la vuelta de aquél no puede realizarse; pues los inmortales deben de haberle enviado la muerte y el negro destino. Pero ahora quiero interrogar á Néstor y hacerle otra pregunta, ya que en justicia y prudencia sobresale entre todos y dicen que ha reinado durante tres generaciones de hombres; de suerte que, al contemplarlo, me parece un inmortal. ¡Oh Néstor Nelida! Dime la verdad. <span class="interroga">¿Cómo murió el poderosísimo Agamenón Atrida?</span> <span class="interroga">¿Dónde estaba Menelao?</span> <span class="interroga">¿Qué género de muerte fué la que urdió el doloso Egisto, para que pereciera un varón que tanto le aventajaba?</span> <span class="interroga">¿Fué quizás el no encontrarse Menelao en Argos, la de Acaya, pues andaría peregrino entre otras gentes, la causa de que Egisto cobrara espíritu y matase á aquel héroe?»</span></span>
+Contestóle el prudente Telémaco: <span nivel="1" entidad="Telemaco">«¡Méntor! No hablemos más de tales cosas, aunque nos sintamos afligidos. Ya la vuelta de aquél no puede realizarse; pues los inmortales deben de haberle enviado la muerte y el negro destino. Pero ahora quiero interrogar á Néstor y hacerle otra pregunta, ya que en justicia y prudencia sobresale entre todos y dicen que ha reinado durante tres generaciones de hombres; de suerte que, al contemplarlo, me parece un inmortal. ¡Oh Néstor Nelida! Dime la verdad. <span class="interroga">¿Cómo murió el poderosísimo Agamenón Atrida?</span> <span class="interroga">¿Dónde estaba Menelao?</span> <span class="interroga">¿Qué género de muerte fué la que urdió el doloso Egisto, para que pereciera un varón que tanto le aventajaba?</span> <span class="interroga">¿Fué quizás el no encontrarse Menelao en Argos, la de <a target="_blank" href="#Acaya">Acaya</a>, pues andaría peregrino entre otras gentes, la causa de que Egisto cobrara espíritu y matase á aquel héroe?»</span></span>
 </p>
 <p id="III_253">
 <span class="num">3.253
@@ -4099,12 +4109,12 @@ El obscuro fantasma le respondió diciendo: <span nivel="1" entidad="Iftima">«C
 <p id="IV_830">
 <span class="num">4.830
 </span>
-Entonces hablóle de esta manera la prudente Penélope: <span nivel="1" entidad="">«Pues si eres diosa y has oído la voz de una deidad, ea, dime si aquél desgraciado vive aún y goza de la lumbre del sol, ó ha muerto y se halla en la morada de Plutón.»</span>
+Entonces hablóle de esta manera la prudente Penélope: <span nivel="1" entidad="Penelope">«Pues si eres diosa y has oído la voz de una deidad, ea, dime si aquél desgraciado vive aún y goza de la lumbre del sol, ó ha muerto y se halla en la morada de Plutón.»</span>
 </p>
 <p id="IV_835">
 <span class="num">4.835
 </span>
-El obscuro fantasma le contestó diciendo: <span nivel="1" entidad="">«No te revelaré claramente si vive ó ha muerto, porque es malo hablar de cosas vanas.»</span>
+El obscuro fantasma le contestó diciendo: <span nivel="1" entidad="Iftima">«No te revelaré claramente si vive ó ha muerto, porque es malo hablar de cosas vanas.»</span>
 </p>
 <p id="IV_838">
 <span class="num">4.838
@@ -4147,7 +4157,7 @@ La Aurora se levantaba del lecho, dejando al ilustre Titón, para llevar la luz 
 <p id="V_7">
 <span class="num">5.7
 </span>
-<span nivel="1" entidad="">«¡Padre Júpiter, bienaventurados y sempiternos dioses! Ningún rey, que empuñe cetro, sea benigno, ni blando, ni suave, ni emplee el entendimiento en cosas justas; antes, por el contrario, obre siempre con crueldad y lleve al cabo acciones nefandas; ya que nadie se acuerda del divino Ulises, entre los ciudadanos sobre los cuales reinaba con la suavidad de un padre. Hállase en una isla atormentado por fuertes pesares: en el palacio de la ninfa Calipso, que le detiene
+<span nivel="1" entidad="Minerva">«¡Padre Júpiter, bienaventurados y sempiternos dioses! Ningún rey, que empuñe cetro, sea benigno, ni blando, ni suave, ni emplee el entendimiento en cosas justas; antes, por el contrario, obre siempre con crueldad y lleve al cabo acciones nefandas; ya que nadie se acuerda del divino Ulises, entre los ciudadanos sobre los cuales reinaba con la suavidad de un padre. Hállase en una isla atormentado por fuertes pesares: en el palacio de la ninfa Calipso, que le detiene
 <span class="pagenum" id="Page_69">
 [p. 69]
 </span>
@@ -4156,12 +4166,12 @@ por fuerza; y no le es posible llegar á su patria porque le faltan naves provis
 <p id="V_21">
 <span class="num">5.21
 </span>
-Respondióle Júpiter, que amontona las nubes: <span nivel="1" entidad="">«¡Hija mía! ¡Qué palabras se te escaparon del cerco de los dientes! <span class="interroga">¿No formaste tú misma ese proyecto: que Ulises, al tornar á su tierra, se vengaría de aquéllos?</span> Pues acompaña con discreción á Telémaco, ya que puedes hacerlo, á fin de que se restituya incólume á su patria y los pretendientes que están en la nave tengan que volverse.»</span>
+Respondióle Júpiter, que amontona las nubes: <span nivel="1" entidad="Zeus">«¡Hija mía! ¡Qué palabras se te escaparon del cerco de los dientes! <span class="interroga">¿No formaste tú misma ese proyecto: que Ulises, al tornar á su tierra, se vengaría de aquéllos?</span> Pues acompaña con discreción á Telémaco, ya que puedes hacerlo, á fin de que se restituya incólume á su patria y los pretendientes que están en la nave tengan que volverse.»</span>
 </p>
 <p id="V_28">
 <span class="num">5.28
 </span>
-Dijo; y, dirigiéndose á Mercurio, su hijo amado, hablóle de esta suerte: <span nivel="1" entidad="">«¡Mercurio! Ya que en lo demás eres tú el mensajero, ve á decir á la ninfa de hermosas trenzas nuestra firme resolución—que Ulises torne á su patria—para que el héroe emprenda el regreso sin ir acompañado ni por los dioses ni por los mortales hombres: navegando en una balsa hecha con gran número de ataduras, llegará en veinte días y padeciendo trabajos á la fértil Esqueria, á la tierra de los feacios, que por su linaje son cercanos á los dioses; y ellos le honrarán cordialmente, como á una deidad, y le enviarán en un bajel á su patria tierra, después de regalarle bronce, oro en abundancia, vestidos, y tantas cosas como jamás sacara de Troya si llegase indemne y habiendo obtenido la parte de botín que le correspondiese. Dispuesto está por el hado que Ulises vea á sus amigos y llegue á su casa de alto techo y á su patria.»</span>
+Dijo; y, dirigiéndose á Mercurio, su hijo amado, hablóle de esta suerte: <span nivel="1" entidad="Zeus">«¡Mercurio! Ya que en lo demás eres tú el mensajero, ve á decir á la ninfa de hermosas trenzas nuestra firme resolución—que Ulises torne á su patria—para que el héroe emprenda el regreso sin ir acompañado ni por los dioses ni por los mortales hombres: navegando en una balsa hecha con gran número de ataduras, llegará en veinte días y padeciendo trabajos á la fértil Esqueria, á la tierra de los feacios, que por su linaje son cercanos á los dioses; y ellos le honrarán cordialmente, como á una deidad, y le enviarán en un bajel á su patria tierra, después de regalarle bronce, oro en abundancia, vestidos, y tantas cosas como jamás sacara de Troya si llegase indemne y habiendo obtenido la parte de botín que le correspondiese. Dispuesto está por el hado que Ulises vea á sus amigos y llegue á su casa de alto techo y á su patria.»</span>
 </p>
 <p id="V_43">
 <span class="num">5.43
@@ -4175,7 +4185,7 @@ zadera de oro. Rodeando la gruta, había crecido una verde selva de chopos, ála
 <p id="V_87">
 <span class="num">5.87
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿Por qué, oh Mercurio, el de la áurea vara, venerable y caro, vienes á mi morada?</span> Antes no solías frecuentarla. Di qué deseas, pues mi ánimo me impulsa á realizarlo si puedo y es factible. Pero sígueme, á fin de que te ofrezca los dones de la hospitalidad.»</span>
+<span nivel="1" entidad="Calipso"><span class="interroga">«¿Por qué, oh Mercurio, el de la áurea vara, venerable y caro, vienes á mi morada?</span> Antes no solías frecuentarla. Di qué deseas, pues mi ánimo me impulsa á realizarlo si puedo y es factible. Pero sígueme, á fin de que te ofrezca los dones de la hospitalidad.»</span>
 </p>
 <p id="V_92">
 <span class="num">5.92
@@ -4921,7 +4931,7 @@ Cuando así hubo hablado se puso en marcha, y los demás le siguieron. El herald
 <span class="pagenum" id="Page_104">
 [p. 104]
 </span>
-gos. Encamináronse todos al ágora, seguidos de una turba numerosa, inmensa; y allí se pusieron en pie muchos y vigorosos jóvenes. Levantáronse Acróneo, Ocíalo, Elatreo, Nauteo, Primneo, Anquíalo, Eretmeo, Ponteo, Proreo, Toón, Anabesíneo y Anfíalo, hijo de Políneo Tectónida; levantóse también Euríalo, igual á Marte, funesto á los mortales, y Naubólides, el más excelente en cuerpo y hermosura de todos los feacios después del intachable Laodamante; y alzáronse, por fin, los tres hijos del egregio Alcínoo: Laodamante, Halio y Clitoneo, parecido á un dios. Empezaron por probarse en la carrera. Partieron simultáneamente de la raya, y volaban ligeros y levantando polvo por la llanura. Entre ellos descollaba mucho en el correr el eximio Clitoneo, y cuan largo es el surco que abren dos mulas en campo noval, tanto se adelantó á los demás que le seguían rezagados. Probáronse otros en la fatigosa lucha, y Euríalo venció á cuantos en ella sobresalían. En el salto fué Anfíalo superior á los demás; en arrojar el disco señalóse Elatreo sobre todos; y en el pugilato, Laodamante, el buen hijo de Alcínoo. Y cuando todos hubieron recreado su ánimo con los juegos, Laodamante, hijo de Alcínoo, hablóles de esta suerte:
+gos. Encamináronse todos al ágora, seguidos de una turba numerosa, inmensa; y allí se pusieron en pie muchos y vigorosos jóvenes. Levantáronse <a target="_blank" href="#Acróneo"> Acróneo </a>, Ocíalo, Elatreo, Nauteo, Primneo, Anquíalo, Eretmeo, Ponteo, Proreo, Toón, Anabesíneo y Anfíalo, hijo de Políneo Tectónida; levantóse también Euríalo, igual á Marte, funesto á los mortales, y Naubólides, el más excelente en cuerpo y hermosura de todos los feacios después del intachable Laodamante; y alzáronse, por fin, los tres hijos del egregio Alcínoo: Laodamante, Halio y Clitoneo, parecido á un dios. Empezaron por probarse en la carrera. Partieron simultáneamente de la raya, y volaban ligeros y levantando polvo por la llanura. Entre ellos descollaba mucho en el correr el eximio Clitoneo, y cuan largo es el surco que abren dos mulas en campo noval, tanto se adelantó á los demás que le seguían rezagados. Probáronse otros en la fatigosa lucha, y Euríalo venció á cuantos en ella sobresalían. En el salto fué Anfíalo superior á los demás; en arrojar el disco señalóse Elatreo sobre todos; y en el pugilato, Laodamante, el buen hijo de Alcínoo. Y cuando todos hubieron recreado su ánimo con los juegos, Laodamante, hijo de Alcínoo, hablóles de esta suerte:
 </p>
 <p id="VIII_133">
 <span class="num">8.133
@@ -6154,7 +6164,7 @@ res, separados como están por grandes ríos, por impetuosas corrientes y, antes
 <p id="XI_163">
 <span class="num">11.163
 </span>
-»</span>Tal dijo; y yo le respondí de esta suerte: <span nivel="1" entidad="">«¡Madre mía! La necesidad me trajo á la morada de Plutón, á consultar el alma de Tiresias el tebano; pero aún no me acerqué á la Acaya, ni entré en mi tierra, pues voy errante y padeciendo desgracias desde el punto que seguí al divino Agamenón hasta Ilión, la de hermosos corceles, para combatir con los troyanos. Mas, ea, habla y responde sinceramente: <span class="interroga">¿Qué hado de la aterradora muerte te hizo sucumbir?</span> <span class="interroga">¿Fué una larga enfermedad, ó Diana, que se complace en tirar flechas, te mató con sus suaves tiros?</span> Háblame de mi padre y del hijo que dejé, y cuéntame si mi dignidad real la conservan ellos ó la tiene algún otro varón, porque se figuran que ya no he de volver. Revélame también la voluntad y el pensamiento de mi legítima esposa: si vive con mi hijo y todo lo guarda y mantiene en pie, ó ya se casó con el mejor de los aqueos.»</span>
+»</span>Tal dijo; y yo le respondí de esta suerte: <span nivel="1" entidad="">«¡Madre mía! La necesidad me trajo á la morada de Plutón, á consultar el alma de Tiresias el tebano; pero aún no me acerqué á la <a target="_blank" href="#Acaya">Acaya</a>, ni entré en mi tierra, pues voy errante y padeciendo desgracias desde el punto que seguí al divino Agamenón hasta Ilión, la de hermosos corceles, para combatir con los troyanos. Mas, ea, habla y responde sinceramente: <span class="interroga">¿Qué hado de la aterradora muerte te hizo sucumbir?</span> <span class="interroga">¿Fué una larga enfermedad, ó Diana, que se complace en tirar flechas, te mató con sus suaves tiros?</span> Háblame de mi padre y del hijo que dejé, y cuéntame si mi dignidad real la conservan ellos ó la tiene algún otro varón, porque se figuran que ya no he de volver. Revélame también la voluntad y el pensamiento de mi legítima esposa: si vive con mi hijo y todo lo guarda y mantiene en pie, ó ya se casó con el mejor de los aqueos.»</span>
 </p>
 <p id="XI_180">
 <span class="num">11.180
@@ -6339,7 +6349,7 @@ hasta á las mujeres que han de nacer, por virtuosas que fueren.»</span>
 <span class="pagenum" id="Page_158">
 [p. 158]
 </span>
-resias, por si me diese algún consejo para llegar á la escabrosa Ítaca; que aún no me acerqué á la Acaya, ni entré en mi tierra, sino que padezco infortunios continuamente. Pero tú, oh Aquiles, eres el más dichoso de todos los hombres que nacieron y han de nacer, puesto que antes, cuando vivías, los argivos te honrábamos como á una deidad, y ahora, estando aquí, imperas poderosamente sobre los difuntos. Por lo cual, oh Aquiles, no has de entristecerte porque estés muerto.»</span>
+resias, por si me diese algún consejo para llegar á la escabrosa Ítaca; que aún no me acerqué á la <a target="_blank" href="#Acaya">Acaya</a>, ni entré en mi tierra, sino que padezco infortunios continuamente. Pero tú, oh Aquiles, eres el más dichoso de todos los hombres que nacieron y han de nacer, puesto que antes, cuando vivías, los argivos te honrábamos como á una deidad, y ahora, estando aquí, imperas poderosamente sobre los difuntos. Por lo cual, oh Aquiles, no has de entristecerte porque estés muerto.»</span>
 </p>
 <p id="XI_487">
 <span class="num">11.487
@@ -7211,7 +7221,7 @@ porque estaban muy irritados; pero aquél los apartó, temiendo la cólera de J�
 <span class="pagenum" id="Page_195">
 [p. 195]
 </span>
-voluntad de Júpiter sobre si convendría que volviese manifiesta ó encubiertamente al rico país de Ítaca, del cual habíase ausentado hacía mucho tiempo. Y juró en mi presencia, ofreciendo libaciones en su casa, que ya habían botado al mar la nave y estaban á punto los compañeros para conducirlo á su patria tierra. Pero antes despidióme á mí, porque se ofreció casualmente una nave de marineros tesprotos que iba á Duliquio, la abundosa en trigo. Mandóles que me llevasen con toda solicitud al rey <a href="#Acasto">Acasto</a>; mas á ellos les plugo tomar una perversa resolución, para que aún me cayeran encima toda suerte de desgracias é infortunios. Así que la nave surcadora del ponto, estuvo muy distante de la tierra, decidieron que hubiese llegado para mí el día de la esclavitud; y, desnudándome del manto y de la túnica que llevaba puestos, vistiéronme estos miserables harapos y esta túnica, llenos de agujeros, que ahora contemplas con tus ojos. Por la tarde vinimos á los campos de Ítaca, que se ve de lejos; en llegando, atáronme fuertemente á la nave de muchos bancos con una soga retorcida, y acto continuo saltaron en tierra y tomaron la cena á orillas del mar. Pero los propios dioses desligáronme fácilmente las ataduras; y entonces, liándome yo los harapos á la cabeza, me deslicé por el pulido timón, di á la mar el pecho, nadé con ambas manos, y muy pronto me hallé alejado de aquellos y fuera de su alcance. Salí del mar adonde hay un bosque de florecientes encinas y me quedé echado en tierra; ellos no cesaban de agitarse y de proferir hondos suspiros, pero al fin no les pareció ventajoso continuar la busca y tornaron á la cóncava nave; y los dioses me encubrieron con facilidad y me trajeron á la majada de un varón prudente porque quiere el hado que mi vida sea más larga.»</span>
+voluntad de Júpiter sobre si convendría que volviese manifiesta ó encubiertamente al rico país de Ítaca, del cual habíase ausentado hacía mucho tiempo. Y juró en mi presencia, ofreciendo libaciones en su casa, que ya habían botado al mar la nave y estaban á punto los compañeros para conducirlo á su patria tierra. Pero antes despidióme á mí, porque se ofreció casualmente una nave de marineros tesprotos que iba á Duliquio, la abundosa en trigo. Mandóles que me llevasen con toda solicitud al rey <a target="_blank" href="#Acasto">Acasto</a>; mas á ellos les plugo tomar una perversa resolución, para que aún me cayeran encima toda suerte de desgracias é infortunios. Así que la nave surcadora del ponto, estuvo muy distante de la tierra, decidieron que hubiese llegado para mí el día de la esclavitud; y, desnudándome del manto y de la túnica que llevaba puestos, vistiéronme estos miserables harapos y esta túnica, llenos de agujeros, que ahora contemplas con tus ojos. Por la tarde vinimos á los campos de Ítaca, que se ve de lejos; en llegando, atáronme fuertemente á la nave de muchos bancos con una soga retorcida, y acto continuo saltaron en tierra y tomaron la cena á orillas del mar. Pero los propios dioses desligáronme fácilmente las ataduras; y entonces, liándome yo los harapos á la cabeza, me deslicé por el pulido timón, di á la mar el pecho, nadé con ambas manos, y muy pronto me hallé alejado de aquellos y fuera de su alcance. Salí del mar adonde hay un bosque de florecientes encinas y me quedé echado en tierra; ellos no cesaban de agitarse y de proferir hondos suspiros, pero al fin no les pareció ventajoso continuar la busca y tornaron á la cóncava nave; y los dioses me encubrieron con facilidad y me trajeron á la majada de un varón prudente porque quiere el hado que mi vida sea más larga.»</span>
 </p>
 <p id="XIV_360">
 <span class="num">14.360
@@ -10663,7 +10673,7 @@ Contestóle la discreta Penélope: <span nivel="1" entidad="">«¡Ama querida! N
 <span class="pagenum" id="Page_309">
 [p. 309]
 </span>
-ellos se llegara; y de ahí que, á causa de sus iniquidades, hayan padecido tal infortunio. Pero la esperanza de volver murió lejos de Acaya para Ulises, y éste también ha muerto.»</span>
+ellos se llegara; y de ahí que, á causa de sus iniquidades, hayan padecido tal infortunio. Pero la esperanza de volver murió lejos de <a target="_blank" href="#Acaya">Acaya</a> para Ulises, y éste también ha muerto.»</span>
 </p>
 <p id="XXIII_69">
 <span class="num">23.69
@@ -11279,7 +11289,7 @@ XIV, 336
 .
 </p>
 <p>
-<span class="smcap">
+<span id="Acaya" class="smcap">
 Acaya
 </span>
 (Ἀχαιίς): Región del Peloponeso; se toma asimismo por la Grecia en general,
@@ -11298,7 +11308,7 @@ XXIII, 68
 </p>
 <p>
 <span class="smcap">
-Acróneo
+<a id="Acróneo"> Acróneo </a>
 </span>
 (Ἀκρόνεως): Uno de los jóvenes feacios que tomaron parte en los juegos celebrados en presencia de Ulises,
 <a href="#VIII_104" class="pginternal">

@@ -32,63 +32,119 @@
 .xhtml_center table { display: table; text-align: left; margin-left: auto; margin-right: auto; }
 
 
-span.num {color: red; font-size: 100%; background-color: #C0C0C0;}
+span.num {color: red; font-size: 80%; background-color: #C0C0C0; /* position:absolute; right: 85%; */}
 
 .interroga {color: white; background-color: black;}
 
-span[entidad][nivel="1"] {border: 2px solid black; display: block; padding: 5px 5px 5px 5px; margin-bottom: 5px; margin-bottom: 5px;}
+span[entidad] /* [nivel="1"] */ {border: 2px solid black; display: block; padding: 5px 5px 5px 5px; margin-bottom: 5px;}
+
+span[entidad]::before {content: attr(entidad); position: absolute; right: 82%; border: 2px solid black; display: block; padding: 5px 5px 5px 5px; margin-bottom: 5px; }
+
+/* 
+span[entidad]::before {content: attr(entidad); position: absolute; right: 82%;; text-align: left; text-indent: 0 ; border: 2px solid black; } */ 
+
+span[entidad][nivel="2"] {font-style: italic; /* display: block; */ margin-left: 80px; margin-right: 80px; margin-top: 0px; margin-bottom: 10px; padding: 5px 5px 5px 5px; border: 2px solid red; font-size: 90%;}
+
+span[entidad][nivel="2"]::before {/* margin-top: 0px; */ right: 77%; font-size: 95%; font-size: 90%; border: 2px solid red;}
+
 /* 
 span[entidad] span[entidad] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 20px; border: 2px solid red; font-size: 90%;}
 */ 
-span[entidad][nivel="2"] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 0px; margin-bottom: 10px; padding: 5px 5px 5px 5px; border: 2px solid red; font-size: 90%;}
 
-span[entidad]::before {content: attr(entidad); position: absolute; right: 81%;; text-align: left; text-indent: 0 ; border: 2px solid black;}
+
 
 /*
 span[entidad] span[entidad]::before {margin-top: 25px; right: 85.5%; font-size: 95%; font-size: 90%; border: 2px solid red;}
 */
 
-span[entidad][nivel="2"]::before {margin-top: 0px; right: 76%; font-size: 95%; font-size: 90%; border: 2px solid red;}
 
-/*
-span[entidad]::after */ {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; }
-*/
-span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before, span/*[entidad="Alcinoo"]::after */  {background-color: lightgreen; }
+/* span[entidad]::after  {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; } */
+
+span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alcinoo"]::after */  {background-color: brown; color: white;}
 
 [entidad="Antinoo"]/* , [entidad="Antinoo"]::after */, [entidad="Antinoo"]::before {background-color: green; color: white; }
+
+[entidad="Apolo"]/* , [entidad="Apolo"]::after */, [entidad="Apolo"]::before {background-color: mediumslateblue; color: white; }
+
+[entidad="Arete"]/* , [entidad="Arete"]::after */, [entidad="Arete"]::before {background-color: sienna; color: white; }
+
+
+[entidad="Calipso"]/* , [entidad="Calipso"]::after */, [entidad="Calipso"]::before {background-color: lightblue; color: white; }
+
+[entidad="Cíclopes"]/* , [entidad="Cíclopes"]::after */, [entidad="Cíclopes"]::before {background-color: LightSeaGreen; color: white; }
+
+
+[entidad="dioses"]/* , [entidad="dioses"]::after */, [entidad="dioses"]::before {background-color: DodgerBlue; color: white; }
+
+
+[entidad="doncellas"]/* , [entidad="doncellas"]::after */, [entidad="doncellas"]::before {background-color: beige; }
+
+
 [entidad="Egiptio"]/* , [entidad="Egiptio"]::after */, [entidad="Egiptio"]::before {background-color: peachpuff; color: black; }
+
+[entidad="Equeneo"]/* , [entidad="Equeneo"]::after */, [entidad="Equeneo"]::before {background-color: peachpuff; color: black; }
+
 [entidad="Eteoneo"]/* , [entidad="Eteoneo"]::after */, [entidad="Eteoneo"]::before {background-color: BurlyWood ;}
 [entidad="Eurimaco"]/* , [entidad="Eurimaco"]::after */, [entidad="Eurimaco"]::before {background-color: greenyellow;  }
+
 [entidad="Euriclea"]/* , [entidad="Euriclea"]::after */, [entidad="Euriclea"]::before {background-color: salmon; }
+
+[entidad="Eurialo"]/* , [entidad="Eurialo"]::after */, [entidad="Eurialo"]::before {background-color: #DAA06D; }
+
+
 [entidad="feacios"]/* , [entidad="feacios"]::after */, [entidad="feacios"]::before {background-color: beige;}
 [entidad="Haliterses"]/* , [entidad="Haliterses"]::after */, [entidad="Haliterses"]::before {background-color: papayawhip;}
 [entidad="Helena"]/* , [entidad="Helena"]::after */, [entidad="Helena"]::before {background-color: pink;}
 
 [entidad="Idotea"]/* , [entidad="Idotea"]::after */, [entidad="Idotea"]::before {background-color: blueviolet; color: white;}
 
-[entidad="Iftima"]/* , [entidad="Iftima"]::after */, [entidad="Iftima"]::before {background-color: aqua; color: white;}
+[entidad="Ino"] /* , [entidad="Ino"]::after */, [entidad="Ino"]::before {background-color: cyan; }
+
+[entidad="Iftima"] /* , [entidad="Iftima"]::after */, [entidad="Iftima"]::before {background-color: aqua; color: white;}
+
+
+[entidad="Laodamante"]/* , [entidad="Laodamante"]::after */, [entidad="Laodamante"]::before {background-color: chocolate; color: white;}
+
 
 [entidad="Leocrito"]/* , [entidad="Leocrito"]::after */, [entidad="Leocrito"]::before {background-color: yellowgreen;}
+
+[entidad="Marte"]/* , [entidad="Marte"]::after */, [entidad="Marte"]::before {background-color: SteelBlue; color: white;}
 
 [entidad="Medonte"]/* , [entidad="Medonte"]::after */, [entidad="Medonte"]::before {background-color: brown; color: white;}
 
 [entidad="Menelao"]/* , [entidad="Menelao"]::after */, [entidad="Menelao"]::before {background-color: Tan ;}
-[entidad="Mentor"]/* , [entidad="Mentor"]::after */, [entidad="Mentor"]::before {background-color: gold;}
+
+[entidad="Mentor"] /* , [entidad="Mentor"]::after */, [entidad="Mentor"]::before {background-color: gold;}
+
+[entidad="Mercurio"] /* , [entidad="Mercurio"]::after */, [entidad="Mercurio"]::before {background-color: DarkSlateBlue; color: white;}
+
 [entidad="Minerva"]/* , [entidad="Minerva"]::after */, [entidad="Minerva"]::before {background-color: aqua; border: 2px solid aqua; }
-[entidad="Nausicaa"]/* , [entidad="Nausicaa"]::after */, [entidad="Nausicaa"]::before {background-color: pink;}
+
+
+[entidad="Nausicaa"] /* , [entidad="Nausicaa"]::after */, [entidad="Nausicaa"]::before {background-color: pink;}
+
+[entidad="Neptuno"] /* , [entidad="Neptuno"]::after */, [entidad="Neptuno"]::before {background-color: darkblue; color: white;}
+
 [entidad="Nestor"]/* , [entidad="Nestor"]::after */, [entidad="Nestor"]::before {background-color: BurlyWood ;}
 
 [entidad="Noemon"]/* , [entidad="Noemon"]::after */, [entidad="Noemon"]::before {background-color: gold ;}
 
 [entidad="Odiseo"]/* , [entidad="Odiseo"]::after */, [entidad="Odiseo"]::before {background-color: lightcoral;}
 [entidad="Penelope"]/* , [entidad="Penelope"]::after */, [entidad="Penelope"]::before {background-color: pink;}
+
 [entidad="Pisistrato"]/* , [entidad="Pisistrato"]::after */, [entidad="Pisistrato"]::before {background-color: brown; color: white;}
+
+[entidad="Polifemo"]/* , [entidad="Polifemo"]::after */, [entidad="Polifemo"]::before {background-color: green; color: white;}
 
 [entidad="Pretendientes"]/* , [entidad="Pretendientes"]::after */, [entidad="Pretendientes"]::before {background-color: LimeGreen ;}
 
 [entidad="Proteo"]/* , [entidad="Proteo"]::after */, [entidad="Proteo"]::before {background-color: lightblue ;}
 
 [entidad="Telemaco"]/* , [entidad="Telemaco"]::after */, [entidad="Telemaco"]::before {background-color: orange;}
+
+
+[entidad="Vulcano"]/* , [entidad="Vulcano"]::after */, [entidad="Vulcano"]::before {background-color: Turquoise;}
+
 [entidad="Zeus"]/* , [entidad="Zeus"]::after */, [entidad="Zeus"]::before {background-color: blue; color: white; }
 
 ul {
@@ -120,8 +176,8 @@ li a:hover:not(.active) {
   color: white;
 }
 
-div {/* margin-left:35%; */}
-p {/* margin-left:35%; */}
+/* div { margin-left: 35%; }
+p { margin-left:35%; } */
 
 /*
 
@@ -165,8 +221,8 @@ li a:hover {
 
 details {padding-left: 7px;}
 
-details summary {color: white;}
-details span a {font-size: 75% !important;}
+details summary {color: white;  }
+details span a {font-size: 75% !important; background-color: #04AA6D;}
 
 .hang .mt2 {padding-left: 0px !important;}
 
@@ -178,7 +234,7 @@ La Odisea, by Homero—A Project Gutenberg eBook
 <style>
 
 body {
-  max-width: 80%;
+  max-width: 76.5%;
   font-size: 24px;
   margin-left: 20%;
     margin-right: 2%;
@@ -285,7 +341,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
  .indnom { font-size: smaller }
 
- .pagenum { position: absolute; right: 84%; font-size: small; font-variant: normal; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: right; color: #B0B0B0; text-indent: 0 }
+ .pagenum { position: absolute; right: 1%; font-size: small; font-variant: normal; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: right; color: darkgray /* #B0B0B0 */; text-indent: 0 }
 
  table { margin: 0 auto }
 
@@ -4195,7 +4251,7 @@ Habiendo hablado de semejante modo, la diosa púsole delante una mesa, que habí
 <p id="V_97">
 <span class="num">5.97
 </span>
-<span nivel="1" entidad="">«Me preguntas, oh diosa, á mí, que soy dios, por qué he venido. Voy á decírtelo con sinceridad, ya que así lo mandas. Júpiter me ordenó que viniese, sin que yo lo deseara: <span class="interroga">¿quién pasaría de buen grado tanta agua salada que ni decirse puede, mayormente no habiendo por ahí ninguna ciudad en que los mortales hagan sacrificios á los dioses y les inmolen selectas hecatombes?</span> Mas no le es posible á ningún dios ni transgredir ni dejar sin efecto la voluntad de Júpiter, que lleva la égida. Dice que está contigo un varón, que es el más infortunado de cuantos combatieron alrededor de la ciudad de Príamo durante nueve años y, en el décimo, habiéndola destruído, tornaron á sus casas; pero en la vuelta ofendieron á Minerva y la diosa hizo que se levantara un viento desfavorable é hinchadas olas. En éstas hallaron la muerte sus esforzados compañeros; y á él trajé
+<span nivel="1" entidad="Mercurio">«Me preguntas, oh diosa, á mí, que soy dios, por qué he venido. Voy á decírtelo con sinceridad, ya que así lo mandas. Júpiter me ordenó que viniese, sin que yo lo deseara: <span class="interroga">¿quién pasaría de buen grado tanta agua salada que ni decirse puede, mayormente no habiendo por ahí ninguna ciudad en que los mortales hagan sacrificios á los dioses y les inmolen selectas hecatombes?</span> Mas no le es posible á ningún dios ni transgredir ni dejar sin efecto la voluntad de Júpiter, que lleva la égida. Dice que está contigo un varón, que es el más infortunado de cuantos combatieron alrededor de la ciudad de Príamo durante nueve años y, en el décimo, habiéndola destruído, tornaron á sus casas; pero en la vuelta ofendieron á Minerva y la diosa hizo que se levantara un viento desfavorable é hinchadas olas. En éstas hallaron la muerte sus esforzados compañeros; y á él trajé
 <span class="pagenum" id="Page_71">
 [p. 71]
 </span>
@@ -4204,12 +4260,12 @@ ronlo acá el viento y el oleaje. Y Júpiter te manda que á tal varón le permi
 <p id="V_116">
 <span class="num">5.116
 </span>
-Tal dijo. Estremecióse Calipso, la divina entre las diosas, y respondió con estas aladas palabras: <span nivel="1" entidad="">«Sois, oh dioses, malignos y celosos como nadie, pues sentís envidia de las diosas que no se recatan de dormir con el hombre á quien han tomado por esposo. Así, cuando la Aurora de rosáceos dedos arrebató á Orión, le tuvisteis envidia vosotros los dioses, que vivís sin cuidados, hasta que la casta Diana, la de trono de oro, lo mató en Ortigia alcanzándole con sus dulces flechas. Asimismo, cuando Ceres, la de hermosas trenzas, cediendo á los impulsos de su corazón, juntóse en amor y cama con Yasión en una tierra noval labrada tres veces, Júpiter, que no tardó en saberlo, mató al héroe hiriéndole con el ardiente rayo. Y así también me tenéis envidia, oh dioses, porque está conmigo un hombre mortal; á quien salvé cuando bogaba sólo y montado en una quilla, después que Júpiter le hendió la nave, en medio del vinoso ponto, arrojando contra la misma el ardiente rayo. Allí acabaron la vida sus fuertes compañeros; mas á él trajéronlo acá el viento y el oleaje. Y le acogí amigablemente, le mantuve y díjele á menudo que le haría inmortal y libre de la vejez para siempre jamás. Pero, ya que no le es posible á ningún dios ni transgredir ni dejar sin efecto la voluntad de Júpiter, que lleva la égida, váyase aquél por el mar estéril, si ése le incita y se lo manda; que yo no le he de despedir—pues no dispongo de naves provistas de remos, ni puedo darle compañeros que le conduzcan por el ancho dorso del mar,—aunque le aconsejaré de muy buena voluntad, sin ocultarle nada, para que llegue sano y salvo á su patria tierra.»</span>
+Tal dijo. Estremecióse Calipso, la divina entre las diosas, y respondió con estas aladas palabras: <span nivel="1" entidad="Calipso">«Sois, oh dioses, malignos y celosos como nadie, pues sentís envidia de las diosas que no se recatan de dormir con el hombre á quien han tomado por esposo. Así, cuando la Aurora de rosáceos dedos arrebató á Orión, le tuvisteis envidia vosotros los dioses, que vivís sin cuidados, hasta que la casta Diana, la de trono de oro, lo mató en Ortigia alcanzándole con sus dulces flechas. Asimismo, cuando Ceres, la de hermosas trenzas, cediendo á los impulsos de su corazón, juntóse en amor y cama con Yasión en una tierra noval labrada tres veces, Júpiter, que no tardó en saberlo, mató al héroe hiriéndole con el ardiente rayo. Y así también me tenéis envidia, oh dioses, porque está conmigo un hombre mortal; á quien salvé cuando bogaba sólo y montado en una quilla, después que Júpiter le hendió la nave, en medio del vinoso ponto, arrojando contra la misma el ardiente rayo. Allí acabaron la vida sus fuertes compañeros; mas á él trajéronlo acá el viento y el oleaje. Y le acogí amigablemente, le mantuve y díjele á menudo que le haría inmortal y libre de la vejez para siempre jamás. Pero, ya que no le es posible á ningún dios ni transgredir ni dejar sin efecto la voluntad de Júpiter, que lleva la égida, váyase aquél por el mar estéril, si ése le incita y se lo manda; que yo no le he de despedir—pues no dispongo de naves provistas de remos, ni puedo darle compañeros que le conduzcan por el ancho dorso del mar,—aunque le aconsejaré de muy buena voluntad, sin ocultarle nada, para que llegue sano y salvo á su patria tierra.»</span>
 </p>
 <p id="V_145">
 <span class="num">5.145
 </span>
-Replicóle el mensajero Argicida: <span nivel="1" entidad="">«Despídele pronto y teme la cólera de Júpiter; no sea que este dios, irritándose, se ensañe contra ti en lo sucesivo.»</span>
+Replicóle el mensajero Argicida: <span nivel="1" entidad="Mercurio">«Despídele pronto y teme la cólera de Júpiter; no sea que este dios, irritándose, se ensañe contra ti en lo sucesivo.»</span>
 </p>
 <p id="V_148">
 <span class="num">5.148
@@ -4223,7 +4279,7 @@ de la ribera del mar y, consumiendo su ánimo en lágrimas, suspiros y dolores, 
 <p id="V_160">
 <span class="num">5.160
 </span>
-<span nivel="1" entidad="">«¡Desdichado! No llores más ni consumas tu vida, pues de muy buen grado dejaré que partas. Ea, corta maderos grandes; y, ensamblándolos con el bronce, forma una extensa balsa y cúbrela con piso de tablas, para que te lleve por el obscuro ponto. Yo pondré en ella pan, agua y el rojo vino, regocijador del ánimo, que te librarán de padecer hambre; te daré vestidos y te mandaré próspero viento, á fin de que llegues sano y salvo á tu patria tierra si así lo quieren los dioses que habitan el anchuroso cielo; los cuales me aventajan lo mismo en formar propósitos que en llevarlos á término.»</span>
+<span nivel="1" entidad="Calipso">«¡Desdichado! No llores más ni consumas tu vida, pues de muy buen grado dejaré que partas. Ea, corta maderos grandes; y, ensamblándolos con el bronce, forma una extensa balsa y cúbrela con piso de tablas, para que te lleve por el obscuro ponto. Yo pondré en ella pan, agua y el rojo vino, regocijador del ánimo, que te librarán de padecer hambre; te daré vestidos y te mandaré próspero viento, á fin de que llegues sano y salvo á tu patria tierra si así lo quieren los dioses que habitan el anchuroso cielo; los cuales me aventajan lo mismo en formar propósitos que en llevarlos á término.»</span>
 </p>
 <p id="V_171">
 <span class="num">5.171
@@ -4233,7 +4289,7 @@ Tal dijo. Estremecióse el paciente divinal Ulises y respondió con estas aladas
 <p id="V_173">
 <span class="num">5.173
 </span>
-<span nivel="1" entidad="">«Algo revuelves en tu pensamiento, oh diosa, y no por cierto mi partida, al ordenarme que atraviese en una balsa el gran abismo del mar, tan terrible y peligroso que no lo pasaran fácilmente naves de buenas proporciones, veleras, animadas por un viento favorable que les enviara Jove. Yo no subiría en la balsa, mal de tu grado, si no te resolvieras á prestar firme juramento de que no maquinarás causarme ningún otro pernicioso daño.»</span>
+<span nivel="1" entidad="Odiseo">«Algo revuelves en tu pensamiento, oh diosa, y no por cierto mi partida, al ordenarme que atraviese en una balsa el gran abismo del mar, tan terrible y peligroso que no lo pasaran fácilmente naves de buenas proporciones, veleras, animadas por un viento favorable que les enviara Jove. Yo no subiría en la balsa, mal de tu grado, si no te resolvieras á prestar firme juramento de que no maquinarás causarme ningún otro pernicioso daño.»</span>
 </p>
 <p id="V_180">
 <span class="num">5.180
@@ -4243,7 +4299,7 @@ De tal suerte habló. Sonrióse Calipso, la divina entre las diosas; y, acarici�
 <p id="V_182">
 <span class="num">5.182
 </span>
-<span nivel="1" entidad="">«Eres en verdad injusto, aunque no sueles pensar cosas livianas, cuando tales palabras te has atrevido á proferir. Sépanlo la Tierra y desde arriba el anchuroso Cielo y el agua de la Estigia—que es el juramento mayor y más terrible para los bienaventurados dioses:—no maquinaré contra ti ningún pernicioso daño, y pienso y he de aconsejarte cuanto para mí misma discurriera si en tan grande necesidad me viese. Mi intención es justa, y en mi pecho no se encierra un ánimo férreo, sino compasivo.»</span>
+<span nivel="1" entidad="Calipso">«Eres en verdad injusto, aunque no sueles pensar cosas livianas, cuando tales palabras te has atrevido á proferir. Sépanlo la Tierra y desde arriba el anchuroso Cielo y el agua de la Estigia—que es el juramento mayor y más terrible para los bienaventurados dioses:—no maquinaré contra ti ningún pernicioso daño, y pienso y he de aconsejarte cuanto para mí misma discurriera si en tan grande necesidad me viese. Mi intención es justa, y en mi pecho no se encierra un ánimo férreo, sino compasivo.»</span>
 </p>
 <p id="V_192">
 <span class="num">5.192
@@ -4277,12 +4333,12 @@ Canto V, versos 160 y 161.
 <p class="mt1" id="V_203">
 <span class="num">5.203
 </span>
-<span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Así pues <span class="interroga">¿deseas irte en seguida á tu casa y á tu patria tierra?</span> Sé, esto no obstante, dichoso. Pero, si tu inteligencia conociese los males que habrás de padecer fatalmente antes de llegar á tu patria, te quedaras conmigo, custodiando esta morada, y fueras inmortal, aunque estés deseoso de ver á tu esposa de la que padeces soledad todos los días. Yo me jacto de no serle inferior ni en el cuerpo ni en el natural, que no pueden las mortales competir con las diosas ni por su cuerpo ni por su belleza.»</span>
+<span nivel="1" entidad="Calipso">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Así pues <span class="interroga">¿deseas irte en seguida á tu casa y á tu patria tierra?</span> Sé, esto no obstante, dichoso. Pero, si tu inteligencia conociese los males que habrás de padecer fatalmente antes de llegar á tu patria, te quedaras conmigo, custodiando esta morada, y fueras inmortal, aunque estés deseoso de ver á tu esposa de la que padeces soledad todos los días. Yo me jacto de no serle inferior ni en el cuerpo ni en el natural, que no pueden las mortales competir con las diosas ni por su cuerpo ni por su belleza.»</span>
 </p>
 <p id="V_214">
 <span class="num">5.214
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡No te enojes conmigo, veneranda deidad! Conozco muy bien que la prudente Penélope te es inferior en belleza y en estatura; siendo ella mortal y tú inmortal y exenta de la vejez. Esto no obstante, deseo y anhelo continuamente irme á mi casa y ver lucir el día de mi vuelta. Y si alguno de los dioses quisiera aniquilarme en el vinoso ponto, lo sufriré con el ánimo que llena mi pecho y tan paciente es para los dolores; pues he padecido muy mucho así en el mar como en la guerra, y venga este mal tras de los otros.»</span>
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡No te enojes conmigo, veneranda deidad! Conozco muy bien que la prudente Penélope te es inferior en belleza y en estatura; siendo ella mortal y tú inmortal y exenta de la vejez. Esto no obstante, deseo y anhelo continuamente irme á mi casa y ver lucir el día de mi vuelta. Y si alguno de los dioses quisiera aniquilarme en el vinoso ponto, lo sufriré con el ánimo que llena mi pecho y tan paciente es para los dolores; pues he padecido muy mucho así en el mar como en la guerra, y venga este mal tras de los otros.»</span>
 </p>
 <p id="V_225">
 <span class="num">5.225
@@ -4316,7 +4372,7 @@ El poderoso Neptuno, que sacude la tierra, regresaba entonces de Etiopía y vió
 <p id="V_286">
 <span class="num">5.286
 </span>
-<span nivel="1" entidad="">«¡Ah! Sin duda cambiaron los dioses sus propósitos con respecto á Ulises, mientras yo me hallaba entre los etíopes. Ya está junto á la tierra de los feacios donde es fatal que se libre del cúmulo de desgracias que le han alcanzado. Creo, no obstante, que aún habrá de sufrir no pocos males.»</span>
+<span nivel="1" entidad="Neptuno">«¡Ah! Sin duda cambiaron los dioses sus propósitos con respecto á Ulises, mientras yo me hallaba entre los etíopes. Ya está junto á la tierra de los feacios donde es fatal que se libre del cúmulo de desgracias que le han alcanzado. Creo, no obstante, que aún habrá de sufrir no pocos males.»</span>
 </p>
 <p id="V_291">
 <span class="num">5.291
@@ -4330,7 +4386,7 @@ y el corazón de Ulises; y el héroe, gimiendo, á su magnánimo espíritu así 
 <p id="V_299">
 <span class="num">5.299
 </span>
-<span nivel="1" entidad="">«¡Ay de mí, desdichado! <span class="interroga">¿Qué es lo que, por fin, me va á suceder?</span> Temo que resulten verídicas las predicciones de la diosa, la cual me aseguraba que había de pasar grandes trabajos en el ponto antes de volver á la patria tierra, pues ahora todo se está cumpliendo. ¡Con qué nubes ha cerrado Júpiter el anchuroso cielo! Y ha conturbado el mar; y arrecian los torbellinos de toda clase de vientos. Ahora me espera, á buen seguro, una terrible muerte. ¡Oh, una y mil veces dichosos los dánaos que perecieron en la vasta Troya, luchando para complacer á los Atridas! ¡Así hubiese muerto también, cumpliéndose mi destino, el día en que multitud de teucros me arrojaban broncíneas lanzas junto al cadáver del Pelida! Allí obtuviera honras fúnebres y los aqueos ensalzaran mi gloria; pero dispone el hado que yo sucumba con deplorable muerte.»</span>
+<span nivel="1" entidad="Odiseo">«¡Ay de mí, desdichado! <span class="interroga">¿Qué es lo que, por fin, me va á suceder?</span> Temo que resulten verídicas las predicciones de la diosa, la cual me aseguraba que había de pasar grandes trabajos en el ponto antes de volver á la patria tierra, pues ahora todo se está cumpliendo. ¡Con qué nubes ha cerrado Júpiter el anchuroso cielo! Y ha conturbado el mar; y arrecian los torbellinos de toda clase de vientos. Ahora me espera, á buen seguro, una terrible muerte. ¡Oh, una y mil veces dichosos los dánaos que perecieron en la vasta Troya, luchando para complacer á los Atridas! ¡Así hubiese muerto también, cumpliéndose mi destino, el día en que multitud de teucros me arrojaban broncíneas lanzas junto al cadáver del Pelida! Allí obtuviera honras fúnebres y los aqueos ensalzaran mi gloria; pero dispone el hado que yo sucumba con deplorable muerte.»</span>
 </p>
 <p id="V_313">
 <span class="num">5.313
@@ -4345,7 +4401,7 @@ Pero vióle Ino Leucotea, hija de Cadmo, la de pies hermosos, que antes había s
 <p id="V_339">
 <span class="num">5.339
 </span>
-<span nivel="1" entidad="">«¡Desdichado! <span class="interroga">¿Por qué Neptuno, que sacude la tierra, se airó
+<span nivel="1" entidad="Ino">«¡Desdichado! <span class="interroga">¿Por qué Neptuno, que sacude la tierra, se airó
 <span class="pagenum" id="Page_77">
 [p. 77]
 </span>
@@ -4359,7 +4415,7 @@ Dichas estas palabras, la diosa le entregó el velo y, transfigurada en mergo, t
 <p id="V_356">
 <span class="num">5.356
 </span>
-<span nivel="1" entidad="">«¡Ay de mí! No sea que alguno de los inmortales me tienda un lazo, cuando me da la orden de que desampare la balsa. No obedeceré todavía, que con mis ojos veo que está muy lejana la tierra donde, según afirman, he de hallar refugio; antes procederé de esta suerte por ser, á mi juicio, lo mejor: mientras los maderos estén sujetados por las clavijas, seguiré aquí y sufriré los males que haya de padecer, y luego que las olas deshagan la balsa me pondré á nadar; pues no se me ocurre nada más provechoso.»</span>
+<span nivel="1" entidad="Odiseo">«¡Ay de mí! No sea que alguno de los inmortales me tienda un lazo, cuando me da la orden de que desampare la balsa. No obedeceré todavía, que con mis ojos veo que está muy lejana la tierra donde, según afirman, he de hallar refugio; antes procederé de esta suerte por ser, á mi juicio, lo mejor: mientras los maderos estén sujetados por las clavijas, seguiré aquí y sufriré los males que haya de padecer, y luego que las olas deshagan la balsa me pondré á nadar; pues no se me ocurre nada más provechoso.»</span>
 </p>
 <p id="V_365">
 <span class="num">5.365
@@ -4369,7 +4425,7 @@ Tales cosas revolvía en su mente y en su corazón, cuando Neptuno, que sacude l
 <p id="V_377">
 <span class="num">5.377
 </span>
-<span nivel="1" entidad="">«Ahora, que has padecido tantos males, vaga por el ponto hasta que llegues á juntarte con esos hombres, alumnos de Júpiter. Se me figura que ni aun así te parecerán pocas tus desgracias.»</span>
+<span nivel="1" entidad="Neptuno">«Ahora, que has padecido tantos males, vaga por el ponto hasta que llegues á juntarte con esos hombres, alumnos de Júpiter. Se me figura que ni aun así te parecerán pocas tus desgracias.»</span>
 </p>
 <p id="V_380">
 <span class="num">5.380
@@ -4397,7 +4453,7 @@ vendaval
 <p id="V_408">
 <span class="num">5.408
 </span>
-<span nivel="1" entidad="">«¡Ay de mí! Después que Júpiter me concedió que viese inesperada tierra, y acabé de surcar este abismo, ningún paraje descubro por donde consiga salir del albo mar. Por defuera hay agudos peñascos á cuyo alrededor braman las olas impetuosamente, y la roca se levanta lisa; y aquí es el mar tan hondo que no puedo afirmar los pies para librarme del mal. No sea que, cuando me disponga á salir, ingente ola me arrebate y dé conmigo en el pétreo peñasco; y resulte inútil mi intento. Mas, si voy nadando, en busca de una playa ó de un puerto de mar, temo que nuevamente me arrebate la tempestad y me lleve al ponto, abundante en peces, haciéndome proferir hondos suspiros; ó que una deidad incite contra mí algún monstruo marino, como los que cría en gran abundancia la ilustre Anfitrite; pues sé que el ínclito dios que bate la tierra está enojado conmigo.»</span>
+<span nivel="1" entidad="Odiseo">«¡Ay de mí! Después que Júpiter me concedió que viese inesperada tierra, y acabé de surcar este abismo, ningún paraje descubro por donde consiga salir del albo mar. Por defuera hay agudos peñascos á cuyo alrededor braman las olas impetuosamente, y la roca se levanta lisa; y aquí es el mar tan hondo que no puedo afirmar los pies para librarme del mal. No sea que, cuando me disponga á salir, ingente ola me arrebate y dé conmigo en el pétreo peñasco; y resulte inútil mi intento. Mas, si voy nadando, en busca de una playa ó de un puerto de mar, temo que nuevamente me arrebate la tempestad y me lleve al ponto, abundante en peces, haciéndome proferir hondos suspiros; ó que una deidad incite contra mí algún monstruo marino, como los que cría en gran abundancia la ilustre Anfitrite; pues sé que el ínclito dios que bate la tierra está enojado conmigo.»</span>
 </p>
 <div class="figcenter mt1" id="Il_5" role="figure" aria-labelledby="ebm_caption9">
 <p>
@@ -4431,7 +4487,7 @@ Mientras tales pensamientos revolvía en su mente y en su corazón, una oleada l
 <p id="V_445">
 <span class="num">5.445
 </span>
-<span nivel="1" entidad="">«¡Óyeme, oh soberano, quienquiera que seas! Vengo á ti, tan deseado, huyendo del ponto y de las amenazas de Neptuno. Es digno de respeto aun para los inmortales dioses el hombre que se presenta errabundo, como llego ahora á tu corriente y á tus rodillas después de pasar muchos trabajos. ¡Oh rey, apiádate de mí, ya que me glorío de ser tu suplicante!»</span>
+<span nivel="1" entidad="Odiseo">«¡Óyeme, oh soberano, quienquiera que seas! Vengo á ti, tan deseado, huyendo del ponto y de las amenazas de Neptuno. Es digno de respeto aun para los inmortales dioses el hombre que se presenta errabundo, como llego ahora á tu corriente y á tus rodillas después de pasar muchos trabajos. ¡Oh rey, apiádate de mí, ya que me glorío de ser tu suplicante!»</span>
 </p>
 <p id="V_451">
 <span class="num">5.451
@@ -4441,7 +4497,7 @@ Tales fueron sus palabras. En seguida suspendió el río su corriente, apaciguó
 <p id="V_465">
 <span class="num">5.465
 </span>
-<span nivel="1" entidad="">«¡Ay de mí! <span class="interroga">¿Qué no padezco?</span> <span class="interroga">¿Qué es lo que al fin me va á suceder?</span> Si paso la molesta noche junto al río, quizás la dañosa helada y el fresco rocío me acaben; pues estoy tan débil que apenas puedo respirar, y una brisa glacial viene del río antes de rayar el alba. Y si subo al collado y me duermo entre los espesos arbustos de la selva umbría, como me dejen el frío y el cansancio y me venga dulce sueño, temo ser presa y pasto de las fieras.»</span>
+<span nivel="1" entidad="Odiseo">«¡Ay de mí! <span class="interroga">¿Qué no padezco?</span> <span class="interroga">¿Qué es lo que al fin me va á suceder?</span> Si paso la molesta noche junto al río, quizás la dañosa helada y el fresco rocío me acaben; pues estoy tan débil que apenas puedo respirar, y una brisa glacial viene del río antes de rayar el alba. Y si subo al collado y me duermo entre los espesos arbustos de la selva umbría, como me dejen el frío y el cansancio y me venga dulce sueño, temo ser presa y pasto de las fieras.»</span>
 </p>
 <p>
 <span class="pagenum" id="Page_81">
@@ -4745,7 +4801,7 @@ Detúvose el paciente divinal Ulises á contemplar todo aquello; y, después de 
 <p id="VII_146">
 <span class="num">7.146
 </span>
-<span nivel="1" entidad="">«¡Arete, hija de Rexénor, que parecía un dios! Después de sufrir mucho, vengo á tu esposo, á tus rodillas y á estos convidados, á quienes permitan los dioses vivir felizmente y legar sus bienes á los hijos que dejen en sus palacios así como también los honores que el pueblo les haya conferido. Mas, apresuraos á darme hombres que me conduzcan, para que muy pronto vuelva á la patria; pues hace mucho tiempo que ando lejos de los amigos, padeciendo infortunios.»</span>
+<span nivel="1" entidad="Odiseo">«¡Arete, hija de Rexénor, que parecía un dios! Después de sufrir mucho, vengo á tu esposo, á tus rodillas y á estos convidados, á quienes permitan los dioses vivir felizmente y legar sus bienes á los hijos que dejen en sus palacios así como también los honores que el pueblo les haya conferido. Mas, apresuraos á darme hombres que me conduzcan, para que muy pronto vuelva á la patria; pues hace mucho tiempo que ando lejos de los amigos, padeciendo infortunios.»</span>
 </p>
 <p>
 <span class="pagenum" id="Page_96">
@@ -4760,7 +4816,7 @@ Dicho esto, sentóse junto á la lumbre del hogar, en la ceniza; y todos enmudec
 <p id="VII_159">
 <span class="num">7.159
 </span>
-<span nivel="1" entidad="">«¡Alcínoo! No es bueno ni decoroso para ti, que el huésped esté sentado en tierra, sobre la ceniza del hogar; y éstos se hallan cohibidos, esperando que hables. Ea, pues, levántale, hazle sentar en una silla de clavazón de plata, y manda á los heraldos que mezclen vino para ofrecer libaciones á Júpiter, que se huelga con el rayo, dios que acompaña á los venerandos suplicantes. Y tráigale de cenar la despensera, de aquellas cosas que allá dentro se guardan.»</span>
+<span nivel="1" entidad="Equeneo">«¡Alcínoo! No es bueno ni decoroso para ti, que el huésped esté sentado en tierra, sobre la ceniza del hogar; y éstos se hallan cohibidos, esperando que hables. Ea, pues, levántale, hazle sentar en una silla de clavazón de plata, y manda á los heraldos que mezclen vino para ofrecer libaciones á Júpiter, que se huelga con el rayo, dios que acompaña á los venerandos suplicantes. Y tráigale de cenar la despensera, de aquellas cosas que allá dentro se guardan.»</span>
 </p>
 <p id="VII_167">
 <span class="num">7.167
@@ -4770,7 +4826,7 @@ Cuando esto oyó la sacra potestad de Alcínoo, asiendo por la mano al prudente 
 <p id="VII_179">
 <span class="num">7.179
 </span>
-<span nivel="1" entidad="">«¡Pontónoo! Mezcla vino en la cratera y distribúyelo á cuantos se encuentren en el palacio, á fin de que hagamos libaciones á Júpiter, que se huelga con el rayo, dios que acompaña á los venerandos suplicantes.»</span>
+<span nivel="1" entidad="Alcinoo">«¡Pontónoo! Mezcla vino en la cratera y distribúyelo á cuantos se encuentren en el palacio, á fin de que hagamos libaciones á Júpiter, que se huelga con el rayo, dios que acompaña á los venerandos suplicantes.»</span>
 </p>
 <p id="VII_182">
 <span class="num">7.182
@@ -4780,7 +4836,7 @@ Así se expresó. Pontónoo mezcló el dulce vino y lo distribuyó á todos los 
 <p id="VII_186">
 <span class="num">7.186
 </span>
-<span nivel="1" entidad="">«¡Oíd, caudillos y príncipes de los feacios, y os diré lo que en el pecho mi corazón me dicta! Ahora, que habéis cenado, idos á acostar en vuestras casas: mañana, así que rompa el día, llamaremos á un número mayor de ancianos, trataremos al forastero como huésped en el palacio, ofreceremos á las deidades hermosos sacrificios, y hablaremos de la conducción de aquél para que pueda, sin fatigas ni molestias y acompañándole nosotros, llegar rápida y alegremente á su patria tierra, aunque esté muy lejos, y no haya de padecer mal ni daño alguno antes de tornar á su país; que, ya en su casa, padecerá lo que el hado y las graves Parcas dispusieron al
+<span nivel="1" entidad="Alcinoo">«¡Oíd, caudillos y príncipes de los feacios, y os diré lo que en el pecho mi corazón me dicta! Ahora, que habéis cenado, idos á acostar en vuestras casas: mañana, así que rompa el día, llamaremos á un número mayor de ancianos, trataremos al forastero como huésped en el palacio, ofreceremos á las deidades hermosos sacrificios, y hablaremos de la conducción de aquél para que pueda, sin fatigas ni molestias y acompañándole nosotros, llegar rápida y alegremente á su patria tierra, aunque esté muy lejos, y no haya de padecer mal ni daño alguno antes de tornar á su país; que, ya en su casa, padecerá lo que el hado y las graves Parcas dispusieron al
 <span class="pagenum" id="Page_97">
 [p. 97]
 </span>
@@ -4789,7 +4845,7 @@ hilar el hilo cuando su madre le dió ser. Y si fuere uno de los inmortales, que
 <p id="VII_207">
 <span class="num">7.207
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡Alcínoo! Piensa otra cosa, pues no soy semejante ni en cuerpo ni en natural á los inmortales que poseen el anchuroso cielo, sino á los mortales hombres: puedo equipararme por mis penas á los varones de quienes sepáis que han soportado más desgracias y contaría males aún mayores que los suyos, si os dijese cuantos he padecido por la voluntad de los dioses. Mas dejadme cenar, aunque me siento angustiado; que no hay cosa tan importuna como el vientre, que nos obliga á pensar en él, aun hallándonos muy afligidos ó con el ánimo lleno de pesares como me encuentro ahora, nos incita siempre á comer y á beber, y en la actualidad me hace echar en olvido todos mis trabajos, mandándome que lo sacie. Y vosotros daos prisa, así que se muestre la Aurora, y haced que yo, oh desgraciado, vuelva á mi patria, no obstante lo mucho que he padecido. No se me acabe la vida sin ver nuevamente mis posesiones, mis esclavos y mi gran casa de elevado techo.»</span>
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Alcínoo! Piensa otra cosa, pues no soy semejante ni en cuerpo ni en natural á los inmortales que poseen el anchuroso cielo, sino á los mortales hombres: puedo equipararme por mis penas á los varones de quienes sepáis que han soportado más desgracias y contaría males aún mayores que los suyos, si os dijese cuantos he padecido por la voluntad de los dioses. Mas dejadme cenar, aunque me siento angustiado; que no hay cosa tan importuna como el vientre, que nos obliga á pensar en él, aun hallándonos muy afligidos ó con el ánimo lleno de pesares como me encuentro ahora, nos incita siempre á comer y á beber, y en la actualidad me hace echar en olvido todos mis trabajos, mandándome que lo sacie. Y vosotros daos prisa, así que se muestre la Aurora, y haced que yo, oh desgraciado, vuelva á mi patria, no obstante lo mucho que he padecido. No se me acabe la vida sin ver nuevamente mis posesiones, mis esclavos y mi gran casa de elevado techo.»</span>
 </p>
 <p id="VII_226">
 <span class="num">7.226
@@ -4799,12 +4855,12 @@ Así dijo. Todos aprobaron sus palabras y aconsejaron que al huésped se le llev
 <p id="VII_237">
 <span class="num">7.237
 </span>
-<span nivel="1" entidad="">«¡Huésped! Ante todo quiero preguntarte yo misma: <span class="interroga">¿Quién eres y de qué país procedes?</span> <span class="interroga">¿Quién te dió esos vestidos?</span> <span class="interroga">¿No dices que llegaste vagando por el ponto?</span>»</span>
+<span nivel="1" entidad="Arete">«¡Huésped! Ante todo quiero preguntarte yo misma: <span class="interroga">¿Quién eres y de qué país procedes?</span> <span class="interroga">¿Quién te dió esos vestidos?</span> <span class="interroga">¿No dices que llegaste vagando por el ponto?</span>»</span>
 </p>
 <p id="VII_240">
 <span class="num">7.240
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«Difícil sería, oh reina, contar menudamente mis infortunios, pues me los enviaron en gran abundancia los dioses celestiales; mas te hablaré de aquello acerca de lo cual me preguntas é interrogas. Hay en el mar una isla lejana, Ogi
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«Difícil sería, oh reina, contar menudamente mis infortunios, pues me los enviaron en gran abundancia los dioses celestiales; mas te hablaré de aquello acerca de lo cual me preguntas é interrogas. Hay en el mar una isla lejana, Ogi
 <span class="pagenum" id="Page_98">
 [p. 98]
 </span>
@@ -4817,17 +4873,17 @@ ven que se hallara en tal trance, porque los mozos siempre se portan inconsidera
 <p id="VII_298">
 <span class="num">7.298
 </span>
-Respondióle Alcínoo diciendo: <span nivel="1" entidad="">«¡Huésped! En verdad que mi hija no tomó el acuerdo más conveniente; ya que no te trajo á nuestro palacio, con las esclavas, habiendo sido la primer persona á quien suplicaste.»</span>
+Respondióle Alcínoo diciendo: <span nivel="1" entidad="Alcinoo">«¡Huésped! En verdad que mi hija no tomó el acuerdo más conveniente; ya que no te trajo á nuestro palacio, con las esclavas, habiendo sido la primer persona á quien suplicaste.»</span>
 </p>
 <p id="VII_302">
 <span class="num">7.302
 </span>
-Contestóle el ingenioso Ulises: <span nivel="1" entidad="">«¡Oh héroe! No por eso reprendas á tan eximia doncella, que ya me invitó á seguirla con las esclavas; mas yo no quise por temor y respeto: no fuera que mi vista te irritara, pues somos muy suspicaces los hombres que vivimos en la tierra.»</span>
+Contestóle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Oh héroe! No por eso reprendas á tan eximia doncella, que ya me invitó á seguirla con las esclavas; mas yo no quise por temor y respeto: no fuera que mi vista te irritara, pues somos muy suspicaces los hombres que vivimos en la tierra.»</span>
 </p>
 <p id="VII_308">
 <span class="num">7.308
 </span>
-Respondióle Alcínoo diciendo: <span nivel="1" entidad="">«¡Huésped! No hay en mi pecho un corazón de tal índole que se irrite sin motivo, y lo mejor es siempre lo más justo. Ojalá, ¡por el padre Júpiter, Minerva y Apolo!, que siendo cual eres y pensando como yo pienso, tomases á mi hija por mujer y fueras llamado yerno mío, permaneciendo con nosotros. Diérate casa y riquezas, si de buen grado te quedaras; que contra tu voluntad ningún feacio te ha de detener, pues esto disgustaría al padre Júpiter. Y desde ahora decido, para que lo sepas bien, que tu conducción se haga mañana: mientras dormirás, vencido del sueño, los compañeros remarán por el mar en calma hasta que llegues á tu patria y á tu casa, ó á donde te fuere grato, aunque esté mucho más lejos que Eubea; la cual dicen que se halla lejísima los ciudadanos que la vieron cuando llevaron al rubio Radamanto á visitar á Ticio, hijo de la Tierra: fueron allá y en un solo día y sin cansarse terminaron el viaje y se restituyeron á sus casas. Tú mismo apreciarás cuán excelentes son mis naves y cuán hábiles los jóvenes en quebrantar el mar con los remos.»</span>
+Respondióle Alcínoo diciendo: <span nivel="1" entidad="Alcinoo">«¡Huésped! No hay en mi pecho un corazón de tal índole que se irrite sin motivo, y lo mejor es siempre lo más justo. Ojalá, ¡por el padre Júpiter, Minerva y Apolo!, que siendo cual eres y pensando como yo pienso, tomases á mi hija por mujer y fueras llamado yerno mío, permaneciendo con nosotros. Diérate casa y riquezas, si de buen grado te quedaras; que contra tu voluntad ningún feacio te ha de detener, pues esto disgustaría al padre Júpiter. Y desde ahora decido, para que lo sepas bien, que tu conducción se haga mañana: mientras dormirás, vencido del sueño, los compañeros remarán por el mar en calma hasta que llegues á tu patria y á tu casa, ó á donde te fuere grato, aunque esté mucho más lejos que Eubea; la cual dicen que se halla lejísima los ciudadanos que la vieron cuando llevaron al rubio Radamanto á visitar á Ticio, hijo de la Tierra: fueron allá y en un solo día y sin cansarse terminaron el viaje y se restituyeron á sus casas. Tú mismo apreciarás cuán excelentes son mis naves y cuán hábiles los jóvenes en quebrantar el mar con los remos.»</span>
 </p>
 <p id="VII_329">
 <span class="num">7.329
@@ -4837,7 +4893,7 @@ Tal dijo. Alegróse el paciente divinal Ulises y, orando, habló de esta manera:
 <p id="VII_331">
 <span class="num">7.331
 </span>
-<span nivel="1" entidad="">«¡Padre Júpiter! Ojalá que Alcínoo lleve á cumplimiento cuanto ha dicho; que su gloria jamás se extinga sobre la fértil tierra y que logre yo tornar á mi patria.»</span>
+<span nivel="1" entidad="Odiseo">«¡Padre Júpiter! Ojalá que Alcínoo lleve á cumplimiento cuanto ha dicho; que su gloria jamás se extinga sobre la fértil tierra y que logre yo tornar á mi patria.»</span>
 </p>
 <p id="VII_334">
 <span class="num">7.334
@@ -4851,7 +4907,7 @@ lieron del palacio con hachas encendidas y, en acabando de hacer diligentemente 
 <p id="VII_342">
 <span class="num">7.342
 </span>
-<span nivel="1" entidad="">«Levántate, huésped, y vete á acostar, que ya está hecha la cama.»</span> Así dijeron, y le pareció grato dormir. De este modo el paciente divinal Ulises durmió allí, en torneado lecho, debajo del sonoro pórtico. Y Alcínoo se acostó en el interior de la excelsa mansión, y á su lado la reina, después de aparejarle lecho y cama.
+<span nivel="1" entidad="doncellas">«Levántate, huésped, y vete á acostar, que ya está hecha la cama.»</span> Así dijeron, y le pareció grato dormir. De este modo el paciente divinal Ulises durmió allí, en torneado lecho, debajo del sonoro pórtico. Y Alcínoo se acostó en el interior de la excelsa mansión, y á su lado la reina, después de aparejarle lecho y cama.
 </p>
 <div class="figcenter mt3">
 <img alt="Viñeta de adorno" src="images/odisea100.jpg" id="img_images_odisea100.jpg">
@@ -4898,7 +4954,7 @@ dente hijo de Laertes, pues Minerva difundió la gracia por la cabeza y los homb
 <p id="VIII_26">
 <span class="num">8.26
 </span>
-<span nivel="1" entidad="">«¡Oídme, caudillos y príncipes de los feacios, y os diré lo que en el pecho mi corazón me dicta! Este forastero, que no sé quién es, llegó errante á mi palacio—ya venga de los hombres de Oriente, ya de los de Occidente—y nos suplica con mucha insistencia que tomemos la firme resolución de llevarlo á su patria. Apresurémonos, pues, á conducirle, como anteriormente lo hicimos con tantos otros; ya que ninguno de los que vinieron á mi casa, hubo de estar largo tiempo suspirando por la vuelta. Ea, pues, botemos al mar divino una negra nave sin estrenar y escójanse de entre el pueblo los cincuenta y dos mancebos que hasta aquí hayan sido los más excelentes. Y, atando bien los remos á los bancos, salgan de la embarcación y aparejen en seguida un convite en mi palacio; que á todos lo he de dar muy abundante. Esto mando á los jóvenes; pero vosotros, reyes portadores de cetro, venid á mi hermosa mansión para que festejemos en la sala á nuestro huésped. Nadie se me niegue. Y llamad á Demódoco, el divino aedo á quien los númenes otorgaron gran maestría en el canto para deleitar á los hombres, siempre que á cantar le incita su ánimo.»</span>
+<span nivel="1" entidad="Alcinoo">«¡Oídme, caudillos y príncipes de los feacios, y os diré lo que en el pecho mi corazón me dicta! Este forastero, que no sé quién es, llegó errante á mi palacio—ya venga de los hombres de Oriente, ya de los de Occidente—y nos suplica con mucha insistencia que tomemos la firme resolución de llevarlo á su patria. Apresurémonos, pues, á conducirle, como anteriormente lo hicimos con tantos otros; ya que ninguno de los que vinieron á mi casa, hubo de estar largo tiempo suspirando por la vuelta. Ea, pues, botemos al mar divino una negra nave sin estrenar y escójanse de entre el pueblo los cincuenta y dos mancebos que hasta aquí hayan sido los más excelentes. Y, atando bien los remos á los bancos, salgan de la embarcación y aparejen en seguida un convite en mi palacio; que á todos lo he de dar muy abundante. Esto mando á los jóvenes; pero vosotros, reyes portadores de cetro, venid á mi hermosa mansión para que festejemos en la sala á nuestro huésped. Nadie se me niegue. Y llamad á Demódoco, el divino aedo á quien los númenes otorgaron gran maestría en el canto para deleitar á los hombres, siempre que á cantar le incita su ánimo.»</span>
 </p>
 <p id="VIII_46">
 <span class="num">8.46
@@ -4922,7 +4978,7 @@ Tal era lo que cantaba el ínclito aedo. Ulises tomó con sus robustas manos el 
 <p id="VIII_97">
 <span class="num">8.97
 </span>
-<span nivel="1" entidad="">«¡Oídme, caudillos y príncipes de los feacios! Como ya hemos gozado del común banquete y de la cítara, que es la compañera del festín espléndido, salgamos á probar toda clase de juegos; para que el huésped participe á sus amigos, después que se haya restituído á la patria, cuánto superamos á los demás hombres en el pugilato, la lucha, el salto y la carrera.»</span>
+<span nivel="1" entidad="Alcinoo">«¡Oídme, caudillos y príncipes de los feacios! Como ya hemos gozado del común banquete y de la cítara, que es la compañera del festín espléndido, salgamos á probar toda clase de juegos; para que el huésped participe á sus amigos, después que se haya restituído á la patria, cuánto superamos á los demás hombres en el pugilato, la lucha, el salto y la carrera.»</span>
 </p>
 <p id="VIII_104">
 <span class="num">8.104
@@ -4936,12 +4992,12 @@ gos. Encamináronse todos al ágora, seguidos de una turba numerosa, inmensa; y 
 <p id="VIII_133">
 <span class="num">8.133
 </span>
-<span nivel="1" entidad="">«Venid, amigos, y preguntemos al huésped si conoce ó ha aprendido algún juego. Que no tiene mala presencia á juzgar por su desarrollo, por sus muslos, piernas y brazos, por su robusta cerviz y por su gran vigor; ni le ha desamparado todavía la juventud; aunque está quebrantado por muchos males, pues no creo que haya cosa alguna que pueda compararse con el mar para abatir á un hombre por fuerte que sea.»</span>
+<span nivel="1" entidad="Laodamante">«Venid, amigos, y preguntemos al huésped si conoce ó ha aprendido algún juego. Que no tiene mala presencia á juzgar por su desarrollo, por sus muslos, piernas y brazos, por su robusta cerviz y por su gran vigor; ni le ha desamparado todavía la juventud; aunque está quebrantado por muchos males, pues no creo que haya cosa alguna que pueda compararse con el mar para abatir á un hombre por fuerte que sea.»</span>
 </p>
 <p id="VIII_140">
 <span class="num">8.140
 </span>
-Euríalo le contestó en seguida. <span nivel="1" entidad="">«¡Laodamante! Muy oportunas son tus razones. Ve tú mismo y provócale repitiéndoselas.»</span>
+Euríalo le contestó en seguida. <span nivel="1" entidad="Eurialo">«¡Laodamante! Muy oportunas son tus razones. Ve tú mismo y provócale repitiéndoselas.»</span>
 </p>
 <p id="VIII_143">
 <span class="num">8.143
@@ -4951,12 +5007,12 @@ Apenas lo oyó, adelantóse el buen hijo de Alcínoo, púsose en medio de todos 
 <p id="VIII_145">
 <span class="num">8.145
 </span>
-<span nivel="1" entidad="">«Ea, padre huésped, ven tú también á probarte en los juegos, si aprendiste alguno; y debes de conocerlos, que no hay gloria más ilustre para el varón en esta vida, que la de campear por las obras de sus pies ó de sus manos. Ea, pues, ven á probarte y echa del alma las penas, pues tu viaje no se diferirá mucho: ya la nave ha sido botada y los que te han de acompañar están prestos.»</span>
+<span nivel="1" entidad="Laodamante">«Ea, padre huésped, ven tú también á probarte en los juegos, si aprendiste alguno; y debes de conocerlos, que no hay gloria más ilustre para el varón en esta vida, que la de campear por las obras de sus pies ó de sus manos. Ea, pues, ven á probarte y echa del alma las penas, pues tu viaje no se diferirá mucho: ya la nave ha sido botada y los que te han de acompañar están prestos.»</span>
 </p>
 <p id="VIII_152">
 <span class="num">8.152
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡Laodamante! <span class="interroga">¿Por qué me ordenáis tales cosas para hacerme burla?</span> Más que en los juegos ocúpase mi alma en sus penas, que son muchísimas las que he padecido y soportado. Y ahora me asiento en vuestra ágora, anhelando
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Laodamante! <span class="interroga">¿Por qué me ordenáis tales cosas para hacerme burla?</span> Más que en los juegos ocúpase mi alma en sus penas, que son muchísimas las que he padecido y soportado. Y ahora me asiento en vuestra ágora, anhelando
 <span class="pagenum" id="Page_105">
 [p. 105]
 </span>
@@ -4965,12 +5021,12 @@ volver á la patria, con el fin de suplicar al rey y á todo el pueblo.»</span>
 <p id="VIII_158">
 <span class="num">8.158
 </span>
-Mas Euríalo le contestó, echándole á la cara este reproche: <span nivel="1" entidad="">«¡Huésped! No creo, en verdad, que seas un varón instruído en los muchos juegos que se usan entre los hombres; antes pareces un capitán de marineros traficantes, que permaneciera asiduamente en la nave de muchos bancos para acordarse de la carga y vigilar las mercancías y el lucro debido á las rapiñas. No, no te asemejas á un atleta.»</span>
+Mas Euríalo le contestó, echándole á la cara este reproche: <span nivel="1" entidad="Eurialo">«¡Huésped! No creo, en verdad, que seas un varón instruído en los muchos juegos que se usan entre los hombres; antes pareces un capitán de marineros traficantes, que permaneciera asiduamente en la nave de muchos bancos para acordarse de la carga y vigilar las mercancías y el lucro debido á las rapiñas. No, no te asemejas á un atleta.»</span>
 </p>
 <p id="VIII_165">
 <span class="num">8.165
 </span>
-Mirándole con torva faz, le repuso el ingenioso Ulises: <span nivel="1" entidad="">«¡Huésped! Mal hablaste y me pareces un insensato. Los dioses no han repartido de igual modo á todos los hombres sus amables presentes: hermosura, ingenio y elocuencia. Un hombre, inferior por su aspecto, recibe de una deidad el adorno de la facundia y ya todos se complacen en mirarlo, cuando los arenga con firme voz y suave modestia, y le contemplan como á un numen si por la ciudad anda; mientras que, por el contrario, otro se parece á los inmortales por su exterior y no tiene gracia alguna en sus dichos. Así tu aspecto es irreprochable y un dios no te habría configurado de otra suerte; mas tu inteligencia es ruda. Me has movido el ánimo en el pecho con decirme cosas inconvenientes. No soy ignorante en los juegos, como tú afirmas, antes pienso que me podían contar entre los primeros mientras tuve confianza en mi juventud y en mis manos. Ahora me encuentro agobiado por la desgracia y las fatigas, pues he tenido que sufrir mucho, ya combatiendo con los hombres, ya surcando las temibles olas. Pero aun así, habiendo padecido gran copia de males, me probaré en los juegos: tus palabras fueron mordaces y me incitaste al proferirlas.»</span>
+Mirándole con torva faz, le repuso el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Huésped! Mal hablaste y me pareces un insensato. Los dioses no han repartido de igual modo á todos los hombres sus amables presentes: hermosura, ingenio y elocuencia. Un hombre, inferior por su aspecto, recibe de una deidad el adorno de la facundia y ya todos se complacen en mirarlo, cuando los arenga con firme voz y suave modestia, y le contemplan como á un numen si por la ciudad anda; mientras que, por el contrario, otro se parece á los inmortales por su exterior y no tiene gracia alguna en sus dichos. Así tu aspecto es irreprochable y un dios no te habría configurado de otra suerte; mas tu inteligencia es ruda. Me has movido el ánimo en el pecho con decirme cosas inconvenientes. No soy ignorante en los juegos, como tú afirmas, antes pienso que me podían contar entre los primeros mientras tuve confianza en mi juventud y en mis manos. Ahora me encuentro agobiado por la desgracia y las fatigas, pues he tenido que sufrir mucho, ya combatiendo con los hombres, ya surcando las temibles olas. Pero aun así, habiendo padecido gran copia de males, me probaré en los juegos: tus palabras fueron mordaces y me incitaste al proferirlas.»</span>
 </p>
 <p id="VIII_186">
 <span class="num">8.186
@@ -4980,7 +5036,7 @@ Dijo; y, levantándose impetuosamente sin dejar el manto, tomó un disco mayor, 
 <p id="VIII_195">
 <span class="num">8.195
 </span>
-<span nivel="1" entidad="">«Hasta un ciego, oh huésped, distinguiría á tientas la señal de tu golpe, porque no está mezclada con la multitud de las otras, sino mucho más allá. En este juego puedes estar tranquilo, que ninguno de los feacios llegará á tu golpe y mucho menos logrará pasarlo.»</span>
+<span nivel="1" entidad="Minerva">«Hasta un ciego, oh huésped, distinguiría á tientas la señal de tu golpe, porque no está mezclada con la multitud de las otras, sino mucho más allá. En este juego puedes estar tranquilo, que ninguno de los feacios llegará á tu golpe y mucho menos logrará pasarlo.»</span>
 </p>
 <p id="VIII_199">
 <span class="num">8.199
@@ -4994,7 +5050,7 @@ trar, dentro del circo, un compañero benévolo. Y entonces dijo á los feacios,
 <p id="VIII_202">
 <span class="num">8.202
 </span>
-<span nivel="1" entidad="">«Llegad á esta señal, oh jóvenes, y espero que pronto enviaré otro disco ó tan lejos ó más aún. Y en los restantes juegos, aquél á quien le impulse el corazón y el ánimo á probarse conmigo, venga acá—ya que me habéis encolerizado fuertemente—pues en el pugilato, la lucha ó la carrera, á nadie recuso de entre todos los feacios á excepción del mismo Laodamante, que es mi huésped: <span class="interroga">¿quién lucharía con el que le acoge amistosamente?</span> Insensato y miserable es el que provoca en los juegos al que le ha recibido como huésped en tierra extraña, pues con ello á sí mismo se perjudica. De los demás á ninguno rechazo ni desprecio; sino que me propongo conocerlos y probarme con todos frente á frente; pues no soy completamente inepto para cuantos juegos se hallan en uso entre los hombres. Sé manejar bien el pulido arco, y sería quien primero hiriese á un hombre, si lo disparara contra una turba de enemigos, aunque un gran número de compañeros estuviesen á mi lado, tirándoles flechas. El único que lograba vencerme, cuando los aqueos nos servíamos del arco allá en el pueblo de los troyanos, era Filoctetes; mas yo os aseguro que les llevo gran ventaja á todos los demás, á cuantos mortales viven actualmente y comen pan en el mundo, pues no me atreviera á competir con los antiguos varones—ni con Hércules, ni con Eurito ecaliense—que hasta con los inmortales contendían. Por ello murió el gran Eurito en edad temprana y no pudo llegar á viejo en su palacio: lo mató Apolo, irritado de que le desafiase á tirar con el arco. Con la lanza llego adonde otro no tirará una flecha. Tan sólo en el correr temería que alguno de los feacios me superara, pues me quebrantaron de deplorable manera muchísimas olas, no siempre tuve provisiones en la nave, y mis miembros están desfallecidos.»</span>
+<span nivel="1" entidad="Odiseo">«Llegad á esta señal, oh jóvenes, y espero que pronto enviaré otro disco ó tan lejos ó más aún. Y en los restantes juegos, aquél á quien le impulse el corazón y el ánimo á probarse conmigo, venga acá—ya que me habéis encolerizado fuertemente—pues en el pugilato, la lucha ó la carrera, á nadie recuso de entre todos los feacios á excepción del mismo Laodamante, que es mi huésped: <span class="interroga">¿quién lucharía con el que le acoge amistosamente?</span> Insensato y miserable es el que provoca en los juegos al que le ha recibido como huésped en tierra extraña, pues con ello á sí mismo se perjudica. De los demás á ninguno rechazo ni desprecio; sino que me propongo conocerlos y probarme con todos frente á frente; pues no soy completamente inepto para cuantos juegos se hallan en uso entre los hombres. Sé manejar bien el pulido arco, y sería quien primero hiriese á un hombre, si lo disparara contra una turba de enemigos, aunque un gran número de compañeros estuviesen á mi lado, tirándoles flechas. El único que lograba vencerme, cuando los aqueos nos servíamos del arco allá en el pueblo de los troyanos, era Filoctetes; mas yo os aseguro que les llevo gran ventaja á todos los demás, á cuantos mortales viven actualmente y comen pan en el mundo, pues no me atreviera á competir con los antiguos varones—ni con Hércules, ni con Eurito ecaliense—que hasta con los inmortales contendían. Por ello murió el gran Eurito en edad temprana y no pudo llegar á viejo en su palacio: lo mató Apolo, irritado de que le desafiase á tirar con el arco. Con la lanza llego adonde otro no tirará una flecha. Tan sólo en el correr temería que alguno de los feacios me superara, pues me quebrantaron de deplorable manera muchísimas olas, no siempre tuve provisiones en la nave, y mis miembros están desfallecidos.»</span>
 </p>
 <p id="VIII_234">
 <span class="num">8.234
@@ -5004,7 +5060,7 @@ Así se expresó. Todos enmudecieron y quedaron silenciosos. Y solamente Alcíno
 <p id="VIII_236">
 <span class="num">8.236
 </span>
-<span nivel="1" entidad="">«¡Huésped! No nos desplacieron tus palabras ya que con ellas te propusiste mostrar el valor que tienes, enojado de que ese hombre te increpase dentro del circo, siendo así que ningún mortal que pensara razonablemente pondría reproche á tu bravura. Mas ahora, presta atención á mis palabras para que, cuando estés en tu casa y, comiendo con tu esposa y tus hijos, te acuerdes de nuestra destreza, puedas referir á algún héroe qué obras nos asignó Júpiter desde nuestros antepasados. No somos irreprensibles púgiles ni lucha
+<span nivel="1" entidad="Alcinoo">«¡Huésped! No nos desplacieron tus palabras ya que con ellas te propusiste mostrar el valor que tienes, enojado de que ese hombre te increpase dentro del circo, siendo así que ningún mortal que pensara razonablemente pondría reproche á tu bravura. Mas ahora, presta atención á mis palabras para que, cuando estés en tu casa y, comiendo con tu esposa y tus hijos, te acuerdes de nuestra destreza, puedas referir á algún héroe qué obras nos asignó Júpiter desde nuestros antepasados. No somos irreprensibles púgiles ni lucha
 <span class="pagenum" id="Page_107">
 [p. 107]
 </span>
@@ -5028,7 +5084,7 @@ Mas el aedo, pulsando la cítara, empezó á cantar hermosamente los amores de M
 <p id="VIII_292">
 <span class="num">8.292
 </span>
-<span nivel="1" entidad="">«Ven al lecho, amada mía, y acostémonos; que ya Vulcano no está entre nosotros, pues partió sin duda hacia Lemnos y los sinties de bárbaro lenguaje.»</span>
+<span nivel="1" entidad="Marte">«Ven al lecho, amada mía, y acostémonos; que ya Vulcano no está entre nosotros, pues partió sin duda hacia Lemnos y los sinties de bárbaro lenguaje.»</span>
 </p>
 <p id="VIII_295">
 <span class="num">8.295
@@ -5038,7 +5094,7 @@ Así se expresó; y á ella parecióle grato acostarse. Metiéronse ambos en la 
 <p id="VIII_306">
 <span class="num">8.306
 </span>
-<span nivel="1" entidad="">«¡Padre Júpiter, bienaventurados y sempiternos dioses! Venid á presenciar estas cosas ridículas é intolerables: Venus, hija de Júpiter, me infama de continuo, á mí, que soy cojo, queriendo al pernicioso Marte porque es gallardo y tiene los pies sanos, mientras que yo nací débil; mas de ello nadie tiene la culpa sino mis padres que no debieron haberme engendrado. Veréis cómo se han acostado en mi lecho y duermen, amorosamente unidos, y yo me angustio al contemplarlo. Mas no espero que les dure el yacer de este modo ni siquiera breves instantes, aunque mucho se amen: pronto querrán entrambos no dormir, pero los engañosos lazos los sujetarán hasta que el padre me restituya íntegra la dote que le entregué por su hija desvergonzada. Que ésta es hermosa, pero no sabe contenerse.»</span>
+<span nivel="1" entidad="Vulcano">«¡Padre Júpiter, bienaventurados y sempiternos dioses! Venid á presenciar estas cosas ridículas é intolerables: Venus, hija de Júpiter, me infama de continuo, á mí, que soy cojo, queriendo al pernicioso Marte porque es gallardo y tiene los pies sanos, mientras que yo nací débil; mas de ello nadie tiene la culpa sino mis padres que no debieron haberme engendrado. Veréis cómo se han acostado en mi lecho y duermen, amorosamente unidos, y yo me angustio al contemplarlo. Mas no espero que les dure el yacer de este modo ni siquiera breves instantes, aunque mucho se amen: pronto querrán entrambos no dormir, pero los engañosos lazos los sujetarán hasta que el padre me restituya íntegra la dote que le entregué por su hija desvergonzada. Que ésta es hermosa, pero no sabe contenerse.»</span>
 </p>
 <p id="VIII_321">
 <span class="num">8.321
@@ -5048,7 +5104,7 @@ Tal dijo; y los dioses se juntaron en la morada de pavimento de bronce. Comparec
 <p id="VIII_329">
 <span class="num">8.329
 </span>
-<span nivel="1" entidad="">«No prosperan las malas acciones y el más tardo alcanza al más ágil; como ahora Vulcano, que es cojo y lento, aprisionó con su artificio á Marte, el más veloz de los dioses que poseen el Olimpo; quien tendrá que pagarle la multa del adulterio.»</span>
+<span nivel="1" entidad="dioses">«No prosperan las malas acciones y el más tardo alcanza al más ágil; como ahora Vulcano, que es cojo y lento, aprisionó con su artificio á Marte, el más veloz de los dioses que poseen el Olimpo; quien tendrá que pagarle la multa del adulterio.»</span>
 </p>
 <p id="VIII_333">
 <span class="num">8.333
@@ -5058,16 +5114,12 @@ Así éstos conversaban. Mas el soberano Apolo, hijo de Júpiter, habló á Merc
 <p id="VIII_335">
 <span class="num">8.335
 </span>
-<span nivel="1" entidad="">«¡Mercurio, hijo de Júpiter, mensajero, dador de bienes! <span class="interroga">¿Que
-<span class="pagenum" id="Page_109">
-[p. 109]
-</span>
-rrías, preso en fuertes lazos, dormir en la cama con la dorada Venus?</span>»</span>
+<span nivel="1" entidad="Apolo">«¡Mercurio, hijo de Júpiter, mensajero, dador de bienes! <span class="interroga">¿Que<span class="pagenum" id="Page_109">[p. 109]</span>rrías, preso en fuertes lazos, dormir en la cama con la dorada Venus?</span>»</span>
 </p>
 <p id="VIII_338">
 <span class="num">8.338
 </span>
-Respondióle el mensajero Argicida: <span nivel="1" entidad="">«¡Ojalá sucediera lo que has dicho, oh soberano flechador Apolo! ¡Envolviéranme triple número de inextricables lazos, y vosotros los dioses y aun las diosas todas me estuvierais mirando, con tal que yo durmiese con la dorada Venus!»</span>
+Respondióle el mensajero Argicida: <span nivel="1" entidad="Mercurio">«¡Ojalá sucediera lo que has dicho, oh soberano flechador Apolo! ¡Envolviéranme triple número de inextricables lazos, y vosotros los dioses y aun las diosas todas me estuvierais mirando, con tal que yo durmiese con la dorada Venus!»</span>
 </p>
 <p id="VIII_343">
 <span class="num">8.343
@@ -5077,22 +5129,22 @@ Así se expresó; y alzóse nueva risa entre los inmortales dioses. Pero Neptuno
 <p id="VIII_347">
 <span class="num">8.347
 </span>
-<span nivel="1" entidad="">«Desátale, que yo te prometo que pagará, como lo mandas, cuanto sea justo entre los inmortales dioses.»</span>
+<span nivel="1" entidad="Neptuno">«Desátale, que yo te prometo que pagará, como lo mandas, cuanto sea justo entre los inmortales dioses.»</span>
 </p>
 <p id="VIII_349">
 <span class="num">8.349
 </span>
-Replicóle entonces el ínclito Cojo de ambos pies: <span nivel="1" entidad="">«No me ordenes semejante cosa, oh Neptuno que ciñes la tierra, pues es mala la caución que por los malos se presta. <span class="interroga">¿Cómo te podría apremiar yo ante los inmortales dioses, si Marte se fuera suelto y, libre ya de los lazos, rehusara satisfacer la deuda?</span>»</span>
+Replicóle entonces el ínclito Cojo de ambos pies: <span nivel="1" entidad="Vulcano">«No me ordenes semejante cosa, oh Neptuno que ciñes la tierra, pues es mala la caución que por los malos se presta. <span class="interroga">¿Cómo te podría apremiar yo ante los inmortales dioses, si Marte se fuera suelto y, libre ya de los lazos, rehusara satisfacer la deuda?</span>»</span>
 </p>
 <p id="VIII_354">
 <span class="num">8.354
 </span>
-Contestóle Neptuno, que sacude la tierra: <span nivel="1" entidad="">«Si Marte huyere, rehusando satisfacer la deuda, seré yo quien te la pague.»</span>
+Contestóle Neptuno, que sacude la tierra: <span nivel="1" entidad="Neptuno">«Si Marte huyere, rehusando satisfacer la deuda, seré yo quien te la pague.»</span>
 </p>
 <p id="VIII_357">
 <span class="num">8.357
 </span>
-Respondióle el ínclito Cojo de ambos pies: <span nivel="1" entidad="">«No es posible ni sería conveniente negarte lo que pides.»</span>
+Respondióle el ínclito Cojo de ambos pies: <span nivel="1" entidad="Vulcano">«No es posible ni sería conveniente negarte lo que pides.»</span>
 </p>
 <p id="VIII_359">
 <span class="num">8.359
@@ -5116,7 +5168,7 @@ que estaban en el circo, y se promovió una fuerte gritería. Y entonces el divi
 <p id="VIII_382">
 <span class="num">8.382
 </span>
-<span nivel="1" entidad="">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! Prometiste demostrar que vuestros danzadores son excelentes y lo has cumplido. Atónito me quedo al contemplarlos.»</span>
+<span nivel="1" entidad="Odiseo">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! Prometiste demostrar que vuestros danzadores son excelentes y lo has cumplido. Atónito me quedo al contemplarlos.»</span>
 </p>
 <p id="VIII_385">
 <span class="num">8.385
@@ -5126,7 +5178,7 @@ Tal dijo. Alegróse la sacra potestad de Alcínoo y al punto habló así á los 
 <p id="VIII_387">
 <span class="num">8.387
 </span>
-<span nivel="1" entidad="">«¡Oíd, caudillos y príncipes de los feacios! Paréceme el huésped muy sensato. Ea, pues, ofrezcámosle los dones de la hospitalidad, que esto es lo que procede. Doce preclaros reyes gobernáis como príncipes la población y yo soy el treceno: traiga cada uno un manto bien lavado, una túnica y un talento de precioso oro; y vayamos todos juntos á llevárselo al huésped para que, al verlo en sus manos, asista á la cena con el corazón alegre. Y apacígüelo Euríalo con palabras y un regalo, porque no habló de conveniente modo.»</span>
+<span nivel="1" entidad="Alcinoo">«¡Oíd, caudillos y príncipes de los feacios! Paréceme el huésped muy sensato. Ea, pues, ofrezcámosle los dones de la hospitalidad, que esto es lo que procede. Doce preclaros reyes gobernáis como príncipes la población y yo soy el treceno: traiga cada uno un manto bien lavado, una túnica y un talento de precioso oro; y vayamos todos juntos á llevárselo al huésped para que, al verlo en sus manos, asista á la cena con el corazón alegre. Y apacígüelo Euríalo con palabras y un regalo, porque no habló de conveniente modo.»</span>
 </p>
 <p id="VIII_398">
 <span class="num">8.398
@@ -5136,7 +5188,7 @@ Así les arengó. Todos lo aplaudieron y, poniéndolo por obra, enviaron á sus 
 <p id="VIII_401">
 <span class="num">8.401
 </span>
-<span nivel="1" entidad="">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! Yo apaciguaré al huésped, como lo mandas, y le daré esta espada de bronce, que tiene la empuñadura de plata y en torno suyo una vaina de marfil recién cortado. Será un presente muy digno de tal persona.»</span>
+<span nivel="1" entidad="Eurialo">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! Yo apaciguaré al huésped, como lo mandas, y le daré esta espada de bronce, que tiene la empuñadura de plata y en torno suyo una vaina de marfil recién cortado. Será un presente muy digno de tal persona.»</span>
 </p>
 <p id="VIII_406">
 <span class="num">8.406
@@ -5146,12 +5198,12 @@ Diciendo así, puso en las manos de Ulises la espada guarnecida de argénteos cl
 <p id="VIII_408">
 <span class="num">8.408
 </span>
-<span nivel="1" entidad="">«¡Salud, padre huésped! Si alguna de mis palabras te ha molestado, llévensela cuanto antes los impetuosos torbellinos. Y las deidades te permitan ver nuevamente á tu esposa y llegar á tu patria, ya que hace tanto tiempo que padeces trabajos lejos de los tuyos.»</span>
+<span nivel="1" entidad="Eurialo">«¡Salud, padre huésped! Si alguna de mis palabras te ha molestado, llévensela cuanto antes los impetuosos torbellinos. Y las deidades te permitan ver nuevamente á tu esposa y llegar á tu patria, ya que hace tanto tiempo que padeces trabajos lejos de los tuyos.»</span>
 </p>
 <p id="VIII_412">
 <span class="num">8.412
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡Muchas saludes te doy también, amigo! Los dioses te concedan felicidades y ojalá que nunca eches de menos esta espada de que me haces presente, después de apaciguarme con tus palabras.»</span>
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Muchas saludes te doy también, amigo! Los dioses te concedan felicidades y ojalá que nunca eches de menos esta espada de que me haces presente, después de apaciguarme con tus palabras.»</span>
 </p>
 <p id="VIII_416">
 <span class="num">8.416
@@ -5165,7 +5217,7 @@ veneranda madre. Volvieron todos al palacio, precedidos por la sacra potestad de
 <p id="VIII_424">
 <span class="num">8.424
 </span>
-<span nivel="1" entidad="">«Trae, mujer, un arca muy hermosa, la que mejor sea; y mete en la misma un manto bien lavado y una túnica. Poned al fuego una caldera de bronce y calentad agua para que el huésped se lave y viendo colocados por orden cuantos presentes acaban de traerle los eximios feacios, se regocije con el banquete y el canto del aedo. Y yo le daré mi hermosísima copa de oro, á fin de que se acuerde de mí todos los días al ofrecer en su casa libaciones á Júpiter y á los restantes dioses.»</span>
+<span nivel="1" entidad="Alcinoo">«Trae, mujer, un arca muy hermosa, la que mejor sea; y mete en la misma un manto bien lavado y una túnica. Poned al fuego una caldera de bronce y calentad agua para que el huésped se lave y viendo colocados por orden cuantos presentes acaban de traerle los eximios feacios, se regocije con el banquete y el canto del aedo. Y yo le daré mi hermosísima copa de oro, á fin de que se acuerde de mí todos los días al ofrecer en su casa libaciones á Júpiter y á los restantes dioses.»</span>
 </p>
 <p id="VIII_433">
 <span class="num">8.433
@@ -5175,7 +5227,7 @@ Así dijo. Arete mandó á las esclavas que pusiesen incontinenti un gran trípo
 <p id="VIII_443">
 <span class="num">8.443
 </span>
-<span nivel="1" entidad="">«Examina tú mismo la tapa y échale pronto un nudo: no sea que te hurten alguna cosa en el camino, cuando en la negra nave estés entregado al dulce sueño.»</span>
+<span nivel="1" entidad="Arete">«Examina tú mismo la tapa y échale pronto un nudo: no sea que te hurten alguna cosa en el camino, cuando en la negra nave estés entregado al dulce sueño.»</span>
 </p>
 <p id="VIII_446">
 <span class="num">8.446
@@ -5185,12 +5237,12 @@ Apenas oyó estas palabras el paciente divinal Ulises, encajó la tapa y le ech�
 <p id="VIII_461">
 <span class="num">8.461
 </span>
-<span nivel="1" entidad="">«Salve, huésped, para que en alguna ocasión, cuando estés de vuelta en tu patria, te acuerdes de mí; que me debes antes que á nadie el rescate de tu vida.»</span>
+<span nivel="1" entidad="Nausicaa">«Salve, huésped, para que en alguna ocasión, cuando estés de vuelta en tu patria, te acuerdes de mí; que me debes antes que á nadie el rescate de tu vida.»</span>
 </p>
 <p id="VIII_463">
 <span class="num">8.463
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡Nausícaa, hija del magnánimo Alcínoo! Concédame Júpiter, el tonante esposo de Juno, que
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Nausícaa, hija del magnánimo Alcínoo! Concédame Júpiter, el tonante esposo de Juno, que
 <span class="pagenum" id="Page_112">
 [p. 112]
 </span>
@@ -5204,7 +5256,7 @@ Dijo, y fué á sentarse junto al rey Alcínoo, cuando ya se distribuían las po
 <p id="VIII_477">
 <span class="num">8.477
 </span>
-<span nivel="1" entidad="">«¡Heraldo! Llévale esta carne á Demódoco para que coma y así le obsequiaré, aunque estoy afligido; que á los aedos por doquier les tributan honor y reverencia los hombres terrestres, porque la Musa les ha enseñado el canto y los ama á todos.»</span>
+<span nivel="1" entidad="Odiseo">«¡Heraldo! Llévale esta carne á Demódoco para que coma y así le obsequiaré, aunque estoy afligido; que á los aedos por doquier les tributan honor y reverencia los hombres terrestres, porque la Musa les ha enseñado el canto y los ama á todos.»</span>
 </p>
 <p id="VIII_482">
 <span class="num">8.482
@@ -5214,7 +5266,7 @@ Así dijo; y el heraldo puso la carne en las manos del héroe Demódoco, quien, 
 <p id="VIII_487">
 <span class="num">8.487
 </span>
-<span nivel="1" entidad="">«¡Demódoco! Yo te alabo más que á otro mortal cualquiera, pues deben de haberte enseñado la Musa, hija de Júpiter, ó el mismo Apolo, á juzgar por lo primorosamente que cantas el azar de los aquivos y todo lo que llevaron al cabo, padecieron y soportaron, como si tú en persona lo hubieras visto ó se lo hubieses oído referir á alguno de ellos. Mas, ea, pasa á otro asunto y canta cómo estaba dispuesto el caballo de madera construído por Epeo con la ayuda de Minerva; máquina engañosa que el divinal Ulises llevó á la acrópolis, después de llenarla con los guerreros que arruinaron á Troya. Si esto lo cuentas como se debe, yo diré á todos los hombres que una deidad benévola te concedió el divino canto.»</span>
+<span nivel="1" entidad="Odiseo">«¡Demódoco! Yo te alabo más que á otro mortal cualquiera, pues deben de haberte enseñado la Musa, hija de Júpiter, ó el mismo Apolo, á juzgar por lo primorosamente que cantas el azar de los aquivos y todo lo que llevaron al cabo, padecieron y soportaron, como si tú en persona lo hubieras visto ó se lo hubieses oído referir á alguno de ellos. Mas, ea, pasa á otro asunto y canta cómo estaba dispuesto el caballo de madera construído por Epeo con la ayuda de Minerva; máquina engañosa que el divinal Ulises llevó á la acrópolis, después de llenarla con los guerreros que arruinaron á Troya. Si esto lo cuentas como se debe, yo diré á todos los hombres que una deidad benévola te concedió el divino canto.»</span>
 </p>
 <div class="figcenter mt1" id="Il_8" role="figure" aria-labelledby="ebm_caption15">
 <p>
@@ -5253,7 +5305,7 @@ Tal fué lo que cantó el eximio aedo; y en tanto consumíase Ulises, y las lág
 <p id="VIII_536">
 <span class="num">8.536
 </span>
-<span nivel="1" entidad="">«¡Oídme, caudillos y príncipes de los feacios! Cese Demódoco de tocar la melodiosa cítara, pues quizás lo que canta no les sea grato á todos los oyentes. Desde que empezamos la cena y se levantó el divinal aedo, el huésped no ha dejado de verter doloroso llanto: sin duda le vino al alma algún pesar. Mas, ea, cese aquél para que nos regocijemos todos, así los albergadores del huésped como el huésped mismo; que es lo mejor que se puede hacer, ya que por el venerable huésped se han preparado estas cosas, su conducción y los dones que le hemos hecho en demostración de aprecio. Como á un hermano debe tratar al huésped y al suplicante, quien tenga un poco de sensatez. Y así, no has de ocultar tampoco con astuto designio lo que voy á preguntarte, sino que será mucho mejor que lo manifiestes. Dime el nombre con que en tu población te llamaban tu padre y tu madre, los habitantes de la ciudad y los vecinos de los alrededo
+<span nivel="1" entidad="Alcinoo">«¡Oídme, caudillos y príncipes de los feacios! Cese Demódoco de tocar la melodiosa cítara, pues quizás lo que canta no les sea grato á todos los oyentes. Desde que empezamos la cena y se levantó el divinal aedo, el huésped no ha dejado de verter doloroso llanto: sin duda le vino al alma algún pesar. Mas, ea, cese aquél para que nos regocijemos todos, así los albergadores del huésped como el huésped mismo; que es lo mejor que se puede hacer, ya que por el venerable huésped se han preparado estas cosas, su conducción y los dones que le hemos hecho en demostración de aprecio. Como á un hermano debe tratar al huésped y al suplicante, quien tenga un poco de sensatez. Y así, no has de ocultar tampoco con astuto designio lo que voy á preguntarte, sino que será mucho mejor que lo manifiestes. Dime el nombre con que en tu población te llamaban tu padre y tu madre, los habitantes de la ciudad y los vecinos de los alrededo
 <span class="pagenum" id="Page_115">
 [p. 115]
 </span>
@@ -5280,353 +5332,462 @@ RELATOS Á ALCÍNOO.—CICLOPEA
 </p>
 </div>
 <p id="IX_1">
-<span class="num">9.1
-</span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! En verdad que es hermoso oir á un aedo como éste, cuya voz se asemeja á la de un numen. No creo que haya cosa tan agradable como ver que la alegría reina en el pueblo y que los convidados, sentados ordenadamente en el palacio ante las mesas abastecidas de pan y de carnes, escuchan al aedo, mientras el escanciador saca vino de la cratera y lo va echando en las copas. Tal espectáculo me parece bellísimo. Pero te movió el ánimo á desear que te cuente mis luctuosos infortunios, para que llore aún más y prorrumpa en gemidos. <span class="interroga">¿Cuál cosa relataré en primer término, cuál en último lugar, siendo tantos los infortunios que me enviaron los celestiales dioses?</span> Ante todo, quiero deciros mi nombre para que lo sepáis y en adelante, después que me haya librado del día cruel, sea yo vuestro huésped, á pesar de vivir en una casa que está
+<span class="num">9.1</span>
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="Odiseo">«¡Rey Alcínoo, el más esclarecido de todos los ciudadanos! En verdad que es hermoso oir á un aedo como éste, cuya voz se asemeja á la de un numen. No creo que haya cosa tan agradable como ver que la alegría reina en el pueblo y que los convidados, sentados ordenadamente en el palacio ante las mesas abastecidas de pan y de carnes, escuchan al aedo, mientras el escanciador saca vino de la cratera y lo va echando en las copas. Tal espectáculo me parece bellísimo. Pero te movió el ánimo á desear que te cuente mis luctuosos infortunios, para que llore aún más y prorrumpa en gemidos. <span class="interroga">¿Cuál cosa relataré en primer término, cuál en último lugar, siendo tantos los infortunios que me enviaron los celestiales dioses?</span> Ante todo, quiero deciros mi nombre para que lo sepáis y en adelante, después que me haya librado del día cruel, sea yo vuestro huésped, á pesar de vivir en una casa que está
 <span class="pagenum" id="Page_117">
 [p. 117]
 </span>
-muy lejos. Soy Ulises Laertíada, tan conocido de los hombres por mis astucias de toda clase; y mi gloria llega hasta el cielo. Habito en Ítaca, que se ve á distancia: en ella está el monte Nérito, frondoso y espléndido, y en contorno hay muchas islas cercanas entre sí como Duliquio, Same y la selvosa Zacinto. Ítaca no se eleva mucho sobre el mar, está situada la más remota hacia el Occidente—las restantes, algo apartadas, se inclinan hacia el Oriente y el Mediodía,—es áspera, pero buena criadora de mancebos; y yo no puedo hallar cosa alguna que sea más dulce que mi patria. Calipso, la divina entre las deidades, me detuvo allá, en huecas grutas, anhelando que fuese su esposo; y de la misma suerte la dolosa Circe de Eea me acogió anteriormente en su palacio, deseando también tomarme por marido; ni aquélla ni ésta consiguieron llevar la persuasión á mi ánimo. No hay cosa más dulce que la patria y los padres, aunque se habite en una casa opulenta pero lejana, en país extraño, apartada de aquéllos. Pero voy á contarte mi vuelta, llena de trabajos, la cual me ordenó Júpiter desde que salí de Troya.
+muy lejos. Soy Ulises Laertíada, tan conocido de los hombres por mis astucias de toda clase; y mi gloria llega hasta el cielo. Habito en Ítaca, que se ve á distancia: en ella está el monte Nérito, frondoso y espléndido, y en contorno hay muchas islas cercanas entre sí como Duliquio, Same y la selvosa Zacinto. Ítaca no se eleva mucho sobre el mar, está situada la más remota hacia el Occidente—las restantes, algo apartadas, se inclinan hacia el Oriente y el Mediodía,—es áspera, pero buena criadora de mancebos; y yo no puedo hallar cosa alguna que sea más dulce que mi patria. Calipso, la divina entre las deidades, me detuvo allá, en huecas grutas, anhelando que fuese su esposo; y de la misma suerte la dolosa Circe de Eea me acogió anteriormente en su palacio, deseando también tomarme por marido; ni aquélla ni ésta consiguieron llevar la persuasión á mi ánimo. No hay cosa más dulce que la patria y los padres, aunque se habite en una casa opulenta pero lejana, en país extraño, apartada de aquéllos. Pero voy á contarte mi vuelta, llena de trabajos, la cual me ordenó Júpiter desde que salí de Troya.</span>
 </p>
 <p id="IX_39">
-<span class="num">9.39
-</span>
-»</span>Habiendo partido de Ilión, llevóme el viento al país de los cícones, á Ismaro: entré á saco la ciudad, maté á sus hombres y, tomando las mujeres y las abundantes riquezas, nos lo repartimos todo para que nadie se fuera sin su parte de botín. Exhorté á mi gente á que nos retiráramos con pie ligero, y los muy simples no se dejaron persuadir. Bebieron mucho y, mientras degollaban en la playa gran número de ovejas y de flexípedes bueyes, de retorcidos cuernos, los cícones fueron á llamar á otros cícones vecinos suyos; los cuales eran más numerosos y más fuertes, habitaban el interior del país y sabían pelear á caballo con los hombres y aun á pie donde fuese preciso. Vinieron por la mañana tantos, cuantas son las hojas y flores que en la primavera nacen; y ya se nos presentó á nosotros, ¡oh infelices!, el funesto destino que nos ordenara Júpiter á fin de que padeciéramos multitud de males. Formáronse, nos presentaron batalla junto á las veloces naves, y nos heríamos recíprocamente con las broncíneas lanzas. Mientras duró la mañana y fué aumentando la luz del sagrado día, pudimos resistir su ataque, aunque eran en superior número. Mas luego, cuando el sol se encaminó al ocaso, los cícones derrotaron á los aquivos, poniéndolos en fuga. Perecieron seis compañeros, de hermosas grebas, de cada embarcación y los restantes nos libramos de la muerte y del destino.
+<span class="num">9.39</span>
+»<span nivel="1" entidad="Odiseo">Habiendo partido de Ilión, llevóme el viento al país de los cícones, á Ismaro: entré á saco la ciudad, maté á sus hombres y, tomando las mujeres y las abundantes riquezas, nos lo repartimos todo para que nadie se fuera sin su parte de botín. Exhorté á mi gente á que nos retiráramos con pie ligero, y los muy simples no se dejaron persuadir. Bebieron mucho y, mientras degollaban en la playa gran número de ovejas y de flexípedes bueyes, de retorcidos cuernos, los cícones fueron á llamar á otros cícones vecinos suyos; los cuales eran más numerosos y más fuertes, habitaban el interior del país y sabían pelear á caballo con los hombres y aun á pie donde fuese preciso. Vinieron por la mañana tantos, cuantas son las hojas y flores que en la primavera nacen; y ya se nos presentó á nosotros, ¡oh infelices!, el funesto destino que nos ordenara Júpiter á fin de que padeciéramos multitud de males. Formáronse, nos presentaron batalla junto á las veloces naves, y nos heríamos recíprocamente con las broncíneas lanzas. Mientras duró la mañana y fué aumentando la luz del sagrado día, pudimos resistir su ataque, aunque eran en superior número. Mas luego, cuando el sol se encaminó al ocaso, los cícones derrotaron á los aquivos, poniéndolos en fuga. Perecieron seis compañeros, de hermosas grebas, de cada embarcación y los restantes nos libramos de la muerte y del destino.</span>
 </p>
 <p id="IX_62">
-<span class="num">9.62
-</span>
-»</span>Desde allí seguimos adelante con el corazón triste, escapando gustosos de la muerte aunque perdimos algunos compañeros. Mas
-<span class="pagenum" id="Page_118">
-[p. 118]
-</span>
-no comenzaron á moverse los corvos bajeles hasta haber llamado tres veces á cada uno de los míseros compañeros que acabaron su vida en el llano, heridos por los cícones. Júpiter, que amontona las nubes, suscitó contra los barcos el viento Bóreas y una tempestad deshecha cubrió de nubes la tierra y el ponto, y la noche cayó del cielo. Las naves iban de través, cabeceando; y el impetuoso viento rasgó las velas en tres ó cuatro pedazos. Entonces amainamos éstas, pues temíamos nuestra perdición; y apresuradamente, á fuerza de remos, llevamos aquéllas á tierra firme. Allí permanecimos echados dos días con sus noches, royéndonos el ánimo la fatiga y los pesares. Mas, al punto que la Aurora, de lindas trenzas, nos trajo el día tercero, izamos los mástiles, descogimos las blancas velas y nos sentamos en las naves, que eran conducidas por el viento y los pilotos. Y hubiese llegado incólume á la tierra patria, si la corriente de las olas y el Bóreas, que me desviaron al doblar el cabo de Malea, no me hubieran obligado á vagar lejos de Citera.
+<span class="num">9.62</span>
+
+<span nivel="1" entidad="Odiseo">»Desde allí seguimos adelante con el corazón triste, escapando gustosos de la muerte aunque perdimos algunos compañeros. Mas
+
+  <span class="pagenum" id="Page_118">[p. 118]</span>
+
+no comenzaron á moverse los corvos bajeles hasta haber llamado tres veces á cada uno de los míseros compañeros que acabaron su vida en el llano, heridos por los cícones. Júpiter, que amontona las nubes, suscitó contra los barcos el viento Bóreas y una tempestad deshecha cubrió de nubes la tierra y el ponto, y la noche cayó del cielo. Las naves iban de través, cabeceando; y el impetuoso viento rasgó las velas en tres ó cuatro pedazos. Entonces amainamos éstas, pues temíamos nuestra perdición; y apresuradamente, á fuerza de remos, llevamos aquéllas á tierra firme. Allí permanecimos echados dos días con sus noches, royéndonos el ánimo la fatiga y los pesares. Mas, al punto que la Aurora, de lindas trenzas, nos trajo el día tercero, izamos los mástiles, descogimos las blancas velas y nos sentamos en las naves, que eran conducidas por el viento y los pilotos. Y hubiese llegado incólume á la tierra patria, si la corriente de las olas y el Bóreas, que me desviaron al doblar el cabo de Malea, no me hubieran obligado á vagar lejos de Citera.</span>
 </p>
 <p id="IX_82">
-<span class="num">9.82
-</span>
-»</span>Desde allí dañosos vientos lleváronme nueve días por el ponto, abundante en peces; y al décimo arribamos á la tierra de los lotófagos, que se alimentan con un florido manjar. Saltamos en tierra, hicimos aguada, y pronto los compañeros empezaron á comer junto á las veleras naves. Y después que hubimos gustado los alimentos y la bebida, envié algunos compañeros—dos varones á quienes escogí é hice acompañar por un tercero que fué un heraldo—para que averiguaran cuáles hombres comían el pan en aquella tierra. Fuéronse pronto y juntáronse con los lotófagos, que no tramaron ciertamente la perdición de nuestros amigos; pero les dieron á comer loto, y cuantos probaban el fruto del mismo, dulce como la miel, ya no querían llevar noticias ni volverse; antes deseaban permanecer con los lotófagos, comiendo loto, sin acordarse de tornar á la patria. Mas yo los llevé por fuerza á las cóncavas naves y, aunque lloraban, los arrastré é hice atar debajo de los bancos. Y mandé que los restantes fieles compañeros se apresuraran á entrar en las veloces embarcaciones: no fuera que alguno comiese loto y no pensara en la vuelta. Hiciéronlo en seguida y, sentándose por orden en los bancos, comenzaron á herir con los remos el espumoso mar.
+<span class="num">9.82</span>
+<span nivel="1" entidad="Odiseo">»Desde allí dañosos vientos lleváronme nueve días por el ponto, abundante en peces; y al décimo arribamos á la tierra de los lotófagos, que se alimentan con un florido manjar. Saltamos en tierra, hicimos aguada, y pronto los compañeros empezaron á comer junto á las veleras naves. Y después que hubimos gustado los alimentos y la bebida, envié algunos compañeros—dos varones á quienes escogí é hice acompañar por un tercero que fué un heraldo—para que averiguaran cuáles hombres comían el pan en aquella tierra. Fuéronse pronto y juntáronse con los lotófagos, que no tramaron ciertamente la perdición de nuestros amigos; pero les dieron á comer loto, y cuantos probaban el fruto del mismo, dulce como la miel, ya no querían llevar noticias ni volverse; antes deseaban permanecer con los lotófagos, comiendo loto, sin acordarse de tornar á la patria. Mas yo los llevé por fuerza á las cóncavas naves y, aunque lloraban, los arrastré é hice atar debajo de los bancos. Y mandé que los restantes fieles compañeros se apresuraran á entrar en las veloces embarcaciones: no fuera que alguno comiese loto y no pensara en la vuelta. Hiciéronlo en seguida y, sentándose por orden en los bancos, comenzaron á herir con los remos el espumoso mar.</span>
 </p>
 <p id="IX_105">
-<span class="num">9.105
-</span>
-»</span>Desde allí continuamos la navegación con ánimo afligido, y llegamos á la tierra de los Ciclopes soberbios y sin ley; quienes, confiados en los dioses inmortales, no plantan árboles, ni labran los campos, sino que todo les nace sin semilla y sin arada—trigo, cebada y vides, que producen vino de unos grandes racimos—y se lo hace
-<span class="pagenum" id="Page_119">
-[p. 119]
-</span>
-crecer la lluvia enviada por Júpiter. No tienen ágoras donde se reúnan para deliberar, ni leyes tampoco, sino que viven en las cumbres de los altos montes, dentro de excavadas cuevas; cada cual impera sobre sus hijos y mujeres, y no se cuidan los unos de los otros.
+
+<span class="num">9.105</span>
+
+<span nivel="1" entidad="Odiseo">»Desde allí continuamos la navegación con ánimo afligido, y llegamos á la tierra de los Ciclopes soberbios y sin ley; quienes, confiados en los dioses inmortales, no plantan árboles, ni labran los campos, sino que todo les nace sin semilla y sin arada—trigo, cebada y vides, que producen vino de unos grandes racimos—y se lo hace
+
+<span class="pagenum" id="Page_119">[p. 119]</span>
+
+crecer la lluvia enviada por Júpiter. No tienen ágoras donde se reúnan para deliberar, ni leyes tampoco, sino que viven en las cumbres de los altos montes, dentro de excavadas cuevas; cada cual impera sobre sus hijos y mujeres, y no se cuidan los unos de los otros.</span>
 </p>
 <p id="IX_116">
-<span class="num">9.116
-</span>
-»</span>Delante del puerto, no muy cercana ni á gran distancia tampoco de la región de los Ciclopes, hay una isleta poblada de bosque, con una infinidad de cabras monteses, pues no las ahuyenta el paso de hombre alguno ni van allá los cazadores, que se fatigan recorriendo las selvas en las cumbres de las montañas. No se ven en ella ni rebaños ni labradíos, sino que el terreno está siempre sin sembrar y sin arar, carece de hombres, y cría bastantes cabras. Pues los Ciclopes no tienen naves de rojas proas, ni cuentan con artífices que se las construyan de muchos bancos—como las que transportan mercancías á distintas poblaciones en los frecuentes viajes que los hombres efectúan por mar, yendo los unos á encontrar á los otros,—las cuales hubieran podido hacer que fuese muy poblada aquella isla, que no es mala y daría á su tiempo frutos de toda especie, porque tiene junto al espumoso mar prados húmedos y tiernos y allí la vid jamás se perdiera. La parte interior es llana y labradera; y podrían segarse en la estación oportuna, mieses altísimas por ser el suelo muy pingüe. Posee la isla un cómodo puerto, donde no se requieren amarras, ni es preciso echar áncoras, ni atar cuerdas; pues, en abordando allí, se está á salvo cuanto se quiere, hasta que el ánimo de los marineros les incita á partir y el viento sopla. En lo alto del puerto mana una fuente de agua límpida, debajo de una cueva á cuyo alrededor han crecido álamos. Allá, pues, nos llevaron las naves y algún dios debió de guiarnos en aquella noche obscura en la que nada distinguíamos, pues la niebla era copiosa alrededor de los bajeles y la luna no brillaba en el cielo, que cubrían los nubarrones. Nadie vió con sus ojos la isla ni las ingentes olas que se quebraban en la tierra, hasta que las naves de muchos bancos hubieron abordado. Entonces amainamos todas las velas, saltamos á la orilla del mar y, entregándonos al sueño, aguardamos que apareciera la divinal Aurora.
+
+<span class="num">9.116</span>
+
+<span nivel="1" entidad="Odiseo">»Delante del puerto, no muy cercana ni á gran distancia tampoco de la región de los Ciclopes, hay una isleta poblada de bosque, con una infinidad de cabras monteses, pues no las ahuyenta el paso de hombre alguno ni van allá los cazadores, que se fatigan recorriendo las selvas en las cumbres de las montañas. No se ven en ella ni rebaños ni labradíos, sino que el terreno está siempre sin sembrar y sin arar, carece de hombres, y cría bastantes cabras. Pues los Ciclopes no tienen naves de rojas proas, ni cuentan con artífices que se las construyan de muchos bancos—como las que transportan mercancías á distintas poblaciones en los frecuentes viajes que los hombres efectúan por mar, yendo los unos á encontrar á los otros,—las cuales hubieran podido hacer que fuese muy poblada aquella isla, que no es mala y daría á su tiempo frutos de toda especie, porque tiene junto al espumoso mar prados húmedos y tiernos y allí la vid jamás se perdiera. La parte interior es llana y labradera; y podrían segarse en la estación oportuna, mieses altísimas por ser el suelo muy pingüe. Posee la isla un cómodo puerto, donde no se requieren amarras, ni es preciso echar áncoras, ni atar cuerdas; pues, en abordando allí, se está á salvo cuanto se quiere, hasta que el ánimo de los marineros les incita á partir y el viento sopla. En lo alto del puerto mana una fuente de agua límpida, debajo de una cueva á cuyo alrededor han crecido álamos. Allá, pues, nos llevaron las naves y algún dios debió de guiarnos en aquella noche obscura en la que nada distinguíamos, pues la niebla era copiosa alrededor de los bajeles y la luna no brillaba en el cielo, que cubrían los nubarrones. Nadie vió con sus ojos la isla ni las ingentes olas que se quebraban en la tierra, hasta que las naves de muchos bancos hubieron abordado. Entonces amainamos todas las velas, saltamos á la orilla del mar y, entregándonos al sueño, aguardamos que apareciera la divinal Aurora.</span>
+
 </p>
+
 <p id="IX_152">
-<span class="num">9.152
-</span>
-»</span>No bien se descubrió la hija de la mañana, la Aurora de rosáceos dedos, anduvimos por la isla muy admirados. En esto las ninfas, prole de Júpiter que lleva la égida, levantaron montaraces cabras para que comieran mis compañeros. Al instante tomamos de los bajeles los corvos arcos y los venablos de larga punta, nos distribuimos en tres grupos, tiramos, y muy presto una deidad nos
-<span class="pagenum" id="Page_120">
-[p. 120]
-</span>
-proporcionó abundante caza. Doce eran las naves que me seguían y á cada una le correspondieron nueve cabras, apartándose diez para mí solo. Y ya todo el día, hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino; que el rojo licor aún no faltaba en las naves, pues habíamos hecho gran provisión en ánforas al tomar la sagrada ciudad de los cícones. Estando allí echábamos la vista á la tierra de los Ciclopes, que se hallaban cerca, y divisábamos el humo y oíamos las voces que ellos daban, y los balidos de las ovejas y de las cabras. Cuando el sol se puso y sobrevino la noche, nos acostamos en la orilla del mar. Mas, así que se descubrió la hija de la mañana, la Aurora de rosáceos dedos, los llamé á junta y les dije estas razones:
+
+  <span class="num">9.152</span>
+
+<span nivel="1" entidad="Odiseo">»No bien se descubrió la hija de la mañana, la Aurora de rosáceos dedos, anduvimos por la isla muy admirados. En esto las ninfas, prole de Júpiter que lleva la égida, levantaron montaraces cabras para que comieran mis compañeros. Al instante tomamos de los bajeles los corvos arcos y los venablos de larga punta, nos distribuimos en tres grupos, tiramos, y muy presto una deidad nos
+
+<span class="pagenum" id="Page_120">[p. 120]</span>
+
+proporcionó abundante caza. Doce eran las naves que me seguían y á cada una le correspondieron nueve cabras, apartándose diez para mí solo. Y ya todo el día, hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino; que el rojo licor aún no faltaba en las naves, pues habíamos hecho gran provisión en ánforas al tomar la sagrada ciudad de los cícones. Estando allí echábamos la vista á la tierra de los Ciclopes, que se hallaban cerca, y divisábamos el humo y oíamos las voces que ellos daban, y los balidos de las ovejas y de las cabras. Cuando el sol se puso y sobrevino la noche, nos acostamos en la orilla del mar. Mas, así que se descubrió la hija de la mañana, la Aurora de rosáceos dedos, los llamé á junta y les dije estas razones:</span>
+
 </p>
+
 <p id="IX_172">
-<span class="num">9.172
-</span>
-<span nivel="1" entidad="">«Quedaos aquí, mis fieles amigos, y yo con mi nave y mis compañeros iré allá y probaré de averiguar qué hombres son aquéllos: si son violentos, salvajes é injustos, ú hospitalarios y temerosos de las deidades.»</span>
+
+<span class="num">9.172</span>
+
+<span nivel="2" entidad="Odiseo">«Quedaos aquí, mis fieles amigos, y yo con mi nave y mis compañeros iré allá y probaré de averiguar qué hombres son aquéllos: si son violentos, salvajes é injustos, ú hospitalarios y temerosos de las deidades.»</span>
+
 </p>
+
 <p id="IX_177">
-<span class="num">9.177
-</span>
-»</span>Cuando así hube hablado, subí á la nave y ordené á los compañeros que me siguieran y desataran las amarras. Ellos se embarcaron al instante y, sentándose por orden en los bancos, comenzaron á herir con los remos el espumoso mar. Y tan luego como llegamos á dicha tierra, que estaba próxima, vimos en uno de los extremos y casi tocando al mar una excelsa gruta, á la cual daban sombra algunos laureles: en ella reposaban muchos hatos de ovejas y de cabras, y en contorno había una alta cerca labrada con piedras profundamente hundidas, grandes pinos y encinas de elevada copa. Allí moraba un varón gigantesco, solitario, que entendía en apacentar rebaños lejos de los demás hombres, sin tratarse con nadie; y, apartado de todos, ocupaba su ánimo en cosas inicuas. Era un monstruo horrible y no se asemejaba á los hombres que viven de pan, sino á una selvosa cima que entre altos montes se presentase aislada de las demás cumbres.
+
+<span class="num">9.177</span>
+
+<span nivel="1" entidad="Odiseo">»Cuando así hube hablado, subí á la nave y ordené á los compañeros que me siguieran y desataran las amarras. Ellos se embarcaron al instante y, sentándose por orden en los bancos, comenzaron á herir con los remos el espumoso mar. Y tan luego como llegamos á dicha tierra, que estaba próxima, vimos en uno de los extremos y casi tocando al mar una excelsa gruta, á la cual daban sombra algunos laureles: en ella reposaban muchos hatos de ovejas y de cabras, y en contorno había una alta cerca labrada con piedras profundamente hundidas, grandes pinos y encinas de elevada copa. Allí moraba un varón gigantesco, solitario, que entendía en apacentar rebaños lejos de los demás hombres, sin tratarse con nadie; y, apartado de todos, ocupaba su ánimo en cosas inicuas. Era un monstruo horrible y no se asemejaba á los hombres que viven de pan, sino á una selvosa cima que entre altos montes se presentase aislada de las demás cumbres.</span>
+
 </p>
+
 <p id="IX_193">
-<span class="num">9.193
-</span>
-»</span>Entonces ordené á mis fieles compañeros que se quedasen á guardar la nave; escogí los doce mejores y juntos echamos á andar, con un pellejo de negro y dulce vino que me había dado Marón, vástago de Evantes y sacerdote de Apolo, el dios tutelar de Ismaro; porque, respetándole, lo salvamos con su mujer é hijos que vivían en un espeso bosque consagrado á Febo Apolo. Hízome Marón espléndidos dones, pues me regaló siete talentos de oro bien labrado, una cratera de plata y doce ánforas de un vino dulce y puro, bebida de dioses, que no conocían sus siervos ni sus esclavas sino tan sólo
-<span class="pagenum" id="Page_121">
-[p. 121]
-</span>
-él, su esposa y una despensera. Cuando bebían este rojo licor, dulce como la miel, echaban una copa del mismo en veinte de agua; y de la cratera salía un olor tan suave y divinal, que no sin pena se hubiese renunciado á saborearlo. De este vino llevaba un gran odre completamente lleno y además viandas en un zurrón; pues ya desde el primer instante se figuró mi ánimo generoso que se nos presentaría un hombre dotado de extraordinaria fuerza, salvaje, y desconocedor de la justicia y de las leyes.
+
+  <span class="num">9.193</span>
+
+<span nivel="1" entidad="Odiseo">»Entonces ordené á mis fieles compañeros que se quedasen á guardar la nave; escogí los doce mejores y juntos echamos á andar, con un pellejo de negro y dulce vino que me había dado Marón, vástago de Evantes y sacerdote de Apolo, el dios tutelar de Ismaro; porque, respetándole, lo salvamos con su mujer é hijos que vivían en un espeso bosque consagrado á Febo Apolo. Hízome Marón espléndidos dones, pues me regaló siete talentos de oro bien labrado, una cratera de plata y doce ánforas de un vino dulce y puro, bebida de dioses, que no conocían sus siervos ni sus esclavas sino tan sólo
+
+  <span class="pagenum" id="Page_121">[p. 121]</span>
+
+él, su esposa y una despensera. Cuando bebían este rojo licor, dulce como la miel, echaban una copa del mismo en veinte de agua; y de la cratera salía un olor tan suave y divinal, que no sin pena se hubiese renunciado á saborearlo. De este vino llevaba un gran odre completamente lleno y además viandas en un zurrón; pues ya desde el primer instante se figuró mi ánimo generoso que se nos presentaría un hombre dotado de extraordinaria fuerza, salvaje, y desconocedor de la justicia y de las leyes.</span>
+
 </p>
+
 <p id="IX_216">
-<span class="num">9.216
-</span>
-»</span>Pronto llegamos á la gruta; mas no dimos con él, porque estaba apacentando las pingües ovejas. Entramos y nos pusimos á contemplar con admiración y una por una todas las cosas: había zarzos cargados de quesos; los establos rebosaban de corderos y cabritos, hallándose encerrados separadamente los mayores, los medianos y los recentales; y goteaba el suero de todas las vasijas, tarros y barreños, de que se servía para ordeñar. Los compañeros empezaron á suplicarme que nos apoderásemos de algunos quesos y nos fuéramos; y que luego, sacando prestamente de los establos los cabritos y los corderos, y conduciéndolos á la velera nave, surcáramos de nuevo el salobre mar. Mas yo no me dejé persuadir—mucho mejor hubiera sido adoptar su consejo—con el propósito de ver á aquél y probar si me ofrecería los dones de la hospitalidad. Pero su aparición no había de serles grata á mis compañeros.
+
+<span class="num">9.216</span>
+
+<span nivel="1" entidad="Odiseo">»Pronto llegamos á la gruta; mas no dimos con él, porque estaba apacentando las pingües ovejas. Entramos y nos pusimos á contemplar con admiración y una por una todas las cosas: había zarzos cargados de quesos; los establos rebosaban de corderos y cabritos, hallándose encerrados separadamente los mayores, los medianos y los recentales; y goteaba el suero de todas las vasijas, tarros y barreños, de que se servía para ordeñar. Los compañeros empezaron á suplicarme que nos apoderásemos de algunos quesos y nos fuéramos; y que luego, sacando prestamente de los establos los cabritos y los corderos, y conduciéndolos á la velera nave, surcáramos de nuevo el salobre mar. Mas yo no me dejé persuadir—mucho mejor hubiera sido adoptar su consejo—con el propósito de ver á aquél y probar si me ofrecería los dones de la hospitalidad. Pero su aparición no había de serles grata á mis compañeros.</span>
+
 </p>
+
 <p id="IX_231">
-<span class="num">9.231
-</span>
-»</span>Encendimos fuego, ofrecimos un sacrificio á los dioses, tomamos algunos quesos, comimos, y le aguardamos, sentados en la gruta, hasta que volvió con el ganado. Traía una gran carga de leña seca para preparar su comida y descargóla dentro de la cueva con tal estruendo que nosotros, llenos de temor, nos refugiamos apresuradamente en lo más hondo de la misma. Luego metió en el espacioso antro todas las pingües ovejas que tenía que ordeñar, dejando á la puerta, dentro del recinto de altas paredes, los carneros y los bucos. Después cerró la puerta con un pedrejón grande y pesado que llevó á pulso y que no hubiesen podido mover del suelo veintidós sólidos carros de cuatro ruedas. ¡Tan inmenso era el peñasco que colocó en la entrada! Sentóse en seguida, ordeñó las ovejas y las baladoras cabras, todo como debe hacerse, y á cada una le puso su hijito. Á la hora, haciendo cuajar la mitad de la blanca leche, la amontonó en canastillos de mimbre, y vertió la restante en unos vasos para bebérsela cuando cenar quisiese. Acabadas con prontitud tales faenas, encendió fuego y, al vernos, nos hizo estas preguntas:
+
+<span class="num">9.231</span>
+
+<span nivel="1" entidad="Odiseo">»Encendimos fuego, ofrecimos un sacrificio á los dioses, tomamos algunos quesos, comimos, y le aguardamos, sentados en la gruta, hasta que volvió con el ganado. Traía una gran carga de leña seca para preparar su comida y descargóla dentro de la cueva con tal estruendo que nosotros, llenos de temor, nos refugiamos apresuradamente en lo más hondo de la misma. Luego metió en el espacioso antro todas las pingües ovejas que tenía que ordeñar, dejando á la puerta, dentro del recinto de altas paredes, los carneros y los bucos. Después cerró la puerta con un pedrejón grande y pesado que llevó á pulso y que no hubiesen podido mover del suelo veintidós sólidos carros de cuatro ruedas. ¡Tan inmenso era el peñasco que colocó en la entrada! Sentóse en seguida, ordeñó las ovejas y las baladoras cabras, todo como debe hacerse, y á cada una le puso su hijito. Á la hora, haciendo cuajar la mitad de la blanca leche, la amontonó en canastillos de mimbre, y vertió la restante en unos vasos para bebérsela cuando cenar quisiese. Acabadas con prontitud tales faenas, encendió fuego y, al vernos, nos hizo estas preguntas:</span>
+
 </p>
+
 <p id="IX_252">
-<span class="num">9.252
+
+  <span class="num">9.252</span>
+
+<span nivel="2" entidad="Polifemo">
+  
+«¡Forasteros! <span class="interroga">¿Quiénes sois?</span> <span class="interroga">¿De dónde llegasteis navegando
+
+<span class="pagenum" id="Page_122">[p. 122]</span>
+
+por húmedos caminos?</span> <span class="interroga">¿Venís por algún negocio ó andáis por el mar, á la ventura, como los piratas que divagan, exponiendo su vida y produciendo daño á los hombres de extrañas tierras?»</span>
+
 </span>
-<span nivel="1" entidad="">«¡Forasteros! <span class="interroga">¿Quiénes sois?</span> <span class="interroga">¿De dónde llegasteis navegando
-<span class="pagenum" id="Page_122">
-[p. 122]
-</span>
-por húmedos caminos?</span> <span class="interroga">¿Venís por algún negocio ó andáis por el mar, á la ventura, como los piratas que divagan, exponiendo su vida y produciendo daño á los hombres de extrañas tierras?</span>»</span>
+
 </p>
+
 <p id="IX_256">
-<span class="num">9.256
-</span>
-»</span>Así dijo. Nos quebraba el corazón el temor que nos produjo su voz grave y su aspecto monstruoso. Mas, con todo eso, le respondí de esta manera:
+
+<span class="num">9.256</span>
+
+<span nivel="1" entidad="Odiseo">»Así dijo. Nos quebraba el corazón el temor que nos produjo su voz grave y su aspecto monstruoso. Mas, con todo eso, le respondí de esta manera:</span>
+
 </p>
 <p id="IX_259">
 <span class="num">9.259
 </span>
-<span nivel="1" entidad="">«Somos aqueos á quienes extraviaron, al salir de Troya, vientos de toda clase que nos llevan por el gran abismo del mar: deseosos de volver á nuestra patria, llegamos aquí por otros caminos porque de tal suerte debió de ordenarlo Júpiter. Nos preciamos de ser guerreros de Agamenón Atrida cuya gloria es inmensa debajo del cielo—¡tan grande ciudad ha destruído y á tantos hombres ha hecho perecer!—y venimos á abrazar tus rodillas por si quisieras presentarnos los dones de la hospitalidad ó hacernos algún otro regalo como es costumbre entre los huéspedes. Respeta, pues, á los dioses, varón excelente; que nosotros somos ahora tus suplicantes. Y á suplicantes y forasteros los venga Júpiter hospitalario, el cual acompaña á los venerandos huéspedes.»</span>
+<span nivel="2" entidad="Odiseo">«Somos aqueos á quienes extraviaron, al salir de Troya, vientos de toda clase que nos llevan por el gran abismo del mar: deseosos de volver á nuestra patria, llegamos aquí por otros caminos porque de tal suerte debió de ordenarlo Júpiter. Nos preciamos de ser guerreros de Agamenón Atrida cuya gloria es inmensa debajo del cielo—¡tan grande ciudad ha destruído y á tantos hombres ha hecho perecer!—y venimos á abrazar tus rodillas por si quisieras presentarnos los dones de la hospitalidad ó hacernos algún otro regalo como es costumbre entre los huéspedes. Respeta, pues, á los dioses, varón excelente; que nosotros somos ahora tus suplicantes. Y á suplicantes y forasteros los venga Júpiter hospitalario, el cual acompaña á los venerandos huéspedes.»</span>
+
 </p>
+
 <p id="IX_272">
-<span class="num">9.272
-</span>
-»</span>Así le hablé; y respondióme en seguida con ánimo cruel: <span nivel="1" entidad="">«¡Forastero! Eres un simple ó vienes de lejas tierras cuando me exhortas á temer á los dioses y á guardarme de su cólera; que los Ciclopes no se cuidan de Júpiter, que lleva la égida, ni de los bienaventurados númenes, porque aún les ganan en ser poderosos; y yo no te perdonaría ni á ti ni á tus compañeros por temor á la enemistad de Júpiter, si mi ánimo no me lo ordenase. Pero dime en qué sitio, al venir, dejaste la bien construída embarcación: si fué, por ventura en lo más apartado de la playa ó en un paraje cercano, á fin de que yo lo sepa.»</span>
+
+<span class="num">9.272</span>
+
+<span nivel="1" entidad="Odiseo">»Así le hablé; y respondióme en seguida con ánimo cruel:</span>
+<span nivel="2" entidad="Polifemo">«¡Forastero! Eres un simple ó vienes de lejas tierras cuando me exhortas á temer á los dioses y á guardarme de su cólera; que los Ciclopes no se cuidan de Júpiter, que lleva la égida, ni de los bienaventurados númenes, porque aún les ganan en ser poderosos; y yo no te perdonaría ni á ti ni á tus compañeros por temor á la enemistad de Júpiter, si mi ánimo no me lo ordenase. Pero dime en qué sitio, al venir, dejaste la bien construída embarcación: si fué, por ventura en lo más apartado de la playa ó en un paraje cercano, á fin de que yo lo sepa.»</span>
+
 </p>
+
 <p id="IX_281">
-<span class="num">9.281
-</span>
-»</span>Así dijo para tentarme. Pero su intención no me pasó inadvertida á mí, que sé tanto, y de nuevo le hablé con engañosas palabras:
+
+<span class="num">9.281</span>
+
+<span nivel="1" entidad="Odiseo">»Así dijo para tentarme. Pero su intención no me pasó inadvertida á mí, que sé tanto, y de nuevo le hablé con engañosas palabras:</span>
+
 </p>
+
 <p id="IX_283">
-<span class="num">9.283
-</span>
-<span nivel="1" entidad="">«Neptuno, que sacude la tierra, rompió mi nave llevándola á un promontorio y estrellándola contra las rocas, en los confines de vuestra tierra; el viento que soplaba del ponto se la llevó y pude librarme, junto con éstos, de una muerte terrible.»</span>
+
+<span class="num">9.283</span>
+
+<span nivel="2" entidad="Odiseo">«Neptuno, que sacude la tierra, rompió mi nave llevándola á un promontorio y estrellándola contra las rocas, en los confines de vuestra tierra; el viento que soplaba del ponto se la llevó y pude librarme, junto con éstos, de una muerte terrible.»</span>
+
 </p>
+
 <p id="IX_287">
-<span class="num">9.287
-</span>
-»</span>Así le dije. El Ciclope, con ánimo cruel, no me dió respuesta; pero, levantándose de súbito, echó mano á los compañeros, agarró á dos y, cual si fuesen cachorrillos, arrojólos en tierra con tamaña violencia que el encéfalo fluyó al suelo y mojó el piso. Seguidamente despedazó los miembros, se aparejó una cena y se puso
-<span class="pagenum" id="Page_123">
-[p. 123]
-</span>
-á comer como montaraz león, no dejando ni los intestinos, ni la carne, ni los medulosos huesos. Nosotros contemplábamos aquel horrible espectáculo con lágrimas en los ojos, alzando nuestras manos á Júpiter; pues la desesperación se había señoreado de nuestro ánimo. El Ciclope, tan luego como hubo llenado su enorme vientre, devorando carne humana y bebiendo encima leche sola, se acostó en la gruta tendiéndose en medio de las ovejas. Entonces formé en mi magnánimo corazón el propósito de acercarme á él y, sacando la aguda espada que colgaba de mi muslo, herirle el pecho donde las entrañas rodean el hígado, palpándolo previamente; mas otra consideración me contuvo. Habríamos, en efecto, perecido allí de espantosa muerte, á causa de no poder apartar con nuestras manos el grave pedrejón que el Ciclope colocó en la alta entrada. Y así, dando suspiros, aguardamos que apareciera la divinal Aurora.
+
+<span class="num">9.287</span>
+
+<span nivel="1" entidad="Odiseo">»Así le dije. El Ciclope, con ánimo cruel, no me dió respuesta; pero, levantándose de súbito, echó mano á los compañeros, agarró á dos y, cual si fuesen cachorrillos, arrojólos en tierra con tamaña violencia que el encéfalo fluyó al suelo y mojó el piso. Seguidamente despedazó los miembros, se aparejó una cena y se puso
+
+<span class="pagenum" id="Page_123">[p. 123]</span>
+
+á comer como montaraz león, no dejando ni los intestinos, ni la carne, ni los medulosos huesos. Nosotros contemplábamos aquel horrible espectáculo con lágrimas en los ojos, alzando nuestras manos á Júpiter; pues la desesperación se había señoreado de nuestro ánimo. El Ciclope, tan luego como hubo llenado su enorme vientre, devorando carne humana y bebiendo encima leche sola, se acostó en la gruta tendiéndose en medio de las ovejas. Entonces formé en mi magnánimo corazón el propósito de acercarme á él y, sacando la aguda espada que colgaba de mi muslo, herirle el pecho donde las entrañas rodean el hígado, palpándolo previamente; mas otra consideración me contuvo. Habríamos, en efecto, perecido allí de espantosa muerte, á causa de no poder apartar con nuestras manos el grave pedrejón que el Ciclope colocó en la alta entrada. Y así, dando suspiros, aguardamos que apareciera la divinal Aurora.</span>
+
 </p>
+
 <p id="IX_307">
-<span class="num">9.307
-</span>
-»</span>Cuando se descubrió la hija de la mañana, la Aurora de rosáceos dedos, el Ciclope encendió fuego y ordeñó las gordas ovejas, todo como debe hacerse, y á cada una le puso su hijito. Acabadas con prontitud tales faenas, echó mano á otros dos de los míos, y con ellos se aparejó el almuerzo. En acabando de comer, sacó de la cueva los pingües ganados, removiendo con facilidad el enorme pedrejón de la puerta; pero al instante lo volvió á colocar, del mismo modo que si á un carcaj le pusiera su tapa. Mientras el Ciclope aguijaba con gran estrépito sus pingües rebaños hacia el monte, yo me quedé meditando siniestros propósitos, por si de algún modo pudiese vengarme y Minerva me otorgara la victoria. Al fin parecióme que la mejor resolución sería la siguiente. Echada en el suelo del establo veíase una gran clava de olivo verde, que el Ciclope había cortado para llevarla cuando se secase. Nosotros, al contemplarla, la comparábamos con el mástil de un negro y ancho bajel de transporte que tiene veinte remos y atraviesa el dilatado abismo del mar: tan larga y tan gruesa se nos presentó á la vista. Acerquéme á ella y corté una estaca como de una braza, que di á los compañeros mandándoles que la puliesen. No bien la dejaron lisa, agucé uno de sus cabos, la endurecí, pasándola por el ardiente fuego, y la oculté cuidadosamente debajo del abundante estiércol esparcido por la gruta. Ordené entonces que se eligieran por suerte los que, uniéndose conmigo, deberían atreverse á levantar la estaca y clavarla en el ojo del Ciclope cuando el dulce sueño le rindiese. Cayóles la suerte á los cuatro que yo mismo hubiera escogido en tal ocasión, y me junté con ellos formando el quinto. Por la tarde volvió el Ciclope con el rebaño de hermoso
-<span class="pagenum" id="Page_124">
-[p. 124]
-</span>
-vellón, que venía de pacer, é hizo entrar en la espaciosa gruta á todas las pingües reses, sin dejar á ninguna dentro del recinto; ya porque sospechase algo, ya porque algún dios así se lo ordenara. Cerró la puerta con el pedrejón, que llevó á pulso; sentóse, ordeñó las ovejas y las baladoras cabras, todo como debe hacerse, y á cada una le puso su hijito. Acabadas con prontitud tales cosas, agarró á otros dos de mis amigos y con ellos se aparejó la cena. Á la hora lleguéme al Ciclope y, teniendo en la mano una copa de negro vino, le hablé de esta manera:
+
+<span class="num">9.307</span>
+
+<span nivel="1" entidad="Odiseo">»Cuando se descubrió la hija de la mañana, la Aurora de rosáceos dedos, el Ciclope encendió fuego y ordeñó las gordas ovejas, todo como debe hacerse, y á cada una le puso su hijito. Acabadas con prontitud tales faenas, echó mano á otros dos de los míos, y con ellos se aparejó el almuerzo. En acabando de comer, sacó de la cueva los pingües ganados, removiendo con facilidad el enorme pedrejón de la puerta; pero al instante lo volvió á colocar, del mismo modo que si á un carcaj le pusiera su tapa. Mientras el Ciclope aguijaba con gran estrépito sus pingües rebaños hacia el monte, yo me quedé meditando siniestros propósitos, por si de algún modo pudiese vengarme y Minerva me otorgara la victoria. Al fin parecióme que la mejor resolución sería la siguiente. Echada en el suelo del establo veíase una gran clava de olivo verde, que el Ciclope había cortado para llevarla cuando se secase. Nosotros, al contemplarla, la comparábamos con el mástil de un negro y ancho bajel de transporte que tiene veinte remos y atraviesa el dilatado abismo del mar: tan larga y tan gruesa se nos presentó á la vista. Acerquéme á ella y corté una estaca como de una braza, que di á los compañeros mandándoles que la puliesen. No bien la dejaron lisa, agucé uno de sus cabos, la endurecí, pasándola por el ardiente fuego, y la oculté cuidadosamente debajo del abundante estiércol esparcido por la gruta. Ordené entonces que se eligieran por suerte los que, uniéndose conmigo, deberían atreverse á levantar la estaca y clavarla en el ojo del Ciclope cuando el dulce sueño le rindiese. Cayóles la suerte á los cuatro que yo mismo hubiera escogido en tal ocasión, y me junté con ellos formando el quinto. Por la tarde volvió el Ciclope con el rebaño de hermoso
+
+<span class="pagenum" id="Page_124">[p. 124]</span>
+
+vellón, que venía de pacer, é hizo entrar en la espaciosa gruta á todas las pingües reses, sin dejar á ninguna dentro del recinto; ya porque sospechase algo, ya porque algún dios así se lo ordenara. Cerró la puerta con el pedrejón, que llevó á pulso; sentóse, ordeñó las ovejas y las baladoras cabras, todo como debe hacerse, y á cada una le puso su hijito. Acabadas con prontitud tales cosas, agarró á otros dos de mis amigos y con ellos se aparejó la cena. Á la hora lleguéme al Ciclope y, teniendo en la mano una copa de negro vino, le hablé de esta manera:</span>
+
 </p>
+
 <p id="IX_347">
-<span class="num">9.347
-</span>
-<span nivel="1" entidad="">«Toma, Ciclope, bebe vino, ya que comiste carne humana, á fin de que sepas qué bebida se guardaba en nuestro buque. Te lo traía para ofrecer una libación en el caso de que te apiadases de mí y me enviaras á mi casa, pero tú te enfureces de intolerable modo. ¡Cruel! <span class="interroga">¿Cómo vendrá en lo sucesivo ninguno de los muchos hombres que existen, si no te portas como debieras?</span>»</span>
+
+<span class="num">9.347</span>
+
+<span nivel="2" entidad="Odiseo">«Toma, Ciclope, bebe vino, ya que comiste carne humana, á fin de que sepas qué bebida se guardaba en nuestro buque. Te lo traía para ofrecer una libación en el caso de que te apiadases de mí y me enviaras á mi casa, pero tú te enfureces de intolerable modo. ¡Cruel! <span class="interroga">¿Cómo vendrá en lo sucesivo ninguno de los muchos hombres que existen, si no te portas como debieras?»</span>
+
 </p>
+
 <p id="IX_353">
-<span class="num">9.353
-</span>
-»</span>Así le dije. Tomó el vino y bebióselo. Y gustóle tanto el dulce licor que me pidió más:
+
+  <span class="num">9.353</span>
+
+<span nivel="1" entidad="Odiseo">»Así le dije. Tomó el vino y bebióselo. Y gustóle tanto el dulce licor que me pidió más:</span>
+
 </p>
+
 <p id="IX_355">
-<span class="num">9.355
-</span>
-<span nivel="1" entidad="">«Dame de buen grado más vino y hazme saber inmediatamente tu nombre para que te ofrezca un don hospitalario con el cual te huelgues. Pues también á los Ciclopes la fértil tierra les proporciona vino en gruesos racimos, que crecen con la lluvia enviada por Júpiter; mas esto se compone de ambrosía y néctar.»</span>
+
+<span class="num">9.355</span>
+
+<span nivel="2" entidad="Polifemo">«Dame de buen grado más vino y hazme saber inmediatamente tu nombre para que te ofrezca un don hospitalario con el cual te huelgues. Pues también á los Ciclopes la fértil tierra les proporciona vino en gruesos racimos, que crecen con la lluvia enviada por Júpiter; mas esto se compone de ambrosía y néctar.»</span>
+
 </p>
+
 <p id="IX_360">
-<span class="num">9.360
-</span>
-»</span>De tal suerte habló, y volví á servirle el negro vino: tres veces se lo presenté y tres veces bebió incautamente. Y cuando los vapores del vino envolvieron la mente del Ciclope, díjele con suaves palabras: <span nivel="1" entidad="">«¡Ciclope! Preguntas cuál es mi nombre ilustre, y voy á decírtelo; pero dame el presente de hospitalidad que me has prometido. Mi nombre es
-<i>
-Nadie
-</i>
-; y
-<i>
-Nadie
-</i>
-me llaman mi madre, mi padre y mis compañeros todos.»</span>
+
+<span class="num">9.360</span>
+
+<span nivel="1" entidad="Odiseo">»De tal suerte habló, y volví á servirle el negro vino: tres veces se lo presenté y tres veces bebió incautamente. Y cuando los vapores del vino envolvieron la mente del Ciclope, díjele con suaves palabras:</span>
+
+<span nivel="2" entidad="Odiseo">«¡Ciclope! Preguntas cuál es mi nombre ilustre, y voy á decírtelo; pero dame el presente de hospitalidad que me has prometido. Mi nombre es <i>Nadie</i>; y <i>Nadie</i> me llaman mi madre, mi padre y mis compañeros todos.»</span>
+
 </p>
+
 <p id="IX_368">
-<span class="num">9.368
-</span>
-»</span>Así le hablé; y en seguida me respondió, con ánimo cruel: <span nivel="1" entidad="">«Á
-<i>
-Nadie
-</i>
-me lo comeré el último, después de sus compañeros, y á todos los demás antes que á él: tal será el don hospitalario que te ofrezca.»</span>
+
+  <span class="num">9.368</span>
+
+<span nivel="1" entidad="Odiseo">»Así le hablé; y en seguida me respondió, con ánimo cruel:</span>
+
+<span nivel="2" entidad="Polifemo">«Á<i>Nadie</i>me lo comeré el último, después de sus compañeros, y á todos los demás antes que á él: tal será el don hospitalario que te ofrezca.»</span>
+
 </p>
+
 <p id="IX_371">
-<span class="num">9.371
-</span>
-»</span>Dijo, tiróse hacia atrás y cayó de espaldas. Así echado, dobló la gruesa cerviz y vencióle el sueño, que todo lo rinde: Salíale de la garganta el vino con pedazos de carne humana, y eructaba por estar cargado de bebida. Entonces metí la estaca debajo del abundante rescoldo, para calentarla, y animé con mis palabras á todos los compañeros: no fuera que alguno, poseído de miedo, se retirase. Mas cuando la estaca de olivo, con ser verde, estaba á punto de ar
-<span class="pagenum" id="Page_125">
-[p. 125]
-</span>
-der y relumbraba intensamente, fuí y la saqué del fuego; rodeáronme mis compañeros, y una deidad nos infundió gran audacia. Ellos, tomando la estaca de olivo, hincáronla por la aguzada punta en el ojo del Ciclope; y yo, alzándome, hacíala girar por arriba. De la suerte que cuando un hombre taladra con el barreno el mástil de un navío, otros lo mueven por debajo con una correa, que asen por ambas extremidades, y aquél da vueltas continuamente: así nosotros, asiendo la estaca de ígnea punta, la hacíamos girar en el ojo del Ciclope y la sangre brotaba alrededor del caliente palo. Quemóle el ardoroso vapor párpados y cejas, en cuanto la pupila estaba ardiendo y sus raíces crepitaban por la acción del fuego. Así como el broncista, para dar el temple que es la fuerza del hierro, sumerge en agua fría una gran segur ó un hacha que rechina grandemente: de igual manera rechinaba el ojo del Ciclope en torno de la estaca de olivo. Dió el Ciclope un fuerte y horrendo gemido, retumbó la roca y nosotros, amedrentados, huímos prestamente; mas él se arrancó la estaca, toda manchada de sangre, arrojóla furioso lejos de sí y se puso á llamar con altos gritos á los Ciclopes que habitaban á su alrededor, dentro de cuevas, en los ventosos promontorios. En oyendo sus voces acudieron muchos, quien por un lado y quien por otro, y parándose junto á la cueva, le preguntaron qué le angustiaba:
+
+<span class="num">9.371</span>
+
+<span nivel="1" entidad="Odiseo">»Dijo, tiróse hacia atrás y cayó de espaldas. Así echado, dobló la gruesa cerviz y vencióle el sueño, que todo lo rinde: Salíale de la garganta el vino con pedazos de carne humana, y eructaba por estar cargado de bebida. Entonces metí la estaca debajo del abundante rescoldo, para calentarla, y animé con mis palabras á todos los compañeros: no fuera que alguno, poseído de miedo, se retirase. Mas cuando la estaca de olivo, con ser verde, estaba á punto de ar<span class="pagenum" id="Page_125">[p. 125]</span>der y relumbraba intensamente, fuí y la saqué del fuego; rodeáronme mis compañeros, y una deidad nos infundió gran audacia. Ellos, tomando la estaca de olivo, hincáronla por la aguzada punta en el ojo del Ciclope; y yo, alzándome, hacíala girar por arriba. De la suerte que cuando un hombre taladra con el barreno el mástil de un navío, otros lo mueven por debajo con una correa, que asen por ambas extremidades, y aquél da vueltas continuamente: así nosotros, asiendo la estaca de ígnea punta, la hacíamos girar en el ojo del Ciclope y la sangre brotaba alrededor del caliente palo. Quemóle el ardoroso vapor párpados y cejas, en cuanto la pupila estaba ardiendo y sus raíces crepitaban por la acción del fuego. Así como el broncista, para dar el temple que es la fuerza del hierro, sumerge en agua fría una gran segur ó un hacha que rechina grandemente: de igual manera rechinaba el ojo del Ciclope en torno de la estaca de olivo. Dió el Ciclope un fuerte y horrendo gemido, retumbó la roca y nosotros, amedrentados, huímos prestamente; mas él se arrancó la estaca, toda manchada de sangre, arrojóla furioso lejos de sí y se puso á llamar con altos gritos á los Ciclopes que habitaban á su alrededor, dentro de cuevas, en los ventosos promontorios. En oyendo sus voces acudieron muchos, quien por un lado y quien por otro, y parándose junto á la cueva, le preguntaron qué le angustiaba:</span>
+
 </p>
+
 <p id="IX_403">
-<span class="num">9.403
-</span>
-<span nivel="1" entidad=""><span class="interroga">«¿Por qué tan enojado, oh Polifemo, gritas de semejante modo en la divina noche, despertándonos á todos?</span> <span class="interroga">¿Acaso algún hombre se lleva tus ovejas mal de tu grado?</span> <span class="interroga">¿Ó, por ventura, te matan con engaño ó con fuerza?</span>»</span>
+
+  <span class="num">9.403</span>
+
+  <span nivel="2" entidad="Cíclopes"><span class="interroga">«¿Por qué tan enojado, oh Polifemo, gritas de semejante modo en la divina noche, despertándonos á todos?</span> <span class="interroga">¿Acaso algún hombre se lleva tus ovejas mal de tu grado?</span> <span class="interroga">¿Ó, por ventura, te matan con engaño ó con fuerza?</span>»</span>
+
 </p>
+
 <p id="IX_407">
-<span class="num">9.407
-</span>
-»</span>Respondióles desde la cueva el robusto Polifemo: <span nivel="1" entidad="">«¡Oh amigos!
-<i>
-Nadie
-</i>
-me mata con engaño, no con fuerza.»</span>
+
+<span class="num">9.407</span>
+
+<span nivel="1" entidad="Odiseo">»Respondióles desde la cueva el robusto Polifemo:</span>
+
+<span nivel="2" entidad="Polifemo">«¡Oh amigos!<i>Nadie</i> me mata con engaño, no con fuerza.»</span>
+
 </p>
+
 <p id="IX_409">
-<span class="num">9.409
-</span>
-»</span>Y ellos le contestaron con estas aladas palabras: <span nivel="1" entidad="">«Pues si nadie te hace fuerza, ya que estás solo, no es posible evitar la enfermedad que envía el gran Júpiter; pero, ruega á tu padre, el soberano Neptuno.»</span>
+
+  <span class="num">9.409</span>
+
+<span nivel="1" entidad="Odiseo">»Y ellos le contestaron con estas aladas palabras:</span>
+
+<span nivel="1" entidad="Cíclopes">«Pues si nadie te hace fuerza, ya que estás solo, no es posible evitar la enfermedad que envía el gran Júpiter; pero, ruega á tu padre, el soberano Neptuno.»</span>
+
 </p>
+
 <p id="IX_413">
-<span class="num">9.413
-</span>
-»</span>Apenas acabaron de hablar, se fueron todos; y yo me reí en mi corazón de cómo mi nombre y mi excelente artificio les había engañado. El Ciclope, gimiendo por los grandes dolores que padecía, anduvo á tientas, quitó el peñasco de la puerta y se sentó en la entrada, tendiendo los brazos por si lograba echar mano á alguien que saliera con las ovejas: ¡tan mentecato esperaba que yo fuese! Mas yo meditaba cómo pudiera aquel lance acabar mejor, y si hallaría algún recurso para librar de la muerte á mis compañeros y á mí mismo. Revolví toda clase de engaños y de artificios, como que se trataba
-<span class="pagenum" id="Page_126">
-[p. 126]
-</span>
-de la vida y un gran mal era inminente, y al fin parecióme la mejor resolución la que voy á decir. Había unos carneros bien alimentados, hermosos, grandes, de espesa y obscura lana; y, sin desplegar los labios, los até de tres en tres, entrelazando mimbres de aquellos sobre los cuales dormía el monstruoso é injusto Ciclope: y así el del centro llevaba á un hombre y los otros dos iban á entrambos lados para que salvaran á mis compañeros. Tres carneros llevaban, por tanto, á cada varón; mas yo, viendo que había otro carnero que sobresalía entre todas las reses, lo asgo por la espalda, me deslizo al vedijudo vientre y me quedo agarrado con ambos manos á la abundantísima lana, manteniéndome en esta postura con ánimo paciente. Así, profiriendo suspiros, aguardamos la aparición de la divinal Aurora.
+
+<span class="num">9.413</span>
+
+<span nivel="1" entidad="Odiseo">»Apenas acabaron de hablar, se fueron todos; y yo me reí en mi corazón de cómo mi nombre y mi excelente artificio les había engañado. El Ciclope, gimiendo por los grandes dolores que padecía, anduvo á tientas, quitó el peñasco de la puerta y se sentó en la entrada, tendiendo los brazos por si lograba echar mano á alguien que saliera con las ovejas: ¡tan mentecato esperaba que yo fuese! Mas yo meditaba cómo pudiera aquel lance acabar mejor, y si hallaría algún recurso para librar de la muerte á mis compañeros y á mí mismo. Revolví toda clase de engaños y de artificios, como que se trataba
+
+<span class="pagenum" id="Page_126">[p. 126]</span>
+
+de la vida y un gran mal era inminente, y al fin parecióme la mejor resolución la que voy á decir. Había unos carneros bien alimentados, hermosos, grandes, de espesa y obscura lana; y, sin desplegar los labios, los até de tres en tres, entrelazando mimbres de aquellos sobre los cuales dormía el monstruoso é injusto Ciclope: y así el del centro llevaba á un hombre y los otros dos iban á entrambos lados para que salvaran á mis compañeros. Tres carneros llevaban, por tanto, á cada varón; mas yo, viendo que había otro carnero que sobresalía entre todas las reses, lo asgo por la espalda, me deslizo al vedijudo vientre y me quedo agarrado con ambos manos á la abundantísima lana, manteniéndome en esta postura con ánimo paciente. Así, profiriendo suspiros, aguardamos la aparición de la divinal Aurora.</span>
+
 </p>
+
 <p id="IX_437">
-<span class="num">9.437
-</span>
-»</span>Cuando se descubrió la hija de la mañana, la Aurora de rosáceos dedos, los machos salieron presurosos á pacer y las hembras, como no se las había ordeñado, balaban en el corral con las tetas retesadas. Su amo, afligido por los dolores, palpaba el lomo á todas las reses, que estaban de pie, y el simple no advirtió que mis compañeros iban atados á los pechos de los vedijudos animales. El último en tomar el camino de la puerta fué mi carnero, cargado de su lana y de mí mismo que pensaba en muchas cosas. Y el robusto Polifemo lo palpó y así le dijo:
+
+<span class="num">9.437</span>
+
+<span nivel="1" entidad="Odiseo">»Cuando se descubrió la hija de la mañana, la Aurora de rosáceos dedos, los machos salieron presurosos á pacer y las hembras, como no se las había ordeñado, balaban en el corral con las tetas retesadas. Su amo, afligido por los dolores, palpaba el lomo á todas las reses, que estaban de pie, y el simple no advirtió que mis compañeros iban atados á los pechos de los vedijudos animales. El último en tomar el camino de la puerta fué mi carnero, cargado de su lana y de mí mismo que pensaba en muchas cosas. Y el robusto Polifemo lo palpó y así le dijo:
+
 </p>
+
 <p id="IX_447">
-<span class="num">9.447
-</span>
-<span nivel="1" entidad="">«¡Carnero querido! <span class="interroga">¿Por qué sales de la gruta el postrero del rebaño?</span> Nunca te quedaste detrás de las ovejas, sino que, andando á buen paso, pacías el primero las tiernas flores de la hierba, llegabas el primero á las corrientes de los ríos y eras quien primero deseaba tornar al establo al caer de la tarde; mas ahora vienes, por el contrario, el último de todos. Sin duda echarás de menos el ojo de tu señor, á quien cegó un hombre malvado con sus perniciosos compañeros, perturbándole las mientes con el vino,
-<i>
-Nadie
-</i>
-, pero me figuro que aún no se ha librado de una terrible muerte. ¡Si tuvieras mis sentimientos y pudieses hablar, para indicarme dónde evita mi furor! Pronto su cerebro, molido á golpes, se esparciría acá y allá por el suelo de la gruta, y mi corazón se aliviaría de los daños que me ha causado ese despreciable
-<i>
-Nadie
-</i>
-.»</span>
+
+  <span class="num">9.447</span>
+
+<span nivel="2" entidad="Polifemo">«¡Carnero querido! <span class="interroga">¿Por qué sales de la gruta el postrero del rebaño?</span> Nunca te quedaste detrás de las ovejas, sino que, andando á buen paso, pacías el primero las tiernas flores de la hierba, llegabas el primero á las corrientes de los ríos y eras quien primero deseaba tornar al establo al caer de la tarde; mas ahora vienes, por el contrario, el último de todos. Sin duda echarás de menos el ojo de tu señor, á quien cegó un hombre malvado con sus perniciosos compañeros, perturbándole las mientes con el vino, <i>Nadie</i>, pero me figuro que aún no se ha librado de una terrible muerte. ¡Si tuvieras mis sentimientos y pudieses hablar, para indicarme dónde evita mi furor! Pronto su cerebro, molido á golpes, se esparciría acá y allá por el suelo de la gruta, y mi corazón se aliviaría de los daños que me ha causado ese despreciable <i>Nadie</i>.»</span>
+
 </p>
+
 <div class="figcenter mt1" id="Il_9" role="figure" aria-labelledby="ebm_caption17">
+
 <p>
-<span class="pagenum" id="Page_127">
-[p. 127]
-</span>
+
+  <span class="pagenum" id="Page_127">[p. 127]</span>
+
 </p>
+
 <img alt="Ilustración de cabeza de capítulo" class="thick" src="images/odisea127.jpg" id="img_images_odisea127.jpg">
+
 <p class="caption" id="ebm_caption17">
-<span class="smcap">
-El Ciclope arrancó la cumbre de una montaña y la arrojó delante de nuestra embarcación
-</span>
+
+<span class="smcap">El Ciclope arrancó la cumbre de una montaña y la arrojó delante de nuestra embarcación</span>
+
 </p>
-<p class="captiond">
-(
-<i>
-Canto IX, versos 480 y 481.
-</i>
-)
-</p>
+
+<p class="captiond">(<i>Canto IX, versos 480 y 481.</i>)</p>
+
 </div>
+
 <p class="mt1" id="IX_461">
-<span class="num">9.461
-</span>
-»</span>Diciendo así, dejó el carnero y lo echó afuera. Cuando estuvimos algo apartados de la cueva y del corral, soltéme del carnero y desaté á los amigos. Al punto antecogimos aquellas gordas reses de gráciles piernas y, dando muchos rodeos, llegamos por fin á la nave. Nuestros compañeros se alegraron de vernos á nosotros, que nos
-<span class="pagenum" id="Page_128">
-[p. 128]
-</span>
-habíamos librado de la muerte, y empezaron á gemir y á sollozar por los demás. Pero yo, haciéndoles una señal con las cejas, les prohibí el llanto y les mandé que cargaran presto en la nave muchas de aquellas reses de hermoso vellón y volviéramos á surcar el agua salobre. Embarcáronse en seguida y, sentándose por orden en los bancos, tornaron á herir con los remos el espumoso mar. Y, al estar tan lejos cuanto se deja oir un hombre que grita, hablé al Ciclope con estas mordaces palabras:
+
+<span class="num">9.461</span>
+
+<span nivel="1" entidad="Odiseo">»Diciendo así, dejó el carnero y lo echó afuera. Cuando estuvimos algo apartados de la cueva y del corral, soltéme del carnero y desaté á los amigos. Al punto antecogimos aquellas gordas reses de gráciles piernas y, dando muchos rodeos, llegamos por fin á la nave. Nuestros compañeros se alegraron de vernos á nosotros, que nos
+
+<span class="pagenum" id="Page_128">[p. 128]</span>
+
+habíamos librado de la muerte, y empezaron á gemir y á sollozar por los demás. Pero yo, haciéndoles una señal con las cejas, les prohibí el llanto y les mandé que cargaran presto en la nave muchas de aquellas reses de hermoso vellón y volviéramos á surcar el agua salobre. Embarcáronse en seguida y, sentándose por orden en los bancos, tornaron á herir con los remos el espumoso mar. Y, al estar tan lejos cuanto se deja oir un hombre que grita, hablé al Ciclope con estas mordaces palabras:</span>
+
 </p>
+
 <p id="IX_475">
-<span class="num">9.475
-</span>
-<span nivel="1" entidad="">«¡Ciclope! No debías emplear tu gran fuerza para comerte en la honda gruta á los amigos de un varón indefenso. Las consecuencias de tus malas acciones habían de alcanzarte, oh cruel, ya que no temiste devorar á tus huéspedes en tu misma morada: por esto Júpiter y los demás dioses te han castigado.»</span>
+
+<span class="num">9.475</span>
+
+<span nivel="2" entidad="Polifemo">«¡Ciclope! No debías emplear tu gran fuerza para comerte en la honda gruta á los amigos de un varón indefenso. Las consecuencias de tus malas acciones habían de alcanzarte, oh cruel, ya que no temiste devorar á tus huéspedes en tu misma morada: por esto Júpiter y los demás dioses te han castigado.»</span>
+
 </p>
+
 <p id="IX_480">
-<span class="num">9.480
-</span>
-»</span>Así le dije; y él, airándose más en su corazón, arrancó la cumbre de una gran montaña, arrojóla delante de nuestra embarcación de azulada proa, y poco faltó para que no diese en la extremidad del gobernalle. Agitóse el mar por la caída del peñasco y las olas, al refluir desde el ponto, empujaron la nave hacia el continente y la llevaron á tierra firme. Pero yo, asiendo con ambas manos un larguísimo botador, echéla al mar y ordené á mis compañeros, haciéndoles con la cabeza silenciosa señal, que apretaran con los remos á fin de librarnos de aquel peligro. Encorváronse todos y empezaron á remar. Mas, al hallarnos dentro del mar, á una distancia doble de la de antes, hablé al Ciclope, no embargante que mis compañeros me rodeaban y pretendían disuadirme con suaves palabras unos por un lado y otros por el opuesto:
+
+<span class="num">9.480</span>
+
+<span nivel="1" entidad="Odiseo">»Así le dije; y él, airándose más en su corazón, arrancó la cumbre de una gran montaña, arrojóla delante de nuestra embarcación de azulada proa, y poco faltó para que no diese en la extremidad del gobernalle. Agitóse el mar por la caída del peñasco y las olas, al refluir desde el ponto, empujaron la nave hacia el continente y la llevaron á tierra firme. Pero yo, asiendo con ambas manos un larguísimo botador, echéla al mar y ordené á mis compañeros, haciéndoles con la cabeza silenciosa señal, que apretaran con los remos á fin de librarnos de aquel peligro. Encorváronse todos y empezaron á remar. Mas, al hallarnos dentro del mar, á una distancia doble de la de antes, hablé al Ciclope, no embargante que mis compañeros me rodeaban y pretendían disuadirme con suaves palabras unos por un lado y otros por el opuesto:</span>
+
 </p>
+
 <p id="IX_494">
-<span class="num">9.494
-</span>
-<span nivel="1" entidad="">«¡Desgraciado! <span class="interroga">¿Por qué quieres irritar á ese hombre feroz que con lo que tiró al ponto hizo tornar la nave á tierra firme donde creímos encontrar la muerte?</span> Si oyera que alguien da voces ó habla, nos aplastaría la cabeza y el maderamen del barco, arrojándonos áspero bloque. ¡Tan lejos llegan sus tiros!»</span>
+
+<span class="num">9.494</span>
+
+<span nivel="2" entidad="Polifemo">«¡Desgraciado! <span class="interroga">¿Por qué quieres irritar á ese hombre feroz que con lo que tiró al ponto hizo tornar la nave á tierra firme donde creímos encontrar la muerte?</span> Si oyera que alguien da voces ó habla, nos aplastaría la cabeza y el maderamen del barco, arrojándonos áspero bloque. ¡Tan lejos llegan sus tiros!»</span>
+
 </p>
 <p id="IX_500">
-<span class="num">9.500
-</span>
-»</span>Así se expresaban. Mas no lograron quebrantar la firmeza de mi ánimo; y, con el corazón irritado, le hablé otra vez con estas palabras:
+
+<span class="num">9.500</span>
+
+<span nivel="1" entidad="Odiseo">»Así se expresaban. Mas no lograron quebrantar la firmeza de mi ánimo; y, con el corazón irritado, le hablé otra vez con estas palabras:</span>
+
 </p>
+
 <p id="IX_502">
-<span class="num">9.502
-</span>
-<span nivel="1" entidad="">«¡Ciclope! Si alguno de los mortales hombres te pregunta la causa de tu vergonzosa ceguera, dile que quien te privó del ojo fué Ulises, el asolador de ciudades, hijo de Laertes, que tiene su casa en Ítaca.»</span>
+
+  <span class="num">9.502</span>
+
+<span nivel="2" entidad="Odiseo">«¡Ciclope! Si alguno de los mortales hombres te pregunta la causa de tu vergonzosa ceguera, dile que quien te privó del ojo fué Ulises, el asolador de ciudades, hijo de Laertes, que tiene su casa en Ítaca.»</span>
+
 </p>
+
 <p id="IX_506">
-<span class="num">9.506
-</span>
-»</span>Tal dije; y él, dando un suspiro, respondió: <span nivel="1" entidad="">«¡Oh dioses! Cumpliéronse los antiguos pronósticos. Hubo aquí un adivino excelen
-<span class="pagenum" id="Page_129">
-[p. 129]
-</span>
-te y grande, Télemo Eurímida, el cual descollaba en el arte adivinatoria y llegó á la senectud profetizando entre los Ciclopes: éste, pues, me vaticinó lo que hoy sucede: que sería privado de la vista por mano de Ulises. Mas esperaba yo que llegase un varón de gran estatura, gallardo, de mucha fuerza; y es un hombre pequeño, despreciable y menguado quien me cegó el ojo, subyugándome con el vino. Pero, ea, vuelve Ulises, para que te ofrezca los dones de la hospitalidad y exhorte al ínclito dios que bate la tierra, á que te conduzca á la patria; que soy su hijo y él se gloría de ser mi padre. Y será él, si le place, quien me curará y no otro alguno de los bienaventurados dioses ni de los mortales hombres.»</span>
+
+  <span class="num">9.506</span>
+
+  <span nivel="1" entidad="Odiseo">»Tal dije; y él, dando un suspiro, respondió:</span>
+    
+<span nivel="2" entidad="Polifemo">«¡Oh dioses! Cumpliéronse los antiguos pronósticos. Hubo aquí un adivino excelen<span class="pagenum" id="Page_129">[p. 129]</span>te y grande, Télemo Eurímida, el cual descollaba en el arte adivinatoria y llegó á la senectud profetizando entre los Ciclopes: éste, pues, me vaticinó lo que hoy sucede: que sería privado de la vista por mano de Ulises. Mas esperaba yo que llegase un varón de gran estatura, gallardo, de mucha fuerza; y es un hombre pequeño, despreciable y menguado quien me cegó el ojo, subyugándome con el vino. Pero, ea, vuelve Ulises, para que te ofrezca los dones de la hospitalidad y exhorte al ínclito dios que bate la tierra, á que te conduzca á la patria; que soy su hijo y él se gloría de ser mi padre. Y será él, si le place, quien me curará y no otro alguno de los bienaventurados dioses ni de los mortales hombres.»</span>
+
 </p>
+
 <p id="IX_522">
-<span class="num">9.522
-</span>
-»</span>Habló, pues, de esta suerte; y le contesté diciendo: <span nivel="1" entidad="">«¡Así pudiera quitarte el alma y la vida, y enviarte á la morada de Plutón, como ni el mismo dios que sacude la tierra te curará el ojo!»</span>
+
+  <span class="num">9.522
+
+  </span>
+<span nivel="1" entidad="Odiseo">»Habló, pues, de esta suerte; y le contesté diciendo:</span>
+  
+<span nivel="2" entidad="Odiseo">«¡Así pudiera quitarte el alma y la vida, y enviarte á la morada de Plutón, como ni el mismo dios que sacude la tierra te curará el ojo!»</span>
+
 </p>
+
 <p id="IX_526">
-<span class="num">9.526
-</span>
-»</span>Dije. Y el Ciclope oró en seguida al soberano Neptuno, alzando las manos al estrellado cielo:
+
+<span class="num">9.526</span>
+
+<span nivel="1" entidad="Odiseo">»Dije. Y el Ciclope oró en seguida al soberano Neptuno, alzando las manos al estrellado cielo:</span>
+
 </p>
+
 <p id="IX_528">
-<span class="num">9.528
-</span>
-<span nivel="1" entidad="">«¡Óyeme, Neptuno, que ciñes la tierra, dios de cerúlea cabellera! Si en verdad soy tuyo y tú te glorías de ser mi padre, concédeme que Ulises, el asolador de ciudades, hijo de Laertes, que tiene su casa en Ítaca, no vuelva nunca á su palacio. Mas si le está destinado que ha de ver á los suyos y tornar á su bien construída casa y á su patria, sea tarde y mal, en nave ajena, después de perder todos los compañeros, y encuentre nuevas cuitas en su morada.»</span>
+
+  <span class="num">9.528</span>
+
+<span nivel="2" entidad="Polifemo">«¡Óyeme, Neptuno, que ciñes la tierra, dios de cerúlea cabellera! Si en verdad soy tuyo y tú te glorías de ser mi padre, concédeme que Ulises, el asolador de ciudades, hijo de Laertes, que tiene su casa en Ítaca, no vuelva nunca á su palacio. Mas si le está destinado que ha de ver á los suyos y tornar á su bien construída casa y á su patria, sea tarde y mal, en nave ajena, después de perder todos los compañeros, y encuentre nuevas cuitas en su morada.»</span>
+
 </p>
+
 <p id="IX_536">
-<span class="num">9.536
-</span>
-»</span>Tal fué su plegaria y la oyó el dios de cerúlea cabellera. Acto seguido tomó el Ciclope un peñasco mucho mayor que el de antes, lo despidió, haciéndolo voltear con fuerza inmensa, arrojólo detrás de nuestro bajel de azulada proa, y poco faltó para que no diese en la extremidad del gobernalle. Agitóse el mar por la caída del peñasco y las olas, llevando la embarcación hacia adelante, hiciéronla llegar á tierra firme.
+
+  <span class="num">9.536</span>
+
+<span nivel="1" entidad="Odiseo">»Tal fué su plegaria y la oyó el dios de cerúlea cabellera. Acto seguido tomó el Ciclope un peñasco mucho mayor que el de antes, lo despidió, haciéndolo voltear con fuerza inmensa, arrojólo detrás de nuestro bajel de azulada proa, y poco faltó para que no diese en la extremidad del gobernalle. Agitóse el mar por la caída del peñasco y las olas, llevando la embarcación hacia adelante, hiciéronla llegar á tierra firme.</span>
+
 </p>
+
 <p id="IX_543">
-<span class="num">9.543
-</span>
-»</span>Así que arribamos á la isla donde estaban los restantes navíos, de muchos bancos, y en su contorno los compañeros que nos aguardaban llorando, saltamos á la orilla del mar y sacamos la nave á la arena. Y, tomando de la cóncava embarcación las reses del Ciclope, nos las repartimos de modo que ninguno se quedara sin su parte. En esta partición que se hizo del ganado, mis compañeros, de hermosas grebas, asignáronme el carnero además de lo que me correspondía; y yo lo sacrifiqué en la playa á Júpiter Sa
+
+<span class="num">9.543</span>
+
+<span nivel="1" entidad="Odiseo">»Así que arribamos á la isla donde estaban los restantes navíos, de muchos bancos, y en su contorno los compañeros que nos aguardaban llorando, saltamos á la orilla del mar y sacamos la nave á la arena. Y, tomando de la cóncava embarcación las reses del Ciclope, nos las repartimos de modo que ninguno se quedara sin su parte. En esta partición que se hizo del ganado, mis compañeros, de hermosas grebas, asignáronme el carnero además de lo que me correspondía; y yo lo sacrifiqué en la playa á Júpiter Sa
 <span class="pagenum" id="Page_130">
 [p. 130]
 </span>
-turnio, que amontona las nubes y sobre todos reina, quemando en su obsequio ambos muslos. Pero el dios, sin hacer caso del sacrificio, meditaba cómo podrían llegar á perderse todas mis naves, de muchos bancos, con los fieles compañeros. Y ya todo el día, hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino. Cuando el sol se puso y llegó la noche, nos acostamos en la orilla del mar. Pero, apenas se descubrió la hija de la mañana, la Aurora de rosáceos dedos, ordené á mis compañeros que subieran á la nave y desataran las amarras. Embarcáronse prestamente y, sentándose por orden en los bancos, tornaron á herir con los remos el espumoso mar.
+turnio, que amontona las nubes y sobre todos reina, quemando en su obsequio ambos muslos. Pero el dios, sin hacer caso del sacrificio, meditaba cómo podrían llegar á perderse todas mis naves, de muchos bancos, con los fieles compañeros. Y ya todo el día, hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino. Cuando el sol se puso y llegó la noche, nos acostamos en la orilla del mar. Pero, apenas se descubrió la hija de la mañana, la Aurora de rosáceos dedos, ordené á mis compañeros que subieran á la nave y desataran las amarras. Embarcáronse prestamente y, sentándose por orden en los bancos, tornaron á herir con los remos el espumoso mar.</span>
+
 </p>
+
 <p id="IX_565">
-<span class="num">9.565
-</span>
-»</span>Desde allí seguimos adelante, con el corazón triste, escapando gustosos de la muerte aunque perdimos algunos compañeros.
+
+  <span class="num">9.565</span>
+
+<span nivel="1" entidad="Odiseo">»Desde allí seguimos adelante, con el corazón triste, escapando gustosos de la muerte aunque perdimos algunos compañeros.</span>
+
 </p>
+
 <div class="figcenter mt3">
-<img alt="Viñeta de adorno" src="images/odisea130.jpg" id="img_images_odisea130.jpg">
+
+  <img alt="Viñeta de adorno" src="images/odisea130.jpg" id="img_images_odisea130.jpg">
+
 </div>
+
 <hr class="chap0">
+
 <div class="chapter" id="Ch_10">
-<p>
-<span class="pagenum" id="Page_131">
-[p. 131]
-</span>
+
+  <p>
+
+    <span class="pagenum" id="Page_131">[p. 131]</span>
+
 </p>
+
 <div class="figcenter" role="figure" aria-labelledby="ebm_caption18">
-<img alt="Ilustración de cabeza de capítulo" class="thin" src="images/odisea131.jpg" id="img_images_odisea131.jpg">
-<p class="caption" id="ebm_caption18">
-Ulises, compadeciéndose de la suerte de sus compañeros, suplica á Circe que les torne su anterior figura
-</p>
+
+  <img alt="Ilustración de cabeza de capítulo" class="thin" src="images/odisea131.jpg" id="img_images_odisea131.jpg">
+
+  <p class="caption" id="ebm_caption18">Ulises, compadeciéndose de la suerte de sus compañeros, suplica á Circe que les torne su anterior figura</p>
+
 </div>
-<h2 id="canto_10" class="nobreak g1 ws1">
-CANTO X
-</h2>
-<p class="subh2">
-LO RELATIVO Á ÉOLO, Á LOS LESTRIGONES Y Á CIRCE
-</p>
+
+<h2 id="canto_10" class="nobreak g1 ws1">CANTO X</h2>
+
+<p class="subh2">LO RELATIVO Á ÉOLO, Á LOS LESTRIGONES Y Á CIRCE</p>
+
 </div>
+
 <p id="X_1">
-<span class="num">10.1
-</span>
-»</span>Llegamos á la isla Eolia, donde moraba Éolo Hipótada, caro á los inmortales dioses; isla natátil, á la cual cerca broncíneo é irrompible muro, levantándose en el interior una escarpada roca. Á Éolo naciéronle doce vástagos en el palacio: seis hijas y seis hijos florecientes; y dió aquéllas á éstos para que fuesen sus esposas. Todos juntos, á la vera de su padre querido y de su madre veneranda, disfrutan de un continuo banquete en el que se les sirven muchísimos manjares. Durante el día percíbese en la casa el olor del asado y resuena toda con la flauta; y por la noche duerme cada uno con su púdica mujer sobre tapetes, en torneado lecho. Llegamos, pues, á su ciudad y á sus magníficas viviendas, y Éolo tratóme como á un amigo por espacio de un mes y me hizo preguntas sobre muchas cosas—sobre Ilión, sobre las naves de los argivos, sobre la vuelta de los aqueos—de todo lo cual le informé debidamente. Cuando quise partir y le rogué que me despidiera, no se negó y preparó mi via
+
+  <span class="num">10.1</span>
+
+<span nivel="1" entidad="Odiseo">»Llegamos á la isla Eolia, donde moraba Éolo Hipótada, caro á los inmortales dioses; isla natátil, á la cual cerca broncíneo é irrompible muro, levantándose en el interior una escarpada roca. Á Éolo naciéronle doce vástagos en el palacio: seis hijas y seis hijos florecientes; y dió aquéllas á éstos para que fuesen sus esposas. Todos juntos, á la vera de su padre querido y de su madre veneranda, disfrutan de un continuo banquete en el que se les sirven muchísimos manjares. Durante el día percíbese en la casa el olor del asado y resuena toda con la flauta; y por la noche duerme cada uno con su púdica mujer sobre tapetes, en torneado lecho. Llegamos, pues, á su ciudad y á sus magníficas viviendas, y Éolo tratóme como á un amigo por espacio de un mes y me hizo preguntas sobre muchas cosas—sobre Ilión, sobre las naves de los argivos, sobre la vuelta de los aqueos—de todo lo cual le informé debidamente. Cuando quise partir y le rogué que me despidiera, no se negó y preparó mi via
 <span class="pagenum" id="Page_132">
 [p. 132]
 </span>

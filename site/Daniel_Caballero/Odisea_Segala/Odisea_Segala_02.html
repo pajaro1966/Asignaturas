@@ -42,124 +42,109 @@ span[entidad] /* [nivel="1"] */ {border: 8px solid lightgrey; display: block; pa
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
 margin-left: -20px;}
 
-/* 
-span[entidad]::before {content: attr(entidad); position: absolute; right: 82%;; text-align: left; text-indent: 0 ; border: 2px solid black; } */ 
-
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgre; border-style: inset;/* margin-right: 80px;  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
 
-/* 
-span[entidad] span[entidad] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 20px; border: 2px solid red; font-size: 90%;}
-*/ 
-
-
-
-/*
-span[entidad] span[entidad]::before {margin-top: 25px; right: 85.5%; font-size: 95%; font-size: 90%; border: 2px solid red;}
-*/
-
-
-/* span[entidad]::after  {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; } */
-
 span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alcinoo"]::after */  {background-color: brown; color: white;}
 
-[entidad="Antinoo"]/* , [entidad="Antinoo"]::after */, [entidad="Antinoo"]::before {background-color: green; color: white; }
+[entidad="Antinoo"], [entidad="Antinoo"]::before /* , [entidad="Antinoo"]::after */ {background-color: green; color: white; }
 
-[entidad="Apolo"]/* , [entidad="Apolo"]::after */, [entidad="Apolo"]::before {background-color: mediumslateblue; color: white; }
+[entidad="Apolo"], [entidad="Apolo"]::before /* , [entidad="Apolo"]::after */ {background-color: mediumslateblue; color: white; }
 
-[entidad="Arete"]/* , [entidad="Arete"]::after */, [entidad="Arete"]::before {background-color: sienna; color: white; }
-
-
-[entidad="Calipso"]/* , [entidad="Calipso"]::after */, [entidad="Calipso"]::before {background-color: lightblue; color: white; }
-
-[entidad="Cíclopes"]/* , [entidad="Cíclopes"]::after */, [entidad="Cíclopes"]::before {background-color: LightSeaGreen; color: white; }
-
-[entidad="Circe"]/* , [entidad="Circe"]::after */, [entidad="Circe"]::before {background-color: CornflowerBlue; color: white; }
-
-[entidad="compañeros"]/* , [entidad="compañeros"]::after */, [entidad="compañeros"]::before {background-color: LightSalmon; color: white; }
-
-[entidad="dioses"]/* , [entidad="dioses"]::after */, [entidad="dioses"]::before {background-color: DodgerBlue; color: white; }
+[entidad="Arete"] , [entidad="Arete"]::before /* , [entidad="Arete"]::after */ {background-color: sienna; color: white; }
 
 
-[entidad="doncellas"]/* , [entidad="doncellas"]::after */, [entidad="doncellas"]::before {background-color: beige; }
+[entidad="Calipso"], [entidad="Calipso"]::before /* , [entidad="Calipso"]::after */ {background-color: lightblue; color: white; }
 
-[entidad="Egiptio"]/* , [entidad="Egiptio"]::after */, [entidad="Egiptio"]::before {background-color: peachpuff; color: black; }
+[entidad="Cíclopes"], [entidad="Cíclopes"]::before /* , [entidad="Cíclopes"]::after */ {background-color: LightSeaGreen; color: white; }
 
-[entidad="Eolo"]/* , [entidad="Eolo"]::after */, [entidad="Eolo"]::before {background-color: SlateBlue; color: white; }
+[entidad="Circe"], [entidad="Circe"]::before /* , [entidad="Circe"]::after */ {background-color: CornflowerBlue; color: white; }
 
-[entidad="Equeneo"]/* , [entidad="Equeneo"]::after */, [entidad="Equeneo"]::before {background-color: peachpuff; color: black; }
+[entidad="compañeros"], [entidad="compañeros"]::before /* , [entidad="compañeros"]::after */ {background-color: LightSalmon; color: white; }
 
-[entidad="Eteoneo"]/* , [entidad="Eteoneo"]::after */, [entidad="Eteoneo"]::before {background-color: BurlyWood ;}
-[entidad="Eurimaco"]/* , [entidad="Eurimaco"]::after */, [entidad="Eurimaco"]::before {background-color: greenyellow;  }
-
-[entidad="Euriclea"]/* , [entidad="Euriclea"]::after */, [entidad="Euriclea"]::before {background-color: salmon; }
-
-[entidad="Eurialo"]/* , [entidad="Eurialo"]::after */, [entidad="Eurialo"]::before {background-color: #DAA06D; }
+[entidad="dioses"], [entidad="dioses"]::before /* , [entidad="dioses"]::after */ {background-color: DodgerBlue; color: white; }
 
 
-[entidad="Euríloco"]/* , [entidad="Euríloco"]::after */, [entidad="Euríloco"]::before {background-color: Coral; }
+[entidad="doncellas"], [entidad="doncellas"]::before /* , [entidad="doncellas"]::after */ {background-color: beige; }
+
+[entidad="Egiptio"], [entidad="Egiptio"]::before /* , [entidad="Egiptio"]::after */ {background-color: peachpuff; color: black; }
+
+[entidad="Eolo"], [entidad="Eolo"]::before /* , [entidad="Eolo"]::after */ {background-color: SlateBlue; color: white; }
+
+[entidad="Equeneo"], [entidad="Equeneo"]::before /* , [entidad="Equeneo"]::after */ {background-color: peachpuff; color: black; }
+
+[entidad="Eteoneo"], [entidad="Eteoneo"]::before /* , [entidad="Eteoneo"]::after */ {background-color: BurlyWood ;}
+
+[entidad="Eurimaco"], [entidad="Eurimaco"]::before /* , [entidad="Eurimaco"]::after */ {background-color: greenyellow;  }
+
+[entidad="Euriclea"], [entidad="Euriclea"]::before /* , [entidad="Euriclea"]::after */ {background-color: salmon; }
+
+[entidad="Eurialo"], [entidad="Eurialo"]::before /* , [entidad="Eurialo"]::after */ {background-color: #DAA06D; }
 
 
-[entidad="feacios"]/* , [entidad="feacios"]::after */, [entidad="feacios"]::before {background-color: beige;}
+[entidad="Euríloco"], [entidad="Euríloco"]::before /* , [entidad="Euríloco"]::after */ {background-color: Coral; }
 
-[entidad="Haliterses"]/* , [entidad="Haliterses"]::after */, [entidad="Haliterses"]::before {background-color: papayawhip;}
+[entidad="feacios"], [entidad="feacios"]::before /* , [entidad="feacios"]::after */ {background-color: beige;}
 
-[entidad="Helena"]/* , [entidad="Helena"]::after */, [entidad="Helena"]::before {background-color: pink;}
+[entidad="Haliterses"], [entidad="Haliterses"]::before /* , [entidad="Haliterses"]::after */ {background-color: papayawhip;}
 
-[entidad="Idotea"]/* , [entidad="Idotea"]::after */, [entidad="Idotea"]::before {background-color: blueviolet; color: white;}
+[entidad="Helena"], [entidad="Helena"]::before /* , [entidad="Helena"]::after */ {background-color: pink;}
 
-[entidad="Ino"] /* , [entidad="Ino"]::after */, [entidad="Ino"]::before {background-color: cyan; }
+[entidad="Idotea"], [entidad="Idotea"]::before /* , [entidad="Idotea"]::after */{background-color: blueviolet; color: white;}
 
-[entidad="Iftima"] /* , [entidad="Iftima"]::after */, [entidad="Iftima"]::before {background-color: aqua; color: white;}
+[entidad="Ino"], [entidad="Ino"]::before  /* , [entidad="Ino"]::after */{background-color: cyan; }
 
-
-[entidad="Laodamante"]/* , [entidad="Laodamante"]::after */, [entidad="Laodamante"]::before {background-color: chocolate; color: white;}
-
-
-[entidad="Leocrito"]/* , [entidad="Leocrito"]::after */, [entidad="Leocrito"]::before {background-color: yellowgreen;}
-
-[entidad="Marte"]/* , [entidad="Marte"]::after */, [entidad="Marte"]::before {background-color: SteelBlue; color: white;}
-
-[entidad="Medonte"]/* , [entidad="Medonte"]::after */, [entidad="Medonte"]::before {background-color: brown; color: white;}
-
-[entidad="Menelao"]/* , [entidad="Menelao"]::after */, [entidad="Menelao"]::before {background-color: Tan ;}
-
-[entidad="Mentor"] /* , [entidad="Mentor"]::after */, [entidad="Mentor"]::before {background-color: gold;}
-
-[entidad="Mercurio"] /* , [entidad="Mercurio"]::after */, [entidad="Mercurio"]::before {background-color: DarkSlateBlue; color: white;}
-
-[entidad="Minerva"]/* , [entidad="Minerva"]::after */, [entidad="Minerva"]::before {background-color: aqua; border: 2px solid aqua; }
+[entidad="Iftima"], [entidad="Iftima"]::before  /* , [entidad="Iftima"]::after */ {background-color: aqua; color: white;}
 
 
-[entidad="Nausicaa"] /* , [entidad="Nausicaa"]::after */, [entidad="Nausicaa"]::before {background-color: pink;}
-
-[entidad="Neptuno"] /* , [entidad="Neptuno"]::after */, [entidad="Neptuno"]::before {background-color: darkblue; color: white;}
-
-[entidad="Nestor"]/* , [entidad="Nestor"]::after */, [entidad="Nestor"]::before {background-color: BurlyWood ;}
-
-[entidad="Noemon"]/* , [entidad="Noemon"]::after */, [entidad="Noemon"]::before {background-color: gold ;}
-
-[entidad="Odiseo"]/* , [entidad="Odiseo"]::after */, [entidad="Odiseo"]::before {background-color: lightcoral;}
-[entidad="Penelope"]/* , [entidad="Penelope"]::after */, [entidad="Penelope"]::before {background-color: pink;}
-
-[entidad="Pisistrato"]/* , [entidad="Pisistrato"]::after */, [entidad="Pisistrato"]::before {background-color: brown; color: white;}
-
-[entidad="Polites"]/* , [entidad="Polites"]::after */, [entidad="Polites"]::before {background-color: Tomato; color: white;}
+[entidad="Laodamante"], [entidad="Laodamante"]::before /* , [entidad="Laodamante"]::after */ {background-color: chocolate; color: white;}
 
 
-[entidad="Polifemo"]/* , [entidad="Polifemo"]::after */, [entidad="Polifemo"]::before {background-color: green; color: white;}
+[entidad="Leocrito"], [entidad="Leocrito"]::before /* , [entidad="Leocrito"]::after */ {background-color: yellowgreen;}
 
-[entidad="Pretendientes"]/* , [entidad="Pretendientes"]::after */, [entidad="Pretendientes"]::before {background-color: LimeGreen ;}
+[entidad="Marte"], [entidad="Marte"]::before /* , [entidad="Marte"]::after */ {background-color: SteelBlue; color: white;}
 
-[entidad="Proteo"]/* , [entidad="Proteo"]::after */, [entidad="Proteo"]::before {background-color: lightblue ;}
+[entidad="Medonte"], [entidad="Medonte"]::before /* , [entidad="Medonte"]::after */ {background-color: brown; color: white;}
 
-[entidad="Telemaco"]/* , [entidad="Telemaco"]::after */, [entidad="Telemaco"]::before {background-color: orange;}
+[entidad="Menelao"], [entidad="Menelao"]::before /* , [entidad="Menelao"]::after */ {background-color: Tan ;}
+
+[entidad="Mentor"] , [entidad="Mentor"]::before /* , [entidad="Mentor"]::after */ {background-color: gold;}
+
+[entidad="Mercurio"], [entidad="Mercurio"]::before  /* , [entidad="Mercurio"]::after */ {background-color: DarkSlateBlue; color: white;}
+
+[entidad="Minerva"], [entidad="Minerva"]::before /* , [entidad="Minerva"]::after */ {background-color: aqua; border: 2px solid aqua; }
 
 
-[entidad="Vulcano"]/* , [entidad="Vulcano"]::after */, [entidad="Vulcano"]::before {background-color: Turquoise;}
+[entidad="Nausicaa"], [entidad="Nausicaa"]::before  /* , [entidad="Nausicaa"]::after */ {background-color: pink;}
 
-[entidad="Zeus"]/* , [entidad="Zeus"]::after */, [entidad="Zeus"]::before {background-color: blue; color: white; }
+[entidad="Neptuno"], [entidad="Neptuno"]::before  /* , [entidad="Neptuno"]::after */ {background-color: darkblue; color: white;}
+
+[entidad="Nestor"], [entidad="Nestor"]::before /* , [entidad="Nestor"]::after */ {background-color: BurlyWood ;}
+
+[entidad="Noemon"], [entidad="Noemon"]::before /* , [entidad="Noemon"]::after */ {background-color: gold ;}
+
+[entidad="Odiseo"], [entidad="Odiseo"]::before /* , [entidad="Odiseo"]::after */ {background-color: lightcoral;}
+
+[entidad="Penelope"], [entidad="Penelope"]::before /* , [entidad="Penelope"]::after */ {background-color: pink;}
+
+[entidad="Pisistrato"], [entidad="Pisistrato"]::before /* , [entidad="Pisistrato"]::after */ {background-color: brown; color: white;}
+
+[entidad="Polites"], [entidad="Polites"]::before /* , [entidad="Polites"]::after */ {background-color: Tomato; color: white;}
+
+
+[entidad="Polifemo"], [entidad="Polifemo"]::before /* , [entidad="Polifemo"]::after */ {background-color: green; color: white;}
+
+[entidad="Pretendientes"], [entidad="Pretendientes"]::before /* , [entidad="Pretendientes"]::after */ {background-color: LimeGreen ;}
+
+[entidad="Proteo"], [entidad="Proteo"]::before /* , [entidad="Proteo"]::after */ {background-color: lightblue ;}
+
+[entidad="Telemaco"], [entidad="Telemaco"]::before /* , [entidad="Telemaco"]::after */ {background-color: orange;}
+
+
+[entidad="Vulcano"], [entidad="Vulcano"]::before /* , [entidad="Vulcano"]::after */ {background-color: Turquoise;}
+
+[entidad="Zeus"], [entidad="Zeus"]::before /* , [entidad="Zeus"]::after */ {background-color: blue; color: white; }
 
 ul {
   list-style-type: none;

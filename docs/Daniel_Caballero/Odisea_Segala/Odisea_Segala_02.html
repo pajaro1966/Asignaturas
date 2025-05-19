@@ -42,25 +42,9 @@ span[entidad] /* [nivel="1"] */ {border: 8px solid lightgrey; display: block; pa
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
 margin-left: -20px;}
 
-/* 
-span[entidad]::before {content: attr(entidad); position: absolute; right: 82%;; text-align: left; text-indent: 0 ; border: 2px solid black; } */ 
-
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgre; border-style: inset;/* margin-right: 80px;  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
-
-/* 
-span[entidad] span[entidad] {font-style: italic; display: block; margin-left: 80px; margin-right: 80px; margin-top: 20px; border: 2px solid red; font-size: 90%;}
-*/ 
-
-
-
-/*
-span[entidad] span[entidad]::before {margin-top: 25px; right: 85.5%; font-size: 95%; font-size: 90%; border: 2px solid red;}
-*/
-
-
-/* span[entidad]::after  {content: attr(entidad); position: absolute; right: 7%; text-align: left; text-indent: 0 ; font-size: 70%; } */
 
 span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alcinoo"]::after */  {background-color: brown; color: white;}
 

@@ -36,7 +36,7 @@ span.num {color: red; font-size: 80%; background-color: #C0C0C0; position:absolu
 
 .interroga {color: white; background-color: black;}
 
-span[entidad] /* [nivel="1"] */ {border: 2px solid black; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; }
+span[entidad] /* [nivel="1"] */ {border: 8px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; border-style: outset;}
 
 
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
@@ -45,7 +45,7 @@ margin-left: -20px;}
 /* 
 span[entidad]::before {content: attr(entidad); position: absolute; right: 82%;; text-align: left; text-indent: 0 ; border: 2px solid black; } */ 
 
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; /* margin-right: 80px;  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%;}
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgre; border-style: inset;/* margin-right: 80px;  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
 
@@ -4159,7 +4159,7 @@ Entonces Minerva, la de los brillantes ojos, ordenó otra cosa. Hizo un fantasma
 <p id="IV_804">
 <span class="num">4.804
 </span>
-<span nivel="1" entidad="Iftima"><span class="interroga">«¿Duermes, Penélope, con el corazón afligido?</span> Los dioses, que viven felizmente, no te permiten llorar ni angustiarte; pues tu hijo aún ha de volver, que en nada pecó contra las deidades.»</span>
+<span nivel="1" entidad="Iftima">«<span class="interroga">¿Duermes, Penélope, con el corazón afligido?</span> Los dioses, que viven felizmente, no te permiten llorar ni angustiarte; pues tu hijo aún ha de volver, que en nada pecó contra las deidades.»</span>
 </p>
 <p id="IV_808">
 <span class="num">4.808
@@ -4255,7 +4255,7 @@ zadera de oro. Rodeando la gruta, había crecido una verde selva de chopos, ála
 <p id="V_87">
 <span class="num">5.87
 </span>
-<span nivel="1" entidad="Calipso"><span class="interroga">«¿Por qué, oh Mercurio, el de la áurea vara, venerable y caro, vienes á mi morada?</span> Antes no solías frecuentarla. Di qué deseas, pues mi ánimo me impulsa á realizarlo si puedo y es factible. Pero sígueme, á fin de que te ofrezca los dones de la hospitalidad.»</span>
+<span nivel="1" entidad="Calipso">«<span class="interroga">¿Por qué, oh Mercurio, el de la áurea vara, venerable y caro, vienes á mi morada?</span> Antes no solías frecuentarla. Di qué deseas, pues mi ánimo me impulsa á realizarlo si puedo y es factible. Pero sígueme, á fin de que te ofrezca los dones de la hospitalidad.»</span>
 </p>
 <p id="V_92">
 <span class="num">5.92
@@ -5579,7 +5579,7 @@ vellón, que venía de pacer, é hizo entrar en la espaciosa gruta á todas las 
 
   <span class="num">9.403</span>
 
-  <span nivel="2" entidad="Cíclopes"><span class="interroga">«¿Por qué tan enojado, oh Polifemo, gritas de semejante modo en la divina noche, despertándonos á todos?</span> <span class="interroga">¿Acaso algún hombre se lleva tus ovejas mal de tu grado?</span> <span class="interroga">¿Ó, por ventura, te matan con engaño ó con fuerza?</span>»</span>
+  <span nivel="2" entidad="Cíclopes">«<span class="interroga">¿Por qué tan enojado, oh Polifemo, gritas de semejante modo en la divina noche, despertándonos á todos?</span> <span class="interroga">¿Acaso algún hombre se lleva tus ovejas mal de tu grado?</span> <span class="interroga">¿Ó, por ventura, te matan con engaño ó con fuerza?</span>»</span>
 
 </p>
 
@@ -5849,7 +5849,7 @@ sentamos al umbral, cerca de las jambas; y ellos se pasmaron al vernos y nos hic
 
   <span class="num">10.64</span>
 
-<span nivel="2" entidad="Eolo"><span class="interroga">«¿Cómo aquí, Ulises?</span> <span class="interroga">¿Qué funesto numen te persigue?</span> Nosotros te enviamos con gran recaudo para que llegases á tu patria y á tu casa, ó á cualquier sitio que te pluguiera.»</span>
+<span nivel="2" entidad="Eolo">«<span class="interroga">¿Cómo aquí, Ulises?</span> <span class="interroga">¿Qué funesto numen te persigue?</span> Nosotros te enviamos con gran recaudo para que llegases á tu patria y á tu casa, ó á cualquier sitio que te pluguiera.»</span>
 
 </p>
 
@@ -6077,7 +6077,7 @@ cilgas. Y tenían la cabeza, la voz, las cerdas y el cuerpo como los puercos, pe
 
   <span class="num">10.325</span>
 
-<span nivel="2" entidad="Circe"><span class="interroga">«¿Quién eres y de qué país procedes?</span> <span class="interroga">¿Dónde se hallan tu ciudad y tus padres?</span> Me tiene suspensa que hayas bebido estas drogas sin quedar encantado, pues ningún otro pudo resistirlas, tan luego como las tomó y pasaron el cerco de sus dientes. Hay en tu pecho un ánimo indomable. Eres sin duda aquel Ulises de multiforme ingenio, de quien me hablaba siempre el Argicida, que lleva áurea vara, asegurándome que vendrías cuando volvieses de Troya en la negra y velera nave. Mas, ea, envaina la espada y vámonos á la cama para que, unidos por el lecho y el amor, crezca entre nosotros la confianza.»</span>
+<span nivel="2" entidad="Circe">«<span class="interroga">¿Quién eres y de qué país procedes?</span> <span class="interroga">¿Dónde se hallan tu ciudad y tus padres?</span> Me tiene suspensa que hayas bebido estas drogas sin quedar encantado, pues ningún otro pudo resistirlas, tan luego como las tomó y pasaron el cerco de sus dientes. Hay en tu pecho un ánimo indomable. Eres sin duda aquel Ulises de multiforme ingenio, de quien me hablaba siempre el Argicida, que lleva áurea vara, asegurándome que vendrías cuando volvieses de Troya en la negra y velera nave. Mas, ea, envaina la espada y vámonos á la cama para que, unidos por el lecho y el amor, crezca entre nosotros la confianza.»</span>
 </p>
 <p id="X_336">
 <span class="num">10.336
@@ -6106,7 +6106,7 @@ vados. Circe invitóme á comer, pero no le plugo á mi ánimo y seguí quieto, 
 <p id="X_378">
 <span class="num">10.378
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿Por qué, Ulises, permaneces así, como un mudo, y consumes tu ánimo, sin tocar la comida ni la bebida?</span> Sospechas que haya algún engaño y has de desechar todo temor, pues ya te presté solemne juramento.»</span>
+<span nivel="1" entidad="">«<span class="interroga">¿Por qué, Ulises, permaneces así, como un mudo, y consumes tu ánimo, sin tocar la comida ni la bebida?</span> Sospechas que haya algún engaño y has de desechar todo temor, pues ya te presté solemne juramento.»</span>
 </p>
 <p id="X_382">
 <span class="num">10.382
@@ -7275,7 +7275,7 @@ Contestóle Minerva, la deidad de los brillantes ojos: <span nivel="1" entidad="
 <p id="XIII_416">
 <span class="num">13.416
 </span>
-Respondióle el ingenioso Ulises: <span nivel="1" entidad=""><span class="interroga">«¿Y por qué no se lo dijiste, ya que tu mente todo lo sabía?</span> <span class="interroga">¿Acaso para que también pase trabajos, vagando por el estéril ponto, y los demás se le coman los bienes?</span>»</span>
+Respondióle el ingenioso Ulises: <span nivel="1" entidad="">«<span class="interroga">¿Y por qué no se lo dijiste, ya que tu mente todo lo sabía?</span> <span class="interroga">¿Acaso para que también pase trabajos, vagando por el estéril ponto, y los demás se le coman los bienes?</span>»</span>
 </p>
 <p>
 <span class="pagenum" id="Page_185">
@@ -7906,7 +7906,7 @@ Jamás se padece hambre en aquel pueblo y ninguna dolencia aborrecible les sobre
 <p id="XV_430">
 <span class="num">15.430
 </span>
-»</span>Díjole á su vez el hombre que con ella se había unido secretamente: <span nivel="1" entidad=""><span class="interroga">«¿Querrías tornar á tu patria con nosotros, para ver la alta casa de tu padre y de tu madre y á ellos mismos?</span> Pues aún viven y gozan fama de ricos.»</span>
+»</span>Díjole á su vez el hombre que con ella se había unido secretamente: <span nivel="1" entidad="">«<span class="interroga">¿Querrías tornar á tu patria con nosotros, para ver la alta casa de tu padre y de tu madre y á ellos mismos?</span> Pues aún viven y gozan fama de ricos.»</span>
 </p>
 <p id="XV_434">
 <span class="num">15.434
@@ -7959,7 +7959,7 @@ llevaron el buque, á fuerza de remos, al fondeadero. Echaron anclas y ataron la
 <p id="XV_508">
 <span class="num">15.508
 </span>
-Díjole entonces Teoclímeno, semejante á un dios: <span nivel="1" entidad=""><span class="interroga">«¿Y yo, hijo amado, adónde iré?</span> <span class="interroga">¿Á cúya casa de los varones que imperan en la áspera Ítaca?</span> <span class="interroga">¿Ó habré de encaminarme adonde está tu madre, á tu morada?</span>»</span>
+Díjole entonces Teoclímeno, semejante á un dios: <span nivel="1" entidad="">«<span class="interroga">¿Y yo, hijo amado, adónde iré?</span> <span class="interroga">¿Á cúya casa de los varones que imperan en la áspera Ítaca?</span> <span class="interroga">¿Ó habré de encaminarme adonde está tu madre, á tu morada?</span>»</span>
 </p>
 <p id="XV_512">
 <span class="num">15.512
@@ -8178,7 +8178,7 @@ Dichas estas palabras, se sentó. Telémaco abrazó á su buen padre, entre soll
 <p id="XVI_222">
 <span class="num">16.222
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿En qué nave los marineros te han traído acá, á Ítaca, padre amado?</span> <span class="interroga">¿Quiénes se precian de ser?</span> Pues no creo que hayas venido andando.»</span>
+<span nivel="1" entidad="">«<span class="interroga">¿En qué nave los marineros te han traído acá, á Ítaca, padre amado?</span> <span class="interroga">¿Quiénes se precian de ser?</span> Pues no creo que hayas venido andando.»</span>
 </p>
 <p id="XVI_225">
 <span class="num">16.225
@@ -8711,7 +8711,7 @@ dichoso entre los hombres, habité una rica morada, y di muchas veces limosna al
 <p id="XVII_445">
 <span class="num">17.445
 </span>
-Antínoo le respondió diciendo: <span nivel="1" entidad=""><span class="interroga">«¿Qué dios nos trajo esa peste, esa amargura del banquete?</span> Quédate ahí, en medio, á distancia de mi mesa: no sea que pronto vayas al amargo Egipto y á Chipre, por ser un mendigo tan audaz y sin vergüenza. Ahora te detienes ante cada uno de éstos que te dan locamente, porque ni usan de moderación ni sienten piedad al regalar cosas ajenas de que disponen en gran abundancia.»</span>
+Antínoo le respondió diciendo: <span nivel="1" entidad="">«<span class="interroga">¿Qué dios nos trajo esa peste, esa amargura del banquete?</span> Quédate ahí, en medio, á distancia de mi mesa: no sea que pronto vayas al amargo Egipto y á Chipre, por ser un mendigo tan audaz y sin vergüenza. Ahora te detienes ante cada uno de éstos que te dan locamente, porque ni usan de moderación ni sienten piedad al regalar cosas ajenas de que disponen en gran abundancia.»</span>
 </p>
 <p id="XVII_453">
 <span class="num">17.453
@@ -8838,7 +8838,7 @@ Tal dijo. El porquero se fué en cuanto oyó estas palabras. Y ya repasaba el um
 <p id="XVII_576">
 <span class="num">17.576
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿No lo traes, Eumeo?</span> <span class="interroga">¿Por qué se niega el vagamundo?</span> <span class="interroga">¿Siente hacia alguien un gran temor ó se avergüenza en el palacio por otros motivos?</span> Malo es que un vagamundo peque de vergonzoso.»</span>
+<span nivel="1" entidad="">«<span class="interroga">¿No lo traes, Eumeo?</span> <span class="interroga">¿Por qué se niega el vagamundo?</span> <span class="interroga">¿Siente hacia alguien un gran temor ó se avergüenza en el palacio por otros motivos?</span> Malo es que un vagamundo peque de vergonzoso.»</span>
 </p>
 <p id="XVII_579">
 <span class="num">17.579
@@ -9717,7 +9717,7 @@ Tal dijo, increpando en su pecho al corazón que en todo instante se mostraba su
 <p id="XX_33">
 <span class="num">20.33
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿Por qué velas todavía, oh desdichado sobre todos los varones?</span> Ésta es tu casa y tienes dentro á tu mujer y á tu hijo, que es tal como todos desearan que fuese el suyo.»</span>
+<span nivel="1" entidad="">«<span class="interroga">¿Por qué velas todavía, oh desdichado sobre todos los varones?</span> Ésta es tu casa y tienes dentro á tu mujer y á tu hijo, que es tal como todos desearan que fuese el suyo.»</span>
 </p>
 <p id="XX_36">
 <span class="num">20.36
@@ -10319,7 +10319,7 @@ En tanto, el divinal porquerizo tomó el corvo arco para llevárselo al huésped
 <p id="XXI_362">
 <span class="num">21.362
 </span>
-<span nivel="1" entidad=""><span class="interroga">«¿Adónde llevas el corvo arco, oh porquero no digno de envidia, oh vagabundo?</span> Pronto te devorarán, junto á los marranos y lejos de los hombres, los ágiles canes que tú mismo has criado, si Apolo y los demás inmortales dioses nos fueren propicios.»</span>
+<span nivel="1" entidad="">«<span class="interroga">¿Adónde llevas el corvo arco, oh porquero no digno de envidia, oh vagabundo?</span> Pronto te devorarán, junto á los marranos y lejos de los hombres, los ágiles canes que tú mismo has criado, si Apolo y los demás inmortales dioses nos fueren propicios.»</span>
 </p>
 <p id="XXI_366">
 <span class="num">21.366

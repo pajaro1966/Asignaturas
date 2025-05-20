@@ -31,18 +31,19 @@
 
 .xhtml_center table { display: table; text-align: left; margin-left: auto; margin-right: auto; }
 
+p {color: blue;}
 
 span.num {color: red; font-size: 80%; background-color: #C0C0C0; position:absolute; right: 83%; }
 
 .interroga {color: white; background-color: black;}
 
-span[entidad] /* [nivel="1"] */ {border: 8px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; border-style: outset;}
+span[entidad] /* [nivel="1"] */ {margin-left: 40px; border: 10px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-top: 15px; margin-bottom: 15px; border-style: inset;}
 
 
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
 margin-left: -20px;}
 
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 10px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-top: 15px; margin-bottom: 15px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
 
@@ -66,7 +67,7 @@ span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alc
 [entidad="dioses"], [entidad="dioses"]::before /* , [entidad="dioses"]::after */ {background-color: DodgerBlue; color: white; }
 
 
-[entidad="doncellas"], [entidad="doncellas"]::before /* , [entidad="doncellas"]::after */ {background-color: beige; }
+[entidad="doncellas"], [entidad="doncellas"]::before /* , [entidad="doncellas"]::after */ {background-color: beige;color: black;}
 
 [entidad="Egiptio"], [entidad="Egiptio"]::before /* , [entidad="Egiptio"]::after */ {background-color: peachpuff; color: black; }
 
@@ -74,26 +75,26 @@ span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alc
 
 [entidad="Equeneo"], [entidad="Equeneo"]::before /* , [entidad="Equeneo"]::after */ {background-color: peachpuff; color: black; }
 
-[entidad="Eteoneo"], [entidad="Eteoneo"]::before /* , [entidad="Eteoneo"]::after */ {background-color: BurlyWood ;}
+[entidad="Eteoneo"], [entidad="Eteoneo"]::before /* , [entidad="Eteoneo"]::after */ {background-color: BurlyWood ; color: black;}
 
-[entidad="Eurimaco"], [entidad="Eurimaco"]::before /* , [entidad="Eurimaco"]::after */ {background-color: greenyellow;  }
+[entidad="Eurimaco"], [entidad="Eurimaco"]::before /* , [entidad="Eurimaco"]::after */ {background-color: greenyellow;  color: black;}
 
-[entidad="Euriclea"], [entidad="Euriclea"]::before /* , [entidad="Euriclea"]::after */ {background-color: salmon; }
+[entidad="Euriclea"], [entidad="Euriclea"]::before /* , [entidad="Euriclea"]::after */ {background-color: salmon; color: black;}
 
-[entidad="Eurialo"], [entidad="Eurialo"]::before /* , [entidad="Eurialo"]::after */ {background-color: #DAA06D; }
+[entidad="Eurialo"], [entidad="Eurialo"]::before /* , [entidad="Eurialo"]::after */ {background-color: #DAA06D; color: black;}
 
 
-[entidad="Euríloco"], [entidad="Euríloco"]::before /* , [entidad="Euríloco"]::after */ {background-color: Coral; }
+[entidad="Euríloco"], [entidad="Euríloco"]::before /* , [entidad="Euríloco"]::after */ {background-color: Coral; color: black;}
 
-[entidad="feacios"], [entidad="feacios"]::before /* , [entidad="feacios"]::after */ {background-color: beige;}
+[entidad="feacios"], [entidad="feacios"]::before /* , [entidad="feacios"]::after */ {background-color: beige; color: black;}
 
-[entidad="Haliterses"], [entidad="Haliterses"]::before /* , [entidad="Haliterses"]::after */ {background-color: papayawhip;}
+[entidad="Haliterses"], [entidad="Haliterses"]::before /* , [entidad="Haliterses"]::after */ {background-color: papayawhip; color: black; }
 
-[entidad="Helena"], [entidad="Helena"]::before /* , [entidad="Helena"]::after */ {background-color: pink;}
+[entidad="Helena"], [entidad="Helena"]::before /* , [entidad="Helena"]::after */ {background-color: pink; color: black;}
 
 [entidad="Idotea"], [entidad="Idotea"]::before /* , [entidad="Idotea"]::after */{background-color: blueviolet; color: white;}
 
-[entidad="Ino"], [entidad="Ino"]::before  /* , [entidad="Ino"]::after */{background-color: cyan; }
+[entidad="Ino"], [entidad="Ino"]::before  /* , [entidad="Ino"]::after */{background-color: cyan; color: black;}
 
 [entidad="Iftima"], [entidad="Iftima"]::before  /* , [entidad="Iftima"]::after */ {background-color: aqua; color: white;}
 
@@ -101,48 +102,48 @@ span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alc
 [entidad="Laodamante"], [entidad="Laodamante"]::before /* , [entidad="Laodamante"]::after */ {background-color: chocolate; color: white;}
 
 
-[entidad="Leocrito"], [entidad="Leocrito"]::before /* , [entidad="Leocrito"]::after */ {background-color: yellowgreen;}
+[entidad="Leocrito"], [entidad="Leocrito"]::before /* , [entidad="Leocrito"]::after */ {background-color: yellowgreen; color: black;}
 
 [entidad="Marte"], [entidad="Marte"]::before /* , [entidad="Marte"]::after */ {background-color: SteelBlue; color: white;}
 
 [entidad="Medonte"], [entidad="Medonte"]::before /* , [entidad="Medonte"]::after */ {background-color: brown; color: white;}
 
-[entidad="Menelao"], [entidad="Menelao"]::before /* , [entidad="Menelao"]::after */ {background-color: Tan ;}
+[entidad="Menelao"], [entidad="Menelao"]::before /* , [entidad="Menelao"]::after */ {background-color: Tan ; color: black;}
 
-[entidad="Mentor"] , [entidad="Mentor"]::before /* , [entidad="Mentor"]::after */ {background-color: gold;}
+[entidad="Mentor"] , [entidad="Mentor"]::before /* , [entidad="Mentor"]::after */ {background-color: gold; color: black;}
 
 [entidad="Mercurio"], [entidad="Mercurio"]::before  /* , [entidad="Mercurio"]::after */ {background-color: DarkSlateBlue; color: white;}
 
-[entidad="Minerva"], [entidad="Minerva"]::before /* , [entidad="Minerva"]::after */ {background-color: aqua; border: 2px solid aqua; }
+[entidad="Minerva"], [entidad="Minerva"]::before /* , [entidad="Minerva"]::after */ {background-color: aqua; border: 2px solid aqua; color: black;}
 
 
-[entidad="Nausicaa"], [entidad="Nausicaa"]::before  /* , [entidad="Nausicaa"]::after */ {background-color: pink;}
+[entidad="Nausicaa"], [entidad="Nausicaa"]::before  /* , [entidad="Nausicaa"]::after */ {background-color: pink; color: black;}
 
 [entidad="Neptuno"], [entidad="Neptuno"]::before  /* , [entidad="Neptuno"]::after */ {background-color: darkblue; color: white;}
 
-[entidad="Nestor"], [entidad="Nestor"]::before /* , [entidad="Nestor"]::after */ {background-color: BurlyWood ;}
+[entidad="Nestor"], [entidad="Nestor"]::before /* , [entidad="Nestor"]::after */ {background-color: BurlyWood ; color: black;}
 
-[entidad="Noemon"], [entidad="Noemon"]::before /* , [entidad="Noemon"]::after */ {background-color: gold ;}
+[entidad="Noemon"], [entidad="Noemon"]::before /* , [entidad="Noemon"]::after */ {background-color: gold ; color: black;}
 
-[entidad="Odiseo"], [entidad="Odiseo"]::before /* , [entidad="Odiseo"]::after */ {background-color: lightcoral;}
+[entidad="Odiseo"], [entidad="Odiseo"]::before /* , [entidad="Odiseo"]::after */ {background-color: lightcoral; color: black;}
 
-[entidad="Penelope"], [entidad="Penelope"]::before /* , [entidad="Penelope"]::after */ {background-color: pink;}
+[entidad="Penelope"], [entidad="Penelope"]::before /* , [entidad="Penelope"]::after */ {background-color: pink; color: black;}
 
-[entidad="Pisistrato"], [entidad="Pisistrato"]::before /* , [entidad="Pisistrato"]::after */ {background-color: brown; color: white;}
+[entidad="Pisistrato"], [entidad="Pisistrato"]::before /* , [entidad="Pisistrato"]::after */ {background-color: brown; color: white; }
 
 [entidad="Polites"], [entidad="Polites"]::before /* , [entidad="Polites"]::after */ {background-color: Tomato; color: white;}
 
 
 [entidad="Polifemo"], [entidad="Polifemo"]::before /* , [entidad="Polifemo"]::after */ {background-color: green; color: white;}
 
-[entidad="Pretendientes"], [entidad="Pretendientes"]::before /* , [entidad="Pretendientes"]::after */ {background-color: LimeGreen ;}
+[entidad="Pretendientes"], [entidad="Pretendientes"]::before /* , [entidad="Pretendientes"]::after */ {background-color: LimeGreen ; color: black;}
 
-[entidad="Proteo"], [entidad="Proteo"]::before /* , [entidad="Proteo"]::after */ {background-color: lightblue ;}
+[entidad="Proteo"], [entidad="Proteo"]::before /* , [entidad="Proteo"]::after */ {background-color: lightblue ; color: black;}
 
-[entidad="Telemaco"], [entidad="Telemaco"]::before /* , [entidad="Telemaco"]::after */ {background-color: orange;}
+[entidad="Telemaco"], [entidad="Telemaco"]::before /* , [entidad="Telemaco"]::after */ {background-color: orange; color: black;}
 
 
-[entidad="Vulcano"], [entidad="Vulcano"]::before /* , [entidad="Vulcano"]::after */ {background-color: Turquoise;}
+[entidad="Vulcano"], [entidad="Vulcano"]::before /* , [entidad="Vulcano"]::after */ {background-color: Turquoise; color: black;}
 
 [entidad="Zeus"], [entidad="Zeus"]::before /* , [entidad="Zeus"]::after */ {background-color: blue; color: white; }
 
@@ -237,6 +238,7 @@ body {
   font-size: 24px;
   margin-left: 20%;
     margin-right: 2%;
+    background-color: gainsboro;
 }
 /* body { max-width:  32em; font-size: 24px; } */
 
@@ -358,7 +360,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
  .tdrb { text-align: right; vertical-align: bottom; padding-left: 1em; white-space: nowrap }
 
- .figcenter { text-align: center }
+ .figcenter { text-align: center; border: 22px solid black; border-style:outset  }
 
  img.thick { border: solid medium silver; padding: 0.15em }
 

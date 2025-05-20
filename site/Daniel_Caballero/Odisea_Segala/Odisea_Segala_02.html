@@ -36,13 +36,13 @@ span.num {color: red; font-size: 80%; background-color: #C0C0C0; position:absolu
 
 .interroga {color: white; background-color: black;}
 
-span[entidad] /* [nivel="1"] */ {border: 8px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; border-style: outset;}
+span[entidad] /* [nivel="1"] */ {border: 12px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; border-style: outset;}
 
 
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
 margin-left: -20px;}
 
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 4px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 12px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
 
@@ -237,6 +237,7 @@ body {
   font-size: 24px;
   margin-left: 20%;
     margin-right: 2%;
+    background-color: gainsboro;
 }
 /* body { max-width:  32em; font-size: 24px; } */
 
@@ -358,7 +359,7 @@ h1, h2 { text-align: center; font-weight: normal }
 
  .tdrb { text-align: right; vertical-align: bottom; padding-left: 1em; white-space: nowrap }
 
- .figcenter { text-align: center }
+ .figcenter { text-align: center; border: 22px solid black; border-style:outset  }
 
  img.thick { border: solid medium silver; padding: 0.15em }
 
@@ -4939,7 +4940,7 @@ Al punto que se descubrió la hija de la mañana, la Aurora de rosáceos dedos, 
 <p id="VIII_11">
 <span class="num">8.11
 </span>
-<span nivel="1" entidad="">«¡Ea, caudillos y príncipes de los feacios! Id al ágora para que oigáis hablar del forastero que no ha mucho llegó á la casa del prudente Alcínoo, después de ir errante por el ponto, y es un varón que se asemeja por su cuerpo á los inmortales.»</span>
+<span nivel="1" entidad="Minerva">«¡Ea, caudillos y príncipes de los feacios! Id al ágora para que oigáis hablar del forastero que no ha mucho llegó á la casa del prudente Alcínoo, después de ir errante por el ponto, y es un varón que se asemeja por su cuerpo á los inmortales.»</span>
 </p>
 <p id="VIII_15">
 <span class="num">8.15
@@ -6067,188 +6068,291 @@ cilgas. Y tenían la cabeza, la voz, las cerdas y el cuerpo como los puercos, pe
 <p id="X_336">
 <span class="num">10.336
 </span>
-»</span>Así se expresó; y le repliqué diciendo: <span nivel="1" entidad="">«¡Oh Circe! <span class="interroga">¿Cómo me pides que te sea benévolo, después que en este mismo palacio convertiste á mis compañeros en cerdos y ahora me detienes á mí, maquinas engaños y me ordenas que entre en tu habitación y suba á tu lecho á fin de privarme del valor y de la fuerza, apenas deje las armas?</span> Yo no querría subir á la cama, si no te atrevieras, oh diosa, á prestar solemne juramento de que no maquinarás contra mí ningún otro pernicioso daño.»</span>
+<span nivel="1" entidad="Odiseo">»Así se expresó; y le repliqué diciendo:</span>
+
+<span nivel="2" entidad="Odiseo">«¡Oh Circe! <span class="interroga">¿Cómo me pides que te sea benévolo, después que en este mismo palacio convertiste á mis compañeros en cerdos y ahora me detienes á mí, maquinas engaños y me ordenas que entre en tu habitación y suba á tu lecho á fin de privarme del valor y de la fuerza, apenas deje las armas?</span> Yo no querría subir á la cama, si no te atrevieras, oh diosa, á prestar solemne juramento de que no maquinarás contra mí ningún otro pernicioso daño.»</span>
+
 </p>
+
 <p id="X_345">
-<span class="num">10.345
-</span>
-»</span>Así le dije. Juró al instante, como se lo mandaba. Y en seguida que hubo prestado el juramento, subí al magnífico lecho de Circe.
+  <span class="num">10.345</span>
+
+  <span nivel="1" entidad="Odiseo">»Así le dije. Juró al instante, como se lo mandaba. Y en seguida que hubo prestado el juramento, subí al magnífico lecho de Circe.</span>
+
 </p>
+
 <p id="X_348">
-<span class="num">10.348
-</span>
-»</span>Aderezaban el palacio cuatro siervas, que son las criadas de Circe y han nacido de las fuentes, de los bosques, ó de los sagrados ríos que corren hacia el mar. Ocupábase una en cubrir los sillones con hermosos tapetes de púrpura, dejando á los pies un lienzo; colocaba otra argénteas mesas delante de los asientos, poniendo encima canastillos de oro; mezclaba la tercera el dulce y suave vino en una cratera de plata y lo distribuía en áureas copas; y la cuarta traía agua y encendía un gran fuego debajo del trípode donde aquélla se calentaba. Y cuando el agua hirvió dentro del reluciente bronce, llevóme á la bañera y allí me lavó, echándome la deliciosa agua del gran trípode á la cabeza y á los hombros hasta quitarme de los miembros la fatiga que roe el ánimo. Después que me hubo lavado y ungido con pingüe aceite, vistióme un hermoso manto y una túnica, y me condujo, para que me sentase, á una silla de argénteos clavos, hermosa, labrada y provista de un escabel para los pies. Una esclava dióme aguamanos que traía en magnífico jarro de oro y vertió en fuente de plata y me puso delante una pulimentada mesa. La veneranda despensera trajo pan, y dejó en la mesa buen número de manjares, obsequiándome con los que tenía reser
-<span class="pagenum" id="Page_141">
-[p. 141]
-</span>
-vados. Circe invitóme á comer, pero no le plugo á mi ánimo y seguí quieto, pensando en otras cosas, pues mi corazón presagiaba desgracias.
+
+  <span class="num">10.348</span>
+
+<span nivel="1" entidad="Odiseo">»Aderezaban el palacio cuatro siervas, que son las criadas de Circe y han nacido de las fuentes, de los bosques, ó de los sagrados ríos que corren hacia el mar. Ocupábase una en cubrir los sillones con hermosos tapetes de púrpura, dejando á los pies un lienzo; colocaba otra argénteas mesas delante de los asientos, poniendo encima canastillos de oro; mezclaba la tercera el dulce y suave vino en una cratera de plata y lo distribuía en áureas copas; y la cuarta traía agua y encendía un gran fuego debajo del trípode donde aquélla se calentaba. Y cuando el agua hirvió dentro del reluciente bronce, llevóme á la bañera y allí me lavó, echándome la deliciosa agua del gran trípode á la cabeza y á los hombros hasta quitarme de los miembros la fatiga que roe el ánimo. Después que me hubo lavado y ungido con pingüe aceite, vistióme un hermoso manto y una túnica, y me condujo, para que me sentase, á una silla de argénteos clavos, hermosa, labrada y provista de un escabel para los pies. Una esclava dióme aguamanos que traía en magnífico jarro de oro y vertió en fuente de plata y me puso delante una pulimentada mesa. La veneranda despensera trajo pan, y dejó en la mesa buen número de manjares, obsequiándome con los que tenía reser<span class="pagenum" id="Page_141">[p. 141]</span>vados. Circe invitóme á comer, pero no le plugo á mi ánimo y seguí quieto, pensando en otras cosas, pues mi corazón presagiaba desgracias.</span>
+
 </p>
+
 <p id="X_375">
-<span class="num">10.375
-</span>
-»</span>Cuando Circe notó que yo seguía quieto, sin echar mano á los manjares, y abrumado por fuerte pesar, se vino á mi lado y me habló con estas aladas palabras:
+
+  <span class="num">10.375</span>
+
+<span nivel="1" entidad="Odiseo">»Cuando Circe notó que yo seguía quieto, sin echar mano á los manjares, y abrumado por fuerte pesar, se vino á mi lado y me habló con estas aladas palabras:</span>
+
 </p>
+
 <p id="X_378">
-<span class="num">10.378
-</span>
-<span nivel="1" entidad="">«<span class="interroga">¿Por qué, Ulises, permaneces así, como un mudo, y consumes tu ánimo, sin tocar la comida ni la bebida?</span> Sospechas que haya algún engaño y has de desechar todo temor, pues ya te presté solemne juramento.»</span>
+
+  <span class="num">10.378</span>
+
+<span nivel="2" entidad="Circe">«<span class="interroga">¿Por qué, Ulises, permaneces así, como un mudo, y consumes tu ánimo, sin tocar la comida ni la bebida?</span> Sospechas que haya algún engaño y has de desechar todo temor, pues ya te presté solemne juramento.»</span>
+
 </p>
+
 <p id="X_382">
-<span class="num">10.382
-</span>
-»</span>Así se expresó; y le repuse diciendo: <span nivel="1" entidad="">«¡Oh Circe! <span class="interroga">¿Cuál varón, que fuese razonable, osara probar la comida y la bebida antes de libertar á los compañeros y contemplarlos con sus propios ojos?</span> Si me invitas de buen grado á beber y á comer, suelta mis fieles amigos para que con mis ojos pueda verlos.»</span>
+
+  <span class="num">10.382</span>
+
+<span nivel="1" entidad="Odiseo">»Así se expresó; y le repuse diciendo:</span>
+
+<span nivel="2" entidad="Odiseo">«¡Oh Circe! <span class="interroga">¿Cuál varón, que fuese razonable, osara probar la comida y la bebida antes de libertar á los compañeros y contemplarlos con sus propios ojos?</span> Si me invitas de buen grado á beber y á comer, suelta mis fieles amigos para que con mis ojos pueda verlos.»</span>
+
 </p>
+
 <p id="X_388">
-<span class="num">10.388
-</span>
-»</span>De tal suerte hablé. Circe salió del palacio con la vara en la mano, abrió las puertas de la pocilga y sacó á mis compañeros en figura de puercos de nueve años. Colocáronse delante y ella anduvo por entre los mismos, untándolos con una nueva droga: en el acto cayeron de los miembros las cerdas que antes les hizo crecer la perniciosa droga suministrada por la veneranda Circe, y mis amigos tornaron á ser hombres, pero más jóvenes aún y mucho más hermosos y más altos. Conociéronme y uno por uno me estrecharon la mano. Alzóse entre todos un dulce llanto, la casa resonaba fuertemente y la misma deidad hubo de apiadarse. Y deteniéndose junto á mí, dijo de esta suerte la divina entre las diosas:
+
+  <span class="num">10.388</span>
+
+<span nivel="1" entidad="Odiseo">»De tal suerte hablé. Circe salió del palacio con la vara en la mano, abrió las puertas de la pocilga y sacó á mis compañeros en figura de puercos de nueve años. Colocáronse delante y ella anduvo por entre los mismos, untándolos con una nueva droga: en el acto cayeron de los miembros las cerdas que antes les hizo crecer la perniciosa droga suministrada por la veneranda Circe, y mis amigos tornaron á ser hombres, pero más jóvenes aún y mucho más hermosos y más altos. Conociéronme y uno por uno me estrecharon la mano. Alzóse entre todos un dulce llanto, la casa resonaba fuertemente y la misma deidad hubo de apiadarse. Y deteniéndose junto á mí, dijo de esta suerte la divina entre las diosas:</span>
+
 </p>
+
 <p id="X_401">
-<span class="num">10.401
-</span>
-<span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Ve ahora adonde tienes la velera nave en la orilla del mar y ante todo sacadla á tierra firme; llevad á las grutas las riquezas y los aparejos todos, y trae en seguida tus fieles compañeros.»</span>
+
+  <span class="num">10.401</span>
+
+<span nivel="2" entidad="Circe">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Ve ahora adonde tienes la velera nave en la orilla del mar y ante todo sacadla á tierra firme; llevad á las grutas las riquezas y los aparejos todos, y trae en seguida tus fieles compañeros.»</span>
+
 </p>
+
 <p id="X_406">
-<span class="num">10.406
-</span>
-»</span>Tales fueron sus palabras y mi ánimo generoso se dejó persuadir. Enderecé el camino á la velera nave y la orilla del mar, y hallé junto á aquélla á mis fieles compañeros, que se lamentaban tristemente y derramaban abundantes lágrimas. Así como las terneras que tienen su cuadra en el campo, saltan y van juntas al encuentro de las gregales vacas que vuelven al aprisco después de saciarse de hierba; y ya los cercados no las detienen, sino que, mugiendo sin cesar, corren en torno de las madres: así aquéllos, al verme con sus propios ojos, me rodearon llorando, pues á su ánimo les produjo casi el mismo efecto que si hubiesen llegado á su patria y á su ciu
-<span class="pagenum" id="Page_142">
-[p. 142]
-</span>
-dad, á la áspera Ítaca donde nacieron y se criaron. Y, sollozando, estas aladas palabras me decían:
+
+  <span class="num">10.406</span>
+
+<span nivel="1" entidad="Odiseo">»Tales fueron sus palabras y mi ánimo generoso se dejó persuadir. Enderecé el camino á la velera nave y la orilla del mar, y hallé junto á aquélla á mis fieles compañeros, que se lamentaban tristemente y derramaban abundantes lágrimas. Así como las terneras que tienen su cuadra en el campo, saltan y van juntas al encuentro de las gregales vacas que vuelven al aprisco después de saciarse de hierba; y ya los cercados no las detienen, sino que, mugiendo sin cesar, corren en torno de las madres: así aquéllos, al verme con sus propios ojos, me rodearon llorando, pues á su ánimo les produjo casi el mismo efecto que si hubiesen llegado á su patria y á su ciu<span class="pagenum" id="Page_142">[p. 142]</span>dad, á la áspera Ítaca donde nacieron y se criaron. Y, sollozando, estas aladas palabras me decían:</span>
+
 </p>
+
 <p id="X_419">
-<span class="num">10.419
-</span>
-<span nivel="1" entidad="">«Tu vuelta, oh alumno de Júpiter, nos alegra tanto como si hubiésemos llegado á Ítaca, nuestra patria tierra. Mas, ea, cuéntanos la pérdida de los demás compañeros.»</span>
+
+  <span class="num">10.419</span>
+
+<span nivel="2" entidad="Circe">«Tu vuelta, oh alumno de Júpiter, nos alegra tanto como si hubiésemos llegado á Ítaca, nuestra patria tierra. Mas, ea, cuéntanos la pérdida de los demás compañeros.»</span>
+
 </p>
+
 <p id="X_422">
-<span class="num">10.422
-</span>
-»</span>De tal suerte se expresaron. Entonces les dije con suaves palabras: <span nivel="1" entidad="">«Primeramente saquemos la nave á tierra firme y llevemos á las grutas nuestras riquezas y los aparejos todos; y después apresuraos á seguirme juntos para que veáis cómo los amigos beben y comen en la sagrada mansión de Circe, pues todo lo tienen en gran abundancia.»</span>
+
+  <span class="num">10.422</span>
+
+<span nivel="1" entidad="Odiseo">»De tal suerte se expresaron. Entonces les dije con suaves palabras:</span>
+
+<span nivel="2" entidad="Odiseo">«Primeramente saquemos la nave á tierra firme y llevemos á las grutas nuestras riquezas y los aparejos todos; y después apresuraos á seguirme juntos para que veáis cómo los amigos beben y comen en la sagrada mansión de Circe, pues todo lo tienen en gran abundancia.»</span>
+
 </p>
+
 <p id="X_428">
-<span class="num">10.428
-</span>
-»</span>Así les hablé; y al instante obedecieron mi mandato. Euríloco fué el único que intentó detener á los compañeros, diciéndoles estas aladas palabras:
+
+  <span class="num">10.428</span>
+
+<span nivel="1" entidad="Odiseo">»Así les hablé; y al instante obedecieron mi mandato. Euríloco fué el único que intentó detener á los compañeros, diciéndoles estas aladas palabras:</span>
+
 </p>
-<p id="X_431">
-<span class="num">10.431
-</span>
-<span nivel="1" entidad="">«¡Ah infelices! <span class="interroga">¿Adónde vamos?</span> <span class="interroga">¿Por qué buscáis vuestro daño, yendo al palacio de Circe que á todos nos transformará en puercos, lobos ó leones para que le guardemos, mal de nuestro grado, su espaciosa mansión?</span> Se repetirá lo que ocurrió con el Ciclope cuando los nuestros llegaron á su cueva con el audaz Ulises y perecieron por la loca temeridad del mismo.»</span>
+
+<p id="X_431"><span class="num">10.431</span>
+
+<span nivel="2" entidad="Odiseo">«¡Ah infelices! <span class="interroga">¿Adónde vamos?<span class="interroga">¿Por qué buscáis vuestro daño, yendo al palacio de Circe que á todos nos transformará en puercos, lobos ó leones para que le guardemos, mal de nuestro grado, su espaciosa mansión?</span> Se repetirá lo que ocurrió con el Ciclope cuando los nuestros llegaron á su cueva con el audaz Ulises y perecieron por la loca temeridad del mismo.»</span>
+
 </p>
+
 <p id="X_438">
-<span class="num">10.438
-</span>
-»</span>De tal modo habló. Yo revolvía en mi pensamiento desenvainar la espada de larga punta, que llevaba á un lado del vigoroso muslo y de un golpe echarle la cabeza al suelo, aunque Euríloco era deudo mío muy cercano; pero me contuvieron los amigos, unos por un lado y otros por el opuesto, diciéndome con dulces palabras:
+
+  <span class="num">10.438</span>
+
+<span nivel="1" entidad="Odiseo">»De tal modo habló. Yo revolvía en mi pensamiento desenvainar la espada de larga punta, que llevaba á un lado del vigoroso muslo y de un golpe echarle la cabeza al suelo, aunque Euríloco era deudo mío muy cercano; pero me contuvieron los amigos, unos por un lado y otros por el opuesto, diciéndome con dulces palabras:</span>
+
 </p>
+
 <p id="X_443">
-<span class="num">10.443
-</span>
-<span nivel="1" entidad="">«¡Alumno de Júpiter! Á éste lo dejaremos aquí, si tú lo mandas, y se quedará á guardar la nave; pero á nosotros llévanos á la sagrada mansión de Circe.»</span>
+
+  <span class="num">10.443</span>
+
+<span nivel="2" entidad="compañeros">«¡Alumno de Júpiter! Á éste lo dejaremos aquí, si tú lo mandas, y se quedará á guardar la nave; pero á nosotros llévanos á la sagrada mansión de Circe.»</span>
+
 </p>
+
 <p id="X_446">
-<span class="num">10.446
-</span>
-»</span>Hablando así, alejáronse de la nave y del mar. Y Euríloco no se quedó cerca del cóncavo bajel; pues fué siguiéndonos, amedrentado por mi terrible amenaza.
+
+  <span class="num">10.446</span>
+
+<span nivel="1" entidad="Odiseo">»Hablando así, alejáronse de la nave y del mar. Y Euríloco no se quedó cerca del cóncavo bajel; pues fué siguiéndonos, amedrentado por mi terrible amenaza.</span>
+
 </p>
+
 <p id="X_449">
-<span class="num">10.449
-</span>
-»</span>En tanto Circe lavó cuidadosamente en su morada á los demás compañeros, los ungió con pingüe aceite, les puso lanosos mantos y túnicas; y ya los hallamos celebrando alegre banquete en el palacio. Después que se vieron los unos á los otros y contaron lo ocurrido, comenzaron á sollozar y la casa resonaba en torno suyo. La divina entre las diosas se detuvo entonces á mi lado y me habló de esta manera:
+
+  <span class="num">10.449</span>
+
+<span nivel="1" entidad="Odiseo">»En tanto Circe lavó cuidadosamente en su morada á los demás compañeros, los ungió con pingüe aceite, les puso lanosos mantos y túnicas; y ya los hallamos celebrando alegre banquete en el palacio. Después que se vieron los unos á los otros y contaron lo ocurrido, comenzaron á sollozar y la casa resonaba en torno suyo. La divina entre las diosas se detuvo entonces á mi lado y me habló de esta manera:</span>
+
 </p>
+
 <p id="X_456">
-<span class="num">10.456
-</span>
-<span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Ahora dad tregua al copioso llanto: sé yo también cuántas fatigas
-<span class="pagenum" id="Page_143">
-[p. 143]
-</span>
-habéis soportado en el ponto, abundante en peces, y cuántos hombres enemigos os dañaron en la tierra. Mas, ea, comed viandas y bebed vino hasta que recobréis el ánimo que teníais en el pecho cuando dejasteis vuestra patria, la escabrosa Ítaca. Actualmente estáis flacos y desmayados, trayendo de continuo á la memoria la peregrinación molesta, y no cabe en vuestro ánimo la alegría por lo mucho que habéis padecido.»</span>
+
+  <span class="num">10.456</span>
+
+<span nivel="2" entidad="Circe">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Ahora dad tregua al copioso llanto: sé yo también cuántas fatigas
+
+  <span class="pagenum" id="Page_143">[p. 143]</span>
+
+  habéis soportado en el ponto, abundante en peces, y cuántos hombres enemigos os dañaron en la tierra. Mas, ea, comed viandas y bebed vino hasta que recobréis el ánimo que teníais en el pecho cuando dejasteis vuestra patria, la escabrosa Ítaca. Actualmente estáis flacos y desmayados, trayendo de continuo á la memoria la peregrinación molesta, y no cabe en vuestro ánimo la alegría por lo mucho que habéis padecido.»</span>
+
 </p>
+
 <p id="X_466">
-<span class="num">10.466
-</span>
-»</span>Tales fueron sus palabras y nuestro ánimo generoso se dejó persuadir. Allí nos quedamos día tras día un año entero y siempre tuvimos en los banquetes carne en abundancia y dulce vino. Mas cuando se acabó el año y volvieron á sucederse las estaciones, después de transcurrir los meses y de pasar muchos días, llamáronme los fieles compañeros y me hablaron de este modo:
+
+  <span class="num">10.466</span>
+
+<span nivel="1" entidad="Odiseo">»Tales fueron sus palabras y nuestro ánimo generoso se dejó persuadir. Allí nos quedamos día tras día un año entero y siempre tuvimos en los banquetes carne en abundancia y dulce vino. Mas cuando se acabó el año y volvieron á sucederse las estaciones, después de transcurrir los meses y de pasar muchos días, llamáronme los fieles compañeros y me hablaron de este modo:</span>
+
 </p>
+
 <p id="X_472">
-<span class="num">10.472
-</span>
-<span nivel="1" entidad="">«¡Ilustre! Acuérdate ya de la patria tierra, si el destino ha decretado que te salves y llegues á tu casa, de alta techumbre, y á la patria tierra.»</span>
+
+  <span class="num">10.472</span>
+
+<span nivel="2" entidad="compañeros">«¡Ilustre! Acuérdate ya de la patria tierra, si el destino ha decretado que te salves y llegues á tu casa, de alta techumbre, y á la patria tierra.»</span>
+
 </p>
+
 <p id="X_475">
-<span class="num">10.475
-</span>
-»</span>Así dijeron y mi ánimo generoso se dejó persuadir. Y todo aquel día hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino. Cuando el sol se puso y sobrevino la noche, acostáronse los compañeros en las obscuras salas.
+
+  <span class="num">10.475</span>
+
+<span nivel="1" entidad="Odiseo">»Así dijeron y mi ánimo generoso se dejó persuadir. Y todo aquel día hasta la puesta del sol, estuvimos sentados, comiendo carne en abundancia y bebiendo dulce vino. Cuando el sol se puso y sobrevino la noche, acostáronse los compañeros en las obscuras salas.
+
 </p>
+
 <p id="X_480">
-<span class="num">10.480
-</span>
-»</span>Mas yo subí á la magnífica cama de Circe y empecé á suplicar á la deidad, que oyó mi voz y á la cual abracé las rodillas. Y, hablándole, estas aladas palabras le decía:
+
+  <span class="num">10.480</span>
+
+<span nivel="1" entidad="Odiseo">»Mas yo subí á la magnífica cama de Circe y empecé á suplicar á la deidad, que oyó mi voz y á la cual abracé las rodillas. Y, hablándole, estas aladas palabras le decía:
+
 </p>
+
 <p id="X_483">
-<span class="num">10.483
-</span>
-<span nivel="1" entidad="">«¡Oh Circe! Cúmpleme tu promesa de mandarme á mi casa. Ya mi ánimo me incita á partir y también el de los compañeros, quienes aquejan mi corazón, rodeándome llorosos, cuando tú estás lejos.»</span>
+
+  <span class="num">10.483
+
+  </span>
+
+<span nivel="2" entidad="Odiseo">«¡Oh Circe! Cúmpleme tu promesa de mandarme á mi casa. Ya mi ánimo me incita á partir y también el de los compañeros, quienes aquejan mi corazón, rodeándome llorosos, cuando tú estás lejos.»</span>
+
 </p>
+
 <p id="X_487">
-<span class="num">10.487
-</span>
-»</span>Así le hablé. Y la divina entre las diosas contestóme acto seguido: <span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! No os quedéis por más tiempo en esta casa, mal de vuestro grado. Pero ante todo habéis de emprender un viaje á la morada de Plutón y de la veneranda Proserpina, para consultar el alma del tebano Tiresias, adivino ciego, cuyas mientes se conservan íntegras. Á él tan sólo, después de muerto, dióle Proserpina inteligencia y saber; pues los demás revolotean como sombras.»</span>
+
+  <span class="num">10.487</span>
+
+<span nivel="1" entidad="Odiseo">»Así le hablé. Y la divina entre las diosas contestóme acto seguido:</span>
+
+<span nivel="2" entidad="Circe">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! No os quedéis por más tiempo en esta casa, mal de vuestro grado. Pero ante todo habéis de emprender un viaje á la morada de Plutón y de la veneranda Proserpina, para consultar el alma del tebano Tiresias, adivino ciego, cuyas mientes se conservan íntegras. Á él tan sólo, después de muerto, dióle Proserpina inteligencia y saber; pues los demás revolotean como sombras.»</span>
+
 </p>
+
 <p id="X_496">
-<span class="num">10.496
-</span>
-»</span>Tal dijo. Sentí que se me quebraba el corazón y, sentado en el lecho, lloraba y no quería vivir ni ver más la lumbre del sol. Pero cuando me sacié de llorar y de revolcarme por la cama, le contesté con estas palabras:
+
+  <span class="num">10.496</span>
+
+<span nivel="1" entidad="Odiseo">»Tal dijo. Sentí que se me quebraba el corazón y, sentado en el lecho, lloraba y no quería vivir ni ver más la lumbre del sol. Pero cuando me sacié de llorar y de revolcarme por la cama, le contesté con estas palabras:</span>
+
 </p>
+
 <p>
-<span class="pagenum" id="Page_144">
-[p. 144]
-</span>
+
+  <span class="pagenum" id="Page_144">[p. 144]</span>
+
 </p>
+
 <p id="X_501">
-<span class="num">10.501
-</span>
-<span nivel="1" entidad="">«¡Oh Circe! <span class="interroga">¿Quién nos guiará en ese viaje, ya que ningún hombre ha llegado jamás al Orco en negro navío?</span>»</span>
+
+  <span class="num">10.501</span>
+
+<span nivel="2" entidad="Odiseo">«¡Oh Circe! <span class="interroga">¿Quién nos guiará en ese viaje, ya que ningún hombre ha llegado jamás al Orco en negro navío?</span>»</span>
+
 </p>
+
+
 <p id="X_503">
-<span class="num">10.503
-</span>
-»</span>Así le hablé. Respondióme en el acto la divina entre las diosas: <span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! No te preocupe el deseo de tener quien guíe el negro bajel: iza el mástil, descoge las blancas velas y quédate sentado, que el soplo del Bóreas conducirá la nave. Y cuando hayas atravesado el Océano y llegues adonde hay una playa estrecha y bosques consagrados á Proserpina y elevados álamos y estériles sauces, detén la nave en el Océano, de profundos remolinos, y encamínate á la tenebrosa morada de Plutón. Allí el Piriflegetón y el Cocito, que es un arroyo del agua de la Estigia, llevan sus aguas al Aqueronte; y hay una roca en el lugar donde confluyen aquellos sonorosos ríos. Acercándote, pues, á este paraje, como te lo mando, oh héroe, abre un hoyo que tenga un codo por cada lado; haz alrededor del mismo una libación á todos los muertos, primeramente con aguamiel, luego con dulce vino y á la tercera vez con agua; y polvoréalo de blanca harina. Eleva después muchas súplicas á las inanes cabezas de los muertos y vota que, en llegando á Ítaca, les sacrificarás en el palacio una vaca no paridera, la mejor que haya, y llenarás la pira de cosas excelentes, en su obsequio; y también que á Tiresias le inmolarás aparte un carnero completamente negro que descuelle entre vuestros rebaños. Así que hayas invocado con tus preces al ínclito pueblo de los difuntos, sacrifica un carnero y una oveja negra, volviendo el rostro al Érebo, y apártate un poco hacia la corriente del río: allí acudirán muchas almas de los que murieron. Exhorta en seguida á los compañeros y mándales que desuellen las reses, tomándolas del suelo donde yacerán degolladas por el cruel bronce, y las quemen prestamente, haciendo votos al poderoso Plutón y á la veneranda Proserpina; y tú desenvaina la espada que llevas cabe al muslo, siéntate y no permitas que las inanes cabezas de los muertos se acerquen á la sangre hasta que hayas interrogado á Tiresias. Pronto comparecerá el adivino, príncipe de hombres, y te dirá el camino que has de seguir, cuál será su duración y cómo podrás volver á la patria, atravesando el mar en peces abundoso.»</span>
+
+  <span class="num">10.503</span>
+
+<span nivel="1" entidad="Odiseo">»Así le hablé. Respondióme en el acto la divina entre las diosas:</span>
+
+<span nivel="2" entidad="Circe">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! No te preocupe el deseo de tener quien guíe el negro bajel: iza el mástil, descoge las blancas velas y quédate sentado, que el soplo del Bóreas conducirá la nave. Y cuando hayas atravesado el Océano y llegues adonde hay una playa estrecha y bosques consagrados á Proserpina y elevados álamos y estériles sauces, detén la nave en el Océano, de profundos remolinos, y encamínate á la tenebrosa morada de Plutón. Allí el Piriflegetón y el Cocito, que es un arroyo del agua de la Estigia, llevan sus aguas al Aqueronte; y hay una roca en el lugar donde confluyen aquellos sonorosos ríos. Acercándote, pues, á este paraje, como te lo mando, oh héroe, abre un hoyo que tenga un codo por cada lado; haz alrededor del mismo una libación á todos los muertos, primeramente con aguamiel, luego con dulce vino y á la tercera vez con agua; y polvoréalo de blanca harina. Eleva después muchas súplicas á las inanes cabezas de los muertos y vota que, en llegando á Ítaca, les sacrificarás en el palacio una vaca no paridera, la mejor que haya, y llenarás la pira de cosas excelentes, en su obsequio; y también que á Tiresias le inmolarás aparte un carnero completamente negro que descuelle entre vuestros rebaños. Así que hayas invocado con tus preces al ínclito pueblo de los difuntos, sacrifica un carnero y una oveja negra, volviendo el rostro al Érebo, y apártate un poco hacia la corriente del río: allí acudirán muchas almas de los que murieron. Exhorta en seguida á los compañeros y mándales que desuellen las reses, tomándolas del suelo donde yacerán degolladas por el cruel bronce, y las quemen prestamente, haciendo votos al poderoso Plutón y á la veneranda Proserpina; y tú desenvaina la espada que llevas cabe al muslo, siéntate y no permitas que las inanes cabezas de los muertos se acerquen á la sangre hasta que hayas interrogado á Tiresias. Pronto comparecerá el adivino, príncipe de hombres, y te dirá el camino que has de seguir, cuál será su duración y cómo podrás volver á la patria, atravesando el mar en peces abundoso.»</span>
+
 </p>
+
 <p id="X_541">
-<span class="num">10.541
-</span>
-»</span>Tal dijo, y al momento llegó la Aurora, de áureo trono. Circe me vistió un manto y una túnica; y se puso amplia vestidura blanca, fina y hermosa, ciñó el talle con lindo cinturón de oro y veló su cabeza. Yo anduve por la casa y amonesté á los compañeros,
-<span class="pagenum" id="Page_145">
-[p. 145]
-</span>
+
+  <span class="num">10.541
+
+  </span>
+<span nivel="1" entidad="Odiseo">»Tal dijo, y al momento llegó la Aurora, de áureo trono. Circe me vistió un manto y una túnica; y se puso amplia vestidura blanca, fina y hermosa, ciñó el talle con lindo cinturón de oro y veló su cabeza. Yo anduve por la casa y amonesté á los compañeros,
+  
+  <span class="pagenum" id="Page_145">[p. 145]</span>
+
 acercándome á los mismos y hablándoles con dulces palabras:
+
 </p>
+
 <p id="X_548">
-<span class="num">10.548
-</span>
-<span nivel="1" entidad="">«No permanezcáis acostados, disfrutando del dulce sueño. Partamos ya, pues la veneranda Circe me lo aconseja.»</span>
+
+  <span class="num">10.548
+
+  </span>
+
+  <span nivel="2" entidad="Odiseo">«No permanezcáis acostados, disfrutando del dulce sueño. Partamos ya, pues la veneranda Circe me lo aconseja.»</span>
+
 </p>
+
 <p id="X_550">
-<span class="num">10.550
-</span>
-»</span>Así les dije; y su ánimo generoso se dejó persuadir. Mas ni de allí pude llevarme indemnes todos los compañeros. Un tal Elpénor, el más joven de todos, que ni era muy valiente en los combates, ni estaba muy en juicio, yendo á buscar la frescura después que se cargara de vino, habíase acostado separadamente de sus compañeros en la sagrada mansión de Circe; y al oir el vocerío y estrépito de los camaradas que empezaban á moverse, se levantó de súbito, olvidósele volver atrás á fin de bajar por la larga escalera, cayó desde el techo, se le rompieron las vértebras del cuello y su alma descendió al Orco.
+
+  <span class="num">10.550
+
+  </span>
+
+<span nivel="1" entidad="Odiseo">»Así les dije; y su ánimo generoso se dejó persuadir. Mas ni de allí pude llevarme indemnes todos los compañeros. Un tal Elpénor, el más joven de todos, que ni era muy valiente en los combates, ni estaba muy en juicio, yendo á buscar la frescura después que se cargara de vino, habíase acostado separadamente de sus compañeros en la sagrada mansión de Circe; y al oir el vocerío y estrépito de los camaradas que empezaban á moverse, se levantó de súbito, olvidósele volver atrás á fin de bajar por la larga escalera, cayó desde el techo, se le rompieron las vértebras del cuello y su alma descendió al Orco.</span>
+
 </p>
+
 <p id="X_561">
-<span class="num">10.561
-</span>
-»</span>Cuando ya todos se hubieron reunido, les dije estas palabras: <span nivel="1" entidad="">«Creéis sin duda que vamos á casa, á nuestra querida patria tierra; pues bien, Circe nos ha indicado que hemos de hacer un viaje á la morada de Plutón y de la veneranda Proserpina para consultar el alma del tebano Tiresias.»</span>
+
+  <span class="num">10.561</span>
+
+<span nivel="1" entidad="Odiseo">»Cuando ya todos se hubieron reunido, les dije estas palabras:</span>
+
+<span nivel="2" entidad="Odiseo">«Creéis sin duda que vamos á casa, á nuestra querida patria tierra; pues bien, Circe nos ha indicado que hemos de hacer un viaje á la morada de Plutón y de la veneranda Proserpina para consultar el alma del tebano Tiresias.»</span>
+
 </p>
 <p id="X_566">
-<span class="num">10.566
-</span>
-»</span>Así les hablé. Á todos se les quebraba el corazón y, sentándose allí mismo, lloraban y se mesaban los cabellos. Mas, ningún provecho sacaron de sus lamentaciones.
+<span class="num">10.566</span>
+
+<span nivel="1" entidad="Odiseo">»Así les hablé. Á todos se les quebraba el corazón y, sentándose allí mismo, lloraban y se mesaban los cabellos. Mas, ningún provecho sacaron de sus lamentaciones.</span>
+
 </p>
 <p id="X_569">
 <span class="num">10.569
 </span>
-»</span>Tan luego como nos encaminamos, afligidos, á la velera nave y á la orilla del mar, vertiendo copiosas lágrimas, acudió Circe y ató al obscuro bajel un carnero y una oveja negra. Y al hacerlo logró pasar inadvertida muy fácilmente, <span class="interroga">¿pues quién podrá ver con sus propios ojos á una deidad que va ó viene, si á ella no le place?</span>
+
+<span nivel="1" entidad="Odiseo">»Tan luego como nos encaminamos, afligidos, á la velera nave y á la orilla del mar, vertiendo copiosas lágrimas, acudió Circe y ató al obscuro bajel un carnero y una oveja negra. Y al hacerlo logró pasar inadvertida muy fácilmente, <span class="interroga">¿pues quién podrá ver con sus propios ojos á una deidad que va ó viene, si á ella no le place?</span>
 </p>
 <div class="figcenter mt3">
 <img alt="Viñeta de adorno" src="images/odisea145.jpg" id="img_images_odisea145.jpg">

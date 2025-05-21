@@ -6,8 +6,10 @@
   <title>Transliterador de Griego</title>
   <style>
     body { font-family: sans-serif; padding: 2em; }
-    textarea, pre { width: 100%; height: 150px; margin-bottom: 1em; font-size: 1.2em; }
-    button { margin-right: 1em; padding: 0.5em 1em; }
+    textarea { width: 100%; height: 150px; margin-bottom: 1em; font-size: 1.2em; }
+    button { margin: 0.5em 1em 0.5em 0; padding: 0.5em 1em; }
+    #output { border: 1px solid #ccc; padding: 1em; white-space: pre-wrap; min-height: 150px; margin-bottom: 1em; }
+    .no-trans { color: red; font-size: 120%; }
   </style>
 </head>
 <body>
@@ -18,41 +20,42 @@
   <div>
     <button onclick="convertir('antiguo')">Griego Antiguo → Latino</button>
     <button onclick="convertir('moderno')">Griego Moderno → Latino</button>
+    <button onclick="copiarResultado()">Copiar resultado</button>
   </div>
 
   <h2>Resultado:</h2>
-  <pre id="output"></pre>
+  <div id="output"></div>
 
   <script>
     let tablas = {};
 
-    // Cargar tabla desde archivo de texto
     async function cargarTabla(nombre) {
       const resp = await fetch(nombre);
       const texto = await resp.text();
       const mapa = new Map();
       texto.split('\n').forEach(linea => {
         const [griego, latino] = linea.split('\t');
-        if (griego && latino) mapa.set(griego, latino);
+        if (griego && latino) {
+          mapa.set(griego, latino);
+          mapa.set(griego.toUpperCase(), latino.toUpperCase());
+        }
       });
       return mapa;
     }
 
-    // Cargar ambas tablas al inicio
     window.onload = async () => {
-      tablas.antiguo = await cargarTabla('translit_antiguo.txt');
-      tablas.moderno = await cargarTabla('translit_moderno.txt');
+      tablas.antiguo = await cargarTabla('translit_antiguo_COMPLETO.txt');
+      tablas.moderno = await cargarTabla('translit_moderno_COMPLETO.txt');
     };
 
     function convertir(tipo) {
-      const texto = document.getElementById('input').value;
+      let texto = document.getElementById('input').value;
       const mapa = tablas[tipo];
       let resultado = '';
       let i = 0;
 
       while (i < texto.length) {
         let convertido = null;
-        // Probar con los grupos más largos primero (máx. 3 caracteres)
         for (let len = 3; len > 0; len--) {
           const segmento = texto.slice(i, i + len);
           if (mapa.has(segmento)) {
@@ -62,14 +65,25 @@
           }
         }
         if (convertido === null) {
-          resultado += texto[i];
+          resultado += `<span class="no-trans">${texto[i]}</span>`;
           i++;
         } else {
           resultado += convertido;
         }
       }
 
-      document.getElementById('output').textContent = resultado;
+      document.getElementById('output').innerHTML = resultado;
+    }
+
+    function copiarResultado() {
+      const contenedor = document.getElementById('output');
+      const temp = document.createElement('textarea');
+      temp.value = contenedor.innerText;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      alert("Resultado copiado al portapapeles");
     }
   </script>
 </body>

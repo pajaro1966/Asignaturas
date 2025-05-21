@@ -31,18 +31,19 @@
 
 .xhtml_center table { display: table; text-align: left; margin-left: auto; margin-right: auto; }
 
+p {color: blue;}
 
-span.num {color: red; font-size: 80%; background-color: #C0C0C0; position:absolute; right: 83%; }
+span.num {color: red; font-size: 80%; background-color: #C0C0C0; position:absolute; right: 83%; border: 7px lightgray; border-style: inset; padding: 3px 3px 3px 3px;}
 
 .interroga {color: white; background-color: black;}
 
-span[entidad] /* [nivel="1"] */ {border: 12px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-bottom: 5px; border-style: outset;}
+span[entidad] /* [nivel="1"] */ {margin-left: 40px; border: 10px solid lightgrey; display: block; padding: 15px 15px 15px 35px; margin-top: 15px; margin-bottom: 15px; border-style: inset;}
 
 
 span[entidad]::before {content: "[" attr(entidad) "]\00a0"; display: inline-block; color: Gainsboro; font-variant: small-caps;
 margin-left: -20px;}
 
-span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 12px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-bottom: 5px; font-size: 90%; }
+span[entidad][nivel="2"] {font-style: italic; margin-left: 80px; border: 10px solid lightgrey; border-style: inset; /* margin-right: 80px; */  padding: 15px 15px 15px 35px; margin-top: 15px; margin-bottom: 15px; font-size: 90%; }
 
 span[entidad][nivel="2"]::before {/* margin-top: 0px; */ /* right: 77%; */ font-size: 95%; font-style:normal; }
 
@@ -66,34 +67,37 @@ span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alc
 [entidad="dioses"], [entidad="dioses"]::before /* , [entidad="dioses"]::after */ {background-color: DodgerBlue; color: white; }
 
 
-[entidad="doncellas"], [entidad="doncellas"]::before /* , [entidad="doncellas"]::after */ {background-color: beige; }
+[entidad="doncellas"], [entidad="doncellas"]::before /* , [entidad="doncellas"]::after */ {background-color: beige;color: black;}
 
 [entidad="Egiptio"], [entidad="Egiptio"]::before /* , [entidad="Egiptio"]::after */ {background-color: peachpuff; color: black; }
+
+[entidad="Elpenor"] {background-color: brown; color: white; }
+
 
 [entidad="Eolo"], [entidad="Eolo"]::before /* , [entidad="Eolo"]::after */ {background-color: SlateBlue; color: white; }
 
 [entidad="Equeneo"], [entidad="Equeneo"]::before /* , [entidad="Equeneo"]::after */ {background-color: peachpuff; color: black; }
 
-[entidad="Eteoneo"], [entidad="Eteoneo"]::before /* , [entidad="Eteoneo"]::after */ {background-color: BurlyWood ;}
+[entidad="Eteoneo"], [entidad="Eteoneo"]::before /* , [entidad="Eteoneo"]::after */ {background-color: BurlyWood ; color: black;}
 
-[entidad="Eurimaco"], [entidad="Eurimaco"]::before /* , [entidad="Eurimaco"]::after */ {background-color: greenyellow;  }
+[entidad="Eurimaco"], [entidad="Eurimaco"]::before /* , [entidad="Eurimaco"]::after */ {background-color: greenyellow;  color: black;}
 
-[entidad="Euriclea"], [entidad="Euriclea"]::before /* , [entidad="Euriclea"]::after */ {background-color: salmon; }
+[entidad="Euriclea"], [entidad="Euriclea"]::before /* , [entidad="Euriclea"]::after */ {background-color: salmon; color: black;}
 
-[entidad="Eurialo"], [entidad="Eurialo"]::before /* , [entidad="Eurialo"]::after */ {background-color: #DAA06D; }
+[entidad="Eurialo"], [entidad="Eurialo"]::before /* , [entidad="Eurialo"]::after */ {background-color: #DAA06D; color: black;}
 
 
-[entidad="Euríloco"], [entidad="Euríloco"]::before /* , [entidad="Euríloco"]::after */ {background-color: Coral; }
+[entidad="Euríloco"], [entidad="Euríloco"]::before /* , [entidad="Euríloco"]::after */ {background-color: Coral; color: black;}
 
-[entidad="feacios"], [entidad="feacios"]::before /* , [entidad="feacios"]::after */ {background-color: beige;}
+[entidad="feacios"], [entidad="feacios"]::before /* , [entidad="feacios"]::after */ {background-color: beige; color: black;}
 
-[entidad="Haliterses"], [entidad="Haliterses"]::before /* , [entidad="Haliterses"]::after */ {background-color: papayawhip;}
+[entidad="Haliterses"], [entidad="Haliterses"]::before /* , [entidad="Haliterses"]::after */ {background-color: papayawhip; color: black; }
 
-[entidad="Helena"], [entidad="Helena"]::before /* , [entidad="Helena"]::after */ {background-color: pink;}
+[entidad="Helena"], [entidad="Helena"]::before /* , [entidad="Helena"]::after */ {background-color: pink; color: black;}
 
 [entidad="Idotea"], [entidad="Idotea"]::before /* , [entidad="Idotea"]::after */{background-color: blueviolet; color: white;}
 
-[entidad="Ino"], [entidad="Ino"]::before  /* , [entidad="Ino"]::after */{background-color: cyan; }
+[entidad="Ino"], [entidad="Ino"]::before  /* , [entidad="Ino"]::after */{background-color: cyan; color: black;}
 
 [entidad="Iftima"], [entidad="Iftima"]::before  /* , [entidad="Iftima"]::after */ {background-color: aqua; color: white;}
 
@@ -101,48 +105,48 @@ span[entidad="Alcinoo"], span[entidad="Alcinoo"]::before /* ,  span[entidad="Alc
 [entidad="Laodamante"], [entidad="Laodamante"]::before /* , [entidad="Laodamante"]::after */ {background-color: chocolate; color: white;}
 
 
-[entidad="Leocrito"], [entidad="Leocrito"]::before /* , [entidad="Leocrito"]::after */ {background-color: yellowgreen;}
+[entidad="Leocrito"], [entidad="Leocrito"]::before /* , [entidad="Leocrito"]::after */ {background-color: yellowgreen; color: black;}
 
 [entidad="Marte"], [entidad="Marte"]::before /* , [entidad="Marte"]::after */ {background-color: SteelBlue; color: white;}
 
 [entidad="Medonte"], [entidad="Medonte"]::before /* , [entidad="Medonte"]::after */ {background-color: brown; color: white;}
 
-[entidad="Menelao"], [entidad="Menelao"]::before /* , [entidad="Menelao"]::after */ {background-color: Tan ;}
+[entidad="Menelao"], [entidad="Menelao"]::before /* , [entidad="Menelao"]::after */ {background-color: Tan ; color: black;}
 
-[entidad="Mentor"] , [entidad="Mentor"]::before /* , [entidad="Mentor"]::after */ {background-color: gold;}
+[entidad="Mentor"] , [entidad="Mentor"]::before /* , [entidad="Mentor"]::after */ {background-color: gold; color: black;}
 
 [entidad="Mercurio"], [entidad="Mercurio"]::before  /* , [entidad="Mercurio"]::after */ {background-color: DarkSlateBlue; color: white;}
 
-[entidad="Minerva"], [entidad="Minerva"]::before /* , [entidad="Minerva"]::after */ {background-color: aqua; border: 2px solid aqua; }
+[entidad="Minerva"], [entidad="Minerva"]::before /* , [entidad="Minerva"]::after */ {background-color: aqua; border: 2px solid aqua; color: black;}
 
 
-[entidad="Nausicaa"], [entidad="Nausicaa"]::before  /* , [entidad="Nausicaa"]::after */ {background-color: pink;}
+[entidad="Nausicaa"], [entidad="Nausicaa"]::before  /* , [entidad="Nausicaa"]::after */ {background-color: pink; color: black;}
 
 [entidad="Neptuno"], [entidad="Neptuno"]::before  /* , [entidad="Neptuno"]::after */ {background-color: darkblue; color: white;}
 
-[entidad="Nestor"], [entidad="Nestor"]::before /* , [entidad="Nestor"]::after */ {background-color: BurlyWood ;}
+[entidad="Nestor"], [entidad="Nestor"]::before /* , [entidad="Nestor"]::after */ {background-color: BurlyWood ; color: black;}
 
-[entidad="Noemon"], [entidad="Noemon"]::before /* , [entidad="Noemon"]::after */ {background-color: gold ;}
+[entidad="Noemon"], [entidad="Noemon"]::before /* , [entidad="Noemon"]::after */ {background-color: gold ; color: black;}
 
-[entidad="Odiseo"], [entidad="Odiseo"]::before /* , [entidad="Odiseo"]::after */ {background-color: lightcoral;}
+[entidad="Odiseo"] /* , [entidad="Odiseo"]::before */ /* , [entidad="Odiseo"]::after */ {background-color: lightcoral; color: black;}
 
-[entidad="Penelope"], [entidad="Penelope"]::before /* , [entidad="Penelope"]::after */ {background-color: pink;}
+[entidad="Penelope"], [entidad="Penelope"]::before /* , [entidad="Penelope"]::after */ {background-color: pink; color: black;}
 
-[entidad="Pisistrato"], [entidad="Pisistrato"]::before /* , [entidad="Pisistrato"]::after */ {background-color: brown; color: white;}
+[entidad="Pisistrato"], [entidad="Pisistrato"]::before /* , [entidad="Pisistrato"]::after */ {background-color: brown; color: white; }
 
 [entidad="Polites"], [entidad="Polites"]::before /* , [entidad="Polites"]::after */ {background-color: Tomato; color: white;}
 
 
 [entidad="Polifemo"], [entidad="Polifemo"]::before /* , [entidad="Polifemo"]::after */ {background-color: green; color: white;}
 
-[entidad="Pretendientes"], [entidad="Pretendientes"]::before /* , [entidad="Pretendientes"]::after */ {background-color: LimeGreen ;}
+[entidad="Pretendientes"], [entidad="Pretendientes"]::before /* , [entidad="Pretendientes"]::after */ {background-color: LimeGreen ; color: black;}
 
-[entidad="Proteo"], [entidad="Proteo"]::before /* , [entidad="Proteo"]::after */ {background-color: lightblue ;}
+[entidad="Proteo"], [entidad="Proteo"]::before /* , [entidad="Proteo"]::after */ {background-color: lightblue ; color: black;}
 
-[entidad="Telemaco"], [entidad="Telemaco"]::before /* , [entidad="Telemaco"]::after */ {background-color: orange;}
+[entidad="Telemaco"], [entidad="Telemaco"]::before /* , [entidad="Telemaco"]::after */ {background-color: orange; color: black;}
 
 
-[entidad="Vulcano"], [entidad="Vulcano"]::before /* , [entidad="Vulcano"]::after */ {background-color: Turquoise;}
+[entidad="Vulcano"], [entidad="Vulcano"]::before /* , [entidad="Vulcano"]::after */ {background-color: Turquoise; color: black;}
 
 [entidad="Zeus"], [entidad="Zeus"]::before /* , [entidad="Zeus"]::after */ {background-color: blue; color: white; }
 
@@ -6380,45 +6384,57 @@ EVOCACIÓN DE LOS MUERTOS
 <p id="XI_1">
 <span class="num">11.1
 </span>
-»</span>En llegando á la nave y al divino mar, echamos en el agua la negra embarcación, izamos el mástil y descogimos el velamen; cargamos luego las reses, y por fin nos embarcamos nosotros, muy tristes y vertiendo copiosas lágrimas. Por detrás de la nave de azulada proa soplaba favorable viento, que hinchaba las velas; buen compañero que nos mandó Circe, la de lindas trenzas, deidad poderosa, dotada de voz. Colocados cada uno de los aparejos en su sitio, nos sentamos en la nave. Á ésta conducíanla el viento y el piloto, y durante el día fué andando á velas desplegadas, hasta que se puso el sol y las tinieblas ocuparon todos los caminos.
+<span nivel="1" entidad="Odiseo">»En llegando á la nave y al divino mar, echamos en el agua la negra embarcación, izamos el mástil y descogimos el velamen; cargamos luego las reses, y por fin nos embarcamos nosotros, muy tristes y vertiendo copiosas lágrimas. Por detrás de la nave de azulada proa soplaba favorable viento, que hinchaba las velas; buen compañero que nos mandó Circe, la de lindas trenzas, deidad poderosa, dotada de voz. Colocados cada uno de los aparejos en su sitio, nos sentamos en la nave. Á ésta conducíanla el viento y el piloto, y durante el día fué andando á velas desplegadas, hasta que se puso el sol y las tinieblas ocuparon todos los caminos.</span>
 </p>
 <p id="XI_13">
 <span class="num">11.13
 </span>
-»</span>Entonces arribamos á los confines del Océano, de profunda corriente. Allí están el pueblo y la ciudad de los Cimerios entre nieblas y nubes, sin que jamás el Sol resplandeciente los ilumine con sus rayos, ni cuando sube al cielo estrellado, ni cuando vuelve del cielo á la tierra, pues una noche perniciosa se extiende sobre los míseros mortales. Á tal paraje fué nuestro bajel, que sacamos á la playa; y nosotros, asiendo las ovejas, anduvimos á lo largo de la
-<span class="pagenum" id="Page_147">
-[p. 147]
-</span>
-corriente del Océano hasta llegar al sitio que nos indicara Circe.
+
+<span nivel="1" entidad="Odiseo">»Entonces arribamos á los confines del Océano, de profunda corriente. Allí están el pueblo y la ciudad de los Cimerios entre nieblas y nubes, sin que jamás el Sol resplandeciente los ilumine con sus rayos, ni cuando sube al cielo estrellado, ni cuando vuelve del cielo á la tierra, pues una noche perniciosa se extiende sobre los míseros mortales. Á tal paraje fué nuestro bajel, que sacamos á la playa; y nosotros, asiendo las ovejas, anduvimos á lo largo de la
+
+<span class="pagenum" id="Page_147">[p. 147]</span>
+
+corriente del Océano hasta llegar al sitio que nos indicara Circe.</span>
 </p>
+
 <p id="XI_23">
-<span class="num">11.23
-</span>
-»</span>Allí Perimedes y Euríloco sostuvieron las víctimas y yo, desenvainando la aguda espada que cabe al muslo llevaba, abrí un hoyo de un codo por lado; hice alrededor del mismo una libación á todos los muertos, primeramente con aguamiel, luego con dulce vino y á la tercera vez con agua; y lo polvoreé todo de blanca harina. Acto seguido supliqué con fervor á las inanes cabezas de los muertos, y voté que, cuando llegara á Ítaca, les sacrificaría en el palacio una vaca no paridera, la mejor que hubiese, y que en su obsequio llenaría la pira de cosas excelentes, y también que á Tiresias le inmolaría aparte un carnero completamente negro que descollase entre nuestros rebaños. Después de haber rogado con votos y súplicas al pueblo de los difuntos, tomé las reses, las degollé encima del hoyo, corrió la negra sangre y al instante se congregaron, saliendo del Érebo, las almas de los fallecidos: mujeres jóvenes, mancebos, ancianos que en otro tiempo padecieron muchos males, tiernas doncellas con el ánimo angustiado por reciente pesar, y muchos varones que habían muerto en la guerra, heridos por broncíneas lanzas, y mostraban ensangrentadas armaduras: agitábanse todas con grandísimo clamoreo alrededor del hoyo, unas por un lado y otras por otro; y, al verlas, enseñoreóse de mí el pálido terror. Incontinenti exhorté á los compañeros y les di orden de que desollaran las reses, tomándolas del suelo donde yacían degolladas por el cruel bronce, y las quemaran inmediatamente, haciendo votos al poderoso Plutón y á la veneranda Proserpina; y yo, desenvainando la aguda espada que cabe al muslo llevaba, me senté y no permití que las inanes cabezas de los muertos se acercaran á la sangre antes que hubiese interrogado á Tiresias.
+
+  <span class="num">11.23</span>
+
+<span nivel="1" entidad="Odiseo">»Allí Perimedes y Euríloco sostuvieron las víctimas y yo, desenvainando la aguda espada que cabe al muslo llevaba, abrí un hoyo de un codo por lado; hice alrededor del mismo una libación á todos los muertos, primeramente con aguamiel, luego con dulce vino y á la tercera vez con agua; y lo polvoreé todo de blanca harina. Acto seguido supliqué con fervor á las inanes cabezas de los muertos, y voté que, cuando llegara á Ítaca, les sacrificaría en el palacio una vaca no paridera, la mejor que hubiese, y que en su obsequio llenaría la pira de cosas excelentes, y también que á Tiresias le inmolaría aparte un carnero completamente negro que descollase entre nuestros rebaños. Después de haber rogado con votos y súplicas al pueblo de los difuntos, tomé las reses, las degollé encima del hoyo, corrió la negra sangre y al instante se congregaron, saliendo del Érebo, las almas de los fallecidos: mujeres jóvenes, mancebos, ancianos que en otro tiempo padecieron muchos males, tiernas doncellas con el ánimo angustiado por reciente pesar, y muchos varones que habían muerto en la guerra, heridos por broncíneas lanzas, y mostraban ensangrentadas armaduras: agitábanse todas con grandísimo clamoreo alrededor del hoyo, unas por un lado y otras por otro; y, al verlas, enseñoreóse de mí el pálido terror. Incontinenti exhorté á los compañeros y les di orden de que desollaran las reses, tomándolas del suelo donde yacían degolladas por el cruel bronce, y las quemaran inmediatamente, haciendo votos al poderoso Plutón y á la veneranda Proserpina; y yo, desenvainando la aguda espada que cabe al muslo llevaba, me senté y no permití que las inanes cabezas de los muertos se acercaran á la sangre antes que hubiese interrogado á Tiresias.</span>
+
 </p>
 <p id="XI_51">
-<span class="num">11.51
-</span>
-»</span>La primer alma que vino fué la de Elpénor, el cual aún no había recibido sepultura en la tierra inmensa; que dejamos su cuerpo en la mansión de Circe sin enterrarlo ni llorarlo porque nos apremiaban otros trabajos. Al verlo lloré, le compadecí en mi corazón, y, hablándole, le dije estas aladas palabras:
+<span class="num">11.51</span>
+
+<span nivel="1" entidad="Odiseo">»La primer alma que vino fué la de Elpénor, el cual aún no había recibido sepultura en la tierra inmensa; que dejamos su cuerpo en la mansión de Circe sin enterrarlo ni llorarlo porque nos apremiaban otros trabajos. Al verlo lloré, le compadecí en mi corazón, y, hablándole, le dije estas aladas palabras:</span>
 </p>
 <p id="XI_57">
 <span class="num">11.57
 </span>
-<span nivel="1" entidad="">«¡Oh Elpénor! <span class="interroga">¿Cómo viniste á estas tinieblas caliginosas?</span> Tú has llegado á pie, antes que yo en la negra nave.»</span>
+<span nivel="2" entidad="Odiseo">«¡Oh Elpénor! <span class="interroga">¿Cómo viniste á estas tinieblas caliginosas?</span> Tú has llegado á pie, antes que yo en la negra nave.»</span>
 </p>
 <p id="XI_59">
 <span class="num">11.59
 </span>
-»</span>Así le hablé; y él, dando un suspiro, me respondió con estas palabras: <span nivel="1" entidad="">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Dañáronme la mala voluntad de algún dios y el exceso de vino. Habiéndome acostado en la mansión de Circe, no pensé en volver atrás, á fin de bajar por la larga escalera, y caí desde el techo; se
-<span class="pagenum" id="Page_148">
-[p. 148]
-</span>
+
+<span nivel="1" entidad="Odiseo">»Así le hablé; y él, dando un suspiro, me respondió con estas palabras:</span>
+
+<span nivel="2" entidad="Elpenor">«¡Laertíada, de jovial linaje! ¡Ulises, fecundo en recursos! Dañáronme la mala voluntad de algún dios y el exceso de vino. Habiéndome acostado en la mansión de Circe, no pensé en volver atrás, á fin de bajar por la larga escalera, y caí desde el techo; se
+
+  <span class="pagenum" id="Page_148">[p. 148]</span>
+
 me rompieron las vértebras del cuello, y mi alma descendió al Orco. Ahora te suplico en nombre de los que se quedaron en tu casa y no están presentes,—de tu esposa, de tu padre, que te crió cuando eras niño, y de Telémaco, el único vástago que dejaste en el palacio:—sé que, partiendo de acá, de la morada de Plutón, detendrás la bien construída nave en la isla Eea; pues yo te ruego, oh rey, que al llegar á la misma te acuerdes de mí. No te vayas, dejando mi cuerpo sin llorarle ni enterrarle, á fin de que no excite contra ti la cólera de los dioses; por el contrario, quema mi cadáver con las armas de que me servía y erígeme un túmulo en la ribera del espumoso mar, para que de este hombre desgraciado tengan noticia los venideros. Hazlo así y clava en el túmulo aquel remo con que, estando vivo, bogaba yo con mis compañeros.»</span>
+
 </p>
 <p id="XI_79">
 <span class="num">11.79
 </span>
-»</span>Tales fueron sus palabras; y le respondí diciendo: <span nivel="1" entidad="">«Todo lo haré, oh infeliz, todo te lo llevaré á cumplimiento.»</span>
+
+<span nivel="1" entidad="Odiseo">»Tales fueron sus palabras; y le respondí diciendo:</span>
+
+  <span nivel="2" entidad="Odiseo">«Todo lo haré, oh infeliz, todo te lo llevaré á cumplimiento.»</span>
+
 </p>
 <p id="XI_81">
 <span class="num">11.81
@@ -7110,10 +7126,9 @@ Tal fué lo que Ulises contó. Enmudecieron los oyentes y, arrobados por el plac
 </span>
 <span nivel="1" entidad="">«¡Oh Ulises! Pues llegaste á mi mansión de pavimento de bronce y elevada techumbre, creo que tornarás á tu patria sin tener que vagar más, aunque sean en tan gran número los males que hasta ahora has padecido. Y dirigiéndome á vosotros todos, los que siempre bebéis en mi palacio el negro vino de honor y oís al aedo, he aquí lo que os encargo: ya tiene el huésped en pulimentada arca vestiduras y oro labrado y los demás presentes que los consejeros feacios le han traído; ea, démosle sendos trípodes grandes y calderos; y reunámonos después para hacer una colecta por la población, porque nos sería difícil á cada uno de nosotros obsequiarle con tal regalo, valiéndonos exclusivamente de nuestros recursos.»</span>
 </p>
-<p id="XIII_16">
-<span class="num">13.16
-</span>
-De tal suerte les exhortó Alcínoo, y á todos les plugo cuanto
+<p id="XIII_16"><span class="num">13.16</span>
+  
+  De tal suerte les exhortó Alcínoo, y á todos les plugo cuanto
 <span class="pagenum" id="Page_175">
 [p. 175]
 </span>

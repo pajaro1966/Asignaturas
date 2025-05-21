@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador de Griego</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    textarea, pre { width: 100%; height: 150px; margin-bottom: 1em; font-size: 1.2em; }
+    button { margin-right: 1em; padding: 0.5em 1em; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador de Griego</h1>
+  <label for="input">Texto en griego:</label>
+  <textarea id="input" placeholder="Escribe aquí tu texto en griego..."></textarea>
+
+  <div>
+    <button onclick="convertir('antiguo')">Griego Antiguo → Latino</button>
+    <button onclick="convertir('moderno')">Griego Moderno → Latino</button>
+  </div>
+
+  <h2>Resultado:</h2>
+  <pre id="output"></pre>
+
+  <script>
+    let tablas = {};
+
+    // Cargar tabla desde archivo de texto
+    async function cargarTabla(nombre) {
+      const resp = await fetch(nombre);
+      const texto = await resp.text();
+      const mapa = new Map();
+      texto.split('\n').forEach(linea => {
+        const [griego, latino] = linea.split('\t');
+        if (griego && latino) mapa.set(griego, latino);
+      });
+      return mapa;
+    }
+
+    // Cargar ambas tablas al inicio
+    window.onload = async () => {
+      tablas.antiguo = await cargarTabla('translit_antiguo.txt');
+      tablas.moderno = await cargarTabla('translit_moderno.txt');
+    };
+
+    function convertir(tipo) {
+      const texto = document.getElementById('input').value;
+      const mapa = tablas[tipo];
+      let resultado = '';
+      let i = 0;
+
+      while (i < texto.length) {
+        let convertido = null;
+        // Probar con los grupos más largos primero (máx. 3 caracteres)
+        for (let len = 3; len > 0; len--) {
+          const segmento = texto.slice(i, i + len);
+          if (mapa.has(segmento)) {
+            convertido = mapa.get(segmento);
+            i += len;
+            break;
+          }
+        }
+        if (convertido === null) {
+          resultado += texto[i];
+          i++;
+        } else {
+          resultado += convertido;
+        }
+      }
+
+      document.getElementById('output').textContent = resultado;
+    }
+  </script>
+</body>
+</html>

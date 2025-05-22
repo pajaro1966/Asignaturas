@@ -37,15 +37,14 @@
         const [griego, latino] = linea.split('\t');
         if (griego && latino) {
           mapa.set(griego, latino);
-          mapa.set(griego.toUpperCase(), latino.toUpperCase());
         }
       });
-      return mapa;
+      return new Map([...mapa.entries()].sort((a, b) => b[0].length - a[0].length));
     }
 
     window.onload = async () => {
-      tablas.antiguo = await cargarTabla('translit_antiguo_COMPLETO.txt');
-      tablas.moderno = await cargarTabla('translit_moderno_COMPLETO.txt');
+      tablas.antiguo = await cargarTabla('translit_antiguo_COMPLETO_02.txt');
+      tablas.moderno = await cargarTabla('translit_moderno_COMPLETO_02.txt');
     };
 
     function convertir(tipo) {
@@ -56,11 +55,10 @@
 
       while (i < texto.length) {
         let convertido = null;
-        for (let len = 3; len > 0; len--) {
-          const segmento = texto.slice(i, i + len);
-          if (mapa.has(segmento)) {
-            convertido = mapa.get(segmento);
-            i += len;
+        for (let [clave, valor] of mapa.entries()) {
+          if (texto.startsWith(clave, i)) {
+            convertido = valor;
+            i += clave.length;
             break;
           }
         }

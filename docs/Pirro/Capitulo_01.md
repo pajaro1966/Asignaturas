@@ -13,6 +13,8 @@ span.conj, span.nom, span.verb, span.prep, span.dat, span.adv {padding: 5px 5px 
 td {width: 50%;}
 
 .vocab {font-size: 80%; line-height: 1;}
+.signi {color: blue;}
+
 /*
 1	#FDDDE6	Rosa suave
 2	#D2E8FF	Azul cielo pastel

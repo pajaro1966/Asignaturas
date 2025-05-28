@@ -1,41 +1,54 @@
 # Capítulo 1
 
-<style>
+<style id="estiloA">
+
+/*  
 .nom {background-color:#FDDDE6; color: black;}
 .verb {background-color:#D2E8FF; color: black;}
 .prep {background-color:#DFFFD6; color: black;}
 .dat {background-color:#FFF4CC; color: black;}
 .adv {background-color:#E6D1F2; color: black;}
 .conj {background-color:#FFE0CC; color: black;}
+*/ 
 
 span.conj, span.nom, span.verb, span.prep, span.dat, span.adv {padding: 5px 5px 5px 5px; line-height: 3; /* border: 2px solid black;*/}
 
-td {width: 50%;}
+td.izquierda {width: 60%; border-right: 2px solid black; padding-right: 20px;} 
+
+td.derecha {padding-left: 20px;}
 
 .vocab {font-size: 80%; line-height: 1;}
 .signi {color: blue;}
 
-/*
-1	#FDDDE6	Rosa suave
-2	#D2E8FF	Azul cielo pastel
-3	#DFFFD6	Verde lima suave
-4	#FFF4CC	Amarillo mantequilla
-5	#E6D1F2	Lavanda pálido
-6	#FFE0CC	Melocotón pastel
-7	#D4F4FA	Azul hielo suave
-8	#E9FFDB	Verde menta muy claro
-9	#FFD8EB	Rosa chicle pálido
-10	#F7E7CE	Beige almendra
-*/
+.nom {border-bottom: 8px  solid red; color: black;}
+.verb {border-bottom: 8px  solid blue; color: black;}
+.prep {border-bottom: 8px  solid green; color: black;}
+.dat {border-bottom: 8px  solid brown; color: black;}
+.adv {border-bottom: 8px  solid violet; color: black;}
+.conj {border-bottom: 8px  solid orange; color: black;}
+
 </style>
+
+<!--
+/* 1	#FDDDE6	Rosa suave 
+/* 2	#D2E8FF	Azul cielo pastel
+/* 3	#DFFFD6	Verde lima suave
+/* 4	#FFF4CC	Amarillo mantequilla
+/* 5	#E6D1F2	Lavanda pálido
+/* 6	#FFE0CC	Melocotón pastel
+/* 7	#D4F4FA	Azul hielo suave
+/* 8	#E9FFDB	Verde menta muy claro
+/* 9	#FFD8EB	Rosa chicle pálido
+/* 10	#F7E7CE	Beige almendra
+-->
 
 ## A
 
 ### Λόγος
 
-<table>
+<table class="contenedor">
 <tr>
-<td>
+<td class="izquierda">
 <span class="nom">ὁ Λεύκιππος</span>
 <span class="verb">ἐστι</span>
 <span class="nom">γεωργός</span>.
@@ -85,7 +98,7 @@ td {width: 50%;}
 <span class="adv">οὐκ</span>
 <span class="verb">ἔστιν</span>.
 </td>
-<td>
+<td class="derecha">
 <ol class="vocab">
 <li>γεωργός, ὁ <span class="signi">campesino</span></li>
 <li>δούλος, ὁ <span class="signi">esclavo</span></li>
@@ -121,7 +134,7 @@ td {width: 50%;}
     Tu navegador no soporta el elemento de audio.
   </audio>
 <br>
- <button data-segment="0-55">⏯ Ολώκληρο κείμενο</button><br>
+ <button data-segment="0-55">0 ⏯ Ολώκληρο κείμενο</button><br>
  <button data-segment="6-8">1 ⏯ ὁ Λεύκιππος ἐστι γεωργός.</button><br>
  <button data-segment="9-12.5">2 ⏯ ὁ Λεύκιππος ἐν τῴ ἀγρῴ κάμνει.</button><br>
  <button data-segment="12.5-17">3 ⏯ ἡ Ἀντιόπη ἐστι λαχανωπολήτρια. </button><br>

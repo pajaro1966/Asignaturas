@@ -166,6 +166,6 @@ td.derecha {padding-left: 20px;}
     <div class="karaoke-line" data-start="29" data-end="33">ὁ Πύρρος κούρος ἐστιν.</div>
     <div class="karaoke-line" data-start="33" data-end="41">ὁ Πύρρος ἐν τῇ οἰκίᾳ μανθάνει καί ἐν τῴ ἀγρῴ ὠφελεί.</div>
     <div class="karaoke-line" data-start="41" data-end="44">ὁ Κλώτος δούλος ἐστιν.</div>
-    <div class="karaoke-line" data-start="45" data-end="48">ὁ Κλώτος ἐν τή οἰκίᾳ καί ἐν τῴ ἀγρῴ κάμνει.</div>
+    <div class="karaoke-line" data-start="45" data-end="50">ὁ Κλώτος ἐν τή οἰκίᾳ καί ἐν τῴ ἀγρῴ κάμνει.</div>
     <div class="karaoke-line" data-start="50" data-end="55">ὁ Κλώτος ἐλεύθερος οὐκ ἔστιν.</div>
   </div>

@@ -9,11 +9,11 @@
 .dat {background-color:#FFF4CC; color: black;}
 .adv {background-color:#E6D1F2; color: black;}
 .conj {background-color:#FFE0CC; color: black;}
-*/ 
+*/
 
 span.conj, span.nom, span.verb, span.prep, span.dat, span.adv {padding: 5px 5px 5px 5px; line-height: 3; /* border: 2px solid black;*/}
 
-td.izquierda {width: 60%; border-right: 2px solid black; padding-right: 20px;} 
+td.izquierda {width: 60%; border-right: 2px solid black; padding-right: 20px;}
 
 td.derecha {padding-left: 20px;}
 
@@ -67,7 +67,7 @@ td.derecha {padding-left: 20px;}
 <span class="nom">κόρη</span>
 <span class="verb">ἐστιν</span>.
 <span class="nom">ἡ Ἑλένη</span>
-<span class="prep">ἐν</span> 
+<span class="prep">ἐν</span>
 <span class="dat">τῇ οἰκίᾳ</span>
 <span class="verb">ὠφελεί</span>.
 <span class="nom">ὁ Πύρρος</span>
@@ -148,3 +148,24 @@ td.derecha {padding-left: 20px;}
 <button data-segment="50-55">11 ⏯ ὁ Κλώτος ἐλεύθερος οὐκ ἔστιν.</button><br>
 
 </div>
+
+### Ludoviciano Karaoke
+
+  <audio id="audio" controls style="width: 100%;">
+    <source src="../Audio/01.A.mp3" type="audio/mpeg">
+    Ο περιηγητής σας δεν υποστηρίζει την αναπαραγωγή ήχου.
+  </audio>
+
+  <div id="karaoke">
+    <div class="karaoke-line" data-start="6" data-end="8">ὁ Λεύκιππος ἐστι γεωργός.</div>
+    <div class="karaoke-line" data-start="9" data-end="12.5">ὁ Λεύκιππος ἐν τῴ ἀγρῴ κάμνει.</div>
+    <div class="karaoke-line" data-start="12.5" data-end="17">ἡ Ἀντιόπη ἐστι λαχανωπολήτρια.</div>
+    <div class="karaoke-line" data-start="17" data-end="21">ἡ Ἀντιόπη ἐν τῇ ἀγορά πωλεί.</div>
+    <div class="karaoke-line" data-start="21" data-end="24">ἡ Ἑλένη κόρη ἐστιν.</div>
+    <div class="karaoke-line" data-start="24" data-end="29">ἡ Ἑλένη ἐν τῇ οἰκίᾳ ὠφελεί.</div>
+    <div class="karaoke-line" data-start="29" data-end="33">ὁ Πύρρος κούρος ἐστιν.</div>
+    <div class="karaoke-line" data-start="33" data-end="41">ὁ Πύρρος ἐν τῇ οἰκίᾳ μανθάνει καί ἐν τῴ ἀγρῴ ὠφελεί.</div>
+    <div class="karaoke-line" data-start="41" data-end="44">ὁ Κλώτος δούλος ἐστιν.</div>
+    <div class="karaoke-line" data-start="45" data-end="48">ὁ Κλώτος ἐν τή οἰκίᾳ καί ἐν τῴ ἀγρῴ κάμνει.</div>
+    <div class="karaoke-line" data-start="50" data-end="55">ὁ Κλώτος ἐλεύθερος οὐκ ἔστιν.</div>
+  </div>

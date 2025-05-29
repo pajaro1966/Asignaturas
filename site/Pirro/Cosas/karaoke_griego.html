@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Karaoke Griego</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; line-height: 1.5; }
+    .karaoke-line { transition: background-color 0.3s; padding: 5px; }
+    .highlight { background-color: yellow; }
+  </style>
+</head>
+<body>
+
+  <h1>Karaoke en griego</h1>
+
+  <audio id="audio" controls>
+    <source src="../Audio/01.A.mp3" type="audio/mpeg">
+    Ο περιηγητής σας δεν υποστηρίζει την αναπαραγωγή ήχου.
+  </audio>
+
+  <div id="karaoke">
+    <div class="karaoke-line" data-start="0" data-end="3">ὁ Λεύκιππος ἐστι γεωργός.</div>
+    <div class="karaoke-line" data-start="3" data-end="6">ὁ Λεύκιππος ἐν τῴ ἀγρῴ κάμνει.</div>
+    <div class="karaoke-line" data-start="6" data-end="9">ἡ Ἀντιόπη ἐστι λαχανωπολήτρια.</div>
+    <div class="karaoke-line" data-start="9" data-end="12">ἡ Ἀντιόπη ἐν τῇ ἀγορά πωλεί.</div>
+    <div class="karaoke-line" data-start="12" data-end="15">ἡ Ἑλένη κόρη ἐστιν.</div>
+    <div class="karaoke-line" data-start="15" data-end="18">ἡ Ἑλένη ἐν τῇ οἰκίᾳ ὠφελεί.</div>
+    <div class="karaoke-line" data-start="18" data-end="21">ὁ Πύρρος κούρος ἐστιν.</div>
+    <div class="karaoke-line" data-start="21" data-end="25">ὁ Πύρρος ἐν τῇ οἰκίᾳ μανθάνει καί ἐν τῴ ἀγρῴ ὠφελεί.</div>
+    <div class="karaoke-line" data-start="25" data-end="28">ὁ Κλώτος δούλος ἐστιν.</div>
+    <div class="karaoke-line" data-start="28" data-end="31">ὁ Κλώτος ἐν τή οἰκίᾳ καί ἐν τῴ ἀγρῴ κάμνει.</div>
+    <div class="karaoke-line" data-start="31" data-end="34">ὁ Κλώτος ἐλεύθερος οὐκ ἔστιν.</div>
+  </div>
+
+  <script>
+    const audio = document.getElementById('audio');
+    const lines = document.querySelectorAll('.karaoke-line');
+
+    audio.addEventListener('timeupdate', () => {
+      const currentTime = audio.currentTime;
+      lines.forEach(line => {
+        const start = parseFloat(line.dataset.start);
+        const end = parseFloat(line.dataset.end);
+        if (currentTime >= start && currentTime < end) {
+          line.classList.add('highlight');
+        } else {
+          line.classList.remove('highlight');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

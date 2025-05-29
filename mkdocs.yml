@@ -118,6 +118,7 @@ site_url: https://sitename.example
 extra_css:
   - stylesheets/extra.css
   - stylesheets/mermaid.css
+  - stylesheets/karaoke.css
 theme:
   features:
     - navigation.footer
@@ -186,5 +187,5 @@ plugins:
 extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/audio-control.js
-  - javascript/lrc.js
-  - javascript/karaoke.js
+  - javascripts/lrc.js
+  - javascripts/karaoke.js

@@ -18,12 +18,12 @@ function activarKaraoke() {
   });
 }
 
-// Activar tras cada carga de página en MkDocs Material
+// Soporte para navegación dinámica de MkDocs Material
 if (typeof document$ !== "undefined") {
   document$.subscribe(() => {
     activarKaraoke();
   });
 } else {
-  // fallback para HTML normal
+  // Fallback para HTML clásico
   document.addEventListener("DOMContentLoaded", activarKaraoke);
 }

@@ -1835,4 +1835,3 @@
 ## Pág. 459
 
 ![Página](/Daniel_Caballero/Ediciones/Heubeck/Vol_03/Heubeck_Od_03_459.png)
-

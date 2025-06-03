@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador Griego v.019</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    textarea { width: 100%; height: 150px; margin-top: 1em; }
+    .output { margin-top: 1em; white-space: pre-wrap; border: 1px solid #ccc; padding: 1em; }
+    .red { color: red; font-size: 120%; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador Griego (v.019)</h1>
+  <label for="greekInput"><strong>Texto en griego:</strong></label>
+  <textarea id="greekInput" placeholder="Introduce aquí el texto griego..."></textarea>
+  <br>
+  <button onclick="transliterate('antiguo')">Transliterar griego antiguo</button>
+  <button onclick="transliterate('moderno')">Transliterar griego moderno/medieval</button>
+  <button onclick="copyResult()">Copiar resultado</button>
+  <div class="output" id="output"><strong>Resultado:</strong><br><span id="resultText"></span></div>
+
+  <script>
+    let tabla = {};
+
+    fetch('tabla_tres_columnas.csv')
+      .then(response => response.text())
+      .then(csv => {
+        const lines = csv.trim().split('\n');
+        for (const line of lines) {
+          const [griego, antiguo, moderno] = line.split(';');
+          tabla[griego] = { antiguo, moderno };
+        }
+      });
+
+    function transliterate(modo) {
+      const input = document.getElementById('greekInput').value;
+      let result = '';
+      let i = 0;
+
+      while (i < input.length) {
+        let match = '';
+        let translit = '';
+        // Buscar el fragmento más largo coincidente
+        for (let j = Math.min(5, input.length - i); j > 0; j--) {
+          const fragmento = input.slice(i, i + j);
+          if (tabla[fragmento]) {
+            match = fragmento;
+            translit = tabla[fragmento][modo];
+            break;
+          }
+        }
+
+        if (match) {
+          result += translit;
+          i += match.length;
+        } else {
+          const char = input[i];
+          if (char.trim()) {
+            result += `<span class="red">${char}</span>`;
+          } else {
+            result += char;
+          }
+          i++;
+        }
+      }
+
+      document.getElementById('resultText').innerHTML = result;
+    }
+
+    function copyResult() {
+      const temp = document.createElement('textarea');
+      temp.value = document.getElementById('resultText').innerText;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+    }
+  </script>
+</body>
+</html>

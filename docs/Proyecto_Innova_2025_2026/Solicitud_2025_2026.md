@@ -2,20 +2,28 @@
 
 ---
 
+FYL_028.25_INN Formación de palabras en griego antiguo: vocabulario, gramática y ejercicios
+
 ## 1. Financiación
 
 |**TIPO**|**DESCRIPCIÓN**|**CUANTÍA**|
 |---|---|---|
-|Aplicaciones|2 licencias de Filemaker|1268,00 €|
+|Aplicaciones|3 licencias de Filemaker|1268,00 €|
 |Servicios|1. GitHub Enterprise; 2. servicios de hosting|400,00 €|
 |Materiales| | |
 
 ---
 
-## 2. Descripción corta
+## 2. Resumen del proyecto en 300 palabras máximo.
 
-El presente proyecto tiene como objetivo la creación de una gramática práctica del griego antiguo (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs.
-Sigue el patrón de gramáticas prácticas de otras lenguas como la ‘Practical English Usage’ de Michael Swan, está ordenada alfabéticamente por tópicos (como si fuera un diccionario), está basada en el sistema de las notas atómicas (Zettelkasten) y su alojamiento en GitHub con MkDocs permite que la notas sean comentadas por cualquier persona, de manera que pueden ser mejoradas de manera colaborativa tanto por profesores como por alumnos. Dado su carácter digital, dichas notas se pueden vincular a la web de cualquier asignatura creada por otros profesores.
+**Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
+- **Resumen del proyecto en 300 palabras máximo. Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
+
+
+El presente proyecto tiene como objetivo la creación de un vocabulario básico del griego antiguo que incluya no solo el listado de los mil (1000) lemas más frecuentes de esta lengua, sino también las reglas de formación de palabras y fonéticas necesarias para explicar su significado y su forma. Esta formación de palabras adaptada a un vocabulario de frecuencia estará (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs. Su uso se podrá extender también al estudio inicial de esta lengua en secundaria.
+Aunque inicialmente el resultado de este proyecto estará alojado en GitHub con MkDocs, pero el siguiente paso será su publicación para uso de estudiantes universitarios y de secundaria.
+El objetivo de este proyecto es solucionar las dificultades del aprendizaje del vocabulario de las lenguas clásicas y evitar la dependencia excesiva del diccionario por parte de los alumnos.
+ permite que la notas sean comentadas por cualquier persona, de manera que pueden ser mejoradas de manera colaborativa tanto por profesores como por alumnos. Dado su carácter digital, dichas notas se pueden vincular a la web de cualquier asignatura creada por otros profesores.
 En las siguientes páginas de GitHub se puede ver (i) un ejemplo de aplicación de este tipo de publicación en red tanto de la gramática (ii) como de la asignatura 17784, y (iii) también se ha creado un duplicado de esta solicitud con material gráfico adicional en la misma plataforma:
 
 - [Modelo de gramática](https://pajaro1966.github.io/My_Mk_Docs/gramatica/)
@@ -25,6 +33,8 @@ En las siguientes páginas de GitHub se puede ver (i) un ejemplo de aplicación 
 ---
 
 ## 3. Objetivos
+
+**Se deben definir claramente los objetivos generales y específicos, alineados con la convocatoria y sustentados en un diagnóstico contextualizado y referencias bibliográficas que justifiquen la propuesta. Más información en las bases de la convocatoria.**
 
 ### 3.1. Descripción de la situación a mejorar
 
@@ -95,6 +105,8 @@ Figura: Gestión de las notas mediante VS Code:
 
 ## 4. Diseño del proyecto
 
+**Es necesario presentar una planificación detallada de actividades, responsables y plazos, describiendo la metodología, los recursos disponibles y requeridos, la viabilidad del proyecto y, en su caso, un presupuesto justificado. Más información en las bases de la convocatoria.**
+
 ### 4.1. Metodología
 
 Como en otros proyectos solicitados por el coordinador, se cuenta ya con un modelo que se puede encontrar en la siguiente URL y que se utilizará en las siguientes explicaciones:
@@ -149,6 +161,8 @@ Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostr
 
 ## 5. Justificación de la relevancia y pertinencia de la innovación docente
 
+- Se debe argumentar el valor del proyecto indicando a cuántas asignaturas, docentes y estudiantes afecta, su impacto potencial, su aplicabilidad concreta y la posibilidad de ser replicado en otros contextos. Más información en las bases de la convocatoria.
+
 ### 5.1. Alcance
 
 Como en otros proyectos del coordinador, el alcance de la mejora no se limita a una única asignatura ni a las cinco (5) impartidas por los miembros del proyecto en los dos grados principales en que participa el Departamento de Filología Clásica, sino que se extiende a todos los grados y másterres del Departamento de Filología Clásica en los que se imparte griego antiguo (al menos 12 asignaturas): se trata de un proyecto totalmente transversal y no centrado en una asignatura concreta, aunque parte y está ligado a las asignaturas específicas de los miembros del proyecto. Supondrá, por tanto, una mejora en todos los cursos de los títulos de grado y posgrado impartidos por nuestro departamento: (a) Grado en Estudios Clásicos y de la Antigüedad (Antes Grado en Ciencias y Lenguas de la Antigüedad); (b) Doble Grado en Historia del Arte y Estudios Clásicos y de la Antigüedad (Antes Doble Grado en Historia del Arte y Ciencias y Lenguas de la Antigüedad); (c) Máster Universitario en Estudios Clásicos.
@@ -187,6 +201,8 @@ De acuerdo con lo expuesto, la aplicabilidad está asegurada. Lo único que hay 
 ---
 
 ## 6. Justificación del equipo
+
+- Hay que demostrar que el equipo tiene la experiencia necesaria, detallando roles, responsabilidades, dinámicas de trabajo y mecanismos de coordinación adecuados para el logro de los objetivos. Más información en las bases de la convocatoria.
 
 En el punto § 4.3 se detallan las tareas asignadas a cada miembro del equipo. En este apartado describiremos su idoneidad para el proyecto que se está describiendo.
 
@@ -227,6 +243,8 @@ En particular el coordinador es autor de seis (6) capítulos (286 páginas) de u
 ---
 
 ## 7. Impacto de la mejora
+
+- Es fundamental establecer indicadores de evaluación, valores de referencia y resultados esperados que permitan medir y validar el impacto de la innovación propuesta. Más información en las bases de la convocatoria.
 
 Para medir el impacto de la mejora se va a tener en cuenta los resultados académicos de los alumnos, las estadísticas de uso del sitio web, la retroalimentación específica de los alumnos, y un sistema de encuestas.
 

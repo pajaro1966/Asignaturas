@@ -19,12 +19,9 @@ FYL_028.25_INN Formación de palabras en griego antiguo: vocabulario, gramática
 **Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
 - **Resumen del proyecto en 300 palabras máximo. Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
 
-
-El presente proyecto tiene como objetivo la creación de un vocabulario básico del griego antiguo que incluya no solo el listado de los mil (1000) lemas más frecuentes de esta lengua, sino también las reglas de formación de palabras y fonéticas necesarias para explicar su significado y su forma. Esta formación de palabras adaptada a un vocabulario de frecuencia estará (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs. Su uso se podrá extender también al estudio inicial de esta lengua en secundaria.
+El presente proyecto tiene como objetivo la creación de un vocabulario básico del griego antiguo que incluya no solo el listado de los mil (1000) lemas más frecuentes de esta lengua, sino también las reglas de formación de palabras y fonéticas necesarias para explicar su significado y su forma. Esta formación de palabras adaptada a un vocabulario de frecuencia estará (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs.
 Aunque inicialmente el resultado de este proyecto estará alojado en GitHub con MkDocs, pero el siguiente paso será su publicación para uso de estudiantes universitarios y de secundaria.
-El objetivo de este proyecto es solucionar las dificultades del aprendizaje del vocabulario de las lenguas clásicas y evitar la dependencia excesiva del diccionario por parte de los alumnos.
- permite que la notas sean comentadas por cualquier persona, de manera que pueden ser mejoradas de manera colaborativa tanto por profesores como por alumnos. Dado su carácter digital, dichas notas se pueden vincular a la web de cualquier asignatura creada por otros profesores.
-En las siguientes páginas de GitHub se puede ver (i) un ejemplo de aplicación de este tipo de publicación en red tanto de la gramática (ii) como de la asignatura 17784, y (iii) también se ha creado un duplicado de esta solicitud con material gráfico adicional en la misma plataforma:
+El objetivo de este proyecto es solucionar las dificultades del aprendizaje del vocabulario de las lenguas clásicas y evitar la dependencia excesiva del diccionario por parte de los alumnos. En proyectos anteriores creamos un vocabulario de frecuencia de mil (1000) lemas que cubre más de un 72% de cualquier texto en griego. Asimismo creamos una infraestructura en Memrise y Anki para el estudio del mismo por parte de los alumnos utilizando el método de la repetición espaciada. En este proyecto el objetivo es descomponer el significado de ese vocabulario esencial en sus componenentes básicos (lexemas, prefijos, sufijos, infijos, etc.) de manera que se consigan una serie de beneficios: (i) los alumnos tendrán más facilidad para aprender el significado de los lemas a través del conocimientos de sus elementos compositivos; (ii) podrán utilizar el conocimiento de lexemas, sufijos, prefijos, etc., para deducir el significado de un número mucho mayor de lemas más allá de esos 1000 (el diccionario LSJ del griego antiguo contiene más de 116.000 lemas).
 
 - [Modelo de gramática](https://pajaro1966.github.io/My_Mk_Docs/gramatica/)
 - [Sitio web de la asignatura 17784 LENGUA GRIEGA IV](https://pajaro1966.github.io/My_Mk_Docs/)
@@ -34,23 +31,45 @@ En las siguientes páginas de GitHub se puede ver (i) un ejemplo de aplicación 
 
 ## 3. Objetivos
 
-**Se deben definir claramente los objetivos generales y específicos, alineados con la convocatoria y sustentados en un diagnóstico contextualizado y referencias bibliográficas que justifiquen la propuesta. Más información en las bases de la convocatoria.**
-
 ### 3.1. Descripción de la situación a mejorar
 
-En la actualidad existe abundante material para el estudio de la gramática del griego antiguo, pero presenta dos problemas fundamentales: (i) es demasiado básico o —por el contrario— demasiado complejo para que los alumnos puedan aplicarlo a los textos que traducen durante cuatro años; y (ii) está diseminado en multitud de manuales y diccionarios. Esto hace que el alumno pierda demasiado tiempo en encontrar la información precisa para resolver un problema gramatical concreto que le haya surgido al traducir un texto o que tenga que procesar demasiado material bibliográfico para lograrlo. Eso es así incluso en obras muy recientes como las de Emde Boas et alii (2019) y Dolores Jiménez (2020), a la que el propio coordinador de este proyecto ha contribuido con seis capítulos y parte del índice. Incluso los índices más detallados (normalmente no lo son) no permiten la localización ágil, rápida y precisa del fenómeno correspondiente que se necesita para dar respuesta a un problema concreto. Además, estas obras carecen de numerosa información que se encuentra en otras obras gramaticales o está relegada a los diccionarios.
+El estudio y conocimiento del vocabulario es una tarea esencial y normalmente descuidada en el aprendizaje de las lenguas, y más aun en el caso de las lenguas clásicas. El bajo nivel de vocabulario dificulta el progreso y convierte el estudio en una tarea difícil y frustrante. Sin embargo, el conocimiento de un vocabulario de frecuencia facilita enormemente el proceso de aprendizaje y ese es el motivo de que hayan proliferado en los últimos años diversas obras al respecto, como sucede con la serie de la editorial Routledge "Frequency Dictionaries":
+
+https://www.routledge.com/Routledge-Frequency-Dictionaries/book-series/RFD?publishedFilter=alltitles&pd=published,forthcoming&pg=1&pp=12&so=pub&view=list
+
+El problema, por tanto, consiste en la creación y enseñanza/estudio de dicho vocabulario. En un proyecto anterior creamos dicho vocabulario de frecuencia para el griego antiguo y lo subimos a diferentes plataformas como Memrise, como se describe en la solicitud del proyecto "Vocabulario básico de frecuencia del griego antiguo (FYL_019.23_INN, 2023-2024 )"
+
+https://pajaro1966.github.io/Asignaturas/Vocabulario/Vocab_Intro/
+
+Para ese proyecto creamos una lista de los mil (1000) lemas más frecuentes del griego antiguo a partir del corpus del Perseus Project (Tufts University) y de Logeion (University of Chicago):
+
+https://www.perseus.tufts.edu/hopper/
+https://github.com/PerseusDL
+https://logeion.uchicago.edu/λόγος
+https://github.com/logeion
+
+El siguiente paso es la memorización por parte de los estudiantes de ese vocabulario básico. En el proyecto anterior empleamos diversas herramientas de repetición espaciada como Memrise y Anki:
+
+https://community-courses.memrise.com/community/course/527684/vocabulario-griego-antiguo-15/
+https://apps.ankiweb.net
+
+En este proyecto vamos crear una serie de recursos que permitan no solo el estudio de ese vocabulario, sino la compresión de su composición (formación de palabras) y las extensión de las reglas aprendidas a un vocabulario mayor.  
 
 ### 3.2. Objetivos generales y específicos
 
-Para hacer frente a esta situación han surgido en el campo de la adquisición de segundas lenguas obras como el ‘Practical English Usage’ de Swan, que organizan el material gramatical como entradas léxicas ordenadas alfabéticamente como en un diccionario y que proporcionan la información apropiada para los estudiantes. Estas explicaciones se centran en los problemas fundamentales a los que se enfrentan los estudiantes del inglés como segunda lengua (L2). Adicionalmente, esta ordenación alfabética permite mezclar fácilmente información léxica y gramatical en el mismo formato (los límites entre lo léxico y lo gramatical son frecuentemente borrosos), de modo que el estudiante encuentra en una misma obra información de todo tipo necesaria para su progreso, como se puede ver en la siguiente imagen:
+El objetivo se puede dividir en dos subtareas fundamentales: (i) la creación de un manual online de reglas morfológicas y fonéticas que expliquen el vocabulario básico inicial (1000 lemas) y (ii) una serie de ejercicios en las plataformas Anki y Moodle que permitan seguir que los alumnos pongan a prueba sus conocimientos y que los profesores podamos seguir su progreso. 
+Para conseguir el primer objetivo partimos de una base de datos que contiene los 1000 lemas. Vamos a etiquetar esta base de datos a fin de obtener la información básica de todos los lemas (el signo '+' indica que la tarea ya está completada): lema (+), significado (+), clase de palabra, género, declinación/conjugación, sufijo, prefijo, infijo, familia de palabra, etc. Una vez etiquetada la base de datos podremos obtener listados de los fenómenos que debemos explicar y listados de su representación en dicho corpus. 
+El material se pondrá online en una web creada en Github y tendrás las siguientes secciones:
 
-![Gramática práctica de Swan](images/Swan.png)
+- El listado del vocabulario completo en formato de tabla que se podrá ordenar por diferentes criterios empleando javascript: el lema, la base de la que deriva, su frecuencia, su sufijo, su prefijo, su categoría, etc. Actualmente el listado completo se encuentra ya en formato de tabla en la siguiente dirección:
+  https://pajaro1966.github.io/Asignaturas/Proyecto_Innova_2025_2026/Vocabulario_Mil.html
+- El listado completo de los sufijos y de las palabras que los presentan:
+- El listado completo de los prefijos y de los lemas en que aparecen.
+- El listado de los infijos.
+- Las reglas fonéticas que aplican en los diferentes casos.
+- ....
 
-Así la obra que proponemos tendría en este orden de aparición, por ejemplo, entradas para fenómenos lexicogramaticales como los siguientes: activa (voz), acusativo (caso), aoristo (tema), dativo (caso), futuro (tema), futuro (tiempo), genitivo (caso), imperativo (modo), indicativo (modo), infinitivo (modo/formas no finitas), media (voz), nominativo (caso), optativo (modo), participio (formas no finitas), pasado (tiempo), pasiva (voz), presente (tema), presente (tiempo), subjuntivo (modo), tiempo, vocativo (caso), voz, δυσ-, πείθω, καί, ποιέω, τε, etc.
-
-De esta manera, el alumno podría ir a este diccionario lexicogramatical y encontrar directamente en la entrada correspondiente la cuestión que desea consultar. Por ejemplo, si quiere saber algo sobre el subjuntivo, no tendría (i) que pensar ni saber qué es el subjuntivo (un modo), (ii) encontrar la sección del modo (normalmente dentro de las categorías del verbo) y (iii) localizar el apartado dedicado al subjuntivo, sino que iría directamente a la entrada ‘subjuntivo’ de esta gramática práctica, la cual le diría qué es el subjuntivo (un modo), qué forma morfológica tiene (su conjugación) y cómo se usa en griego (en prohibiciones, en determinadas subordinadas, etc.).
-
-Nuestro propósito general es crear un diccionario gramatical práctica online que recoja el material que empleamos en nuestras clases. De manera secundaria queremos dar mayor unidad y coherencia al estudio del griego antiguo en nuestro departamento y poner a diposición de sus estudiantes y profesores este material.
+La idea es que no solo se presente información teórica a los alumnos sobre los diferentes aspectos de la formación de palabras en griego antiguo, sino que la constaten en el vocabulario que deben aprender a fin de que puedan memorizar este con mayor facilidad y que puedan extender estas reglas a otras palabras fuera de la lista de referencia inicial. Por ejemplo, aunque la palabra δικαστικός no figura entre esos 1000 lemas, su significado puede ser conjeturado por el estudiante porque conoce el lexema δικα/η- (δίκη 'justicia' > δικάζω 'juzgar' > δικαστής 'juez') del que deriva, y el sufijo -ικός presente en ναυτ-ικός (ναῦς 'nave' > ναύτης 'marinero' > ναυτικός 'relativo a los marineros') y en otras palabras del vocabulario de referencia del que se parte: δικασ-τ-ικός ή όν 'relativo a la persona (δικαστής) que juzga (δικάζω)'.
 
 ### 3.3. Posibilidades de éxito
 
@@ -64,7 +83,7 @@ Figura. Notas gramaticales y lexicológicas del griego antiguo en Notable.
 
 **(2) Método probado**. El método que se va a aplicar en este proyecto (publicación en GitHub mediante MkDocs) ha sido utilizado este año en una asignatura y ha permitido dotar de mayor organización y claridad a todos los materiales empleados en la misma. Este proyecto se solicita para aplicar este método de manera sistemática a todo el material gramatical y léxico necesario para todas las asignaturas impartidas por los docentes y que los profesores ya tenemos y utilizamos habitualmente en clase: se trata tan solo de la extensión de un metodo ya probado en una asignatura a todas las asignaturas de griego antiguo de manera transversal.
 
-- Sitio web de la asignatura 17784 ‘Lengua Griega IV’:
+- Sitio web de la asignatura 17784 'Lengua Griega IV':
 <https://pajaro1966.github.io/My_Mk_Docs/>
 
 ### 3.4. Justificación bibliográfica
@@ -78,11 +97,11 @@ Figura. Notas gramaticales y lexicológicas del griego antiguo en Notable.
 
 - Swan, M. (2017). Practical English Usage. Oxford University Press.
 
-**(3) Zettelkasten**. Las notas de que consta la gramática siguen el modelo del Zettelkasten (‘caja de notas’ o ‘caja de tarjetas’). Una introducción muy útil este sistema de organización de información se puede encontrar en Ahrens (2017) y Kadavy (2021). Probablemente el exponente moderno máximo de este sistema de gestión de información es el prolífico sociólogo y filósofo Niklas Luhmann (1992), que lo utilizó de manera sistemática en su obra investigadora y lo describió en un breve artículo. Por supuesto, el sistema de los Zettelkasten tiene numerosos precedentes, particularmente notorio es el caso del biólogo Carl Linnaeus, cuyas cajas de notas (Zettelkasten) se pueden ver en su casa de Hammarby.
+**(3) Zettelkasten**. Las notas de que consta la gramática siguen el modelo del Zettelkasten ('caja de notas' o 'caja de tarjetas'). Una introducción muy útil este sistema de organización de información se puede encontrar en Ahrens (2017) y Kadavy (2021). Probablemente el exponente moderno máximo de este sistema de gestión de información es el prolífico sociólogo y filósofo Niklas Luhmann (1992), que lo utilizó de manera sistemática en su obra investigadora y lo describió en un breve artículo. Por supuesto, el sistema de los Zettelkasten tiene numerosos precedentes, particularmente notorio es el caso del biólogo Carl Linnaeus, cuyas cajas de notas (Zettelkasten) se pueden ver en su casa de Hammarby.
 
 - Ahrens, Sönke (2017): Das Zettelkasten-Prinzip. Erfolgreich wissenschaftlich Schreiben und Studieren mit effektiven Notizen. Books on Demand GmbH.
 - Kadavy, David (2021): Digital Zettelkasten : Principles, Methods, & Examples. Kadavy, Inc.
-- Luhmann, Niklas (1992): ‘Kommunikation mit Zettelkästen. Ein Erfahrungsbericht’. En: André Kieserling (ed.), Universität als Milieu. Kleine Schriften, Haux, Bielefeld.
+- Luhmann, Niklas (1992): 'Kommunikation mit Zettelkästen. Ein Erfahrungsbericht'. En: André Kieserling (ed.), Universität als Milieu. Kleine Schriften, Haux, Bielefeld.
 
 **(4) Gestores digitales de notas**. Existen numerosos sistemas digitales para las gestionar de notas. Algunnos son más apropiados para el uso individual, como, por ejemplo, Notable (usado por el coordinador), Notion u Obsidian. Sin embargo, para el uso colectivo es más útil emplear sistemas de documentación como MkDocs, que permite crear una web estática desde archivos Markdown y subirlos a un repositorio en GitHub. Para gestionar todo el proceso empleamos desde hace años Visual Studio Code. La siguiente imagen muestra la subida a GitHub del material creado para esta solicitud:
 
@@ -120,7 +139,7 @@ El proyecto sigue el sistema Zettelkasten para la creación de notas atómicas y
 
 ![Figura: búsqueda automática](images/Busqueda_Subjuntivo.png)
 
-En el modelo propuesto en la web mencionada se tratan los siguientes tópicos: coordinación, modo, optativo, subjuntivo, δέ, y τε. Todos ellos cuentan con una entrada propia en la web y el alumno puede encontrarlos buscando por orden alfabético o por medio del buscador (search). Como el optativo y el subjuntivo son dos modos, las mismas fichas de ambos aparecen también como una subsección bajo la entrada ‘Modo’. Hay que señalar que se trata exactamente del mismo archivo, de manera que, una vez se modifica por ejemplo el archivo ‘optativo’, tanto la entrada principal ‘Optativo’ como la subentrada correspondiente bajo ‘Modo’ se modificarán por igual. Lo mismo sucede con δέ (‘y, pero’) y τε (‘y’): ambas tienen una entrada principal propia, pero también aparecen como subentradas bajo la entrada ‘Coordinación’, dado que ambas son conjunciones copulativas. La siguiente imagen muestra el procedimiento descrito:
+En el modelo propuesto en la web mencionada se tratan los siguientes tópicos: coordinación, modo, optativo, subjuntivo, δέ, y τε. Todos ellos cuentan con una entrada propia en la web y el alumno puede encontrarlos buscando por orden alfabético o por medio del buscador (search). Como el optativo y el subjuntivo son dos modos, las mismas fichas de ambos aparecen también como una subsección bajo la entrada 'Modo'. Hay que señalar que se trata exactamente del mismo archivo, de manera que, una vez se modifica por ejemplo el archivo 'optativo', tanto la entrada principal 'Optativo' como la subentrada correspondiente bajo 'Modo' se modificarán por igual. Lo mismo sucede con δέ ('y, pero') y τε ('y'): ambas tienen una entrada principal propia, pero también aparecen como subentradas bajo la entrada 'Coordinación', dado que ambas son conjunciones copulativas. La siguiente imagen muestra el procedimiento descrito:
 
 ![Modelo](images/grammar.png)
 
@@ -145,7 +164,7 @@ El siguiente cronodiagrama da una idea de las tareas realizadas hasta el momento
 ### 4.4. Recursos
 
 El equipo de trabajo cuenta con los conocimientos, recursos materiales y técnicos, y solo se necesita financiación para la suscripción anual a (i) GitHub, (ii) Filemaker y (iii) a un dominio en algún servidor externo que permita establecer un acceso más controlado a los usuarios. Aunque se ha aportado un presupuesto, este es aproximado porque en algunos casos variará según el tráfico de datos que generemos.
-Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostrada en la web donde se aloja copia de esta solicitud. Esta web se ha creado para reunir el material de la asignatura ‘Lengua griega IV’ (17784, Grupo 310), dedicada a la traducción y comentario de textos épicos, principalmente de la Ilíada y la Odisea.
+Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostrada en la web donde se aloja copia de esta solicitud. Esta web se ha creado para reunir el material de la asignatura 'Lengua griega IV' (17784, Grupo 310), dedicada a la traducción y comentario de textos épicos, principalmente de la Ilíada y la Odisea.
 
 ### 4.5. Resultados esperados
 
@@ -188,7 +207,7 @@ El resultado final esperado es disminuir la curva de aprendizaje y contribuir a 
 
 ![Notable](images/Notable_Foto.png)
 
-**(2) Aplicación práctica en una asignatura completa**. Se trata de un sistema probado tanto por el gran número de notas existentes como por las diferentes herramientas de manejo de notas probadas. El sistema que se propone (MkDocs alojado en GitHub) ha sido puesto en práctica este año con gran éxito entre los alumnos, que han tenido todos los recursos de la asignatura ‘Lengua Griega IV’ (17784, Grupo 310) unificados en un solo sitio web:
+**(2) Aplicación práctica en una asignatura completa**. Se trata de un sistema probado tanto por el gran número de notas existentes como por las diferentes herramientas de manejo de notas probadas. El sistema que se propone (MkDocs alojado en GitHub) ha sido puesto en práctica este año con gran éxito entre los alumnos, que han tenido todos los recursos de la asignatura 'Lengua Griega IV' (17784, Grupo 310) unificados en un solo sitio web:
 <https://pajaro1966.github.io/My_Mk_Docs/>
 
 De acuerdo con lo expuesto, la aplicabilidad está asegurada. Lo único que hay que hacer es introducir en el sistema desarrollado y probado, de manera unificada y centralizada, la información gramatical y léxica de la que disponemos y que los miembros del proyecto tenemos cada uno en nuestros ordenadores y en diversas plataformas (Moodle, edX, etc.). Hay que señalar que —por diversas razones técnicas que no es posible discutir aquí— las posibilidades de MkDocs publicado en GitHub son mucho mayores que las de cualquier otras plataforma educativa habitual, si bien el usuario debe tener muchos más conocimientos técnicos y dedicar mucho más tiempo a la infraestructura.

@@ -3877,6 +3877,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#crono" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crono
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#44-recursos" class="md-nav__link">
     <span class="md-ellipsis">
       4.4. Recursos
@@ -4512,6 +4521,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#crono" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crono
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#44-recursos" class="md-nav__link">
     <span class="md-ellipsis">
       4.4. Recursos
@@ -4742,12 +4760,55 @@ https://pajaro1966.github.io/Asignaturas/textos_02/</li>
 <p>Las tareas son, por tanto, las siguientes:</p>
 <p><strong>(1) Nuevo repositorio exclusivo</strong>. La creación de un nuevo repositorio en GitHub con Material para MkDocs para albergar la gramática sobre formación de palabras. El prototipo mostrado se ha alojado en la página de una asignatura, pero creemos que el proyecto debe tener su propio sitio.</p>
 <p><strong>(2) Etiquetado de la base de datos</strong>. El listado de los mil (1000) lemas se encuentran ya en una base de datos y es necesario etiquetar cada lema, como se muestra en la siguiente captura de pantalla.</p>
-<p><img alt="DB" src="/Asignaturas/Proyecto_Innova_2025_2026/Imagines/DB_Filemaker.png" /></p>
-<p><strong>(3) Redacción de las notas o entradas</strong>. Es necesario redactar las fichas correspondientes a cada tópico. Esta tarea será realizada por los tres miembros del equipo. Parte de ellas ya están redactadas, de modo que no se parte de cero. Cada tópico se puede fragmentar en fichas individuales —siguiendo el sistema del Zettelkasten— para poder incluirlas en diferentes secciones; p.ej. δέ es tanto una conjunción copulativa como adversativa.</p>
-<p><strong>(4) Incorporación de las notas al repositorio en Github</strong>. Esas fichas serán subidas al sistema (repositorio de GitHub) por parte del coordinador del proyecto siguiendo un formato muy parecido al del modelo mencionado previamente para que los alumnos puedan acceder a ellas a través de la web generada por la plataforma.</p>
+<p><img alt="DB" src="../Imagines/DB_Filemaker.png" /></p>
+<p><strong>(3) Exportación de los resultados</strong>. La base de datos nos permitirá exportarlos como páginas html con CSS y los Javacripts neecesarios para integrarlas en el sitio web.</p>
+<p><strong>(4) Creación de pilas de Anki</strong>. Con los mil lemas tal y como estarán analizados en la base de datos se creará un "Deck" (pila de tarjetas de memorización) en Anki para que los alumnos puedan estudiar el significado de las palabras no solo memorizando este, sino el significado de sus componentes (lexemas, prefijos, sufijos, etc.). </p>
+<p><strong>(5) Creación de ejercicios</strong>. Se crearán asismismo ejercicios en Anki y Moodle para comprobar el nivel de comprension adquirido por los alumnos tanto de los mil lemas originales como de palabras nuevas, pero compuestas total o parcialmente por los constituyentes del vocabulario básico.</p>
 <h3 id="43-plan-de-trabajo-y-plazos-de-desarrollo">4.3. Plan de trabajo y plazos de desarrollo<a class="headerlink" href="#43-plan-de-trabajo-y-plazos-de-desarrollo" title="Permanent link">&para;</a></h3>
 <p>El siguiente cronodiagrama da una idea de las tareas realizadas hasta el momento, las que están pendientes, las personas encargadas de ellas y los plazos de ejecución aproximada. La línea vertical negra señala el día actual, a la izquierda se encuentran las tareas realizadas (en gris) y a la derecha las que están pendientes (rojo) separadas por clase y ordenadas temporalmente. También se indica el profesor encargado de cada tarea (azul). El coordinador se encargará tanto de la creación del nuevo repositorio (1) como de la inclusión en él de las notas creadas (4). Los tes miembros del proyecto se encargarán conjuntamente de la creación del listado de tópicos tratados. La creación de las notas se hará teniendo en cuenta las asignaturas impartidas: (i) los profesores Polo y Andrés redactarán las notas básicas (han impartido o impartirán asignaturas de 1º y 2º); (iii) los tres miembros del proyecto redactarán las notas del nivel intermedio, y el coordinador la notas de nivel avanzado (véase las asignaturas de 4º y máster que impartirá). La inclusión de las notas en el repositorio se realizará inmediatamente después de su redacción, siguiendo el ritmo de las asignaturas que se impartirán, de manera que los alumnos puedan acceder a ellas lo antes posible, empezando por los conocimientos más básicos para pasar a los intermedios y finalmente a los superiores.</p>
-<p><img alt="Figura: cronodiagrama" src="images/Cronodiagrama.png" /></p>
+<h3 id="crono">Crono<a class="headerlink" href="#crono" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>
+---
+title: ACTIVIDADES 2025-2026,
+config:
+ "theme": base,
+ "themeCSS": ".taskText {fill: white; text-anchor: middle;}, .grid .tick line {stroke: blue !important; stroke-dasharray: 0 ; opacity: 0.5 !important; }, .todayMarker {stroke-width:5px,stroke:#0f0,opacity:0.5}"
+displayMode: compact
+
+---
+gantt
+title Plan de trabajo
+dateFormat  DD-MM-YYYY
+axisFormat %b
+tickInterval 4week
+todayMarker stroke-width:3px,stroke:black,opacity:1
+weekday monday
+
+section Curso
+
+2025-2026: 09-09-2025, 16-07-2026
+
+section Semestre
+
+Semestre 1º: 09-09-2025, 20-01-2026
+Semestre 2º: 21-01-2026, 15-07-2026
+
+
+section 1. DB
+
+Listado de 1000 lemas: done, crit, 01-04-2025, 01-06-2025
+Etiquetado parcial: done, crit, 01-04-2025, 01-06-2025
+Prueba en la web: done, crit, 01-04-2025, 01-06-2025
+Etiquetado completo: crit, 15-06-2025, 15-01-2026
+Exportación como páginas web: crit, 15-01-2026, 15-03-2026
+
+section 2. Anki
+Creación de un curso en Anki: crit, 15-03-2026, 15-04-2026
+
+section 3. Ejercicios (Anki, Moodle)
+Creación de un curso en Anki: crit, 16-04-2026, 15-06-2026
+
+</code></pre>
 <h3 id="44-recursos">4.4. Recursos<a class="headerlink" href="#44-recursos" title="Permanent link">&para;</a></h3>
 <p>El equipo de trabajo cuenta con los conocimientos, recursos materiales y técnicos, y solo se necesita financiación para la suscripción anual a (i) GitHub, (ii) Filemaker y (iii) a un dominio en algún servidor externo que permita establecer un acceso más controlado a los usuarios. Aunque se ha aportado un presupuesto, este es aproximado porque en algunos casos variará según el tráfico de datos que generemos.
 Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostrada en la web donde se aloja copia de esta solicitud. Esta web se ha creado para reunir el material de la asignatura 'Lengua griega IV' (17784, Grupo 310), dedicada a la traducción y comentario de textos épicos, principalmente de la Ilíada y la Odisea.</p>

@@ -195,30 +195,28 @@ Prueba en la web: done, crit, 01-04-2025, 01-06-2025
 Etiquetado completo: crit, 15-06-2025, 15-01-2026
 Exportación como páginas web: crit, 15-01-2026, 15-03-2026
 
-section 2. Anki
-Creación de un curso en Anki: crit, 15-03-2026, 15-04-2026
+section 2. Vocabulario
+Anki: crit, 16-03-2026, 15-04-2026
 
-section 3. Ejercicios (Anki, Moodle)
-Creación de un curso en Anki: crit, 16-04-2026, 15-06-2026
-
+section 3. Ejercicios
+Moodle: crit, 16-04-2026, 15-06-2026
+Anki: crit, 17-07-2026, 15-07-2026
 
 ```
 
-
 ### 4.4. Recursos
 
-El equipo de trabajo cuenta con los conocimientos, recursos materiales y técnicos, y solo se necesita financiación para la suscripción anual a (i) GitHub, (ii) Filemaker y (iii) a un dominio en algún servidor externo que permita establecer un acceso más controlado a los usuarios. Aunque se ha aportado un presupuesto, este es aproximado porque en algunos casos variará según el tráfico de datos que generemos.
+El equipo de trabajo cuenta con los conocimientos, recursos materiales y técnicos, y solo se necesita financiación para la suscripción anual a (i) GitHub, (ii) Filemaker y (iii) chatgpt para acelerar la programación. Durante este año hemos estado usando esta IA para programar y permite crear código que está totalmente fuera de nuestras capacidades. 
+
 Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostrada en la web donde se aloja copia de esta solicitud. Esta web se ha creado para reunir el material de la asignatura 'Lengua griega IV' (17784, Grupo 310), dedicada a la traducción y comentario de textos épicos, principalmente de la Ilíada y la Odisea.
 
 ### 4.5. Resultados esperados
 
-**(1) Simplificación**. El principal resultado esperado es que los alumnos —con independencia de su nivel de conocimiento y curso— tengan durante todos los años un material de estudio fácilmente accesible, reunido en un único espacio, adaptado a sus necesidades, actualizado y que puedan consultar rápidamente. Actualmente las fuentes son dispersas, no adaptadas a sus necesidades y en muchos casos en otras lenguas.
+**(1) Mejor comprensión y memorización**. Uno de los problemas de la memorización es que aprender datos puros supone un gasto de energía y tiempo enormes, incluso tratándose solo de 1000 lemas. En cambio, si las palabras se descomponen en sus elementos básicos, se reduce el número de entidades que hay que memorizar y se mejora la compresión de muchas de ellas porque son análogas a otras ya conocidas.
 
-**(2) Adecuación a las necesidades de los alumnos**. Por otro lado, el proyecto se beneficiará de la actividad de los propios estudiantes, ya que se incorporarán fichas que incluyan la dudas que les surjan a los alumnos durante el curso y que los miembros del proyecto no hayan contemplado inicialmente. La utilidad de gramáticas prácticas como la de Swan reside en el hecho de que son el reflejo de la actividad de autor como profesor de inglés como segunda lengua y en que, por esa razón, incide principalmente en las dificultades con las que se encuentran los alumnos, como muestra la [biografía de Michael Swan](https://web.archive.org/web/20181014230033/http://www.teachingenglish.org.uk/blogs/michael-swan/michael-swan-biography).
+**(2) Extensión del conocimiento**. El proyecto que se presenta proporciona a los estudiantes los conocimients teóricos mínimo para comprender mil unidades léxicas. Sin embargo, las reglas y los componentes que aprenderán les permitirán comprender un numero mucho mayor de lemas, probablemente varios miles más y deducir, al menos, pacialmente el significado de otros tantos.
 
-**(3) Unificación y coherencia**. Dado que las diversas asignaturas de griego antiguo están impartidas por un gran número de profesores y que cada uno les da diferentes informaciones sobre los mismos tópicos, con diferentes materiales y fuentes bibliográficas, este proyecto disminuirá la diversidad de materiales, la complejidad de su manejo y aportará mayor claridad, unidad y coherencia al estudio y aprendizaje del griego antiguo.
-
-**(4) Reutilización**. Dado que las fichas son atómicas y digitales, se pueden incorporar a otros proyectos. Así, por ejemplo, el coordinador empleará estas notas para otras asignaturas enlazándolas a las web que cree para ellas.
+**(3) Reutilización**. El material que se presenta será aplicado a las asignaturas que impartimos, pero se pondrá a disposición pública para que lo puedan emplear otros profesores de la UAM y de la universidad de Murcia, aparte de todos aquellos que encuentren el recurso en internet. Con esto esperamos que el estudio del vocabulario se incentive en todos los crusos de los grados en los que participa el Departamento de Filología Clásica.
 
 ---
 
@@ -228,15 +226,15 @@ Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostr
 
 ### 5.1. Alcance
 
-Como en otros proyectos del coordinador, el alcance de la mejora no se limita a una única asignatura ni a las cinco (5) impartidas por los miembros del proyecto en los dos grados principales en que participa el Departamento de Filología Clásica, sino que se extiende a todos los grados y másterres del Departamento de Filología Clásica en los que se imparte griego antiguo (al menos 12 asignaturas): se trata de un proyecto totalmente transversal y no centrado en una asignatura concreta, aunque parte y está ligado a las asignaturas específicas de los miembros del proyecto. Supondrá, por tanto, una mejora en todos los cursos de los títulos de grado y posgrado impartidos por nuestro departamento: (a) Grado en Estudios Clásicos y de la Antigüedad (Antes Grado en Ciencias y Lenguas de la Antigüedad); (b) Doble Grado en Historia del Arte y Estudios Clásicos y de la Antigüedad (Antes Doble Grado en Historia del Arte y Ciencias y Lenguas de la Antigüedad); (c) Máster Universitario en Estudios Clásicos.
-
-El resultado final esperable es la creación, con el tiempo, de una gramática del griego antiguo en formato electrónico (probablemente epub), cuya utilidad y usabilidad es mucho mayor que la de un libro en formato impreso. Como MkDocs es un generador de documentación en formato de sitio estático, se puede transformar fácilmente en diversos formatos electrónicos empleando diversos plugins. Asimismo, los archivos se pueden convertir en epub empleando SIGIL (creación de epub) y Calibre (conversión a cualquier formato). El coordinador tiene experiencia en la creación de libros electrónicos para las asignaturas de griego moderno.
+Como en otros proyectos de los miembros del equipo de trabajo, el alcance de la mejora no se limita a una única asignatura ni a las cinco (5) impartidas por los miembros del proyecto en los dos grados principales en que participa el Departamento de Filología Clásica, sino que se extiende a todos los grados y másteres del Departamento de Filología Clásica en los que se imparte griego antiguo (al menos 12 asignaturas): se trata de un proyecto totalmente transversal y no centrado en una asignatura concreta, aunque parte y está ligado a las asignaturas específicas de los miembros del proyecto. Supondrá, por tanto, una mejora en todos los cursos de los títulos de grado y posgrado impartidos por nuestro departamento: (a) Grado en Estudios Clásicos y de la Antigüedad (Antes Grado en Ciencias y Lenguas de la Antigüedad); (b) Doble Grado en Historia del Arte y Estudios Clásicos y de la Antigüedad (Antes Doble Grado en Historia del Arte y Ciencias y Lenguas de la Antigüedad); (c) Máster Universitario en Estudios Clásicos. Hay que tener además en cuenta que uno de los miembros, Iván Andrés, es profesor honorario del Departamento de Filología Griega y antiguo alumno, pero en la actualidad es profesor ayudante de la Universidad de Murcia, y, por tanto, la experiencia se extenderá a dos universidades.
+Sin embargo, dado que el material estará disponible online libremente, el impacto puede ser mucho mayor. Este objetivo de extensión del resultado fuera de la UAM se verá incrementado con la publicación planeada como libro del material presentado en la web, en formato impreso, epub o ambos. Como MkDocs es un generador de documentación en formato de sitio estático, se puede transformar fácilmente an diversos formatos electrónicos empleando diversos plugins. Asimismo, los archivos se pueden convertir en epub empleando SIGIL (creación de epub), Calibre (conversión a cualquier formato) o Pandoc. El coordinador tiene experiencia en la creación de libros electrónicos para las asignaturas de griego moderno.
 
 - [Calibre](https://calibre-ebook.com)
 - [MkDocs](https://www.mkdocs.org):
       - [Configuración de plugins](https://www.mkdocs.org/dev-guide/plugins/)
       - [Catálogo de plugins](https://github.com/mkdocs/catalog)
       - [Listado de plugins que convierten Mkdocs a diferentes formatos (pdf)](https://github.com/mkdocs/catalog?tab=readme-ov-file#-site-conversion-pdfepubetc)
+- [Pandoc](https://pandoc.org)
 - [SIGIL](https://sigil-ebook.com)
 
 ### 5.2. Posible impacto
@@ -245,21 +243,14 @@ El impacto esperado es doble. Por un lado, pretendemos simplificar, unificar y h
 Por otro lado, pretendemos crear material que solucione las dudas que tienen nuestros alumnos y que no aparecen resueltas en los libros de consulta y de las que en algunos casos no somos conscientes los propios profesores hasta que los alumnos preguntan. Se va a tener en cuenta la retroalimentación por parte de los alumnos y se van a crean entradas en la gramática para explicar esas dudas específicas.
 El resultado final esperado es disminuir la curva de aprendizaje y contribuir a que los alumnos aprendan más invirtiendo menos tiempo y esfuerzo.
 
-### 5.3. Aplicabilidad
+### 5.3. Replicabilidad
 
-**(1) Antecedentes**. Este sistema ya está siendo usado por el coordinador en las asignaturas de textos griegos que ha impartido durante los últimos años. Ha creado un gran número de notas gramaticales y léxicas, y las ha utilizado en clase y puesto a disposición de los alumnos mediante programas de organización de notas, como por ejemplo, Notable, aunque se han probado también otros como JupyterLab, Notion u Obsidian. En la siguiente imagen se pueden ver las notas creadas y puestas a disposición de los alumnos por medio de Notable compartido a través del DropBox del coordinador:
+El proyecto que se presenta está dirigido al griego antiguo, pero es fácilmente replicable y aplicable a otras lenguas. De hecho, los profesores Iván Andrés y Antonio Revuelta imparten clases de griego moderno y han creado abundante material para esta lengua y en concreto para el estudio del vocabulario, como se puede comprobar:
+- Página web de griego moderno: https://pajaro1966.github.io/Asignaturas/Griego_Moderno/Examen_Preguntas/
+- Listado de vocabulario: https://pajaro1966.github.io/Asignaturas/Griego_Moderno/Vocabulario/Leccion_TODAS_Vocab.html
+- Curso de vocabulario en Anki: https://ankiweb.net/shared/info/778641525
 
-![Notable](images/Notable_Foto.png)
-
-**(2) Aplicación práctica en una asignatura completa**. Se trata de un sistema probado tanto por el gran número de notas existentes como por las diferentes herramientas de manejo de notas probadas. El sistema que se propone (MkDocs alojado en GitHub) ha sido puesto en práctica este año con gran éxito entre los alumnos, que han tenido todos los recursos de la asignatura 'Lengua Griega IV' (17784, Grupo 310) unificados en un solo sitio web:
-<https://pajaro1966.github.io/My_Mk_Docs/>
-
-De acuerdo con lo expuesto, la aplicabilidad está asegurada. Lo único que hay que hacer es introducir en el sistema desarrollado y probado, de manera unificada y centralizada, la información gramatical y léxica de la que disponemos y que los miembros del proyecto tenemos cada uno en nuestros ordenadores y en diversas plataformas (Moodle, edX, etc.). Hay que señalar que —por diversas razones técnicas que no es posible discutir aquí— las posibilidades de MkDocs publicado en GitHub son mucho mayores que las de cualquier otras plataforma educativa habitual, si bien el usuario debe tener muchos más conocimientos técnicos y dedicar mucho más tiempo a la infraestructura.
-
-- Jupyter: <https://jupyter.org>
-- Notable: <https://notable.app>
-- Notion: <https://www.notion.so/es-es/product>
-- Obsidian: <https://obsidian.md>
+Nuestro propósito es procesar esas listas de vocabulario de la misma manera que se describe en esta solicitud para enseñar a los alumnos los procedimientos de la formación de palabras en esta lengua e acelerar su aprendizaje de vocabulario. La experiencia se puede extender fácilmente al latín (compartiremos el proyecto con nuestros compañeros del área de latín) y a cualquier otra lengua. De hecho, las bases de datos y los scripts para la generación de materiales se puede reutilizar fácilmente y solo será necesario importar los datos de otras lenguas a estas herramientas y procesarlos: toda la infraestructura que emplearemos —y ya estamos utilizando en este proyecto— es reutilizable.
 
 ---
 
@@ -269,26 +260,24 @@ De acuerdo con lo expuesto, la aplicabilidad está asegurada. Lo único que hay 
 
 En el punto § 4.3 se detallan las tareas asignadas a cada miembro del equipo. En este apartado describiremos su idoneidad para el proyecto que se está describiendo.
 
-**(1) Asignaturas impartidas**. Los tres miembros del proyecto imparten y han impartido asignaturas de griego antiguo en todos los niveles y cursos de los diferentes grados, y en concreto el próximo años impartirán las siguientes:
+**(1) Asignaturas impartidas**. Los tres miembros del proyecto imparten y han impartido asignaturas de griego antiguo en todos los niveles y cursos de  diferentes grados en las universidades Autónoma de Madrid y Murcia, y en concreto el próximo años impartirán las siguientes:
 
 - 1º curso 1º semestre: Lengua griega I (20101): Jesús Polo
 - 1º curso 2º semestre: Lengua griega II (20105): Jesús Polo
 - 2º curso 1º semestre: Lectura y traducción de texto griegos I (20109): Jesús Polo
-- 2º curso 2º semestre: Lectura y traducción de textos griegos II (20113): Jesús Polo
-- 3º/4º curso 2º semestre: Lingüística griega: Antonio Revuelta.
+- 2º curso 2º semestre: Introducción a las lenguas de la antigüedad (31960): Jesús Polo
+- 3º/4º curso 2º semestre: Textos griegos II: épica (20120): Antonio Revuelta.
 - Máster de posgrado: Comentario avanzado de textos griegos (33557)
 
-**(2) Dedicación a la lingüística y a la enseñanza del griego**. Los tres compartimos nuestra dedicación e interés no solo en la lingüística del griego antiguo, sino que impartimos asignaturas de todos los niveles, y el profesor Iván Andrés Alba dispone además del Título de Experto en Metodología Docente Universitaria (UAM), obtenido tras defender un proyecto de cambio docente sobre el griego antiguo como lengua hablada en el aula universitaria.
+**(2) Dedicación a la lingüística y a la enseñanza del griego**. Los tres compartimos nuestra dedicación e interés no solo por la lingüística del griego antiguo, sino que impartimos asignaturas de todos los niveles, y el profesor Iván Andrés Alba dispone además del Título de Experto en Metodología Docente Universitaria (UAM), obtenido tras defender un proyecto de cambio docente sobre el griego antiguo como lengua hablada en el aula universitaria.
 
 - Iván Andrés Alba: <https://uam.academia.edu/IvanAndresAlba>
 - Jesús Polo Arrondo: <https://uam.academia.edu/JesusFPoloArrondo>
 - Antonio R. Revuelta Puigdollers: <https://uam.academia.edu/antoniorevuelta>
 
-En particular el coordinador es autor de seis (6) capítulos (286 páginas) de una nueva sintaxis del griego antiguo aparecida en la editorial del CSIC (cf. Jiménez López 2020) y el propósito de este proyecto surgió en la presentación del libro en la Fundación Pastor de Estudios Clásicos el 15 de diciembre de 2021. El formato de libro impreso impone una serie de restricciones en la ordenación del material (solo se puede ordenar de una forma), y en la accesibilidad y recuperabilidad de la información que contienen. Pese a los detallados índices y a la creación de una edición digital en formato epub, el acceso y localización de la información son difíciles. La idea de presentar la información en formato de fichas ordenadas alfabéticamente surgió en esa presentación de dicha sintaxis y pretende solucionar el problema de adquirir informacióon cuando se carece del conocimiento suficiente para saber dónde localizarla en las obras ordenadas de manera tradicional.
+En particular el coordinador es autor de seis (6) capítulos (286 páginas) de una nueva sintaxis del griego antiguo aparecida en la editorial del CSIC (cf. Jiménez López 2020) y es docente del seminario sobre bases de datos en el Máster de Formación Permanente en Lenguaje e Inteligencia Artificial:
 
-- Fundación Pastor: <https://fundacionpastor.es/la-fundacion/memoria-de-actividades/>
-- Jiménez López, M.D. (ed.) (2020). Sintaxis del griego antiguo (Vol. 2, pp. 899–939). CSIC.
-<http://libros.csic.es/product_info.php?products_id=1466>
+https://www.uam.es/CentroFormacionContinua/nuevo_MFP_Lenguaje_e_Inteligencia_Artificial/1446843114424.htm?language=es_ES
 
 **(3) Enseñanza del griego antiguo como lengua activa**. Tanto el coordinador como el profesor Andrés Alba llevan tiempo dedicado a la enseñanza del griego antiguo como lengua hablada y han organizado, entre otras actividades, un curso online con este objetivo y han participado en diversos proyectos de innovación docente dedicados a la creación de materiales didácticos para la enseñanza del griego antiguo y del griego moderno:
 
@@ -299,8 +288,8 @@ En particular el coordinador es autor de seis (6) capítulos (286 páginas) de u
 - Curso SPOC de Griego Antiguo como Lengua Activa FYL_005.21_INN 2021/2022 INNOVA Coordinador.
 - Preparación para los exámenes oficiales de griego moderno del KEG: A1-A2 FYL_008.19_INN 2019/2020 INNOVA Coordinador Ver certificado Ver certificado
 - Textos interlineales griegos FYL_032.18_INN 2018/2019 INNOVA Coordinador.
-- Kybernetes “Curso 0” de Griego Clásico FyL-L1/9.14 2014/2015 IMPLANTA Miembro.
-- Kybernetes “Curso 0” de Griego Clásico FyL_7.15 2015/2016 IMPLANTA Miembro.
+- Kybernetes 'Curso 0' de Griego Clásico FyL-L1/9.14 2014/2015 IMPLANTA Miembro.
+- Kybernetes 'Curso 0' de Griego Clásico FyL_7.15 2015/2016 IMPLANTA Miembro.
 - Kybernetes. Introducción al Griego Clásico FYL_012.16 2016/2017 IMPLANTA Miembro.
 
 ---
@@ -311,13 +300,7 @@ En particular el coordinador es autor de seis (6) capítulos (286 páginas) de u
 
 Para medir el impacto de la mejora se va a tener en cuenta los resultados académicos de los alumnos, las estadísticas de uso del sitio web, la retroalimentación específica de los alumnos, y un sistema de encuestas.
 
-**(1) Resultados de los alumnos**. El impacto de mejora se va a poder visualizar en los resultados de las múltiples asignaturas que los docentes imparten en los diversos grados. Los miembros del equipo de trabajo llevan impartiendo las mismas asignaturas varios años y tienen un registro estadístico de los resultados que se compararán con los del próximo año, sobre todo con los del segundo semestre, que será cuando los alumnos tendrán a su disposición una versión más completa de la gramática en red.
-
-**(2) Estadísticas automáticas**. Podremos evaluar el uso real del material del proyecto de manera automática recurriendo a diferentes herramientas analíticas tanto de GitHub como de MkdDocs para seguir el tráfico de las páginas web. Así, por ejemplo, MkDocs puede enlazar el sitio creado a Google Analytics. Comparando los resultados académicos con el uso del sitio web por parte de cada alumno podremos establecer el efecto del uso de este material en la evolución de los alumnos. Además, podremos usar la frecuencia de uso para saber si el sitio web se emplea o no y si, por tanto, es atractivo y útil o no para los alumnos.
-
-- [Material for MkDocs: analytics](https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/)
-- [MkDocs: theme: analytics: gtag](https://www.mkdocs.org/user-guide/choosing-your-theme/#mkdocs)
-- [Google Analytics](https://support.google.com/analytics/answer/9304153?hl=en&ref_topic=9303319)
+**(1) Resultados de los alumnos**. El impacto de mejora se va a poder visualizar en los resultados de las múltiples asignaturas que los docentes imparten en los diversos grados. Los miembros del equipo de trabajo llevan impartiendo las mismas asignaturas varios años y tienen un registro estadístico de los resultados que se compararán con los del próximo año, sobre todo con los del segundo semestre, que será cuando los alumnos tendrán a su disposición una versión más completa en red de la gramática de formación de palabras. El profesor Iván Andrés realizó su proyecto de cambio docente «Fundamentos de la Lengua Griega como lengua activa» y este incluye numerosos datos estadísticos sobre la evolución de los alumnos durante varios años.
 
 **(3) Retroalimentación de los alumnos**. MkDocs permite incorporar al sitio creado la retroalimentación por parte de los alumnos de diferentes maneras. Se puede dotar al sitio de caraterísticas de blogging o se puede habilitar en cada nota la opción de ser comentada por el usuario. El uso de la retroalimentación específica a cada nota resultará muy útil, ya que nos permitirá corregir y mejorar las notas de manera que se adapten a las necesidades de los alumnos y a su nivel de comprensión.
 

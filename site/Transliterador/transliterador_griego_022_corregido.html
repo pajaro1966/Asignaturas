@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador Griego v.22</title>
+  <style>
+    body { font-family: sans-serif; padding: 1em; }
+    textarea { width: 100%; height: 150px; margin-bottom: 1em; }
+    .rojo { color: red; font-weight: bold; }
+    .boton { margin-right: 0.5em; }
+    label { font-weight: bold; display: block; margin-top: 1em; }
+    .version { font-style: italic; color: #666; margin-top: 2em; }
+  </style>
+</head>
+<body>
+
+<h2>Transliterador de Griego (v.22)</h2>
+
+<label for="input">Texto en griego:</label>
+<textarea id="input" placeholder="Escribe o pega aquí el texto en griego..."></textarea>
+
+<button class="boton" onclick="transliterar('lat_antiguo')">Transliterar (Griego Antiguo)</button>
+<button class="boton" onclick="transliterar('lat_moderno')">Transliterar (Griego Moderno/Medieval)</button>
+<button class="boton" onclick="copiarResultado()">Copiar resultado</button>
+
+<label for="output">Resultado:</label>
+<textarea id="output" readonly></textarea>
+
+<div class="version">Versión: v.22</div>
+
+<!-- Incluir la tabla CSV como bloque de texto -->
+<script type="text/plain" id="tabla_csv">
+griego,lat_antiguo,lat_moderno
+ᾂ,a̓̀ͅ,a̓̀ͅ
+ᾄ,a̓́ͅ,a̓́ͅ
+ᾆ,a̓͂ͅ,a̓͂ͅ
+ᾃ,a̔̀ͅ,a̔̀ͅ
+ᾅ,a̔́ͅ,a̔́ͅ
+ᾇ,a̔͂ͅ,a̔͂ͅ
+ἒͅ,e̓̀ͅ,e̓̀ͅ
+ἔͅ,e̓́ͅ,e̓́ͅ
+ἐ͂ͅ,e̓͂ͅ,e̓͂ͅ
+ἓͅ,e̔̀ͅ,e̔̀ͅ
+ἕͅ,e̔́ͅ,e̔́ͅ
+ἑ͂ͅ,e̔͂ͅ,e̔͂ͅ
+ᾒ,ē̓̀ͅ,ē̓̀ͅ
+ᾔ,ē̓́ͅ,ē̓́ͅ
+ᾖ,ē̓͂ͅ,ē̓͂ͅ
+ᾓ,ē̔̀ͅ,ē̔̀ͅ
+ᾕ,ē̔́ͅ,ē̔́ͅ
+ᾗ,ē̔͂ͅ,ē̔͂ͅ
+ἲͅ,i̓̀ͅ,i̓̀ͅ
+ἴͅ,i̓́ͅ,i̓́ͅ
+ἶͅ,i̓͂ͅ,i̓͂ͅ
+ἳͅ,i̔̀ͅ,i̔̀ͅ
+ἵͅ,i̔́ͅ,i̔́ͅ
+ἷͅ,i̔͂ͅ,i̔͂ͅ
+ὂͅ,o̓̀ͅ,o̓̀ͅ
+ὄͅ,o̓́ͅ,o̓́ͅ
+ὀ͂ͅ,o̓͂ͅ,o̓͂ͅ
+ὃͅ,o̔̀ͅ,o̔̀ͅ
+ὅͅ,o̔́ͅ,o̔́ͅ
+ὁ͂ͅ,o̔͂ͅ,o̔͂ͅ
+ὒͅ,u̓̀ͅ,u̓̀ͅ
+ὔͅ,u̓́ͅ,u̓́ͅ
+ὖͅ,u̓͂ͅ,u̓͂ͅ
+ὓͅ,u̔̀ͅ,u̔̀ͅ
+ὕͅ,u̔́ͅ,u̔́ͅ
+ὗͅ,u̔͂ͅ,u̔͂ͅ
+ᾢ,ō̓̀ͅ,ō̓̀ͅ
+ᾤ,ō̓́ͅ,ō̓́ͅ
+ᾦ,ō̓͂ͅ,ō̓͂ͅ
+ᾣ,ō̔̀ͅ,ō̔̀ͅ
+ᾥ,ō̔́ͅ,ō̔́ͅ
+ᾧ,ō̔͂ͅ,ō̔͂ͅ
+ᾲ,àͅ,àͅ
+ᾴ,áͅ,áͅ
+ᾷ,a͂ͅ,a͂ͅ
+ᾀ,a̓ͅ,a̓ͅ
+ἂ,a̓̀,a̓̀
+ἄ,a̓́,a̓́
+ἆ,a̓͂,a̓͂
+ᾁ,a̔ͅ,a̔ͅ
+ἃ,a̔̀,a̔̀
+ἅ,a̔́,a̔́
+ἇ,a̔͂,a̔͂
+ὲͅ,èͅ,èͅ
+έͅ,éͅ,éͅ
+ε͂ͅ,e͂ͅ,e͂ͅ
+ἐͅ,e̓ͅ,e̓ͅ
+ἒ,e̓̀,e̓̀
+ἔ,e̓́,e̓́
+ἐ͂,e̓͂,e̓͂
+ἑͅ,e̔ͅ,e̔ͅ
+ἓ,e̔̀,e̔̀
+ἕ,e̔́,e̔́
+ἑ͂,e̔͂,e̔͂
+ῂ,ḕͅ,ḕͅ
+ῄ,ḗͅ,ḗͅ
+ῇ,ē͂ͅ,ē͂ͅ
+ᾐ,ē̓ͅ,ē̓ͅ
+ἢ,ē̓̀,ē̓̀
+ἤ,ē̓́,ē̓́
+ἦ,ē̓͂,ē̓͂
+ᾑ,ē̔ͅ,ē̔ͅ
+ἣ,ē̔̀,ē̔̀
+ἥ,ē̔́,ē̔́
+ἧ,ē̔͂,ē̔͂
+ὶͅ,ìͅ,ìͅ
+ίͅ,íͅ,íͅ
+ῖͅ,i͂ͅ,i͂ͅ
+ἰͅ,i̓ͅ,i̓ͅ
+ἲ,i̓̀,i̓̀
+ἴ,i̓́,i̓́
+ἶ,i̓͂,i̓͂
+ἱͅ,i̔ͅ,i̔ͅ
+ἳ,i̔̀,i̔̀
+ἵ,i̔́,i̔́
+ἷ,i̔͂,i̔͂
+ὸͅ,òͅ,òͅ
+όͅ,óͅ,óͅ
+ο͂ͅ,o͂ͅ,o͂ͅ
+ὀͅ,o̓ͅ,o̓ͅ
+ὂ,o̓̀,o̓̀
+ὄ,o̓́,o̓́
+ὀ͂,o̓͂,o̓͂
+ὁͅ,o̔ͅ,o̔ͅ
+ὃ,o̔̀,o̔̀
+ὅ,o̔́,o̔́
+ὁ͂,o̔͂,o̔͂
+ὺͅ,ùͅ,ùͅ
+ύͅ,úͅ,úͅ
+ῦͅ,u͂ͅ,u͂ͅ
+ὐͅ,u̓ͅ,u̓ͅ
+ὒ,u̓̀,u̓̀
+ὔ,u̓́,u̓́
+ὖ,u̓͂,u̓͂
+ὑͅ,u̔ͅ,u̔ͅ
+ὓ,u̔̀,u̔̀
+ὕ,u̔́,u̔́
+ὗ,u̔͂,u̔͂
+ῲ,ṑͅ,ṑͅ
+ῴ,ṓͅ,ṓͅ
+ῷ,ō͂ͅ,ō͂ͅ
+ᾠ,ō̓ͅ,ō̓ͅ
+ὢ,ō̓̀,ō̓̀
+ὤ,ō̓́,ō̓́
+ὦ,ō̓͂,ō̓͂
+ᾡ,ō̔ͅ,ō̔ͅ
+ὣ,ō̔̀,ō̔̀
+ὥ,ō̔́,ō̔́
+ὧ,ō̔͂,ō̔͂
+Ἆ,Â,Â
+Ἇ,Hâ,Hâ
+Ἒ,È,È
+Ἓ,Hè,Hè
+Ἔ,É,É
+Ἕ,Hé,Hé
+Ἴ,Í,Í
+Ἵ,Hí,Hí
+Ἶ,Î,Î
+Ἷ,Hî,Hî
+Ὓ,Hù,Hù
+Ὕ,Ý,Ý
+Ὗ,Hû,Hû
+Ὤ,Ṓ,Ṓ
+Ὥ,Hṓ,Hṓ
+Ὦ,Ô,Ô
+Ὧ,Hô,Hô
+Ἄ,Á,Á
+Ἥ,Hḗ,Hḗ
+Ὄ,Ó,Ó
+Ἅ,Há,Há
+Ἤ,Ḗ,Ḗ
+Ὅ,Hó,Hó
+Ἦ,Ê̄,Ê̄
+Ἧ,Hê̄,Hê̄
+ᾳ,aͅ,aͅ
+ὰ,à,à
+ά,á,á
+ᾶ,a͂,a͂
+ἀ,a̓,a̓
+ἁ,a̔,a̔
+εͅ,eͅ,eͅ
+ὲ,è,è
+έ,é,é
+ε͂,e͂,e͂
+ἐ,e̓,e̓
+ἑ,e̔,e̔
+ῃ,ēͅ,ēͅ
+ὴ,ḕ,ḕ
+ή,ḗ,ḗ
+ῆ,ē͂,ē͂
+ἠ,ē̓,ē̓
+ἡ,ē̔,ē̔
+ιͅ,iͅ,iͅ
+ὶ,ì,ì
+ί,í,í
+ῖ,i͂,i͂
+ἰ,i̓,i̓
+ἱ,i̔,i̔
+οͅ,oͅ,oͅ
+ὸ,ò,ò
+ό,ó,ó
+ο͂,o͂,o͂
+ὀ,o̓,o̓
+ὁ,o̔,o̔
+υͅ,uͅ,uͅ
+ὺ,ù,ù
+ύ,ú,ú
+ῦ,u͂,u͂
+ὐ,u̓,u̓
+ὑ,u̔,u̔
+ῳ,ōͅ,ōͅ
+ὼ,ṑ,ṑ
+ώ,ṓ,ṓ
+ῶ,ō͂,ō͂
+ὠ,ō̓,ō̓
+ὡ,ō̔,ō̔
+Ἀ,A,A
+Ἁ,Ha,Ha
+Ἐ,E,E
+Ἑ,He,He
+Ἠ,Ē,Ē
+Ἡ,Hē,Hē
+Ἰ,I,I
+Ἱ,Hi,Hi
+Ὀ,O,O
+Ὁ,Ho,Ho
+Ὠ,Ō,Ō
+Ὡ,Hō,Hō
+ῤ,r,r
+ῥ,rh,rh
+Ῥ,Rh,Rh
+᾽Ρ,Rh,Rh
+α,a,a
+ε,e,e
+η,ē,ē
+ι,i,i
+ο,o,o
+υ,u,u
+ω,ō,ō
+Α,A,A
+Ε,E,E
+Η,Ē,Ē
+Ι,I,I
+Ο,O,O
+Υ,U,U
+Ω,Ō,Ō
+β,b,b
+γ,g,g
+δ,d,d
+ζ,z,z
+θ,th,th
+κ,k,k
+λ,l,l
+μ,m,m
+ν,n,n
+ξ,x,x
+π,p,p
+ρ,r,r
+σ,s,s
+ς,s,s
+τ,t,t
+φ,ph,ph
+χ,kh,kh
+ψ,ps,ps
+Β,B,B
+Γ,G,G
+Δ,D,D
+Ζ,Z,Z
+Θ,Th,Th
+Κ,K,K
+Λ,L,L
+Μ,M,M
+Ν,N,N
+Ξ,X,X
+Π,P,P
+Ρ,R,R
+Σ,S,S
+Τ,T,T
+Φ,Ph,Ph
+Χ,Kh,Kh
+Ψ,Ps,Ps
+</script>
+
+<script>
+  let mapaAntiguo = {};
+  let mapaModerno = {};
+
+  function cargarTabla() {
+    const csv = document.getElementById("tabla_csv").textContent.trim();
+    const lineas = csv.split("\n").slice(1); // ignorar encabezado
+    for (let linea of lineas) {
+      const [griego, lat_antiguo, lat_moderno] = linea.split(",");
+      mapaAntiguo[griego] = lat_antiguo;
+      mapaModerno[griego] = lat_moderno;
+    }
+  }
+
+  function transliterar(tipo) {
+    const texto = document.getElementById("input").value;
+    const mapa = tipo === 'lat_antiguo' ? mapaAntiguo : mapaModerno;
+
+    // Ordenar claves por longitud descendente para evitar coincidencias parciales
+    const claves = Object.keys(mapa).sort((a, b) => b.length - a.length);
+
+    let resultado = '';
+    let i = 0;
+    while (i < texto.length) {
+      let match = null;
+      for (let clave of claves) {
+        if (texto.slice(i, i + clave.length) === clave) {
+          match = clave;
+          break;
+        }
+      }
+      if (match) {
+        resultado += mapa[match];
+        i += match.length;
+      } else {
+        const char = texto[i];
+        resultado += '<span class=\"rojo\">' + char + '</span>';
+        i++;
+      }
+    }
+
+    document.getElementById("output").value = resultado.replace(/<[^>]*>/g, '');
+    document.getElementById("output").innerHTML = resultado;
+  }
+
+  function copiarResultado() {
+    const texto = document.getElementById("output").value;
+    navigator.clipboard.writeText(texto);
+  }
+
+  window.onload = cargarTabla;
+</script>
+
+
+<script>
+function cargarTablaCSV() {
+  const textoCSV = document.getElementById("tabla_csv").textContent.trim();
+  const lineas = textoCSV.split("\n").slice(1); // omitir cabecera
+  const mapaAntiguo = {};
+  const mapaModerno = {};
+  for (const linea of lineas) {
+    const [griego, antiguo, moderno] = linea.split(",");
+    if (griego) {
+      mapaAntiguo[griego] = antiguo;
+      mapaModerno[griego] = moderno;
+    }
+  }
+  return { mapaAntiguo, mapaModerno };
+}
+
+function transliterar(modo) {
+  const texto = document.getElementById("input").value;
+  const { mapaAntiguo, mapaModerno } = cargarTablaCSV();
+  const mapa = modo === "lat_antiguo" ? mapaAntiguo : mapaModerno;
+
+  let resultado = "";
+  let i = 0;
+  while (i < texto.length) {
+    let encontrado = false;
+    // Comprobamos substrings de longitud 3, 2 y 1
+    for (let len = 3; len >= 1; len--) {
+      const sub = texto.substr(i, len);
+      if (mapa[sub]) {
+        resultado += mapa[sub];
+        i += len;
+        encontrado = true;
+        break;
+      }
+    }
+    if (!encontrado) {
+      const ch = texto[i];
+      resultado += `<span class="rojo">${ch}</span>`;
+      i++;
+    }
+  }
+
+  document.getElementById("output").value = resultado.replace(/<[^>]*>/g, '');
+  document.getElementById("output").innerHTML = resultado;
+}
+
+function copiarResultado() {
+  const output = document.getElementById("output");
+  navigator.clipboard.writeText(output.value);
+}
+</script>
+
+</body>
+</html>

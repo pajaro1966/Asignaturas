@@ -16,16 +16,9 @@ FYL_028.25_INN Formación de palabras en griego antiguo: vocabulario, gramática
 
 ## 2. Resumen del proyecto en 300 palabras máximo.
 
-**Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
-- **Resumen del proyecto en 300 palabras máximo. Se recomienda brevedad, claridad, concisión y rigurosidad en las explicaciones. Estará visible en la página del proyecto.**
-
 El presente proyecto tiene como objetivo la creación de un vocabulario básico del griego antiguo que incluya no solo el listado de los mil (1000) lemas más frecuentes de esta lengua, sino también las reglas de formación de palabras y fonéticas necesarias para explicar su significado y su forma. Esta formación de palabras adaptada a un vocabulario de frecuencia estará (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs.
 Aunque inicialmente el resultado de este proyecto estará alojado en GitHub con MkDocs, el siguiente paso será su publicación —en formato impreso, epub o ambos— para uso por parte de estudiantes universitarios y de secundaria.
 El objetivo de este proyecto es solucionar las dificultades del aprendizaje del vocabulario de las lenguas clásicas y evitar la dependencia excesiva del diccionario por parte de los alumnos. En proyectos anteriores creamos un vocabulario de frecuencia de mil (1000) lemas que cubre más de un 72% de cualquier texto en griego. Asimismo creamos una infraestructura en Memrise y Anki para el estudio del mismo por parte de los alumnos utilizando el método de la repetición espaciada. En este proyecto el objetivo es descomponer el significado de ese vocabulario esencial en sus componenentes básicos (lexemas, prefijos, sufijos, infijos, etc.) de manera que se consigan una serie de beneficios: (i) los alumnos tendrán más facilidad para aprender el significado de los lemas a través del conocimientos de sus elementos compositivos; (ii) podrán utilizar el conocimiento de lexemas, sufijos, prefijos, etc., para deducir el significado de un número mucho mayor de lemas más allá de esos 1000 iniciales (el diccionario LSJ del griego antiguo contiene más de 116.000 lemas).
-
-- [Modelo de gramática](https://pajaro1966.github.io/My_Mk_Docs/gramatica/)
-- [Sitio web de la asignatura 17784 LENGUA GRIEGA IV](https://pajaro1966.github.io/My_Mk_Docs/)
-- [Solicitud](https://pajaro1966.github.io/My_Mk_Docs/Proyecto_Innova_2024_2025/Solicitud/)
 
 ---
 
@@ -125,8 +118,6 @@ https://pajaro1966.github.io/Asignaturas/textos_02/
 
 ## 4. Diseño del proyecto
 
-**Es necesario presentar una planificación detallada de actividades, responsables y plazos, describiendo la metodología, los recursos disponibles y requeridos, la viabilidad del proyecto y, en su caso, un presupuesto justificado. Más información en las bases de la convocatoria.**
-
 ### 4.1. Metodología
 
 Como en otros proyectos solicitados por el coordinador, se cuenta ya con un modelo del proyecto que se puede encontrar en la siguiente URL y que se utilizará en las siguientes explicaciones:
@@ -155,9 +146,8 @@ Las tareas son, por tanto, las siguientes:
 
 ### 4.3. Plan de trabajo y plazos de desarrollo
 
-El siguiente cronodiagrama da una idea de las tareas realizadas hasta el momento, las que están pendientes, las personas encargadas de ellas y los plazos de ejecución aproximada. La línea vertical negra señala el día actual, a la izquierda se encuentran las tareas realizadas (en gris) y a la derecha las que están pendientes (rojo) separadas por clase y ordenadas temporalmente. También se indica el profesor encargado de cada tarea (azul). El coordinador se encargará tanto de la creación del nuevo repositorio (1) como de la inclusión en él de las notas creadas (4). Los tes miembros del proyecto se encargarán conjuntamente de la creación del listado de tópicos tratados. La creación de las notas se hará teniendo en cuenta las asignaturas impartidas: (i) los profesores Polo y Andrés redactarán las notas básicas (han impartido o impartirán asignaturas de 1º y 2º); (iii) los tres miembros del proyecto redactarán las notas del nivel intermedio, y el coordinador la notas de nivel avanzado (véase las asignaturas de 4º y máster que impartirá). La inclusión de las notas en el repositorio se realizará inmediatamente después de su redacción, siguiendo el ritmo de las asignaturas que se impartirán, de manera que los alumnos puedan acceder a ellas lo antes posible, empezando por los conocimientos más básicos para pasar a los intermedios y finalmente a los superiores.
-
-### Crono
+El siguiente cronodiagrama da una idea de las tareas realizadas hasta el momento, las que están pendientes, las personas encargadas de ellas y los plazos de ejecución aproximada. La línea vertical negra señala el día actual, a la izquierda se encuentran las tareas realizadas (en gris) y a la derecha las que están pendientes (rojo) separadas por clase y ordenadas temporalmente. También se indica el profesor encargado de cada tarea (azul). El coordinador se encargará tanto de la creación del nuevo repositorio (1) como de la inclusión en él del material creado (4). Los tes miembros del proyecto se encargarán conjuntamente de la creación del material. La base de datos se etiquetará teniendo en cuenta las asignaturas impartidas: primero se editaran los lemas que aparezcan antes en los textos y material empleados en las clases; este orden es esperable que sea muy parecido al orden de frecuencia de los propios lemas. La inclusión de la información sobre cada lema en el repositorio se realizará inmediatamente después de su etiquetado, de manera que los alumnos puedan acceder a ella lo antes posible. De esta forma los alumnos dispondrán de datos que estudiar en la web y nosotros podremos recibir su retroalimentación desde el inicio y modificar la presentación de datos y las explicaciones para adecuarlas lo más posible a sus necesidades. Es decir, la web para su uso existirá desde principios de septiembre del 2025.
+Esta metodología exige la coordinación continua de los miembros del equipo de trabajo. Tenemos planteadas pequeñas reuniones online cada semana y una más larga cada mes para discutir a fondo el proyecto y modificar cualquier aspecto que mejore el resultado. En el cronograma solo se señalan las reuniones mensuales. Por supuesto, se ha creado ya un chat en Whatsapp para poder coordinarnos. Esta comunicación continua será esencial para la fase de etuqetado de la base de datos.
 
 ```mermaid
 
@@ -202,6 +192,19 @@ section 3. Ejercicios
 Moodle: crit, 16-04-2026, 15-06-2026
 Anki: crit, 17-07-2026, 15-07-2026
 
+section 4. Reuniones
+Reunión 00: crit, milestone, 05-07-2025, 05-07-2025
+Reunión 01: crit, milestone, 05-09-2025, 05-09-2025
+Reunión 02: crit, milestone, 05-10-2025, 05-10-2025
+Reunión 03: crit, milestone, 05-11-2025, 05-11-2025
+Reunión 04: crit, milestone, 05-12-2025, 05-12-2025
+Reunión 05: crit, milestone, 08-01-2026, 08-01-2026
+Reunión 06: crit, milestone, 08-02-2026, 08-02-2026
+Reunión 07: crit, milestone, 08-03-2026, 08-03-2026
+Reunión 08: crit, milestone, 08-05-2026, 08-05-2026
+Reunión 09: crit, milestone, 08-06-2026, 08-06-2026
+Reunión 10: crit, milestone, 08-07-2026, 08-07-2026
+
 ```
 
 ### 4.4. Recursos
@@ -221,8 +224,6 @@ Esta disponibilidad de conocimiento (knowhow) y recursos técnicos queda demostr
 ---
 
 ## 5. Justificación de la relevancia y pertinencia de la innovación docente
-
-- Se debe argumentar el valor del proyecto indicando a cuántas asignaturas, docentes y estudiantes afecta, su impacto potencial, su aplicabilidad concreta y la posibilidad de ser replicado en otros contextos. Más información en las bases de la convocatoria.
 
 ### 5.1. Alcance
 
@@ -256,8 +257,6 @@ Nuestro propósito es procesar esas listas de vocabulario de la misma manera que
 
 ## 6. Justificación del equipo
 
-- Hay que demostrar que el equipo tiene la experiencia necesaria, detallando roles, responsabilidades, dinámicas de trabajo y mecanismos de coordinación adecuados para el logro de los objetivos. Más información en las bases de la convocatoria.
-
 En el punto § 4.3 se detallan las tareas asignadas a cada miembro del equipo. En este apartado describiremos su idoneidad para el proyecto que se está describiendo.
 
 **(1) Asignaturas impartidas**. Los tres miembros del proyecto imparten y han impartido asignaturas de griego antiguo en todos los niveles y cursos de  diferentes grados en las universidades Autónoma de Madrid y Murcia, y en concreto el próximo años impartirán las siguientes:
@@ -267,7 +266,9 @@ En el punto § 4.3 se detallan las tareas asignadas a cada miembro del equipo. E
 - 2º curso 1º semestre: Lectura y traducción de texto griegos I (20109): Jesús Polo
 - 2º curso 2º semestre: Introducción a las lenguas de la antigüedad (31960): Jesús Polo
 - 3º/4º curso 2º semestre: Textos griegos II: épica (20120): Antonio Revuelta.
-- Máster de posgrado: Comentario avanzado de textos griegos (33557)
+- Máster de posgrado: Comentario avanzado de textos griegos (33557): Antonio Revuelta.
+- 3º: Lingüística griega I (1671): Iván Andrés Alba (Universidad de Murcia).
+- 3º: Segunda lengua II (griego moderno) (3303): Iván Andrés Alba (Universidad de Murcia).
 
 **(2) Dedicación a la lingüística y a la enseñanza del griego**. Los tres compartimos nuestra dedicación e interés no solo por la lingüística del griego antiguo, sino que impartimos asignaturas de todos los niveles, y el profesor Iván Andrés Alba dispone además del Título de Experto en Metodología Docente Universitaria (UAM), obtenido tras defender un proyecto de cambio docente sobre el griego antiguo como lengua hablada en el aula universitaria.
 
@@ -295,8 +296,6 @@ https://www.uam.es/CentroFormacionContinua/nuevo_MFP_Lenguaje_e_Inteligencia_Art
 ---
 
 ## 7. Impacto de la mejora
-
-- Es fundamental establecer indicadores de evaluación, valores de referencia y resultados esperados que permitan medir y validar el impacto de la innovación propuesta. Más información en las bases de la convocatoria.
 
 Para medir el impacto de la mejora se va a tener en cuenta los resultados académicos de los alumnos, las estadísticas de uso del sitio web, la retroalimentación específica de los alumnos, y un sistema de encuestas.
 

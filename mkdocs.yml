@@ -117,9 +117,10 @@ nav:
     - 'Vocabulario/Vocab_Intro.md'
   - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
   - Pruebas:
-    - Morfología: 'Morfologia/Morfologia_Todo.html'
-    - Reveal: 'reveal.js-master/index_copia.html'
-    - Pragmática: 'Pragmatica/Ejemplos.xml'
+    - 'Wortbildung': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado.html'
+    - 'Morfología': 'Morfologia/Morfologia_Todo.html'
+    - 'Reveal': 'reveal.js-master/index_copia.html'
+    - 'Pragmática': 'Pragmatica/Ejemplos.xml'
 site_url: https://sitename.example
 extra_css:
   - stylesheets/extra.css
@@ -195,3 +196,4 @@ extra_javascript:
   - javascripts/audio-control.js
   - javascripts/lrc.js
   - javascripts/karaoke.js
+  - Proyecto_Innova_2025_2026/Tabla/datos.json

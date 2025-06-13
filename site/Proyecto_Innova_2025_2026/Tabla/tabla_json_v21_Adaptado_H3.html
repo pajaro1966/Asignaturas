@@ -1,36 +1,159 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
   <meta name="version" content="v21-H3-2025-06-13">
-  <title>tabla_json_v21_Adaptado_H3</title>
+<link rel="icon" href="data:,">
+  <meta charset="UTF-8">
+  <title><!-- MODIFICA AQUÍ: título del documento -->Tabla JSON (v21)</title>
   <style>
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ccc; padding: 5px; text-align: left; }
-    th select, th input[type="text"] { width: 100%; }
-    .cFamilia { color: red; }
-    .cBase { color: green; }
-    .cBase_Significado { color: orange; }
-    .cPrefijo { color: blue; }
-    .cSufijo { color: purple; }
-    .cLema { color: brown; }
-    .cLema_Significado { color: teal; }
+    body { font-family: sans-serif; }
+    table {
+      border-collapse: collapse;
+      width: 95%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+    select { width: 100%; font-size: 0.9em; }
+    .cLema, .cLema_Significado { color: black; }
+    .cBase, .cBase_Significado { color: red; }
+    .cPrefijo { color: green; }
+    .cSufijo { color: blue; }
+    .cFamilia { color: purple; }
+    #filtro-container {
+      width: 95%;
+      margin: 10px auto;
+      text-align: left;
+    }
+    #filtro, #filtroGlobal {
+      font-size: 1em;
+      padding: 4px;
+      width: 300px;
+      margin-top: 6px;
+    }
   </style>
 </head>
 <body>
-  <h1>Tabla JSON Adaptado - H3</h1>
-  <input type="text" id="filtroGlobal" placeholder="Filtro global (* y ? soportados)">
-  <table id="miTabla">
-    <thead>
-      <tr id="filtrosFila"></tr>
-      <tr id="headerRow"></tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
 
-  <script>
-    const datos = [
+<h2 style="text-align:center;">Versión v21: Filtro 1 por primera columna + Filtro 2 global</h2>
+<p style="text-align:center;">Soporta comodines (* ?) en la columna 1. Filtro global sin comodines en todas las columnas.</p>
 
+<div id="filtro-container">
+  <label for="filtro">Filtro 1 (primera columna):</label><br>
+  <input type="text" id="filtro" placeholder="Ej: ἀν*, Pe?r, 2??"><br>
+  <label for="filtroGlobal">Filtro 2 (todas las columnas visibles):</label><br>
+  
+<div style="margin: 1em 0;">
+  <button onclick="setOrden(['Familia','Base','Base_Significado','Prefijo','Sufijo','Lema','Lema_Significado'])">Familia-Base_Lema</button>
+  <button onclick="setOrden(['Base','Base_Significado','Prefijo','Sufijo','Lema','Lema_Significado','Familia'])">Base_Lema_Familia</button>
+  <button onclick="setOrden(['Lema','Lema_Significado','Base','Base_Significado','Prefijo','Sufijo','Familia'])">Lema_Base_Familia</button>
+  <button onclick="setOrden(['Sufijo','Base','Base_Significado','Prefijo','Lema','Lema_Significado','Familia'])">Sufijo_Base_Lema_Familia</button>
+  <button onclick="setOrden(['Prefijo','Base','Base_Significado','Sufijo','Lema','Lema_Significado','Familia'])">Prefijo_Base_Lema_Familia</button>
+</div>
+<input type="text" id="filtroGlobal" placeholder="Ej: griego, 25, Argentina">
+</div>
+
+<table id="miTabla">
+  <thead>
+    <tr id="selector-fila">
+      <th>
+  <select>
+        <option value="Lema" selected>Lema</option>
+        <option value="Lema_Significado">Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo">Prefijo</option>
+        <option value="Sufijo">Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" selected>Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo">Prefijo</option>
+        <option value="Sufijo">Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" >Significado (Lema)</option>
+        <option value="Base" selected>Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo">Prefijo</option>
+        <option value="Sufijo">Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" >Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado" selected>Significado (Base)</option>
+        <option value="Prefijo">Prefijo</option>
+        <option value="Sufijo">Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" >Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo" selected>Prefijo</option>
+        <option value="Sufijo">Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" >Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo" >Prefijo</option>
+        <option value="Sufijo" selected>Sufijo</option>
+        <option value="Familia">Familia</option>
+</select>
+</th>
+<th>
+  <select>
+        <option value="Lema" >Lema</option>
+        <option value="Lema_Significado" >Significado (Lema)</option>
+        <option value="Base">Base</option>
+        <option value="Base_Significado">Significado (Base)</option>
+        <option value="Prefijo" >Prefijo</option>
+        <option value="Sufijo" >Sufijo</option>
+        <option value="Familia" selected>Familia</option>
+</select>
+</th>
+
+
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+  var datos = [
+  
 
 
 {
@@ -120,13 +243,13 @@
 "Lema":"ἄγω",
 "Lema_Significado":"conducir, llevar",
 "Prefijo":"-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
 "Base":"ἄγω",
 "Base_Significado":"Llevar",
-"Familia":"ἄγω",
+"Familia":"ἄγω ",
 "Lema":"ἀγών, -ῶνος, ὁ",
 "Lema_Significado":"a) reunión, asamblea; b) certamen, lucha; c) lugar de certamen, palestra; d) disputa, pleito",
 "Prefijo":"-",
@@ -320,7 +443,7 @@
 "Lema":"ἀθρόος, -α, -ον",
 "Lema_Significado":"reunido, junto, compacto, agrupado, de una vez",
 "Prefijo":"-",
-"Sufijo":"-oς_α_ον"
+"Sufijo":"-ός_ά_όν"
 },
 
 {
@@ -364,7 +487,7 @@
 },
 
 {
-"Base":"αἴρω",
+"Base":"ἀείρω",
 "Base_Significado":"Levantar",
 "Familia":"ἀείρω",
 "Lema":"αἴρω",
@@ -800,7 +923,7 @@
 "Lema":"ἀνάγω",
 "Lema_Significado":"a) llevar hacia arriba; a1) subir; a2) llevar tierra adentro; a3) llevar mar adentro; b) llevar de vuelta al punto de origen/al estado original",
 "Prefijo":"ἀνα-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -1040,7 +1163,7 @@
 "Lema":"ἄξιος, ία, ιον",
 "Lema_Significado":"merecedor, digno de (gen.)",
 "Prefijo":"-",
-"Sufijo":"-ιος_α_ον_1"
+"Sufijo":"-ίος_α_ον"
 },
 
 {
@@ -1054,7 +1177,7 @@
 },
 
 {
-"Base":"ἀγγέλλω",
+"Base":"αγγέλλω",
 "Base_Significado":"Anunciar",
 "Familia":"ἄγγελος",
 "Lema":"ἀπαγγέλλω",
@@ -1070,7 +1193,7 @@
 "Lema":"ἀπάγω",
 "Lema_Significado":"a) llevar lejos, alejar; b) retirar; c) llevar de regreso; d) devolver, pagar lo que se debe; e) arrestar y llevarse; f) distraer, alejar de algo",
 "Prefijo":"ἀπο-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -1404,9 +1527,9 @@
 },
 
 {
-"Base":"ἄργυρος",
+"Base":"ἀργύριον",
 "Base_Significado":"Plata",
-"Familia":"ἄργυρος",
+"Familia":"ἀργύριον",
 "Lema":"ἀργύρεος, ‑α, ‑ον",
 "Lema_Significado":"De plata; plateado. ",
 "Prefijo":"-",
@@ -1414,13 +1537,13 @@
 },
 
 {
-"Base":"ἄργυρος",
+"Base":"ἀργύριον",
 "Base_Significado":"Plata",
-"Familia":"ἄργυρος",
+"Familia":"ἀργύριον",
 "Lema":"ἀργύριον, ου, τό",
 "Lema_Significado":"a) plata; b) moneda pequeña; c) dinero",
 "Prefijo":"-",
-"Sufijo":"-ιον_ου_2"
+"Sufijo":"-όν_οῦ"
 },
 
 {
@@ -2940,7 +3063,7 @@
 "Lema":"δίκαιον, ‑ου, τό",
 "Lema_Significado":"Justo, honrado, probo, piadoso, humano, conforme a regla y ley, verdadero, genuino; honesto, derecho, recto, razonable. Normal. ",
 "Prefijo":"-",
-"Sufijo":"-ον_ου"
+"Sufijo":"-όν_οῦ"
 },
 
 {
@@ -2970,7 +3093,7 @@
 "Lema":"δικαστήριον, ου, τό",
 "Lema_Significado":"tribunal",
 "Prefijo":"-",
-"Sufijo":"-τήριον_ου"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -3534,7 +3657,7 @@
 },
 
 {
-"Base":"ἀγγέλλω",
+"Base":"αγγέλλω",
 "Base_Significado":"Anunciar",
 "Familia":"ἄγγελος",
 "Lema":"εἰσαγγέλλω",
@@ -3550,7 +3673,7 @@
 "Lema":"εἰσάγω",
 "Lema_Significado":"a) llevar dentro, introducir; b) importar",
 "Prefijo":"εἰσ-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -4250,7 +4373,7 @@
 "Lema":"ἐπάγω",
 "Lema_Significado":"a) llevar sobre, contra alguien (dat.); b) inducir a alguien (ac.) a hacer algo (inf.); c) traer como aliados; d) llevar adelante, proponer (votación)",
 "Prefijo":"ἐπί-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -5440,7 +5563,7 @@
 "Lema":"θεσμοφόριον, ‑ου, τό",
 "Lema_Significado":"Templo de Deméter en Tesmophorio",
 "Prefijo":"-",
-"Sufijo":"-ιον_ου_2"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -5490,7 +5613,7 @@
 "Lema":"θηρίον, ου, τό",
 "Lema_Significado":"a) animal salvaje (caza); b) animal (general); c) bestia, monstruo (nocivo); d) bestia, animal, bruto (reproche)",
 "Prefijo":"-",
-"Sufijo":"-ίον_ου_1"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -5890,7 +6013,7 @@
 "Lema":"κάλλιον",
 "Lema_Significado":"Junta o banco de magistrados.",
 "Prefijo":"-",
-"Sufijo":"-ιον_2"
+"Sufijo":"-ιον"
 },
 
 {
@@ -5950,7 +6073,7 @@
 "Lema":"καπηλεῖον, ‑ου, τό",
 "Lema_Significado":"Droguería, abacería, taberna. ",
 "Prefijo":"-",
-"Sufijo":"-ίον_ου_1"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -7800,7 +7923,7 @@
 "Lema":"οἰκίδιον, ‑ου, τό",
 "Lema_Significado":"Casita. ",
 "Prefijo":"-",
-"Sufijo":"-ίδιον_ου"
+"Sufijo":"-ιδιον_ου"
 },
 
 {
@@ -8664,7 +8787,7 @@
 },
 
 {
-"Base":"ἀγγέλλω",
+"Base":"αγγέλλω",
 "Base_Significado":"Anunciar",
 "Familia":"ἄγγελος",
 "Lema":"παραγγέλλω",
@@ -8880,7 +9003,7 @@
 "Lema":"πατρῷος, α, ον",
 "Lema_Significado":"a) del padre, que viene o es heredado de él; b) = πάτριος de/perteneciente al padre",
 "Prefijo":"-",
-"Sufijo":"-ίος_α_ον_2"
+"Sufijo":"-ιος_α_ον"
 },
 
 {
@@ -8894,13 +9017,13 @@
 },
 
 {
-"Base":"πέδον",
+"Base":"ποδός",
 "Base_Significado":"Pie",
 "Familia":"πούς",
 "Lema":"πεδίον, ου, τό",
 "Lema_Significado":"llano, llanura",
 "Prefijo":"-",
-"Sufijo":"-ίον_ου_1"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -9030,7 +9153,7 @@
 "Lema":"περιάγω",
 "Lema_Significado":"Llevar, conducir en derredor; hacer volver, remover volviendo, volver; llevar consigo; ir en torno, recorrer; hacer pasar ante. MED. llevar consigo, tener siempre al lado. ",
 "Prefijo":"περί-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -9200,7 +9323,7 @@
 "Lema":"πλησίον",
 "Lema_Significado":"cerca (de gen.)",
 "Prefijo":"-",
-"Sufijo":"-ίον_ου_Ac"
+"Sufijo":"-ίον_ου"
 },
 
 {
@@ -9644,9 +9767,9 @@
 },
 
 {
-"Base":"ἀγορεύω",
+"Base":"ἄγω",
 "Base_Significado":"Llevar",
-"Familia":"ἀγείρω",
+"Familia":"ἄγω",
 "Lema":"προαγορεύω",
 "Lema_Significado":"a) predecir, profetizar; b) prevenir, advertir",
 "Prefijo":"προ-",
@@ -9660,7 +9783,7 @@
 "Lema":"προάγω",
 "Lema_Significado":"a) (tr.) a1) llevar hacia adelante; a2) persuadir, inducir; a3) hacer avanzar; a4) promover; b) (intr.) ir a la cabeza, ir delante, ir por delante de",
 "Prefijo":"προ-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -9774,9 +9897,9 @@
 },
 
 {
-"Base":"ἀγορεύω",
+"Base":"ἄγω",
 "Base_Significado":"Llevar",
-"Familia":"ἀγείρω",
+"Familia":"ἄγω",
 "Lema":"προσαγορεύω",
 "Lema_Significado":"a) dirigir la palabra a (ac.); b) saludar",
 "Prefijo":"προς-",
@@ -10130,7 +10253,7 @@
 "Lema":"σημεῖον, ου, τό",
 "Lema_Significado":"a) marca, signo; b) seña, señal, indicación; c) omen, portento",
 "Prefijo":"-",
-"Sufijo":"-ίον_ου_1"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -10140,7 +10263,7 @@
 "Lema":"σιδήριον, ‑ου, τό",
 "Lema_Significado":"Arma, instrumento de hierro.",
 "Prefijo":"-",
-"Sufijo":"-ιον_ου_2"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -10306,11 +10429,11 @@
 {
 "Base":"στάδιος",
 "Base_Significado":"Estadio",
-"Familia":"ἵστημι",
+"Familia":"στάδιος",
 "Lema":"στάδιον, ου, τό",
 "Lema_Significado":"a) estadio (medida de longitud); b) estadio (lugar de carreras); c) carrera e el estadio",
 "Prefijo":"-",
-"Sufijo":"-ιον_ου_2"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -10650,7 +10773,7 @@
 "Lema":"συνάγω",
 "Lema_Significado":"a) reunir, juntar en un lugar; b) unir; c) reconciliar; d) contraer; e) concluir, deducir",
 "Prefijo":"συν-",
-"Sufijo":"-"
+"Sufijo":"-yω"
 },
 
 {
@@ -10966,11 +11089,11 @@
 {
 "Base":"τεκμαίρομαι",
 "Base_Significado":"Ordenar",
-"Familia":"τέκμαρ",
+"Familia":"τεκμαίρομαι",
 "Lema":"τεκμήριον, ου, τό",
 "Lema_Significado":"a) señal; b) prueba",
 "Prefijo":"-",
-"Sufijo":"-ιον_ου\rιον_ου_2"
+"Sufijo":"-ιον_ου"
 },
 
 {
@@ -12412,102 +12535,146 @@
 "Prefijo":"-",
 "Sufijo":"-εω"
 }
+  
 
-    ];
+];
 
-    const columnConfigs = {
-      'Familia-Base_Lema': ["Familia","Base","Base_Significado","Prefijo","Sufijo","Lema","Lema_Significado"],
-      'Base_Lema_Familia': ["Base","Base_Significado","Prefijo","Sufijo","Lema","Lema_Significado","Familia"],
-      'Lema_Base_Familia': ["Lema","Lema_Significado","Base","Base_Significado","Prefijo","Sufijo","Familia"],
-      'Sufijo_Base_Lema_Familia': ["Sufijo","Base","Base_Significado","Prefijo","Lema","Lema_Significado","Familia"],
-      'Prefijo_Base_Lema_Familia': ["Prefijo","Base","Base_Significado","Sufijo","Lema","Lema_Significado","Familia"]
-    };
+  var tabla = document.getElementById("miTabla");
+  var selects = tabla.querySelectorAll("thead select");
+  var tbody = tabla.querySelector("tbody");
+  var filtroInput = document.getElementById("filtro");
+  var filtroGlobal = document.getElementById("filtroGlobal");
 
-    let currentColumns = columnConfigs['Familia-Base_Lema'];
-
-    function escapeRegExp(s) {
-      return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  function getCamposSeleccionados() {
+    var valores = [];
+    for (var i = 0; i < selects.length; i++) {
+      valores.push(selects[i].value);
     }
+    return valores;
+  }
 
-    function convertirPatronAWildcard(patron) {
-      var regex = escapeRegExp(patron).replace(/\*/g, '.*').replace(/\?/g, '.');
-      return new RegExp('^' + regex + '$', 'i');
+  function normalizarTexto(txt) {
+    return txt.normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function convertirPatronAWildcard(patron) {
+    var regex = escapeRegExp(patron).replace(/\*/g, '.*').replace(/\?/g, '.');
+    return new RegExp('^' + regex + '$');
+  }
+
+  function agruparPorCampo(datos, campo) {
+    var grupos = {};
+    for (var i = 0; i < datos.length; i++) {
+      var clave = datos[i][campo];
+      if (!grupos[clave]) grupos[clave] = [];
+      grupos[clave].push(datos[i]);
     }
+    return grupos;
+  }
 
-    function renderTable() {
-      const headerRow = document.getElementById("headerRow");
-      const filtrosFila = document.getElementById("filtrosFila");
-      const tableBody = document.getElementById("tableBody");
-      headerRow.innerHTML = "";
-      filtrosFila.innerHTML = "";
+  function renderizarTabla() {
+    var camposSel = getCamposSeleccionados();
+    var primerCampo = camposSel[0];
+    var filtro = filtroInput?.value?.trim?.() || "";
+    var filtroG = filtroGlobal?.value?.trim?.().toLowerCase() || "";
 
-      currentColumns.forEach((col, idx) => {
-        // Filtro individual
-        const filtroTH = document.createElement("th");
-        const input = document.createElement("input");
-        input.type = "text";
-        input.dataset.col = col;
-        input.placeholder = "Filtrar " + col;
-        input.addEventListener("input", renderTable);
-        filtroTH.appendChild(input);
-        filtrosFila.appendChild(filtroTH);
+    var datosFiltrados = datos;
 
-        // Selector de campo
-        const th = document.createElement("th");
-        const select = document.createElement("select");
-        for (let key in datos[0]) {
-          const option = document.createElement("option");
-          option.value = key;
-          option.textContent = key;
-          if (key === col) option.selected = true;
-          select.appendChild(option);
-        }
-        select.addEventListener("change", function() {
-          currentColumns[idx] = this.value;
-          renderTable();
-        });
-        th.appendChild(select);
-        headerRow.appendChild(th);
-      });
+if (filtro !== "") {
+  var regexTexto = filtro
+    .replace(/[.+^${}()|[\]\\]/g, '\\$&') // escapa todo excepto * y ?
+    .replace(/\*/g, '.*')                 // * => cualquier secuencia
+    .replace(/\?/g, '.');                 // ? => un solo carácter
+  var regex = new RegExp("^" + regexTexto + "$", "i");
 
-      let datosFiltrados = datos.filter(d => {
-        return currentColumns.every((col, idx) => {
-          const input = filtrosFila.children[idx].querySelector("input");
-          const val = input?.value?.trim();
-          if (!val) return true;
-          const regex = convertirPatronAWildcard(val);
-          return regex.test(d[col] || "");
+  datosFiltrados = datosFiltrados.filter(function(d) {
+    var valor = d[primerCampo] || "";
+    return regex.test(valor);
+  });
+}
+
+if (filtroG !== "") {
+  const gruposAND = filtroG.trim().split(/\s+/);
+
+  datosFiltrados = datosFiltrados.filter(function(d) {
+    return gruposAND.every(function(grupo) {
+      const subterminosOR = grupo.split("|");
+      return subterminosOR.some(function(termino) {
+        // Convertir comodines a regex
+        let patron = termino.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                            .replace(/\*/g, '.*')
+                            .replace(/\?/g, '.');
+        let regex = new RegExp(patron, "i");
+
+        return camposSel.some(function(campo) {
+          let valor = (d[campo] || "").toString();
+          return regex.test(valor);
         });
       });
+    });
+  });
+}
 
-      const filtroGlobal = document.getElementById("filtroGlobal").value.trim().toLowerCase();
-      if (filtroGlobal !== "") {
-        const gruposAND = filtroGlobal.split(/\s+/);
-        datosFiltrados = datosFiltrados.filter(d => {
-          return gruposAND.every(grupo => {
-            const subterminosOR = grupo.split("|");
-            return subterminosOR.some(termino => {
-              const regex = convertirPatronAWildcard(termino);
-              return currentColumns.some(col => regex.test(d[col] || ""));
-            });
-          });
-        });
+    datosFiltrados.sort(function(a, b) {
+      for (var i = 0; i < camposSel.length; i++) {
+        var campo = camposSel[i];
+        var valA = normalizarTexto((a[campo] || "").toString().toLowerCase());
+        var valB = normalizarTexto((b[campo] || "").toString().toLowerCase());
+        if (valA < valB) return -1;
+        if (valA > valB) return 1;
       }
+      return 0;
+    });
 
-      tableBody.innerHTML = "";
-      datosFiltrados.forEach(d => {
-        const tr = document.createElement("tr");
-        currentColumns.forEach(col => {
-          const td = document.createElement("td");
-          td.textContent = d[col] || "";
-          td.className = "c" + col;
+    var grupos = agruparPorCampo(datosFiltrados, primerCampo);
+    tbody.innerHTML = "";
+
+    for (var valor in grupos) {
+      var filas = grupos[valor];
+      for (var i = 0; i < filas.length; i++) {
+        var fila = filas[i];
+        var tr = document.createElement("tr");
+        for (var j = 0; j < camposSel.length; j++) {
+          var campo = camposSel[j];
+          if (j === 0 && i > 0) continue;
+          var td = document.createElement("td");
+          td.textContent = fila[campo];
+          td.className = "c" + campo;
+          if (j === 0 && i === 0 && filas.length > 1) {
+            td.rowSpan = filas.length;
+          }
           tr.appendChild(td);
-        });
-        tableBody.appendChild(tr);
-      });
+        }
+        tbody.appendChild(tr);
+      }
     }
+  }
 
-    document.addEventListener("DOMContentLoaded", renderTable);
-  </script>
+  document.addEventListener("DOMContentLoaded", function() {
+    filtroInput.addEventListener("input", renderizarTabla);
+    filtroGlobal.addEventListener("input", renderizarTabla);
+    for (var i = 0; i < selects.length; i++) {
+      selects[i].addEventListener("change", renderizarTabla);
+    }
+    renderizarTabla();
+  });
+
+function setOrden(nuevoOrden) {
+  for (var i = 0; i < selects.length; i++) {
+    if (i < nuevoOrden.length) {
+      selects[i].value = nuevoOrden[i];
+    } else {
+      selects[i].value = "";
+    }
+  }
+  renderizarTabla();
+}
+
+</script>
+
 </body>
 </html>

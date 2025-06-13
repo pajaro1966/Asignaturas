@@ -117,8 +117,9 @@ nav:
     - 'Vocabulario/Vocab_Intro.md'
   - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
   - Pruebas:
-    - 'Wortbildung': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_G.html'
-    - 'Wortbildung': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_H.html'
+    - 'tabla_json_v21_Adaptado_G.html': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_G.html'
+    - 'tabla_json_v21_Adaptado_H.html': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_H.html'
+    - 'Instruciones': 'Proyecto_Innova_2025_2026/Tabla/Instrucciones.md'
     - 'Morfología': 'Morfologia/Morfologia_Todo.html'
     - 'Reveal': 'reveal.js-master/index_copia.html'
     - 'Pragmática': 'Pragmatica/Ejemplos.xml'

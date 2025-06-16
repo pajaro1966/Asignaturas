@@ -27,11 +27,13 @@
     <thead>
       <tr>
         <th>Lema</th>
+        <th>Limpia</th>
         <th>Base</th>
         <th>Significado</th>
       </tr>
       <tr>
         <th><input type="text" placeholder="Filtrar lema..."></th>
+        <th><input type="text" placeholder="Filtrar limpia..."></th>
         <th><input type="text" placeholder="Filtrar base..."></th>
         <th><input type="text" placeholder="Filtrar significado..."></th>
       </tr>
@@ -54,9 +56,10 @@
       const table = $('#baillyTable').DataTable({
         orderCellsTop: true,
         fixedHeader: true,
-        ajax: 'bailly_02.json',
+        ajax: 'bailly_03.json',
         columns: [
           { data: 'Lema', className: 'lema' },
+          { data: 'Limpia', className: 'limpia' },
           { data: 'Base' , className: 'base'},
           { data: 'Lema_Significado' }
         ],

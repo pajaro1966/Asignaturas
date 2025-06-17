@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diccionario Beekes – Prototipo v03</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #f8f8f8;
+      padding: 1em;
+      border-bottom: 1px solid #ccc;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 1em;
+    }
+
+    nav input {
+      padding: 0.5em;
+      width: 300px;
+      flex: 1;
+    }
+
+    nav h1 {
+      font-size: 1.2em;
+      margin: 0;
+      flex-shrink: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    li a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>Diccionario Beekes</h1>
+    <input type="text" id="busqueda" placeholder="Buscar palabra...">
+  </nav>
+
+  <table>
+    <tr>
+      <td style="width: 30%;">
+        <ul id="lista">
+          <li><a href="#" data-pagina="100">ἐπί</a></li>
+          <li><a href="#" data-pagina="100">ἐπιβαίνω</a></li>
+          <li><a href="#" data-pagina="100">ἐπιβάλλω</a></li>
+        </ul>
+      </td>
+      <td style="width: 70%;">
+        <div id="visor">
+          <img id="imgDiccionario" src="pagina_100.jpg" alt="Página del diccionario">
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    const palabras = [
+      { palabra: "ἐπί", pagina: 100 },
+      { palabra: "ἐπιβαίνω", pagina: 100 },
+      { palabra: "ἐπιβάλλω", pagina: 100 }
+    ];
+
+    const input = document.getElementById('busqueda');
+    const lista = document.getElementById('lista');
+    const visor = document.getElementById('imgDiccionario');
+
+    input.addEventListener('input', () => {
+      const texto = input.value.trim();
+      const match = palabras.find(p => p.palabra === texto);
+      if (match) {
+        visor.src = `pagina_${match.pagina}.jpg`;
+      }
+    });
+
+    lista.querySelectorAll('a').forEach(enlace => {
+      enlace.addEventListener('click', e => {
+        e.preventDefault();
+        const pag = e.target.dataset.pagina;
+        visor.src = `pagina_${pag}.jpg`;
+        input.value = e.target.textContent;
+      });
+    });
+  </script>
+
+</body>
+</html>

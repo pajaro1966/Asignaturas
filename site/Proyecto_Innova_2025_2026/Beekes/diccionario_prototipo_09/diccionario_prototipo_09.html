@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>diccionario_prototipo_09</title>
+  <meta name="version" content="v09-2025-06-17">
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; }
+    header {
+      position: sticky;
+      top: 0;
+      background: #f8f8f8;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    #busqueda { width: 50%; padding: 5px; font-size: 1em; }
+    #contenedor {
+      display: flex;
+      height: calc(100vh - 60px);
+    }
+    #palabras {
+      width: 30%;
+      overflow-y: auto;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    #imagen {
+      width: 70%;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    #imagen img {
+      max-width: 100%;
+      max-height: calc(100vh - 140px);
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #eee;
+    }
+    button, input[type=number] {
+      margin: 2px;
+      padding: 5px 8px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">
+  </header>
+
+  <div id="contenedor">
+    <div id="palabras"></div>
+    <div id="imagen"><img id="paginaImagen" src="" alt=""></div>
+  </div>
+
+  <nav>
+    <button onclick="irAlPrincipio()">⏮️</button>
+    <button onclick="cambiarPagina(-10)">◀️ -10</button>
+    <button onclick="cambiarPagina(-1)">⬅️</button>
+    <span>Página <span id="numeroPagina">1</span> / <span id="totalPaginas">1860</span></span>
+    <button onclick="cambiarPagina(1)">➡️</button>
+    <button onclick="cambiarPagina(10)">▶️ +10</button>
+    <button onclick="irAlFinal()">⏭️</button>
+    <input type="number" id="inputPagina" min="1" max="1860" style="width: 60px;">
+    <button onclick="irAPagina()">Ir</button>
+  </nav>
+
+  <script>
+  let datos = [];
+  let paginaActual = 1;
+  const totalPaginas = 1860;
+
+  async function cargarDatos() {
+    const res = await fetch("palabras.json");
+    datos = await res.json();
+    document.getElementById("totalPaginas").textContent = totalPaginas;
+    mostrarPagina(paginaActual);
+  }
+
+  function mostrarPagina(pagina) {
+    const palabras = datos.filter(p => p.pagina === pagina);
+    const lista = palabras.map(p => `<div>${p.palabra}</div>`).join("");
+    document.getElementById("palabras").innerHTML = lista;
+    const numStr = pagina.toString().padStart(4, "0");
+    document.getElementById("paginaImagen").src = `paginas/pagina_${numStr}.jpg`;
+    document.getElementById("numeroPagina").textContent = pagina;
+  }
+
+  function cambiarPagina(delta) {
+    paginaActual = Math.min(Math.max(1, paginaActual + delta), totalPaginas);
+    mostrarPagina(paginaActual);
+  }
+
+  function irAlPrincipio() {
+    paginaActual = 1;
+    mostrarPagina(paginaActual);
+  }
+
+  function irAlFinal() {
+    paginaActual = totalPaginas;
+    mostrarPagina(paginaActual);
+  }
+
+  function irAPagina() {
+    const valor = parseInt(document.getElementById("inputPagina").value);
+    if (!isNaN(valor)) {
+      paginaActual = Math.min(Math.max(1, valor), totalPaginas);
+      mostrarPagina(paginaActual);
+    }
+  }
+
+  document.getElementById("busqueda").addEventListener("input", e => {
+    const input = e.target.value.trim();
+    if (!input) return;
+
+    // Escapar caracteres especiales excepto * y ?
+    let pattern = input
+      .replace(/([.+^${}()|[\]\\])/g, "\\$1")  // escapa regex salvo * y ?
+      .replace(/\*/g, ".*")  // * → .*
+      .replace(/\?/g, ".");  // ? → .
+
+    const regex = new RegExp("^" + pattern + "$", "i");
+
+    const resultado = datos.find(p => regex.test(p.palabra));
+    if (resultado) {
+      paginaActual = resultado.pagina;
+      mostrarPagina(paginaActual);
+    }
+  });
+
+  cargarDatos();
+</script>
+
+
+</body>
+</html>

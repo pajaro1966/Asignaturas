@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="version" content="v06-2025-06-17">
+  <title>diccionario_prototipo_06</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    header {
+      position: sticky;
+      top: 0;
+      background: #444;
+      color: white;
+      padding: 10px;
+      z-index: 1000;
+    }
+    input[type="text"] {
+      padding: 5px;
+      font-size: 16px;
+      width: 300px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      vertical-align: top;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+    }
+
+    td.words {width: 20%; color: blue; background-color: beige;}
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Buscar palabra: <input type="text" id="buscador" placeholder="Introduce palabra griega...">
+  </header>
+  <table id="tablaDiccionario"></table>
+
+  <script>
+    let datos = {};
+    async function cargarDatos() {
+      const res = await fetch("palabras.json");
+      const palabras = await res.json();
+      const agrupado = {};
+      palabras.forEach(p => {
+        if (!agrupado[p.pagina]) agrupado[p.pagina] = [];
+        agrupado[p.pagina].push(p.palabra);
+      });
+      datos = agrupado;
+      mostrarTabla();
+    }
+
+    function mostrarTabla(filtro = "") {
+      const tabla = document.getElementById("tablaDiccionario");
+      tabla.innerHTML = "";
+      Object.keys(datos).sort((a, b) => parseInt(a) - parseInt(b)).forEach(pagina => {
+        const palabras = datos[pagina].filter(p => p.includes(filtro));
+        if (palabras.length > 0) {
+          const fila = document.createElement("tr");
+
+          const celdaLista = document.createElement("td");
+          celdaLista.className = "words";
+          const ul = document.createElement("ul");
+          palabras.forEach(p => {
+            const li = document.createElement("li");
+            li.textContent = p;
+            ul.appendChild(li);
+          });
+          celdaLista.appendChild(ul);
+
+          const celdaImagen = document.createElement("td");
+          const img = document.createElement("img");
+          img.src = `paginas/pagina_${String(pagina).padStart(4, '0')}.jpg`;
+          img.alt = `Página ${pagina}`;
+          celdaImagen.appendChild(img);
+
+          fila.appendChild(celdaLista);
+          fila.appendChild(celdaImagen);
+          tabla.appendChild(fila);
+        }
+      });
+    }
+
+    document.getElementById("buscador").addEventListener("input", (e) => {
+      mostrarTabla(e.target.value.trim());
+    });
+
+    cargarDatos();
+  </script>
+</body>
+</html>

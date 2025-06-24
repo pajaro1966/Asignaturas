@@ -42,7 +42,7 @@
     }
     #imagen img {
       max-width: 100%;
-      max-height: calc(100vh - 140px);
+    /*   max-height: calc(100vh - 140px); */
     }
     nav {
       text-align: center;
@@ -58,13 +58,9 @@
 </head>
 <body>
   <header>
-    <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">
-  </header>
+    <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">   
 
-  <div id="contenedor">
-    <div id="palabras"></div>
-    <div id="imagen"><img id="paginaImagen" src="" alt=""></div>
-  </div>
+  </header>
 
   <nav>
     <button onclick="irAlPrincipio()">⏮️</button>
@@ -77,6 +73,12 @@
     <input type="number" id="inputPagina" min="1" max="1860" style="width: 60px;">
     <button onclick="irAPagina()">Ir</button>
   </nav>
+
+  <div id="contenedor">
+    <div id="palabras"></div>
+    <div id="imagen"><img id="paginaImagen" src="" alt=""></div>
+  </div>
+
 
   <script>
   let datos = [];

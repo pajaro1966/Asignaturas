@@ -7,7 +7,9 @@
   <title>diccionario_prototipo_09</title>
   <meta name="version" content="v09-2025-06-17">
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; }
+    body { font-family: sans-serif; margin: 0; padding: 0; 
+     background-color: beige;
+    }
     header {
       position: sticky;
       top: 0;
@@ -27,6 +29,10 @@
       border-right: 1px solid #ccc;
       padding: 10px;
       box-sizing: border-box;
+ color: blue;
+ background-color: beige;
+ font-size: 50px;;
+
     }
     #imagen {
       width: 70%;
@@ -55,12 +61,7 @@
     <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">
   </header>
 
-  <div id="contenedor">
-    <div id="palabras"></div>
-    <div id="imagen"><img id="paginaImagen" src="" alt=""></div>
-  </div>
-
-  <nav>
+    <nav>
     <button onclick="irAlPrincipio()">⏮️</button>
     <button onclick="cambiarPagina(-10)">◀️ -10</button>
     <button onclick="cambiarPagina(-1)">⬅️</button>
@@ -71,6 +72,12 @@
     <input type="number" id="inputPagina" min="1" max="1860" style="width: 60px;">
     <button onclick="irAPagina()">Ir</button>
   </nav>
+
+  <div id="contenedor">
+    <div id="palabras"></div>
+    <div id="imagen"><img id="paginaImagen" src="" alt=""></div>
+  </div>
+
 
   <script>
   let datos = [];

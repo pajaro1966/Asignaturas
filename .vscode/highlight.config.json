@@ -1,0 +1,52 @@
+{
+  "patterns": [
+    {
+      "regex": "XXXXX",
+      "color": "#ff0000 #ffeeee"
+    },
+    {
+      "regex": "\\*ETYM",
+      "color": "#0000ff #ddeeff"
+    },
+    {
+      "regex": "\\*VAR",
+      "color": "#008000 #ddffdd"
+    },
+    {
+      "regex": "\\*DER",
+      "color": "#800080 #f5ddff"
+    },
+    {
+      "regex": "\\*COMP",
+      "color": "#ff8000 #ffeedd"
+    },
+    {
+      "regex": "\\*DIAL",
+      "color": "#008080 #ddffff"
+    },
+    {
+      "regex": "===Pag_\\d+:.*===",
+      "color": "#ff00ff #ffffdd"
+    },
+    {
+      "regex": "[\u0370-\u03FF]+",
+      "color": "#2ca02c #eaffea"
+    },
+    {
+      "regex": "[\u0400-\u04FF]+",
+      "color": "#1f77b4 #e0f0ff"
+    },
+    {
+      "regex": "[\u0590-\u05FF]+",
+      "color": "#9467bd #f3eaff"
+    },
+    {
+      "regex": "[\u0600-\u06FF]+",
+      "color": "#ff7f0e #fff2e0"
+    },
+    {
+      "regex": "[\u0100-\u017F]+",
+      "color": "#d62728 #ffeaea"
+    }
+  ]
+}

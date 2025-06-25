@@ -1,4 +1,161 @@
 {
     "cSpell.enabled": false,
-    "livePreview.defaultPreviewPath": "/docs/Daniel_Caballero/Odisea_Segala/Odisea_Segala_02.html"
+    "livePreview.defaultPreviewPath": "/docs/Daniel_Caballero/Odisea_Segala/Odisea_Segala_02.html",
+    "highlight.regex.workspace.regexes": [
+        {
+            "name": "Brackets",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "([\\[|\\]])",
+                    "decorations": [
+                        {
+                            "backgroundColor": "white",
+                            "color": "blue"
+                        }
+                    ]
+                }
+            ],
+            "active": true
+        },
+        {
+            "name": "Parenthesis",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "([\\(|\\)])",
+                    "decorations": [
+                        {
+                            "backgroundColor": "green",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Numbers",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "([\\d]+)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "white",
+                            "color": "red"
+                        }
+                    ]
+                }
+            ],
+            "active": true
+        },
+        {
+            "name": "Griego",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "([Α-Ωα-ω]|[ἀ-῾]|ά|έ|ή|ί|ύ|ό|ώ|Ά|Έ|Ή|Ί|Ό|Ύ|Ώ|ϊ|ϋ|ΐ|ΰ)+",
+                    "decorations": [
+                        {
+                            "backgroundColor": "white",
+                            "color": "blue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dialects",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(\\*DIAL)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "red",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Compounds",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(\\*COMP)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "violet",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Variations",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(\\*VAR)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "green",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Etymology",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(\\*ETYM)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "blue",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Derivados",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(\\*DER)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "brown",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ],
+            "active": true
+        },
+        {
+            "name": "lema",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "(XXXXX)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "black",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ],
+            "active": true,
+            "filterFileRegex": ".*\\.txt"
+        }
+    ]
 }

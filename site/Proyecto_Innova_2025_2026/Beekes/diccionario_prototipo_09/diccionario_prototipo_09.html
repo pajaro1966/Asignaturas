@@ -42,7 +42,7 @@
     }
     #imagen img {
       max-width: 100%;
-      max-height: calc(100vh - 140px);
+    /*   max-height: calc(100vh - 140px); */
     }
     nav {
       text-align: center;
@@ -58,10 +58,11 @@
 </head>
 <body>
   <header>
-    <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">
+    <input type="text" id="busqueda" placeholder="Buscar palabra (* y ? son comodines)">   
+
   </header>
 
-    <nav>
+  <nav>
     <button onclick="irAlPrincipio()">⏮️</button>
     <button onclick="cambiarPagina(-10)">◀️ -10</button>
     <button onclick="cambiarPagina(-1)">⬅️</button>

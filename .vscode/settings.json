@@ -3,6 +3,50 @@
     "livePreview.defaultPreviewPath": "/docs/Daniel_Caballero/Odisea_Segala/Odisea_Segala_02.html",
     "highlight.regex.workspace.regexes": [
         {
+            "name": "Pagina",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "===(.+?)===",
+                    "decorations": [
+                        {
+                            "backgroundColor": "yellow",
+                            "color": "blue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lema_Latino",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "XXXXX([A-Za-zÀ-ÿ]+)",
+                    "decorations": [
+                        {
+                            "backgroundColor": "red",
+                            "color": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lema_Griego",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "XXXXX([Ͱ-Ͽἀ-῿‌-‍̀-ͯ]+)",
+                    "decorations": [
+                        {
+                            "border": "2px solid blue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Brackets",
             "description": "description",
             "regexes": [
@@ -31,7 +75,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "active": false
         },
         {
             "name": "Numbers",
@@ -154,8 +199,7 @@
                     ]
                 }
             ],
-            "active": true,
-            "filterFileRegex": ".*\\.txt"
+            "active": true
         }
     ]
 }

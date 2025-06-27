@@ -3,6 +3,22 @@
     "livePreview.defaultPreviewPath": "/docs/Daniel_Caballero/Odisea_Segala/Odisea_Segala_02.html",
     "highlight.regex.workspace.regexes": [
         {
+            "name": "Clase",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "XXXXX.*?(\\[[^\\[\\]]+\\])(.*)$",
+                    "decorations": [
+                        {
+                            "index": 1,
+                            "backgroundColor": "beige",
+                            "color": "brown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "IE",
             "description": "description",
             "regexes": [
@@ -33,7 +49,7 @@
                     ]
                 }
             ],
-            "active": false
+            "active": true
         },
         {
             "name": "Lema_Latino",
@@ -64,7 +80,7 @@
                     ]
                 }
             ],
-            "active": false
+            "active": true
         },
         {
             "name": "Brackets",
@@ -224,7 +240,7 @@
                     ]
                 }
             ],
-            "active": false
+            "active": true
         }
     ]
 }

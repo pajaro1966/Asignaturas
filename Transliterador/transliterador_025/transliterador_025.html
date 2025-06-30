@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>transliterador_025</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .red { color: red; }
+    textarea { width: 100%; height: 120px; margin-bottom: 10px; }
+    button { margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador Griego-Latino</h1>
+  <form>
+    <label>Texto en griego:</label>
+    <textarea id="inputText">ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι...</textarea><br>
+    <button type="button" onclick="transliterate()">Transliterar</button>
+    <h2>Transliteración:</h2>
+    <div id="output"></div>
+  </form>
+  <script>
+    const equivalencias = {
+      "α": "a", "β": "b", "γ": "g", "δ": "d", "ε": "e", "ζ": "z", "η": "ē", "θ": "th",
+      "ι": "i", "κ": "k", "λ": "l", "μ": "m", "ν": "n", "ξ": "x", "ο": "o", "π": "p",
+      "ρ": "r", "σ": "s", "ς": "s", "τ": "t", "υ": "y", "φ": "ph", "χ": "kh", "ψ": "ps",
+      "ω": "ō"
+    };
+
+    function transliterate() {
+      const input = document.getElementById("inputText").value;
+      let output = "";
+      for (let char of input.normalize("NFD")) {
+        if (char in equivalencias) {
+          output += equivalencias[char];
+        } else if (char.trim() === "") {
+          output += " ";
+        } else {
+          output += `<span class="red">${char}</span>`;
+        }
+      }
+      document.getElementById("output").innerHTML = output;
+    }
+  </script>
+</body>
+</html>

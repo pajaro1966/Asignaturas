@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador Griego - v.21</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    textarea { width: 100%; height: 150px; margin-bottom: 10px; }
+    button { margin: 5px; padding: 10px; }
+    .rojo { color: red; font-weight: bold; }
+    h1 { font-size: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador Griego (v.21)</h1>
+  <label for="inputText">Texto en griego:</label>
+  <textarea id="inputText" placeholder="Introduce aquí el texto en griego..."></textarea>
+
+  <div>
+    <button onclick="transliterar('antiguo')">Transliterar desde Griego Antiguo</button>
+    <button onclick="transliterar('moderno')">Transliterar desde Griego Moderno/Medieval</button>
+    <button onclick="copiarResultado()">Copiar Resultado</button>
+  </div>
+
+  <label for="outputText">Resultado:</label>
+  <textarea id="outputText" readonly></textarea>
+
+  <script>
+    const tabla_js = [
+      ["ὅ", "ho", "ho"],
+      ["μὲν", "men", "men"],
+      ["ὑμεῖς", "humeis", "imeís"],
+      ["ὦ", "ō", "o"],
+      ["ἄνδρες", "andres", "ándres"],
+      ["Ἀθηναῖοι", "Athēnaioi", "Athínaioi"],
+      ["πεπόνθατε", "peponthate", "peponthate"],
+      ["ὑπὸ", "hupo", "ypo"],
+      ["τῶν", "tōn", "ton"],
+      ["ἐμῶν", "emōn", "emón"],
+      ["κατηγόρων", "katēgorōn", "katigóron"],
+      ["οὐκ", "ouk", "ouk"],
+      ["οἶδα", "oida", "ída"],
+      ["ἐγὼ", "egō", "egó"],
+      ["δ᾽", "d'", "d'"],
+      ["οὖν", "oun", "oun"],
+      ["καὶ", "kai", "kai"],
+      ["αὐτὸς", "autos", "aftós"],
+      ["ὀλίγου", "oligou", "olígou"],
+      ["ἐμαυτοῦ", "emautou", "emaftoú"],
+      ["ἐπελαθόμην", "epelathomēn", "epelathómīn"],
+      ["οὕτω", "houtō", "oúto"],
+      ["πιθανῶς", "pithanōs", "pithanós"],
+      ["ἔλεγον", "elegon", "elegon"],
+      ["καίτοι", "kaitoi", "kaitoi"],
+      ["ἀληθές", "alēthes", "alithés"],
+      ["ὡς", "hōs", "os"],
+      ["εἰπεῖν", "eipein", "ipeín"],
+      ["οὐδὲν", "ouden", "oudén"],
+      ["εἰρήκασιν", "eirēkasin", "iríkasīn"],
+      ["μάλιστα", "malista", "málīsta"],
+      ["ἓν", "hen", "en"],
+      ["ἐθαύμασα", "ethaumasa", "ethávmāsa"],
+      ["τῶν", "tōn", "ton"],
+      ["πολλῶν", "pollōn", "pollón"],
+      ["ὧν", "hōn", "on"],
+      ["ἐψεύσαντο", "epseusanto", "epsefsanto"],
+      ["τοῦτο", "touto", "toúto"],
+      ["ᾧ", "hōi", "ō"],
+      ["χρῆν", "chrēn", "chrīn"],
+      ["ὑμᾶς", "humas", "imás"],
+      ["εὐλαβεῖσθαι", "eulabeisthai", "evlaveísthai"],
+      ["μὴ", "mē", "mī"],
+      ["ἐμοῦ", "emou", "emoú"],
+      ["ἐξαπατηθῆτε", "exapatēthēte", "exapatīthīte"]
+    ];
+
+    function transliterar(modo) {
+      const input = document.getElementById("inputText").value;
+      let resultado = "";
+      let i = 0;
+      while (i < input.length) {
+        let encontrado = false;
+        for (let long = Math.min(5, input.length - i); long > 0; long--) {
+          const fragmento = input.substr(i, long);
+          const entrada = tabla_js.find(fila => fila[0] === fragmento);
+          if (entrada) {
+            resultado += entrada[modo === 'antiguo' ? 1 : 2];
+            i += long;
+            encontrado = true;
+            break;
+          }
+        }
+        if (!encontrado) {
+          const char = input[i];
+          resultado += `<span class="rojo">${char}</span>`;
+          i++;
+        }
+      }
+      document.getElementById("outputText").innerHTML = resultado;
+    }
+
+    function copiarResultado() {
+      const text = document.getElementById("outputText").innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Resultado copiado al portapapeles.");
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Archivos y carpetas que no se deben rastrear
+site/
+.cache/
+*.DS_Store
+*.log
+__pycache__/
+

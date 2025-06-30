@@ -3,6 +3,22 @@
     "livePreview.defaultPreviewPath": "/docs/Daniel_Caballero/Odisea_Segala/Odisea_Segala_02.html",
     "highlight.regex.workspace.regexes": [
         {
+            "name": "Non_Word",
+            "description": "description",
+            "regexes": [
+                {
+                    "regex": "[^A-Za-zΑ-Ωα-ω]",
+                    "decorations": [
+                        {
+                            "backgroundColor": "#000000",
+                            "color": "#ff0000"
+                        }
+                    ]
+                }
+            ],
+            "active": false
+        },
+        {
             "name": "Clase",
             "description": "description",
             "regexes": [

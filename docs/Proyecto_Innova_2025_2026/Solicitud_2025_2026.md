@@ -14,9 +14,11 @@ FYL_028.25_INN Formación de palabras en griego antiguo: vocabulario, gramática
 
 ---
 
-## 2. Resumen del proyecto en 300 palabras máximo.
+## 2. Resumen del proyecto en 300 palabras máximo
 
-El presente proyecto tiene como objetivo la creación de un vocabulario básico del griego antiguo que incluya no solo el listado de los mil (1000) lemas más frecuentes de esta lengua, sino también las reglas de formación de palabras y fonéticas necesarias para explicar su significado y su forma. Esta formación de palabras adaptada a un vocabulario de frecuencia estará (i) adaptada a las exigencias de la impartición de esta lengua en los grados ofrecidos por el Departamento de Filología Clásica y (ii) a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con MkDocs.
+El presente proyecto tiene como objetivo la creación de un manual práctico de formación de palabras del griego antiguo para el uso de los alumnos de los grados impartidos por el Departamento de Filología Clásica: Grado en Estudios Clásicos y de la Antigüedad y Doble grado en Historia del Arte y Estudios Clásicos y de la Antigüedad. 
+Dicho manual incluirá no solo las reglas más importantes de la derivación y composición de palabras en griego antiguo, sino también las reglas fonéticas ligadas a dichos procesos y estará aplicado al estudio y comprensión del vocabulario de frecuencia empleado en este departamento desde hace varios años. 
+El material creado estará a disposición libre de los alumnos a través de un repositorio  online creado en GitHub con Material para MkDocs.
 Aunque inicialmente el resultado de este proyecto estará alojado en GitHub con MkDocs, el siguiente paso será su publicación —en formato impreso, epub o ambos— para uso por parte de estudiantes universitarios y de secundaria.
 El objetivo de este proyecto es solucionar las dificultades del aprendizaje del vocabulario de las lenguas clásicas y evitar la dependencia excesiva del diccionario por parte de los alumnos. En proyectos anteriores creamos un vocabulario de frecuencia de mil (1000) lemas que cubre más de un 72% de cualquier texto en griego. Asimismo creamos una infraestructura en Memrise y Anki para el estudio del mismo por parte de los alumnos utilizando el método de la repetición espaciada. En este proyecto el objetivo es descomponer el significado de ese vocabulario esencial en sus componenentes básicos (lexemas, prefijos, sufijos, infijos, etc.) de manera que se consigan una serie de beneficios: (i) los alumnos tendrán más facilidad para aprender el significado de los lemas a través del conocimientos de sus elementos compositivos; (ii) podrán utilizar el conocimiento de lexemas, sufijos, prefijos, etc., para deducir el significado de un número mucho mayor de lemas más allá de esos 1000 iniciales (el diccionario LSJ del griego antiguo contiene más de 116.000 lemas).
 
@@ -25,6 +27,7 @@ El objetivo de este proyecto es solucionar las dificultades del aprendizaje del 
 ## 3. Objetivos
 
 ### 3.1. Descripción de la situación a mejorar
+
 
 El estudio y conocimiento del vocabulario es una tarea esencial y normalmente descuidada en el aprendizaje de las lenguas, y más aun en el caso de las lenguas clásicas. El bajo nivel de vocabulario dificulta el progreso y convierte el estudio en una tarea difícil, frustrante y muy aburrida. Sin embargo, el conocimiento de un vocabulario de frecuencia facilita enormemente el proceso de aprendizaje y ese es el motivo de que hayan proliferado en los últimos años diversas obras al respecto, como sucede con la serie de la editorial Routledge "Frequency Dictionaries":
 

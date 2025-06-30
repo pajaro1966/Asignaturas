@@ -107,11 +107,13 @@ nav:
   - 'Innova 2025-2026': 
     - 'Proyecto_Innova_2025_2026/Solicitud_2025_2026_02.md'
     - 'Lemas (listado)': 'Proyecto_Innova_2025_2026/Vocabulario_Mil.html'
-    - 'Sufijos (listado)': 'Proyecto_Innova_2025_2026/Sufijos.html'
     - 'Sufijos (nota)': 'Proyecto_Innova_2025_2026/notas/Suf_ia.md'
-    - 'Prefijos (listado)': 'Proyecto_Innova_2025_2026/Prefijos.html'
+    - 'Sufijos (listado)': 'Proyecto_Innova_2025_2026/Sufijos.html'
     - 'Prefijos (nota)': 'Proyecto_Innova_2025_2026/notas/Pref_a_an.md'
+    - 'Prefijos (listado)': 'Proyecto_Innova_2025_2026/Prefijos.html'
+    - 'Familia (nota)': 'Proyecto_Innova_2025_2026/notas/Familia.md'
     - 'Familias (listado)': 'Proyecto_Innova_2025_2026/Familias.html'  
+    - 'Bailly': 'Proyecto_Innova_2025_2026/Bailly/bailly_v03.html'
   - 'Innova 2024-2025': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'
@@ -195,7 +197,8 @@ markdown_extensions:
 plugins:
   - privacy
   - search
+  - mermaid2:
+      version: 10.7.0
 extra_javascript:
-  - javascripts/mermaid.min.js
   - javascripts/audio-control.js
   - javascripts/karaoke.js

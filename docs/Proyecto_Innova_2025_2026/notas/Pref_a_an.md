@@ -1,13 +1,15 @@
 # Prefijo ἀ-/ἀν-
 
+El prefijo ἀ-/ἀν- tiene valor negativo. El adjetivo derivado que forma es de dos terminaciones.
+
 ## 1. Adjetivo > Adjetivo
 
-El sufijo ἀ-/ἀν- permite formar adjetivos negativos a partir de otros adjetivos:
+El sufijo ἀ-/ἀν- permite formar adjetivos negativos a partir de otros adjetivos.
 
 ```mermaid
 graph LR
 
-A("δῆλ-ος, η, ον ‘visible’<hr>σύμ-μετρ-ος, ον ‘simétrico’<hr>δυνατ-ός, ή, όν ‘capaz’")-->|"ἀ-/ἀν-"|B("ἄ-δηλ-ος, ον ‘invisible’<hr>ἀ-σύμ-μετρ-ος, ον ‘asimétrico’<hr>ἀ-δύνατ-ος, ον ‘incapaz’")
+A("ADJETIVO<hr>δῆλ-ος, η, ον 'visible'<br>σύμ-μετρ-ος, ον 'simétrico'<br>δυνατ-ός, ή, όν 'capaz'")-->|" ἀ-/ἀν-R "|B("ADJETIVO<hr>ἄ-δηλ-ος, ον 'invisible'<br>ἀ-σύμ-μετρ-ος, ον 'asimétrico'<br>ἀ-δύνατ-ος, ον 'incapaz'")
 
 A:::Adj
 B:::Adj
@@ -47,9 +49,9 @@ Los sufijos pueden ser -ος, -η/-α, -ον o -ής, -ές:
 ```mermaid
 graph LR
 
-A2("δίκ-η, ης, ἡ ‘justicia’<hr>θάνατ-ος, ου, ὁ ‘muerte’")-->|"ἀ-/ἀν-R-ος, -η/-α, -ον"|B2("ἀ-σθεν-ής, ές ‘sin fuerza’")
+A2("SUSTANTIVO<hr>δίκ-η, ης, ἡ 'justicia'<br>θάνατ-ος, ου, ὁ 'muerte'")-->|" ἀ-/ἀν-R-ος, -η/-α, -ον "|B2("ADJETIVO<hr>ἄ-δικ-ος, ον 'injusto'<br>ἀ-θάνατ-ος, ον 'inmortal'")
 
-A3("σθέν-ος, εος [ους], τό ‘fuerza’")-->|"ἀ-/ἀν-R-ής, ές"|B3("ἀ-σθεν-ής, ές ‘sin fuerza’")
+A3("SUSTANTIVO<hr>σθέν-ος, εος [ους], τό 'fuerza'")-->|" ἀ-/ἀν-R-ής, ές "|B3("ADJETIVO<hr>ἀ-σθεν-ής, ές 'sin fuerza'")
 
 A2:::Sust
 B2:::Adj
@@ -90,7 +92,7 @@ También se pueden formar derivados negativos a partir de verbos.
 ```mermaid
 graph LR
 
-A3("λήθ-ω ‘pasar inadvertido’<hr>σφάλ-λω ‘hacer caer’")-->|"ἀ-/ἀν-"|B3("ἀ-ληθ-ής, ές ‘verdadero’<hr>ἀ-σφαλ-ής, ές ‘que no cae’")
+A3("VERBO<hr>λήθ-ω 'pasar inadvertido'<hr>σφάλ-λω 'hacer caer'")-->|" ἀ-/ἀν- "|B3("ADJETIVO<hr>ἀ-ληθ-ής, ές 'verdadero'<hr>ἀ-σφαλ-ής, ές 'que no cae'")
 
 A3:::Verb
 B3:::Adj

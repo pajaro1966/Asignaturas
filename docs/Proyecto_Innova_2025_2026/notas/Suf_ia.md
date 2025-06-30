@@ -2,7 +2,7 @@
 
 El sufijo -ία sirve para formar sustantivos abstractos.
 
-## Usos
+## Resumen
 
 ```mermaid
 graph LR
@@ -54,6 +54,8 @@ classDef SP fill:#CCff99
 
 ### 1. Abstractos de adjetivos
 
+Forma sustantivos abstractos a partir de adjetivos. Indica la cualidad correspondiente al adjetivo:
+
 ```mermaid
 graph LR
 
@@ -92,6 +94,8 @@ classDef SP fill:#CCff99
 ```
 
 ### 2. Abstractos de sustantivos
+
+También permite formar abstractos a partir de sustantivos de agente derivados de verbos:
 
 ```mermaid
 graph LR
@@ -132,6 +136,8 @@ classDef SP fill:#CCff99
 
 ### 3. Abstractos de verbos
 
+Puede aparecer para formar sustantivos abstractos derivados de verbos. Alterna en este caso con el sufijo -σις.
+
 ```mermaid
 graph LR
 
@@ -171,18 +177,16 @@ classDef SP fill:#CCff99
 
 ### 4. Casos dudosos
 
+En algunos casos es difícil determinar si procede del adjetivo o del verbo que deriva de ese adjetivo:
 ```mermaid
 graph LR
 
-Suf("-ία")
-
-Suf --"Verb"-->Sust1("ἀδικέω 'ser injusto'")--"Sust"-->Sust12b("ἀδικ-ία 'injusticia'")
+Sust2 --"Verb"-->Sust1("ἀδικέω 'ser injusto'")--"Sust"-->Sust12b("ἀδικ-ία 'injusticia'")
 Sust1:::Verb
 Sust12b:::Sust
 
-Suf --"Verb"-->Sust2("ἄδικος 'injusto'")--"Sust"-->Sust12b
+Sust2("ἄδικος 'injusto'")--"Sust"-->Sust12b
 Sust2:::Adj
-
 
 classDef Verb stroke:#f00, stroke-width:3px
 classDef Sust stroke:#0f0, stroke-width:3px

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<quiz>
-
-            <question type="category">        <category>            <text>$course$/12Β</text>        </category>    </question>    <question type="cloze">        <name>            <text>12Β1</text>        </name>        <questiontext format="html">            <text><![CDATA[<h3>Να συμπληρώσετε τα κενά με την κατάλληλη αντωνυμία στο σωστό τυπο.</h3>        -  {1:SHORTANSWER:=Εμένα} μου αρέσει το κόκκινο χρώμα. Εσένα ποιο χρώμα {1:SHORTANSWER:=σου} αρέσει; - Το μπλε.             ]]></text>        </questiontext>    </question>
-
-</quiz>

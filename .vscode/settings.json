@@ -32,7 +32,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "active": false
         },
         {
             "name": "IE",
@@ -49,7 +50,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Pagina",
@@ -65,7 +66,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Lema_Latino",
@@ -96,7 +97,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Brackets",

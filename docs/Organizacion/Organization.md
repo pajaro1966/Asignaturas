@@ -207,13 +207,9 @@ ICGL17 23-26 Sept 2025: 23-09-2025, 26-09-2025
 
 ### 1.2.2. Gramática GrAnt: pragmática
 
-
 ---
 
 ### 1.2.3. Luciano
-
-
-
 
 ---
 
@@ -574,7 +570,6 @@ section pendiente
 
 ### 1.3.2. Máster: Plutarco
 
-
 ---
 
 ### 1.3.3. MESOB
@@ -864,9 +859,6 @@ XXX: a1, 16:00, 17:00
 ---
 
 ## 1.6. Médicos
-
-- 26-06/28-06, 09:45 PRINCESA: ![OTORRINO](imagenes/26_06_2024_Otorrino.jpeg)  
-- 16-04-2024: 08:30: ESCANER TORAX Hospital Santa Cristina Maestro Vives 2: ![FOTO](imagenes/16_04_2024_Escaner_Torax.jpeg)
 
 ## 1.7. Tiempo pasado
 

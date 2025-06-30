@@ -123,11 +123,11 @@ Podéis inspiraros en los métodos de latín, griego o cualquier lengua moderna 
 ### 1.2.1. Repetición espaciada
 
 Hermann Ebbinghaus
-[Curva del olvido](/Vocabulario/Vocab_Intro/#415-repeticion-espaciada)
+[Curva del olvido](../Vocabulario/Vocab_Intro.md#415-repeticion-espaciada)
 
 ### 1.2.2. Métodos de estudio
 
-[Diferentes posibilidades](/Vocabulario/Vocab_Intro/#4-metodos-de-estudio)
+[Diferentes posibilidades](../Vocabulario/Vocab_Intro.md#4-metodos-de-estudio)
 
 ## 1.3. Guía de Anki
 

@@ -57,7 +57,7 @@ nav:
     - Discurso: 
       - Estructura: 'Plutarch_Dion/Discurso/Dion_Discurso.html'
       - Introducción: 'Plutarch_Dion/Discurso/Discurso_Intro.md'
-    - Traducción: 'Plutarch_Dion/Dion_Bilingue_02.md'
+    - Traducción: 'Plutarch_Dion/Dion_Bilingue.md'
     - Estructura: 'Plutarch_Dion/Dion_Estructura.md'
     - Geografía: 
       - Sicilia: 'Plutarch_Dion/Geografia_Sicilia.md'
@@ -106,10 +106,11 @@ nav:
     - 'Presentación': 'Herramientas/Anki_02.md'
   - 'Innova 2025-2026': 
     - 'Proyecto_Innova_2025_2026/Solicitud_2025_2026_02.md'
-    - 'Lemas': 'Proyecto_Innova_2025_2026/Vocabulario_Mil.html'
-    - 'Sufijos': 'Proyecto_Innova_2025_2026/Sufijos.html'
-    - 'Prefijos': 'Proyecto_Innova_2025_2026/Prefijos.html'
-    - 'Familias': 'Proyecto_Innova_2025_2026/Familias.html'
+    - 'Lemas (listado)': 'Proyecto_Innova_2025_2026/Vocabulario_Mil.html'
+    - 'Sufijos (listado)': 'Proyecto_Innova_2025_2026/Sufijos.html'
+    - 'Sufijos (nota)': 'Proyecto_Innova_2025_2026/notas/Suf_ia.md'
+    - 'Prefijos (listado)': 'Proyecto_Innova_2025_2026/Prefijos.html'
+    - 'Familias (listado)': 'Proyecto_Innova_2025_2026/Familias.html'  
   - 'Innova 2024-2025': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'
@@ -190,14 +191,10 @@ markdown_extensions:
       title: On this page
       toc_depth: 3
       permalink: true
-extra_templates:
-  - iframe.html
 plugins:
   - privacy
   - search
 extra_javascript:
   - javascripts/mermaid.min.js
   - javascripts/audio-control.js
-  - javascripts/lrc.js
   - javascripts/karaoke.js
-  - Proyecto_Innova_2025_2026/Tabla/datos.json

@@ -178,6 +178,7 @@ classDef SP fill:#CCff99
 ### 4. Casos dudosos
 
 En algunos casos es difícil determinar si procede del adjetivo o del verbo que deriva de ese adjetivo:
+
 ```mermaid
 graph LR
 

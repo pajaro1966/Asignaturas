@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="version" content="v01-2025-06-16">
+  <title>Diccionario Bailly</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <style>
+    td.lema {
+      color: blue;
+    }
+    tfoot input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>Diccionario Bailly (Griego - Significado)</h1>
+
+  <table id="baillyTable" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Lema</th>
+        <th>Lema_Significado</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Lema</th>
+        <th>Lema_Significado</th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- jQuery y DataTables -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    function wildcardToRegex(value) {
+      return '^' + value
+        .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+        .replace(/\*/g, '.*')
+        .replace(/\?/g, '.') + '$';
+    }
+
+    $(document).ready(function() {
+      $('#baillyTable tfoot th').each(function () {
+        $(this).html('<input type="text" placeholder="Filtrar...">');
+      });
+
+      const table = $('#baillyTable').DataTable({
+        ajax: 'bailly.json',
+        columns: [
+          { data: 'Lema', className: 'lema' },
+          { data: 'Lema_Significado' }
+        ],
+        initComplete: function () {
+          this.api().columns().every(function () {
+            const column = this;
+            $('input', this.footer()).on('input', function () {
+              const val = this.value.trim();
+              if (val === '') {
+                column.search('').draw();
+              } else {
+                const regex = wildcardToRegex(val);
+                column.search(regex, true, false).draw();
+              }
+            });
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

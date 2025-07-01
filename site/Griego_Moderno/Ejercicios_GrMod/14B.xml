@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/14Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>14Β1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να γράψετε στον ενικό τις παρακάτω προτάσεις</h6>        
+<b>Οι</b> <b>φίλες</b> μου δεν <b>είναι</b> <b>αναιδείς</b> και <b>αγενείς</b>, όπως λες. ⇒<br> {1:SHORTANSWER:=Η φίλη} μου δεν {1:SHORTANSWER:=είναι} {1:SHORTANSWER:=αναιδής} και {1:SHORTANSWER:=αγενής} , όπως λες. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Η φίλη, είναι, αναιδής, αγενής</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/14Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>14Β2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να γράψετε στον ενικό τις παρακάτω προτάσεις</h6>        
+Μας <b>αρέσουν</b> <b>αυτά</b> <b>τα</b> <b>φαρδιά</b> <b>παντελόνια</b>. ⇒<br> Μας {1:SHORTANSWER:=αρέσει} {1:SHORTANSWER:=αυτό} {1:SHORTANSWER:=το} {1:SHORTANSWER:=φαρδύ} {1:SHORTANSWER:=παντελόνι} . 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">αρέσει, αυτό, το, φαρδύ, παντελόνι</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/14Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>14Β3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να γράψετε στον ενικό τις παρακάτω προτάσεις</h6>        
+Άλλη φορά, <b>σας</b> παρακαλώ, να <b>είστε</b> <b>ακριβείς</b> στα Ραντεβού <b>σας</b>. ⇒<br> Άλλη φορά, {1:SHORTANSWER:=σε} παρακαλώ, να {1:SHORTANSWER:=είσαι} {1:SHORTANSWER:=ακριβής} στα Ραντεβού {1:SHORTANSWER:=σου} . 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">σε, είσαι, ακριβής, σου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/14Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>14Β4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να γράψετε στον ενικό τις παρακάτω προτάσεις</h6>        
+Δεν <b>τους</b> <b>θέλουμε</b> στην παρέα <b>μας</b>, γιατί <b>είναι</b> <b>γκρινιάρηδες</b>. ⇒<br> Δεν {1:SHORTANSWER:=τον} {1:SHORTANSWER:=θέλω} στην παρέα {1:SHORTANSWER:=μου} , γιατί {1:SHORTANSWER:=είναι} {1:SHORTANSWER:=γκρινιάρης} . 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τον, θέλω, μου, είναι, γκρινιάρης</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/14Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>14Β5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να γράψετε στον ενικό τις παρακάτω προτάσεις</h6>        
+<b>Αυτοί</b> <b>οι</b> <b>ηθοποιοί</b> <b>είναι</b> πολύ <b>δημοφιλείς</b> στην πατρίδα <b>τους</b> ⇒<br> {1:SHORTANSWER:=Αυτος} {1:SHORTANSWER:=ο} {1:SHORTANSWER:=ηθοποιός} είναι πολύ {1:SHORTANSWER:=δημοφιλής} στην πατρίδα {1:SHORTANSWER:=του} . 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Αυτος, ο, ηθοποιός, δημοφιλής, του</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

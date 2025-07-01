@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+ Ο αδελφός μου έχει {1:SHORTANSWER:=τους} {1:SHORTANSWER:=δικούς} {1:SHORTANSWER:=του} φίλους κι εγώ έχω {1:SHORTANSWER:=τους} {1:SHORTANSWER:=δικούς} {1:SHORTANSWER:=μου} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τους, δικούς, του, τους, δικούς, μου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+Δεν είναι {1:SHORTANSWER:=δικό} {1:SHORTANSWER:=τους} το αυτοκίνητο. Είναι του φίλου τους. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">δικό, τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+Γιατί παίρνεις συνέχεια {1:SHORTANSWER:=τα} {1:SHORTANSWER:=δικά} {1:SHORTANSWER:=μου} τσιγάρα; 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τα, δικά, μου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+Συγνώμη, κυρία μου, έκανα λάθος και πήρα {1:SHORTANSWER:=τη} {1:SHORTANSWER:=δική} {1:SHORTANSWER:=σας} ομπρέλα. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">τη, δική, σας</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+Είναι κακό να τα θέλεις όλα {1:SHORTANSWER:=δικά} {1:SHORTANSWER:=σου} . 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">δικά, σου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Δ6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με το σωστό τύπο της αντωνυμίας "ο δικός μου/σου/του …".</h6>        
+— Μαρία, ποιο είναι το τηλέφωνο {1:SHORTANSWER:=της} {1:SHORTANSWER:=δικής} {1:SHORTANSWER:=σου} γραμματείας; — 2310-997572. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">της, δικής, σου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

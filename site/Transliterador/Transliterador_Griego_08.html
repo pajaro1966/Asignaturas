@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador de Griego - Versión 08</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    textarea { width: 100%; height: 150px; margin-bottom: 1em; font-size: 1.2em; }
+    button { margin: 0.5em 1em 0.5em 0; padding: 0.5em 1em; }
+    #output { border: 1px solid #ccc; padding: 1em; white-space: pre-wrap; min-height: 150px; margin-bottom: 1em; }
+    .no-trans { color: red; font-size: 120%; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador de Griego (v.08)</h1>
+
+  <label for="input"><strong>Texto en griego:</strong></label>
+  <textarea id="input" placeholder="Escribe aquí tu texto en griego..."></textarea>
+
+  <div>
+    <button onclick="convertir(tabla_antiguo)">Griego Antiguo → Latino</button>
+    <button onclick="convertir(tabla_moderno)">Griego Moderno/Medieval → Latino (Brill)</button>
+    <button onclick="copiarResultado()">Copiar resultado</button>
+  </div>
+
+  <h2><strong>Resultado:</strong></h2>
+  <div id="output"></div>
+
+  <script>
+const tabla_antiguo = new Map([
+  ["ρ", "r"],
+  ["Ρ", "R"],
+  ["ῥ", "rh"],
+  ["Ῥ", "Rh"],
+  ["ῤ", "r"],
+  ["᾽Ρ", "Rh"],
+  ["α", "a"],
+  ["ε", "e"],
+  ["η", "ē"],
+  ["ι", "i"],
+  ["ο", "o"],
+  ["υ", "u"],
+  ["ω", "ō"],
+  ["Α", "A"],
+  ["Ε", "E"],
+  ["Η", "Ē"],
+  ["Ι", "I"],
+  ["Ο", "O"],
+  ["Υ", "U"],
+  ["Ω", "Ō"],
+  ["ἁ", "ha"],
+  ["ἑ", "he"],
+  ["ἡ", "hē"],
+  ["ἱ", "hi"],
+  ["ὁ", "ho"],
+  ["ὑ", "hu"],
+  ["ὡ", "hō"],
+  ["Ἁ", "Ha"],
+  ["Ἑ", "He"],
+  ["Ἡ", "Hē"],
+  ["Ἱ", "Hi"],
+  ["Ὁ", "Ho"],
+  ["Ὑ", "Hu"],
+  ["Ὡ", "Hō"],
+  ["εἰ", "ei"],
+  ["ου", "ou"],
+  ["αι", "ai"],
+  ["οι", "oi"],
+  ["υι", "ui"],
+  ["αυ", "au"],
+  ["ευ", "eu"],
+  ["ηυ", "ēu"]
+]);
+
+const tabla_moderno = new Map([
+  ["ρ", "r"],
+  ["Ρ", "R"],
+  ["ῥ", "rh"],
+  ["Ῥ", "Rh"],
+  ["ῤ", "r"],
+  ["᾽Ρ", "Rh"],
+  ["α", "a"],
+  ["ε", "e"],
+  ["η", "i"],
+  ["ι", "i"],
+  ["ο", "o"],
+  ["υ", "y"],
+  ["ω", "o"],
+  ["Α", "A"],
+  ["Ε", "E"],
+  ["Η", "I"],
+  ["Ι", "I"],
+  ["Ο", "O"],
+  ["Υ", "Y"],
+  ["Ω", "O"],
+  ["ἁ", "a"],
+  ["ἑ", "e"],
+  ["ἡ", "i"],
+  ["ἱ", "i"],
+  ["ὁ", "o"],
+  ["ὑ", "y"],
+  ["ὡ", "o"],
+  ["Ἁ", "A"],
+  ["Ἑ", "E"],
+  ["Ἡ", "I"],
+  ["Ἱ", "I"],
+  ["Ὁ", "O"],
+  ["Ὑ", "Y"],
+  ["Ὡ", "O"],
+  ["εἰ", "i"],
+  ["ου", "ou"],
+  ["αι", "e"],
+  ["οι", "i"],
+  ["υι", "i"],
+  ["αυ", "av"],
+  ["ευ", "ev"],
+  ["ηυ", "iv"]
+]);
+
+    function convertir(tabla) {
+      let texto = document.getElementById('input').value.normalize("NFD");
+      let resultado = '';
+      let i = 0;
+
+      const entradas = [...tabla.entries()].sort((a, b) => b[0].length - a[0].length);
+
+      while (i < texto.length) {
+        let convertido = null;
+        for (let [clave, valor] of entradas) {
+          if (texto.slice(i, i + clave.length) === clave) {
+            convertido = valor;
+            i += clave.length;
+            break;
+          }
+        }
+        if (convertido === null) {
+          resultado += '<span class="no-trans">' + texto[i] + '</span>';
+          i++;
+        } else {
+          resultado += convertido;
+        }
+      }
+
+      document.getElementById('output').innerHTML = resultado;
+    }
+
+    function copiarResultado() {
+      const contenedor = document.getElementById('output');
+      const temp = document.createElement('textarea');
+      temp.value = contenedor.innerText;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      alert("Resultado copiado al portapapeles");
+    }
+  </script>
+</body>
+</html>

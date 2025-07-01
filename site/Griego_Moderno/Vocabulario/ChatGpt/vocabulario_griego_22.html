@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- Nombre original: basada en vocabulario_griego_02.html con buscador añadido -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vocabulario Griego</title>
+
+  <!--
+    FUNCIONALIDADES DE ESTE ARCHIVO (vocabulario_griego_22.html)
+
+    1. Tabla de palabras en griego con traducción al español.
+    2. Mostrar/ocultar columna del español.
+    3. Visualización individual al pulsar palabra (pantalla completa).
+    4. Traducción alterna en tarjeta.
+    5. Botón para volver a la tabla (funciona correctamente).
+    6. Búsqueda interactiva por palabra griega o española.
+  -->
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    #menu {
+      position: fixed; top: 0; width: 100%; background-color: #333;
+      color: white; padding: 10px; text-align: center; z-index: 1000;
+    }
+    #menu button, #menu input {
+      padding: 8px 12px; margin: 5px; font-size: 1rem;
+    }
+    #mainContent { margin-top: 90px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+    .hidden { display: none; }
+
+    #fullscreen {
+      display: none; position: fixed; top: 0; left: 0;
+      width: 100vw; height: 100vh; background-color: green;
+      color: white; font-size: 8vw; text-align: center;
+      z-index: 2000; display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 20px; box-sizing: border-box;
+    }
+
+    #fullscreen.orange { background-color: orange; }
+
+    #fullscreen button {
+      margin: 10px; padding: 10px 20px; font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      th, td { font-size: 1rem; padding: 8px; }
+      #fullscreen { font-size: 12vw; }
+      #fullscreen button { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <button onclick="toggleSpanish()">Mostrar/Ocultar Español</button>
+    <input type="text" id="search" placeholder="Buscar..." oninput="filtrarTabla()">
+  </div>
+
+  <div id="mainContent">
+    <table>
+      <thead><tr><th>Griego</th><th class="spanish">Español</th></tr></thead>
+      <tbody id="vocabBody">
+        <tr><td onclick="showFromTable(this)" data-spanish="palabra, razón">λόγος</td><td class="spanish">palabra, razón</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="hombre">ἀνήρ</td><td class="spanish">hombre</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="vida">ζωή</td><td class="spanish">vida</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="alma">ψυχή</td><td class="spanish">alma</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="mujer">γυνή</td><td class="spanish">mujer</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="tiempo">χρόνος</td><td class="spanish">tiempo</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="muerte">θάνατος</td><td class="spanish">muerte</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="amor">ἀγάπη</td><td class="spanish">amor</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="justicia">δικαιοσύνη</td><td class="spanish">justicia</td></tr>
+        <tr><td onclick="showFromTable(this)" data-spanish="sabiduría">σοφία</td><td class="spanish">sabiduría</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="fullscreen">
+    <div id="displayText"></div>
+    <div>
+      <button onclick="toggleTranslation()">Ver Traducción</button>
+    </div>
+    <button onclick="exitFullscreen()">Volver a la Tabla</button>
+  </div>
+
+  <script>
+    let showingGreek = true;
+    const tableRows = document.querySelectorAll("#vocabBody tr");
+
+    function toggleSpanish() {
+      document.querySelectorAll('.spanish').forEach(el => el.classList.toggle('hidden'));
+    }
+
+    function showFromTable(cell) {
+      const greek = cell.innerText;
+      document.getElementById("displayText").innerText = greek;
+      document.getElementById("fullscreen").style.display = "flex";
+      document.getElementById("fullscreen").className = "green";
+      document.getElementById("mainContent").style.display = "none";
+      showingGreek = true;
+    }
+
+    function toggleTranslation() {
+      const display = document.getElementById("displayText");
+      const current = display.innerText;
+      const match = Array.from(tableRows).find(row => row.cells[0].innerText === current || row.cells[1].innerText === current);
+      if (match) {
+        const greek = match.cells[0].innerText;
+        const spanish = match.cells[0].dataset.spanish;
+        showingGreek = !showingGreek;
+        display.innerText = showingGreek ? greek : spanish;
+        document.getElementById("fullscreen").className = showingGreek ? "green" : "orange";
+      }
+    }
+
+    function exitFullscreen() {
+      document.getElementById("fullscreen").style.display = "none";
+      document.getElementById("mainContent").style.display = "block";
+      document.getElementById("displayText").innerText = "";
+    }
+
+    function filtrarTabla() {
+      const query = document.getElementById("search").value.toLowerCase();
+      tableRows.forEach(row => {
+        const griego = row.cells[0].innerText.toLowerCase();
+        const esp = row.cells[1].innerText.toLowerCase();
+        row.style.display = griego.includes(query) || esp.includes(query) ? "" : "none";
+      });
+    }
+  </script>
+</body>
+</html>

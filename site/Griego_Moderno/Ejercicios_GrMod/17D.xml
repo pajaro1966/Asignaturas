@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Διάβασ<b>έ</b> το ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=το} {1:SHORTANSWER:=διαβάσεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, το, διαβάσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Γράψτε τα ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τα} {1:SHORTANSWER:=γράψετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τα, γράψετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Ανοίξτε την ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=την} {1:SHORTANSWER:=ανοίξετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, την, ανοίξετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Περιμένετ<b>έ</b> μας ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μας} {1:SHORTANSWER:=περιμένετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μας, περιμένετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Αφήστε <b>τες</b> ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τις} {1:SHORTANSWER:=αφήσετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τις, αφήσετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Φώναξ<b>έ</b> τους ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τους} {1:SHORTANSWER:=φωνάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τους, φωνάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Πρόσεχ<b>έ</b> τον ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τον} {1:SHORTANSWER:=προσέχεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τον, προσέχεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Άλλαξ<b>έ</b> τα ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τα} {1:SHORTANSWER:=αλλάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τα, αλλάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Κοίταξ<b>έ</b> με ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=με} {1:SHORTANSWER:=κοιτάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, με, κοιτάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Φύλαξ<b>έ</b> το ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=το} {1:SHORTANSWER:=φυλάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, το, φυλάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ11</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Γράψε <b>μού</b> το ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μου} {1:SHORTANSWER:=το} {1:SHORTANSWER:=γράψεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μου, το, γράψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ12</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Δώσε <b>τού</b> την ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=του} {1:SHORTANSWER:=τη} {1:SHORTANSWER:=δώσεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, του, τη, δώσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ13</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Στείλτε <b>τούς</b> τα ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τους} {1:SHORTANSWER:=τα} {1:SHORTANSWER:=στείλετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τους, τα, στείλετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ14</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Αγόρασ<b>έ</b> μου την ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μου} {1:SHORTANSWER:=την} {1:SHORTANSWER:=αγοράσεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μου, την, αγοράσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ15</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Δίδαξ<b>έ</b> μου τα ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μου} {1:SHORTANSWER:=τα} {1:SHORTANSWER:=διδάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μου, τα, διδάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ16</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Φέρτε <b>τής</b> τον ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=της} {1:SHORTANSWER:=τον} {1:SHORTANSWER:=φέρετε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, της, τον, φέρετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ17</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Ράψε <b>τού</b> το ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=του} {1:SHORTANSWER:=το} {1:SHORTANSWER:=ράψεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, του, το, ράψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ18</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Ετοίμασ<b>έ</b> της την ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=της} {1:SHORTANSWER:=την} {1:SHORTANSWER:=ετοιμάσεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, της, την, ετοιμάσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ19</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Μαγείρεψ<b>έ</b> τους το ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=τους} {1:SHORTANSWER:=το} {1:SHORTANSWER:=μαγειρέψεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, τους, το, μαγειρέψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Δ19</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστήσετε τα ουσιαστικά με αντωνυμίες (Sustituye los sustantivos por pronombres)</h6>        
+Φύλαξ<b>έ</b> μας τα ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μας} {1:SHORTANSWER:=τα} {1:SHORTANSWER:=φυλάξεις} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μας, τα, φυλάξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

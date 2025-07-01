@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador de Griego</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    textarea { width: 100%; height: 150px; margin-bottom: 1em; font-size: 1.2em; }
+    button { margin: 0.5em 1em 0.5em 0; padding: 0.5em 1em; }
+    #output { border: 1px solid #ccc; padding: 1em; white-space: pre-wrap; min-height: 150px; margin-bottom: 1em; }
+    .no-trans { color: red; font-size: 120%; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador de Griego</h1>
+  <label for="input">Texto en griego:</label>
+  <textarea id="input" placeholder="Escribe aquí tu texto en griego..."></textarea>
+
+  <div>
+    <button onclick="convertir()">Griego Antiguo → Latino</button>
+    <button onclick="copiarResultado()">Copiar resultado</button>
+  </div>
+
+  <h2>Resultado:</h2>
+  <div id="output"></div>
+
+  <script>
+    // Mapa de transliteración en forma NFD
+    const tabla_antiguo = new Map([
+["Οἷ", "Hoî"],
+["αύτ", "aút"],
+["αὗ", "haû"],
+["εἷ", "heî"],
+["οἷ", "hoî"],
+["οἷ", "hoî"],
+["οὕ", "hoú"],
+["οὗ", "hoû"],
+["ᾆ", "âi"],
+["ᾧ", "hôi"],
+["Oύ", "Oú"],
+["Αὕ", "hau"],
+["Οἱ", "Hoi"],
+["Οὐ", "Ou"],
+["αί", "aí"],
+["αὑ", "hau"],
+["αὶ", "aì"],
+["εί", "eí"],
+["εἰ", "ei"],
+["εῖ", "eî"],
+["οί", "oí"],
+["ού", "oú"],
+["οἰ", "oi"],
+["οἱ", "hoi"],
+["οἳ", "hoì"],
+["οὑ", "hou"],
+["οὺ", "où"],
+["οῖ", "oî"],
+["οῦ", "oû"],
+["ἂ", "à"],
+["ἃ", "hà"],
+["ἄ", "á"],
+["ἅ", "há"],
+["ἆ", "â"],
+["Ἄ", "Á"],
+["ἓ", "hè"],
+["ἔ", "é"],
+["ἕ", "hé"],
+["Ἕ", "Hé"],
+["ἢ", "ḕ"],
+["ἣ", "hḕ"],
+["ἤ", "ḗ"],
+["ἥ", "hḗ"],
+["ἦ", "ê"],
+["ἧ", "hê"],
+["Ἤ", "ḗ"],
+["Ἥ", "Hē"],
+["Ἥ", "Hḗ"],
+["ἴ", "í"],
+["ἵ", "hí"],
+["ἶ", "î"],
+["ἷ", "hî"],
+["ἷ", "hî"],
+["ὃ", "hò"],
+["ὄ", "ó"],
+["ὅ", "hó"],
+["ὓ", "hù"],
+["ὔ", "ú"],
+["ὕ", "hú"],
+["ὖ", "û"],
+["ὣ", "hṑ"],
+["ὤ", "ṓ"],
+["ὤ", "ṓ"],
+["ὥ", "hṓ"],
+["ὦ", "ô"],
+["ὧ", "hô"],
+["Ὤ", "ṓ"],
+["Ὦ", "Ô"],
+["ᾐ", "ēi"],
+["ᾐ", "ēi"],
+["ᾠ", "ōi"],
+["ᾷ", "âi"],
+["ᾷ", "âi"],
+["ῄ", "ḗi"],
+["ῇ", "êi"],
+["ῇ", "êi"],
+["῎Α", "Á"],
+["῎Ε", "É"],
+["῏Ω", "Ô"],
+["῏Ω", "Ô"],
+["ΐ", "ḯ"],
+["ῷ", "ōi"],
+["ῷ", "ôi"],
+["Έ", "É"],
+["Ή", "Ḗ"],
+["Ό", "Ó"],
+["Ι", "I"],
+["ά", "á"],
+["έ", "é"],
+["ή", "ḗ"],
+["ί", "í"],
+["αι", "ai"],
+["αυ", "au"],
+["ββ", "bb"],
+["γγ", "ng"],
+["γκ", "nk"],
+["γχ", "nkh"],
+["ει", "ei"],
+["ευ", "eu"],
+["ηι", "ēi"],
+["ηυ", "ēu"],
+["κκ", "kk"],
+["λλ", "ll"],
+["μμ", "mm"],
+["μπ", "mp"],
+["νν", "nn"],
+["ντ", "nt"],
+["οι", "oi"],
+["ου", "ou"],
+["ππ", "pp"],
+["ρρ", "rr"],
+["σσ", "ss"],
+["ττ", "tt"],
+["υι ", "ui"],
+["ωι", "ōi"],
+["ωυ ", "ōu"],
+["ϊ", "i"],
+["ό", "ó"],
+["ύ", "ú"],
+["ώ", "ṓ"],
+["ἁ", "ha"],
+["Ἀ", "A"],
+["ἑ", "he"],
+["Ἐ", "E"],
+["Ἑ", "He"],
+["ἠ", "ē"],
+["ἡ", "hē"],
+["Ἡ", "Ηē"],
+["ἱ", "hi"],
+["Ἰ", "I"],
+["Ἱ", "Hi"],
+["ὁ", "ho"],
+["Ὀ", "O"],
+["Ὁ", "Ho"],
+["ὐ", "u"],
+["ὑ", "hu"],
+["Ὑ", "Hu"],
+["ὠ", "ō"],
+["ὡ", "hō"],
+["Ὡ", "Hō"],
+["ὰ", "à"],
+["ά", "á"],
+["έ", "é"],
+["ὴ", "ḕ"],
+["ή", "ḗ"],
+["ὶ", "ì"],
+["ί", "í"],
+["ὸ", "ò"],
+["ὺ", "ù"],
+["ὼ", "ṑ"],
+["ώ", "ṓ"],
+["ᾱι", "āi"],
+["ᾱυ", "āu"],
+["ᾳ", "āi"],
+["ᾶ", "â"],
+["ῃ", "ēi"],
+["ῆ", "ê"],
+["ῖ", "î"],
+["ῥ", "rh"],
+["ῦ", "û"],
+["Ῥ", "Rh"],
+["ῳ", "ōi"],
+["ῴ", "ṓι"],
+["ῶ", "ô"],
+["‘Ε", "He"],
+["‘Η", "Hē"],
+["‘Ω", "Hō"],
+["’Α", "A"],
+["’Ε", "E"],
+["’Ο", "O"],
+["'", "'"],
+["A", "A"],
+["C", "S"],
+["I", "I"],
+["c", "s"],
+["c", "s"],
+["Α", "A"],
+["Β", "Β"],
+["Γ", "G"],
+["Δ", "D"],
+["Ε", "E"],
+["Ζ", "Z"],
+["Η", "Ē"],
+["Θ", "Th"],
+["Κ", "K"],
+["Λ", "L"],
+["Μ", "M"],
+["Ν", "N"],
+["Ξ", "X"],
+["Ο", "O"],
+["Π", "P"],
+["Ρ", "Rh"],
+["Σ", "S"],
+["Τ", "T"],
+["Υ", "U"],
+["Φ", "Ph"],
+["Χ", "Kh"],
+["Ψ", "Ps"],
+["Ω", "Ō"],
+["α", "a"],
+["β", "b"],
+["γ", "g"],
+["δ", "d"],
+["ε", "e"],
+["ζ", "z"],
+["η", "ē"],
+["θ", "th"],
+["ι", "i"],
+["κ", "k"],
+["λ", "l"],
+["μ", "m"],
+["ν", "n"],
+["ξ", "x"],
+["ο", "o"],
+["ο", "o"],
+["π", "p"],
+["ρ", "r"],
+["ς", "s"],
+["σ", "s"],
+["τ", "t"],
+["υ", "u"],
+["φ", "ph"],
+["χ", "kh"],
+["ψ", "ps"],
+["ω", "ō"],
+["ϕ", "ph"],
+["ἀ", "a"],
+["ἐ", "e"],
+["ἰ", "i"],
+["ὀ", "o"],
+["ὲ", "è"],
+["ό", "ó"],
+["ύ", "ú"],
+["᾿", "'"]
+    ]);
+
+    function convertir() {
+      let texto = document.getElementById('input').value.normalize("NFD");
+      let resultado = '';
+      let i = 0;
+
+      const entradas = [...tabla_antiguo.entries()].sort((a, b) => b[0].length - a[0].length);
+
+      while (i < texto.length) {
+        let convertido = null;
+        for (let [clave, valor] of entradas) {
+          if (texto.slice(i, i + clave.length) === clave) {
+            convertido = valor;
+            i += clave.length;
+            break;
+          }
+        }
+        if (convertido === null) {
+          resultado += `<span class="no-trans">${texto[i]}</span>`;
+          i++;
+        } else {
+          resultado += convertido;
+        }
+      }
+
+      document.getElementById('output').innerHTML = resultado;
+    }
+
+    function copiarResultado() {
+      const contenedor = document.getElementById('output');
+      const temp = document.createElement('textarea');
+      temp.value = contenedor.innerText;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      alert("Resultado copiado al portapapeles");
+    }
+  </script>
+</body>
+</html>

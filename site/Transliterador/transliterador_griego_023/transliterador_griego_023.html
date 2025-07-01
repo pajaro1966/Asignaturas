@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador Griego v.23</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    textarea { width: 100%; height: 150px; font-size: 16px; margin-top: 10px; }
+    button { margin: 5px 0; padding: 10px 20px; font-size: 16px; }
+    .red { color: red; font-weight: bold; }
+    #version { margin-top: 20px; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h1>Transliterador Griego v.23</h1>
+  <label for="inputText">Texto en griego:</label>
+  <textarea id="inputText"></textarea>
+
+  <button onclick="transliterate('ancient')">Transliterar (Griego Antiguo)</button>
+  <button onclick="transliterate('modern')">Transliterar (Griego Moderno/Medieval)</button>
+  <button onclick="copyResult()">Copiar resultado</button>
+
+  <label for="outputText">Resultado:</label>
+  <textarea id="outputText" readonly></textarea>
+
+  <div id="version">Versión: 0.23</div>
+
+  <script>
+    const table = [
+      ["ὅ", "ho", "ho"], ["μὲν", "men", "men"], ["ὑμεῖς", "hymeis", "imeís"],
+      ["ὦ", "ō", "o"], ["ἄνδρες", "andres", "ándres"], ["Ἀθηναῖοι", "Athēnaioi", "Athineí"],
+      ["πεπόνθατε", "peponthate", "peponthate"], ["ὑπὸ", "hypo", "ypo"],
+      ["τῶν", "tōn", "ton"], ["ἐμῶν", "emōn", "emón"], ["κατηγόρων", "katēgorōn", "katigóron"],
+      ["οὐκ", "ouk", "ouk"], ["οἶδα", "oida", "ída"], ["ἐγώ", "egō", "egó"],
+      ["δ᾽", "d'", "d'"], ["οὖν", "oun", "oun"], ["καὶ", "kai", "kai"],
+      ["αὐτὸς", "autos", "aftós"], ["ὀλίγου", "oligou", "olígou"], ["ἐμαυτοῦ", "emautou", "emavtoú"]
+    ];
+
+    function normalizeText(text) {
+      return text.normalize('NFD');
+    }
+
+    function transliterate(mode) {
+      const input = document.getElementById("inputText").value;
+      const output = document.getElementById("outputText");
+      let normalized = normalizeText(input);
+      let result = "";
+      let i = 0;
+
+      while (i < normalized.length) {
+        let matched = false;
+        for (let len = Math.min(6, normalized.length - i); len > 0; len--) {
+          let substr = normalized.substr(i, len);
+          let row = table.find(r => substr === normalizeText(r[0]));
+          if (row) {
+            result += (mode === 'ancient' ? row[1] : row[2]);
+            i += len;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          let char = normalized[i];
+          result += `<span class="red">${char}</span>`;
+          i++;
+        }
+      }
+
+      output.innerHTML = result;
+    }
+
+    function copyResult() {
+      const output = document.getElementById("outputText");
+      navigator.clipboard.writeText(output.value || output.innerText);
+    }
+  </script>
+</body>
+</html>

@@ -4,11 +4,11 @@
 ```mermaid
 
 ---
-title: ACTIVIDADES 2023-2024,
+title: ACTIVIDADES 2025-2026,
 config:
  "theme": base,
  "themeCSS": ".taskText {fill: white; text-anchor: middle;}, .grid .tick line {stroke: blue !important; stroke-dasharray: 0 ; opacity: 0.5 !important; }, .todayMarker {stroke-width:5px,stroke:#0f0,opacity:0.5}"
-displayMode: 
+displayMode: compact
 
 ---
 gantt
@@ -19,40 +19,42 @@ tickInterval 4week
 todayMarker stroke-width:3px,stroke:black,opacity:1
 weekday monday
 
-section Timeline
+section Curso
 
-2023-2024: 09-09-2023, 08-09-2024
-Semestre 1º: 09-09-2023, 20-01-2024
-Semestre 2º: 03-02-2024, 15-07-2024
+2025-2026: 09-09-2025, 16-07-2026
 
-2024-2025: 09-09-2024, 08-09-2025
-Semestre 1º: 09-09-2024, 20-01-2025
-Semestre 2º: 03-02-2025, 15-07-2025
+section Semestre
 
+Semestre 1º: 09-09-2025, 20-01-2026
+Semestre 2º: 21-01-2026, 15-07-2026
 
-section 1. WEB
-Prototipo (MkDocs sobre GitHub): done, crit, 09-09-2023, 13-06-2024
+section 1. Base de datos
 
-Nuevo repositorio en GitHub: crit, 14-06-2024, 15-07-2025
-Antonio Revuelta: 14-06-2024, 15-07-2025
+Listado de 1.000 lemas: done, crit, 15-04-2025, 01-06-2025
+Etiquetado parcial: done, crit, 15-04-2025, 01-06-2025
+Prueba en la web: done, crit, 15-04-2025, 01-06-2025
+Etiquetado completo1: crit, 15-06-2025, 31-07-2025
+Etiquetado completo2: crit, 01-09-2025, 15-01-2026
+Exportación como páginas web: crit, 15-10-2025, 15-03-2026
 
-section 2. Listado
-Listados heredados: done, crit, 09-09-2023, 13-06-2024
+section 2. Anki
+Sufijos, prefijos, lemas: crit, 01-12-2025, 15-03-2026
 
-Nuevas listas: crit, 14-06-2024, 15-07-2025
-Helena González, Iván Andrés, Jesús Polo, Antonio Revuelta: 14-06-2024, 15-07-2025
+section 3. Ejercicios
+Moodle: crit, 16-01-2026, 15-06-2026
+Anki: crit, 17-02-2026, 15-07-2026
 
-section 3. Redacción
-Notas antiguas: done, crit, 09-09-2023, 13-06-2024
-
-Redacción de nuevas notas: crit, 14-06-2024, 15-07-2025
-Básico (Polo & Andrés): a1, 14-06-2024, 132d
-Interm. (Gonz., Polo, Andr., Revu.): a2, after a1, 132d
-Superior (Revuelta): a3, after a2, 132d 
-
-section 4. Inclusión en la WEB
-
-Subida de las notas a la web: crit, 14-06-2024, 15-07-2025
-Antonio Revuelta: 14-06-2024, 15-07-2025
+section 4. Reuniones
+Reunión 00: crit, milestone, 05-07-2025, 05-07-2025
+Reunión 01: crit, milestone, 05-09-2025, 05-09-2025
+Reunión 02: crit, milestone, 05-10-2025, 05-10-2025
+Reunión 03: crit, milestone, 05-11-2025, 05-11-2025
+Reunión 04: crit, milestone, 05-12-2025, 05-12-2025
+Reunión 05: crit, milestone, 08-01-2026, 08-01-2026
+Reunión 06: crit, milestone, 08-02-2026, 08-02-2026
+Reunión 07: crit, milestone, 08-03-2026, 08-03-2026
+Reunión 08: crit, milestone, 08-05-2026, 08-05-2026
+Reunión 09: crit, milestone, 08-06-2026, 08-06-2026
+Reunión 10: crit, milestone, 08-07-2026, 08-07-2026
 
 ```

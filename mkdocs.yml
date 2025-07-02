@@ -197,8 +197,10 @@ markdown_extensions:
 plugins:
   - privacy
   - search
-  - mermaid2:
-      version: 10.7.0
 extra_javascript:
   - javascripts/audio-control.js
   - javascripts/karaoke.js
+  - javascripts/mermaid.min.js
+extra:
+  mermaid_init: |
+    mermaid.initialize({ startOnLoad: true });

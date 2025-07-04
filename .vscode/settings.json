@@ -177,7 +177,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Compounds",
@@ -193,7 +193,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Variations",
@@ -209,7 +209,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Etymology",
@@ -225,7 +225,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "Derivados",
@@ -241,7 +241,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         },
         {
             "name": "lema",
@@ -257,7 +257,7 @@
                     ]
                 }
             ],
-            "active": true
+            "active": false
         }
     ]
 }

@@ -7,12 +7,13 @@
     .correcto { border: 2px solid green; }
     .incorrecto { border: 2px solid red; }
 
-    section.tabla-funciones table, td, th, tr {font-size: 22px !important;}
+    .tabla-funciones table * { font-size: 22px !important; }
+
+        .tabla-large table { font-size: 20px !important; width: 100% !important;}
 
     img {border: 2px solid grey; text-align: center}
 
 	
-
 div.ejemplo-num table, td, th, tr {
     background-color: beige;
 border: none !important;
@@ -26,4 +27,32 @@ border: none !important;
 sub {
   font-size: 75%;
   vertical-align: sub;
+}
+
+
+/* ADMONITIONS */
+
+.admonition {
+  border-left: 5px solid #999;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  max-width: 75%; 
+}
+
+.admonition.note {
+  border-color: #2196F3;
+  background-color: #E3F2FD;
+}
+
+.admonition.warning {
+  border-color: #FF9800;
+  background-color: #FFF3E0;
+}
+
+.admonition.tip {
+  border-color: #4CAF50;
+  background-color: #E8F5E9;
 }

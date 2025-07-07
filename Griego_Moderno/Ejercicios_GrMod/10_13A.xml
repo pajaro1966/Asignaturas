@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+— Ποιος {1:SHORTANSWER:=ανακάλυψε} την Αμερική; — Ο Κολόμβος. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ανακάλυψε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Ο δάσκαλος του Πέτρου και της Άννας τούς {1:SHORTANSWER:=δίδαξε} χθες το ρήμα «είμαι». 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">δίδαξε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+{1:SHORTANSWER:=Στήριξε} το ανοιχτό παράθυρο με το βιβλίο του. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Στήριξε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Η μητέρα {1:SHORTANSWER:=έλουσε} το μωρό και ύστερα το {1:SHORTANSWER:=έντυσε} 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">έλουσε, έντυσε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Πού {1:SHORTANSWER:=έκρυψες} το πορτοφόλι μου; Το θέλω. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">έκρυψες</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Τους {1:SHORTANSWER:=έδιωξαν} από την πολυκατοικία, γιατί έκαναν φασαρία. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">έδιωξαν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+{1:SHORTANSWER:=Έτρεξαν} και {1:SHORTANSWER:=έσφιγξαν} τη μητέρα τους στην αγκαλιά τους. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Έτρεξαν, έσφιγξαν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+{1:SHORTANSWER:=Κοίταξαν} λυπημένα τον άρρωστο φίλο του. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Κοίταξαν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Δεν {1:SHORTANSWER:=πρόσεξε} και {1:SHORTANSWER:=έκοψε} το χέρι του με το μαχαίρι. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">πρόσεξε, έκοψε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/1013Α</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>1013Α10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με τα παρακάτω ρήματα στο σωστό τύπο του αορίστου: πλέκω, στηρίζω, λούζω, ντύνω, κοιτάζω, προσέχω, διώχνω, σφίγγω, διδάσκω, τρέχω, κόβω, ανακαλύτττω, κρύβω</h6>        
+Η Μαρία {1:SHORTANSWER:=έπλεξε} ένα ωραίο πουλόβερ για το χειμώνα. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">έπλεξε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

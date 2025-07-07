@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="version" content="v22-2025-06-12">
+<link rel="icon" href="data:,">
+  <meta charset="UTF-8">
+  <title><!-- MODIFICA AQUÍ: título del documento -->Tabla JSON (v21)</title>
+  <style>
+    body { font-family: sans-serif; }
+    table {
+      border-collapse: collapse;
+      width: 95%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+    select { width: 100%; font-size: 0.9em; }
+    .cLema { color: black; }
+    .cBase { color: red; }
+    .cPrefijo { color: green; }
+    .cSufijo { color: blue; }
+    .cFamilia { color: purple; }
+    #filtro-container {
+      width: 95%;
+      margin: 10px auto;
+      text-align: left;
+    }
+    #filtro, #filtroGlobal {
+      font-size: 1em;
+      padding: 4px;
+      width: 300px;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Versión v21: Filtro 1 por primera columna + Filtro 2 global</h2>
+<p style="text-align:center;">Soporta comodines (* ?) en la columna 1. Filtro global sin comodines en todas las columnas.</p>
+
+<div id="filtro-container">
+  <label for="filtro">Filtro 1 (primera columna):</label><br>
+  <input type="text" id="filtro" placeholder="Ej: ἀν*, Pe?r, 2??"><br>
+  <label for="filtroGlobal">Filtro 2 (todas las columnas visibles):</label><br>
+  <input type="text" id="filtroGlobal" placeholder="Ej: griego, 25, Argentina">
+</div>
+
+<table id="miTabla">
+  <thead>
+    <tr id="selector-fila">
+      <th><select><option value="Lema" selected>Lema</option><option value="Base">Base</option><option value="Prefijo">Prefijo</option><option value="Sufijo">Sufijo</option><option value="Familia">Familia</option></select></th>
+<th><select><option value="Lema">Lema</option><option value="Base" selected>Base</option><option value="Prefijo">Prefijo</option><option value="Sufijo">Sufijo</option><option value="Familia">Familia</option></select></th>
+<th><select><option value="Lema">Lema</option><option value="Base">Base</option><option value="Prefijo" selected>Prefijo</option><option value="Sufijo">Sufijo</option><option value="Familia">Familia</option></select></th>
+<th><select><option value="Lema">Lema</option><option value="Base">Base</option><option value="Prefijo">Prefijo</option><option value="Sufijo" selected>Sufijo</option><option value="Familia">Familia</option></select></th>
+<th><select><option value="Lema">Lema</option><option value="Base">Base</option><option value="Prefijo">Prefijo</option><option value="Sufijo">Sufijo</option><option value="Familia" selected>Familia</option></select></th>
+
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+fetch("./datos_v22.json")
+  .then(response => response.json())
+  .then(data => {
+    var datos = data;
+
+  var tabla = document.getElementById("miTabla");
+  var selects = tabla.querySelectorAll("thead select");
+  var tbody = tabla.querySelector("tbody");
+  var filtroInput = document.getElementById("filtro");
+  var filtroGlobal = document.getElementById("filtroGlobal");
+
+  function getCamposSeleccionados() {
+    var valores = [];
+    for (var i = 0; i < selects.length; i++) {
+      valores.push(selects[i].value);
+    }
+    return valores;
+  }
+
+  function normalizarTexto(txt) {
+    return txt.normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+
+  function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function convertirPatronAWildcard(patron) {
+    var regex = escapeRegExp(patron).replace(/\*/g, '.*').replace(/\?/g, '.');
+    return new RegExp('^' + regex + '$');
+  }
+
+  function agruparPorCampo(datos, campo) {
+    var grupos = {};
+    for (var i = 0; i < datos.length; i++) {
+      var clave = datos[i][campo];
+      if (!grupos[clave]) grupos[clave] = [];
+      grupos[clave].push(datos[i]);
+    }
+    return grupos;
+  }
+
+  function renderizarTabla() {
+    var camposSel = getCamposSeleccionados();
+    var primerCampo = camposSel[0];
+    var filtro = filtroInput?.value?.trim?.() || "";
+    var filtroG = filtroGlobal?.value?.trim?.().toLowerCase() || "";
+
+    var datosFiltrados = datos;
+
+    if (filtro !== "") {
+      var regex = convertirPatronAWildcard(filtro);
+      datosFiltrados = datosFiltrados.filter(function(d) {
+        return regex.test(d[primerCampo]);
+      });
+    }
+
+if (filtroG !== "") {
+  const gruposAND = filtroG.toLowerCase().split(/\s+/); // separa por espacio
+
+  datosFiltrados = datosFiltrados.filter(function(d) {
+    // Cada término AND debe estar presente (con al menos una coincidencia OR en cualquier campo)
+    return gruposAND.every(function(grupo) {
+      const subterminosOR = grupo.split("|"); // subgrupo OR
+      return subterminosOR.some(function(termino) {
+        return camposSel.some(function(campo) {
+          const valor = (d[campo] || "").toString().toLowerCase();
+          return valor.includes(termino);
+        });
+      });
+    });
+  });
+}
+
+    datosFiltrados.sort(function(a, b) {
+      for (var i = 0; i < camposSel.length; i++) {
+        var campo = camposSel[i];
+        var valA = normalizarTexto((a[campo] || "").toString().toLowerCase());
+        var valB = normalizarTexto((b[campo] || "").toString().toLowerCase());
+        if (valA < valB) return -1;
+        if (valA > valB) return 1;
+      }
+      return 0;
+    });
+
+    var grupos = agruparPorCampo(datosFiltrados, primerCampo);
+    tbody.innerHTML = "";
+
+    for (var valor in grupos) {
+      var filas = grupos[valor];
+      for (var i = 0; i < filas.length; i++) {
+        var fila = filas[i];
+        var tr = document.createElement("tr");
+        for (var j = 0; j < camposSel.length; j++) {
+          var campo = camposSel[j];
+          if (j === 0 && i > 0) continue;
+          var td = document.createElement("td");
+          td.textContent = fila[campo];
+          td.className = "c" + campo;
+          if (j === 0 && i === 0 && filas.length > 1) {
+            td.rowSpan = filas.length;
+          }
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      }
+    }
+  }
+
+      document.addEventListener("DOMContentLoaded", function() {
+      filtroInput.addEventListener("input", renderizarTabla);
+      filtroGlobal.addEventListener("input", renderizarTabla);
+      for (var i = 0; i < selects.length; i++) {
+        selects[i].addEventListener("change", renderizarTabla);
+      }
+      renderizarTabla();
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+   .reveal body, section {
+    font-size: 24px !important; 
+    text-align: left; margin-left: 0px !important; 
+    padding-left: 0px !important; }
+
+	h1, h2, h3, h4, h5 {font-size: 28px !important; color:white !important; background-color: grey !important; text-align: center;}
+    .correcto { border: 2px solid green; }
+    .incorrecto { border: 2px solid red; }
+
+    .tabla-funciones table * { font-size: 22px !important; }
+
+        .tabla-large table { font-size: 20px !important; width: 100% !important;}
+
+    img {border: 2px solid grey; text-align: center}
+
+	
+div.ejemplo-num table, td, th, tr {
+    background-color: beige;
+border: none !important;
+  font-size: 24px !important;
+  margin-left: 0px !important; /* Elimina el margen central */
+  padding: 4px;
+  text-align: left; /* Alinea el texto dentro de las celdas */
+  vertical-align: top;
+}
+
+sub {
+  font-size: 75%;
+  vertical-align: sub;
+}
+
+
+/* ADMONITIONS */
+
+.admonition {
+  border-left: 5px solid #999;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  max-width: 75%; 
+}
+
+.admonition.note {
+  border-color: #2196F3;
+  background-color: #E3F2FD;
+}
+
+.admonition.warning {
+  border-color: #FF9800;
+  background-color: #FFF3E0;
+}
+
+.admonition.tip {
+  border-color: #4CAF50;
+  background-color: #E8F5E9;
+}

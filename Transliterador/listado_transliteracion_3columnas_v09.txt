@@ -1,0 +1,7 @@
+Griego	Transliteración Antigua	Transliteración Moderna/Medieval
+᾽Ρ	Rh	R
+α	a	a
+β	b	v
+ρ	r	r
+ἁ	a̔	a
+ῥ	rh	r

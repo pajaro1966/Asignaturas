@@ -1400,8 +1400,9 @@
     1. **δεηθῆναι τοῦ πρώτου**: δέομαι 'pedir algo (ac/gen/inf.) a alguien ([παρά]+gen.)'.
     2. **πᾶσαν δέησιν**: acusativo interno 'le suplicaba toda súplica' > 'le suplicaba de todas las maneras posibles'
     3. [Estructura](Discurso/Dion_10_01.md)
-    4. [Estructura, foto](Discurso/Dion_10_01_Base.png)
-    5. [Estructura xml](Discurso/Dion_09_10.xml)
+    4. [Estructura, inglés](Discurso/Dion_10_01_En.md)
+    5. [Estructura, foto](Discurso/Dion_10_01_Base.png)
+    6. [Estructura xml](Discurso/Dion_09_10.xml)
 
 <!-- 
 ```mermaid

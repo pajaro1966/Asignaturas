@@ -119,7 +119,10 @@ nav:
     - 'gramatica.md'
   - 'Innova 2023-2024': 
     - 'Vocabulario/Vocab_Intro.md'
-  - 'Naxos 2024': 'BIP_2024/Naxos_2024.md'
+  - 'Naxos': 
+    - Lecture 2024: 'BIP_2024/Naxos_2024.md'
+    - Lecture 2025: 'BIP_2024/Comparativas_Typology_11_Blanco.pdf'
+    - Fragment: 'BIP_2024/Pruebas.html'
   - Pruebas:
     - 'tabla_json_v21_Adaptado_G.html': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_G.html'
     - 'tabla_json_v21_Adaptado_H.html': 'Proyecto_Innova_2025_2026/Tabla/tabla_json_v21_Adaptado_H.html'

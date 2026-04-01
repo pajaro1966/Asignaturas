@@ -1,6 +1,8 @@
 site_name: Asignaturas
 nav:
   - Home: 'index.md'
+  - Edipo rey: 
+    - Texto: 'Edipo_Rey/Edipo_Texto.md'
   - Griego Moderno: 
     - Examen de abril: 'Griego_Moderno/Examen_Preguntas.md'
     - Referencias: 'Griego_Moderno/GrMod_Bibl.md'
@@ -72,6 +74,7 @@ nav:
       - 'Comentarios':
         - 'Ilíada': 'Comentarios/Homer_Seymour.md'
         - 'Odisea': 'Comentarios/Homer_Merry_Monro.md'
+      - 'Fonética/Morfología': 'Morfo_Fonet.md'
       - 'Geografía': 'geografia.md'
       - 'Gramática breve': 
         - PDF: 'Morfologia/Homero_Lengua.pdf'
@@ -198,12 +201,14 @@ markdown_extensions:
       toc_depth: 3
       permalink: true
 plugins:
-  - privacy
   - search
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/uml/
 extra_javascript:
   - javascripts/audio-control.js
   - javascripts/karaoke.js
-  - javascripts/mermaid.min.js
 extra:
-  mermaid_init: |
+  mermaid_init:
     mermaid.initialize({ startOnLoad: true });
+  plantuml:
+    server: https://www.plantuml.com/plantuml

@@ -14,16 +14,21 @@
 
 ---
 
-1.1 ἆρά γε, ὥσπερ^1^ ὁ Σιμωνίδης φησίν, ὦ <!-- paris.1624.958 --> Σόσσιε Σενεκίων, τοῖς Κορινθίοις οὐ μηνίειν τὸ Ἴλιον ἐπιστρατεύσασι μετὰ τῶν Ἀχαιῶν, ὅτι κἀκείνοις οἱ περὶ Γλαῦκον^2^ ἐξ ἀρχῆς Κορίνθιοι γεγονότες συνεμάχουν προθύμως, οὕτως εἰκὸς^3^ τῇ Ἀκαδημείᾳ μήτε Ῥωμαίους μήτε Ἕλληνας ἐγκαλεῖν ἴσον φερομένους ἐκ τῆς γραφῆς ταύτης^4^, ἣ τόν τε Βρούτου περιέχει βίον καὶ τόν Δίωνος, 2 ὧν ὁ μὲν αὐτῷ Πλάτωνι πλησιάσας, ὁ δὲ τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος, ὥσπερ ἐκ μιᾶς ὥρμησαν ἀμφότεροι παλαίστρας ἐπὶ τοὺς μεγίστους ἀγῶνας.
+1.1 ἆρά γε, ὥσπερ^1^ ὁ Σιμωνίδης φησίν, ὦ <!-- paris.1624.958 --> Σόσσιε Σενεκίων, τοῖς Κορινθίοις οὐ μηνίειν τὸ Ἴλιον ἐπιστρατεύσασι μετὰ τῶν Ἀχαιῶν, ὅτι κἀκείνοις οἱ περὶ Γλαῦκον^2^ ἐξ ἀρχῆς Κορίνθιοι γεγονότες συνεμάχουν προθύμως, οὕτως εἰκὸς^3^ τῇ Ἀκαδημείᾳ μήτε Ῥωμαίους μήτε Ἕλληνας ἐγκαλεῖν ἴσον φερομένους ἐκ τῆς γραφῆς ταύτης^4^, ἣ τόν τε Βρούτου περιέχει βίον καὶ τόν Δίωνος;
 
 ??? note "Notas"
     1. **ὥσπερ ... οὕτως ...** : "al igual que ... así (también)..."
     2. **οἱ περὶ Γλαῦκον ἐξ ἀρχῆς Κορίνθιοι γεγονότες**: los antepasados de Glauco eran corintios.
     3. **εἰκὸς ... ἐγκαλεῖν**: εἰκός ἐστι + inf. 'es razonable/natural'.
     4. **τῆς γραφῆς ταύτης**: la presente obra de Plutarco.
-    5. ἐντραφεὶς: ἐν-τραφ-θεὶς, τρέφ-ω.
-    6. Pedro habla como su padre (habla)
-    7. Dion y Bruto se lanzaron a las mayores (desde el platonismo) como (si se hubieran lanzado) desde una palestra.
+
+2 ὧν ὁ μὲν αὐτῷ Πλάτωνι πλησιάσας, ὁ δὲ τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος, ὥσπερ ἐκ μιᾶς ὥρμησαν ἀμφότεροι παλαίστρας ἐπὶ τοὺς μεγίστους ἀγῶνας.
+
+??? note "Notas"
+    1. ἐντραφεὶς: ἐν-τραφ-θεὶς, τρέφ-ω.
+    2. Pedro habla como su padre (habla)
+    3. Dion y Bruto se lanzaron a las mayores (desde el platonismo) como (si se hubieran lanzado) desde una palestra.
+    4. **ἐκ μιᾶς** ὥρμησαν ἀμφότεροι **παλαίστρας**: ἐκ μιᾶς ... παλαίστρας: la separación se debe a que el segmento a la izquierda está focalizado.
     ```mermaid
     graph TB
     A("Oración compuesta")
@@ -74,7 +79,7 @@
     K-->L("<b>ὧν</b> ὁ μὲν αὐτῷ Πλάτωνι πλησιάσας, ὁ δὲ<br>τοῖς λόγοις ἐντραφεὶς τοῖς Πλάτωνος, <b>ὥσπερ</b> ἐκ μιᾶς<br><b>ὥρμησαν</b> ἀμφότεροι παλαίστρας ἐπὶ τοὺς μεγίστους ἀγῶνας")
     ```
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica la comparación que establece Plutarco entre corintios, troyanos y aqueos con romanos, griegos y su propia obra.
 
 ---
@@ -119,7 +124,7 @@
     C-->J("<b>ἐστιν</b>")
     ```
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué relación guarda este fragmento con la idea platónica de convertir al rey en filósofo?
 
 ---
@@ -187,7 +192,7 @@
     J-->K("ἐμμέλειάν τινα καὶ ῥυθμὸν <b>ἐπιφέροντα</b> μετὰ τοῦ πρέποντος")
     ```
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué valor tiene la construcción μετὰ τοῦ πρέποντος? ¿Cómo se podría expresar su relación con ἐμμέλειάν τινα καὶ ῥυθμὸν con otra estructura sintáctica?
 
 ### 3.2. Fortunas comunes: ¿malos espíritus?
@@ -199,7 +204,7 @@
     2. **συνάγουσι τῶν ἀνδρῶν τοὺς βίους εἰς ὁμοιότητα**: 'los reúnen en similitud' > 'los hacen comparables'.
     3. **ὁμοιότητα**: (a) ὅμοιος 'igual' > ὅμοιο-της  -τητος 'igual-dad', (b) ὁ φίλος 'amigo' > φιλ-ία amistad; (c) δίκαιος ια ιον 'justo' > δικαιο-σύνη 'justicia'.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué significa en el pasaje αὐταί y por qué? Compara los tres significados básicos de αὐτός, ή ό y explica cómo se pueden diferenciar.
 
 2 προανῃρέθησαν^1^ γὰρ ἀμφότεροι τοῦ τέλους, εἰς ὃ^2^ προὔθεντο τὰς πράξεις ἐκ πολλῶν καὶ μεγάλων ἀγώνων καταθέσθαι μὴ δυνηθέντες.
@@ -209,7 +214,7 @@
     2. **προανῃρέθησαν ... τοῦ τέλους**: 'fueron levantados (ἀνῃρέθησαν, quitados de en medio > asesinados) antes (προ-) del fin/propósito (τοῦ τέλους)'.
     3. **τοῦ τέλους, εἰς ὃ προὔθεντο τὰς πράξεις ἐκ πολλῶν καὶ μεγάλων ἀγώνων καταθέσθαι μὴ δυνηθέντες**: 'antes del propósito (τοῦ τέλους), al que (εἰς ὃ) se habían propuesto (προὔθεντο) sus acciones (τὰς πράξεις) después de muchas y grandes hazañas (ἐκ πολλῶν καὶ μεγάλων ἀγώνων) emplear/dedicar (καταθέσθαι) no pudiendo (μὴ δυνηθέντες).
     4. προανῃρέθησαν: προ-αν-ῃρέ-θησαν
-    5. προὔθεντο: προ-έ-θε-ντο
+    5. πρ**οὔ**θεντο: πρ**ο**-**έ**-θε-ντο
     6. καταθέσθαι: κατα-τίθημι.
     ```mermaid
     graph TB
@@ -241,7 +246,7 @@
 
 3 ὃ δὲ πάντων θαυμασιώτατον, ὅτι καὶ τὸ δαιμόνιον ἀμφοτέροις ὑπεδήλωσε τὴν τελευτήν, ὁμοίως ἑκατέρῳ φάσματος εἰς ὄψιν οὐκ εὐμενοῦς παραγενομένου.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica el orden de palabras de φάσματος y εὐμενοῦς en la siguiente construcción: «ἑκατέρῳ **φάσματος** εἰς ὄψιν οὐκ **εὐμενοῦς** παραγενομένου.»
 
 ??? note "Notas"
@@ -281,7 +286,7 @@
 
 4 καίτοι λόγος^1^ τίς ἐστι τῶν ἀναιρούντων τὰ τοιαῦτα, μηδενὶ ἂν^2^ νοῦν ἔχοντι προσπεσεῖν φάντασμα δαίμονος μηδὲ εἴδωλον, ἀλλὰ παιδάρια καὶ γύναια^3^ καὶ παραφόρους διʼ ἀσθένειαν ἀνθρώπους ἔν τινι πλάνῳ ψυχῆς ἢ δυσκρασίᾳ σώματος γενομένους δόξας ἐφέλκεσθαι κενὰς καὶ ἀλλοκότους, δαίμονα πονηρὸν ἐν αὑτοῖς τὴν δεισιδαιμονίαν[*] ἔχοντας.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Cómo traducirías en este pasaje καίτοι y para qué se usa?
 
 ??? note "Notas"
@@ -346,7 +351,7 @@
 
 5 εἰ δὲ Δίων καὶ Βροῦτος, ἄνδρες ἐμβριθεῖς καὶ φιλόσοφοι καὶ πρὸς οὐδὲν ἀκροσφαλεῖς οὐδʼ εὐάλωτοι^3^ πάθος, οὕτως ὑπὸ φάσματος διετέθησαν ὥστε καὶ φράσαι πρὸς ἑτέρους, οὐκ οἶδα μὴ^2^ τῶν πάνυ παλαιῶν τὸν ἀτοπώτατον ἀναγκασθῶμεν προσδέχεσθαι λόγον, ὡς τὰ φαῦλα δαιμόνια καὶ βάσκανα, 6 προσφθονοῦντα τοῖς ἀγαθοῖς ἀνδράσι καὶ ταῖς πράξεσιν ἐνιστάμενα, ταραχὰς καὶ φόβους ἐπάγει, σείοντα καὶ σφάλλοντα τὴν ἀρετήν, ὡς μὴ^1^ διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν τύχωσιν.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica la función de πάθος en la frase.
 
 ??? note "Notas"
@@ -365,9 +370,13 @@
     H-->I("<b>ὡς</b> μὴ διαμείναντες ἀπτῶτες ἐν τῷ καλῷ καὶ ἀκέραιοι βελτίονος ἐκείνων μοίρας μετὰ τὴν τελευτὴν <b>τύχωσιν</b>")
     ```
 
-7 ἀλλὰ ταῦτα μὲν εἰς ἄλλον ἀνακείσθω λόγον. ἐν τούτῳ δέ, p.6 δωδεκάτῳ τῶν παραλλήλων ὄντι βίων, τὸν τοῦ πρεσβυτέρου προεισαγάγωμεν.
+7 ἀλλὰ^1^ ταῦτα μὲν εἰς ἄλλον ἀνακείσθω^2^ λόγον. ἐν τούτῳ δέ, <!--  p.6  --> δωδεκάτῳ τῶν παραλλήλων ὄντι βίων, τὸν τοῦ πρεσβυτέρου προεισαγάγωμεν.^2^
 
-!!! question "Preguntas"
+??? note "Notas"
+    1. **ἀλλὰ** ...: 'pero': sirve para cambiar de tema.
+    2. **ἀνακείσθω** ... **προεισαγάγωμεν**: expresión metadiscursiva: Plutarco indica un cambio de rumbo en su narración.
+
+??? question "Preguntas"
     1. ¿A qué se refiere ταῦτα en el fragmento?
 
 ## 4. Dion y Dionisio el Viejo
@@ -376,18 +385,18 @@
 
 3.1 Διονύσιος ὁ πρεσβύτερος εἰς τὴν ἀρχὴν καταστάς^2^ εὐθὺς^4^ ἔγημε^3^ τὴν Ἑρμοκράτους τοῦ Συρακουσίου θυγατέρα. 2 ταύτην, οὔπω τῆς τυραννίδος <!-- paris.1624.959 --> ἱδρυμένης βεβαίως, ἀποστάντες οἱ Συρακούσιοι δεινὰς καὶ παρανόμους ὕβρεις εἰς τὸ σῶμα καθύβρισαν, ἐφʼ αἷς προήκατο^1^ τὸν βίον ἑκουσίως.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Por qué las unidades encabezadas por Διονύσιος y ταύτην no están introducidas por ninguna partícula o conector discursivo? ¿Es normal?
 
 ??? note "Notas"
     1. **προήκατο**: προ-ίημι.
-    2. **καταστάς**: καθ-ί-στη-μι (a) aor. intr. κατ-έ-στη-ν κατα-στά-ντ-ς > κατα-στά-ς; (b) aor. intr. ἔ-στη-σα στή-σα-ντ-ς.
+    2. **καταστάς**: καθ-ί-στη-μι (a) aor. intr. κατ-έ-στη-ν κατα-στά-ντ-ς > κατα-στά-ς; (b) aor. intr. κατ-έ-στη-σα κατα-στή-σα-ντ-ς > κατα-στήσας.
     3. **ἔγημε**: γαμέω ἔ-γαμ-σα > ἔ-γημ-α.
     4. **εὐθὺς**: 'en cuanto'.
 
 3 Διονύσιος δὲ τὴν ἀρχὴν ἀναλαβὼν^2^ καὶ κρατυνάμενος αὖθις ἄγεται δύο γυναῖκας ἅμα, τὴν μὲν ἐκ Λοκρῶν ὄνομα Δωρίδα, τὴν δὲ ἐπιχώριον Ἀριστομάχην, θυγατέρα Ἱππαρίνου, πρωτεύσαντος ἀνδρὸς Συρακουσίων καὶ Διονυσίῳ συνάρξαντος ὅτε πρῶτον^1^ αὐτοκράτωρ ἐπὶ τὸν πόλεμον ᾑρέθη στρατηγός.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica el orden de palabras en la oración **αὐτοκράτωρ** ἐπὶ τὸν πόλεμον ᾑρέθη **στρατηγός**.
 
 ??? note "Notas"
@@ -410,12 +419,12 @@
 
 4 λέγεται^4^ δʼ ἡμέρᾳ μὲν ἀμφοτέρας ἀγαγέσθαι^3^ μιᾷ καὶ μηδενὶ γενέσθαι φανερὸς^1^ ἀνθρώπων ὁποτέρᾳ προτέρᾳ συνέλθοι^2^, τὸν δὲ ἄλλον χρόνον ἴσον νέμων ἑαυτὸν διατελεῖν^5^ ἑκατέρᾳ, κοινῇ μὲν εἰθισμένων δειπνεῖν μετʼ αὐτοῦ, παρὰ νύκτα δὲ ἐν μέρει συναναπαυομένων.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué función cumplen μέν y δέ en este fragmento?
     2. ¿Qué quiere decir κοινῇ, para qué se emplea y qué diferencia provocaría en el significado de la oración su ausencia?
 
 ??? note "Notas"
-    1. **γενέσθαι φανερὸς ἀνθρώπων ὁποτέρᾳ προτέρᾳ συνέλθοι**: construcción personal (Dionisio concierta con φανερός): 'Dionisio estuvo claro (γενέσθαι φανερὸς) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) se unió (συνέλθοι)'. En español empleamos la construcción impersonal (la interrogativa indirecta es sujeto):  ' estuvo claro (γενέσθαι **φανερὸν**) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) ὁ Διόνυσος (Dionisio) se unió (συνέλθοι)'. A diferencia del español, en inglés estás construcciones personales son frecuenta: *He is likely to come tomorrow* 'Él probable venir mañana' > 'Es probable que él venga mañana'.
+    1. **γενέσθαι φανερὸς ἀνθρώπων ὁποτέρᾳ προτέρᾳ συνέλθοι**: construcción personal (Dionisio concierta con φανερός): 'Dionisio estuvo claro (γενέσθαι φανερὸς) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) se unió (συνέλθοι)'. En español empleamos la construcción impersonal (la interrogativa indirecta es sujeto):  ' estuvo claro (γενέσθαι **φανερὸν**) con cuál de las dos (ὁποτέρᾳ) primera (προτέρᾳ) ὁ Διόνυσος (Dionisio) se unió (συνέλθοι)'. A diferencia del español, en inglés estás construcciones personales son frecuentes: *He is likely to come tomorrow* 'Él es probable venir mañana' > 'Es probable que él venga mañana'.
     2. **συνέλθοι**: optativo oblicuo: optativo en subordinada que depende de un verbo en pasado.
     3. **ἀγαγέσθαι**: ἄγομαι γυναῖκα 'llevarse una mujer (a casa)' > 'casarse'.
     4. **λέγεται**: construcción personal: 'Dionisio es dicho haberse casado' > 'se dice que Dionisio se casó'.
@@ -510,7 +519,7 @@
 5 καίτοι τῶν Συρακουσίων ἐβούλετο τὸ πλῆθος τὴν ἐγγενῆ πλέον ἔχειν τῆς ξένης·
 ἀλλὰ ἐκείνῃ προτέρᾳ ὑπῆρχε^1^ τεκούσῃ^2^ τὸν πρεσβεύοντα τῆς Διονυσίου γενεᾶς υἱὸν αὐτῇ βοηθεῖν πρὸς τὸ γένος.^3^
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué significa καίτοι y para qué se emplean en este fragmento?
     2. ¿Cuál es el sujeto de βοηθεῖν?
 
@@ -536,7 +545,7 @@
 
 6 ἡ δὲ Ἀριστομάχη πολὺν χρόνον ἄπαις^1^ συνῴκει^2^ τῷ Διονυσίῳ καίπερ σπουδάζοντι^5^ περὶ τὴν ἐκ ταύτης τέκνωσιν,^3^ ὅς γε καὶ τὴν μητέρα τῆς Λοκρίδος αἰτιασάμενος καταφαρμακεύειν τὴν Ἀριστομάχην ἀπέκτεινε^4^.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué valor tiene καίπερ y cómo se construye en ático?
     2. ¿Cómo se traduciría aquí καὶ ("ὅς γε καὶ") y a qué parte de la oración afecta?
 
@@ -573,7 +582,7 @@
 
 4.1 ταύτης^1^ ἀδελφὸς ὢν ὁ Δίων ἐν ἀρχῇ μὲν^2^ εἶχε τιμὴν ἀπὸ τῆς ἀδελφῆς, ὕστερον δὲ^2^ τοῦ <!-- p.8 --> φρονεῖν διδοὺς πεῖραν, ἤδη καθʼ ἑαυτὸν ἠγαπᾶτο παρὰ τῷ τυράννῳ^3^.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Por qué este fragmento no está introducido por ninguna partícula del discurso (conector o conectiva)?
     2. ¿Qué valor tienen μὲν y δὲ en este fragmento? ¿Para qué los utiliza Plutarco?
 
@@ -600,7 +609,7 @@
 
 2 καὶ πρὸς ἅπασι τοῖς ἄλλοις^1^ εἴρητο^2^ τοῖς ταμίαις ὅ τι ἂν αἰτῇ^3^ Δίων διδόναι, δόντας δὲ πρὸς αὐτὸν αὐθημερὸν φράζειν.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿A qué parte de la oración afecta la construcción πρὸς ἅπασι τοῖς ἄλλοις?
 
 ??? note "Notas"
@@ -647,7 +656,7 @@
     ```
 3 ὢν δὲ καὶ πρότερον ὑψηλὸς τῷ ἤθει καὶ μεγαλόφρων καὶ ἀνδρώδης, ἔτι μᾶλλον ἐπέδωκε πρὸς ταῦτα^1^ θείᾳ τινὶ τύχῃ Πλάτωνος εἰς Σικελίαν παραβαλόντος^2^, 4 κατʼ οὐδένα λογισμὸν ἀνθρώπινον·
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Cómo traducirías τῷ ἤθει, de qué constituyente depende y qué función desempeña?
 
 ??? note "Notas"
@@ -676,7 +685,7 @@
 
 ἀλλὰ^1^ δαίμων τις, ὡς ἔοικε^4^, πόρρωθεν ἀρχὴν ἐλευθερίας βαλλόμενος Συρακουσίοις, καὶ τυραννίδος κατάλυσιν μηχανώμενος, ἐκόμισεν ἐξ Ἰταλίας εἰς Συρακούσας Πλάτωνα καὶ Δίωνα συνήγαγεν εἰς λόγους αὐτῷ^2^, 5 νέον μὲν ὄντα κομιδῇ^5^, πολὺ δὲ εὐμαθέστατον^3^ ἁπάντων τῶν Πλάτωνι συγγεγονότων καὶ ὀξύτατον ὑπακοῦσαι πρὸς ἀρετήν, 6 ὡς αὐτὸς γέγραφε Πλάτων, καὶ τὰ πράγματα μαρτυρεῖ.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Por qué utiliza Plutarco συγγεγονότων y no, por ejemplo, μαθητῶν? ¿Qué otros autores emplean esta misma construcción y otras similares?
 
 ??? note "Notas"
@@ -729,7 +738,7 @@
 
 **τραφεὶς** γὰρ^2^ ἐν ἤθεσιν ὑπὸ τυράννῳ ταπεινοῖς, **καὶ** βίου μὲν ἀνίσου καὶ καταφόβου, θεραπείας δὲ νεοπλούτου καὶ τρυφῆς ἀπειροκάλου^4^ καὶ διαίτης ἐν ἡδοναῖς καὶ πλεονεξίαις **τιθεμένης** τὸ καλὸν ἐθὰς^5^ καὶ μεστὸς **γενόμενος**^6^, 7 **ὡς** πρῶτον^1^ **ἐγεύσατο** λόγου καὶ φιλοσοφίας ἡγεμονικῆς πρὸς ἀρετήν, **ἀνεφλέχθη** τὴν ψυχὴν^3^ ταχύ, καὶ τῇ περὶ αὐτὸν εὐπειθείᾳ^8^ τῶν καλῶν ἀκάκως πάνυ καὶ νεωτερικῶς **προσδοκήσας** ὑπὸ τῶν αὐτῶν λόγων ὅμοια **πείσεσθαι**^9^ Διονύσιον, **ἐσπούδασε** καὶ **διεπράξατο** **ποιησάμενος** σχολὴν^7^ αὐτὸν **ἐντυχεῖν** Πλάτωνι καὶ **ἀκοῦσαι**.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Mira el aparato crítico y comprueba si hay alguna variante de ποιησάμενος. Si la hay explica qué diferencias existen entre ellas a la hora de interpretar el texto.
 
 ??? note "Notas"
@@ -773,7 +782,7 @@
 
 <!-- p.10. --> 5.1 γενομένης δὲ τῆς συνουσίας αὐτοῖς τὸ μὲν ὅλον^2^ περὶ ἀνδρὸς ἀρετῆς, πλείστων δὲ περὶ ἀνδρείας διαπορηθέντων, ὡς πάντας[*] μᾶλλον ὁ Πλάτων ἢ τοὺς τυράννους ἀπέφαινεν ἀνδρείους, ἐκ δὲ τούτου τραπόμενος περὶ δικαιοσύνης ἐδίδασκεν ὡς μακάριος μὲν ὁ τῶν δικαίων, ἄθλιος δὲ ὁ τῶν ἀδίκων βίος, 2 οὔτε τοὺς λόγους ἔφερεν ὁ τύραννος ὥσπερ^1^ ἐξελεγχόμενος, ἤχθετό τε τοῖς παροῦσι θαυμαστῶς ἀποδεχομένοις^3^ τὸν ἄνδρα καὶ κηλουμένοις ὑπὸ τῶν λεγομένων^4^.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica la presencia de οὔτε. ¿Su construcción es la más usual y frecuente? Comenta su uso.
 
 ??? note "Notas"
@@ -827,7 +836,7 @@
 
 3 τέλος^1^ δὲ θυμωθεὶς καὶ παροξυνθείς ἠρώτησεν αὐτόν ὅ τι δὴ βουλόμενος εἰς Σικελίαν παραγένοιτο.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Comenta la función de ὅ τι: (a) qué tipo de construcción introduce; (b) si podría haber alguna otra forma en su lugar (τί, por ejemplo).
     2. Explica la construcción de βουλόμενος. ¿Qué tipo de colocación forma y con qué otro elemento de la oración?
 
@@ -849,7 +858,7 @@
 
 4 τοῦ δὲ φήσαντος ἀγαθὸν ἄνδρα ζητεῖν, ὑπολαβὼν ἐκεῖνος, «ἀλλὰ νὴ τοὺς θεοὺς», εἶπε, «καὶ φαίνῃ μήπω τοιοῦτον εὑρηκώς»^1^.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Por qué Plutarco utiliza ζητεῖν y no la forma correspondiente de aoristo?
 
 ??? note
@@ -861,7 +870,7 @@
 5 οἱ μὲν οὖν^1^ περὶ τὸν Δίωνα τοῦτο τέλος ᾤοντο τῆς ὀργῆς γεγονέναι, <!-- paris.1624.960 --> καὶ τὸν Πλάτωνα σπεύδοντα συνεξέπεμπον^2^ ἐπὶ τριήρους, ἣ Πόλλιν ἐκόμιζεν εἰς τὴν Ἑλλάδα τὸν Σπαρτιάτην 6 ὁ δὲ Διονύσιος κρύφα τοῦ Πόλλιδος ἐποιήσατο δέησιν^3^ μάλιστα^4^ μὲν ἀποκτεῖναι τὸν ἄνδρα κατὰ πλοῦν^5^, εἰ δὲ μή, πάντως^4^ ἀποδόσθαι·
 βλαβήσεσθαι^8^ γὰρ^6^ οὐδέν, ἀλλʼ εὐδαιμονήσειν ὁμοίως, δίκαιον ὄντα, κἂν^7^ δοῦλος γένηται.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Explica el orden de la palabras de los términos en negrita: «ἐπὶ τριήρους, ἣ **Πόλλιν** ἐκόμιζεν εἰς τὴν Ἑλλάδα **τὸν Σπαρτιάτην**». ¿Por qué Plutarco escribe "Πόλλιν .... τὸν Σπαρτιάτην" (separado) y no "Πόλλιν τὸν Σπαρτιάτην" (todo junto)?
 
 ??? note
@@ -876,7 +885,7 @@
 
 7 διὸ καὶ λέγεται^3^ Πόλλις εἰς Αἴγιναν φέρων ἀποδόσθαι^1^ Πλάτωνα, πολέμου πρὸς Ἀθηναίους ὄντος αὐτοῖς^4^ καὶ ψηφίσματος ὅπως ὁ ληφθεὶς Ἀθηναίων ἐν Αἰγίνῃ πιπράσκηται^2^.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Cómo traducirías καί en la secuencia "διὸ **καὶ** λέγεται"? ¿Qué presuposición introduce?
     2. ¿De qué elemento depende πρὸς Ἀθηναίους? ¿Podría haber escrito Plutarco μετὰ Ἀθηναίων? ¿Habría alguna diferencia entre ambas construcciones en este contexto?
 
@@ -889,7 +898,7 @@
 8 οὐ μὴν ὅ γε^1^ Δίων ἔλαττον εἶχε παρὰ τῷ Διονυσίῳ τιμῆς ἢ πίστεως, ἀλλὰ πρεσβείας τε τὰς μεγίστας διῴκει καὶ πεμπόμενος πρὸς <!-- p.12 --> Καρχηδονίους ἐθαυμάσθη διαφερόντως·
 καὶ τὴν παρρησίαν ἔφερεν αὐτοῦ μόνου σχεδόν ἀδεῶς λέγοντος τὸ παριστάμενον^2^, ὡς καὶ τὴν περὶ Γέλωνος ἐπίπληξιν.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿De qué elemento depende el genitivo τιμῆς ἢ πίστεως?
     2. ¿Cuál es el sujeto de ἔφερεν? ¿Es esperable que lo sea o esperaríamos otro distinto? ¿Cuál?
 
@@ -901,7 +910,7 @@
 
 9 χλευαζομένης^1^ γὰρ^2^, ὡς ἔοικε, τῆς Γέλωνος ἀρχῆς, αὐτόν τε τὸν Γέλωνα τοῦ Διονυσίου γέλωτα τῆς Σικελίας γεγονέναι φήσαντος, οἱ μὲν ἄλλοι τὸ σκῶμμα προσεποιοῦντο^3^ θαυμάζειν, ὁ δὲ Δίων δυσχεράνας^2^, «καὶ μὴν», ἔφη, «σὺ τυραννεῖς διὰ Γέλωνα πιστευθείς· διὰ σὲ δὲ οὐδεὶς ἕτερος πιστευθήσεται».
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué valor tiene la combinación de partículas καὶ μὴν? ¿Para qué la emplea Plutarco?
 
 ??? note
@@ -911,7 +920,7 @@
 
 10 τῷ γὰρ ὄντι φαίνεται κάλλιστον μὲν Γέλων ἐπιδειξάμενος θέαμα μοναρχουμένην πόλιν, αἴσχιστον δὲ Διονύσιος.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Por qué emplea Plutarco la construcción "φαίνεται ... ἐπιδειξάμενος" y no "φαίνεται ... ἐπιδείξασθαι"? ¿Hay alguna diferencia entre ambas?
 
 ??? note
@@ -923,7 +932,7 @@
 
 6.1 ὄντων δὲ Διονυσίῳ παίδων τριῶν μὲν ἐκ τῆς Λοκρίδος, τεττάρων δὲ ἐξ Ἀριστομάχης, ὧν δύο ἦσαν θυγατέρες, Σωφροσύνη καὶ Ἀρέτη, Σωφροσύνη μὲν Διονυσίῳ τῷ υἱῷ συνῴκησεν, Ἀρέτη δὲ Θεαρίδῃ τῷ ἀδελφῷ^1^. τελευτήσαντος δὲ τοῦ ἀδελφοῦ Θεαρίδου Δίων ἔλαβε τὴν Ἀρετήν ἀδελφιδῆν οὖσαν.
 
-!!! question
+??? question
     1. En la oración "Σωφροσύνη μὲν Διονυσίῳ τῷ υἱῷ συνῴκησεν", ¿por qué Διονυσίῳ τῷ υἱῷ está en dativo? ¿Se podría construir este verbo de otra manera diferente?
 
 ??? note
@@ -931,7 +940,7 @@
 
 2 ἐπεὶ δὲ νοσῶν ἔδοξεν ὁ Διονύσιος ἀβιώτως ἔχειν, ἐπεχείρησεν αὐτῷ διαλέγεσθαι περὶ τῶν ἐκ τῆς Ἀριστομάχης τέκνων ὁ Δίων, οἱ δʼ ἰατροὶ τῷ μέλλοντι τὴν ἀρχὴν διαδέχεσθαι χαριζόμενοι^1^ καιρὸν οὐ παρέσχον·
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. En la oración "ἐπεχείρησεν αὐτῷ διαλέγεσθαι", ¿a quién se refiere αὐτῷ? ¿En vez de dativo se podría emplear alguna otra marca (otro caso, un SP)? ¿Cuál?
 
 ??? note
@@ -939,7 +948,7 @@
 
 3 ὡς δὲ Τίμαιός^1^ φησι, καὶ φάρμακον ὑπνωτικὸν αἰτοῦντι δόντες ἀφείλοντο τὴν αἴσθησιν αὐτοῦ, θανάτῳ συνάψαντες τὸν ὕπνον.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Cómo traducirías καί en la secuencia "**καὶ** φάρμακον ὑπνωτικὸν ...."? ¿A qué se refiere? ¿Qué parte de la oración focaliza?
 
 ??? note
@@ -947,7 +956,7 @@
 
 4 οὐ μὴν ἀλλὰ^2^ συλλόγου πρώτου τῶν φίλων γενομένου παρὰ τὸν νέον Διονύσιον οὕτω διελέχθη περὶ τῶν συμφερόντων πρὸς τὸν καιρὸν ὁ <!-- p.14 --> Δίων ὥστε τοὺς ἄλλους ἅπαντας τῇ μὲν φρονήσει παῖδας ἀποδεῖξαι, τῇ δὲ παρρησίᾳ δούλους τῆς τυραννίδος ἀγεννῶς καὶ περιφόβως τὰ πολλὰ πρὸς χάριν^3^ τῷ μειρακίῳ συμβουλεύοντας, 5 μάλιστα δὲ αὐτοὺς ἐξέπληξε τὸν ἀπὸ Καρχηδόνος κίνδυνον ἐπικρεμάμενον^5^ τῇ ἀρχῇ δεδοικότας, ὑποσχόμενος, εἰ μὲν εἰρήνης δέοιτο^6^ Διονύσιος, πλεύσας εὐθὺς εἰς Λιβύην ὡς^1^ ἄριστα διαθήσεσθαι^7^ τὸν πόλεμον^8^, εἰ δὲ πολεμεῖν προθυμοῖτο^6^, θρέψειν αὐτὸς^4^ ἰδίοις τέλεσι καὶ παρέξειν εἰς τὸν πόλεμον αὐτῷ πεντήκοντα τριήρεις εὖ πλεούσας.[*]
 
-!!! question
+??? question
     1. ¿Puedes explicar la combinación de partículas "οὐ μὴν ἀλλὰ"? En concreto explica la presencia de la negación y si se debe traducir o no y por qué.
 
 ??? note
@@ -996,7 +1005,7 @@
 7.1 ὁ μὲν οὖν Διονύσιος ὑπερφυῶς τὴν μεγαλοψυχίαν ἐθαύμασε καὶ τὴν προθυμίαν ἠγάπησεν·
 2 οἱ δὲ ἐλέγχεσθαι τῇ λαμπρότητι καὶ ταπεινοῦσθαι τῇ δυνάμει τοῦ Δίωνος οἰόμενοι, ταύτην εὐθὺς ἀρχὴν λαβόντες, οὐδεμιᾶς ἐφείδοντο^2^ φωνῆς ᾗ τὸ μειράκιον ἐξαγριαίνειν ἔμελλον πρὸς αὐτόν, ὡς ὑπερχόμενον διὰ τῆς θαλάττης τυραννίδα καὶ περισπῶντα^3^ ταῖς ναυσὶ τὴν δύναμιν εἰς τοὺς Ἀριστομάχης παῖδας, ἀδελφιδοῦς ὄντας αὐτῷ.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué valor tiene ὡς en la secuencia "ὡς ὑπερχόμενον ..."? ¿Qué elemento modifica y qué significado le aporta?
 
 ??? note
@@ -1011,7 +1020,7 @@
 
 4 οἱ μὲν γὰρ, εὐθὺς ἐξ ἀρχῆς^1^ νέου τυράννου καὶ τεθραμμένου φαύλως ὁμιλίαν καὶ συνήθειαν ἡδοναῖς καὶ κολακείαις καταλαμβάνοντες, ἀεί^2^ τινας ἔρωτας καὶ διατριβὰς ἐμηχανῶντο ῥεμβώδεις^3^ περὶ πότους καὶ γυναῖκας, καὶ παιδιὰς ἑτέρας ἀσχήμονας, 5 ὑφʼ <!-- paris.1624.961 --> ὧν ἡ τυραννὶς, ὥσπερ σίδηρος, μαλασσομένη, τοῖς μὲν ἀρχομένοις ἐφάνη φιλάνθρωπος, καὶ τὸ λίαν ἀπάνθρωπον ὑπανῆκεν, οὐκ ἐπιεικείᾳ τινὶ <!-- p.16 --> μᾶλλον ἢ ῥᾳθυμίᾳ τοῦ κρατοῦντος ἀμβλυνομένη.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. Comenta la metáfora con la que Plutarco describe la tiranía en este fragmento y el siguiente. ¿Con qué la compara y cuáles son todos los términos griegos que nos llevan a esa comparación?
 
 ??? note
@@ -1027,7 +1036,7 @@
 
 6 ἐκ δὲ τούτου προϊοῦσα καὶ νεμομένη κατὰ μικρὸν^1^ ἡ περὶ τὸ μειράκιον ἄνεσις τοὺς ἀδαμαντίνους δεσμοὺς ἐκείνους, οἷς ὁ πρεσβύτερος Διονύσιος ἔφη δεδεμένην ἀπολείπειν τὴν μοναρχίαν, ἐξέτηξε καὶ διέφθειρεν.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿A qué se refiere la expresión "ἐκ ... τούτου"?
 
 ??? note
@@ -1035,7 +1044,7 @@
 
 7 ἡμέρας γὰρ, ὥς φασιν, ἐνενήκοντα συνεχῶς ἔπινεν ἀρξάμενος^1^, καὶ τὴν αὐλὴν ἐν τῷ χρόνῳ τούτῳ σπουδαίοις ἀνδράσι καὶ λόγοις ἄβατον καὶ ἀνείσοδον οὖσαν μέθαι καὶ σκώμματα καὶ ψαλμοὶ καὶ ὀρχήσεις καὶ βωμολοχίαι^2^ κατεῖχον.
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué valor específico aporta γάρ en esta unidad discursiva? ¿Qué relación establece con la anterior?
 
 ??? note
@@ -1046,7 +1055,7 @@
 
 8.1 ἦν οὖν, ὡς εἰκὸς, ὁ Δίων ἐπαχθής εἰς οὐδὲν ἡδὺ καὶ νεωτερικὸν ἐνδιδοὺς ἑαυτόν, διὸ^3^ καὶ πιθανὰ κακιῶν προσρήματα^1^ ταῖς ἀρεταῖς ἐπιφέροντες αὐτοῦ διέβαλλον, ὑπεροψίαν τὴν σεμνότητα καὶ τὴν παρρησίαν αὐθάδειαν ἀποκαλοῦντες^2^·
 
-!!! question "Preguntas"
+??? question "Preguntas"
     1. ¿Qué funciona desempeña οὖν en este fragmento desde el punto de vista discursivo?
 
 ??? note
@@ -1295,7 +1304,7 @@
     H-->J("βουλομένους<br>querían")
     H-->K("μᾶλλον<br>más")
     H-->L("τυραννεῖν ἢ τυραννεῖσθαι<br>ser tiranos que estar sometidos a uno")
-    
+
     F:::Fal
     G:::Gal
     
@@ -1305,7 +1314,7 @@
 
 !!! note "Interpretación a2"
     «Decía que se protegía de los amigos si eran inteligentes, (lo decía) porque sabía que (en ese caso) también preferían ser tiranos a ser gobernados por uno»
-    
+
     ```mermaid
     
     graph TB
@@ -1330,7 +1339,7 @@
 
 !!! note "Interpretación b1"
     «Decía que se protegía de los amigos porque sabía que, si eran inteligentes, (en ese caso) también preferían ser tiranos a ser gobernados por uno»
-    
+
     ```mermaid
     graph TB
     A("Oración")-->B("ἔλεγε<br>decía ‹que›")
@@ -1357,7 +1366,7 @@
 
 !!! note "Interpretación b2"
     «Decía que se protegía de los amigos porque sabía que eran inteligentes y preferían ser tiranos a ser gobernados por uno»
-    
+
     ```mermaid
     graph TB
     A("Oración")-->B("ἔλεγε<br>decía ‹que›")
@@ -1436,6 +1445,7 @@ D-->|"<b style="background-color: white;color: red;">μὲν δὴ</b>"|D6("CIER
 
 A-->|"<b style="background-color: white;color: red;">δέ</b>"|E("<b style="background-color: white;color: violet;">DION</b> INTENTA MEJORAR LA EDUCACIÓN DE <b style="background-color: white;color: blue;">DIONISIO II</b>")-->E1("10.1 <b style="background-color: white;color: blue;">τὸν</b> <b style="background-color: white;color: red;">δʼ</b> <b style="background-color: white;color: blue;">υἱὸν</b> <b style="background-color: white;color: green;">αὐτοῦ</b>,<br><b>καθάπερ εἴρηται</b>, <b style="background-color: white;color: blue;">διαλελωβημένον</b><br><b>ἀπαιδευσίᾳ</b> καὶ <b style="background-color: white;color: blue;">συντετριμμένον</b><br>τὸ ἦθος <b style="background-color: white;color: violet;">ὁ Δίων</b><br><b style="background-color: white;color: violet;">ὁρῶν παρεκάλει</b> πρὸς παιδείαν<br><b style="background-color: white;color: blue;">τραπέσθαι</b> καὶ <b style="background-color: white;color: blue;">δεηθῆναι</b> τοῦ<br>πρώτου τῶν φιλοσόφων πᾶσαν<br>δέησιν ἐλθεῖν εἰς Σικελίαν·
 ")
+
 ```
 -->
 

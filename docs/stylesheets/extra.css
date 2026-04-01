@@ -26,7 +26,7 @@
   div.danger ul, div.danger ol {display:none !important;}
   details.danger ul, details.danger ol {display:none !important;}
   
-  [class^="admonition question"] {display:none !important;}
+  [class^="admonition question"] {display: !important;}
 
 sup {color: blue; background-color: beige; font-size: 60%; border: 1px solid red;}
 /*

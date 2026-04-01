@@ -1,6 +1,6 @@
 # Bibliografía
 
-## 1. Plutarco
+## 1. Plutar
 
 ### 1.1. Ediciones y traducciones de la vida de Dión
 
@@ -53,15 +53,15 @@
 - Nepote (Galia Cisalpina, c. 100 a. C.-¿Roma?, c. 25 a. C.): De viris illustribus, (Sobre los hombres ilustres): Dion de Siracusa.
 - Diodoro Sículo (s. I a.C.): Biblioteca Histórica.
 - Atanis de Siracusa (s. IV a.C.): Σικελικά. Compañero de Heraclides. Sucesos 362-357 a.C.
-- Filisto de Siracusa (c. 432–356 a.C.). a) Περὶ Διονυσίου (4 libros sobre el Reino de Dionisio I desde el 367 al 362). b) Τὰ περὶ τὸν Διονυσἰον τὸν νεώτερον (dos libros Reino de Dionisio II desde el 367 al 362).
+- Filisto de Siracusa (c. 432-356 a.C.). a) Περὶ Διονυσίου (4 libros sobre el Reino de Dionisio I desde el 367 al 362). b) Τὰ περὶ τὸν Διονυσἰον τὸν νεώτερον (dos libros Reino de Dionisio II desde el 367 al 362).
 - Timónides de Leucas (s. IV a.C.). Cartas a Espeusipo.
 - Éforo de Cime/Cumas (400-330 a.C.). Historia universal (29 libros).
-- Teopompo (Quíos, 380 a. C.-323 a. C.). 
-- Timeo de Tauromenium (356/350-260 a.C.) 
+- Teopompo (Quíos, 380 a. C.-323 a. C.).
+- Timeo de Tauromenium (356/350-260 a.C.)
 
 Platón (427-347 a. C.)
 Timónides de Leucas (s. IV a.C.)
-Filisto de Siracusa (c. 432–356 a.C.)
+Filisto de Siracusa (c. 432-356 a.C.)
 Atanis de Siracusa (s. IV a.C.)
 Diodoro Sículo (s. I a.C.)
 Nepote (Galia Cisalpina, c. 100 a. C.-¿Roma?, c. 25 a. C.)
@@ -143,7 +143,7 @@ Plutarco (Queronea, c. 46 o 50-Delfos, c. 120): 120, 50, 70s
 
 ## 9. Literatura
 
-- Renault, Mary (1966): _The mask of Apollo_. Longmans, Green & Co, London; Pantheon, New York.
+- Renault, Mary (1966): *The mask of Apollo*. Longmans, Green & Co, London; Pantheon, New York.
 - Manfredi, Valerio Massimo (2005): *El tirano*. Mondadori.
 
 ## 10. Online

@@ -202,13 +202,9 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
-  - plantuml:
-      puml_url: https://www.plantuml.com/plantuml/uml/
 extra_javascript:
   - javascripts/audio-control.js
   - javascripts/karaoke.js
 extra:
   mermaid_init:
     mermaid.initialize({ startOnLoad: true });
-  plantuml:
-    server: https://www.plantuml.com/plantuml

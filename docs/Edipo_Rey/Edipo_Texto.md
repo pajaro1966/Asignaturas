@@ -2,14 +2,15 @@ Edipo rey
 
 ## Prólogo (1-150)
 
-### Edipo (1-13)
+### - Edipo (1-13)
+
+Edipo aparece, en toda su majestad —considerado como el primero de los hombres—, ante el pueblo tebano azotado por la peste. Creonte trae la solución de Delfos: buscar al asesino de Layo y expulsarlo. Edipo promete hacerlo.
 
 ??? note "[1] ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,"
     - **νέα** last-born （not "young," for τέκνα includes the old men, v. 17）, added for contrast with τοῦ πάλαι.
     - Oedipus, —who believes himself a Corinthian （774）, —marks his respect for the ancient glories of the Theban house to whose throne he has been called: see esp. 258 f. So the Thebans are "στρατὸς Καδμογενής" Aesch. Seven 303, "Καδμογενὴς γέννα" Eur. Phoen. 808, or Καδμεῖο. 
     - **τροφή** = θρέμματα （abstract for concrete）; Eur. Cycl. 189 "ἀρνῶν τροφαί" = ἄρνες ἐκτεθραμμέναι. Cadmus, as guardian genius of Thebes, is still τροφεύς of all who are reared in the δῶμα Καδμεῖον （v. 29）. Campbell understands, "my last-born care derived from ancient Cadmus," —as though the τροφεύς were Oedipus. But could Κάδμου τροφή mean "[my] nurslings [derived from] Cadmus"? 
     - It is by the word **τέκνα** that Oedipus expresses his own fatherly care.
-
 ??? note "[2] τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε"
     - **ἕδρας** The word ἕδρα= "posture," here, as usu., sitting: when kneelingis meant, some qualification is added, as Eur. Phoen. 293 "γονυπετεῖς ἕδρας προσπίτνω σ᾽," "I supplicate thee on my knees." The suppliants are sitting on the steps （βάθρα） of the altars, on which they have laid the κλάδοι: see 142: cp. 15 προσήμεθα, 20 θακεῖ: Aesch. Eum. 40 （Orestes a suppliant in the Delphian temple） ἐπ᾽ ὀμφαλῷ （on the omphalos） ἕδραν ἔχοντα προστρόπαιον ... ἐλαίας θ᾽ ὑψιγέννητον κλάδον. 
     - **θοάζετε** prob. = θάσσετε, "sit," ἕδρας being cognate acc. In Eur. θοάζω（θοός） always ="to hasten" （transitive or intrans.）. But Empedocles and Aesch. clearly use θοάζω as =θάσσω, the sound and form perh. suggesting the epic θαάσσω, θόωκος. See Appendix.
@@ -49,7 +50,7 @@ Edipo rey
 ??? note "[13] εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν."
     - **κατοικτίρων** οἰκτίρω, not οἰκτείρω, is the spelling attested by Attic inscriptions of circ. 550-350 B.C.: see Meisterhans, Grammatik der Attischen Inschriften, p. 89. μὴ οὐ κατοικτίρων. An infinitive or participle, which for any reason would regularly take μή, usually takes μὴ οὐ if the principal verb of the sentence is negative. Here, δυσάλγητος = οὐκ εὐάλγητος: Dem. 19.123 "（πόλεις） χαλεπαὶ λαβεῖν ... μὴ οὐ χρόνῳ καὶ πολιορκίᾳ"（sc. λαμβάνοντι,） where χαλεπαί = οὐ ῥᾴδιαι: "cities not easy to take, unless by a protracted siege." The participial clause, μὴ οὐ κατοικτίρων, is equivalent to a protasis, εἰ μὴ κατοικτίροιμι. Prof. Kennedy holds that the protasis is εἰ μὴ θέλοιμι understood, and that μὴ οὐ κατοικτίρων is epexegetic of it: —"Yes（γάρ） I should be unfeeling, if I did not wish （to help you）: that is, if I refused to pity such a supplication as this." But the double negative μὴ οὐ could not be explained by a negative in the protasis （εἰ μὴ θέλοιμι）: it implies a negative in the apodosis （δυσάλγητος ἂν εἴην）. Since, then, the resolution into οὐκ εὐάλγητος ἂν εἴην is necessary, nothing seems to be gained by supposing a suppressed protasis, εἰ μὴ θέλοιμι.
 
-### 14 Ἱερεύς
+### - Ἱερεύς (14)
 
 ??? note "[14] ἀλλʼ ὦ κρατύνων Οἰδίπους χώρας ἐμῆς,"
 
@@ -272,7 +273,7 @@ Edipo rey
 
 ??? note "[86] τίνʼ ἡμὶν ἥκεις τοῦ θεοῦ φήμην φέρων;"
 
-### Κρέων
+### - Κρέων
 
 ??? note "[87] ἐσθλήν· λέγω γὰρ καὶ τὰ δύσφορʼ, εἰ τύχοι"
     - [87] λέγω γὰρ ... εὐτυχεῖν Creon, unwilling to speak plainly before the Chorus, hints to Oedipus that he brings a clue to the means by which the anger of heaven may be appeased.
@@ -455,7 +456,7 @@ Edipo rey
 
 ??? note "[146] σὺν τῷ θεῷ φανούμεθʼ ἢ πεπτωκότες."
 
-### Ἱερεύς
+### - Ἱερεύς
 
 ??? note "[147] ὦ παῖδες, ἱστώμεσθα· τῶνδε γὰρ χάριν"
 
@@ -466,6 +467,8 @@ Edipo rey
 ??? note "[150] σωτήρ δʼ ἵκοιτο καὶ νόσου παυστήριος."
 
 ## Párodo (151-215)
+
+Consta de tres pares de estrofas. El Coro, en sus lamentos, describe la peste que le angustia e invoca a los dioses en su ayuda.
 
 ### Coro (151)
 

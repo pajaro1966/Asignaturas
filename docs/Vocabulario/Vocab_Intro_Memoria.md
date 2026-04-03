@@ -6,7 +6,7 @@ style: img {text-align: center;}
 
 # 1. Proyecto
 
-Esta documento es la memoria final del  Proyecto de Innovación docente de la UAM 2023-2024 "Vocabulario básico de frecuencia del griego antiguo (FYL_019.23_INN)".
+Este documento es la memoria final del  Proyecto de Innovación docente de la UAM 2023-2024 "Vocabulario básico de frecuencia del griego antiguo (FYL_019.23_INN)".
 
 No solo se ha presentado en la web correspondiente de Innovación Docente, sino que aparece albergada también en la web docente del coordinador principal en [GitHub](https://pajaro1966.github.io/My_Mk_Docs/).
 

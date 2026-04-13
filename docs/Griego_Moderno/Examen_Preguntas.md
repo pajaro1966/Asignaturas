@@ -25,15 +25,42 @@ span {padding: 12px 12px 12px 12px;}
 
 ## 1. Subjuntivo
 
+### 1.1. Morfología
+
+| Presente: διαβά**ζ**-ω|Aoristo: διαβά**σ**-α| Desinencias|
+|:---:|:---:|:---:|
+| διαβά**ζ**-ω| διαβά**σ**-ω|-ω|
+| διαβά**ζ**-εις| διαβά**σ**-εις|-εις|
+| διαβά**ζ**-ει| διαβά**σ**-ει|ω|
+| διαβά**ζ**-ουμε| διαβά**σ**-ουμε|-ουμε|
+| διαβά**ζ**-ετε| διαβά**σ**-ετε|-ετε|
+| διαβά**ζ**-ουν| διαβά**σ**-ουν|-ουν|
+
+### 1.2. Combinaciones
+
+| Elemento | Presente: διαβά**ζ**-ω|Aoristo: διαβά**σ**-ω | 
+|---|:---:|:---:|
+| 1. Independiente |  διαβά**ζ**-ω| διαβά**σ**-ω|
+| 2. **να** | **να** διαβά**ζ**-ω| **να** διαβά**σ**-ω|
+| 3. **θα** | **θα** διαβά**ζ**-ω| **θα** διαβά**σ**-ω|
+| 3. **μη(ν)** | **μη(ν)** διαβά**ζ**-ω| **μη(ν)** διαβά**σ**-ω|
+| 3. **ας** | **ας** διαβά**ζ**-ω| **ας** διαβά**σ**-ω|
+
 El subjuntivo se puede utilizar de las siguientes maneras:
 
 1. Como forma verbal independiente: verbo δίνω > subj. δίνω/δώσω
 2. Precedido por να: verbo δίνω > subj. να δίνω/δώσω
-3. Precedido por ας: verbo δίνω > subj. ας δίνω/δώσω
-4. Precedido por θα (futuro): verbo δίνω > subj. θα δίνω/δώσω
-5. Precedido por μη(ν) (prohibición): verbo δίνω > subj. θα δίνω/δώσω
+3. Precedido por θα (futuro): verbo δίνω > subj. θα δίνω/δώσω
+4. Precedido por μη(ν) (prohibición): verbo δίνω > subj. θα δίνω/δώσω
+5. Precedido por ας: verbo δίνω > subj. ας δίνω/δώσω
 
 ### 1.1. να+subj
+
+Usos: 
+
+- Completivo (que + subj./inf.)
+- Modo en oraciones independientes ("que te calles/cállate").
+- Modo en subordinadas (conj. + να)
 
 #### 1.1.1. Uso completivo
 
@@ -63,6 +90,7 @@ Se puede traducir al español por un infinitivo o una completiva (que + subjunti
 1. Interrogativas
     - Τι <span class="modo">να κάνω</span>; <span class="modo">Να</span> το <span class="modo">αγοράσω</span> ή <span class="modo">να</span> μην το <span class="modo">αγοράσω</span> αυτό το πουκάμισο;
 ¿Qué **debo hacer**? ¿**Debo comprar** o no **debo comprar** esta camisa?
+
 2. Imperativas
     - Να πάω</span> κι εγώ με τα άλλα παιδιά; — Ναι, <span class="modo">να πας</span>. ('— ¿Puedo ir yo también con los otros niños? — Sí, **ve**.')
     - Να πάει και ο Πέτρος μαζί τους; — Ναι, <span class="modo">να πάει</span>. ('— ¿Puede ir también Pedro con ellos? — Sí, **que vaya**.')
@@ -94,7 +122,7 @@ Se puede traducir al español por un infinitivo o una completiva (que + subjunti
 
 ### 1.4. Subj.
 
-Con determinadas subordinadas
+Con determinadas subordinadas:
 
 1. Condicionales
     - <span class="subor">**Αν** <span class="modo">βρω</span> καιρό</span>, θα ζωγραφίσω. ('Si encuentro tiempo, dibujaré').

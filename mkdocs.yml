@@ -3,6 +3,7 @@ nav:
   - Home: 'index.md'
   - Edipo rey: 
     - Texto: 'Edipo_Rey/Edipo_Texto.md'
+    - Bilingüe: 'Edipo_Rey/Edipo_HTML.html'
   - Griego Moderno: 
     - Examen de abril: 'Griego_Moderno/Examen_Preguntas.md'
     - Referencias: 'Griego_Moderno/GrMod_Bibl.md'
@@ -29,7 +30,8 @@ nav:
       - Ejercicios: 'reveal.js-master/GMod_Leccion_15_Exerc.html'
     - Lección 16:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_16_Vocab.html'
-      - Lección: 'Griego_Moderno/Leccion_16.md'
+      - 'Lección': 'Griego_Moderno/Leccion_16.md'
+      - Subjuntivo: 'Griego_Moderno/Examen_Preguntas.md'
       - Ejercicios: 'reveal.js-master/GMod_Leccion_16_Exerc.html'
     - Lección 17:
       - Vocabulario: 'Griego_Moderno/Vocabulario/Leccion_17_Vocab.html'

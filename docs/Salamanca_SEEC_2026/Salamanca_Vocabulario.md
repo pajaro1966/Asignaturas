@@ -107,6 +107,10 @@ En la siguiente captura de Logeion (versión web) se puede observar que el LSJ i
 
 ![width:890px](../Vocabulario/Logeion.png)
 
+- [Perseus: Lemma list](https://vocab.perseus.org/lemma/?page=1)
+
+![](../Vocabulario/Perseus_Lemma_List.png)
+
 ### 1.3.4. Dispersión
 
 | Autores/Corpora | καί   | ἄναξ    | αὐτόφορος | ἀπαμείβομαι | τριήερης  | ὕστερος   |

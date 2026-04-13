@@ -3,7 +3,25 @@ toc_min_level: 2
 toc_max_level: 4
 ---
 
-# Vocabulario en las lenguas clásicas
+# Vocabulario: lenguas clásicas
+
+<style>
+
+ruby {
+  ruby-position: under;
+ 
+}
+rt {color: grey;font-size: 60%;
+ padding-bottom: 10px;
+  margin-bottom: 8px;}
+
+div.verso {color: blue; font-size: 80%;
+display:inline-block;
+width:7%;}
+div.texto {
+display:inline-block;}
+
+    </style>
 
 antonio.revuelta@uam.es
 
@@ -111,6 +129,13 @@ En la siguiente captura de Logeion (versión web) se puede observar que el LSJ i
 
 ![](../Vocabulario/Perseus_Lemma_List.png)
 
+- Perseus' vocabulary tool
+    - [Explicaciones](https://www.perseus.tufts.edu/hopper/help/vocab)
+    - [Acceso](www.perseus.tufts.edu/hopper/vocablist)
+![width:890px](../Vocabulario/Perseus_Vocab_Tool_01.png)
+    - [Listado de vocabulario](https://www.perseus.tufts.edu/hopper/vocablist?works=Perseus%3Atext%3A1999.01.0169&sort=max_freq&filt=100&filt_custom=&output=table&lang=greek)
+![width:890px](../Vocabulario/Perseus_Vocab_Tool_02.png)
+
 ### 1.3.4. Dispersión
 
 | Autores/Corpora | καί   | ἄναξ    | αὐτόφορος | ἀπαμείβομαι | τριήερης  | ὕστερος   |
@@ -122,11 +147,9 @@ En la siguiente captura de Logeion (versión web) se puede observar que el LSJ i
 
 (Los datos específicos pueden variar según se mejora Logeion)
 
-![width:890px](../Vocabulario/Dispersion_01.png)
-
-![width:890px](../Vocabulario/Dispersion_02.png)
-
 📊 1. Frecuencia vs dispersión
+
+![width:890px](../Vocabulario/Dispersion_01.png)
 
 Qué estás viendo:
 
@@ -153,6 +176,9 @@ Qué estás viendo:
     - 👉 vocabulario altamente especializado o restringido
 
 📈 2. Perfil por autor (líneas)
+
+
+![width:890px](../Vocabulario/Dispersion_02.png)
 
 Este gráfico te muestra la “firma” de cada palabra.
 
@@ -184,23 +210,29 @@ Tu ejemplo muestra perfectamente tres tipos de léxico:
 
 ## 1.4. Métodos de estudio
 
-
 ### 1.4.1. Repetición espaciada
 
-Memrise está basado en los sistemas de repetición espaciada cuyo impulsor fue Hermann Ebbinghaus (1850-1909) y que se siguen empleando en la actualidad para la memorización de datos puros.
+El impulsor de los sistemas de repetición espaciada impulsor fue Hermann Ebbinghaus (1850-1909) y que se siguen empleando en la actualidad para la memorización de datos puros.
 
 ![width:950px](../Vocabulario/Ebbinghaus.png)
 
 El recuerdo de los datos (memoria) se degrada a lo largo del tiempo, como muestra la línea roja descendente en el gráfico precedente. Sin embargo, si esos datos se repasan de manera espaciada y repetida a lo largo del tiempo (dejando un período entre repaso y repaso), la degradación de su recuerdo disminuye (líneas verdes) hasta que los datos son incorporados en gran parte a la memoria a largo plazo.
 
-Memrise incorpora un algoritmo optimizado para favorecer dicha memorización y lo aplica de manera automática, de modo que el estudiante no necesita preocuparse de organizar el material: Memrise lo hace por él, y además de la manera más efectiva.
+Muchos sistemas de repetición espaciada incorporan un algoritmo optimizado para favorecer dicha memorización y lo aplican de manera automática, de modo que el estudiante no necesita preocuparse de organizar el material.
 
-El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes formatos para que sea estudiado por los estudiantes de diferentes maneras de acuerdo con sus intereses y sus necesidades. En las siguientes secciones se describirán algunos de ellos. En el futuro el material se convertirá a otros formatos según sea necesario.
+El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes formatos para que sea estudiado por los estudiantes de diferentes maneras de acuerdo con sus intereses y sus necesidades:
+
+- Memrise:
+    1. [Griego antiguo: 1000 lemas](https://community-courses.memrise.com/community/course/527684/vocabulario-griego-antiguo-15/)
+    2. [Griego moderno: επικοινωνήστε ελληνικά](https://community-courses.memrise.com/community/course/165860/griego-moderno-vocabulario-audio/)
+- Anki:
+    1. [Τα νέα ελληνικά για ξένους](https://ankiweb.net/shared/info/778641525?cb=1776088956470)
 
 ---
 
 ### 1.4.2. Releer los textos
 
+#### Bilingüe paralela
 
 | **V**  | **Original**                                | **Traducción**                                                     |
 |----|-----------------------------------------|----------------------------------------------------------------|
@@ -217,6 +249,128 @@ El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes
 | 11 | δείσαντες ἢ στέρξαντες; ὡς θέλοντος ἂν  | ¿El temor, o el ruego? Piensa que yo querría                   |
 | 12 | ἐμοῦ προσαρκεῖν πᾶν· δυσάλγητος γὰρ ἂν  | ayudaros en todo. Sería insensible,                            |
 | 13 | εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν.   | si no me compadeciera ante semejante actitud.                  |
+
+#### Sublineal
+
+| **V**  | **Original** / _Traducción_                                |
+|----|-----------------------------------------|
+| 1  | **ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,**    | 
+| | _¡Oh hijos, descendencia nueva del antiguo Cadmo_                |
+| 2  | **τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε**      | 
+| | _¿Por qué estáis en actitud sedente ante mí,_                    |
+| 3  | **ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;**       | 
+| | _coronados con ramos de suplicantes?_                            |
+| 4  | **πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,**     | 
+| | _La ciudad está llena de incienso,_                              |
+| 5  | **ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων·**     | 
+| | _a la vez que de cantos de súplica y de gemidos,_                |
+| 6  | **ἁγὼ δικαιῶν μὴ παρʼ ἀγγέλων, τέκνα,**     | 
+| | _y yo, porque considero justo no por mensajeros_                 |
+| 7  | **ἄλλων ἀκούειν αὐτὸς ὧδʼ ἐλήλυθα,**        | 
+| | _otros enterarme, he venido en persona,_                         |
+| 8  | **ὁ πᾶσι κλεινὸς Οἰδίπους καλούμενος.**     | 
+| | _yo, el llamado Edipo, famoso entre todos._                      |
+| 9  | **ἀλλʼ ὦ γεραιέ, φράζʼ, ἐπεὶ πρέπων ἔφυς**  | 
+| | _Así que, oh anciano, ya que por tu condición te corresponde_    |
+| 10 | **πρὸ τῶνδε φωνεῖν, τίνι τρόπῳ καθέστατε,** | 
+| | _hablar en nombre de todos, dime:  ¿por qué estáis así ante mí?_ |
+| 11 | **δείσαντες ἢ στέρξαντες; ὡς θέλοντος ἂν**  | 
+| | _¿El temor, o el ruego? Piensa que yo querría_                   |
+| 12 | **ἐμοῦ προσαρκεῖν πᾶν· δυσάλγητος γὰρ ἂν**  | 
+| | _ayudaros en todo. Sería insensible,_                            |
+| 13 | *εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν.*   | 
+| | _si no me compadeciera ante semejante actitud._                  |
+
+#### Palabra por palabra
+
+<div class="linea">    <div class="verso"></div><div class="texto"><ruby>- Οἰδίπους<rt>Edipo</rt></ruby> </div> </div>
+
+<div class="linea">
+<div class="verso">[1] </div><div class="texto"><ruby>ὦ<rt>oh</rt></ruby>
+<ruby>τέκνα,<rt>hijos</rt></ruby>
+<ruby>Κάδμου<rt>de Cadmo</rt></ruby>
+<ruby>τοῦ<rt>el</rt></ruby>
+<ruby>πάλαι<rt>‹de› antaño</rt></ruby>
+<ruby>νέα<rt>nueva</rt></ruby>
+<ruby>τροφή,<rt>descendencia</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[2] </div><div class="texto"><ruby>τίνας<rt>¿qué</rt></ruby>
+<ruby>ποθʼ<rt>[intensivo]</rt></ruby>
+<ruby>ἕδρας<rt>asientos</rt></ruby>
+<ruby>τάσδε<rt>estos</rt></ruby>
+<ruby>μοι<rt>a mí</rt></ruby>
+<ruby>θοάζετε<rt>sentáis</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[3] </div><div class="texto"><ruby>ἱκτηρίοις<rt>con suplicantes</rt></ruby>
+<ruby>κλάδοισιν<rt>ramos</rt></ruby>
+<ruby>ἐξεστεμμένοι;<rt>coronados</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[4] </div><div class="texto"><ruby>πόλις<rt>ciudad</rt></ruby>
+<ruby>δʼ<rt>y</rt></ruby>
+<ruby>ὁμοῦ<rt>al mismo tiempo</rt></ruby>
+<ruby>μὲν<rt>por un lado</rt></ruby>
+<ruby>θυμιαμάτων<rt>de inciensos</rt></ruby>
+<ruby>γέμει,<rt>está llena</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[5] </div><div class="texto"><ruby>ὁμοῦ<rt>al mismo tiempo</rt></ruby>
+<ruby>δὲ<rt>por otro</rt></ruby>
+<ruby>παιάνων<rt>de peanes</rt></ruby>
+<ruby>τε καὶ<rt>y</rt></ruby>
+<ruby>στεναγμάτων·<rt>gemidos</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[6] </div><div class="texto"><ruby>ἁγὼ<rt>cosas que yo</rt></ruby>
+<ruby>δικαιῶν<rt>considerando justo</rt></ruby>
+<ruby>μὴ<rt>no</rt></ruby>
+<ruby>παρʼ<rt>de</rt></ruby>
+<ruby>ἀγγέλων,<rt>mensajeros</rt></ruby>
+<ruby>τέκνα,<rt>hijos</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[7] </div><div class="texto"><ruby>ἄλλων<rt>otros</rt></ruby>
+<ruby>ἀκούειν<rt>oír</rt></ruby>
+<ruby>αὐτὸς<rt>en persona</rt></ruby>
+<ruby>ὧδʼ<rt>aquí</rt></ruby>
+<ruby>ἐλήλυθα,<rt>estoy llegado</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[8] </div><div class="texto"><ruby>ὁ<rt>el</rt></ruby>
+<ruby>πᾶσι<rt>para todos</rt></ruby>
+<ruby>κλεινὸς<rt>famoso</rt></ruby>
+<ruby>Οἰδίπους<rt>Edipo</rt></ruby>
+<ruby>καλούμενος.<rt>llamado</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[9] </div><div class="texto"><ruby>ἀλλʼ<rt>pero</rt></ruby>
+<ruby>ὦ<rt>oh</rt></ruby>
+<ruby>γεραιέ,<rt>anciano</rt></ruby>
+<ruby>φράζʼ,<rt>dime</rt></ruby>
+<ruby>ἐπεὶ<rt>pues</rt></ruby>
+<ruby>πρέπων<rt>adecuado</rt></ruby>
+<ruby>ἔφυς<rt>has nacido</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[10] </div><div class="texto"><ruby>πρὸ<rt>por</rt></ruby>
+<ruby>τῶνδε<rt>estos</rt></ruby>
+<ruby>φωνεῖν,<rt>hablar</rt></ruby>
+<ruby>τίνι<rt>¿de qué</rt></ruby>
+<ruby>τρόπῳ<rt>modo</rt></ruby>
+<ruby>καθέστατε,<rt>estáis</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[11] </div><div class="texto"><ruby>δείσαντες<rt>por temor</rt></ruby>
+<ruby>ἢ<rt>o</rt></ruby>
+<ruby>στέρξαντες;<rt>por afecto</rt></ruby>
+<ruby>ὡς<rt>pensando que</rt></ruby>
+<ruby>θέλοντος<rt>querría</rt></ruby>
+<ruby>ἂν<rt>[pot.]</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[12] </div><div class="texto"><ruby>ἐμοῦ<rt>yo</rt></ruby>
+<ruby>προσαρκεῖν<rt>ayudar</rt></ruby>
+<ruby>πᾶν·<rt>en todo</rt></ruby>
+<ruby>δυσάλγητος<rt>insensible</rt></ruby>
+<ruby>γὰρ<rt>en efecto</rt></ruby>
+<ruby>ἂν<rt>[pot.]</rt></ruby> </div> </div>
+
+<div class="linea">    <div class="verso">[13] </div><div class="texto"><ruby>εἴην<rt>sería</rt></ruby>
+<ruby>τοιάνδε<rt>‹de› tal</rt></ruby>
+<ruby>μὴ οὐ<rt>no</rt></ruby>
+<ruby>κατοικτίρων<rt>compandeciéndome</rt></ruby>
+<ruby>ἕδραν.<rt>actitud</rt></ruby> </div> </div>
 
 ---
 

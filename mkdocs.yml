@@ -108,8 +108,8 @@ nav:
       - 'Lengua de Homero': 'Charlas/Lengua_Homer/Homero_Lengua.html'
   - ANKI: 
     - 'Alumnos': 'Herramientas/Anki.md'
-    - 'Presentación': 'Herramientas/Anki_02.md'
-  - 'Innova 2025-2026': 
+    - 'Herramientas/Anki_02.md'
+  - 'Innov25-26': 
     - 'Proyecto_Innova_2025_2026/Solicitud_2025_2026_02.md'
     - 'Lemas (listado)': 'Proyecto_Innova_2025_2026/Vocabulario_Mil.html'
     - 'Sufijos (nota)': 'Proyecto_Innova_2025_2026/notas/Suf_ia.md'
@@ -119,12 +119,16 @@ nav:
     - 'Familia (nota)': 'Proyecto_Innova_2025_2026/notas/Familia.md'
     - 'Familias (listado)': 'Proyecto_Innova_2025_2026/Familias.html'  
     - 'Bailly': 'Proyecto_Innova_2025_2026/Bailly/bailly_v03.html'
-  - 'Innova 2024-2025': 
+  - 'Innov24-25': 
     - 'Proyecto_Innova_2024_2025/Solicitud.md'
     - 'gramatica.md'
-  - 'Innova 2023-2024': 
+  - 'Innov23-24': 
     - 'Vocabulario/Vocab_Intro.md'
-    - 'Salamanca 2026': 'Salamanca_SEEC_2026/Salamanca_Vocabulario.md'
+    - 'Salamanca_SEEC_2026/Salamanca_Vocabulario.md'
+  - 'SEEC-Sal/26':
+    - 'Salamanca_SEEC_2026/Salamanca_Vocabulario.md'
+    - 'Herramientas/Anki_02.md'
+
   - 'Naxos': 
     - Lecture 2024: 'BIP_2024/Naxos_2024.md'
     - Lecture 2025: 'BIP_2024/Comparativas_Typology_11_Blanco.pdf'

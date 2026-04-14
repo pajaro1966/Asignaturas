@@ -166,7 +166,7 @@ Hermann Ebbinghaus
 
 - Descargar mazos compartidos
 
-https://ankiweb.net/shared/decks
+[https://ankiweb.net/shared/decks](https://ankiweb.net/shared/decks)
 
 ![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
 
@@ -242,6 +242,8 @@ Aparte de introducir el texto en los campos "Texto" y "Extra" (otros tipos de no
 
 Esta manera de introducir los datos es lenta y pesada. Es mejor crear una tabla en (i) un procesador de texto, (ii) una hoja de cálculo (Excel o semejantes), o (iii) base de datos, e importar los datos desde ellos.
 
+![Anki](Anki_Imagines/Listado_Voc_GM.png)
+
 ### 3.4. Explorar
 
 La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki:
@@ -256,27 +258,31 @@ La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki:
 6. Tipos de notas.
 7. Etiquetas.
 
-El apartado "Mazos" contiene un listado de todos los mazos y se puede ver dentro de ellos las "Notas" y las "Tarjetas".
+#### 3.4.1. Mazos
+
+El apartado **Mazos** contiene un listado de todos los mazos y se puede ver dentro de ellos las **Notas** (*notes*) y las **Tarjetas** (*cards*).
 
 ![Anki](Anki_Imagines/Anki_Explorar_Mazos.png)
 
-El apartado contiene los tipos de notas: básico, básico
+#### 3.4.2. Tipos de notas
+
+El apartado **Tipos de notas** contiene los tipos de notas y se pueden crear otros nuevos y salvarlos como plantillas a partir de los ya existentes.
 
 ![Anki](Anki_Imagines/Anki_Explorar_Tipos_Notas.png)
 
 Anki tiene diferentes tipos de notas. Estos tipos se pueden modificar para crear otros nuevos.
 
-#### 3.4.1. Notas vs. tarjetas
+#### 3.4.3. Notas vs. tarjetas
 
-Un concepto muy importante es diferenciar entre "Notas" y "Tarjetas". Imaginemos que tenemos una única nota en la que tenemos las traducciones a diferentes lenguas de la palabra ἵππος:
+Un concepto muy importante es diferenciar entre **Notas** y **Tarjetas**. Imaginemos que tenemos una única nota en la que tenemos las traducciones a diferentes lenguas de la palabra ἵππος:
 
 ```mermaid
 graph TB
 Nota("GrAnt: ἵππος<br>GrMod: άλογο<br>Esp: caballo<br>Al.: Pferd<br>Eng: horse")
 ```
 
-Esta nota única está compuesta de diferentes campos, uno por cada lengua.
-A partir de esta única nota se podrían crear diferentes tarjetas. Por ejemplo se podría crear una única tarjeta en la que se presenta al usuario la palabra en griego antiguo y este tiene que aprender su significado en las restantes lenguas:
+Esta **nota** única está compuesta de diferentes campos, uno por cada lengua.
+A partir de esta única **nota** se podrían crear diferentes **tarjetas**. Por ejemplo se podría crear una única **tarjeta** en la que se presenta al usuario la palabra en griego antiguo y este tiene que aprender su significado en las restantes lenguas:
 
 ```mermaid
 graph TB
@@ -293,7 +299,7 @@ classDef tarjeta fill:white,stroke:blue,stroke-width:4px;
 
 ```
 Sin embargo, lo mejor es tener tarjetas lo más simples posible para que el usuario se centre solo en un aspecto concreto: cuanto más elementos tenga que memorizar por tarjeta, más difícil le será lograrlo. Es mejor muchas tarjetas simples que una sola muy compleja.
-Por ejemplo, se podría crear una tarjeta por cada pareja de lengua. Podemos reducirlas, para simplificar ,al emparejamiento del griego antiguo con cada una de las demás lenguas modernas
+Por ejemplo, se podría crear una tarjeta por cada pareja de lengua. Podemos reducirlas, para simplificar, al emparejamiento del griego antiguo con cada una de las demás lenguas modernas
 
 ```mermaid
 graph TB
@@ -319,7 +325,7 @@ classDef tarjeta fill:white,stroke:blue,stroke-width:4px;
 
 ```
 
-Pero esto permitiría tan solo estudiar desde el griego antiguo a otras lenguas (conocimiento) pasivo, pero sería mejor tener el doble de tarjetas para estudiarlas también en el sentido inverso (cada una de las 8 tarjetas se tratará aefectos estadísticos como objetos distintos):
+Pero esto permitiría tan solo estudiar desde el griego antiguo a otras lenguas (conocimiento pasivo), pero sería mejor tener el doble de tarjetas para estudiarlas también en el sentido inverso (cada una de las 8 tarjetas se tratará a efectos estadísticos como objetos distintos):
 
 ```mermaid
 graph TB
@@ -361,6 +367,19 @@ El poder de Anki es la separación entre notas y tarjetas. Mediante los "Tipos d
 
 Presenta dos modalidades principales: tarjetas básicas unidireccionales y bidireccionales. En el primer caso crea una sola tarjeta (ἵππος: caballo) y en el otro dos, una por cada sentido (ἵππος: caballo y caballo:ἵππος ).
 
+. Pregunta = 'caballo' / respuesta: 'ἵππος'
+
+|     |     |
+| --- | --- |
+|  ![](Anki_Imagines/Basic_Directa_Pregunta.png)   |  ![](Anki_Imagines/Basic_Directa_Respueta.png)   |
+
+. Pregunta = 'ἵππος' / respuesta: 'caballo'
+
+|     |     |
+| --- | --- |
+|  ![](Anki_Imagines/Basic_Inversa_Pregunta.png)   |  ![](Anki_Imagines/Basic_Inversa_Respuesta.png)   |
+
+
 ##### 3.4.2.2. Cloze
 
 Esta opción permite ocultar una o más partes del campo frontal (mediante la etiqueta {{c1::XXXX}}):
@@ -379,7 +398,7 @@ Se puede ocultar más de un elemento por campo con cloze. En este caso se crear�
 
 ![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02_A.png)
 
-Y se crean tantas tarjetas (dos en el ejemplo, ver el azul) como elementos ocultados, aunque haya solo una nota (ver en verde "Notas"):
+Y se crean tantas tarjetas (dos en el ejemplo, ver el azul) como elementos ocultados, aunque haya solo una nota (ver en verde **Notas**):
 
 ![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_02.png)
 
@@ -400,6 +419,10 @@ Esta única nota permite la creación de 15 tarjetas con todas las formas del pa
 
 ![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_Anthropos_B.png)
 
+Tantas como formas de ἄνθρωπος:
+
+![Cloze 1](Anki_Imagines/Anki_Tipos_Cloze_Anthropos_C.png)
+
 ##### 3.4.2.3. Type
 
 Otro tipo de tarjetas permite comprobar el conocimiento mediante su escritura. El programa crea un campo en el que se presenta la opción de escribir la respuesta:
@@ -408,13 +431,29 @@ Otro tipo de tarjetas permite comprobar el conocimiento mediante su escritura. E
 ##### 3.4.2.4. Image occlusion
 
 Este tipo de tarjeta es muy útil para memoriar objetos complejos con muchas partes o para crear numerosas tarjetas a partir de tablas (paradigmas, por ejemplo).
-Se importa una imagen con letreros que indican el nombre de partes de un objeto y se ocultan por medio de figuras. Estas figuran son mostradas y ocultadas por el sistema.
+Se importa una imagen con letreros que indican el nombre de partes de un objeto y se ocultan por medio de figuras. Estas figuras son mostradas y ocultadas por el sistema.
+
+- Imagen:
+
+| Imagen | Pregunta |
+| --- | --- |
+| ![](Anki_Imagines/Occusion_Imagen.png) | ![](Anki_Imagines/Occusion_01.png) |
+
+- Respuestas
+
+| Pregunta | Respuesta |
+| --- | ---|
+| ![](Anki_Imagines/Occusion_02.png) | ![](Anki_Imagines/Occusion_03.png) |
+
+!!! tip
+    - No hay que escribir nada: se selecciona una imagen con nombres y la imagen de los nombres se ocultan. Ejemplo: [partes del cuerpo en griego antiguo](https://aprendemosgriego.blogspot.com/2015/01/de-cuerpo-presente.html)
+    - Se pueden crear automáticamente muchas tarjetas a partir de una sola nota. 
 
 #### 3.4.3. MCQ
 
 #### 3.4.4. Otros
 
-Con conocmientos de JavaScript se pueden crear nuevos tipos a partir de los antiguos.
+Con conocimientos de JavaScript se pueden crear nuevos tipos a partir de los antiguos.
 También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos módulos (Add-ons) se pueden desgargar de Anki e instalar en la aplicación. Sin embargo, el creador no responde por ellos.
 
 ### 3.5. Estadísticas
@@ -435,7 +474,7 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 
 ### 3.7. Descargar mazos compartidos
 
-https://ankiweb.net/shared/decks
+[https://ankiweb.net/shared/decks](https://ankiweb.net/shared/decks)
 
 ![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
 

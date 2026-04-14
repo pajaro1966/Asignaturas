@@ -33,56 +33,64 @@ El propósito de esta charla es establecer unas pautas básicas para la creació
 
 ## 1.2. ¿Por qué estudiar vocabulario?
 
-(1) kara köpek gördüm
+(1) Ben kara köpek gördüm
 
-!!! note "Información sintáctica"
+??? note "Información sintáctica"
     ```mermaid
     flowchart TB
 
-    O-->Sujeto("Sujeto")
+    O("Oración")-->Sujeto("Sujeto")--->Pron("Ben")
 
-    Sujeto-->Adj("Adj")-->kara("kara")
+    O-->SN("SN-OD")-->Adj("Adj")-->kara("kara")
 
-    Sujeto-->Sust("Sust")-->köpek("köpek")
+    SN-->Sust("Sust")-->köpek("köpek")
 
-    O-->SV
-    
-    SV-->Verbo("Verbo")-->gördüm("gördüm")
+    O-->Verbo("Verbo")--->gördüm("gördüm")
 
     ```
 
-!!! note "Información semántica"
+??? note "Información léxica"
     ```mermaid
-    flowchart TB
+    flowchart LR
+    
+    subgraph Léxico
 
+    direction LR
+
+    Ben("Ben")-->Yo("'yo'")
     kara("kara")-->negro("'negro'")
 
     köpek("köpek")-->perro("'perro'")
 
     görmek("görmek")-->ver("'ver'")
+    end
+
+    subgraph Interpretaciones
+
+    direction LR
+
+    Int1("Interpretación 1")-->Sign1("'Yo vi/veo/veré un/el perro negro'")
+
+    Int2("Interpretación 2")-->Sign2("'un/el perro negro fue/es/será visto por mí'")
+
+    Int3("Interpretación 3")-->Sign3("'un/el perro negro me vio/ve/verá a mí'")
+
+    Int4("Interpretación 4")-->Sign4("'Yo fui/soy/seré visto por un/el perro negro'")
+
+    end
+
+    Léxico --> Interpretaciones
+
 
     ```
     
-    ```mermaid
-    flowchart LR
-
-    Int1("Interpretación 1")-->Sign1("'X vio/ve/verá un/el perro negro'")
-
-    Int2("Interpretación 2")-->Sign2("'un/el perro negro fue/es/será visto por X'")
-
-    Int3("Interpretación 3")-->Sign3("'un/el perro negro vio/ve/verá X'")
-
-    Int4("Interpretación 4")-->Sign4("'X fue/es/será visto por un/el perro negro'")
-
-    ```
-
 !!! info "El vocabulario es previo a cualquier información gramatical"
 
 ---
 
 ## 1.3. ¿Qué vocabulario estudiar?
 
-### 1.3.1. 2.1 Vocabulario de frecuencia
+### 1.3.1. Vocabulario de frecuencia
 
 Según Nation (2001) el porcentaje de texto cubierto por cada millar de lemas más frecuentes en el Brown Corpus (inglés) es el indicado en la siguiente tabla.
 

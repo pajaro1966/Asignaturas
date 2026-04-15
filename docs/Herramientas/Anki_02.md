@@ -505,3 +505,8 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 ## 4. Curso con ejemplos
 
 Se ha creado un curso en Anki con ejemplos de diferentes tipos de notas y tarjetas:
+
+[URL](https://ankiweb.net/shared/info/1641440560?cb=1776275746219)
+
+|![Anki](Anki_Imagines/Anki_Examples_Download.png)|
+| :---: |

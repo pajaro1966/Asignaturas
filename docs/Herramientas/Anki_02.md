@@ -427,6 +427,12 @@ Tantas como formas de ἄνθρωπος:
 
 Otro tipo de tarjetas permite comprobar el conocimiento mediante su escritura. El programa crea un campo en el que se presenta la opción de escribir la respuesta:
 
+![](Anki_Imagines/Type_01_Caballo.png)
+
+|   Respuesta  |  Resultado   |
+| --- | --- |
+|  ![](Anki_Imagines/Type_02_Caballo.png)   |  ![](Anki_Imagines/Type_03_Caballo.png)   |
+|  ![](Anki_Imagines/Type_04_Caballo.png)   |  ![](Anki_Imagines/Type_05_Caballo.png)   |
 
 ##### 3.4.2.4. Image occlusion
 
@@ -437,19 +443,29 @@ Se importa una imagen con letreros que indican el nombre de partes de un objeto 
 
 | Imagen | Pregunta |
 | --- | --- |
-| ![](Anki_Imagines/Occusion_Imagen.png) | ![](Anki_Imagines/Occusion_01.png) |
+| ![](Anki_Imagines/Occlusion_Body_GA_01.jpg) | ![](Anki_Imagines/Occlusion_Body_GA_02.png) |
 
 - Respuestas
 
-| Pregunta | Respuesta |
-| --- | ---|
-| ![](Anki_Imagines/Occusion_02.png) | ![](Anki_Imagines/Occusion_03.png) |
+| Respuesta | Corrección |
+| :---: | :---: |
+| ![](Anki_Imagines/Occlusion_Body_GA_03.png) | ![](Anki_Imagines/Occlusion_Body_GA_04.png) |
 
 !!! tip
-    - No hay que escribir nada: se selecciona una imagen con nombres y la imagen de los nombres se ocultan. Ejemplo: [partes del cuerpo en griego antiguo](https://aprendemosgriego.blogspot.com/2015/01/de-cuerpo-presente.html)
-    - Se pueden crear automáticamente muchas tarjetas a partir de una sola nota. 
+    - **No** hay que **escribir** nada: se selecciona una imagen con nombres y la imagen de los nombres se ocultan.
+    - Se pueden crear automáticamente **muchas tarjetas** a partir de **una sola nota**.
 
-#### 3.4.3. MCQ
+#### 3.4.3. MCQ (Multiple Choice Question)
+
+Reutilizando los cursos de otros usuarios se pueden hacer también ejercicios de respuestas múltiples, como el siguiente:
+
+![](Anki_Imagines/MCQ_01.png)
+
+| Respuesta | Corrección |
+| :---: | :---: |
+| ![](Anki_Imagines/MCQ_02.png) | ![](Anki_Imagines/MCQ_03.png) |
+| ![](Anki_Imagines/MCQ_04.png) | ![](Anki_Imagines/MCQ_05.png) |
+
 
 #### 3.4.4. Otros
 
@@ -485,3 +501,7 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 ### 3.9. Importar mazos
 
 ![Anki](Anki_Imagines/Anki_Importar.png)
+
+## 4. Curso con ejemplos
+
+Se ha creado un curso en Anki con ejemplos de diferentes tipos de notas y tarjetas:

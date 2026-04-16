@@ -14,14 +14,20 @@ Esta es la página central de [Anki](https://apps.ankiweb.net).
 
 ### 1.2. Descarga
 
-Hay versiones para diferentes [plataformas](https://apps.ankiweb.net/#downloads): MacOS, Linux, Windows, Android, iOS.
+Hay versiones para diferentes [plataformas](https://apps.ankiweb.net/#downloads):
+
+- MacOS. 
+- Linux.
+- Windows.
+- Android.
+- iOS.
 
 ### 1.3. Guía
 
 - Página con la [guía](https://docs.ankiweb.net/intro.html) completa.
-- Es muy importante leerla aunque no se entienda todo. 
-- La lectura superficial de la guía permite hacerse una idea general de todo lo que se puede hacer con Anki. 
-- Posteriormente se puede consultar de manera más detalla para aprender alguna funcionalidad determinada.
+- Es muy importante **leerla completa** aunque no se entienda todo.
+- La lectura superficial de la guía permite hacerse una **idea general** de todo lo que se puede hacer con Anki. 
+- Posteriormente se puede consultar de manera más detalla para aprender alguna **funcionalidad concreta**.
 
 ### 1.4. Ankiweb
 
@@ -30,15 +36,6 @@ Hay versiones para diferentes [plataformas](https://apps.ankiweb.net/#downloads)
     1. Sincronizar los dispositivos.
     2. Descargar los cursos de otros usuarios.
     3. Estudiar los cursos simplemente con un navegador desde cualquier dispositivo.
-- Métodos:
-    1. [Sincronización 1](https://docs.ankiweb.net/preferences.html#syncing)
-    2. [Sincronización 2](https://docs.ankiweb.net/syncing.html)
-
-!!! warning "¡Atención!"
-    1. Si se estudia con cualquier dispositivo, antes de salir de la aplicación, hay que realizar una sincronización con Ankiweb: de esta manera la sesión será compartida con el resto de dispositivos. 
-    2. En las preferencias se puede establecer que el programa sincronice automáticamente cuando se cierre.
-    3. Puede haber casos de inconsistencias y el programa preguntará si se desea conservar los datos del dispositivo y subirlos a Ankiweb o bajar la versión de Ankiweb.
-    4. Si la app está programada para sincronizarse al salir, pero no habéis salido de ella, no se sincronizará con Ankiweb. Si se comienza sesión desde otro dispositivo, los cambios no estarán registrados y se trabajará sobre datos antiguos.
 
 ### 1.5. Cursos compartidos 
 
@@ -55,9 +52,9 @@ El autor del programa tiene también una página con una recopilación de [recur
 ### 1.7. Tutoriales en Youtube:
 
 1. [Vídeos del creador](https://docs.ankiweb.net/getting-started.html#videos)
-2. https://youtu.be/6BJgxHC3Yuc?si=V88vflKrOICT-2yJ
-3. https://youtube.com/playlist?list=PLfQ7n_Tfs4mvzYYrke9zk7vlSr5txovwC&si=_du5kwn4YtOaBf6b
-4. https://youtu.be/AjdUxCnAXJw?si=nuxsazpNeLeVOTOV
+2. [Refold](https://youtu.be/6BJgxHC3Yuc?si=V88vflKrOICT-2yJ)
+3. [Anki tutorials](https://youtube.com/playlist?../../../Proyecto_Innova_2025_2026/Tabla/tablas_json_librerias%20(6)/datatable_03_K.zipst=PLfQ7n_Tfs4mvzYYrke9zk7vlSr5txovwC&si=_du5kwn4YtOaBf6b)
+4. [The AnKing](https://youtu.be/AjdUxCnAXJw?si=nuxsazpNeLeVOTOV)
 
 ### 1.8. Tipología de preguntas
 
@@ -164,9 +161,7 @@ Hermann Ebbinghaus
 
 ![Anki](Anki_Imagines/Anki_General.png)
 
-- Descargar mazos compartidos
-
-[https://ankiweb.net/shared/decks](https://ankiweb.net/shared/decks)
+- Descargar mazos compartidos [(shared decks)](https://ankiweb.net/shared/decks)
 
 ![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
 
@@ -189,7 +184,7 @@ Hermann Ebbinghaus
 Podemos (i) seleccionar un curso que ya tengamos, (ii) descargarnos un curso creado por otros usuarios y puesto a disposición libre; (iii) crear un curso nuevo.
 Vamos a bajarnos un curso:
 
-- Curso de griego moderno: https://ankiweb.net/shared/info/778641525
+- [Curso de griego moderno](https://ankiweb.net/shared/info/778641525).
 - Lo descargamos en nuestro ordenador.
 - Cliqueamos el botón "Importar archivo" y lo añadimos a nuestro listado de cursos.
 
@@ -217,7 +212,13 @@ Dependiendo del tipo de tarjeta que tengamos (básica, cloze, type, etc.), tendr
 
 ![Anki](Anki_Imagines/Anki_Estudio_Back.png)
 
-El usuario debe ahora decidir si se sabe o no el contenido de la tarjeta y puntuar el resultado: "Otra vez" (mal), "Difícil" (algo mejor), "Bien" ("mejor") y "Fácil". Hay otras posibilidades.
+El usuario debe ahora decidir si se sabe o no el contenido de la tarjeta y puntuar el resultado:
+
+- "Otra vez" (mal).
+- "Difícil" (algo mejor).
+- "Bien" ("mejor").
+- "Fácil". 
+- Hay otras posibilidades.
 
 El programa **no puntúa** el conocimiento del usuario **automáticamente**.
 De acuerdo con la puntuación adjudicada Anki muestra de nuevo las tarjetas con una frecuencia determinada.
@@ -246,7 +247,7 @@ Esta manera de introducir los datos es lenta y pesada. Es mejor crear una tabla 
 
 ### 3.4. Explorar
 
-La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki:
+La pantalla "Explorar" permite ver todos los elementos que forman parte de Anki (sus bases de datos):
 
 ![Anki](Anki_Imagines/Anki_Explorar_02.png)
 
@@ -367,13 +368,13 @@ El poder de Anki es la separación entre notas y tarjetas. Mediante los "Tipos d
 
 Presenta dos modalidades principales: tarjetas básicas unidireccionales y bidireccionales. En el primer caso crea una sola tarjeta (ἵππος: caballo) y en el otro dos, una por cada sentido (ἵππος: caballo y caballo:ἵππος ).
 
-. Pregunta = 'caballo' / respuesta: 'ἵππος'
+- Pregunta = 'caballo' / respuesta: 'ἵππος'
 
 |     |     |
 | --- | --- |
 |  ![](Anki_Imagines/Basic_Directa_Pregunta.png)   |  ![](Anki_Imagines/Basic_Directa_Respueta.png)   |
 
-. Pregunta = 'ἵππος' / respuesta: 'caballo'
+- Pregunta = 'ἵππος' / respuesta: 'caballo'
 
 |     |     |
 | --- | --- |
@@ -434,12 +435,20 @@ Otro tipo de tarjetas permite comprobar el conocimiento mediante su escritura. E
 |  ![](Anki_Imagines/Type_02_Caballo.png)   |  ![](Anki_Imagines/Type_03_Caballo.png)   |
 |  ![](Anki_Imagines/Type_04_Caballo.png)   |  ![](Anki_Imagines/Type_05_Caballo.png)   |
 
+Formato de la tarjeta:
+
+![](Anki_Imagines/Type_06_Caballo.png)
+
 ##### 3.4.2.4. Image occlusion
 
 Este tipo de tarjeta es muy útil para memoriar objetos complejos con muchas partes o para crear numerosas tarjetas a partir de tablas (paradigmas, por ejemplo).
 Se importa una imagen con letreros que indican el nombre de partes de un objeto y se ocultan por medio de figuras. Estas figuras son mostradas y ocultadas por el sistema.
 
 - Imagen:
+
+![](Anki_Imagines/Occlusion_Body_GA_01.jpg)
+
+- Inclusión en Anki:
 
 | Imagen | Pregunta |
 | --- | --- |
@@ -469,8 +478,9 @@ Reutilizando los cursos de otros usuarios se pueden hacer también ejercicios de
 
 #### 3.4.4. Otros
 
-Con conocimientos de JavaScript se pueden crear nuevos tipos a partir de los antiguos.
-También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos módulos (Add-ons) se pueden desgargar de Anki e instalar en la aplicación. Sin embargo, el creador no responde por ellos.
+- **JS**. Con conocimientos de JavaScript se pueden crear nuevos tipos a partir de los antiguos. Muchos usuarios crean sus cursos de esta manera y se pueden reutilizar para nuestros propios propósitos.
+
+- **Add-ons**. También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos módulos (Add-ons) se pueden desgargar de Anki e instalar en la aplicación. Sin embargo, el creador no responde por ellos.
 
 ### 3.5. Estadísticas
 
@@ -488,11 +498,31 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 
 ### 3.6. Sincronizar
 
-### 3.7. Descargar mazos compartidos
+![Anki](Anki_Imagines/Anki_General.png)
 
-[https://ankiweb.net/shared/decks](https://ankiweb.net/shared/decks)
+- Métodos:
+    1. [Sincronización 1](https://docs.ankiweb.net/preferences.html#syncing)
+    2. [Sincronización 2](https://docs.ankiweb.net/syncing.html)
+
+!!! warning "¡Atención!"
+    1. Si se estudia con cualquier dispositivo, antes de salir de la aplicación, hay que realizar una sincronización con Ankiweb: de esta manera la sesión será compartida con el resto de dispositivos. 
+    2. En las preferencias se puede establecer que el programa sincronice automáticamente cuando se cierre.
+    3. Puede haber casos de inconsistencias y el programa preguntará si se desea conservar los datos del dispositivo y subirlos a Ankiweb o bajar la versión de Ankiweb.
+    4. Si la app está programada para sincronizarse al salir, pero no habéis salido de ella, no se sincronizará con Ankiweb. Si se comienza sesión desde otro dispositivo, los cambios no estarán registrados y se trabajará sobre datos antiguos.
+
+### 3.7. Mazos compartidos
+
+[Shared decks](https://ankiweb.net/shared/decks)
 
 ![Anki](Anki_Imagines/Anki_Mazos_Compartidos.png)
+
+- [Lingua Latina per sē Illūstrata (LLPSI)](https://ankiweb.net/shared/decks?search=LLP)
+
+![Anki](Anki_Imagines/LLPSI.png)
+
+- [Athenaze](https://ankiweb.net/shared/decks?search=Athenaze)
+
+![Anki](Anki_Imagines/Athenaze.png)
 
 ### 3.8. Crear mazos
 
@@ -506,7 +536,10 @@ También es posible escribir módulos que creen nuevos tipos de tarjetas. Esos m
 
 Se ha creado un curso en Anki con ejemplos de diferentes tipos de notas y tarjetas:
 
-[URL](https://ankiweb.net/shared/info/1641440560?cb=1776275746219)
+- [Ankiweb](https://ankiweb.net/shared/info/1641440560?cb=1776275746219)
 
-|![Anki](Anki_Imagines/Anki_Examples_Download.png)|
-| :---: |
+![Anki](Anki_Imagines/Anki_Examples_Download.png)
+
+- [Github:](https://github.com/pajaro1966/Asignaturas/blob/main/docs/Herramientas/AAA_MESOB.apkg) 
+
+![Anki](Anki_Imagines/AAA_MESOB_apkg.png)

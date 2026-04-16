@@ -3,7 +3,7 @@ toc_min_level: 2
 toc_max_level: 4
 ---
 
-# Vocabulario: lenguas clásicas
+# Vocabulario
 
 <style>
 
@@ -27,9 +27,16 @@ antonio.revuelta@uam.es
 
 ## 1.1. Objetivo
 
-Probablemente uno de los mayores problemas de los estudiantes de Filología Clásica es su bajo nivel de vocabulario. Esa situación hace que, pese a tener en muchas ocasiones mayores conocimientos de gramática que estudiantes de otras filologías, su capacidad para enfrentarse a textos en griego (para comprenderlos, leerlos o traducirlos) sea mucho menor.
+- Probablemente uno de los mayores problemas de los estudiantes de Filología Clásica es su **bajo nivel de vocabulario**. Esa situación hace que, pese a tener en muchas ocasiones mayores conocimientos de gramática que estudiantes de otras filologías, su capacidad para enfrentarse a textos en griego (para comprenderlos, leerlos o traducirlos) sea mucho menor.
 
-El propósito de esta charla es establecer unas pautas básicas para la creación del material preciso para remediar esa situación y facilitar que el progreso de los alumnos en el aprendizaje de esta lengua sea más fácil.
+- El propósito de esta charla es establecer **algunas pautas básicas** para la creación del material preciso para remediar esa situación y facilitar que el progreso de los alumnos en el aprendizaje de esta lengua sea más fácil.
+
+- La presentación está dividida en tres partes:
+    1. Algunos conceptos sobre el estudio del vocabulario.
+    2. Funcionamiento de Anki.
+    3. Práctica con Anki.
+
+- Intercambio de información: antonio.revuelta@uam.es
 
 ## 1.2. ¿Por qué estudiar vocabulario?
 
@@ -119,11 +126,7 @@ En los siguientes apartados se describirá cómo se ha recopilado ese listado de
 Eso depende de nuestros propósitos:
 
 1. Si queremos ser capaces de leer en general cualquier texto, necesitaremos un vocabulario de frecuencia de un corpus con muchos textos.
-    1. 1000 lemas más frecuentes del griego antiguo XXXX.
-    2. 
 2. Si estamos empezando a aprender o enseñar una lengua, lo más práctico sería estudiar el vocabulario de nuestro  método.
-    1. Vocabulario de τα ελληνικά για ξενογλώσσους XXXXX: griego moderno.
-    2. Vocabulario de *Familia romana* XXXXX: latín.
 
 ### 1.3.3. ¿Cómo averiguar la frecuencia?
 
@@ -138,10 +141,10 @@ En la siguiente captura de Logeion (versión web) se puede observar que el LSJ i
 ![](../Vocabulario/Perseus_Lemma_List.png)
 
 - Perseus' vocabulary tool
-    - [Explicaciones](https://www.perseus.tufts.edu/hopper/help/vocab)
-    - [Acceso](www.perseus.tufts.edu/hopper/vocablist)
+    1. [Explicaciones](https://www.perseus.tufts.edu/hopper/help/vocab)
+    2. [Acceso](www.perseus.tufts.edu/hopper/vocablist)
 ![width:890px](../Vocabulario/Perseus_Vocab_Tool_01.png)
-    - [Listado de vocabulario](https://www.perseus.tufts.edu/hopper/vocablist?works=Perseus%3Atext%3A1999.01.0169&sort=max_freq&filt=100&filt_custom=&output=table&lang=greek)
+    3. [Listado de vocabulario](https://www.perseus.tufts.edu/hopper/vocablist?works=Perseus%3Atext%3A1999.01.0169&sort=max_freq&filt=100&filt_custom=&output=table&lang=greek)
 ![width:890px](../Vocabulario/Perseus_Vocab_Tool_02.png)
 
 ### 1.3.4. Dispersión
@@ -240,7 +243,7 @@ El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes
 
 ### 1.4.2. Releer los textos
 
-#### Bilingüe paralela
+#### A. Bilingüe paralela
 
 | **V**  | **Original**                                | **Traducción**                                                     |
 |----|-----------------------------------------|----------------------------------------------------------------|
@@ -258,7 +261,7 @@ El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes
 | 12 | ἐμοῦ προσαρκεῖν πᾶν· δυσάλγητος γὰρ ἂν  | ayudaros en todo. Sería insensible,                            |
 | 13 | εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν.   | si no me compadeciera ante semejante actitud.                  |
 
-#### Sublineal
+#### B. Sublineal
 
 | **V**  | **Original** / _Traducción_                                |
 |----|-----------------------------------------|
@@ -289,7 +292,7 @@ El listado de los mil (1.000) lemas más frecuentes se ha exportado a diferentes
 | 13 | *εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν.*   | 
 | | _si no me compadeciera ante semejante actitud._                  |
 
-#### Palabra por palabra
+#### C. Palabra por palabra
 
 <div class="linea">    <div class="verso"></div><div class="texto"><ruby>- Οἰδίπους<rt>Edipo</rt></ruby> </div> </div>
 
@@ -486,6 +489,7 @@ Aunque no se mencionan en su totalidad en la presente memoria, estas son algunas
 - [Perseus vocabulary tool](https://www.perseus.tufts.edu/hopper/vocablist).
 - [Scaife Viewer](https://scaife.perseus.org).
 
+<!--
 ---
 ---
 
@@ -513,3 +517,4 @@ El diccionario proporcionado por Logeion se ha importado a una base de datos en 
 ![XXX](../Vocabulario/Filemaker.png)
 
 ---
+-->

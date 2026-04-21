@@ -2,6 +2,40 @@
 <meta charset="utf-8">
 <style>
 
+/*  NAV */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+/*  Análisis */
 
     .puntuacion {background-color: blue; color: yellow; font-size: 120%;}
      
@@ -68,6 +102,8 @@
 
 */
 
+
+
     div[data-nivel="L_01"] {
         color: white;
         background-color: black;
@@ -110,22 +146,37 @@
     .oculto {visibility: hidden;}
 
     body {
-        width: 520px; border: 1px solid black;
+        width: 100% /* 520px */; /* border: 1px solid black; */
     }
-    hr {height: 1px; font-size: 1%; color: white;}
+    hr.separa {height: 1px; font-size: 1%; color: white;}
+
+div.analisis {border: 1px solid black;}
 
 </style>
 
 <body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#a_01">Análisis 1</a>
+  <a href="#a_02">Análisis 2</a>
+</div>
 
+<table class="navega">
+<tr ><th><a href="#a_01">Análisis 1</a></th><th>Anáisis 2</th></tr>
 
+</table>
+
+<h1 id="a_01">Análisis 1</h1>
+
+<div class="analisis">
+<hr class="separa">
 
     <div class="verso_a" data-nivel="L_01">
         <span class="line">233 </span>
         <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι· </span>
     </div>
 
-<hr>
+<hr class="separa">
 
     <div class="verso_a" data-nivel="L_02">
         <span class="line">234a </span>
@@ -140,7 +191,7 @@
         <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso_a" data-nivel="L_03">
         <span class="line">235a</span>
@@ -155,7 +206,7 @@
         <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν, </span>
     </div>
     
-    <hr>
+    <hr class="separa">
     
     <div class="verso_a" data-nivel="L_04">
         <span class="line">236a</span>
@@ -169,7 +220,7 @@
         <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso_a" data-nivel="L_05">
         <span class="line">237a</span>
@@ -183,14 +234,14 @@
         <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso_a" data-nivel="L_04">
         <span class="line">238 </span>
         <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso_a" data-nivel="L_04">
         <span class="line">239a</span>
@@ -204,49 +255,188 @@
         <span class="texto">ὃ <span class="search">δέ</span> τοι μέγας ἔσσεται ὅρκος·</span> <span class="puntuacion">—</span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
         <span class="line">240 </span>
         <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν </span>
     </div>
     
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
         <span class="line">241 </span>
         <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
         <span class="line">242 </span>
         <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
         <span class="line">243 </span>
         <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
         <span class="line">244 </span>
         <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας. </span>
     </div>
 
-    <hr>
+    <hr class="separa">
 
     <div class="verso" data-nivel="L_01">
         <span class="line">245 </span>
         <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ </span>
     </div>
 
+    <hr class="separa">
+
+    </div>
+
     <hr>
+
+<h1 id="a_02">Análisis 2</h1>
+
+    <div class="analisis">
+<hr class="separa">
+
+    <div class="verso_a" data-nivel="L_01">
+        <span class="line">233 </span>
+        <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι· </span>
+    </div>
+
+<hr class="separa">
+
+    <div class="verso_a" data-nivel="L_02">
+        <span class="line">234a </span>
+        <span class="texto"><span class="search">ναὶ μὰ τόδε σκῆπτρον</span>,<span class="puntuacion">—</span> </span>
+    </div>
+
+    
+
+    <div class="verso_b" data-nivel="L_03">
+        <span class="line">234b </span>
+        <span class="oculto">ναὶ μὰ τόδε σκῆπτρον, —</span>
+        <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso_a" data-nivel="L_03">
+        <span class="line">235a</span>
+        <span class="texto">φύσει,</span>
+    </div>
+
+
+
+    <div class="verso_b" data-nivel="L_04">
+        <span class="line">235b </span>
+        <span class="oculto">φύσει,</span>
+        <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν, </span>
+    </div>
+    
+    <hr class="separa">
+    
+    <div class="verso_a" data-nivel="L_03">
+        <span class="line">236a</span>
+        <span class="texto">οὐδ' ἀναθηλήσει· </span>
+    </div>
+
+
+    <div class="verso_b" data-nivel="L_05">
+        <span class="line">236b</span>
+        <span class="oculto">οὐδ' ἀναθηλήσει· </span>
+        <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso_a" data-nivel="L_05">
+        <span class="line">237a</span>
+        <span class="texto">φύλλά τε καὶ φλοιόν·</span>
+    </div>
+
+
+    <div class="verso_b" data-nivel="L_05">
+        <span class="line">237b</span>
+        <span class="oculto">φύλλά τε καὶ φλοιόν·</span>
+        <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso_a" data-nivel="L_05">
+        <span class="line">238 </span>
+        <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso_a" data-nivel="L_05">
+        <span class="line">239a</span>
+        <span class="texto">πρὸς Διὸς εἰρύαται·</span>
+    </div>
+
+
+    <div class="verso_b" data-nivel="L_03">
+        <span class="line">239b</span>
+                        <span class="oculto">πρὸς Διὸς εἰρύαται·</span>
+        <span class="texto">ὃ <span class="search">δέ</span> τοι μέγας ἔσσεται ὅρκος·</span> <span class="puntuacion">—</span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_02">
+        <span class="line">240 </span>
+        <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν </span>
+    </div>
+    
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_02">
+        <span class="line">241 </span>
+        <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_02">
+        <span class="line">242 </span>
+        <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_02">
+        <span class="line">243 </span>
+        <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_02">
+        <span class="line">244 </span>
+        <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας. </span>
+    </div>
+
+    <hr class="separa">
+
+    <div class="verso" data-nivel="L_01">
+        <span class="line">245 </span>
+        <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ </span>
+    </div>
+
+    <hr class="separa">
+
+    </div>
 
 </body>
 

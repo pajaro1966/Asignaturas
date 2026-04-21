@@ -68,12 +68,14 @@
 
     }
 
+    .line::before {content: "[";}
+    .line::after {content: "]";}
     .line {
-        color: inherit;
+        color: lightgray;
         background-color: inherit;
-        /* font-size: 100%; */
-        position: absolute;
-        left: 50%;
+        font-size: 80%;
+        /* position: absolute; */ 
+        left: 60%;
                 padding-top: 1px;
         padding-bottom: 1px;
         padding-left: 4px;
@@ -147,10 +149,21 @@
 
     body {
         width: 100% /* 520px */; /* border: 1px solid black; */
+            counter-reset: section;
     }
     hr.separa {height: 1px; font-size: 1%; color: white;}
 
-div.analisis {border: 1px solid black;}
+div.analisis {border: 1px solid black;
+margin-left: 10px;
+margin-right: 10px;}
+
+h1::before {
+   counter-increment: section;
+  content: counter(section) ". ";
+  margin-left: 10px;
+}
+
+h1 {counter-reset: subsection;}
 
 </style>
 
@@ -161,95 +174,97 @@ div.analisis {border: 1px solid black;}
   <a href="#a_02">Análisis 2</a>
 </div>
 
+<!--
 <table class="navega">
 <tr ><th><a href="#a_01">Análisis 1</a></th><th>Anáisis 2</th></tr>
 
 </table>
+-->
 
 <h1 id="a_01">Análisis 1</h1>
 
 <div class="analisis">
 <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_01">
-        <span class="line">233 </span>
-        <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι· </span>
+    <div class="verso" data-nivel="L_01">
+        <span class="line">233</span>
+        <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι·</span>
     </div>
 
 <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_02">
-        <span class="line">234a </span>
-        <span class="texto"><span class="search">ναὶ μὰ τόδε σκῆπτρον</span>,<span class="puntuacion">—</span> </span>
+    <div class="verso" data-nivel="L_02">
+        <span class="line">234a</span>
+        <span class="texto"><span class="search">ναὶ μὰ τόδε σκῆπτρον</span>,<span class="puntuacion">—</span></span>
     </div>
 
     
 
-    <div class="verso_b" data-nivel="L_03">
-        <span class="line">234b </span>
+    <div class="verso" data-nivel="L_03">
+        <span class="line">234b</span>
         <span class="oculto">ναὶ μὰ τόδε σκῆπτρον, —</span>
-        <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους </span>
+        <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_03">
+    <div class="verso" data-nivel="L_03">
         <span class="line">235a</span>
         <span class="texto">φύσει,</span>
     </div>
 
 
 
-    <div class="verso_b" data-nivel="L_04">
-        <span class="line">235b </span>
+    <div class="verso" data-nivel="L_04">
+        <span class="line">235b</span>
         <span class="oculto">φύσει,</span>
-        <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν, </span>
+        <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν,</span>
     </div>
     
     <hr class="separa">
     
-    <div class="verso_a" data-nivel="L_04">
+    <div class="verso" data-nivel="L_04">
         <span class="line">236a</span>
-        <span class="texto">οὐδ' ἀναθηλήσει· </span>
+        <span class="texto">οὐδ' ἀναθηλήσει·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">236b</span>
-        <span class="oculto">οὐδ' ἀναθηλήσει· </span>
-        <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε </span>
+        <span class="oculto">οὐδ' ἀναθηλήσει·</span>
+        <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">237a</span>
         <span class="texto">φύλλά τε καὶ φλοιόν·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_04">
+    <div class="verso" data-nivel="L_04">
         <span class="line">237b</span>
         <span class="oculto">φύλλά τε καὶ φλοιόν·</span>
-        <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν </span>
+        <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_04">
-        <span class="line">238 </span>
-        <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας </span>
+    <div class="verso" data-nivel="L_04">
+        <span class="line">238</span>
+        <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_04">
+    <div class="verso" data-nivel="L_04">
         <span class="line">239a</span>
         <span class="texto">πρὸς Διὸς εἰρύαται·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_03">
+    <div class="verso" data-nivel="L_03">
         <span class="line">239b</span>
                         <span class="oculto">πρὸς Διὸς εἰρύαται·</span>
         <span class="texto">ὃ <span class="search">δέ</span> τοι μέγας ἔσσεται ὅρκος·</span> <span class="puntuacion">—</span>
@@ -258,43 +273,43 @@ div.analisis {border: 1px solid black;}
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">240 </span>
-        <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν </span>
+        <span class="line">240</span>
+        <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν</span>
     </div>
     
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">241 </span>
-        <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ </span>
+        <span class="line">241</span>
+        <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">242 </span>
-        <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο </span>
+        <span class="line">242</span>
+        <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">243 </span>
-        <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις </span>
+        <span class="line">243</span>
+        <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">244 </span>
-        <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας. </span>
+        <span class="line">244</span>
+        <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας.</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_01">
-        <span class="line">245 </span>
-        <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ </span>
+        <span class="line">245</span>
+        <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ</span>
     </div>
 
     <hr class="separa">
@@ -308,85 +323,85 @@ div.analisis {border: 1px solid black;}
     <div class="analisis">
 <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_01">
-        <span class="line">233 </span>
-        <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι· </span>
+    <div class="verso" data-nivel="L_01">
+        <span class="line">233</span>
+        <span class="texto">ἀλλ' ἔκ τοι ἐρέω καὶ ἐπὶ μέγαν ὅρκον ὀμοῦμαι·</span>
     </div>
 
 <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_02">
-        <span class="line">234a </span>
-        <span class="texto"><span class="search">ναὶ μὰ τόδε σκῆπτρον</span>,<span class="puntuacion">—</span> </span>
+    <div class="verso" data-nivel="L_02">
+        <span class="line">234a</span>
+        <span class="texto"><span class="search">ναὶ μὰ τόδε σκῆπτρον</span>,<span class="puntuacion">—</span></span>
     </div>
 
     
 
-    <div class="verso_b" data-nivel="L_03">
-        <span class="line">234b </span>
+    <div class="verso" data-nivel="L_03">
+        <span class="line">234b</span>
         <span class="oculto">ναὶ μὰ τόδε σκῆπτρον, —</span>
-        <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους </span>
+        <span class="texto">τὸ <span class="search">μὲν</span> οὔ ποτε φύλλα καὶ ὄζους</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_03">
+    <div class="verso" data-nivel="L_03">
         <span class="line">235a</span>
         <span class="texto">φύσει,</span>
     </div>
 
 
 
-    <div class="verso_b" data-nivel="L_04">
-        <span class="line">235b </span>
+    <div class="verso" data-nivel="L_04">
+        <span class="line">235b</span>
         <span class="oculto">φύσει,</span>
-        <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν, </span>
+        <span class="texto">ἐπεὶ δὴ <span class="search">πρῶτα</span> τομὴν ἐν ὄρεσσι λέλοιπεν,</span>
     </div>
     
     <hr class="separa">
     
-    <div class="verso_a" data-nivel="L_03">
+    <div class="verso" data-nivel="L_03">
         <span class="line">236a</span>
-        <span class="texto">οὐδ' ἀναθηλήσει· </span>
+        <span class="texto">οὐδ' ἀναθηλήσει·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">236b</span>
-        <span class="oculto">οὐδ' ἀναθηλήσει· </span>
-        <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε </span>
+        <span class="oculto">οὐδ' ἀναθηλήσει·</span>
+        <span class="texto">περὶ <span class="search">γάρ</span> ῥά ἑ χαλκὸς ἔλεψε</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">237a</span>
         <span class="texto">φύλλά τε καὶ φλοιόν·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">237b</span>
         <span class="oculto">φύλλά τε καὶ φλοιόν·</span>
-        <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν </span>
+        <span class="texto"><span class="search">νῦν αὖτέ</span> μιν υἷες Ἀχαιῶν</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_05">
-        <span class="line">238 </span>
-        <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας </span>
+    <div class="verso" data-nivel="L_05">
+        <span class="line">238</span>
+        <span class="texto">ἐν παλάμῃς φορέουσι δικασπόλοι, οἵ τε θέμιστας</span>
     </div>
 
     <hr class="separa">
 
-    <div class="verso_a" data-nivel="L_05">
+    <div class="verso" data-nivel="L_05">
         <span class="line">239a</span>
         <span class="texto">πρὸς Διὸς εἰρύαται·</span>
     </div>
 
 
-    <div class="verso_b" data-nivel="L_03">
+    <div class="verso" data-nivel="L_03">
         <span class="line">239b</span>
                         <span class="oculto">πρὸς Διὸς εἰρύαται·</span>
         <span class="texto">ὃ <span class="search">δέ</span> τοι μέγας ἔσσεται ὅρκος·</span> <span class="puntuacion">—</span>
@@ -395,43 +410,43 @@ div.analisis {border: 1px solid black;}
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">240 </span>
-        <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν </span>
+        <span class="line">240</span>
+        <span class="texto"><span class="search">ἦ</span> ποτ' Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν</span>
     </div>
     
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">241 </span>
-        <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ </span>
+        <span class="line">241</span>
+        <span class="texto">σύμπαντας· τότε δ' οὔ τι δυνήσεαι ἀχνύμενός περ</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">242 </span>
-        <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο </span>
+        <span class="line">242</span>
+        <span class="texto">χραισμεῖν, εὖτ' ἂν πολλοὶ ὑφ' Ἕκτορος ἀνδροφόνοιο</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">243 </span>
-        <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις </span>
+        <span class="line">243</span>
+        <span class="texto">θνήσκοντες πίπτωσι· σὺ δ' ἔνδοθι θυμὸν ἀμύξεις</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_02">
-        <span class="line">244 </span>
-        <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας. </span>
+        <span class="line">244</span>
+        <span class="texto">χωόμενος ὅ τ' ἄριστον Ἀχαιῶν οὐδὲν ἔτισας.</span>
     </div>
 
     <hr class="separa">
 
     <div class="verso" data-nivel="L_01">
-        <span class="line">245 </span>
-        <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ </span>
+        <span class="line">245</span>
+        <span class="texto">Ὣς φάτο Πηλεΐδης, ποτὶ δὲ σκῆπτρον βάλε γαίῃ</span>
     </div>
 
     <hr class="separa">

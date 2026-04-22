@@ -112,16 +112,30 @@ ideal:
   - (a) La cesura tiene que ir en final de palabra fonética. Las enclíticas (bien conocidas) y las postpositivas (δέ, γάρ, etc.) se unen a la palabra anterior. Las proclíticas (todo el artículo, todas las preposiciones delante de su régimen, las negaciones ού, μή, muchas conjunciones εἰ, καί, ἀλλά, αὐτάρ, ἐπεί, etc.) se unen a la palabra que sigue.
   - (b) Como en la estructura del verso una cesura no es igual a la pausa del final, en la cesura se da la elisión, el abreviamiento de larga o diptongo ante vocal, etc.
   - (c) Las cesuras que puede tener el hexámetro son las siguientes: 
-    - [Tr] **trihemímeres** (a las tres medias partes de dáctilo)
+
+### 5.1. Trihemímeres
+
+- [Tr] **trihemímeres** (a las tres medias partes de dáctilo)
 ![](metrica/trihemimera.png)
 
-    - [P] **pentemímeres** (a las cinco medias partes de dáctilo)
+### 5.2. Pentemímeres
+
+- [P] **pentemímeres** (a las cinco medias partes de dáctilo)
  ![](metrica/pentemimera.png)
-    - [T] **trocaica** (esto es, en el tercer troqueo ¯ ˘) o **femenina** (porque va en **tiempo** no marcado o **"débil"**, en tanto que las otras Tr, P y H son "masculinas")
+
+### 5.3. Trocaica
+
+- [T] **trocaica** (esto es, en el tercer troqueo ¯ ˘) o **femenina** (porque va en **tiempo** no marcado o **"débil"**, en tanto que las otras Tr, P y H son "masculinas")
 ![](metrica/trocaica_femenina.png)
-    - [H] **heptemímeres** (a las siete medias partes de dáctilo)
+
+### 5.4. Heptemímeres
+
+- [H] **heptemímeres** (a las siete medias partes de dáctilo)
   ![](metrica/heptemimera.png)
-    - [B] **bucólica** (llamada **diéresis** porque, a diferencia de las cesuras anteriores, cae al final de un metro, y bucólica por el uso que de ella hicieron los poetas bucólicos helenísticos para lograr efectos sonoros especiales)
+
+### 5.5. Bucólica
+
+- [B] **bucólica** (llamada **diéresis** porque, a diferencia de las cesuras anteriores, cae al final de un metro, y bucólica por el uso que de ella hicieron los poetas bucólicos helenísticos para lograr efectos sonoros especiales)
 ![](metrica/bucolica.png)
 
 - (d) La **cesura**, que no es pausa, **no parte el verso**, sino que lo **traba**.

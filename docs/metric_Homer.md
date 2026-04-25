@@ -9,9 +9,9 @@
 
 - El **verso** puede definirse como la porción de **"cadena hablada"** comprendida **entre dos pausas**. La regulación de las pausas a intervalos iguales o aproximadamente iguales presta al verso una **extensión determinada**. El **latín** *versus* es nombre formado sobre el verbo vertor "dar vueltas" y alude a la **repetición** constante de algo que vuelve de nuevo. En **griego**, verso se dice **στίχος** **"línea, fila"**, y una composición de versos repetidos indefinidamente (como los de la Ilíada) se dice que está hecha **κατά στίχον**. 
 - La **pausa** existente al final de cada verso (simbolizada por **\|\|**) se advierte por dos **efectos** que produce, cuando la ocasión para ello se presenta:
-  - (a) Encuentro de **vocal final ante vocal inicial** del verso siguiente, sin que la primera sufra elisión, si es breve, ni se abrevie, si es larga o diptongo. Obsérvense, en esta antología, los finales de los versos 5. 10, 11, 17, 20, 21, 22, 23 y 24 del canto I de la Iliada.
+ - (a) Encuentro de **vocal final ante vocal inicial** del verso siguiente, sin que la primera sufra elisión, si es breve, ni se abrevie, si es larga o diptongo. Obsérvense, en esta antología, los finales de los versos 5. 10, 11, 17, 20, 21, 22, 23 y 24 del canto I de la Iliada.
 
-  - (b) La **sílaba que precede** siempre es **larga**, hasta el punto de que una **sílaba breve**, como no va limitada por el comienzo de una sílaba siguiente, **se alarga**. En el mismo canto I 2, 6, 11, 13, 21, 23, 25, pueden apreciarse las sílabas breves de fin de verso, que equivalen a las sílabas largas en que terminan los versos 5, 7, 8, 9, 10, 12, 15, 16, etc.
+ - (b) La **sílaba que precede** siempre es **larga**, hasta el punto de que una **sílaba breve**, como no va limitada por el comienzo de una sílaba siguiente, **se alarga**. En el mismo canto I 2, 6, 11, 13, 21, 23, 25, pueden apreciarse las sílabas breves de fin de verso, que equivalen a las sílabas largas en que terminan los versos 5, 7, 8, 9, 10, 12, 15, 16, etc.
 
 - En el interior del verso las sílabas breves y largas no aparecen caprichosamente, sino que también son objeto de regulación. Pero antes de tratar de ésta, hemos de saber qué **sílabas** son **breves** y qué sílabas son **largas**.
 
@@ -35,48 +35,48 @@
 
 - No obstante, la necesidad de disponer de sílabas breves en el verso épico hace que algunas veces se encuentren en Homero grupos de **muta cum liquida** en que la segunda consonante es **λ, ρ**, que **no alargan** la vocal precedente:
 
-  -  Il. I 113 ῥα Κλυταιμήστρης, 
-  - 201 πτερόεντᾰ προσηύδα, 
-  - XVIII 122 καί τινᾰ Τρωϊάδων.
-  -  Igual ocurre dentro de palabras como Ἀφροδίτη (e incluso ἀ-νδροτῆτα ˘˘¯˘ en Ilíada XXII 363), que, de no ser así, no entrarían en el verso. 
-  -  Por las mismas razones, en VI 402, a pesar del grupo consonantico, se mide καλέεσκε˘ Σκαμάνδριον.
+ - Il. I 113 ῥα Κλυταιμήστρης, 
+ - 201 πτερόεντᾰ προσηύδα, 
+ - XVIII 122 καί τινᾰ Τρωϊάδων.
+ - Igual ocurre dentro de palabras como Ἀφροδίτη (e incluso ἀ-νδροτῆτα ˘˘¯˘ en Ilíada XXII 363), que, de no ser así, no entrarían en el verso. 
+ - Por las mismas razones, en VI 402, a pesar del grupo consonantico, se mide καλέεσκε˘ Σκαμάνδριον.
 
-- En principio, el **hiato** o encuentro de dos vocales en la frase es evitado. La vocal breve final **a, ε, o y a veces i** sufre **elisión**: Il. I 2 μυρί'(α), 3 δ'(ε), 33 ἔφατ(ο), 71 νήεσσ(ι). También ocurre la elisión a **algunos diptongos**: I 117 βούλομ(αι); en los **pronombres personales** μοι, σοι, τοι, oἱ como en I 170 ουδέ σ' óΐω. La vocal larga o diptongo (no elidido) en final de palabra ante vocal inicial se abrevia:   
-  - I 61 δὴ ὁμοῦ, 
-  - 17 καὶ ἄλλοι ἐϋκνήμιδες.
+- En principio, el **hiato** o encuentro de dos vocales en la frase es evitado. La vocal breve final **a, ε, o y a veces i** sufre **elisión**: Il. I 2 μυρί'(α), 3 δ'(ε), 33 ἔφατ(ο), 71 νήεσσ(ι). También ocurre la elisión a **algunos diptongos**: I 117 βούλομ(αι); en los **pronombres personales** μοι, σοι, τοι, oἱ como en I 170 ουδέ σ' óΐω. La vocal larga o diptongo (no elidido) en final de palabra ante vocal inicial se abrevia: 
+ - I 61 δὴ ὁμοῦ, 
+ - 17 καὶ ἄλλοι ἐϋκνήμιδες.
 
 - Α pesar de estos principios generales, la larga historia de la tradición épica hace coexistir **hechos fonéticos de épocas diversas** y ha creado así una **situación sumamente artificiosa**. He aquí algunas particularidades de los cien primeros versos de nuestra selección de pasajes de la Ilíada.
-    
-    - La antigua existencia de la **digamma** explica **hiatos** (que no lo eran cuando existía ϝ, pronunciada como w en inglés):
-      - 7 τε (ϝ)ἄναξ, 
-      - 24 Ἀγαμέμνονι ῾(ϝ)ήνδανε, 
-      - 30 ἐνὶ (ϝ)οἴκῳ,
-      - 36 Ἀπόλλωνι (ϝ)ἄνακτι, 
-      - 38 τε (ϝ)ἶφι (ϝ)ἀνάσσεις,
-      -  47 νυκτΐ (ϝ)ε(ϝ)οικώς, 
-      -  85 μάλα (ϝ)ειπέ.
+ 
+ - La antigua existencia de la **digamma** explica **hiatos** (que no lo eran cuando existía ϝ, pronunciada como w en inglés):
+  - 7 τε (ϝ)ἄναξ, 
+  - 24 Ἀγαμέμνονι ῾(ϝ)ήνδανε, 
+  - 30 ἐνὶ (ϝ)οἴκῳ,
+  - 36 Ἀπόλλωνι (ϝ)ἄνακτι, 
+  - 38 τε (ϝ)ἶφι (ϝ)ἀνάσσεις,
+  - 47 νυκτΐ (ϝ)ε(ϝ)οικώς, 
+  - 85 μάλα (ϝ)ειπέ.
 
-    - Explica también que una breve o diptongo final no abrevie:
-      - 98 δόμεναι ῾(ϝ)ελικώπιδα, 
-      - 40 ἤ(ϝ)᾽ εἰ.
+ - Explica también que una breve o diptongo final no abrevie:
+  - 98 δόμεναι ῾(ϝ)ελικώπιδα, 
+  - 40 ἤ(ϝ)᾽ εἰ.
 
-    - que una sílaba breve final resulte alargada por posición:
-      - 75 Ἀπόλλωνος ῾(ϝ)εκατηβελέταο,
-     
-    - y que sea larga la primera sílaba de 33 
-      - ἔδ(ϝ)εισεν.
+ - que una sílaba breve final resulte alargada por posición:
+  - 75 Ἀπόλλωνος ῾(ϝ)εκατηβελέταο,
+  
+ - y que sea larga la primera sílaba de 33 
+  - ἔδ(ϝ)εισεν.
 
 - Pero cuando ese sonido dejó de pronunciarse, los **aedos** se encontraron con esos hiatos legados por la tradición, no los entendieron, los tomaron como **libertades prosódicas** y los extendieron a **otros casos** en que ya no tienen justificación histórica:
 
-  - Vocal **breve** no elidida: 4 δέ έλώρια.
-  - Vocal **larga o diptongo** final que **no abrevia**:
-      - 24 Ἀτρείδη Ἀγαμέμνονι, 
-      - 30 ἡμετέρῳ ἑνί,
-      - 42 Δαναοί ἐμὰ,
-      - 64 εἴποι ὅ τι.
-  - Alargamiento de sílaba breve final ante vocal inicial: 
-    - 19 πόλιν εὖ, 
-    - 85 θεοπρόπιον ὅ τι.
+ - Vocal **breve** no elidida: 4 δέ έλώρια.
+ - Vocal **larga o diptongo** final que **no abrevia**:
+  - 24 Ἀτρείδη Ἀγαμέμνονι, 
+  - 30 ἡμετέρῳ ἑνί,
+  - 42 Δαναοί ἐμὰ,
+  - 64 εἴποι ὅ τι.
+ - Alargamiento de sílaba breve final ante vocal inicial: 
+ - 19 πόλιν εὖ, 
+ - 85 θεοπρόπιον ὅ τι.
 
 - Por razones semejantes, **λ, ρ, μ, ν iniciales** pueden hacer **posición** o **no** hacerla, cuando proceden de grupos con **silbante inicial** (μοῖρα, νευρή). Y, a la inversa, palabras que **nunca tuvieron silbante**, a veces **hacen posición** (λείπω, etc.).
 
@@ -95,9 +95,9 @@ ideal:
 - Las dos sílabas breves pueden ser sustituidas por una larga (pero la larga no puede ser resuelta en dos breves). La forma resultante ¯ ¯ constituye el llamado **"pie" espondeo**.
 
 - Sobre esta sustitución hemos de hacer dos observaciones:
-   - (a) El **último metro** es siempre de la forma **¯ ¯** . La razón es que ante la pausa del final del verso, dado que una breve necesariamente se hace larga en esa posición, se convertiría en ¯ ˘ ¯ , lo cual ya no es de ninguna manera ritmo dactílico.
+ - (a) El **último metro** es siempre de la forma **¯ ¯** . La razón es que ante la pausa del final del verso, dado que una breve necesariamente se hace larga en esa posición, se convertiría en ¯ ˘ ¯ , lo cual ya no es de ninguna manera ritmo dactílico.
 
-    - (b) El **quinto metro** es **dáctilo puro** en el **98%** de los versos homéricos. Como quiera que el último metro no puede ser dáctilo puro, el penúltimo es el que ha de dejar la impresión nítida de ritmo dactilico. En 11, 21 y 74 tenemos un final **¯ ¯ ¯ ¯ ¯ ¯**; siempre se trata de una única palabra que Uega hasta el final del verso. Un verso con espondeo en el quinto metro se llama espondaico. 
+ - (b) El **quinto metro** es **dáctilo puro** en el **98%** de los versos homéricos. Como quiera que el último metro no puede ser dáctilo puro, el penúltimo es el que ha de dejar la impresión nítida de ritmo dactilico. En 11, 21 y 74 tenemos un final **¯ ¯ ¯ ¯ ¯ ¯**; siempre se trata de una única palabra que Uega hasta el final del verso. Un verso con espondeo en el quinto metro se llama espondaico. 
 
 - Un verso compuesto todo con dáctilos (salvo el del sexto metro) se llama **holodáctilo** (10. 12, 13) y suele dar impresión de alegre ligereza. Los **holospondeos**, que dan impresión de pesadez, son muy **raros**.
 
@@ -109,9 +109,17 @@ ideal:
 
 - Pues bien, una **cesura** (**τομή "corte"**) es precisamente un **límite entre dos grupos melódicos** en el interior de un verso. Hay que tener en cuenta las siguientes puntualizaciones:
 
-  - (a) La cesura tiene que ir en final de palabra fonética. Las enclíticas (bien conocidas) y las postpositivas (δέ, γάρ, etc.) se unen a la palabra anterior. Las proclíticas (todo el artículo, todas las preposiciones delante de su régimen, las negaciones ού, μή, muchas conjunciones εἰ, καί, ἀλλά, αὐτάρ, ἐπεί, etc.) se unen a la palabra que sigue.
-  - (b) Como en la estructura del verso una cesura no es igual a la pausa del final, en la cesura se da la elisión, el abreviamiento de larga o diptongo ante vocal, etc.
-  - (c) Las cesuras que puede tener el hexámetro son las siguientes: 
+ - (a) La cesura tiene que ir en final de palabra fonética. Las enclíticas (bien conocidas) y las postpositivas (δέ, γάρ, etc.) se unen a la palabra anterior. Las proclíticas (todo el artículo, todas las preposiciones delante de su régimen, las negaciones ού, μή, muchas conjunciones εἰ, καί, ἀλλά, αὐτάρ, ἐπεί, etc.) se unen a la palabra que sigue.
+ - (b) Como en la estructura del verso una cesura no es igual a la pausa del final, en la cesura se da la elisión, el abreviamiento de larga o diptongo ante vocal, etc.
+ - (c) Las cesuras que puede tener el hexámetro son las siguientes:
+
+| N | Pie1 | Pie2 | Pie3 | Pie4 | Pie5 | Pie6 |
+|----|:----:|:-----:|:------:|:-----:|:-:|:----:|
+| Tr | —⏕ | — ‖ ⏕ | —⏕ | —⏕ | —⏕ | —⏕ |
+| P | —⏕ | —⏕ | — ‖ ⏕ | —⏕ | —⏕ | —⏕ |
+| T | —⏕ | —⏕ | —⏑ ‖ ⏑ | —⏕ | —⏕ | —⏕ |
+| H | —⏕ | —⏕ | —⏕ | — ‖ ⏕ | —⏕ | —⏕ |
+| B | —⏕ | —⏕ | —⏕ | —⏕  ‖ | —⏕ | —⏕ |
 
 ### 5.1. Trihemímeres
 
@@ -131,7 +139,7 @@ ideal:
 ### 5.4. Heptemímeres
 
 - [H] **heptemímeres** (a las siete medias partes de dáctilo)
-  ![](metrica/heptemimera.png)
+ ![](metrica/heptemimera.png)
 
 ### 5.5. Bucólica
 
@@ -144,15 +152,15 @@ ideal:
 
 ---
 
-| Línea | Texto                                      | Cesura |
+| Línea | Texto          | Cesura |
 |-------|--------------------------------------------|--------|
-| 1     | Μῆνιν ἄειδε, θεά, Πηληϊάδεω Άχιλῆος        | Ρ      |
-|       | οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,    | Tr-T-B |
-| 3     | πολλὰς δ' ἰψθίμους ψυχὰς Ἄϊδι προΐαψεν     | Ρ-Η    |
-|       | ἡρώων, αὐτούς δὲ ἑλώρια τεῦχε κύνεσσιν     | Tr-T-H |
-| 5     | οἰωνοῖσί τε πᾶσι, Διὸς δ' ἐτελείετο βουλή· | Τ-Η    |
-|       | ἐξ οὗ δή τὰ πρῶτα διαστήτην ἐρίσαντε       | Tr-T   |
-| 7     | Ἀτρείδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς. | Ρ-Η    |
+| 1  | Μῆνιν ἄειδε, θεά, Πηληϊάδεω Άχιλῆος  | Ρ  |
+|  | οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε, | Tr-T-B |
+| 3  | πολλὰς δ' ἰψθίμους ψυχὰς Ἄϊδι προΐαψεν  | Ρ-Η |
+|  | ἡρώων, αὐτούς δὲ ἑλώρια τεῦχε κύνεσσιν  | Tr-T-H |
+| 5  | οἰωνοῖσί τε πᾶσι, Διὸς δ' ἐτελείετο βουλή· | Τ-Η |
+|  | ἐξ οὗ δή τὰ πρῶτα διαστήτην ἐρίσαντε  | Tr-T |
+| 7  | Ἀτρείδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς. | Ρ-Η |
 
 ---
 

@@ -1,4 +1,4 @@
-# Odisea
+# Odisea IX
 
 ## 1-81 Ulises revela a Alcinoo su nombre y su patria
 
@@ -414,6 +414,7 @@
 ??? note "(376) ἧος θερμαίνοιτο· ἔπεσσι δὲ πάντας ἑταίρους"
 
 ??? note "(377) θάρσυνον, μή τίς μοι ὑποδείσας ἀναδύη. "
+    - (377) **μή**: "no fuera que" > "para evitar que" / "para que no".
     - (377) **μοι**: dat. ético.
     - (377) **ἀναδύη**: por άναδυΐη. Opt. aor. radical atemátíco. Ver [δύω](verbo.md#143-δύω).
       - West: ἀναδυ-ί-η: conjetura de Bekker.

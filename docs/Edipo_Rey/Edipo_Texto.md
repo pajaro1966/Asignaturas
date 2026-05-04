@@ -501,6 +501,7 @@ Edipo aparece, en toda su majestad —considerado como el primero de los hombres
     - [139] ἐκεῖνον ὁ κτανών: ἐκεῖνον has emphasis: cp. 820.
 
 ??? note "[140] κἄμʼ ἂν τοιαύτῃ χειρὶ τιμωροῦνθʼ ἕλοι."
+    - τιμωροῦνθʼ ἕλοι: τιμωροῦνθʼ θέλοι
     - [140] τοιαύτη: referring to κτανὼν, implies φονίᾳ: on τιμωρεῖν see 107. The spectator thinks of the time when Oed. shall be blinded by his own hand. —For the double
     - [140] ἂν: cp. 339, 862, 1438.
 
@@ -533,6 +534,7 @@ Edipo aparece, en toda su majestad —considerado como el primero de los hombres
     - [149] ἅμα: i.e. may the god, who has summoned us to put away our pollution, at the same time come among us as a healing presence.
 
 ??? note "[150] σωτήρ δʼ ἵκοιτο καὶ νόσου παυστήριος."
+    - σωτήρ **δʼ** ἵκοιτο: σωτήρ **τʼ** ἵκοιτο
 
 ## Párodo (151-215)
 
@@ -781,6 +783,7 @@ textpart episode
     - [217] κλύων: not strictly = πειθαρχῶν, “obediently” (in which sense κλύειν takes  gen.,  τῶν ἐν τέλει, Soph. Aj. 1352 ), but simply, “on hearing them”:
     - [217] δέχεσθαι: , as  Soph. Phil. 1321 κοὔτε σύμβουλον δέχει.
     - [217] τῇ νόσῳ ὑπηρετεῖν: , =θεραπεύειν τὴν νόσον, to do that which the disease requires (for its cure), like  ὑπηρετοίην τῷ παρόντι δαίμονι Soph. El. 1306 . In Eur. fr. 84, 7 οὐδ’ αὖ πένεσθαι κἀξυπηρετεῖν τύχαις | οἷοί τε, Nauck now gives with Athenaeus 413 C καὶ ξυνηρετμεῖν. Acc. to the commoner use of the word, the phrase would mean to humour the disease, i.e. obey morbid impulses: cp.  Lys. 12.23 τῇ ἑαυτοῦ παρανομίᾳ προθύμως ἐξυπηρετῶν,  eagerly indulging the excess of his own lawlessness.
+    - Yo: τῇ νόσῳ θʼ ὑπηρετεῖν: "ser de ayuda (a la ciudad) en la enfermedad": dativo limitativo (?).
 
 ??? note "[218] ἀλκὴν λάβοις ἂν κἀνακούφισιν κακῶν·"
     - [218] ἀλκὴν: as well as
@@ -798,10 +801,11 @@ textpart episode
 ??? note "[221] ἴχνευον αὐτός, μὴ οὐκ ἔχων τι σύμβολον,"
     - [221] αὐτός: , unaided: cp.  Hom. Il. 13.729 ἀλλ’ οὔπως ἅμα πάντα δυνήσεαι αὐτὸς ἑλέσθαι.
 
-??? note "[222] νῦν δʼ ὕστερος γὰρ ἀστὸς εἰς ἀστοὺς τελῶ,"
+??? note "[222] νῦν δʼ —ὕστερος γὰρ ἀστὸς εἰς ἀστοὺς τελῶ—,"
     - [222] νῦν δ’: “but as it is”: i.e., “since it would be vain to attempt the search  alone— since I came to Thebes only after the event.”
     - [222] ὕστερος: , sc. τοῦ πραχθέντος: for the adj. instead of an adv., cp.  Soph. Aj. 217 νύκτερος … ἀπελωβήθη  : Hom. Il. 1.424 χθιζὸς ἔβη  : Xen. Anab. 1.4.12 τοῖς προτέροις προτέροιςπροτέροις=πρότερον μετὰ Κύρου ἀναβᾶσι.
     - [222] εἰς ἀστοὺς τελῶ: ,inter cives censeor: a metaphor from being rated (for taxation) in a certain class:  Hdt. 6.108 εἰς Βοιωτοὺς τελέειν  : Eur. Ba. 822 ἐς γυναῖκας ἐξ ἀνδρὸς τελῶ.
+    - **εἰς ἀστοὺς τελῶ**: yo: "entrar en la ciudadanía pagando".
     - [222] ἀστὸς εἰς ἀστοὺς: , like  Soph. Aj. 267 κοινὸς ἐν κοινοῖσι  : Eur. Ba. 467 ξυμπεσὼν μόνος μόνοις  : Soph. Phil. 135 ἐν ξένᾳ ξένον  : Eur. Ba. 633 ἴσος ὢν ἴσοις ἀνήρ.
 
 ??? note "[223] ὑμῖν προφωνῶ πᾶσι Καδμείοις τάδε·"

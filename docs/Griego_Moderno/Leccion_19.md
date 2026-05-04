@@ -32,11 +32,70 @@
 
 ## 150  Αντωνυμίες Δ/επιρρήματα Α
 
+
+| FUNCIÓN |    Suf    |    INTERROGATIVOS    |          INDEFINIDOS          | DEMOSTRATIVOS |     RELATIVOS      |
+| :-----: | :-------: | :------------------: | :---------------------------: | :-----------: | :----------------: |
+|         | **ποιος** | **ποιος**; '¿quién?' | κά**ποιος** 'en algún lugar'  |               | ό**ποιος** 'quien' |
+|         |           |                      |                               |               |  ό**ποιοσ**δήποτε  |
+|         | **ένας**  |                      |     **ένας** 'uno, un(a)'     |               |                    |
+|         |           |                      | καν**ένας** '¿alguien?/nadie' |               |                    |
+|         |           |                      | καν**είς** '¿alguien?/nadie'  |               |                    |
+|         |           |                      | καθ**ένας** '¿alguien?/nadie' |               |                    |
+|         |           |                      |                               |               |                    |
+|         |           |                      |       μερικοί 'algunos'       |               |                    |
+|         |           |                      |             άλλος             |               |                    |
+|         |           |                      |            ο δείνα            |               |                    |
+|         |           |                      |            ο τάδε             |               |                    |
+|         |  **τι**   |       **τι**;        |           κά**τι**            |               |      ό,**τι**      |
+|         |           |                      |          κάθε**τι**           |               |   ό,**τι**δήποτε   |
+|         |           |                      |             κάθε              |               |                    |
+|         |           |                      |     **τί**ποτε/**τί**ποτα     |               |                    |
+|         |           |                      |                               |               |                    |
+|         | **πόσος** |      **πόσος**;      |         κάμ**ποσος**          |               |                    |
+
+
 ![Página 150](Metodo/Textbook_Pagina_150.png)
 
 ---
 
 ## 151 Επιρρήματα Β
+
+|   FUNCIÓN    |   Suf   |    INTERROGATIVOS    |             INDEFINIDOS              |            DEMOSTRATIVOS            |                            RELATIVOS                             |
+| :----------: | :-----: | :------------------: | :----------------------------------: | :---------------------------------: | :--------------------------------------------------------------: |
+|  **LUGAR**   | -**οῦ** |  π**οῦ** '¿dónde?'   |      κάπ**ου** 'en algún lugar'      | π**ου**θενά 'en algún/ningún lugar' |               εδώ π**ου** 'ahora que' ('aquí que')               |
+|              |         |                      |      αλλ**ού** 'en otro lugar'       |         παντ**οῦ** 'dónde'          |                         όπ**ου** 'dónde'                         |
+|              |         |                      |                                      |                                     |                                                                  |
+|              |    ø    |                      |              εδώ 'aquí'              |                                     |      οπ**ου**δήποτε 'dónde quiera que, en cualquier lugar'       |
+|              |         |                      |             εκεί 'allí'              |                                     |                                                                  |
+|              |         |                      |                                      |                                     |                                                                  |
+|  **TIEMPO**  | -**τε** | πό**οτε** '¿cuándo?' |       κάπο**τε** 'alguna vez'        |        τό**τε**  'entonces'         |           τό**τε** που 'justo cuando' ('entonces que')           |
+|              |         |                      |    άλλο**τε** 'en algún otro momento'     |  πο**τέ** 'en algún momento/nunca'  |                     όπο**τε** 'cada vez que'                     |
+|              |         |                      | πό**τε** πό**τε** 'de vez en cuando' |                                     | οπο**τε**δήποτε 'cuando quiera que', 'en cualquier momento que' |
+|              |         |                      | πό**τε** πό**τε** 'de vez en cuando' |                                     |                                                                  |
+|              |    ø    |                      |      καμιά φορά   'alguna vez'       |                τώρα                 |                                                                  |
+|              |         |                      |    μερικές φορές  'algunas veces'    |                                     |                                                                  |
+|              |         |                      |                                      |                                     |                                                                  |
+|  **MANERA**  | -**ως** |  π**ώς**   '¿cómo?'  |      κάπ**ως** 'de algún modo'       |                                     |             όπ**ως**  'como' ('de la manera en que')             |
+|              |         |                      |      αλλι**ώς** 'de otro modo'       |                                     |               καθ**ώς** 'según' ('porque, cuando')               |
+|              |         |                      |                                      |                                     |              οπ**ωσ**δήποτε  'de cualquier manera'               |
+|              |    ø    |                      |                                      |          έτσι   'así, tan'          |                                                                  |
+|              |         |                      |                                      |                                     |                                                                  |
+| **CANTIDAD** | -**σο** | πό**σο**  '¿cuánto?' |     κάμπο**σο** 'algo, un poco'      |       τό**σο**   'tan, tanto'       |                        ό**σο**   'cuanto'                        |
+|              |         |                      |                                      |                                     |                                                                  |
+|              |    ø    |                      |         αρκετά    'bastante'         |                                     |                                                                  |
+|              |         |                      |          πολύ 'muy, mucho'           |                                     |                                                                  |
+
+
+**Combinaciones**:
+
+- πουθενά αλλού 'en ningún (πουθενά) otro sitio (αλλού)'
+- κάπου αλλού  'en algún (κάπου) otro sitio (αλλού)'
+- τόσο ... όσο ... 'tanto como', 'tan  {Adv | Adj.} .. como ...' (comparativa)
+- έτσι και αλλιώς: 'en cualquier caso'
+- τόσο ... που ... 'tanto/tan {Adv | Adj.} ... que ...' (consecutiva)
+- εκεί που 'allí donde' (lugar)/'justo cuando' (tiempo)
+- τότε που 'cuando' (tiempo> lit. 'entonces cuando')
+
 
 ![Página 151](Metodo/Textbook_Pagina_151.png)
 

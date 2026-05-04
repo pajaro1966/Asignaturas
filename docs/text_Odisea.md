@@ -475,7 +475,7 @@
     - (392) **μεγάλα**: ac. adv.
     - (392) **ἰάχοντα**: concierta con πέλεκυν, pues ἠὲ σκέπαρνον es una frase parentètica. Se aplica al chirrido característico del hierro candente cuando se le introduce en agua fría al tratar de darle temple (φαρμάσσων). La metalurgia del hierro es rasgo postmicénico.
 
-??? note "(393) φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν·"
+??? note "(393) φαρμάσσων· —τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν·—"
     - (393) **τὸ**: "eso", es decir, "el temple".
 
 ??? note "(394) ὣς τοῦ σίζʼ ὀφθαλμὸς ἐλαϊνέῳ περὶ μοχλῷ."
@@ -493,7 +493,7 @@
     - οἵ: relativo;≠ (a) οἱ artículo nom. pl. masc. ; (b) οἱ: pron. 3ª dat. sg.
 
 ??? note "(400) ᾤκεον ἐν σπήεσσι διʼ ἄκριας ἠνεμοέσσας."
-    - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado.
+    - (400) **σπήεσσι**: dat. pl. del neutro σπέος. Forma artificial que equivale métricamente a una originaria **\*σπεε(σ)-εσσιν**, pues **η** puede sustituir a **εε** en tiempo no marcado. σπεσεσ-σιν
     - (400) **δι'**: "en medio de" ; el valor local de διά con ac. es desconocido de la prosa jónico-ática.
     - (400) **ἄκριας**: [Declinación de los temas en -ι](notas.md#i8) ἄκρις, ιος: ἄκρι-**νς** > ἄκρι-**ᾰς**.
 

@@ -579,6 +579,7 @@
 
 ??? note "(403) «τίπτε τόσον, Πολύφημʼ, ἀρημένος ὧδʼ ἐβόησας"
     - (403) **τόσον ... ἀρημένος**: el participio tiene valor concesivo. Los cíclopes, que no se distinguen por su solidaridad (ver Od. IX 115), están, más que preocupados, molestos por las voces que les han despertado.
+    - ἀρημένος
 
 ??? note "(404) νύκτα διʼ ἀμβροσίην καὶ ἀύπνους ἄμμε τίθησθα;"
     - (404) **νύκτα διʼ ἀμβροσίην**: "durante". Uso temporal con ac. propio de Homero y limitado a νύκτα.

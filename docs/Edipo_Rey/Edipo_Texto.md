@@ -1,6 +1,10 @@
-Edipo rey
+# Edipo rey
+
+![Edipo y la Esfinge](/Edipo_Rey/Imagines/IngresOdipusAndSphinx.png)
 
 ## Prólogo (1-150)
+
+[Pasolini: Edipo y el sacerdote](https://youtu.be/KwDFv0hmWhI?si=S8VtcHQ6y3uNLNfW)
 
 ### - Edipo (1-13)
 
@@ -770,6 +774,8 @@ textpart antistrophe
 
 ## Episodio 1º (216-462)
 
+![](/Edipo_Rey/Imagines/Attic_red-figure_pelike,_Oedipus_solves_the_riddle_of_the_Sphinx_and_frees_Thebes,_by_the_Achilleus_painter,_450-440_BC,_Altes_Museum_Berlin_(13718779634).png)
+
 textpart episode
 
 ### Οἰδίπους (216)
@@ -1144,6 +1150,8 @@ textpart episode
 ??? note "[314] ἐν σοὶ γὰρ ἐσμέν· ἄνδρα δʼ ὠφελεῖν ἀφʼ ὧν"
 
 ??? note "[315] ἔχοι τε καὶ δύναιτο, κάλλιστος πόνων."
+
+[Edipo y Tiresias](https://youtu.be/UcWlpSzHL5U?si=VUpRMn2iDEHSBxX0)
 
 ### Τειρεσίας
 
@@ -2408,6 +2416,8 @@ textpart episode
 ??? note "[769] ἀλλʼ ἵξεται μέν· ἀξία δέ που μαθεῖν"
 
 ??? note "[770] κἀγὼ τά γʼ ἐν σοὶ δυσφόρως ἔχοντʼ, ἄναξ."
+
+[Pasolini: Edipo cuenta sus orígenes en Corinto](https://youtu.be/L8xodxC5Xyk?si=d6ttZtECOoCFmrMo)
 
 ### Οἰδίπους (771)
 
@@ -4462,3 +4472,37 @@ textpart close
 ??? note "[1529] ἡμέραν ἐπισκοποῦντα μηδένʼ ὀλβίζειν, πρὶν ἂν"
 
 ??? note "[1530] τέρμα τοῦ βίου περάσῃ μηδὲν ἀλγεινὸν παθών."
+
+## Pasolini: *Edipo re*
+
+### [1. Resurrección (?)](https://youtu.be/WvnFtoIP1FY?si=ui9h9FD334K2yUi0)
+
+### [2. Vida en Corinto](https://youtu.be/L8xodxC5Xyk?si=RXSVosnf0WhyflSD)
+
+### [3. La Esfinge](https://youtu.be/PRz9cJDpqxQ?si=HvFkIYDBnkiW8oQ5)
+
+### [4. Encuentro con el mentor (?)](https://youtu.be/ci3yFc-ocnI?si=lgCPPi79voUAeYHq)
+
+### [5. La Esfinge 2](https://youtu.be/EVEp6EHtFMw?si=JJE-OBY30mkbRXs1)
+
+### [6. Edipo y el sacerdote](https://youtu.be/KwDFv0hmWhI?si=vfxKfox7WlIsmhPO)
+
+### [7. Edipo y Tiresias](https://youtu.be/LA1SGTEIt7Q?si=GP2FGEKNEFUTKUdV) 
+
+### [8. Edipo y el servidor de Layo](https://youtu.be/tisy-RbAaS4?si=pW_LQgK1RUudh-4n)
+
+### [9. Yocasta: suicidio](https://youtu.be/Zt3NPD26FnI?si=Hp_bAC0JrYLfOWRi)
+
+### [10. Edipo se ciega](https://youtu.be/NuvRoQQWXB0?si=4mu4lbzz3iTiAx_k)
+
+### [11. Edipo deja Tebas](https://youtu.be/WvnFtoIP1FY?si=tYyA1YNfRVOjYiPl)
+
+### [12. Edipo: final](https://youtu.be/VkBJ6SyAyyA?si=knE15AyGDuI3m_lB)
+
+### [a. Peregrinaje a Delfos](https://youtu.be/dfcVEj5IK1w?si=mxVWm6E6XpTcfKJY)
+
+### [Edipo y Creonte](https://youtu.be/JQ8XIkBPdxk?si=9cGisRme2i_4IsnC)
+
+### [Edipo y el oráculo de Delfos](https://youtu.be/G91uNDD7Vx8?si=bzxeU0YuDHh7b5A7)
+
+### [Nacimiento de Edipo](https://youtu.be/w_u55LQXF8Y?si=yF8RLqAglT1xzBCQ)

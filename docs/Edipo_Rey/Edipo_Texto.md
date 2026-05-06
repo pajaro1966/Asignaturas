@@ -1,6 +1,6 @@
 # Edipo rey
 
-![Edipo y la Esfinge](/Edipo_Rey/Imagines/IngresOdipusAndSphinx.png)
+![Edipo y la Esfinge](../../Edipo_Rey/Imagines/IngresOdipusAndSphinx.png)
 
 ## Prólogo (1-150)
 

@@ -1,0 +1,236 @@
+<!-- Nombre original: vocabulario_griego_13.html -->
+<!DOCTYPE html>
+<!-- Nombre original: vocabulario_griego_13.html -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulario Griego</title>
+
+  <!--
+    FUNCIONALIDADES DE ESTE ARCHIVO (vocabulario_griego_08.html)
+
+    1. Mostrar tabla de palabras griegas con traducción al español.
+    2. Marcar palabras como visitadas al hacer clic.
+    3. Mostrar/ocultar columna del español.
+    4. Visualización de tarjetas a pantalla completa.
+    5. Alternar griego/español en tarjeta.
+    6. Modo aleatorio de estudio con navegación.
+    7. Guardado local del progreso.
+    8. Reinicio del progreso.
+    9. Botón para volver de tarjeta a tabla.
+    10. Adaptación para móvil/tableta.
+    11. Marcar palabras como favoritas.
+    12. Buscador interactivo para filtrar por griego o español.
+  -->
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    #menu {
+      position: fixed; top: 0; width: 100%; background-color: #333;
+      color: white; padding: 10px; text-align: center; z-index: 1000;
+    }
+    #menu button, #menu input {
+      padding: 8px 12px; margin: 5px; font-size: 1rem;
+    }
+    #mainContent { margin-top: 90px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 12px; text-align: left; }
+    td.visited { background-color: #e0ffe0; }
+    td.favorite::after { content: " ★"; color: gold; }
+    .hidden { display: none; }
+    #fullscreen {
+      display: none; position: fixed; top: 0; left: 0;
+      width: 100vw; height: 100vh; background-color: green;
+      color: white; font-size: 8vw; text-align: center;
+      z-index: 2000; flex-direction: column;
+      justify-content: center; align-items: center;
+      padding: 20px; box-sizing: border-box;
+    }
+    #fullscreen.orange { background-color: orange; }
+    #fullscreen button {
+      margin: 10px; padding: 10px 20px; font-size: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      #fullscreen { font-size: 12vw; }
+      #fullscreen button { font-size: 1rem; }
+      th, td { font-size: 1rem; padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <button onclick="toggleSpanish()">Mostrar/Ocultar Español</button>
+    <button onclick="startRandomMode()">Modo Aleatorio</button>
+    <button onclick="resetProgress()">Reiniciar Progreso</button>
+    <input type="text" id="search" placeholder="Buscar..." oninput="filtrarTabla()">
+  </div>
+
+  <div id="mainContent">
+    <table>
+      <thead><tr><th>Griego</th><th class="spanish">Español</th></tr></thead>
+      <tbody id="vocabBody">
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="palabra, razón">λόγος</td><td class="spanish">palabra, razón</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="hombre">ἀνήρ</td><td class="spanish">hombre</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="vida">ζωή</td><td class="spanish">vida</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="alma">ψυχή</td><td class="spanish">alma</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="mujer">γυνή</td><td class="spanish">mujer</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="tiempo">χρόνος</td><td class="spanish">tiempo</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="muerte">θάνατος</td><td class="spanish">muerte</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="amor">ἀγάπη</td><td class="spanish">amor</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="justicia">δικαιοσύνη</td><td class="spanish">justicia</td></tr>
+        <tr><td onclick="showFromTable(this)" ondblclick="toggleFavorite(this)" data-spanish="sabiduría">σοφία</td><td class="spanish">sabiduría</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="fullscreen">
+    <div id="displayText"></div>
+    <div>
+      <button onclick="prevWord()">Anterior</button>
+      <button onclick="toggleTranslation()">Ver Traducción</button>
+      <button onclick="nextWord()">Siguiente</button>
+    </div>
+    <button onclick="exitFullscreen()">Volver a la Tabla</button>
+  </div>
+
+  <script>
+    let vocabList = [];
+    let currentIndex = -1;
+    let showingGreek = true;
+    let randomMode = false;
+
+    const tableRows = document.querySelectorAll("#vocabBody tr");
+
+    function toggleSpanish() {
+      document.querySelectorAll('.spanish').forEach(el => el.classList.toggle('hidden'));
+    }
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function startRandomMode() {
+      randomMode = true;
+      vocabList = Array.from(tableRows).map((row, index) => ({
+        greek: row.cells[0].innerText,
+        spanish: row.cells[0].dataset.spanish,
+        index: index
+      }));
+      vocabList = shuffle(vocabList);
+      currentIndex = parseInt(localStorage.getItem("lastIndex") || 0);
+      showWord();
+    }
+
+    function showWord() {
+      showingGreek = true;
+      const word = vocabList[currentIndex];
+      document.getElementById("displayText").innerText = word.greek;
+      document.getElementById("fullscreen").style.display = "flex";
+      document.getElementById("fullscreen").className = "green";
+      document.getElementById("mainContent").style.display = "none";
+      tableRows[word.index].cells[0].classList.add("visited");
+      saveProgress();
+    }
+
+    function toggleTranslation() {
+      const word = vocabList[currentIndex];
+      showingGreek = !showingGreek;
+      document.getElementById("displayText").innerText = showingGreek ? word.greek : word.spanish;
+      document.getElementById("fullscreen").className = showingGreek ? "green" : "orange";
+    }
+
+    function prevWord() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        showWord();
+      }
+    }
+
+    function nextWord() {
+      if (currentIndex < vocabList.length - 1) {
+        currentIndex++;
+        showWord();
+      }
+    }
+
+    function exitFullscreen() {
+      // Asegura el retorno completo a la tabla de vocabulario
+      const fs = document.getElementById("fullscreen");
+      const main = document.getElementById("mainContent");
+      const displayText = document.getElementById("displayText");
+
+      // Limpieza de clases que afectan visibilidad
+      fs.className = "";
+      fs.style.display = "none";
+
+      // Mostrar el contenido principal (tabla)
+      main.style.display = "block";
+
+      // Limpiar texto mostrado en tarjeta
+      displayText.innerText = "";
+
+      // Resetear modo aleatorio y puntero
+      randomMode = false;
+      currentIndex = -1;
+      vocabList = [];
+    }
+
+    function showFromTable(cell) {
+      const greek = cell.innerText;
+      const spanish = cell.dataset.spanish;
+      showingGreek = true;
+      document.getElementById("displayText").innerText = greek;
+      document.getElementById("fullscreen").style.display = "flex";
+      document.getElementById("fullscreen").className = "green";
+      document.getElementById("mainContent").style.display = "none";
+      cell.classList.add("visited");
+      randomMode = false;
+      saveProgress();
+    }
+
+    function toggleFavorite(cell) {
+      cell.classList.toggle("favorite");
+      saveProgress();
+    }
+
+    function filtrarTabla() {
+      const query = document.getElementById("search").value.toLowerCase();
+      tableRows.forEach(row => {
+        const griego = row.cells[0].innerText.toLowerCase();
+        const esp = row.cells[1].innerText.toLowerCase();
+        row.style.display = griego.includes(query) || esp.includes(query) ? "" : "none";
+      });
+    }
+
+    function saveProgress() {
+      const visited = Array.from(tableRows).map(row => row.cells[0].classList.contains("visited"));
+      const favorites = Array.from(tableRows).map(row => row.cells[0].classList.contains("favorite"));
+      localStorage.setItem("visitedWords", JSON.stringify(visited));
+      localStorage.setItem("favoriteWords", JSON.stringify(favorites));
+      localStorage.setItem("lastIndex", currentIndex);
+    }
+
+    function loadProgress() {
+      const visited = JSON.parse(localStorage.getItem("visitedWords") || "[]");
+      const favorites = JSON.parse(localStorage.getItem("favoriteWords") || "[]");
+      visited.forEach((v, i) => { if (v) tableRows[i].cells[0].classList.add("visited"); });
+      favorites.forEach((f, i) => { if (f) tableRows[i].cells[0].classList.add("favorite"); });
+    }
+
+    function resetProgress() {
+      localStorage.clear();
+      tableRows.forEach(row => {
+        row.cells[0].classList.remove("visited", "favorite");
+      });
+      alert("Progreso reiniciado.");
+    }
+
+    loadProgress();
+  </script>
+</body>
+</html>

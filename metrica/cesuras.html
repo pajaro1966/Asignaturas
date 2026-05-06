@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="version" content="v02-2026-04-22">
+<title>Cesuras homéricas alineadas v02</title>
+<style>
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    background:#fcfcfa;
+    color:#222;
+    margin:24px;
+    line-height:1.45;
+  }
+  h1,h2{margin:0 0 12px 0;}
+  p{margin:10px 0;}
+  .nota{
+    background:#f5f1e6;
+    border-left:5px solid #b99b58;
+    padding:12px 14px;
+    margin:14px 0 20px;
+  }
+  table.main{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:14px;
+  }
+  table.main th, table.main td{
+    border:1px solid #cfcfcf;
+    padding:10px;
+    vertical-align:top;
+  }
+  table.main th{
+    background:#eaf0f8;
+    text-align:left;
+  }
+  table.main tr:nth-child(even) td{
+    background:#fafafa;
+  }
+
+  .tipo{
+    font-weight:700;
+    font-size:1.02rem;
+  }
+  .sub{
+    font-size:0.92rem;
+    color:#555;
+  }
+  .small{
+    font-size:0.92rem;
+  }
+
+  /* colores pedidos */
+  .word{
+    color:#9b1c1c;
+    font-weight:700;
+  }
+  .foot{
+    color:#0b5394;
+    font-weight:700;
+  }
+  .qty{
+    color:#38761d;
+    font-weight:700;
+  }
+
+  /* tabla interna de alineación */
+  table.scan{
+    border-collapse:collapse;
+    margin:8px 0 6px;
+    table-layout:fixed;
+  }
+  table.scan td{
+    border:1px solid #d8d8d8;
+    min-width:44px;
+    width:44px;
+    height:34px;
+    text-align:center;
+    vertical-align:middle;
+    padding:4px;
+    background:#fff;
+  }
+  table.scan td.bar{
+    min-width:18px;
+    width:18px;
+    background:#f2f7fc;
+    color:#0b5394;
+    font-weight:700;
+  }
+  table.scan td.caes{
+    min-width:24px;
+    width:24px;
+    background:#e6f0fb;
+    color:#0b5394;
+    font-weight:700;
+  }
+  table.scan td.empty{
+    background:#fbfbfb;
+  }
+
+  .legend{
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    margin:12px 0 18px;
+  }
+  .legend span{
+    display:inline-block;
+    padding:4px 8px;
+    border-radius:6px;
+    background:#f3f3f3;
+  }
+
+  pre{
+    background:#111;
+    color:#f5f5f5;
+    padding:14px;
+    border-radius:8px;
+    overflow:auto;
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+</style>
+</head>
+<body>
+<h1>Cesuras en Homero: tabla con sílabas y cantidades alineadas</h1>
+
+<div class="nota">
+  Esta versión organiza <strong>cada tipo de cesura o corte relevante del hexámetro homérico</strong> en una tabla.
+  Dentro de cada fila, las <span class="word">sílabas de las palabras</span> aparecen en la línea superior y las
+  <span class="qty">cantidades métricas</span> justo debajo, alineadas celda por celda. Además, los
+  <span class="foot">pies</span> y la <span class="foot">marca de cesura o diéresis</span> llevan su propio color.
+</div>
+
+<div class="legend">
+  <span class="word">Palabras / sílabas</span>
+  <span class="foot">Pies y marcas de corte</span>
+  <span class="qty">Cantidades métricas</span>
+</div>
+
+<table class="main">
+  <thead>
+    <tr>
+      <th style="width:18%">Tipo</th>
+      <th style="width:14%">Posición</th>
+      <th style="width:48%">Escansión alineada</th>
+      <th style="width:20%">Observación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div class="tipo">Tritemímera</div>
+        <div class="sub">cesura tras 2,5 medios pies</div>
+      </td>
+      <td>Dentro del <strong>2.º pie</strong>, después de su larga inicial.</td>
+      <td>
+        <table class="scan" aria-label="Tritemímera">
+          <tr>
+            <td class="word">A</td>
+            <td class="word">B</td>
+            <td class="word">C</td>
+            <td class="bar foot">|</td>
+            <td class="word">D</td>
+            <td class="caes foot">‖</td>
+            <td class="word">E</td>
+            <td class="word">F</td>
+            <td class="bar foot">|</td>
+            <td class="word">G</td>
+            <td class="word">H</td>
+            <td class="word">I</td>
+            <td class="bar foot">|</td>
+            <td class="word">J</td>
+            <td class="word">K</td>
+            <td class="word">L</td>
+            <td class="bar foot">|</td>
+            <td class="word">M</td>
+            <td class="word">N</td>
+            <td class="word">O</td>
+            <td class="bar foot">|</td>
+            <td class="word">P</td>
+            <td class="word">Q</td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qt:contentReference[oaicite:1]{index=1}ot">‖</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">—</td>
+          </tr>
+        </table>
+      </td>
+      <td class="small">
+        Corte temprano y menos destacado en la explicación escolar. La terminología tradicional lo sitúa en la
+        incisión <em>2a</em>.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="tipo">Pentemímera</div>
+        <div class="sub">masculina del 3.er pie</div>
+      </td>
+      <td>Dentro del <strong>3.er pie</strong>, después de su larga inicial.</td>
+      <td>
+        <table class="scan" aria-label="Pentemímera">
+          <tr>
+            <td class="word">Μῆ</td>
+            <td class="word">νιν</td>
+            <td class="word">ἄ</td>
+            <td class="bar foot">|</td>
+            <td class="word">ει</td>
+            <td class="word">δε</td>
+            <td class="word">θε</td>
+            <td class="bar foot">|</td>
+            <td class="word">ά</td>
+            <td class="caes foot">‖</td>
+            <td class="word">Πη</td>
+            <td class="bar foot">|</td>
+            <td class="word">λη</td>
+            <td class="word">ϊ</td>
+            <td class="word">ά</td>
+            <td class="bar foot">|</td>
+            <td class="word">δεω</td>
+            <td class="word">Ἀ</td>
+            <td class="word">χι</td>
+            <td class="bar foot">|</td>
+            <td class="word">λῆ</td>
+            <td class="word">ος</td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <t:contentReference[oaicite:2]{index=2}<td class="qty">—</td>
+            <td class="caes foot">‖</td>
+            <td class="qty">—</td>
+            <td class="bar foot">|</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">—</td>
+          </tr>
+        </table>
+      </td>
+      <td class="small">
+        Es la cesura fuerte del tercer pie.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="tipo">Cesura trocaica</div>
+        <div class="sub">femenina del 3.er pie</div>
+      </td>
+      <td>Dentro del <strong>3.er pie</strong>, tras la segunda sílaba del dáctilo.</td>
+      <td>
+        <table class="scan" aria-label="Cesura trocaica del tercer pie">
+          <tr>
+            <td class="word">ἄν</td>
+            <td class="word">δρα</td>
+            <td class="word">μοι</td>
+            <td class="bar foot">|</td>
+            <td class="word">ἔν</td>
+            <td class="word">νε</td>
+            <td class="word">πε</td>
+            <td class="bar foot">|</td>
+            <td class="word">Μοῦ</td>
+            <td class="word">σα</td>
+            <td class="caes foot">‖</td>
+            <td class="bar foot">|</td>
+            <td class="word">πο</td>
+            <td class="word">λύ</td>
+            <td class="word">τρο</td>
+            <td class="bar foot">|</td>
+            <td class="word">πον</td>
+            <td class="word">ὃς</td>
+            <td class="word">μά</td>
+            <td class="bar foot">|</td>
+            <td class="word">λα</td>
+            <td class="word">πολ</td>
+            <td class="word">λά</td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="caes foot">‖</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>:contentReference[oaicite:3]{index=3}="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+          </tr>
+        </table>
+      </td>
+      <td class="small">
+        Es la más frecuente en el tercer pie homérico.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="tipo">Heptemímera</div>
+        <div class="sub">masculina del 4.º pie</div>
+      </td>
+      <td>Dentro del <strong>4.º pie</strong>, después de su larga inicial.</td>
+      <td>
+        <table class="scan" aria-label="Heptemímera">
+          <tr>
+            <td class="word">ὅς</td>
+            <td class="word">κε</td>
+            <td class="word">θε</td>
+            <td class="bar foot">|</td>
+            <td class="word">οῖς</td>
+            <td class="word">ἐ</td>
+            <td class="word">πι</td>
+            <td class="bar foot">|</td>
+            <td class="word">πεί</td>
+            <td class="word">θη</td>
+            <td class="word">ται</td>
+            <td class="bar foot">|</td>
+            <td class="word">μά</td>
+            <td class="caes foot">‖</td>
+            <td class="word">λα</td>
+            <td class="word">τʼ</td>
+            <td class="bar foot">|</td>
+            <td class="word">ἔ</td>
+            <td class="word">κλυ</td>
+            <td class="word">ον</td>
+            <td class="bar foot">|</td>
+            <td class="word">αὐ</td>
+            <td class="word">τοῦ</td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="caes foot">‖</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="ba:contentReference[oaicite:4]{index=4}qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">—</td>
+          </tr>
+        </table>
+      </td>
+      <td class="small">
+        Corte avanzado en la segunda mitad del verso.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="tipo">Trocaica del 4.º pie</div>
+        <div class="sub">rara</div>
+      </td>
+      <td>Dentro del <strong>4.º pie</strong>, tras su segunda sílaba.</td>
+      <td>
+        <table class="scan" aria-label="Trocaica del cuarto pie">
+          <tr>
+            <td class="word">καί</td>
+            <td class="word">κεν</td>
+            <td class="word">τοῦτʼ</td>
+            <td class="bar foot">|</td>
+            <td class="word">ἐ</td>
+            <td class="word">θέ</td>
+            <td class="word">λοι</td>
+            <td class="bar foot">|</td>
+            <td class="word">μι</td>
+            <td class="word">Δι</td>
+            <td class="word">ός</td>
+            <td class="bar foot">|</td>
+            <td class="word">γε</td>
+            <td class="word">δι</td>
+            <td class="caes foot">‖</td>
+            <td class="word">δόν</td>
+            <td class="bar foot">|</td>
+            <td class="word">τος</td>
+            <td class="word">ἀ</td>
+            <td class="word">ρέσ</td>
+            <td class="bar foot">|</td>
+            <td class="word">θαι</td>
+            <td class="empty"></td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="caes foot">‖</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+:contentReference[oaicite:5]{index=5}"qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">—</td>
+          </tr>
+        </table>
+      </td>
+      <td class="small">
+        Muy rara en Homero.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="tipo">Diéresis bucólica</div>
+        <div class="sub">no es cesura estricta</div>
+      </td>
+      <td>Al final del <strong>4.º pie</strong>.</td>
+      <td>
+        <table class="scan" aria-label="Diéresis bucólica">
+          <tr>
+            <td class="word">A</td>
+            <td class="word">B</td>
+            <td class="word">C</td>
+            <td class="bar foot">|</td>
+            <td class="word">D</td>
+            <td class="word">E</td>
+            <td class="word">F</td>
+            <td class="bar foot">|</td>
+            <td class="word">G</td>
+            <td class="word">H</td>
+            <td class="word">I</td>
+            <td class="bar foot">|</td>
+            <td class="word">J</td>
+            <td class="word">K</td>
+            <td class="word">L</td>
+            <td class="caes foot">‖</td>
+            <td class="bar foot">|</td>
+            <td class="word">M</td>
+            <td class="word">N</td>
+            <td class="word">O</td>
+            <td class="bar foot">|</td>
+            <td class="word">P</td>
+            <td class="word">Q</td>
+          </tr>
+          <tr>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="caes foot">‖</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">∪</td>
+            <td class="qty">∪</td>
+            <td class="bar foot">|</td>
+            <td class="qty">—</td>
+            <td class="qty">—</td>
+          </tr>
+     :contentReference[oaicite:6]{index=6}>
+      <td class="small">
+        Coincide con final de pie y final de palabra, así que es diéresis.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Observaciones filológicas breves</h2>
+<p>
+  En la descripción tradicional del hexámetro homérico, el punto decisivo es que <strong>casi siempre hay una cesura en el tercer pie</strong>,
+  y que en Homero la <strong>trocaica del tercer pie</strong> es más frecuente que la pentemímera. La diéresis bucóli:contentReference[oaicite:7]{index=7} estudia siempre junto a ellas por su importancia estructural.
+</p>
+
+<h2>Código</h2>
+<p>
+  Este archivo está pensado para que puedas copiarlo tal cual o abrirlo directamente en el navegador.
+</p>
+</body>
+</html>

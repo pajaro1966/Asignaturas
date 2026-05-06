@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Άνοιξε το παράθυρο ⇒  {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=ανοίξεις} το παράθυρο 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, ανοίξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Κλείστε την πόρτα ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=κλείσετε} την πόρτα 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, κλείσετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Μάζεψε τα πιάτα ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μαζέψεις} τα πιάτα 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μαζέψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Βάψτε το δωμάτιό σας με χτυπητά χρώματα ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=βάψετε} το δωμάτιό σας με χτυπητά χρώματα 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, βάψετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Παίξτε μου ξανά αυτό το τραγούδι ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=μου} {1:SHORTANSWER:=παίξετε} ξανά αυτό το τραγούδι 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, μου, παίξετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Αγόρασε αυτό το πουκάμισο ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=αγοράσεις} αυτό το πουκάμισο 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, αγοράσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Άφησε τα πράγματά σου εδώ ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=αφήσεις} τα πράγματά σου εδώ 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, αφήσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Άναψε το φως ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=ανάψεις} το φως 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, ανάψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Διώξε το σκύλο ⇒ {1:SHORTANSWER:=Μη} {1:SHORTANSWER:=διώξεις} το σκύλο 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μη, διώξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/17Β</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>17Β10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να κάνετε αρνητικές τις παρακότω προτάσεις (Convierte en negativas las siguientes frases)</h6>        
+Κόψτε λουλούδια από τον κήπο ⇒ {1:SHORTANSWER:=Μην} {1:SHORTANSWER:=κόψετε} λουλούδια από τον κήπο 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μην, κόψετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

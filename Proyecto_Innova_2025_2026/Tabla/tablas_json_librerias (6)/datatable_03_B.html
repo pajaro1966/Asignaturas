@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Tabla con DataTables (v_03)</title>
+<link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet"/>
+<style>
+    .col-0 { color: darkred; }
+    .col-1 { color: darkred; }
+    .col-2 { color: navy; }
+    .col-3 { color: navy; }
+    .col-4 { color: purple; }
+    .col-5 { color: teal; }
+    .col-6 { color: brown; }
+  </style>
+</head>
+<body>
+<div id="col-controls" style="margin: 1em; font-family: sans-serif;">
+<strong>Mostrar/ocultar columnas:</strong><br/>
+</div>
+<h2 style="text-align:center;">Tabla JSON – DataTables.js</h2>
+<table class="display" id="miTabla" style="width:95%; margin:auto">
+<thead>
+<tr>
+<th>Lema</th>
+<th>Significado (Lema)</th>
+<th>Base</th>
+<th>Significado (Base)</th>
+<th>Prefijo</th>
+<th>Sufijo</th>
+<th>Familia</th>
+</tr>
+<tr id="filterRow">
+<th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th><th><input placeholder="Filtrar..." style="width: 100%; box-sizing: border-box;" type="text"/></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  var table = $('#tabla').DataTable();
+
+  // Aplica los filtros por columna correctamente
+  $('#tabla thead tr:eq(1) th').each(function(i) {
+    $('input', this).on('keyup change', function () {
+      if (table.column(i).search() !== this.value) {
+        table.column(i).search(this.value).draw();
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>

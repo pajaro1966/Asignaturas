@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Transliterador Griego v.09</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+    }
+    textarea, input, button {
+      width: 100%;
+      font-size: 1.1em;
+      margin: 0.5em 0;
+    }
+    .rojo { color: red; font-weight: bold; }
+    table {
+      width: 100%;
+      margin-top: 2em;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.4em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Transliterador Griego v.09</h1>
+
+  <label for="input">Texto en griego:</label>
+  <textarea id="input" rows="4"></textarea>
+
+  <button onclick="transliterar('antigua')">Transliterar desde el griego antiguo</button>
+  <button onclick="transliterar('moderna')">Transliterar desde el griego moderno/medieval</button>
+
+  <label for="output">Resultado:</label>
+  <textarea id="output" rows="4" readonly></textarea>
+  <button onclick="copiarResultado()">Copiar resultado</button>
+
+  <script>
+    const tabla = new Map([
+      ["᾽Ρ", ["Rh", "R"]],
+      ["α", ["a", "a"]],
+      ["β", ["b", "v"]],
+      ["ρ", ["r", "r"]],
+      ["ἁ", ["a̔", "a"]],
+      ["ῥ", ["rh", "r"]]
+    ]);
+
+    function transliterar(modo) {
+      const input = document.getElementById("input").value;
+      let resultado = "";
+      const index = modo === 'antigua' ? 0 : 1;
+
+      for (let i = 0; i < input.length;) {
+        let reemplazo = null;
+        let token = input[i];
+
+        // probar combinaciones de 2 caracteres si es posible
+        if (i + 1 < input.length) {
+          const doble = input.slice(i, i + 2);
+          if (tabla.has(doble)) {
+            reemplazo = tabla.get(doble)[index];
+            i += 2;
+          }
+        }
+
+        // si no se encontró combinación doble, mirar el carácter solo
+        if (!reemplazo) {
+          if (tabla.has(token)) {
+            reemplazo = tabla.get(token)[index];
+          }
+          i += 1;
+        }
+
+        // Si no hay reemplazo, marcarlo en rojo
+        resultado += reemplazo || `<span class='rojo'>${token}</span>`;
+      }
+
+      document.getElementById("output").value = resultado.replace(/<[^>]*>/g, '');
+    }
+
+    function copiarResultado() {
+      const output = document.getElementById("output");
+      output.select();
+      document.execCommand("copy");
+    }
+  </script>
+</body>
+</html>

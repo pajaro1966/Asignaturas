@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="version" content="v02-2025-06-16">
+  <title>Diccionario Bailly</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <style>
+    td.lema {
+      color: blue;
+    }
+    td.base {
+      color: red;
+    }
+ 
+    thead input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <h1>Diccionario Bailly</h1>
+
+  <table id="baillyTable" class="display" style="width:100%">
+    <thead>
+      <tr>
+        <th>Lema</th>
+        <th>Limpia</th>
+        <th>Base</th>
+        <th>Significado</th>
+      </tr>
+      <tr>
+        <th><input type="text" placeholder="Filtrar lema..."></th>
+        <th><input type="text" placeholder="Filtrar limpia..."></th>
+        <th><input type="text" placeholder="Filtrar base..."></th>
+        <th><input type="text" placeholder="Filtrar significado..."></th>
+      </tr>
+    </thead>
+  </table>
+
+  <!-- jQuery y DataTables -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    function wildcardToRegex(value) {
+      return '^' + value
+        .replace(/[-\/\\^$+?.()|[\]{}]/g, '\\$&')
+        .replace(/\*/g, '.*')
+        .replace(/\?/g, '.') + '$';
+    }
+
+    $(document).ready(function() {
+      const table = $('#baillyTable').DataTable({
+        orderCellsTop: true,
+        fixedHeader: true,
+        ajax: 'bailly_04.json',
+        columns: [
+          { data: 'Lema', className: 'lema' },
+          { data: 'Limpia', className: 'limpia' },
+          { data: 'Base' , className: 'base'},
+          { data: 'Lema_Significado' }
+        ],
+        initComplete: function () {
+          const api = this.api();
+          api.columns().every(function (colIdx) {
+            $('input', api.table().header().rows[1].cells[colIdx]).on('input', function () {
+              const val = this.value.trim();
+              if (val === '') {
+                api.column(colIdx).search('').draw();
+              } else {
+                const regex = wildcardToRegex(val);
+                api.column(colIdx).search(regex, true, false).draw();
+              }
+            });
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

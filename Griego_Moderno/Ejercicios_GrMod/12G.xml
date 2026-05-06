@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Έδωσα <b>στους φίλους μου</b> τα λεφτά => {1:SHORTANSWER:=Τους} έδωσα τα λεφτά. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Τηλεφωνώ <b>στη μητέρα μου</b> κάθε μέρα => {1:SHORTANSWER:=Της} τηλεφωνώ κάθε μέρα. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Της</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Χρωστώ στις κοπέλες 100 ευρώ => {1:SHORTANSWER:=Τους} χρωστώ 100 ευρώ. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Αγόρασα αυτό το καπέλο <b>για σένα</b>. Αν δε σου κάνει, το δίνω πίσω. => {1:SHORTANSWER:=Σου} αγόρασα αυτό το καπέλο. Αν δε σου κάνει, το δίνω πίσω.
+ 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Χάρισα <b>του Γιώργου</b> αυτή τη φωτογραφία. =>  {1:SHORTANSWER:=Του} χάρισα αυτή τη φωτογραφία. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Του</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Έστειλα κάρτες <b>στην κυρία Αντωνίου και στην κυρία Παπά</b> => {1:SHORTANSWER:=Τους} έστειλα κάρτες. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Ο τροχονόμος παίρνει <b>από τον Τάσο</b> τα στοιχεία του. => Ο τροχονόμος {1:SHORTANSWER:=του} παίρνει τα στοιχεία του. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">του</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Μαθαίνω ελληνικά <b>σ' αυτούς τους φοιτητές</b>. =>  {1:SHORTANSWER:=Τους} μαθαίνω ελληνικά. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Πρόσφερα πορτοκαλάδα <b>στα παιδιά</b> χθες το βράδυ. =>  {1:SHORTANSWER:=Τους} πρόσφερα πορτοκαλάδα χθες το βράδυ. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Αγοράζω εφημερίδες <b>γι' αυτούς</b> κάθε μέρα. => {1:SHORTANSWER:=Τους} αγοράζω εφημερίδες κάθε μέρα. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ11</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Λέμε σ' αυτές ανέκδοτα. => {1:SHORTANSWER:=Τους} λέμε ανέκδοτα. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Τους</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ12</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Έδωσα στην Ειρήνη ένα εισιτήριο για το θέατρο. => {1:SHORTANSWER:=Της} έδωσα ένα εισιτήριο για το θέατρο. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Της</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ13</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Γιατί είπες ψέματα <b>σ' εμένα</b>; => Γιατί {1:SHORTANSWER:=μου} είπες ψέματα; 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">μου</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ14</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Μαθαίνει <b>σ' εμάς</b> γαλλικά. => {1:SHORTANSWER:=Μας} μαθαίνει γαλλικά. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Μας</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/12Γ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>12Γ15</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να αντικαταστίσετε με την κατάλληλη αντωνυμία τις λέξεις που είναι γpαμμενες με εντονα γpαμματα</h6>        
+Φέρνει <b>για σας</b> το φαγητό. => {1:SHORTANSWER:=Σας} φέρνει το φαγητό. 
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Σας</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

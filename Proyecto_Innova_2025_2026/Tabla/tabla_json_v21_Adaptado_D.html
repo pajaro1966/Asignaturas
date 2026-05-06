@@ -1,0 +1,78 @@
+
+<!-- tabla_json_v21_Adaptado_D.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="version" content="v21-D">
+  <title>Tabla JSON v21 Adaptado D</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    button { margin: 5px; padding: 6px 10px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #aaa; padding: 6px; text-align: left; }
+    th { background: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Tabla JSON v21 Adaptado D</h1>
+  <div>
+    <button onclick="setColumnOrder('Familia-Base_Lema')">Familia-Base_Lema</button>
+    <button onclick="setColumnOrder('Base_Lema_Familia')">Base_Lema_Familia</button>
+    <button onclick="setColumnOrder('Lema_Base_Familia')">Lema_Base_Familia</button>
+    <button onclick="setColumnOrder('Sufijo_Base_Lema_Familia')">Sufijo_Base_Lema_Familia</button>
+    <button onclick="setColumnOrder('Prefijo_Base_Lema_Familia')">Prefijo_Base_Lema_Familia</button>
+  </div>
+  <table id="dataTable">
+    <thead><tr id="headerRow"></tr></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script>
+    const jsonData = [
+      {Familia:"θάλασσα",Base:"0",Base_Significado:"mar",Prefijo:"",Sufijo:"ᾰ_ης",Lema:"θάλασσα, -ης, ἡ",Lema_Significado:"mar"},
+      {Familia:"λόγος",Base:"1",Base_Significado:"palabra",Prefijo:"προ-",Sufijo:"ος",Lema:"πρόλογος, -ου, ὁ",Lema_Significado:"prefacio"},
+      {Familia:"ἀνήρ",Base:"2",Base_Significado:"hombre",Prefijo:"",Sufijo:"ας",Lema:"Ἀνδρέας, -ου, ὁ",Lema_Significado:"Andrés"}
+    ];
+
+    const columnConfigs = {
+      'Familia-Base_Lema': ["Familia","Base","Base_Significado","Prefijo","Sufijo","Lema","Lema_Significado"],
+      'Base_Lema_Familia': ["Base","Base_Significado","Prefijo","Sufijo","Lema","Lema_Significado","Familia"],
+      'Lema_Base_Familia': ["Lema","Lema_Significado","Base","Base_Significado","Prefijo","Sufijo","Familia"],
+      'Sufijo_Base_Lema_Familia': ["Sufijo","Base","Base_Significado","Prefijo","Lema","Lema_Significado","Familia"],
+      'Prefijo_Base_Lema_Familia': ["Prefijo","Base","Base_Significado","Sufijo","Lema","Lema_Significado","Familia"]
+    };
+
+    let currentColumns = columnConfigs['Familia-Base_Lema'];
+
+    function renderTable() {
+      const headerRow = document.getElementById("headerRow");
+      const tableBody = document.getElementById("tableBody");
+      headerRow.innerHTML = "";
+      currentColumns.forEach(col => {
+        const th = document.createElement("th");
+        th.textContent = col;
+        headerRow.appendChild(th);
+      });
+      tableBody.innerHTML = "";
+      jsonData.forEach(row => {
+        const tr = document.createElement("tr");
+        currentColumns.forEach(col => {
+          const td = document.createElement("td");
+          td.textContent = row[col] || "";
+          tr.appendChild(td);
+        });
+        tableBody.appendChild(tr);
+      });
+    }
+
+    function setColumnOrder(configKey) {
+      currentColumns = columnConfigs[configKey];
+      renderTable();
+    }
+
+    renderTable();
+  </script>
+</body>
+</html>

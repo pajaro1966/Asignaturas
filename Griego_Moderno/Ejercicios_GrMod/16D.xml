@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?> <quiz>
+
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ1</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Δεν μπορώ {1:SHORTANSWER:=να} {1:SHORTANSWER:=χορέψω} γιατί είμαι κουρασμένη. (χορεύω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, χορέψω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ2</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Είναι βλαβερό {1:SHORTANSWER:=να} {1:SHORTANSWER:=τρώει} κανείς κρέας κάθε μέρα. (τρώω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, τρώει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ3</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ακόμα {1:SHORTANSWER:=να} {1:SHORTANSWER:=γυρίσει} η Αλεξάνδρα; (γυρίζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, γυρίσει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ4</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Συνηθίζει {1:SHORTANSWER:=να} {1:SHORTANSWER:=ρίχνει} νερό στα λουλούδια κάθε απόγευμα. (ρίχνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, ρίχνει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ5</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Θέλουν {1:SHORTANSWER:=να} {1:SHORTANSWER:=επιστρέψουν} στην Ελλάδα. (επιστρέφώ)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, επιστρέψουν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ6</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Βλέπετε τα παιδιά {1:SHORTANSWER:=να} {1:SHORTANSWER:=παίζουν} στο δρόμο ή έφυγαν; (παίζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, παίζουν</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ7</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Περιμένω {1:SHORTANSWER:=να} μου {1:SHORTANSWER:=γράψεις} Γιατί δεν το κάνεις; (γράφω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, γράψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ8</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Κάθε πρωί συνηθίζω {1:SHORTANSWER:=να} {1:SHORTANSWER:=τρώω} ένα βραστό αυγό. (τρώω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, τρώω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ9</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Μπορώ {1:SHORTANSWER:=να} {1:SHORTANSWER:=αφήσω} τα ψώνια μου στο σπίτι σου; (αφήνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, αφήσω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ10</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Κάνει κρύο. Λες {1:SHORTANSWER:=να} {1:SHORTANSWER:=χιονίσει} απόψε; (χιονίζει)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, χιονίσει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ11</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Είναι δυνατό {1:SHORTANSWER:=να} {1:SHORTANSWER:=μη} {1:SHORTANSWER:=θέλει} κανείς {1:SHORTANSWER:=να} {1:SHORTANSWER:=είναι} ο ευτυχισμένος; (θέλω+άρνηση, είμαι)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, μη, θέλει, να, είναι</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ12</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Δε μου αρέσει {1:SHORTANSWER:=να} {1:SHORTANSWER:=ταξιδεύω} με πλοίο. (ταξιδεύω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, ταξιδεύω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ13</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Σας παρακαλώ, {1:SHORTANSWER:=να} {1:SHORTANSWER:=μην} {1:SHORTANSWER:=κοιτάζετε} έξω από το παράθυρο την ώρα του μαθήματος. (κοιτάζω+άρνηση)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, μην, κοιτάζετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ14</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Μας αρέσει {1:SHORTANSWER:=να} {1:SHORTANSWER:=μαγιρεύουμε} . (μαγειρεύω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, μαγιρεύουμε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ15</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+— Μαμά, {1:SHORTANSWER:=να} {1:SHORTANSWER:=μαζέψω} τα ρούχα; Άρχισε να βρέχει. — Ναι, {1:SHORTANSWER:=να} {1:SHORTANSWER:=μαζέψεις} , σε παρακαλώ. (μαζεύω,  μαζεύω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, μαζέψω, να, μαζέψεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ16</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Πρέπει {1:SHORTANSWER:=να} {1:SHORTANSWER:=κόψω} τα μαλλιά μου σήμερα. (κόβω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, κόψω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ17</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Με το {1:SHORTANSWER:=να} {1:SHORTANSWER:=διαβάζεις} πολλά βιβλία μαθαίνεις {1:SHORTANSWER:=να} {1:SHORTANSWER:=μιλάς} και {1:SHORTANSWER:=να} {1:SHORTANSWER:=γράφεις} ωραία. (διαβάζω, μιλώ, γράφω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, διαβάζεις, να, μιλάς, να, γράφεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ18</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Μιχάλη, μπορείς {1:SHORTANSWER:=να} {1:SHORTANSWER:=ετοιμάσεις} το πρωινό; — Εντάξει. (ετοιμάζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, ετοιμάσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ19</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Γιαγιά, {1:SHORTANSWER:=να} {1:SHORTANSWER:=παίξω} με τον Κώστα το απόγευμα; — Όχι, {1:SHORTANSWER:=να} {1:SHORTANSWER:=μην} {1:SHORTANSWER:=παίξεις} , γιατί έχεις διάβασμα. (παίζω, παίζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, παίξω, να, μην, παίξεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ20</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Για {1:SHORTANSWER:=να} {1:SHORTANSWER:=επιπλώσει} κανείς ωραία το σπίτι του, πρέτει {1:SHORTANSWER:=να} {1:SHORTANSWER:=έχει} χρήματα. (επιπλώνω, έχω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, επιπλώσει, να, έχει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ21</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Για την υγεία σου δεν είναι ωφέλιμο {1:SHORTANSWER:=να} {1:SHORTANSWER:=τρώς} πολλές σοκολάτες. (τρώω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, τρώς</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ22</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ας μου το {1:SHORTANSWER:=επιστρέψει} μόλις το διαβάσει. (επιστρέφω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">επιστρέψει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ23</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Θα φύγουμε αύριο, μόλις {1:SHORTANSWER:=ξημερώσει} . (ξημερώνει)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ξημερώσει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ24</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+— {1:SHORTANSWER:=Να} του {1:SHORTANSWER:=χαρίσω} ένα ρολόι για τη γιορτή του; — Όχι πάλι ρολόι. (χαρίζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Να, χαρίσω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ25</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Μου αρέσει {1:SHORTANSWER:=να} {1:SHORTANSWER:=κοιτάζω} από το παράθυρο, όταν {1:SHORTANSWER:=βρέχει} . (κοιτάζω, βρέχει)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, κοιτάζω, βρέχει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ26</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ας μας {1:SHORTANSWER:=κόψει} κι εμάς λίγα τριαντάφυλλα. (κόβω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">κόψει</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ27</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+— Σας αρέσει {1:SHORTANSWER:=να} {1:SHORTANSWER:=ζωγραφίζετε} ανθρώπους ή τοπία; — Και τα δύο. (ζωγραφίζω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, ζωγραφίζετε</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ28</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+— {1:SHORTANSWER:=Να} του {1:SHORTANSWER:=πληρώσω} τοις μετρητοίς; —Αν μπορείς. (πληρώνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Να, πληρώσω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ29</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ειναι δυνατό {1:SHORTANSWER:=να} {1:SHORTANSWER:=μην} {1:SHORTANSWER:=αγαπάει}  ( {1:SHORTANSWER:=αγαπά} ) κανείς τα παιδιά του; (αγαπώ+άρνηση)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, μην, αγαπάει, αγαπά</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ30</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Είναι ευχάριστο {1:SHORTANSWER:=να} {1:SHORTANSWER:=κολυμπάει}  ( {1:SHORTANSWER:=κολυμπά} ) κανείς, όταν κάνει ζέστη. (κολυμπώ)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, κολυμπάει, κολυμπά</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ30</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ίσως {1:SHORTANSWER:=να} {1:SHORTANSWER:=δουλέψω} όλη τη νύχτα. (δουλεύω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, δουλέψω</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ30</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+— Δανάη, θέλεις {1:SHORTANSWER:=να} {1:SHORTANSWER:=σιδερώσεις} εσύ σήμερα; — Όχι, ευχαριστώ. (σιδερώνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, σιδερώσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ30</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+Ακόμη {1:SHORTANSWER:=να} {1:SHORTANSWER:=τελειώσεις} το τηλεφώνημα; (τελειώνω)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">να, τελειώσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+    <question type="category">
+        <category>
+            <text>$course$/16Δ</text>
+        </category>
+    </question>
+    <question type="cloze">
+        <name>
+            <text>16Δ30</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[
+<h6>Να συμπληρώσετε τα κενά με την υποτακτική (συνεχή ή απλή) των ρημάτων που είναι στην παρένθεση.</h6>        
+{1:SHORTANSWER:=Να} {1:SHORTANSWER:=μην} {1:SHORTANSWER:=ποτίσεις} σήμερα, γιατί έβρεχε όλη τη νύχτα. (ποτίζω+άρνηση)
+            ]]></text>
+        </questiontext>
+<generalfeedback format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Να, μην, ποτίσεις</p>]]></text>
+    </generalfeedback>
+    </question>
+
+
+</quiz>

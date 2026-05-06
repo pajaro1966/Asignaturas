@@ -774,7 +774,7 @@ textpart antistrophe
 
 ## Episodio 1º (216-462)
 
-![](/Edipo_Rey/Imagines/Attic_red-figure_pelike,_Oedipus_solves_the_riddle_of_the_Sphinx_and_frees_Thebes,_by_the_Achilleus_painter,_450-440_BC,_Altes_Museum_Berlin_(13718779634).png)
+![](../Edipo_Rey/Imagines/Attic_red-figure_pelike,_Oedipus_solves_the_riddle_of_the_Sphinx_and_frees_Thebes,_by_the_Achilleus_painter,_450-440_BC,_Altes_Museum_Berlin_(13718779634).png)
 
 textpart episode
 
